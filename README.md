@@ -12,7 +12,8 @@ Django project is configured to talk to the local postgres database.
 
 Get working server with:
 
-```vagrant up
+```
+vagrant up
 vagrant ssh
 script/server
 ```
