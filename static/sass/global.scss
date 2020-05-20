@@ -1,0 +1,114 @@
+$colour_brand: #53a044; // $colour_green_dark
+$colour_violet: #a94ca6;
+$colour_mid_grey: #959287;
+
+$logo_path: "";
+
+$mysoc-footer-donate-button-background-color: $colour_brand;
+
+// The mysociety-docs-theme submodule is checked out at /theme,
+// right next to /web. We use Django STATICFILES_DIRS to collect
+// the static files into the same /static directory, so images from
+// both /theme/img/* and /web/img/* will end up in /static/img.
+// Therefore, from the perspective of the CSS files in /static/css,
+// the path to the main theme directory (/static) is ../
+$theme_dir: '/sites/static';
+
+@import "../../theme/sass/global";
+
+@import "mixins";
+@import "bootstrap-compat";
+@import "header";
+
+
+.colour-red {
+    .hero-background,
+    .hero-area,
+    .icon--round,
+    .button,
+    .timeline__entry:before,
+    .inverted-section {
+        background-color: $colour_red;
+    }
+    .button {
+        &:hover, &:active, &:focus {
+            background-color: darken($colour_red, 5%);
+        }
+    }
+    .stream-page__action-box {
+      .button {
+        background-color: darken($colour_red, 10%);
+
+        &:hover, &:active, &:focus {
+            background-color: darken($colour_red, 15%);
+        }
+      }
+    }
+    .sidebar--navigation a{
+        &:hover, &:active, &:focus {
+            color: $colour_red;
+        }
+    }
+    .nav-previous,
+    .nav-next {
+        a {
+            color: $colour_red;
+        }
+    }
+    .next-page-anchor,
+    .prev-page-anchor {
+        color: $colour_red;
+    }
+}
+
+.inline-input {
+    width: 61%;
+    @media (min-width:$medium-screen)  {
+        width: 67%;
+    }
+    display: inline-block;
+    input {
+        width: 100%;
+        height: 2.277777778em;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border: none;
+    }
+}
+
+.inline-button {
+    width: 39%;
+    @media (min-width:$medium-screen)  {
+        width: 33%;
+    }
+    display: inline-block;
+    .button {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+}
+
+input[type=text],
+input[type=password],
+input[type=url],
+input[type=email],
+input[type=tel],
+input[type=search],
+input[type=number],
+textarea,
+.standard-input {
+    border: 1px solid $colour_borders;
+    border-radius: 3px;
+    padding: 0.33em;
+    max-width: 100%;
+}
+
+
+@import "minisites";
+
+
+
+// @import "repository";
+
+@import "typeahead";

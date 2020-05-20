@@ -1,0 +1,373 @@
+
+
+a.button {
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid $colour_green;
+    background: lighten($colour_green, 45%);
+    color: $colour_green_dark_2;
+
+    &:hover {
+        background: lighten($colour_green, 35%);
+        text-decoration: none;
+    }
+}
+
+
+
+.item-subtitle {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: lighten($colour_black, 25%);
+    margin-top: 0px;
+}
+
+.citation-harvard {
+    font-size: 0.8em;
+}
+
+.sidebar {
+
+    font-size: 0.9em;
+
+    .sidebar-author-block {
+        margin: 14px 0;
+    }
+
+    p.author-institution {
+        margin: 0;
+    }
+    p.author-more-link {
+        margin-top: 0;
+        a {
+            font-size: 0.875em;
+        }
+    }
+}
+
+table {
+        width: 100%;
+        max-width: 100%;
+        margin: 1em 0 2em;
+        border-collapse: collapse;
+        font-size: 0.875em;
+        line-height: 1.5em;
+        p {
+            margin: 0;
+        }
+    }
+
+    td, th {
+        border-bottom: 1px solid $colour_borders;
+        padding: 0.75em 0.6em;
+        text-align: left;
+    }
+
+
+    th {
+        background: inherit;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 0.875em;
+    }
+
+    th[scope="row"] {
+        color: $colour_dark_grey;
+    }
+
+    caption {
+        margin: 0;
+        padding: 0.5em 0;
+        font-size: 1.3125em;
+        text-align: left;
+        color: $colour_dark_grey;
+    }
+
+    tfoot {
+        font-size: 0.875em;
+        font-weight: normal;
+        td {
+            text-align: right;
+            border: none;
+        }
+    }
+
+    .table--alt-style {
+      border-top: 1px solid $colour_borders;
+      tr {
+        border-left: 1px solid $colour_borders;
+      }
+      td {
+        border-right: 1px solid $colour_borders;
+      }
+    }
+
+
+/* Research strategy */
+.research-strategy {
+  p,
+  ul,
+  li {
+    max-width: 38em;
+  }
+}
+.inverted-section {
+    // A white-on-colour section, that will take whatever the parent page's colour is, or default (green)
+    color: #fff;
+    padding: 0.75em 1.5em;
+    background-color: $colour_green;
+    margin: 1.5em 0;
+    h2 {
+      border: 0;
+      padding-top: 0;
+    }
+    a {
+        color: rgba(255,255,255,0.8);
+        text-decoration: underline;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.inverted-section--flush-with-page-edges {
+    margin: 0 -18px;
+    @media (min-width:$medium-screen)  {
+      margin: 0 -54px;
+    }
+}
+
+.inverted-section--bigger {
+    //more padding, good for titles etc
+    padding: 3em 1em 3em 1em;
+    @media (min-width:$medium-screen)  {
+        padding: 3em 1.5em 3em 3em;
+    }
+}
+
+
+.research-strategy__nav {
+    margin-bottom: 2em;
+    @include clearfix;
+}
+
+.nav__jump-links {
+    margin: 0;
+    @include unstyled-list;
+    @include inline-list;
+    @media (min-width:$medium-screen)  {
+        width: 66%;
+        float: left;
+    }
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.777777778em;
+        font-weight: 600;
+        &:after {
+            content: ' ↓';
+            margin-left: 3px;
+            color: $colour_mid_grey;
+            position: relative;
+            top: -2px;
+            font-size: 0.666666667em;
+        }
+    }
+}
+
+.nav__download {
+    margin-top: 1em;
+    @media (min-width:$medium-screen)  {
+        width: 33%;
+        float: right;
+        text-align: right;
+        margin-top: 0;
+    }
+    a {
+        // Using an important declaration to override the background-color imposed by the colour class in the body,
+        // which colours any button in .wordpress-editor-content.
+        // To override this would require a very specific selector which would make the code harder to read,
+        // so a simple important is enough
+        background-color: $colour_off_white !important;
+        color: $colour_dark_grey;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: .666666667em;
+        font-weight: 600;
+        margin: 0 !important;
+        width: 100%;
+        border: 0;
+        @media (min-width:24em)  {
+            width: auto;
+        }
+        &:hover,
+        &:active,
+        &:focus {
+            color: #fff !important;
+            background-color: $colour_blue !important;
+        }
+    }
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-bottom: 1em;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: .777777778em;
+    font-weight: 600;
+    &:after {
+        content: ' ↑';
+        margin-left: 3px;
+        color: $colour_mid_grey;
+        position: relative;
+        top: -2px;
+        font-size: 0.666666667em;
+    }
+}
+
+.research-strategy__title-section {
+    //uses .inverted-section and .inverted-section--flush-with-page-edges as a base
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .wordpress-editor-content > &:first-of-type {
+        // if this is the first thing on the page, we don't want any top padding here.
+        margin-top: -1em;
+        @media (min-width:$medium-screen)  {
+            margin-top: -3em;
+        }
+    }
+    h2 {
+        text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+        font-size: 1.5em;
+        @media (min-width:$medium-screen)  {
+            font-size: 2em;
+        }
+    }
+}
+.research-strategy__title-section--mission {
+    background-image: url('../img/smiles.jpg');
+}
+
+.research-strategy__title-section--vision {
+    background-image: url('../img/map2.jpg');
+}
+
+.research-strategy__title-section--executive-summary {
+    background-image: url('../img/docs.jpg');
+}
+
+.research-strategy__title-section--our-research-approach {
+    background-image: url('../img/map.jpg');
+}
+
+.research-strategy__title-section--research-framework {
+    background-image: url('../img/city.jpg');
+}
+
+.research-strategy__title-section--implementing-our-approach {
+    background-image: url('../img/parliament.jpg');
+}
+
+.research-strategy__title-section--disseminating-our-findings {
+    background-image: url('../img/balloon.jpg');
+}
+
+.decorative-text {
+    font-size: 2.571428571em;
+    line-height: 1.25em;
+    color: $colour_violet;
+    font-weight: 700;
+    text-indent: -.5em;
+    @media (min-width:$medium-screen)  {
+      font-size: 2.666666667em;
+    }
+
+}
+
+.research-items {
+  padding: 0;
+  margin-top: 2em;
+  @include unstyled-list;
+  @media (min-width:$large-screen)  {
+    @include flexbox;
+    flex-wrap: wrap;
+  }
+}
+
+.research-item {
+  @include clearfix;
+  margin-bottom: 2em;
+  max-width: 26em;
+  @media (min-width:$large-screen)  {
+      width: 50%;
+      &:nth-child(even) {
+        padding-left: 1em;
+      }
+      &:nth-child(odd) {
+        padding-right: 1em;
+      }
+  }
+
+}
+
+h2.research-item__title {
+    border: 0;
+    padding-top: 0;
+    font-size: 1.166666667em;
+    margin-bottom: 0.25em;
+    margin-left: 75px;
+    @media (min-width:$medium-screen)  {
+      margin-left: 130px;
+    }
+}
+
+.research-item__pubdate {
+    font-size: 0.875em;
+    margin: 0 0 0.5em 75px;
+    @media (min-width:$medium-screen)  {
+      margin-left: 130px;
+    }
+    color: $colour_mid_grey;
+}
+
+.research-item__authors {
+    padding-left: 0;
+    list-style: none outside none;
+    margin-bottom: 0.25em;
+    margin-left: 75px;
+    @media (min-width:$medium-screen)  {
+      margin-left: 130px;
+    }
+}
+
+.research-item__author {
+    display: inline;
+    padding-right: 0.5em;
+    font-size: 0.875em;
+    &:after {
+      content: ',';
+    }
+    &:last-of-type:after {
+      content: '';
+    }
+
+}
+
+.research-item__thumbnail {
+  float: left;
+  width: 55px;
+  @media (min-width:$medium-screen)  {
+    width: 110px;
+  }
+  img {
+    box-shadow: 0 0 11px 0 rgba(195,195,195,0.50);
+    max-width: 100%;
+  }
+
+}

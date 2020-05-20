@@ -1,0 +1,120 @@
+// We use the print styles from HTML5 Boilerplate as a start,
+// and then additionally hide elements like the header/footer,
+// and remove padding on main page elements.
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after,
+    abbr[title]:after {
+        content: " (" attr(href) ")";
+        display: inline-block;
+        text-decoration: none;
+        font-style: italic;
+        margin-left: 0.3em;
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    @page {
+        margin: 1cm;
+    }
+
+    .ms-header,
+    .site-header,
+    .site-footer,
+    .breadcrumb,
+    .sidebar {
+        display: none !important;
+    }
+
+    .container,
+    .page,
+    .main-content,
+    .secondary-content-column {
+        padding: 0;
+    }
+
+    .container,
+    .page {
+        max-width: none;
+        margin: 0;
+    }
+
+    .main-content-column,
+    .secondary-content-column {
+        float: none;
+    }
+
+    pre {
+        overflow: auto; // remove empty scrollbar from print output
+        border: 1px solid #ccc;
+        font-size: 0.3cm; // quite small, but should avoid most text wrapping
+    }
+
+    // Use a left border, rather than background colour,
+    // to attract attention.
+    .attention-box {
+        padding: 0 1em;
+        margin: 1em 0 1em 1em;
+        border-left: 0.1cm solid $colour_blue;
+
+        &.helpful-hint {
+          border-left-color: $colour_yellow;
+        }
+
+        &.warning {
+          border-left-color: $colour_red;
+        }
+    }
+}

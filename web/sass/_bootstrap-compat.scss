@@ -1,0 +1,70 @@
+// mysociety-docs-theme has never been fully combined with Bootstrap,
+// and if you just include both, you end up with conflicts over selectors
+// like `body`, `h1`, `.container` etc.
+
+// One day, we’ll need to bite the bullet and properly integrate Bootstrap
+// into this site. But for now, we can make do with just approximating
+// the Bootstrap components we really need, like `.nav-tabs`.
+
+.text-center {
+    @extend .text--center;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+
+
+.nav-tabs {
+    @extend .unstyled-list;
+    @include clearfix();
+    margin: 1em -0.2em;
+    
+    li {
+        float: left;
+        margin: 0 0.2em;
+		display: block;
+		width: 100%;
+		
+		@media screen and (min-width: 60em) {
+		width: auto;
+		}
+    }
+    
+    a {
+        display: block;
+        padding: 0.2em 0.5em;
+        border-radius: 3px;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            background-color: $colour_off_white;
+        }
+    }
+    
+    .active {
+        a,
+        a:hover,
+        a:focus {
+            background-color: $colour_links;
+            color: #fff;
+        }
+    }
+}
+
+.jumbotron {
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 3px;
+    background-color: $colour_off_white;
+    
+    @media (min-width: $medium-screen) {
+        padding: 2em;
+    }
+}

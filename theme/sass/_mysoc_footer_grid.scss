@@ -1,0 +1,39 @@
+$grid-gutter: 2em;
+$grid-breakpoint-sm: $mysoc-footer-breakpoint-sm;
+
+.mysoc-footer {
+  li {
+    list-style: none;
+  }
+
+  .row {
+    @include clearfix();
+    margin-left: $grid-gutter / -2;
+    margin-right: $grid-gutter / -2;
+  }
+
+  %col {
+    padding-left: $grid-gutter / 2;
+    padding-right: $grid-gutter / 2;
+    min-height: 1px;
+  }
+
+  @for $i from 1 through 12 {
+    .col-sm-#{$i} {
+      @extend %col;
+    }
+  }
+
+  @media(min-width: $grid-breakpoint-sm) {
+    %col-float {
+      float: left;
+    }
+
+    @for $i from 1 through 12 {
+      .col-sm-#{$i} {
+        @extend %col-float;
+        width: 100% / 12 * $i;
+      }
+    }
+  }
+}

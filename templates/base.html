@@ -1,0 +1,178 @@
+{% load static %}
+{% load pipeline %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block head %}
+    <title></title>
+    {% endblock %}
+
+    {% block meta-tags %}
+    {% endblock %}
+
+    {% block social-meta-tags %}
+    {% with social_settings as ss %}
+        {% if ss.share_site_name %}
+            <meta property="og:site_name" content="{{ss.share_site_name}}"/>
+            <meta property="og:title" content="{{ss.share_title}}"/>
+            <meta property="og:description" content="{{ss.share_description}}" />
+            <meta property="og:url" content="{{current_path}}" />
+            <meta property="og:image" content="{{ss.share_image}}" />
+
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="{{ss.share_site_name}}">
+            <meta name="twitter:title" content="{{ss.share_title}}">
+            <meta name="twitter:description" content="{{ss.share_description}}">
+            <meta name="twitter:image" content="{{ss.twitter_share_image}}">
+            {% if ss.share_image_alt %}
+                <meta name="twitter:image:alt" content="{{ss.share_image_alt}}">
+            {% endif %}
+        {% endif %}
+    {% endwith %}
+    
+    {% endblock %}
+    
+    {% block json-ld %}
+    {% endblock %}
+
+    {% stylesheet 'main' %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+	{% block extrastylesheets %}
+
+	{% endblock %}
+    {% if settings.GOOGLE_ANALYTICS_ACCOUNT and IS_LIVE %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '{{ settings.GOOGLE_ANALYTICS_ACCOUNT }}', {'storage': 'none', 'storeGac': false});  
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+</head>
+<body>
+    
+    <div class="ms-header">
+        <nav class="ms-header__row">
+            <a class="ms-header__logo" href="https://www.mysociety.org">mySociety</a>
+        </nav>
+    </div>
+	
+    <header class="site-header">
+        <div class="container">
+            <a href="{% url 'imd2019_home_view' %}" class="site-header__research-home-link">IMD2019</a>{% block extra_site_link %}{% endblock %} 
+            <h1>
+              {% block title_link %}
+                <a href="{% url 'ch_home_view' %}">CH Extractives</a>
+              {% endblock %}
+            </h1>
+            <div class="nav-position">
+                <nav role="navigation" class="site-nav nav-collapse">
+                    <ul>
+                      {% if request.user.is_staff %}
+                        <li><a class="page-scroll" href="/admin/">Admin</a></li>
+                      {% endif %}
+                      {% block top_links %}
+                        <li><a class="page-scroll" href="{% url 'ch_country_home_view' %}">Countries</a></li>
+                        <li><a class="page-scroll" href="{% url 'ch_company_home_view' %}">Companies</a></li>
+                      {% endblock %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="page-wrapper" >
+        <div class="page">
+            <div class="main-content-column-full-width">
+                <main role="main" class="main-content">
+                    {% block content %}
+                    {% endblock %}
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <div class="mysoc-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-5">
+                    <h2 class="mysoc-footer__site-name">mySociety Research</h2>
+                    <div class="mysoc-footer__site-description">
+                        <p>Through papers, publications, and our TICTeC event series, we investigate the impact of Civic Technology tools from mySociety and the wider community.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <nav class="mysoc-footer__links">
+                        <ul>
+                            <li role="presentation"><a href="http://research.mysociety.org/publications/">Publications</a></li>
+                            <li role="presentation"><a href="http://data.mysociety.org/">Data and APIs</a></li>
+                            <li role="presentation"><a href="https://www.mysociety.org/category/research/">Blog</a></li>
+                        </ul>
+                        <ul>
+                            <li role="presentation"><a href="http://tictec.mysociety.org/">TICTeC</a></li>
+                            <li role="presentation"><a href="https://research.mysociety.org/newsletter">Mailing list</a></li>
+                            <li role="presentation"><a href="https://groups.google.com/forum/?hl=en#%21forum/tictecbymysociety">Google Group</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="mysoc-footer__donate">
+                        <p>Your donations keep this site and others like it running</p>
+                        <a href="https://www.mysociety.org/donate?utm_source=research.mysociety.org&amp;utm_content=footer+donate+now&amp;utm_medium=link&amp;utm_campaign=mysoc_footer" class="mysoc-footer__donate__button">Donate now</a>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="mysoc-footer__divider" role="presentation">
+            <div class="row">
+
+                <div class="col-sm-5">
+                    <div class="mysoc-footer__orgs">
+                        <p class="mysoc-footer__org">
+                            Built by
+                            <a href="https://www.mysociety.org?utm_source=research.mysociety.org&amp;utm_content=footer+logo&amp;utm_medium=link&amp;utm_campaign=mysoc_footer" class="mysoc-footer__org__logo mysoc-footer__org__logo--mysociety">mySociety</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="mysoc-footer__legal">
+                        <p>mySociety Limited is a project of UK Citizens Online Democracy, a registered charity in England and Wales. For full details visit <a href="https://www.mysociety.org?utm_source=research.mysociety.org&amp;utm_content=footer+full+legal+details&amp;utm_medium=link&amp;utm_campaign=mysoc_footer">mysociety.org</a>.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul class="mysoc-footer__badges">
+                        <li role="presentation"><a href="https://github.com/mysociety" class="mysoc-footer__badge mysoc-footer__badge--github">GitHub</a></li>
+                        <li role="presentation"><a href="https://twitter.com/mysociety" class="mysoc-footer__badge mysoc-footer__badge--twitter">Twitter</a></li>
+                        <li role="presentation"><a href="https://facebook.com/mysociety" class="mysoc-footer__badge mysoc-footer__badge--facebook">Facebook</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  
+  {% if IS_LIVE %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  {% else %}
+    <script type="text/javascript" src="{% static 'js/jquery-2.1.1.min.js' %}"></script>
+  {% endif %}
+
+  {% block code %}
+  {% endblock %}
+  
+</body>
+</html>
