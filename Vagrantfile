@@ -58,9 +58,9 @@ Vagrant.configure(2) do |config|
     # Run post-deploy actions script to update the virtualenv, install the
     # python packages we need, migrate the db and generate the sass etc
     conf/post_deploy_actions.bash
-	
+
 	# give permissions to vagrant user on all the packages
-	sudo chmod -R ugo+rwx /vagrant
+	sudo chmod -R ugo+rwx /vagrant/venv
   SHELL
 
 end
