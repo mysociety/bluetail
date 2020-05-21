@@ -2,13 +2,11 @@
 
 https://en.wikipedia.org/wiki/Himalayan_bluetail - first described in 1845.
 
-Create conf/config.py from conf/config.py-example
-
-Copying an existing project and vagrant so for the moment:
+Requires:
 Python 3.5
 Django 2.2.8
 
-Django project is configured to talk to the local postgres database. 
+Django project is configured to talk to the local postgres database.
 
 Get working server with:
 

@@ -1,5 +1,11 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+require 'fileutils'
+
+#copy config example if not done manually
+if not File.exists?('conf/config.py')
+	FileUtils.cp('conf/config.py-example','conf/config.py')
+end
 
 Vagrant.configure(2) do |config|
   # The most common configuration options are documented and commented below.
