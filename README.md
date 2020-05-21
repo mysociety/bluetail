@@ -11,7 +11,6 @@ Django project is configured to talk to the local postgres database.
 Get working server with:
 
 ```
-cp conf/config.py-example conf/config.py
 vagrant up
 vagrant ssh
 script/server
