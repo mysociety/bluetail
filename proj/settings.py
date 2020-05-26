@@ -23,7 +23,13 @@ else:
 
 from conf.config import *  # stores database and key outside repo
 
-ALLOWED_HOSTS = ["127.0.0.1", "testserver"]
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "0.0.0.0",
+    "10.11.12.13",
+    "localhost",
+    "testserver",
+]
 
 LANGUAGE_CODE = 'en-uk'
 
