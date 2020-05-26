@@ -1,19 +1,31 @@
-# Bluetail BODS project
+# Bluetail
 
-https://en.wikipedia.org/wiki/Himalayan_bluetail - first described in 1845.
+An alpha project combining beneficial ownership and contracting data, for use during government procurement.
 
-Requires:
-Python 3.5
-Django 2.2.8
+Named after the [Himalayan Bluetail](https://en.wikipedia.org/wiki/Himalayan_bluetail) which was first described in 1845.
 
-Django project is configured to talk to the local postgres database.
+## Running this locally (with Vagrant)
 
-Get working server with:
+A Vagrantfile is included for local development. Assuming you have [Vagrant](https://www.vagrantup.com/) installed, you can create a Vagrant VM with:
 
 ```
 vagrant up
+```
+
+Then SSH into the VM, and run the server script:
+
+```
 vagrant ssh
 script/server
 ```
 
-http://127.0.0.1:8000/test
+The site will be visible at <http://localhost:8000>.
+
+
+## Running this in production
+
+The site requires:
+
+* Python 3.5
+* Django 2.2.8
+* A Postgres database
