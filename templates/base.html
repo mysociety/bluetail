@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {% block head %}
-    <title></title>
+    <title>{% block title %}{% endblock %}</title>
     {% endblock %}
 
     {% block meta-tags %}
@@ -67,10 +67,10 @@
 	
     <header class="site-header">
         <div class="container">
-            <a href="{% url 'imd2019_home_view' %}" class="site-header__research-home-link">IMD2019</a>{% block extra_site_link %}{% endblock %} 
+            <a href="#" class="site-header__research-home-link">IMD2019</a>
             <h1>
               {% block title_link %}
-                <a href="{% url 'ch_home_view' %}">CH Extractives</a>
+                <a href="#">CH Extractives</a>
               {% endblock %}
             </h1>
             <div class="nav-position">
@@ -80,8 +80,8 @@
                         <li><a class="page-scroll" href="/admin/">Admin</a></li>
                       {% endif %}
                       {% block top_links %}
-                        <li><a class="page-scroll" href="{% url 'ch_country_home_view' %}">Countries</a></li>
-                        <li><a class="page-scroll" href="{% url 'ch_company_home_view' %}">Companies</a></li>
+                        <li><a class="page-scroll" href="#">Countries</a></li>
+                        <li><a class="page-scroll" href="#">Companies</a></li>
                       {% endblock %}
                     </ul>
                 </nav>

@@ -12,7 +12,7 @@ $mysoc-footer-donate-button-background-color: $colour_brand;
 // both /theme/img/* and /web/img/* will end up in /static/img.
 // Therefore, from the perspective of the CSS files in /static/css,
 // the path to the main theme directory (/static) is ../
-$theme_dir: '/sites/static';
+$theme_dir: '..';
 
 @import "../../theme/sass/global";
 
