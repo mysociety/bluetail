@@ -16,3 +16,5 @@ REPOSITORY_DB_PORT = '5432'
 REPOSITORY_DB_USER = 'bluetail'
 REPOSITORY_DB_NAME = 'bluetail'
 REPOSITORY_DB_PASS = 'bluetail'
+
+DATABASE_URL = 'postgres://bluetail:bluetail@localhost:5432/bluetail'

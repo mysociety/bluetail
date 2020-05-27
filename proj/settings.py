@@ -11,6 +11,8 @@ import os
 import socket
 import sys
 
+import dj_database_url
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 SITE_ROOT = '/'
@@ -106,14 +108,7 @@ INSTALLED_APPS = [
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': REPOSITORY_DB_NAME,
-        'USER': REPOSITORY_DB_USER,
-        'PASSWORD': REPOSITORY_DB_PASS,
-        'HOST': REPOSITORY_DB_HOST,
-        'PORT': REPOSITORY_DB_PORT,
-    }
+    'default': dj_database_url.config(env="DATABASE_URL", default=DATABASE_URL)
 }
 
 MIDDLEWARE = (
