@@ -39,6 +39,7 @@ ALLOWED_HOSTS = [
     "10.11.12.13",
     "localhost",
     "testserver",
+    "bluetail.herokuapp.com",
 ]
 
 LANGUAGE_CODE = 'en-uk'
