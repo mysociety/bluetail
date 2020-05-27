@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 import socket
+import sys
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 SITE_ROOT = '/'
@@ -22,7 +24,8 @@ else:
     IS_LIVE = True
     STATICFILES_STORAGE = 'pipeline.storage.PipelineStorage'
 
-from conf.config import *  # stores database and key outside repo
+if os.path.exists(os.path.join(BASE_DIR, "conf", "config.py"))    :
+    from conf.config import *  # stores database and key outside repo
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
