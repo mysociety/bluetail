@@ -28,6 +28,10 @@ else:
 
 if os.path.exists(os.path.join(BASE_DIR, "conf", "config.py"))    :
     from conf.config import *  # stores database and key outside repo
+else:
+    from conf.config_example import *
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    OCDS_DATABASE_URL = os.getenv("OCDS_DATABASE_URL")
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
