@@ -18,7 +18,7 @@
 <body class="{% block bodyclass %}{% endblock %}">
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    <div class="site-header"></div>
+    {% include "partials/site-header.html" %}
 
     {% block content %}{% endblock %}
 

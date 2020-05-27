@@ -1,0 +1,13 @@
+.application-summaries {
+    border-top: 1px solid $border-color;
+}
+
+.application-summary {
+    border-bottom: 1px solid $border-color;
+    padding: ($spacer * 0.75) 0;
+
+    @include media-breakpoint-up('sm') {
+        display: flex;
+        padding: $spacer 0;
+    }
+}

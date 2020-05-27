@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Example Tender{% endblock %}
+
+{% block content %}
+<div class="container-md">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-4">
+            <li class="breadcrumb-item"><a href="{% url 'example-tenders' %}">Tenders in progress</a></li>
+            <li class="breadcrumb-item active" aria-current="page">PROC-20-0001</li>
+        </ol>
+    </nav>
+
+    <h1 class="mt-4">Tachograph Forensic Services</h1>
+    <p>Procurement notice <code>PROC-20-0001</code></p>
+
+    <dl class="row mt-4" style="max-width: 24em">
+        <dt class="col-sm-6">Published date</dt>
+        <dd class="col-sm-6">1st January 2020</dd>
+        <dt class="col-sm-6">Closing date</dt>
+        <dd class="col-sm-6">1st April 2020</dd>
+        <dt class="col-sm-6">Contract start date</dt>
+        <dd class="col-sm-6">1st June 2020</dd>
+        <dt class="col-sm-6">Value of contract</dt>
+        <dd class="col-sm-6">£120,000</dd>
+    </dl>
+
+    <h2 class="mt-5">Tenders received</h2>
+
+    <div class="application-summaries">
+        {% include "partials/application-summary-row.html" with id="a" name="Synomus Technology Services Ltd." errors=1 warnings=1 %}
+        {% include "partials/application-summary-row.html" with id="b" name="Frost Group Ltd." errors=0 warnings=0 %}
+        {% include "partials/application-summary-row.html" with id="c" name="Mitchell Systems Ltd." errors=0 warnings=2 %}
+        {% include "partials/application-summary-row.html" with id="d" name="Gough-Hunt Ltd." errors=0 warnings=3 %}
+        {% include "partials/application-summary-row.html" with id="e" name="Future Tech Horizons Ltd." errors=0 warnings=1 %}
+    </div>
+
+</div>
+{% endblock %}

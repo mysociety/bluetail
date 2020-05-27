@@ -16,3 +16,14 @@ def test_view(request):
     }
     return render(request, "test.html", context)
 
+def tenders_view(request):
+    context = {}
+    return render(request, "tenders.html", context)
+
+def tender_view(request):
+    context = {}
+    return render(request, "tender.html", context)
+
+def tenderer_view(request):
+    context = {}
+    return render(request, "tenderer.html", context)

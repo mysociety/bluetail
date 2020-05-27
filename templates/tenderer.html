@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Example Tenderer{% endblock %}
+
+{% block content %}
+<div class="container-md">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-4">
+            <li class="breadcrumb-item"><a href="{% url 'example-tenders' %}">Tenders in progress</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'example-tender' %}">PROC-20-0001</a></li>
+            <li class="breadcrumb-item active" aria-current="page">PROC-20-0001/a</li>
+        </ol>
+    </nav>
+
+    <div class="d-md-flex align-items-center mt-4">
+        <h1 class="mr-auto mb-2">Synomus Technology Services Ltd.</h1>
+        <p class="mb-2 text-md-right" style="font-size: 1.5rem">
+            {% include "partials/application-errors-badge.html" with n=1 classes="mr-3" %}
+            {% include "partials/application-warnings-badge.html" with n=1 classes="mr-3" %}
+        </p>
+    </div>
+    <p>Tender application <code>PROC-20-0001/a</code></p>
+
+    <h2>Applicant</h2>
+    <div class="scorecards">
+        {% include "partials/company.html" with name="Synomus Technology Services Ltd." id="1602647563" jurisdiction="UK" errors=1 %}
+    </div>
+
+    <h2>Beneficial owners</h2>
+    <div class="scorecards">
+        {% include "partials/person.html" with name="Jasmine Wilkins" id="FZDS12383607776793" %}
+        {% include "partials/person.html" with name="Mr. Simon Clark" id="YDAZ21513405928609" warnings=1 %}
+        {% include "partials/person.html" with name="Mr. Joe Jones" id="PFQY03765447964910" %}
+    </div>
+
+    <h2>Parent companies</h2>
+    <div class="scorecards">
+        {% include "partials/company.html" with name="Synomus International Ltd." id="6235874596" jurisdiction="UK" %}
+        {% include "partials/company.html" with name="S C M Holdings LLC." id="6321254583" jurisdiction="USA" %}
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+<div class="card bods-scorecard">
+    <h5 class="card-header d-flex align-items-center">
+        <span class="mr-auto">{{ name }}</span>
+      {% if errors %}
+        <span class="ml-2 badge badge-pill badge-danger d-flex">
+            {% include "icons/prohibited.html" with classes="icon mr-1" %}
+            {{ errors }}
+        </span>
+      {% endif %}
+      {% if warnings %}
+        <span class="ml-2 badge badge-pill badge-warning d-flex">
+            {% include "icons/exclamation.html" with classes="icon mr-1" %}
+            {{ warnings }}
+        </span>
+      {% endif %}
+    </h5>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <small class="scorecard-key">Full name</small>
+            <span class="scorecard-value">{{ name }}</span>
+        </li>
+        <li class="list-group-item {% if warnings %}list-group-item-warning{% endif %}">
+            <small class="scorecard-key">National ID</small>
+            <span class="scorecard-value">{{ id }}</span>
+          {% if warnings %}
+            <p class="scorecard-warning">Name and ID match a currently serving cabinet minister.</p>
+          {% endif %}
+        </li>
+    </ul>
+</div>

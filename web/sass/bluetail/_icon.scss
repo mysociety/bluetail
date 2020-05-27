@@ -1,0 +1,15 @@
+.icon {
+    width: auto;
+    height: 1em;
+    display: inline-block;
+    vertical-align: -0.2em;
+}
+
+.navbar-brand {
+    font-weight: bold;
+
+    .icon {
+        height: 1.5em;
+        vertical-align: -0.4em;
+    }
+}

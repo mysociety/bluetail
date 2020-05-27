@@ -1,0 +1,29 @@
+.scorecards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: ($spacer * 2);
+    margin: $spacer 0 ($spacer * 2) 0;
+
+    @include media-breakpoint-up('md') {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include media-breakpoint-up('lg') {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.scorecard-key {
+    display: block;
+}
+
+.scorecard-value {
+    .list-group-item-danger &,
+    .list-group-item-warning & {
+        font-weight: bold;
+    }
+}
+
+.scorecard-warning {
+    margin: 0;
+}
