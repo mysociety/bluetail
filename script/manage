@@ -1,0 +1,9 @@
+#!/bin/sh
+
+virtualenv_dir="$(dirname "$0")/../../venv"
+virtualenv_activate="$virtualenv_dir/bin/activate"
+. $virtualenv_activate
+
+managepy="$(dirname "$0")/../manage.py"
+
+python3 "$managepy" "$@"

@@ -34,6 +34,14 @@ script/server
 
 The site will be visible at <http://localhost:8000>.
 
+Sass files are compiled by [django-pipeline](https://django-pipeline.readthedocs.io/en/latest/index.html), and CSS and JavaScript files are then copied to the `/static` directory by Django‘s [staticfiles](https://docs.djangoproject.com/en/2.2/ref/contrib/staticfiles/) app.
+
+The Django test server will compile and collect the static files automatically when it runs. But sometimes (eg: when you delete a file from `/web/sass/` and the change doesn’t seem to be picked up by the server) it might be necessary to force Django to re-process the static files. You force a full rebuild of the static files with:
+
+```
+script/manage collectstatic --noinput --clear
+```
+
 
 ## Running this in production
 
