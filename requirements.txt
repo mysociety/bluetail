@@ -16,3 +16,7 @@ psycopg2==2.8.5
 six==1.10.0
 feedparser==5.2.1
 django-import-export==2.0.2
+
+# For Heroku
+waitress==1.4.3
+whitenoise==5.0.1
