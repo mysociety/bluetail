@@ -6,6 +6,19 @@ Named after the [Himalayan Bluetail](https://en.wikipedia.org/wiki/Himalayan_blu
 
 ## Running this locally (with Vagrant)
 
+Make sure to check out the submodules when you `git clone`:
+
+```
+git clone --recursive git@github.com:mysociety/bluetail.git
+cd bluetail
+```
+
+Or to check out the submodules in a repo you’ve already cloned:
+
+```
+git submodule update --init
+```
+
 A Vagrantfile is included for local development. Assuming you have [Vagrant](https://www.vagrantup.com/) installed, you can create a Vagrant VM with:
 
 ```
