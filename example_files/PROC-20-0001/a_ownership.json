@@ -176,17 +176,6 @@
         "schemeName": "National ID"
       }
     ],
-    "pepStatusDetails": [
-      {
-        "reason": "Name and ID match a currently serving cabinet minister.",
-        "source": {
-          "type": [
-            "primaryResearch"
-          ],
-          "description": "Name and ID match a currently serving cabinet minister."
-        }
-      }
-    ],
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
