@@ -4,7 +4,22 @@
 
 {% block content %}
 <div class="container-md">
-    <p>This page doesn’t exist yet!</p>
-    <a href="{% url 'example-tender' %}">Go here instead</a>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-4">
+            <li class="breadcrumb-item active" aria-current="page">Tenders in progress</li>
+        </ol>
+    </nav>
+
+    <h1 class="mt-4">Tenders in progress</h1>
+
+    {% include "partials/tender-card.html" with view="example-tender" title="Tachograph Forensic Services" publisher="H M Revenue &amp; Customs" end="Closed 1st April" received="5 tenders received" %}
+
+    {% include "partials/tender-card.html" with view="example-tender" title="Dynamic Purchasing System for the Supply of Protective Equipment" publisher="Gateshead Council" end="Closed 1st April" received="8 tenders received" %}
+
+    {% include "partials/tender-card.html" with view="example-tender" title="Radio Communication Services for the Birmingham 2022 Commonwealth Games" publisher="The Organising Committee for the 2022 Birmingham Commonwealth Games" end="Closes 13th April" received="4 tenders received" %}
+
+    {% include "partials/tender-card.html" with view="example-tender" title="Town Centre Gift Card Scheme" publisher="Knowsley Council" end="Closes 21st April" received="0 tenders received" %}
+
 </div>
 {% endblock %}
