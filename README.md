@@ -43,6 +43,43 @@ script/manage collectstatic --noinput --clear
 ```
 
 
+## Running this locally (without Vagrant)
+
+You’ll need:
+
+* Python 3.x
+* A local Postgres server
+
+As above, make sure you’ve cloned the repo and checked out its submodules.
+
+Open up a Postgres shell (eg: `psql`) and create a user and database matching the details in `conf/config.py`:
+
+```
+CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'
+CREATE DATABASE bluetail
+```
+
+Create a Python virtual environment at a location of your choosing, activate it, and install the required packages:
+
+```
+python3 -m venv ./venv
+. ./venv/bin/activate
+pip3 install --requirement requirements.txt
+```
+
+With the virtual environment still activated, run the Django migrations, to set up the database:
+
+```
+script/migrate
+```
+
+And run the development server:
+
+```
+script/server
+```
+
+
 ## Running this in production
 
 The site requires:
