@@ -1,16 +1,16 @@
 [
   {
-    "statementID": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b7",
+    "statementID": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b8",
     "statementType": "entityStatement",
     "isComponent": false,
     "statementDate": "2017-11-18",
     "entityType": "unknownEntity",
-    "name": "Synomus Technology Services Ltd.",
+    "name": "Frost Group Ltd.",
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
         "schemeName": "Company ID",
-        "id": "1602647563"
+        "id": "5740394756"
       }
     ],
     "addresses": [
@@ -28,17 +28,17 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   },
   {
-    "statementID": "26e786f0-54c5-497d-a52d-b83439ce3dad",
+    "statementID": "26e786f0-54c5-497d-a52d-b83439ce3dae",
     "statementType": "entityStatement",
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Synomus International Ltd.",
+    "name": "Dolor Sit Amet Ltd.",
     "addresses": [
       {
         "country": "GB"
@@ -50,56 +50,27 @@
     "identifiers": [
       {
         "schemeName": "Company ID",
-        "id": "6235874596"
+        "id": "3642541901"
       }
     ],
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   },
   {
-    "statementID": "26e786f0-54c5-497d-a52d-b83439ce3abc",
-    "statementType": "entityStatement",
-    "isComponent": false,
-    "statementDate": "2018-01-05",
-    "entityType": "arrangement",
-    "name": "S C M Holdings LLC.",
-    "addresses": [
-      {
-        "country": "US"
-      }
-    ],
-    "incorporatedInJurisdiction": {
-      "code": "US"
-    },
-    "identifiers": [
-      {
-        "schemeName": "Company ID",
-        "id": "6321254583"
-      }
-    ],
-    "publicationDetails": {
-      "publicationDate": "2018-11-18",
-      "bodsVersion": "0.2",
-      "publisher": {
-        "name": "Synomus Technology Services Ltd."
-      }
-    }
-  },
-  {
-    "statementID": "676ce2ec-e244-409e-85f9-9823e88bc099",
+    "statementID": "676ce2ec-e244-409e-85f9-9823e88bc091",
     "statementType": "ownershipOrControlStatement",
     "isComponent": false,
     "statementDate": "2018-01-05",
     "subject": {
-      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b7"
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b8"
     },
     "interestedParty": {
-      "describedByEntityStatement": "26e786f0-54c5-497d-a52d-b83439ce3dad"
+      "describedByEntityStatement": "26e786f0-54c5-497d-a52d-b83439ce3dae"
     },
     "interests": [
       {
@@ -108,7 +79,7 @@
         "beneficialOwnershipOrControl": false,
         "startDate": "2018-01-01",
         "share": {
-          "exact": 50
+          "exact": 100
         }
       }
     ],
@@ -116,54 +87,24 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   },
   {
-    "statementID": "676ce2ec-e244-409e-85f9-9823e88bc000",
-    "statementType": "ownershipOrControlStatement",
-    "isComponent": false,
-    "statementDate": "2018-01-05",
-    "subject": {
-      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b7"
-    },
-    "interestedParty": {
-      "describedByEntityStatement": "26e786f0-54c5-497d-a52d-b83439ce3abc"
-    },
-    "interests": [
-      {
-        "type": "voting-rights",
-        "interestLevel": "direct",
-        "beneficialOwnershipOrControl": false,
-        "startDate": "2018-01-01",
-        "share": {
-          "exact": 50
-        }
-      }
-    ],
-    "publicationDetails": {
-      "publicationDate": "2018-11-18",
-      "bodsVersion": "0.2",
-      "publisher": {
-        "name": "Synomus Technology Services Ltd."
-      }
-    }
-  },
-  {
-    "statementID": "17bfeb0d-4a63-41d3-814d-b8a54c81a1f",
+    "statementID": "17bfeb0d-4a63-41d3-814d-b8a54c81a1g",
     "statementType": "personStatement",
     "isComponent": false,
     "personType": "knownPerson",
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Jasmine Wilkins"
+        "fullName": "Alan Frost"
       }
     ],
     "identifiers": [
       {
-        "id": "FZDS12383607776793",
+        "id": "QTUY80730215736819",
         "schemeName": "National ID"
       }
     ],
@@ -171,24 +112,24 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   },
   {
-    "statementID": "d1eb52de-ff02-4690-8359-f4bbf9c128b1",
+    "statementID": "d1eb52de-ff02-4690-8359-f4bbf9c128b2",
     "statementType": "personStatement",
     "isComponent": false,
     "personType": "knownPerson",
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Mr. Simon Clark"
+        "fullName": "Andrea Barker"
       }
     ],
     "identifiers": [
       {
-        "id": "YDAZ21513405928609",
+        "id": "FPCX3375936883999",
         "schemeName": "National ID"
       }
     ],
@@ -196,24 +137,24 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   },
   {
-    "statementID": "019a93f1-e470-42e9-957b-03559861b2e2",
+    "statementID": "019a93f1-e470-42e9-957b-03559861b2e3",
     "statementType": "personStatement",
     "isComponent": false,
     "personType": "knownPerson",
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Mr. Joe Jones"
+        "fullName": "Mrs. Jayne Jones"
       }
     ],
     "identifiers": [
       {
-        "id": "PFQY03765447964910",
+        "id": "RCQV80578179466720",
         "schemeName": "National ID"
       }
     ],
@@ -221,20 +162,20 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   },
   {
-    "statementID": "c222fe05-2bf3-4cc0-b126-f665109d7211",
+    "statementID": "c222fe05-2bf3-4cc0-b126-f665109d7223",
     "statementType": "ownershipOrControlStatement",
     "isComponent": false,
     "statementDate": "2018-01-05",
     "subject": {
-      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b7"
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b8"
     },
     "interestedParty": {
-      "describedByPersonStatement": "17bfeb0d-4a63-41d3-814d-b8a54c81a1f"
+      "describedByPersonStatement": "17bfeb0d-4a63-41d3-814d-b8a54c81a1g"
     },
     "interests": [
       {
@@ -251,20 +192,20 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   },
   {
-    "statementID": "c222fe05-2bf3-4cc0-b126-f665109d7210",
+    "statementID": "c222fe05-2bf3-4cc0-b126-f665109d7212",
     "statementType": "ownershipOrControlStatement",
     "isComponent": false,
     "statementDate": "2018-01-05",
     "subject": {
-      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b7"
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b8"
     },
     "interestedParty": {
-      "describedByPersonStatement": "d1eb52de-ff02-4690-8359-f4bbf9c128b1"
+      "describedByPersonStatement": "d1eb52de-ff02-4690-8359-f4bbf9c128b2"
     },
     "interests": [
       {
@@ -281,20 +222,20 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   },
   {
-    "statementID": "c222fe05-2bf3-4cc0-b126-f665109d7213",
+    "statementID": "c222fe05-2bf3-4cc0-b126-f665109d7223",
     "statementType": "ownershipOrControlStatement",
     "isComponent": false,
     "statementDate": "2018-01-05",
     "subject": {
-      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b7"
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66a9b8"
     },
     "interestedParty": {
-      "describedByPersonStatement": "019a93f1-e470-42e9-957b-03559861b2e2"
+      "describedByPersonStatement": "019a93f1-e470-42e9-957b-03559861b2e3"
     },
     "interests": [
       {
@@ -311,7 +252,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Frost Group Ltd."
       }
     }
   }
