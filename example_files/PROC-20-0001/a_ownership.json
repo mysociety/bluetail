@@ -39,6 +39,14 @@
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
     "name": "Synomus International Ltd.",
+    "addresses": [
+      {
+        "country": "GB"
+      }
+    ],
+    "incorporatedInJurisdiction": {
+      "code": "GB"
+    },
     "identifiers": [
       {
         "schemeName": "Company ID",
@@ -60,6 +68,14 @@
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
     "name": "S C M Holdings LLC.",
+    "addresses": [
+      {
+        "country": "US"
+      }
+    ],
+    "incorporatedInJurisdiction": {
+      "code": "US"
+    },
     "identifiers": [
       {
         "schemeName": "Company ID",
@@ -87,7 +103,7 @@
     },
     "interests": [
       {
-        "type": "shareholding",
+        "type": "voting-rights",
         "interestLevel": "direct",
         "beneficialOwnershipOrControl": false,
         "startDate": "2018-01-01",
@@ -117,7 +133,7 @@
     },
     "interests": [
       {
-        "type": "shareholding",
+        "type": "voting-rights",
         "interestLevel": "direct",
         "beneficialOwnershipOrControl": false,
         "startDate": "2018-01-01",
