@@ -87,3 +87,19 @@ The site requires:
 * Python 3.5
 * Django 2.2.8
 * A Postgres database
+
+
+## Deployment to Heroku
+
+These environment variables must be set on the Heroku app before deployment.
+
+    DJANGO_SETTINGS_MODULE=proj.settings_heroku
+    DATABASE_URL="postgres://..."
+    SECRET_KEY=""
+    
+Run migrations on Heroku like this:
+
+    heroku run "script/migrate" --app [heroku app name]
+    
+
+    

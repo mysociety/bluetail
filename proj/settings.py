@@ -9,6 +9,10 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 import socket
+import sys
+
+import dj_database_url
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 SITE_ROOT = '/'
@@ -22,7 +26,10 @@ else:
     IS_LIVE = True
     STATICFILES_STORAGE = 'pipeline.storage.PipelineStorage'
 
-from conf.config import *  # stores database and key outside repo
+if os.path.exists(os.path.join(BASE_DIR, "conf", "config.py")):
+    from conf.config import *  # stores database and key outside repo
+else:
+    from conf.config_defaults import *
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
@@ -103,14 +110,7 @@ INSTALLED_APPS = [
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': REPOSITORY_DB_NAME,
-        'USER': REPOSITORY_DB_USER,
-        'PASSWORD': REPOSITORY_DB_PASS,
-        'HOST': REPOSITORY_DB_HOST,
-        'PORT': REPOSITORY_DB_PORT,
-    }
+    'default': dj_database_url.config(env="DATABASE_URL", default=DATABASE_URL)
 }
 
 MIDDLEWARE = (
@@ -120,6 +120,7 @@ MIDDLEWARE = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'htmlmin.middleware.HtmlMinifyMiddleware',
     'htmlmin.middleware.MarkRequestMiddleware',
 )
@@ -137,7 +138,6 @@ USE_I18N = True
 USE_L10N = False
 
 USE_TZ = True
-
 
 STATIC_URL = '/static/'
 MEDIA_URL = "/media/"
@@ -164,8 +164,7 @@ PIPELINE = {
     'COMPILERS': (
         'pipeline.compilers.sass.SASSCompiler',
     ),
-    'SHOW_ERRORS_INLINE':False,
-
+    'SHOW_ERRORS_INLINE': False,
     # Use the libsass commandline tool (that's bundled with libsass) as our
     # sass compiler, so there's no need to install anything else.
     'SASS_BINARY': SASSC_LOCATION,
