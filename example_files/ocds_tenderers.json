@@ -131,6 +131,9 @@
         "legalName": "Future Tech Horizons Ltd.\n"
       },
       "name": "Future Tech Horizons Ltd.\n",
+      "address": {
+        "countryName": "Cayman Islands"
+      },
       "contactPoint": {
         "name": "Procurement Team",
         "email": "procurement-team@example.com",
