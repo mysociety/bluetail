@@ -1,7 +1,6 @@
 import os
 SITE_SLUG = "bluetail"
 CORE_APP_NAME = "bluetail"
-SECRET_KEY = 'this default is insecure as code is open source, please override for live sites in config.py; this will do for local development'
 SITE_NAME = 'bluetail'
 LIVE_ROOT = ''
 SHARE_IMAGE = ''
@@ -18,3 +17,6 @@ REPOSITORY_DB_NAME = 'bluetail'
 REPOSITORY_DB_PASS = 'bluetail'
 
 DATABASE_URL = 'postgres://bluetail:bluetail@localhost:5432/bluetail'
+
+# This must be set in `config.py` or the environment variable.
+SECRET_KEY = os.getenv('SECRET_KEY')
