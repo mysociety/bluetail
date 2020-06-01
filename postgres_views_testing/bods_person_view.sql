@@ -1,5 +1,5 @@
 
-CREATE OR REPLACE VIEW bods_tenders_view AS
+CREATE OR REPLACE VIEW scrap.bods_tenders_view AS
 SELECT
        -- Multiple names will need to be split
         b.statement_json -> 'names' -> 0 ->> 'fullName' AS Name,
@@ -15,6 +15,6 @@ SELECT
         NULLIF(((b.statement_json -> 'publicationDetails'::text) ->> 'publicationDate'::text), ''::text) AS publication_date,
         b.statement_json -> 'publicationDetails' ->> 'bodsVersion' AS bods_version
        FROM
-         bods_json b
+         scrap.bods_json b
 WHERE b.statement_json -> 'statementType' = '"personStatement"'
 ;

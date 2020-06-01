@@ -1,5 +1,5 @@
 -- drop view bods_control_statement_view;
-CREATE OR REPLACE VIEW bods_control_statement_view AS
+CREATE OR REPLACE VIEW scrap.bods_control_statement_view AS
 SELECT
         b.statement_json -> 'subject' ->> 'describedByEntityStatement' AS subject_entity_statement,
         -- This will need expanding for real datasets
@@ -19,6 +19,6 @@ SELECT
         NULLIF(((b.statement_json -> 'publicationDetails'::text) ->> 'publicationDate'::text), ''::text) AS publication_date,
         b.statement_json -> 'publicationDetails' ->> 'bodsVersion' AS bods_version
        FROM
-         bods_json b
+         scrap.bods_json b
 WHERE b.statement_json -> 'statementType' = '"ownershipOrControlStatement"'
 ;

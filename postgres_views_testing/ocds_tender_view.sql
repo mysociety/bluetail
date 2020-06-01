@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW ocds_tender_view AS
+CREATE OR REPLACE VIEW scrap.ocds_tender_view AS
 SELECT
         t.json ->> 'ocid' AS ocid,
         t.json ->> 'language' AS language,
@@ -12,7 +12,7 @@ SELECT
         t.json -> 'buyer' ->> 'name' AS buyer,
         t.json -> 'buyer' ->> 'id' AS buyer_id
        FROM
-         ocds_json t
+         scrap.ocds_json t
 ;
 
 

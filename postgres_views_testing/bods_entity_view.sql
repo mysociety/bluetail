@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW bods_entity_view AS
+CREATE OR REPLACE VIEW scrap.bods_entity_view AS
 SELECT
         b.statement_json ->> 'name' AS entity_name,
         -- Multiple addresses will need to be separated
@@ -15,7 +15,7 @@ SELECT
         b.statement_json -> 'publicationDetails' ->> 'bodsVersion' AS bods_version,
         b.statement_json -> 'incorporatedInJurisdiction' ->> 'code' AS jurisdiction
        FROM
-         bods_json b
+         scrap.bods_json b
 WHERE b.statement_json -> 'statementType' = '"entityStatement"'
 ;
 
