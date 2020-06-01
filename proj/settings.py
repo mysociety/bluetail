@@ -105,6 +105,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'pipeline',
     'bluetail',
+    'django_pgviews',
 ]
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))

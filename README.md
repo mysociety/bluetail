@@ -102,4 +102,9 @@ Run migrations on Heroku like this:
     heroku run "script/migrate" --app [heroku app name]
     
 
-    
+## Adding example data to database
+
+There is included dummy data for demonstrating the app. 
+Run this command to add it to your database.
+
+    script/insert_example_data

@@ -21,3 +21,4 @@ django-import-export==2.0.2
 waitress==1.4.3
 whitenoise==5.0.1
 dj-database-url==0.5.0
+django-pgviews==0.5.5

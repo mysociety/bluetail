@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Test view{% endblock %}
+
+{% block content %}
+    <h1>Hello</h1>
+    <p>{{ object }}</p>
+    <h3>OCID: {{ object.release_json.ocid }}</h3>
+    <h3>Title: {{ object.title }}</h3>
+    <h3>Description: {{ object.description }}</h3>
+    <h3>Parties</h3>
+
+    {% for party in object.release_json.parties %}
+        <p>Party Name: {{ party.identifier.legalName }} ({{ party.identifier.id }})</p>
+
+    {% endfor %}
+    <h3>Full JSON</h3>
+
+    <pre>{{ object.release_json }}</pre>
+{% endblock %}

@@ -8,4 +8,5 @@ urlpatterns = [
     path('tenderer/', views.tenderer_view, name='example-tenderer'),
     path('tender/', views.tender_view, name='example-tender'),
     path('', views.tenders_view, name='example-tenders'),
+    path('ocds/<str:pk>/', views.OCDSDetailView.as_view(), name='detail'),
 ]

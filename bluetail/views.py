@@ -4,6 +4,9 @@ import os
 from django.conf import settings
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.views.generic import DetailView
+
+from bluetail.models import OCDSReleaseJSON, OCDSReleaseView
 
 
 def test_view(request):
@@ -186,3 +189,9 @@ def tenderer_view(request):
         ],
     }
     return render(request, "tenderer.html", context)
+
+class OCDSDetailView(DetailView):
+    model = OCDSReleaseView
+    template_name = "ocds.html"
+    queryset = OCDSReleaseView.objects.all()
+
