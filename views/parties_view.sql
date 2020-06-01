@@ -1,7 +1,4 @@
-
-
--- DROP VIEW scrap.ocds_parties_view;
--- CREATE OR REPLACE VIEW scrap.ocds_parties_view AS
+-- CREATE OR REPLACE VIEW ocds_parties_view AS
 SELECT
         t.json ->> 'ocid' AS ocid,
         parties -> 'identifier' ->> 'scheme' as party_id_scheme,
@@ -17,7 +14,7 @@ SELECT
         parties -> 'address' ->> 'locality' AS locality,
         parties -> 'address' ->> 'region' AS region,
         parties -> 'address' ->> 'postalCode' AS postcode,
-        role::text
+        role::text AS party_role
        FROM
          scrap.ocds_json t,
          LATERAL jsonb_array_elements(t.json -> 'parties') parties,
