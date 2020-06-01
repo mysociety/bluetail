@@ -10,11 +10,8 @@ SITE_TWITTER = ''
 GOOGLE_ANALYTICS_ACCOUNT = ''
 SASSC_LOCATION  = 'sassc'
 
-REPOSITORY_DB_HOST = 'localhost'
-REPOSITORY_DB_PORT = '5432'
-REPOSITORY_DB_USER = 'bluetail'
-REPOSITORY_DB_NAME = 'bluetail'
-REPOSITORY_DB_PASS = 'bluetail'
+
+# URL format provider://username:password@host:port/databasename
 
 DATABASE_URL = 'postgres://bluetail:bluetail@localhost:5432/bluetail'
 
