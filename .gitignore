@@ -32,3 +32,5 @@ local.properties
 _env/
 _env3/
 conf/config.py
+.env*
+!.env-template.env
