@@ -1,34 +1,41 @@
 <div class="card bods-scorecard">
     <h5 class="card-header d-flex align-items-center">
-        <span class="mr-auto">{{ name }}</span>
-      {% if errors %}
+        <span class="mr-auto">{{ company.name }}</span>
+      {% if company.total_errors %}
         <span class="ml-2 badge badge-pill badge-danger d-flex">
             {% include "icons/prohibited.html" with classes="icon mr-1" %}
-            {{ errors }}
+            {{ company.total_errors }}
         </span>
       {% endif %}
-      {% if warnings %}
+      {% if company.total_warnings %}
         <span class="ml-2 badge badge-pill badge-warning d-flex">
             {% include "icons/exclamation.html" with classes="icon mr-1" %}
-            {{ warnings }}
+            {{ company.total_warnings }}
         </span>
       {% endif %}
     </h5>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">
             <small class="scorecard-key">Company name</small>
-            <span class="scorecard-value">{{ name }}</span>
+            <span class="scorecard-value">{{ company.name }}</span>
         </li>
-        <li class="list-group-item {% if errors %}list-group-item-danger{% endif %}">
+        <li class="list-group-item {% if company.company_id.error %}list-group-item-danger{% elif company.company_id.warning %}list-group-item-warning{% endif %}">
             <small class="scorecard-key">Company ID</small>
-            <span class="scorecard-value">{{ id }}</span>
-          {% if errors %}
-            <p class="scorecard-warning">Invalid company ID.</p>
+            <span class="scorecard-value">{{ company.company_id.value }}</span>
+          {% if company.company_id.error %}
+            <p class="scorecard-warning">{{ company.company_id.error }}</p>
+          {% elif company.company_id.warning %}
+            <p class="scorecard-warning">{{ company.company_id.warning }}</p>
           {% endif %}
         </li>
-        <li class="list-group-item">
+        <li class="list-group-item {% if company.jurisdiction.error %}list-group-item-danger{% elif company.jurisdiction.warning %}list-group-item-warning{% endif %}">
             <small class="scorecard-key">Country of registration</small>
-            <span class="scorecard-value">{{ jurisdiction }}</span>
+            <span class="scorecard-value">{{ company.jurisdiction.value }}</span>
+          {% if company.jurisdiction.error %}
+            <p class="scorecard-warning">{{ company.jurisdiction.error }}</p>
+          {% elif company.jurisdiction.warning %}
+            <p class="scorecard-warning">{{ company.jurisdiction.warning }}</p>
+          {% endif %}
         </li>
     </ul>
 </div>
