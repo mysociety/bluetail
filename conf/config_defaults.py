@@ -16,7 +16,7 @@ REPOSITORY_DB_USER = 'bluetail'
 REPOSITORY_DB_NAME = 'bluetail'
 REPOSITORY_DB_PASS = 'bluetail'
 
-DATABASE_URL = 'postgres://bluetail:bluetail@localhost:5432/bluetail'
+DATABASE_URL = os.getenv("DATABASE_URL", 'postgres://bluetail:bluetail@localhost:5432/bluetail')
 
 # This must be set in `config.py` or the environment variable.
 SECRET_KEY = os.getenv('SECRET_KEY')

@@ -93,6 +93,7 @@ The site requires:
 
 These environment variables must be set on the Heroku app before deployment.
 
+    DJANGO_SETTINGS_MODULE=proj.settings_heroku
     DATABASE_URL="postgres://..."
     SECRET_KEY=""
     

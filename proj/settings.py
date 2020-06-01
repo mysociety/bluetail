@@ -26,7 +26,7 @@ else:
     IS_LIVE = True
     STATICFILES_STORAGE = 'pipeline.storage.PipelineStorage'
 
-if os.path.exists(os.path.join(BASE_DIR, "conf", "config.py"))    :
+if os.path.exists(os.path.join(BASE_DIR, "conf", "config.py")):
     from conf.config import *  # stores database and key outside repo
 else:
     from conf.config_defaults import *
@@ -37,7 +37,6 @@ ALLOWED_HOSTS = [
     "10.11.12.13",
     "localhost",
     "testserver",
-    "bluetail.herokuapp.com",
 ]
 
 LANGUAGE_CODE = 'en-uk'
@@ -140,7 +139,6 @@ USE_L10N = False
 
 USE_TZ = True
 
-
 STATIC_URL = '/static/'
 MEDIA_URL = "/media/"
 
@@ -166,8 +164,7 @@ PIPELINE = {
     'COMPILERS': (
         'pipeline.compilers.sass.SASSCompiler',
     ),
-    'SHOW_ERRORS_INLINE':False,
-
+    'SHOW_ERRORS_INLINE': False,
     # Use the libsass commandline tool (that's bundled with libsass) as our
     # sass compiler, so there's no need to install anything else.
     'SASS_BINARY': SASSC_LOCATION,
