@@ -1,11 +1,14 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
-require 'fileutils'
 
-#copy config example if not done manually
-if not File.exists?('conf/config.py')
-	FileUtils.cp('conf/config_defaults.py','conf/config.py')
-end
+
+# add secret key to local vagrant profile
+# either use hosts BLUETAIL_SECRET_KEY variable or a quick local one
+
+secret_key_value = ENV.fetch('BLUETAIL_SECRET_KEY', 'default_secret_key')
+env_var_cmd = <<CMD
+echo "export SECRET_KEY=#{secret_key_value}" | tee -a /home/vagrant/.profile
+CMD
 
 Vagrant.configure(2) do |config|
   # The most common configuration options are documented and commented below.
@@ -41,8 +44,9 @@ Vagrant.configure(2) do |config|
   end
 
   # Provision the vagrant box
+  config.vm.provision "shell", :inline => env_var_cmd
   config.vm.provision "shell", path: "conf/provisioner.sh", privileged: false
-  config.vm.provision "shell", inline: <<-SHELL
+  config.vm.provision "shell", env: {"SECRET_KEY" => secret_key_value}, inline: <<-SHELL
 	sudo apt update
 
     cd /vagrant/bluetail
