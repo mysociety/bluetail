@@ -1,9 +1,9 @@
-CREATE OR REPLACE VIEW scrap.bods_entity_view AS
+CREATE OR REPLACE VIEW bods_entity_view AS
 SELECT
         b.statement_json ->> 'name' AS entity_name,
         -- Multiple addresses will need to be separated
         b.statement_json -> 'addresses' -> 0 ->> 'country' AS country,
-        b.statement_json -> 'entityType' AS entity_type,
+        b.statement_json ->> 'entityType' AS entity_type,
         b.statement_json -> 'identifiers' -> 0 ->> 'id' AS entity_id,
         b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS entity_id_scheme,
         b.statement_json ->> 'isComponent' AS is_component,
