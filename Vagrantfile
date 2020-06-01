@@ -4,7 +4,7 @@ require 'fileutils'
 
 #copy config example if not done manually
 if not File.exists?('conf/config.py')
-	FileUtils.cp('conf/config_example.py,'conf/config.py')
+	FileUtils.cp('conf/config_example.py','conf/config.py')
 end
 
 Vagrant.configure(2) do |config|
