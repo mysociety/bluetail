@@ -39,3 +39,30 @@ class OCDSReleaseView(pgviews.View):
         app_label = 'bluetail'
         db_table = 'bluetail_ocds_release_view'
         managed = False
+
+
+class BODSPersonStatementJSON(models.Model):
+    statement_id = models.TextField(primary_key=True)
+    statement_json = JSONField(null=True)
+
+    class Meta:
+        app_label = 'bluetail'
+        db_table = 'bluetail_bods_personstatement_json'
+
+
+class BODSEntityStatementJSON(models.Model):
+    statement_id = models.TextField(primary_key=True)
+    statement_json = JSONField(null=True)
+
+    class Meta:
+        app_label = 'bluetail'
+        db_table = 'bluetail_bods_entitystatement_json'
+
+
+class BODSOwnershipStatementJSON(models.Model):
+    statement_id = models.TextField(primary_key=True)
+    statement_json = JSONField(null=True)
+
+    class Meta:
+        app_label = 'bluetail'
+        db_table = 'bluetail_bods_ownershipstatement_json'

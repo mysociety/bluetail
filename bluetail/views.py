@@ -6,7 +6,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import DetailView
 
-from bluetail.models import OCDSReleaseJSON, OCDSReleaseView
+from bluetail.models import OCDSReleaseJSON, OCDSReleaseView, BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON
 
 
 def test_view(request):
@@ -190,8 +190,26 @@ def tenderer_view(request):
     }
     return render(request, "tenderer.html", context)
 
+
 class OCDSDetailView(DetailView):
     model = OCDSReleaseView
     template_name = "ocds.html"
     queryset = OCDSReleaseView.objects.all()
 
+
+class BODSPersonStatementView(DetailView):
+    template_name = "bods_statment.html"
+    model = BODSPersonStatementJSON
+    queryset = BODSPersonStatementJSON.objects.all()
+
+
+class BODSEntityStatementView(DetailView):
+    template_name = "bods_statment.html"
+    model = BODSEntityStatementJSON
+    queryset = BODSEntityStatementJSON.objects.all()
+
+
+class BODSOwnershipStatementView(DetailView):
+    template_name = "bods_statment.html"
+    model = BODSOwnershipStatementJSON
+    queryset = BODSOwnershipStatementJSON.objects.all()

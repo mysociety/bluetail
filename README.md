@@ -105,6 +105,20 @@ Run migrations on Heroku like this:
 ## Adding example data to database
 
 There is included dummy data for demonstrating the app. 
-Run this command to add it to your database.
+Run this command to insert it to your database.
 
     script/insert_example_data
+    
+#### Viewing example data
+
+There are basic endpoints for viewing the sample data by ID
+
+OCDS release
+
+http://127.0.0.1:8000/ocds/ocds-123abc-PROC-20-0001/
+
+BODS statements
+
+http://localhost:8000/bods/statement/person/17bfeb0d-4a63-41d3-814d-b8a54c81a1i/
+http://localhost:8000/bods/statement/entity/1dc0e987-5c57-4a1c-b3ad-61353b66a9b1/
+http://localhost:8000/bods/statement/ownership/676ce2ec-e244-409e-85f9-9823e88bc003/
