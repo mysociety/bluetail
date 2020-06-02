@@ -1,0 +1,10 @@
+<div class="card mt-4" style="max-width: 40em">
+    <div class="card-body">
+        <h2 class="h3 card-title"><a {% if view %}href="{% url view ocid %}"{% else %}href="#" class="fake-link"{% endif %}>{{ title }}</a></h5>
+        <p class="card-text">{{ publisher }}</p>
+    </div>
+    <div class="card-footer text-muted d-flex">
+        <div class="mr-auto">{{ end }}</div>
+        <div>{{ tenderers|length }} tenders received</div>
+    </div>
+</div>

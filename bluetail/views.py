@@ -4,7 +4,7 @@ import os
 from django.conf import settings
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.views.generic import DetailView
+from django.views.generic import DetailView, ListView
 
 from bluetail.models import OCDSReleaseJSON, OCDSReleaseView, BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON
 
@@ -189,6 +189,12 @@ def tenderer_view(request):
         ],
     }
     return render(request, "tenderer.html", context)
+
+
+class OCDSList(ListView):
+    template_name = "ocds-list.html"
+    queryset = OCDSReleaseView.objects.order_by('-ocid')
+    context_object_name = 'tenders'
 
 
 class OCDSDetailView(DetailView):
