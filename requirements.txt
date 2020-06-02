@@ -1,4 +1,4 @@
-Django==2.2.8
+Django==2.2.10
 Markdown==2.6.8
 Pillow==6.2.0
 pyyaml==4.2b1
