@@ -1,12 +1,13 @@
 
+DROP VIEW scrap.bods_person_view;
 CREATE OR REPLACE VIEW scrap.bods_person_view AS
 SELECT
        -- Multiple names will need to be split
-        b.statement_json -> 'names' -> 0 ->> 'fullName' AS Name,
+        b.statement_json -> 'names' -> 0 ->> 'fullName' AS fullName,
         b.statement_json ->> 'personType' AS entity_type,
        -- Multiple ids will need to be split
         b.statement_json -> 'identifiers' -> 0 ->> 'id' AS entity_id,
-        b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS country,
+        b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS schemeName,
         b.statement_json ->> 'isComponent' AS is_component,
         b.statement_json ->> 'statementID' AS statement_id,
         b.statement_json ->> 'statementType' AS statement_type,

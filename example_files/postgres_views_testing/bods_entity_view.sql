@@ -13,7 +13,7 @@ SELECT
         b.statement_json -> 'publicationDetails' -> 'publisher' ->> 'name' AS publisher_name,
         NULLIF(((b.statement_json -> 'publicationDetails'::text) ->> 'publicationDate'::text), ''::text) AS publication_date,
         b.statement_json -> 'publicationDetails' ->> 'bodsVersion' AS bods_version,
-        b.statement_json -> 'incorporatedInJurisdiction' ->> 'code' AS jurisdiction
+        b.statement_json -> 'incorporatedInJurisdiction' ->> 'code' AS incorporatedInJurisdiction
        FROM
          scrap.bods_json b
 WHERE b.statement_json -> 'statementType' = '"entityStatement"'

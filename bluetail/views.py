@@ -4,9 +4,10 @@ import os
 from django.conf import settings
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.views.generic import DetailView, ListView
+from django.views.generic import DetailView, ListView, TemplateView
 
-from bluetail.models import OCDSReleaseJSON, OCDSReleaseView, BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON
+from bluetail.models import OCDSReleaseJSON, OCDSReleaseView, BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON, OCDSTender, OCDSParty, BODSEntityStatement, \
+    BODSOwnershipStatement, BODSPersonStatement
 
 
 def test_view(request):
@@ -193,8 +194,80 @@ def tenderer_view(request):
 
 class OCDSList(ListView):
     template_name = "ocds-list.html"
-    queryset = OCDSReleaseView.objects.order_by('-ocid')
+    queryset = OCDSTender.objects.order_by('-ocid')
     context_object_name = 'tenders'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        return context
+
+
+class OCDSTenderDetailView(DetailView):
+    model = OCDSTender
+    template_name = "ocds.html"
+    queryset = OCDSTender.objects.all()
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        # get the tender from the DetailView context "object"
+        tender = self.object
+
+        # Get tenderers
+        tenderers = OCDSParty.objects.filter(ocid=tender.ocid, party_role="tenderer")
+
+        new_context = {
+            "tender": tender,
+            "tenderers": tenderers,
+        }
+        context.update(new_context)
+        return context
+
+
+class OCDSTendererDetailView(TemplateView):
+    template_name = "ocds-tenderer.html"
+    # model = OCDSParty
+    # queryset = OCDSParty.objects.filter(party_role="tenderer")
+
+    def get_context_data(self, ocid, tenderer_id, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        # Get tender
+        tender = OCDSTender.objects.get(ocid=ocid)
+        tenderer = OCDSParty.objects.get(ocid=ocid, party_id=tenderer_id)
+        if not tenderer:
+            return context
+
+        # Get beneficial owners
+        entity_statments = BODSEntityStatement.objects.filter(entity_id=tenderer.party_identifier_id)
+
+        owners = []
+        parent_companies = []
+
+        # get interested_partiess
+        if entity_statments:
+            for entity_statment in entity_statments:
+                ownership_statements = BODSOwnershipStatement.objects.filter(subject_entity_statement=entity_statment.statement_id)
+                if ownership_statements:
+                    for ownership_statement in ownership_statements:
+                        interested_person_statement_id = ownership_statement.interested_person_statement_id
+                        interested_entity_statement_id = ownership_statement.interested_entity_statement_id
+                        if interested_person_statement_id:
+                            interested_person = BODSPersonStatement.objects.get(statement_id=interested_person_statement_id)
+                            owners.append(interested_person)
+                        if interested_entity_statement_id:
+                            interested_entity = BODSEntityStatement.objects.get(statement_id=interested_entity_statement_id)
+                            parent_companies.append(interested_entity)
+
+        new_context = {
+            "tender": tender,
+            "tenderer": tenderer,
+            "owners": owners,
+            "parents": parent_companies,
+
+        }
+        context.update(new_context)
+        return context
 
 
 class OCDSDetailView(DetailView):
