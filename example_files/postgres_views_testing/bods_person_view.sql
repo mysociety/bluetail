@@ -1,5 +1,5 @@
 
-CREATE OR REPLACE VIEW scrap.bods_tenders_view AS
+CREATE OR REPLACE VIEW scrap.bods_person_view AS
 SELECT
        -- Multiple names will need to be split
         b.statement_json -> 'names' -> 0 ->> 'fullName' AS Name,

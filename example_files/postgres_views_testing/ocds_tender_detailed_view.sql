@@ -1,4 +1,4 @@
--- CREATE OR REPLACE VIEW scrap.ocds_tender_detailed_view AS
+CREATE OR REPLACE VIEW scrap.ocds_tender_detailed_view AS
 SELECT
         t.json ->> 'ocid' AS ocid,
         t.json ->> 'id' AS id,
