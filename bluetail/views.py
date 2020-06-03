@@ -270,18 +270,18 @@ class OCDSTendererDetailView(TemplateView):
 
 
 class BODSPersonStatementView(DetailView):
-    template_name = "bods_statment.html"
+    template_name = "bods_statement.html"
     model = BODSPersonStatementJSON
     queryset = BODSPersonStatementJSON.objects.all()
 
 
 class BODSEntityStatementView(DetailView):
-    template_name = "bods_statment.html"
+    template_name = "bods_statement.html"
     model = BODSEntityStatementJSON
     queryset = BODSEntityStatementJSON.objects.all()
 
 
 class BODSOwnershipStatementView(DetailView):
-    template_name = "bods_statment.html"
+    template_name = "bods_statement.html"
     model = BODSOwnershipStatementJSON
     queryset = BODSOwnershipStatementJSON.objects.all()
