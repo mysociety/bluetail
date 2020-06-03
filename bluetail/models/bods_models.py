@@ -5,6 +5,10 @@ from django_pgviews import view as pgviews
 
 
 class BODSPersonStatementJSON(models.Model):
+    """
+    Model to store BODS Person Statement JSON.
+    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#person-statement
+    """
     statement_id = models.TextField(primary_key=True)
     statement_json = JSONField(null=True)
 
@@ -14,6 +18,10 @@ class BODSPersonStatementJSON(models.Model):
 
 
 class BODSPersonStatement(pgviews.View):
+    """
+    View to extract Person Statement details from a BODSPersonStatementJSON object
+    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#person-statement
+    """
     # dependencies = ['bluetail.OtherView',]
     statement_id = models.TextField(primary_key=True)
     statement_json = JSONField(null=True)
@@ -48,6 +56,10 @@ class BODSPersonStatement(pgviews.View):
 
 
 class BODSEntityStatementJSON(models.Model):
+    """
+    Model to store BODS Entity Statement JSON.
+    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#entity-statement
+    """
     statement_id = models.TextField(primary_key=True)
     statement_json = JSONField(null=True)
 
@@ -57,6 +69,10 @@ class BODSEntityStatementJSON(models.Model):
 
 
 class BODSEntityStatement(pgviews.View):
+    """
+    View to extract Entity Statement details from a BODSPersonStatementJSON object
+    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#entity-statement
+    """
     statement_id = models.TextField(primary_key=True)
     statement_json = JSONField(null=True)
 
@@ -91,6 +107,10 @@ class BODSEntityStatement(pgviews.View):
 
 
 class BODSOwnershipStatementJSON(models.Model):
+    """
+    Model to store BODS Ownership-or-control Statement JSON.
+    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#ownership-or-control-statement
+    """
     statement_id = models.TextField(primary_key=True)
     statement_json = JSONField(null=True)
 
@@ -100,6 +120,10 @@ class BODSOwnershipStatementJSON(models.Model):
 
 
 class BODSOwnershipStatement(pgviews.View):
+    """
+    View to extract details from a from a BODSPersonStatementJSON object
+    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#ownership-or-control-statement
+    """
     statement_id = models.TextField(primary_key=True)
     statement_json = JSONField(null=True)
     statement_type = models.TextField()

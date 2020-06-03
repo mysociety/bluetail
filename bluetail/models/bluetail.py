@@ -6,7 +6,7 @@ from django_pgviews import view as pgviews
 
 class Flags(models.Model):
     """
-    A model to store any warnings and alerts
+    WIP model to store warnings and alerts
     """
     data_type = models.TextField()
     data_id = models.TextField()

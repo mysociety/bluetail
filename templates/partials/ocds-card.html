@@ -4,7 +4,7 @@
         <p class="card-text">{{ publisher }}</p>
     </div>
     <div class="card-footer text-muted d-flex">
-        <div class="mr-auto">{{ end }}</div>
+        <div class="mr-auto">Tender Deadline: {{ end|date:'d M Y'}}</div>
         <div>{{ tenderers|length }} tenders received</div>
     </div>
 </div>

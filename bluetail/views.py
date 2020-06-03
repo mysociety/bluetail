@@ -6,7 +6,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import DetailView, ListView, TemplateView
 
-from bluetail.models import OCDSReleaseJSON, OCDSReleaseView, BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON, OCDSTender, OCDSParty, BODSEntityStatement, \
+from bluetail.models import BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON, OCDSTender, OCDSParty, BODSEntityStatement, \
     BODSOwnershipStatement, BODSPersonStatement
 
 
@@ -226,25 +226,24 @@ class OCDSTenderDetailView(DetailView):
 
 class OCDSTendererDetailView(TemplateView):
     template_name = "ocds-tenderer.html"
-    # model = OCDSParty
-    # queryset = OCDSParty.objects.filter(party_role="tenderer")
 
     def get_context_data(self, ocid, tenderer_id, **kwargs):
         context = super().get_context_data(**kwargs)
 
         # Get tender
         tender = OCDSTender.objects.get(ocid=ocid)
+
+        # Get tenderer
         tenderer = OCDSParty.objects.get(ocid=ocid, party_id=tenderer_id)
         if not tenderer:
             return context
 
-        # Get beneficial owners
-        entity_statments = BODSEntityStatement.objects.filter(entity_id=tenderer.party_identifier_id)
-
+        # get interested_parties
         owners = []
         parent_companies = []
 
-        # get interested_partiess
+        entity_statments = BODSEntityStatement.objects.filter(entity_id=tenderer.party_identifier_id)
+
         if entity_statments:
             for entity_statment in entity_statments:
                 ownership_statements = BODSOwnershipStatement.objects.filter(subject_entity_statement=entity_statment.statement_id)
@@ -268,12 +267,6 @@ class OCDSTendererDetailView(TemplateView):
         }
         context.update(new_context)
         return context
-
-
-class OCDSDetailView(DetailView):
-    model = OCDSReleaseView
-    template_name = "ocds.html"
-    queryset = OCDSReleaseView.objects.all()
 
 
 class BODSPersonStatementView(DetailView):
