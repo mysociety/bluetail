@@ -1,33 +1,40 @@
+{% load flag_templatetags %}
+{% get_flags person.identifiers_0_schemaName person.identifiers_0_id as flags %}
+
 <div class="card bods-scorecard">
     <h5 class="card-header d-flex align-items-center">
         <span class="mr-auto">{{ person.fullName }}</span>
-      {% if person.total_errors %}
-        <span class="ml-2 badge badge-pill badge-danger d-flex">
+        {% if person.total_errors %}
+            <span class="ml-2 badge badge-pill badge-danger d-flex">
             {% include "icons/prohibited.html" with classes="icon mr-1" %}
             {{ person.total_errors }}
         </span>
-      {% endif %}
-      {% if person.total_warnings %}
-        <span class="ml-2 badge badge-pill badge-warning d-flex">
+        {% endif %}
+        {% if person.total_warnings %}
+            <span class="ml-2 badge badge-pill badge-warning d-flex">
             {% include "icons/exclamation.html" with classes="icon mr-1" %}
             {{ person.total_warnings }}
         </span>
-      {% endif %}
+        {% endif %}
     </h5>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">
             <small class="scorecard-key">Full name</small>
             <span class="scorecard-value">{{ person.fullName }}</span>
         </li>
-        <li class="list-group-item {% if person.national_id.error %}list-group-item-danger{% elif person.national_id.warning %}list-group-item-warning{% endif %}">
+        <li class="list-group-item {% if flags.person_id_flags.error %}list-group-item-danger{% elif flags.person_id_flags.warning %}list-group-item-warning{% endif %}">
             <small class="scorecard-key">{{ person.identifiers_0_schemaName }}</small>
             <span class="scorecard-value">{{ person.identifiers_0_id }}</span>
-          {% if person.national_id.erorr %}
-            <p class="scorecard-warning">{{ person.national_id.error }}</p>
-          {% endif %}
-          {% if person.national_id.warning %}
-            <p class="scorecard-warning">{{ person.national_id.warning }}</p>
-          {% endif %}
+            {% for flag in flags.person_id_flags.error %}
+                {% if flag %}
+                    <p class="scorecard-warning">{{ flag.flag_text }}</p>
+                {% endif %}
+            {% endfor %}
+            {% for flag in flags.person_id_flags.warning %}
+                {% if flag %}
+                    <p class="scorecard-warning">{{ flag.flag_text }}</p>
+                {% endif %}
+            {% endfor %}
         </li>
     </ul>
 </div>

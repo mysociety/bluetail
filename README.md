@@ -122,3 +122,23 @@ BODS statements
 http://localhost:8000/bods/statement/person/17bfeb0d-4a63-41d3-814d-b8a54c81a1i/
 http://localhost:8000/bods/statement/entity/1dc0e987-5c57-4a1c-b3ad-61353b66a9b1/
 http://localhost:8000/bods/statement/ownership/676ce2ec-e244-409e-85f9-9823e88bc003/
+
+
+### Flags
+
+Flags are warnings/errors about the data, attached to an individual or company.
+
+Flag
+
+Flags can be viewed and edited in the admin interface
+
+    http://127.0.0.1:8000/admin/
+
+If you don't have a superuser, create one manually like this
+
+    python manage.py createsuperuser
+    
+or without prompt (username: admin, password: admin)
+
+    echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'admin')" | python manage.py shell
+

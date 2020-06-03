@@ -10,7 +10,7 @@ class BODSPersonStatementJSON(models.Model):
     http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#person-statement
     """
     statement_id = models.TextField(primary_key=True)
-    statement_json = JSONField(null=True)
+    statement_json = JSONField()
 
     class Meta:
         app_label = 'bluetail'
@@ -24,9 +24,9 @@ class BODSPersonStatement(pgviews.View):
     """
     # dependencies = ['bluetail.OtherView',]
     statement_id = models.TextField(primary_key=True)
-    statement_json = JSONField(null=True)
-    identifiers_json = JSONField(null=True)
+    statement_json = JSONField()
 
+    identifiers_json = JSONField()
     fullName = models.TextField()
     personType = models.TextField()
     identifiers_0_id = models.TextField()
@@ -61,7 +61,7 @@ class BODSEntityStatementJSON(models.Model):
     http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#entity-statement
     """
     statement_id = models.TextField(primary_key=True)
-    statement_json = JSONField(null=True)
+    statement_json = JSONField()
 
     class Meta:
         app_label = 'bluetail'
@@ -105,7 +105,6 @@ class BODSEntityStatement(pgviews.View):
         db_table = 'bluetail_bods_entitystatement_view'
 
 
-
 class BODSOwnershipStatementJSON(models.Model):
     """
     Model to store BODS Ownership-or-control Statement JSON.
@@ -125,7 +124,7 @@ class BODSOwnershipStatement(pgviews.View):
     http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#ownership-or-control-statement
     """
     statement_id = models.TextField(primary_key=True)
-    statement_json = JSONField(null=True)
+    statement_json = JSONField()
     statement_type = models.TextField()
 
     subject_entity_statement = models.TextField()

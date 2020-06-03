@@ -6,6 +6,7 @@ from django.core.management import BaseCommand
 from django.conf import settings
 
 from bluetail import models
+from bluetail.tests.fixtures import insert_flags, insert_flag_attachments
 
 logger = logging.getLogger(__name__)
 
@@ -65,8 +66,8 @@ class Command(BaseCommand):
             except:
                 logger.exception("Failed to insert example file %s", f_path)
 
+        # Insert Flags
+        insert_flags()
 
-
-
-
-
+        # Insert assigned Flags
+        insert_flag_attachments()

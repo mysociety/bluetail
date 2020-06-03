@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from bluetail.models import Flag, OCDSReleaseJSON, FlagAttachment
+
+admin.site.register(Flag)
+admin.site.register(FlagAttachment)
+admin.site.register(OCDSReleaseJSON)

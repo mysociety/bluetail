@@ -1,0 +1,8 @@
+identifier_schema,identifier_id,flag_name
+"Company ID","1602647563","company_id_invalid"
+"National ID","YDAZ21513405928609","person_id_matches_cabinet_minister"
+"GB-LAC","1602647563","company_id_invalid"
+"National ID","HMCI17014140912423","person_in_multiple_applications_to_tender"
+"Company ID","6948732519","company_in_multiple_applications_to_tender"
+"Company ID","5315469854","company_in_blacklisted_jurisdiction"
+"GB-LAC","5315469854","company_in_blacklisted_jurisdiction"
