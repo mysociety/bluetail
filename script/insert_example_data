@@ -1,0 +1,3 @@
+#!/bin/sh
+
+"$(dirname "$0")/manage" insert_example_data
