@@ -108,6 +108,11 @@ There is included dummy data for demonstrating the app.
 Run this command to insert it to your database.
 
     script/insert_example_data
+
+or on heroku
+    
+    heroku run "script/insert_example_data" --app [heroku app name]
+
     
 #### Viewing example data
 

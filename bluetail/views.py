@@ -6,6 +6,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import DetailView, ListView, TemplateView
 
+from bluetail.helpers import BodsHelperFunctions, FlagHelperFunctions, ContextHelperFunctions
 from bluetail.models import BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON, OCDSTender, OCDSParty, BODSEntityStatement, \
     BODSOwnershipStatement, BODSPersonStatement
 
@@ -199,6 +200,34 @@ class OCDSList(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
+
+        # WIP to get total errors/warnings for tenders list
+
+        # new_context = {
+        #
+        # }
+        #
+        # # get the tender from the DetailView context "object"
+        # for tender in self.object_list:
+        #
+        #     # Get tenderers
+        #     tenderers = OCDSParty.objects.filter(ocid=tender.ocid, party_role="tenderer")
+        #
+        #     # Augment context
+        #     new_context = {
+        #         "tender": tender,
+        #         "tenderers": [],
+        #     }
+        #
+        #     # Lookup flags and append tenderers to context
+        #     context_helper = ContextHelperFunctions()
+        #
+        #     for tenderer in tenderers:
+        #         tenderer_context = context_helper.get_tenderer_context(tenderer)
+        #         new_context["tenderers"].append(tenderer_context)
+
+        # context.update(new_context)
+
         return context
 
 
@@ -216,10 +245,19 @@ class OCDSTenderDetailView(DetailView):
         # Get tenderers
         tenderers = OCDSParty.objects.filter(ocid=tender.ocid, party_role="tenderer")
 
+        # Augment context
         new_context = {
             "tender": tender,
-            "tenderers": tenderers,
+            "tenderers": [],
         }
+
+        # Lookup flags and append tenderers to context
+        context_helper = ContextHelperFunctions()
+
+        for tenderer in tenderers:
+            tenderer_context = context_helper.get_tenderer_context(tenderer)
+            new_context["tenderers"].append(tenderer_context)
+
         context.update(new_context)
         return context
 
@@ -239,30 +277,14 @@ class OCDSTendererDetailView(TemplateView):
             return context
 
         # get interested_parties
-        owners = []
-        parent_companies = []
-
-        entity_statments = BODSEntityStatement.objects.filter(entity_id=tenderer.party_identifier_id)
-
-        if entity_statments:
-            for entity_statment in entity_statments:
-                ownership_statements = BODSOwnershipStatement.objects.filter(subject_entity_statement=entity_statment.statement_id)
-                if ownership_statements:
-                    for ownership_statement in ownership_statements:
-                        interested_person_statement_id = ownership_statement.interested_person_statement_id
-                        interested_entity_statement_id = ownership_statement.interested_entity_statement_id
-                        if interested_person_statement_id:
-                            interested_person = BODSPersonStatement.objects.get(statement_id=interested_person_statement_id)
-                            owners.append(interested_person)
-                        if interested_entity_statement_id:
-                            interested_entity = BODSEntityStatement.objects.get(statement_id=interested_entity_statement_id)
-                            parent_companies.append(interested_entity)
+        bods_helper = BodsHelperFunctions()
+        interested_parties = bods_helper.get_related_bods_data_for_tenderer(tenderer)
 
         new_context = {
             "tender": tender,
             "tenderer": tenderer,
-            "owners": owners,
-            "parents": parent_companies,
+            "owners": interested_parties["interested_persons"],
+            "parents": interested_parties["interested_entities"],
 
         }
         context.update(new_context)

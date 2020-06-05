@@ -30,6 +30,7 @@ class BODSPersonStatement(pgviews.View):
     fullName = models.TextField()
     personType = models.TextField()
     identifiers_0_id = models.TextField()
+    identifiers_0_scheme = models.TextField()
     identifiers_0_schemaName = models.TextField()
 
     sql = """
@@ -37,13 +38,14 @@ class BODSPersonStatement(pgviews.View):
             b.statement_id,
             b.statement_json,
             b.statement_json ->> 'statementType' AS statement_type,
-           -- Multiple names will need to be split
-            b.statement_json -> 'names' -> 0 ->> 'fullName' AS "fullName",
-            b.statement_json ->> 'personType' as "personType",
-           -- Multiple ids will need to be split
             b.statement_json -> 'identifiers' AS identifiers_json,
+            b.statement_json -> 'identifiers' -> 0 ->> 'scheme' AS "identifiers_0_scheme",
             b.statement_json -> 'identifiers' -> 0 ->> 'id' AS identifiers_0_id,
-            b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS "identifiers_0_schemaName"
+            b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS "identifiers_0_schemaName",
+            
+           -- Person specific
+            b.statement_json -> 'names' -> 0 ->> 'fullName' AS "fullName",
+            b.statement_json ->> 'personType' as "personType"
         FROM
             bluetail_bods_personstatement_json b
         """
@@ -79,23 +81,26 @@ class BODSEntityStatement(pgviews.View):
     statement_type = models.TextField()
     entity_name = models.TextField()
     entity_type = models.TextField()
-    entity_id_scheme = models.TextField()
-    entity_id = models.TextField()
+    identifiers_0_id = models.TextField()
+    identifiers_0_scheme = models.TextField()
+    identifiers_0_schemaName = models.TextField()
     incorporatedInJurisdiction = models.TextField()
 
     sql = """
         SELECT
-                b.statement_id,
-                b.statement_json,
-                b.statement_json ->> 'statementType' AS statement_type,
-                b.statement_json ->> 'name' AS entity_name,
-                -- Multiple addresses will need to be separated
-                b.statement_json ->> 'entityType' AS entity_type,
-                b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS entity_id_scheme,
-                b.statement_json -> 'identifiers' -> 0 ->> 'id' AS entity_id,
-                b.statement_json -> 'incorporatedInJurisdiction' -> 'code' AS "incorporatedInJurisdiction"
-               FROM
-                 bluetail_bods_entitystatement_json b
+            b.statement_id,
+            b.statement_json,
+            b.statement_json ->> 'statementType' AS statement_type,
+            b.statement_json -> 'identifiers' AS identifiers_json,
+            b.statement_json -> 'identifiers' -> 0 ->> 'scheme' AS "identifiers_0_scheme",
+            b.statement_json -> 'identifiers' -> 0 ->> 'id' AS identifiers_0_id,
+            b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS "identifiers_0_schemaName",
+           
+            b.statement_json ->> 'name' AS entity_name,
+            b.statement_json ->> 'entityType' AS entity_type, 
+            b.statement_json -> 'incorporatedInJurisdiction' -> 'code' AS "incorporatedInJurisdiction"
+        FROM
+             bluetail_bods_entitystatement_json b
         WHERE b.statement_json ->> 'statementType' = 'entityStatement'
         """
 

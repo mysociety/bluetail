@@ -1,4 +1,4 @@
-identifier_schema,identifier_id,flag_name
+identifier_scheme,identifier_id,flag_name
 "Company ID","1602647563","company_id_invalid"
 "National ID","YDAZ21513405928609","person_id_matches_cabinet_minister"
 "GB-LAC","1602647563","company_id_invalid"

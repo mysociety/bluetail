@@ -32,11 +32,11 @@ def insert_flag_attachments():
         for row in reader:
             flag = models.Flag.objects.get(flag_name=row["flag_name"])
             models.FlagAttachment.objects.update_or_create(
-                identifier_schema=row["identifier_schema"],
+                identifier_scheme=row["identifier_scheme"],
                 identifier_id=row["identifier_id"],
                 flag_name=flag,
                 defaults={
-                    "identifier_schema": row["identifier_schema"],
+                    "identifier_scheme": row["identifier_scheme"],
                     "identifier_id": row["identifier_id"],
                     "flag_name": flag,
                 }

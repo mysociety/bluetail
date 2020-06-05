@@ -1,5 +1,5 @@
 {% load flag_templatetags %}
-{% get_flags company.entity_id_scheme company.entity_id as flags %}
+{% get_flags company.identifiers_0_scheme company.identifiers_0_id as flags %}
 
 <div class="card bods-scorecard">
     <h5 class="card-header d-flex align-items-center">
@@ -23,8 +23,8 @@
             <span class="scorecard-value">{{ company.entity_name }}</span>
         </li>
         <li class="list-group-item {% if flags.company_id_flags.error %}list-group-item-danger{% elif flags.company_id_flags.warning %}list-group-item-warning{% endif %}">
-            <small class="scorecard-key">{{ company.entity_id_scheme }}</small>
-            <span class="scorecard-value">{{ company.entity_id }}</span>
+            <small class="scorecard-key">{{ company.identifiers_0_scheme }}</small>
+            <span class="scorecard-value">{{ company.identifiers_0_id }}</span>
             {% for flag in flags.company_id_flags.error %}
                 {% if flag %}
                     <p class="scorecard-warning">{{ flag.flag_text }}</p>

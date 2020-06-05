@@ -36,14 +36,14 @@ class FlagAttachment(models.Model):
     """
     Model to attach Flags to a person/company identifier
     """
-    identifier_schema = models.CharField(max_length=1024)
+    identifier_scheme = models.CharField(max_length=1024)
     identifier_id = models.CharField(max_length=1024)
     flag_name = models.ForeignKey(Flag, on_delete=None)
 
     def __str__(self):
-        return "%s %s %s" % (self.identifier_schema, self.identifier_id, self.flag_name)
+        return "%s %s %s" % (self.identifier_scheme, self.identifier_id, self.flag_name)
 
     class Meta:
         app_label = 'bluetail'
         db_table = 'bluetail_flag_attachment'
-        unique_together = (("identifier_schema", "identifier_id", "flag_name"),)
+        unique_together = (("identifier_scheme", "identifier_id", "flag_name"),)
