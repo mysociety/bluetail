@@ -72,6 +72,7 @@ class ContextHelperFunctions():
             "ocid": tenderer.ocid,
             "party_id": tenderer.party_id,
             "party_name": tenderer.party_name,
+            "object": tenderer,
         }
 
         warnings = []
