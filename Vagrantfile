@@ -60,6 +60,8 @@ Vagrant.configure(2) do |config|
     # Install some of the other things we need that are just for dev
     sudo apt-get install -qq -y ruby-dev libsqlite3-dev build-essential
 
+    # TODO: We should use script/setup here!
+
     # Create a postgresql user
     sudo -u postgres psql -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"
     # Create a database
