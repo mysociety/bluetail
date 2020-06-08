@@ -15,10 +15,10 @@
 
     <div class="d-md-flex align-items-center mt-4">
         <h1 class="mr-auto mb-2">{{ tenderer.party_name }}</h1>
-      {% if total_errors or total_warnings %}
+      {% if tenderer.total_errors or tenderer.total_warnings %}
         <p class="mb-2 text-md-right" style="font-size: 1.5rem">
-            {% include "partials/application-errors-badge.html" with n=total_errors classes="mr-3" %}
-            {% include "partials/application-warnings-badge.html" with n=total_warnings classes="mr-3" %}
+            {% include "partials/application-errors-badge.html" with n=tenderer.total_errors classes="mr-3" %}
+            {% include "partials/application-warnings-badge.html" with n=tenderer.total_warnings classes="mr-3" %}
         </p>
       {% endif %}
     </div>
@@ -26,7 +26,7 @@
 
     <h2>Applicant</h2>
     <div class="scorecards">
-        {% include "partials/ocds-org.html" with company=tenderer %}
+        {% include "partials/ocds-org.html" with company=tenderer.object %}
     </div>
 
   {% if owners %}
