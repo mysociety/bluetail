@@ -9,7 +9,7 @@
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "schemeName": "Company ID",
+        "scheme": "Company ID",
         "id": "5315469852"
       }
     ],
@@ -49,7 +49,7 @@
     },
     "identifiers": [
       {
-        "schemeName": "Company ID",
+        "scheme": "Company ID",
         "id": "6428974568"
       }
     ],
@@ -78,7 +78,7 @@
     },
     "identifiers": [
       {
-        "schemeName": "Company ID",
+        "scheme": "Company ID",
         "id": "6795843617"
       }
     ],
@@ -107,7 +107,7 @@
     },
     "identifiers": [
       {
-        "schemeName": "Company ID",
+        "scheme": "Company ID",
         "id": "6948732519"
       }
     ],
@@ -223,7 +223,7 @@
     "identifiers": [
       {
         "id": "OHAQ34066217083012",
-        "schemeName": "National ID"
+        "scheme": "National ID"
       }
     ],
     "publicationDetails": {
@@ -248,7 +248,7 @@
     "identifiers": [
       {
         "id": "MOVI50755167525081",
-        "schemeName": "National ID"
+        "scheme": "National ID"
       }
     ],
     "publicationDetails": {
@@ -273,7 +273,7 @@
     "identifiers": [
       {
         "id": "NLOJ02279054534291",
-        "schemeName": "National ID"
+        "scheme": "National ID"
       }
     ],
     "publicationDetails": {
@@ -298,7 +298,7 @@
     "identifiers": [
       {
         "id": "HMCI17014140912423",
-        "schemeName": "National ID"
+        "scheme": "National ID"
       }
     ],
     "publicationDetails": {
