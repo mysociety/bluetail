@@ -18,6 +18,7 @@ class Command(BaseCommand):
         example_ocds_path = os.path.join(settings.BASE_DIR, "example_files", "ocds_tenderers.json")
         example_ocds_json = json.load(open(example_ocds_path))
 
+        logger.info("Insert sample OCDS")
         models.OCDSReleaseJSON.objects.update_or_create(
             ocid=example_ocds_json.get("ocid"),
             defaults={
@@ -27,6 +28,7 @@ class Command(BaseCommand):
         )
 
         # Insert BODS JSON
+        logger.info("Insert sample BODS")
         example_bods_path = os.path.join(settings.BASE_DIR, "example_files", "PROC-20-0001")
         files = os.listdir(example_bods_path)
 
@@ -67,7 +69,9 @@ class Command(BaseCommand):
                 logger.exception("Failed to insert example file %s", f_path)
 
         # Insert Flags
+        logger.info("Insert sample Flags")
         insert_flags()
 
         # Insert assigned Flags
+        logger.info("Insert sample FlagAttachments")
         insert_flag_attachments()
