@@ -280,9 +280,14 @@ class OCDSTendererDetailView(TemplateView):
         bods_helper = BodsHelperFunctions()
         interested_parties = bods_helper.get_related_bods_data_for_tenderer(tenderer)
 
+        # Lookup flags and append tenderers to context
+        context_helper = ContextHelperFunctions()
+
+        tenderer_context = context_helper.get_tenderer_context(tenderer)
+
         new_context = {
             "tender": tender,
-            "tenderer": tenderer,
+            "tenderer": tenderer_context,
             "owners": interested_parties["interested_persons"],
             "parents": interested_parties["interested_entities"],
 
