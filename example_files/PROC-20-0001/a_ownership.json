@@ -9,7 +9,7 @@
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "schemeName": "Company ID",
+        "scheme": "Company ID",
         "id": "1602647563"
       }
     ],
@@ -49,7 +49,7 @@
     },
     "identifiers": [
       {
-        "schemeName": "Company ID",
+        "scheme": "Company ID",
         "id": "6235874596"
       }
     ],
@@ -78,7 +78,7 @@
     },
     "identifiers": [
       {
-        "schemeName": "Company ID",
+        "scheme": "Company ID",
         "id": "6321254583"
       }
     ],
@@ -164,7 +164,7 @@
     "identifiers": [
       {
         "id": "FZDS12383607776793",
-        "schemeName": "National ID"
+        "scheme": "National ID"
       }
     ],
     "publicationDetails": {
@@ -189,7 +189,7 @@
     "identifiers": [
       {
         "id": "YDAZ21513405928609",
-        "schemeName": "National ID"
+        "scheme": "National ID"
       }
     ],
     "publicationDetails": {
@@ -214,7 +214,7 @@
     "identifiers": [
       {
         "id": "PFQY03765447964910",
-        "schemeName": "National ID"
+        "scheme": "National ID"
       }
     ],
     "publicationDetails": {

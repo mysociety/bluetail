@@ -20,7 +20,7 @@ class OCDSReleaseJSON(models.Model):
 
 class OCDSTender(pgviews.View):
     """
-    View for extracting Tender details from an OCDSReleaseJSON object
+    django-pg-views for extracting Tender details from an OCDSReleaseJSON object
     Tender as from an OCDS version 1.1 release
     https://standard.open-contracting.org/latest/en/schema/reference/#tender
     """
@@ -28,7 +28,7 @@ class OCDSTender(pgviews.View):
     # dependencies = ['bluetail.OtherView',]
     ocid = models.TextField(primary_key=True)
     release_id = models.TextField()
-    release_json = JSONField(null=True)
+    release_json = JSONField()
     title = models.TextField()
     description = models.TextField()
     value = models.FloatField()
