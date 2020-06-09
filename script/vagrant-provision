@@ -23,12 +23,12 @@ script/bootstrap
 # Give permissions to vagrant user on all the packages
 sudo chmod -R ugo+rwx /vagrant/venv
 
-if ! grep -q "SECRET_KEY" ~/.bashrc ; then
-    echo "export SECRET_KEY=$SECRET_KEY" >> /home/vagrant/.bashrc
+if ! grep "SECRET_KEY=" /home/vagrant/.bashrc ; then
+    echo "export SECRET_KEY=\"$SECRET_KEY\"" >> /home/vagrant/.bashrc
 fi
 
-if ! grep -q "DATABASE_URL=" ~/.bashrc ; then
-    echo "export DATABASE_URL=$DATABASE_URL" >> /home/vagrant/.bashrc
+if ! grep "DATABASE_URL=" /home/vagrant/.bashrc ; then
+    echo "export DATABASE_URL=\"$DATABASE_URL\"" >> /home/vagrant/.bashrc
 fi
 
 # Run migrations, insert example data, etc.
