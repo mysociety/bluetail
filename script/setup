@@ -7,9 +7,9 @@ cd `dirname $0`/..
 
 find . -name '*.pyc' -delete
 
-# Recreate database.
+# Recreate database contents.
 psql -d $DATABASE_URL -c "DROP SCHEMA IF EXISTS public CASCADE"
-psql -d $DATABASE_URL -c "create schema public"
+psql -d $DATABASE_URL -c "CREATE SCHEMA public"
 
 # Create database user if not exists.
 sudo -u postgres psql -c "SELECT 'exists' FROM pg_roles WHERE rolname='bluetail'" | grep -q 'exists' || sudo -u postgres psql -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"

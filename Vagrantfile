@@ -34,43 +34,10 @@ Vagrant.configure(2) do |config|
   end
 
   # Provision the vagrant box
-  config.vm.provision "shell", env: {"SECRET_KEY" => SECRET_KEY}, inline: <<-SHELL
-		 if ! grep -q "SECRET_KEY" ~/.bashrc ; then
-			  echo "export SECRET_KEY=$SECRET_KEY" >> /home/vagrant/.bashrc
-		fi
-	  SHELL
-  config.vm.provision "shell", env: {"DATABASE_URL" => DATABASE_URL}, inline: <<-SHELL
-		  if ! grep -q "DATABASE_URL=" ~/.bashrc ; then
-			  echo "export DATABASE_URL=$DATABASE_URL" >> /home/vagrant/.bashrc
-		fi
-	  SHELL
-
-  config.vm.provision "shell", env: {"DATABASE_URL" => DATABASE_URL}, inline: <<-SHELL
-	sudo apt-get update
-
-    cd /vagrant/bluetail
-
-    #fix dpkg-preconfigure error
-    export DEBIAN_FRONTEND=noninteractive
-    
-    # Install the packages from conf/packages
-    xargs sudo apt-get install -qq -y < conf/packages
-	xargs sudo apt-get install -qq -y < conf/dev_packages
-    # Install some of the other things we need that are just for dev
-    sudo apt-get install -qq -y ruby-dev libsqlite3-dev build-essential
-
-    # Create a postgresql user
-    sudo -u postgres psql -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"
-    # Create a database
-    sudo -u postgres psql -c "CREATE DATABASE bluetail"
-
-    # Run post-deploy actions script to update the virtualenv, install the
-    # python packages we need, migrate the db and generate the sass etc
-    script/bootstrap
-
-	# give permissions to vagrant user on all the packages
-	sudo chmod -R ugo+rwx /vagrant/venv
-  SHELL
+  config.vm.provision "shell", env: {
+    "DATABASE_URL" => DATABASE_URL,
+    "SECRET_KEY" => SECRET_KEY
+  }, path: "script/vagrant-provision"
 
   # Automatically `cd /vagrant/bluetail` on `vagrant ssh`.
   config.ssh.extra_args = ["-t", "cd /vagrant/bluetail; bash --login"]

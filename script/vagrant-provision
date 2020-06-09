@@ -1,0 +1,35 @@
+#!/bin/sh
+
+sudo apt-get update
+
+cd /vagrant/bluetail
+
+#fix dpkg-preconfigure error
+export DEBIAN_FRONTEND=noninteractive
+
+# Install the packages from conf/packages
+xargs sudo apt-get install -qq -y < conf/packages
+xargs sudo apt-get install -qq -y < conf/dev_packages
+# Install some of the other things we need that are just for dev
+sudo apt-get install -qq -y ruby-dev libsqlite3-dev build-essential
+
+# Create postgres database and user.
+sudo -u postgres psql -c "CREATE DATABASE bluetail"
+sudo -u postgres psql -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"
+
+# Set up Python packages in a virtualenv
+script/bootstrap
+
+# Give permissions to vagrant user on all the packages
+sudo chmod -R ugo+rwx /vagrant/venv
+
+if ! grep -q "SECRET_KEY" ~/.bashrc ; then
+    echo "export SECRET_KEY=$SECRET_KEY" >> /home/vagrant/.bashrc
+fi
+
+if ! grep -q "DATABASE_URL=" ~/.bashrc ; then
+    echo "export DATABASE_URL=$DATABASE_URL" >> /home/vagrant/.bashrc
+fi
+
+# Run migrations, insert example data, etc.
+script/setup
