@@ -3,12 +3,8 @@
 
 
 # add secret key to local vagrant profile
-# either use hosts BLUETAIL_SECRET_KEY variable or a quick local one
-
-secret_key_value = ENV.fetch('BLUETAIL_SECRET_KEY', 'default_secret_key')
-env_var_cmd = <<CMD
-echo "export SECRET_KEY=#{secret_key_value}" | tee -a /home/vagrant/.profile
-CMD
+SECRET_KEY = ENV.fetch('BLUETAIL_SECRET_KEY', 'default_secret_key')
+DATABASE_URL = ENV.fetch('DATABASE_URL', 'postgres://bluetail:bluetail@localhost:5432/bluetail')
 
 Vagrant.configure(2) do |config|
   # The most common configuration options are documented and commented below.
@@ -44,10 +40,24 @@ Vagrant.configure(2) do |config|
   end
 
   # Provision the vagrant box
-  config.vm.provision "shell", :inline => env_var_cmd
-  config.vm.provision "shell", path: "conf/provisioner.sh", privileged: false
-  config.vm.provision "shell", env: {"SECRET_KEY" => secret_key_value}, inline: <<-SHELL
-	sudo apt update
+  config.vm.provision "shell", inline: <<-SHELL
+		 if ! grep -q "cd /vagrant" ~/.bashrc ; then
+			echo "cd /vagrant/bluetail" >> ~/.bashrc
+		fi
+	  SHELL
+  config.vm.provision "shell", env: {"SECRET_KEY" => SECRET_KEY}, inline: <<-SHELL
+		 if ! grep -q "SECRET_KEY" ~/.bashrc ; then
+			  echo "export SECRET_KEY=$SECRET_KEY" >> /home/vagrant/.bashrc
+		fi
+	  SHELL
+  config.vm.provision "shell", env: {"DATABASE_URL" => DATABASE_URL}, inline: <<-SHELL
+		  if ! grep -q "DATABASE_URL=" ~/.bashrc ; then
+			  echo "export DATABASE_URL=$DATABASE_URL" >> /home/vagrant/.bashrc
+		fi
+	  SHELL
+
+  config.vm.provision "shell", env: {"DATABASE_URL" => DATABASE_URL}, inline: <<-SHELL
+	sudo apt-get update
 
     cd /vagrant/bluetail
 
@@ -60,8 +70,6 @@ Vagrant.configure(2) do |config|
     # Install some of the other things we need that are just for dev
     sudo apt-get install -qq -y ruby-dev libsqlite3-dev build-essential
 
-    # TODO: We should use script/setup here!
-
     # Create a postgresql user
     sudo -u postgres psql -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"
     # Create a database
@@ -69,7 +77,7 @@ Vagrant.configure(2) do |config|
 
     # Run post-deploy actions script to update the virtualenv, install the
     # python packages we need, migrate the db and generate the sass etc
-    conf/post_deploy_actions.bash
+    script/bootstrap
 
 	# give permissions to vagrant user on all the packages
 	sudo chmod -R ugo+rwx /vagrant/venv
