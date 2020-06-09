@@ -15,19 +15,13 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "sagepe/stretch"
 
-  # Enable NFS access to the disk
-  config.vm.synced_folder ".", "/vagrant/bluetail/", :nfs => true
+  config.vm.synced_folder ".", "/vagrant/bluetail/"
 
   # Speed up DNS lookups
   config.vm.provider "virtualbox" do |vb|
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "off"]
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "off"]
   end
-
-  # NFS requires a host-only network
-  # This also allows you to test via other devices (e.g. mobiles) on the same
-  # network
-  config.vm.network :private_network, ip: "10.11.12.13"
 
   # Django dev server
   config.vm.network "forwarded_port", guest: 8000, host: 8000
