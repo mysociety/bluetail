@@ -40,11 +40,6 @@ Vagrant.configure(2) do |config|
   end
 
   # Provision the vagrant box
-  config.vm.provision "shell", inline: <<-SHELL
-		 if ! grep -q "cd /vagrant" ~/.bashrc ; then
-			echo "cd /vagrant/bluetail" >> ~/.bashrc
-		fi
-	  SHELL
   config.vm.provision "shell", env: {"SECRET_KEY" => SECRET_KEY}, inline: <<-SHELL
 		 if ! grep -q "SECRET_KEY" ~/.bashrc ; then
 			  echo "export SECRET_KEY=$SECRET_KEY" >> /home/vagrant/.bashrc
@@ -82,5 +77,8 @@ Vagrant.configure(2) do |config|
 	# give permissions to vagrant user on all the packages
 	sudo chmod -R ugo+rwx /vagrant/venv
   SHELL
+
+  # Automatically `cd /vagrant/bluetail` on `vagrant ssh`.
+  config.ssh.extra_args = ["-t", "cd /vagrant/bluetail; bash --login"]
 
 end
