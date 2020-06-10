@@ -147,3 +147,10 @@ or without prompt (username: admin, password: admin)
 
     echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'admin')" | python manage.py shell
 
+
+### Testing
+
+There are just a few tests written to aid development. 
+To run use this command
+
+    script/manage test
