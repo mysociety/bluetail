@@ -2,6 +2,7 @@ import json
 import os
 
 from django.conf import settings
+from django.db.models import Q
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import DetailView, ListView, TemplateView
@@ -184,8 +185,19 @@ def tenderer_view(request):
 
 class OCDSList(ListView):
     template_name = "ocds-list.html"
-    queryset = OCDSTender.objects.order_by('-ocid')
     context_object_name = 'tenders'
+
+    def get_queryset(self):
+        queryset = OCDSTender.objects.order_by('-ocid')
+        ocid_prefixes = self.request.GET.getlist('ocid_prefix')
+
+        if ocid_prefixes:
+            query = Q()
+            for ocid_prefix in ocid_prefixes:
+                query.add(Q(ocid__startswith=ocid_prefix), Q.OR)
+            queryset = queryset.filter(query)
+
+        return queryset
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
