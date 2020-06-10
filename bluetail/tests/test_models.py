@@ -5,7 +5,6 @@ from django.conf import settings
 from django.test import TestCase
 from bluetail.models import OCDSReleaseJSON
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 PROTOTYPE_DATA_PATH = os.path.join(settings.BASE_DIR, "data", "prototype")
 
 
