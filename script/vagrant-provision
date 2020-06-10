@@ -17,8 +17,37 @@ sudo apt-get install -qq -y ruby-dev libsqlite3-dev build-essential
 sudo -u postgres psql -c "CREATE DATABASE bluetail"
 sudo -u postgres psql -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"
 
-# Set up Python packages in a virtualenv
-script/bootstrap
+# pyenv setup
+if [ ! -f "/home/vagrant/.pyenv/bin/pyenv"]; then
+  curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash;
+fi
+
+if ! grep "pyenv init" /home/vagrant/.bashrc; then
+    echo '
+export PATH="/home/vagrant/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+' >> /home/vagrant/.bashrc
+fi
+
+/home/vagrant/.bashrc
+
+pyenv install 3.6.10
+pyenv global 3.6.10
+## pipenv setup
+#if [ ! -f "/home/vagrant/.local/bin/pipenv"]; then
+pip install pipenv
+#fi
+
+
+if ! grep '$PATH:/$HOME/.local/bin' /home/vagrant/.bashrc; then
+    echo '
+export PATH="$PATH:/$HOME/.local/bin"
+' >> /home/vagrant/.bashrc
+fi
+
+## Set up Python packages in a virtualenv
+#script/bootstrap
 
 # Give permissions to vagrant user on all the packages
 sudo chmod -R ugo+rwx /vagrant/venv
@@ -32,4 +61,4 @@ if ! grep "DATABASE_URL=" /home/vagrant/.bashrc ; then
 fi
 
 # Run migrations, insert example data, etc.
-script/setup
+#script/setup

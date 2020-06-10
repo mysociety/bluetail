@@ -1,13 +1,3 @@
 #!/bin/sh
 
-default_venv_activate="$(dirname "$0")/../../venv/bin/activate"
-managepy="$(dirname "$0")/../manage.py"
-
-# If we aren’t already in a virtualenv, but there’s a suitable one
-# in ../venv (eg: when we’re running in the Vagrant VM), activate it.
-if [ -z "$VIRTUAL_ENV" ] && [ -e "$default_venv_activate" ]
-then
-    . $default_venv_activate
-fi
-
-python3 "$managepy" "$@"
+pipenv run python manage.py "$@"

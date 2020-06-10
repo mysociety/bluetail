@@ -37,7 +37,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", env: {
     "DATABASE_URL" => DATABASE_URL,
     "SECRET_KEY" => SECRET_KEY
-  }, path: "script/vagrant-provision"
+  }, path: "script/vagrant-provision", privileged: false
 
   # Automatically `cd /vagrant/bluetail` on `vagrant ssh`.
   config.ssh.extra_args = ["-t", "cd /vagrant/bluetail; bash --login"]
