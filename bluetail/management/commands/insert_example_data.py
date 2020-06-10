@@ -10,13 +10,16 @@ from bluetail.tests.fixtures import insert_flags, insert_flag_attachments
 
 logger = logging.getLogger(__name__)
 
+DATA_DIR = os.path.join(settings.BASE_DIR, "data")
+
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         """Add dummy example data to database for demo."""
-        # Insert OCDS JSON
-        example_ocds_path = os.path.join(settings.BASE_DIR, "example_files", "ocds_tenderers.json")
+        # Insert PROTOTYPE OCDS JSON
+        example_ocds_path = os.path.join(DATA_DIR, "prototype", "ocds", "ocds_tenderers_package.json")
         example_ocds_json = json.load(open(example_ocds_path))
+        example_ocds_json = example_ocds_json["releases"][0]
 
         logger.info("Insert sample OCDS")
         models.OCDSReleaseJSON.objects.update_or_create(
@@ -29,7 +32,7 @@ class Command(BaseCommand):
 
         # Insert BODS JSON
         logger.info("Insert sample BODS")
-        example_bods_path = os.path.join(settings.BASE_DIR, "example_files", "PROC-20-0001")
+        example_bods_path = os.path.join(DATA_DIR, "prototype", "bods", "PROC-20-0001")
         files = os.listdir(example_bods_path)
 
         for f in files:
