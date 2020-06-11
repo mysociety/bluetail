@@ -39,6 +39,14 @@ class Command(BaseCommand):
             except:
                 logger.exception("Failed to insert example file %s", f_path)
 
+        # Insert Flags
+        logger.info("Insert sample Flags")
+        insert_flags()
+
+        # Insert assigned Flags
+        logger.info("Insert sample FlagAttachments")
+        insert_flag_attachments()
+
 
         # Insert CF Data
 
@@ -46,11 +54,7 @@ class Command(BaseCommand):
         logger.info("Insert sample OCDS")
         cf_ocds_path = os.path.join(DATA_DIR, "contracts_finder", "ocds")
 
-        for filename in glob.iglob(cf_ocds_path + '**/*', recursive=True):
-            print(filename)
-
         for root, dirs, files in os.walk(cf_ocds_path):
-
             for f in files:
                 try:
                     f_path = os.path.join(root, f)
@@ -59,22 +63,14 @@ class Command(BaseCommand):
                     logger.exception("Failed to insert file %s", f_path)
 
         # Insert BODS JSON
-        # logger.info("Insert sample BODS")
-        # example_bods_path = os.path.join(DATA_DIR, "prototype", "bods", "PROC-20-0001")
-        # files = os.listdir(example_bods_path)
-        #
-        # for f in files:
-        #     try:
-        #         f_path = os.path.join(example_bods_path, f)
-        #         upsert_helper.upsert_bods_data(f_path)
-        #
-        #     except:
-        #         logger.exception("Failed to insert example file %s", f_path)
+        logger.info("Insert sample BODS")
+        cf_bods_path = os.path.join(DATA_DIR, "contracts_finder", "bods")
 
-        # Insert Flags
-        logger.info("Insert sample Flags")
-        insert_flags()
+        for root, dirs, files in os.walk(cf_bods_path):
+            for f in files:
+                try:
+                    f_path = os.path.join(root, f)
+                    upsert_helper.upsert_bods_data(f_path)
+                except:
+                    logger.exception("Failed to insert file %s", f_path)
 
-        # Insert assigned Flags
-        logger.info("Insert sample FlagAttachments")
-        insert_flag_attachments()

@@ -17,6 +17,16 @@ For speed of setup and avoiding complexity some assumptions are made on the data
 
 ## Data Summary
 
+The `script/setup` and `script/insert_example_data` commands will insert all the sample data from these directories into the database
+
+     /bluetail/data/prototype/ocds
+     /bluetail/data/prototype/bods
+     /bluetail/data/prototype/flags
+     /bluetail/data/contracts_finder/ocds
+     /bluetail/data/contracts_finder/bods
+     /bluetail/data/contracts_finder/flags
+     
+
 ### Prototype data
 
 This data is replicated from the original prototype by MySociety here https://mysociety.github.io/bods-dashboard-prototype/
