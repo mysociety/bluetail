@@ -8,7 +8,7 @@ from django.http import HttpResponse
 from django.views.generic import DetailView, ListView, TemplateView
 
 from bluetail.helpers import BodsHelperFunctions, FlagHelperFunctions, ContextHelperFunctions
-from bluetail.models import BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON, OCDSTender, OCDSParty, BODSEntityStatement, \
+from bluetail.models import OCDSTender, OCDSParty, BODSEntityStatement, \
     BODSOwnershipStatement, BODSPersonStatement
 
 
@@ -299,17 +299,17 @@ class OCDSTendererDetailView(TemplateView):
 
 class BODSPersonStatementView(DetailView):
     template_name = "bods_statement.html"
-    model = BODSPersonStatementJSON
-    queryset = BODSPersonStatementJSON.objects.all()
+    model = BODSPersonStatement
+    queryset = BODSPersonStatement.objects.all()
 
 
 class BODSEntityStatementView(DetailView):
     template_name = "bods_statement.html"
-    model = BODSEntityStatementJSON
-    queryset = BODSEntityStatementJSON.objects.all()
+    model = BODSEntityStatement
+    queryset = BODSEntityStatement.objects.all()
 
 
 class BODSOwnershipStatementView(DetailView):
     template_name = "bods_statement.html"
-    model = BODSOwnershipStatementJSON
-    queryset = BODSOwnershipStatementJSON.objects.all()
+    model = BODSOwnershipStatement
+    queryset = BODSOwnershipStatement.objects.all()

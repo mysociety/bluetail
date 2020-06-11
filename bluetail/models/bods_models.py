@@ -4,17 +4,13 @@ from django.db import models
 from django_pgviews import view as pgviews
 
 
-class BODSPersonStatementJSON(models.Model):
-    """
-    Model to store BODS Person Statement JSON.
-    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#person-statement
-    """
+class BODSStatementJSON(models.Model):
     statement_id = models.TextField(primary_key=True)
     statement_json = JSONField()
 
     class Meta:
         app_label = 'bluetail'
-        db_table = 'bluetail_bods_personstatement_json'
+        db_table = 'bluetail_bods_statement_json'
 
 
 class BODSPersonStatement(pgviews.View):
@@ -47,27 +43,14 @@ class BODSPersonStatement(pgviews.View):
             b.statement_json -> 'names' -> 0 ->> 'fullName' AS "fullName",
             b.statement_json ->> 'personType' as "personType"
         FROM
-            bluetail_bods_personstatement_json b
+            bluetail_bods_statement_json b
+        WHERE b.statement_json ->> 'statementType' = 'personStatement'
         """
 
     class Meta:
         managed = False
         app_label = 'bluetail'
         db_table = 'bluetail_bods_personstatement_view'
-
-
-
-class BODSEntityStatementJSON(models.Model):
-    """
-    Model to store BODS Entity Statement JSON.
-    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#entity-statement
-    """
-    statement_id = models.TextField(primary_key=True)
-    statement_json = JSONField()
-
-    class Meta:
-        app_label = 'bluetail'
-        db_table = 'bluetail_bods_entitystatement_json'
 
 
 class BODSEntityStatement(pgviews.View):
@@ -100,7 +83,7 @@ class BODSEntityStatement(pgviews.View):
             b.statement_json ->> 'entityType' AS entity_type, 
             b.statement_json -> 'incorporatedInJurisdiction' -> 'code' AS "incorporatedInJurisdiction"
         FROM
-             bluetail_bods_entitystatement_json b
+             bluetail_bods_statement_json b
         WHERE b.statement_json ->> 'statementType' = 'entityStatement'
         """
 
@@ -108,19 +91,6 @@ class BODSEntityStatement(pgviews.View):
         managed = False
         app_label = 'bluetail'
         db_table = 'bluetail_bods_entitystatement_view'
-
-
-class BODSOwnershipStatementJSON(models.Model):
-    """
-    Model to store BODS Ownership-or-control Statement JSON.
-    http://standard.openownership.org/en/0.2.0/schema/schema-browser.html#ownership-or-control-statement
-    """
-    statement_id = models.TextField(primary_key=True)
-    statement_json = JSONField(null=True)
-
-    class Meta:
-        app_label = 'bluetail'
-        db_table = 'bluetail_bods_ownershipstatement_json'
 
 
 class BODSOwnershipStatement(pgviews.View):
@@ -154,7 +124,7 @@ class BODSOwnershipStatement(pgviews.View):
             b.statement_json -> 'subject' ->> 'describedByEntityStatement' AS subjectentity_statement_id,
             b.statement_json -> 'interestedParty' ->> 'describedByPersonStatement' AS interested_person_statement_id,
             b.statement_json -> 'interestedParty' ->> 'describedByEntityStatement' AS interested_entity_statement_id
-        FROM bluetail_bods_ownershipstatement_json b
+        FROM bluetail_bods_statement_json b
         WHERE b.statement_json ->> 'statementType' = 'ownershipOrControlStatement'
         """
 
@@ -163,22 +133,3 @@ class BODSOwnershipStatement(pgviews.View):
         app_label = 'bluetail'
         db_table = 'bluetail_bods_ownershipstatement_view'
 
-
-# Testing nested PG views to use a single BODS JSON store
-
-# class BODSPersonStatementJSON_view(models.Model):
-#     projection = ['bluetail.BODSPersonStatementJSON.*',]
-#     statement_id = models.TextField(primary_key=True)
-#     statement_json = JSONField(null=True)
-#
-#     sql = """
-#         SELECT
-#             statement_id,
-#             statement_json
-#         FROM bluetail_bods_personstatement_json b
-#         WHERE b.statement_json ->> 'statementType' = 'personStatement'
-#         """
-#
-#     class Meta:
-#         app_label = 'bluetail'
-#         db_table = 'bluetail_bods_personstatement_view'

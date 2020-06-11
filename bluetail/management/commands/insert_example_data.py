@@ -1,6 +1,8 @@
+import glob
 import json
 import logging
 import os
+import shutil
 
 from django.core.management import BaseCommand
 from django.conf import settings
@@ -36,6 +38,38 @@ class Command(BaseCommand):
 
             except:
                 logger.exception("Failed to insert example file %s", f_path)
+
+
+        # Insert CF Data
+
+        # Insert CF OCDS JSON
+        logger.info("Insert sample OCDS")
+        cf_ocds_path = os.path.join(DATA_DIR, "contracts_finder", "ocds")
+
+        for filename in glob.iglob(cf_ocds_path + '**/*', recursive=True):
+            print(filename)
+
+        for root, dirs, files in os.walk(cf_ocds_path):
+
+            for f in files:
+                try:
+                    f_path = os.path.join(root, f)
+                    upsert_helper.upsert_ocds_data(f_path)
+                except:
+                    logger.exception("Failed to insert file %s", f_path)
+
+        # Insert BODS JSON
+        # logger.info("Insert sample BODS")
+        # example_bods_path = os.path.join(DATA_DIR, "prototype", "bods", "PROC-20-0001")
+        # files = os.listdir(example_bods_path)
+        #
+        # for f in files:
+        #     try:
+        #         f_path = os.path.join(example_bods_path, f)
+        #         upsert_helper.upsert_bods_data(f_path)
+        #
+        #     except:
+        #         logger.exception("Failed to insert example file %s", f_path)
 
         # Insert Flags
         logger.info("Insert sample Flags")

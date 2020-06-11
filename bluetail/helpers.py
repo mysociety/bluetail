@@ -154,6 +154,10 @@ class UpsertDataHelpers:
             )
 
     def upsert_bods_data(self, bods_json_path_or_string):
+        """
+        Takes a path to an BODS JSON or a string containing BODS JSON statement array
+        Upserts all statements to the Bluetail database
+        """
 
         if os.path.exists(bods_json_path_or_string):
             bods_json = json.load(open(bods_json_path_or_string))
@@ -164,27 +168,10 @@ class UpsertDataHelpers:
             statement_id = statement.get("statementID")
             statement_type = statement.get("statementType")
             logger.info("Inserting statement: %s %s", statement_id, statement_type)
-            if statement_type == "entityStatement":
-                models.BODSEntityStatementJSON.objects.update_or_create(
-                    statement_id=statement_id,
-                    defaults={
-                        # "statement_id": statement_id,
-                        "statement_json": statement,
-                    }
-                )
-            elif statement_type == 'ownershipOrControlStatement':
-                models.BODSOwnershipStatementJSON.objects.update_or_create(
-                    statement_id=statement_id,
-                    defaults={
-                        # "statement_id": statement.get("statementID"),
-                        "statement_json": statement,
-                    }
-                )
-            elif statement_type == "personStatement":
-                models.BODSPersonStatementJSON.objects.update_or_create(
-                    statement_id=statement_id,
-                    defaults={
-                        # "statement_id": statement.get("statementID"),
-                        "statement_json": statement,
-                    }
-                )
+
+            models.BODSStatementJSON.objects.update_or_create(
+                statement_id=statement_id,
+                defaults={
+                    "statement_json": statement,
+                }
+            )
