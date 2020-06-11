@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_bods_entitystatement_json</OriginalElement>
+  <nodes>
+    <node x="810.5094117647058" y="736.9541176470589">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_bods_entitystatement_json</node>
+    <node x="-89.50117647058823" y="343.96">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_ocds_parties_view</node>
+    <node x="1132.6717647058822" y="453.4811764705883">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_bods_personstatement_view</node>
+    <node x="69.48117647058814" y="722.8223529411764">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_ocds_release_json</node>
+    <node x="143.05294117647077" y="340.34000000000003">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_ocds_tender_view</node>
+    <node x="-325.5682352941177" y="701.8776470588234">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_flag</node>
+    <node x="475.76941176470575" y="362.7152941176471">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_bods_ownershipstatement_view</node>
+    <node x="-359.98941176470584" y="485.7670588235295">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_flag_attachment</node>
+    <node x="474.50941176470576" y="736.9541176470589">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_bods_ownershipstatement_json</node>
+    <node x="1125.8305882352938" y="737.6164705882353">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_bods_personstatement_json</node>
+    <node x="808.250588235294" y="449.94823529411764">de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_bods_entitystatement_view</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_flag_attachment" target="de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_flag">
+      <point x="0.0" y="-69.5" />
+      <point x="0.0" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9635445877734156" x="521.5" y="590.5" />
+  <SelectedNodes>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_bods_ownershipstatement_view</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_flag</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_bods_personstatement_view</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_ocds_tender_view</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_bods_entitystatement_view</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_bods_ownershipstatement_json</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_ocds_release_json</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.VIEW:bluetail.public.bluetail_ocds_parties_view</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_bods_entitystatement_json</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_bods_personstatement_json</node>
+    <node>de18d7f6-c4d7-4fee-9a2a-2e4aef163469.TABLE:bluetail.public.bluetail_flag_attachment</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
