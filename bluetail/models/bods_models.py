@@ -27,7 +27,7 @@ class BODSPersonStatement(pgviews.View):
     personType = models.TextField()
     identifiers_0_id = models.TextField()
     identifiers_0_scheme = models.TextField()
-    identifiers_0_schemaName = models.TextField()
+    identifiers_0_schemeName = models.TextField()
 
     sql = """
         SELECT
@@ -37,7 +37,7 @@ class BODSPersonStatement(pgviews.View):
             b.statement_json -> 'identifiers' AS identifiers_json,
             b.statement_json -> 'identifiers' -> 0 ->> 'scheme' AS "identifiers_0_scheme",
             b.statement_json -> 'identifiers' -> 0 ->> 'id' AS identifiers_0_id,
-            b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS "identifiers_0_schemaName",
+            b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS "identifiers_0_schemeName",
             
            -- Person specific
             b.statement_json -> 'names' -> 0 ->> 'fullName' AS "fullName",
@@ -66,7 +66,7 @@ class BODSEntityStatement(pgviews.View):
     entity_type = models.TextField()
     identifiers_0_id = models.TextField()
     identifiers_0_scheme = models.TextField()
-    identifiers_0_schemaName = models.TextField()
+    identifiers_0_schemeName = models.TextField()
     incorporatedInJurisdiction = models.TextField()
 
     sql = """
@@ -77,7 +77,7 @@ class BODSEntityStatement(pgviews.View):
             b.statement_json -> 'identifiers' AS identifiers_json,
             b.statement_json -> 'identifiers' -> 0 ->> 'scheme' AS "identifiers_0_scheme",
             b.statement_json -> 'identifiers' -> 0 ->> 'id' AS identifiers_0_id,
-            b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS "identifiers_0_schemaName",
+            b.statement_json -> 'identifiers' -> 0 ->> 'schemeName' AS "identifiers_0_schemeName",
            
             b.statement_json ->> 'name' AS entity_name,
             b.statement_json ->> 'entityType' AS entity_type, 

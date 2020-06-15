@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                 ('entity_type', models.TextField()),
                 ('identifiers_0_id', models.TextField()),
                 ('identifiers_0_scheme', models.TextField()),
-                ('identifiers_0_schemaName', models.TextField()),
+                ('identifiers_0_schemeName', models.TextField()),
                 ('incorporatedInJurisdiction', models.TextField()),
             ],
             options={
@@ -55,7 +55,7 @@ class Migration(migrations.Migration):
                 ('personType', models.TextField()),
                 ('identifiers_0_id', models.TextField()),
                 ('identifiers_0_scheme', models.TextField()),
-                ('identifiers_0_schemaName', models.TextField()),
+                ('identifiers_0_schemeName', models.TextField()),
             ],
             options={
                 'db_table': 'bluetail_bods_personstatement_view',
