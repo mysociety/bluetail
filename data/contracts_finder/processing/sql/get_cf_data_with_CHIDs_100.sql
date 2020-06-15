@@ -1,5 +1,4 @@
-
--- Get distinct CF JSON with >2 ssuppliers and at least 1 supplier linnked to orgs_lookup
+-- Get distinct CF JSON with >2 suppliers and at least 1 supplier linnked to orgs_lookup
 SELECT DISTINCT
     t.json                               AS ocds_json,
     t.json -> 'releases' -> 0 ->> 'ocid' AS ocid,

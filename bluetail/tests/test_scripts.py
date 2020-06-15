@@ -2,6 +2,7 @@ import os
 import subprocess
 from unittest import TestCase
 from django.conf import settings
+from django.core.management import call_command
 
 SCRIPTS_DIR = os.path.join(settings.BASE_DIR, "script")
 
@@ -26,3 +27,6 @@ class TestFlagHelperFunctions(TestCase):
         setup_script_path = os.path.join(SCRIPTS_DIR, "setup")
 
         subprocess.call(setup_script_path, env=my_env, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
+
+        # We could use call_command() here instead, or test both
+        # call_command(setup_script_path, env=my_env, stderr=subprocess.PIPE, stdout=subprocess.PIPE)

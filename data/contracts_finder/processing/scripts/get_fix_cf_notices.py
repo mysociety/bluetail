@@ -31,10 +31,11 @@ OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
 
 def get_company_statements(
         company_id,
+        scheme='GB-COH',
         elastic_conn=Elasticsearch(ELASTICSEARCH_7_TEST, verify_certs=True),
 ):
     s = Search(using=elastic_conn, index="bods") \
-        .filter("term", identifiers__scheme__keyword='GB-COH') \
+        .filter("term", identifiers__scheme__keyword=scheme) \
         .filter("term", identifiers__id__keyword=company_id)
     res = s.execute()
     statements = [s["_source"] for s in res.hits.hits]
