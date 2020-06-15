@@ -3,6 +3,11 @@
     <div class="ml-3">
         {{ name }}
     </div>
+    {% if tenderer.object.party_identifier_scheme %}
+        <div class="ml-3">
+            ({{ tenderer.object.party_identifier_scheme }}: {{ tenderer.object.party_identifier_id }})
+        </div>
+    {% endif %}
     <div class="ml-3">
         {% if errors %}
             {% include "partials/application-errors-badge.html" with n=errors %}

@@ -12,7 +12,8 @@ It is included here as demonstration of work undertaken to prepare Contracts Fin
 Including:
 
 - Upgrade to OCDS 1.1 
-- Link Orgs to Companies House 
+- Link Orgs to SN Companies House matches 
+    - Link only matches to GB-COH register with valid IDs (length=8)
 
 
 ## CSV data 
