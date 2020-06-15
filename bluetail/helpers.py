@@ -135,7 +135,7 @@ class UpsertDataHelpers:
         if ocds_json.get("records"):
             # We have a record package
             for record in ocds_json["records"]:
-                compiledRelease = ocds_json["compiledRelease"]
+                compiledRelease = record["compiledRelease"]
                 ocds_releases.append(compiledRelease)
 
         if ocds_json.get("releases"):
