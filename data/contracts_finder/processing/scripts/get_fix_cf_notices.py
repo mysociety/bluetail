@@ -81,6 +81,7 @@ def get_json_from_db(conn):
             INNER JOIN ocds.orgs_lookup_distinct orgs_supplier ON (orgs_supplier.org_string = upper(supplier ->> 'name'))
             WHERE TRUE
                 AND orgs_supplier.scheme='GB-COH'
+                AND length(orgs_supplier.id) = 8
                 AND jsonb_array_length(award -> 'suppliers') > 2
                 AND award <> 'null'
                 AND date_created>'2020-01-01'
