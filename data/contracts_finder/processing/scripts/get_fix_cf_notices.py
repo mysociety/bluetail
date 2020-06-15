@@ -37,6 +37,7 @@ def get_company_statements(
     s = Search(using=elastic_conn, index="bods") \
         .filter("term", identifiers__scheme__keyword=scheme) \
         .filter("term", identifiers__id__keyword=company_id)
+
     res = s.execute()
     statements = [s["_source"] for s in res.hits.hits]
     return statements
@@ -79,8 +80,8 @@ def get_json_from_db(conn):
             LATERAL jsonb_array_elements(award -> 'suppliers') WITH ORDINALITY AS a(supplier, aw_supplier_array_id)
             INNER JOIN ocds.orgs_lookup_distinct orgs_supplier ON (orgs_supplier.org_string = upper(supplier ->> 'name'))
             WHERE TRUE
+                AND orgs_supplier.scheme='GB-COH'
                 AND jsonb_array_length(award -> 'suppliers') > 2
-                -- AND jsonb_array_length(award -> 'suppliers') < 30
                 AND award <> 'null'
                 AND date_created>'2020-01-01'
             limit 100
@@ -128,12 +129,15 @@ def get_and_insert_1_1_json(row):
         logging.debug('Failed to get 1.1 OCDS', exc_info=True)
 
 
-def get_1_1_ocds(conn):
+def get_1_1_ocds(conn, schema, table, limit=None):
+    """ Get converted 1.1 OCDS notices
+     """
     query = """
     SELECT ocds_json, ocid
-    FROM scrap.cf_ocds_1_1
-    LIMIT 100
-    """
+    FROM %s.%s
+    """ % (schema, table)
+    if limit:
+        query += ' LIMIT %s' % limit
     cursor = conn.cursor()
     cursor.execute(query)
     record = cursor.fetchall()
@@ -154,38 +158,41 @@ def match_supplier_info(conn, supplier):
 
 def update_parties(ocdsjson):
     """ Change suppliers to tenderers """
+
+    # TODO check for parties having multiple roles
     parties = ocdsjson['releases'][0]['parties']
     tenderers = []
-    j = 0
     for i, party in enumerate(parties):
         if 'supplier' in party['roles']:
+
             ocdsjson['releases'][0]['parties'][i]['roles'][0] = 'tenderer'
             supplier = party['name']
-            sup_info = match_supplier_info(oo_connection, supplier)
 
+            sup_info = match_supplier_info(oo_connection, supplier)
 
             # Skips adding supplier if not found in Companies House
             if not sup_info:
                 continue
 
             # Skips adding supplier if not found in BODS elastic index
-            if not get_company_statements(sup_info[0][0]):
+            bodsmatch = get_company_statements(sup_info[0][0])
+            if not bodsmatch:
                 continue
 
-            # removing cf added value (?)
-            del ocdsjson['releases'][0]['parties'][i]['x_awardValue']
+            ocdsjson['releases'][0]['parties'][i]['id'] = str(i)
 
-            # Adding supplier info from Companies house
-            ocdsjson['releases'][0]['parties'][i]['identifier'] = {"id": sup_info[0][0],
-                                                                   "scheme": sup_info[0][1],
-                                                                   "legalName": sup_info[0][2]}
+            try:
+                # Adding supplier info from Companies house
+                ocdsjson['releases'][0]['parties'][i]['identifier'] = {"id": sup_info[0][0],
+                                                                       "scheme": sup_info[0][1],
+                                                                       "legalName": sup_info[0][2]}
+            except:
+                logging.info('No CH match')
 
-            ocdsjson['releases'][0]['parties'][i]['id'] = str(j)
             tenderers.append({
-                'id': str(j),
+                'id': str(i),
                 'name': supplier
             })
-            j += 1
 
     # print('Sucessfully matched tenders:', len(tenderers))
     ocdsjson['releases'][0]['tender']['numberOfTenderers'] = len(tenderers)
@@ -220,26 +227,20 @@ def fix_dates(d_json, aws):
         traceback.print_exc()
         logging.debug('No contract dates found')
 
-    # json['releases'][0]['tender']["contractPeriod"]['endDate'] = {
-    #           "startDate": "2020-06-01T00:00:00Z",
-    #           "endDate": "2021-06-01T23:59:59Z"
-    # }
-
     return d_json
 
 
 def aws_to_tender(json_ocds):
-    """ Converting award to tender """
+    """ Converts a Contracts Finder award to tender """
 
-    award_info = json_ocds['releases'][0]['awards'][0]
-
-    # Change to tender
-    del json_ocds['releases'][0]['awards']
+    awards = json_ocds['releases'][0]['awards']
+    if len(awards) > 1:
+        logging.warning('Notice contains multiple awards which are not currently processed')
+    award_info = awards[0]
     json_ocds['releases'][0]['tag'][0] = 'tender'
 
     json_ocds = update_parties(json_ocds)
     json_ocds = fix_dates(json_ocds, award_info)
-
     return json_ocds
 
 
@@ -288,13 +289,14 @@ if __name__ == '__main__':
     oo_connection = connect_from_url(OPENOPPS_DB_URL)
 
     # Getting the cf notices as they are, converting into 1.1
-    response = get_json_from_db(oo_connection)
-    for row in response:
-        get_and_insert_1_1_json(row)
+    # response = get_json_from_db(oo_connection)
+    # for row in response:
+    #     get_and_insert_1_1_json(row)
 
-    response = get_1_1_ocds(local_connection)
+    response = get_1_1_ocds(local_connection, 'scrap', 'cf_ocds_1_1', limit=100)
     for row in response:
         tenders_json = aws_to_tender(row[0])
+
         if tenders_json['releases'][0]['tender']['numberOfTenderers'] < 2:
             continue
 
