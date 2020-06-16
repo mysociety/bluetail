@@ -3,13 +3,6 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
-[dev-packages]
-# Used for scripts to gather and process Contracts Finder data
-ocdskit = "*"
-pandas = "*"
-elasticsearch = "<8"
-elasticsearch_dsl = "*"
-
 [packages]
 django = ">=2.2,<2.3"
 markdown = "==2.6.8"
@@ -35,6 +28,13 @@ whitenoise = "==5.0.1"
 dj-database-url = "==0.5.0"
 # Bluetail specific
 django-pgviews-redux = "==0.6.0"
+
+[dev-packages]
+# Used for scripts to gather and process Contracts Finder data
+ocdskit = "*"
+pandas = "*"
+elasticsearch = "<8"
+elasticsearch_dsl = "*"
 
 [requires]
 python_version = "3.6"
