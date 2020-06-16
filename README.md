@@ -148,9 +148,39 @@ or without prompt (username: admin, password: admin)
     echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'admin')" | python manage.py shell
 
 
+### Deployment to Heroku 
+
+The Heroku-GitHub integration does not work with `git-submodules` 
+(Related issue in Notion: https://www.notion.so/spendnetwork/Fix-COLLECTSTATIC-on-Heroku-deployment-814cd676c81c41aba1b622b4a8a161bb)
+
+So to deploy we need to push to the Heroku `bluetail` app git remote manually.
+
+This is easiest done using the Heroku CLI tools. https://devcenter.heroku.com/articles/heroku-cli
+
+1. Log in to Heroku CLI (https://devcenter.heroku.com/articles/heroku-cli#getting-started)
+2. Add the Heroku app git remote to your git clone
+    
+    Execute this command in your bluetail clone root directory
+            
+        heroku git:remote --app bluetail
+
+3. Force push your branch to the Heroku remote `master` branch.
+
+        git push heroku master:master --force
+        
+    3. Note you can push any local branch, but it must be pushed to the Heroku remote `master` branch to deploy. 
+        
+            git push heroku [local_branch_to_push]:master --force
+
+4. (Optional) Run the setup script to reset the Heroku database.
+
+        heroku run "script/setup"
+
 ### Testing
 
 There are just a few tests written to aid development. 
 To run use this command
 
     script/manage test
+    
+    
