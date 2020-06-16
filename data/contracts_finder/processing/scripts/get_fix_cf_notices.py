@@ -106,8 +106,7 @@ def insert_1_1_json(json, source_id, ocid, conn):
         conn.commit()
 
     except:
-        traceback.print_exc()
-        # logging.info('Failed to insert 1.1 OCDS', exc_info=1)
+        logging.info('Failed to insert 1.1 OCDS', exc_info=True)
 
 
 def get_and_insert_1_1_json(row):
@@ -166,20 +165,21 @@ def update_parties(ocdsjson):
     for i, party in enumerate(parties):
         if 'supplier' in party['roles']:
 
-            ocdsjson['releases'][0]['parties'][i]['roles'][0] = 'tenderer'
             supplier = party['name']
-
             sup_info = match_supplier_info(oo_connection, supplier)
 
             # Skips adding supplier if not found in Companies House
             if not sup_info:
+                del ocdsjson['releases'][0]['parties'][i]
                 continue
 
             # Skips adding supplier if not found in BODS elastic index
             bodsmatch = get_company_statements(sup_info[0][0])
             if not bodsmatch:
+                del ocdsjson['releases'][0]['parties'][i]
                 continue
 
+            ocdsjson['releases'][0]['parties'][i]['roles'][0] = 'tenderer'
             ocdsjson['releases'][0]['parties'][i]['id'] = str(i)
 
             try:
@@ -225,8 +225,7 @@ def fix_dates(d_json, aws):
                 d_json['releases'][0]['tender']["contractPeriod"]['endDate'] = item['dueDate']
         del d_json['releases'][0]['tender']['milestones']
     except:
-        traceback.print_exc()
-        logging.debug('No contract dates found')
+        logging.debug('No contract dates found', exc_info=True)
 
     return d_json
 
@@ -305,6 +304,9 @@ if __name__ == '__main__':
         clean_ocds_json = del_nulls(tenders_json)
         print(json.dumps(clean_ocds_json))
         insert_clean_1_1_tenders(clean_ocds_json, local_connection)
+        ocid = clean_ocds_json['releases'][0]['ocid']
+        with open('/Users/erinclark/git/bluetail/data/contracts_finder/processing/json_1_1_bods_match/%s.json' % ocid, 'w') as dataloc:
+            dataloc.write(json.dumps(clean_ocds_json))
 
     oo_connection.close()
     local_connection.close()
