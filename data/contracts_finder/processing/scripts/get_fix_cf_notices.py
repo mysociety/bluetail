@@ -28,7 +28,7 @@ from ocdskit.upgrade import upgrade_10_11
 ELASTICSEARCH_7_TEST = os.getenv("ELASTICSEARCH_7_TEST")
 DATABASE_URL = os.environ.get('DATABASE_URL')
 OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
-OCDS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "ocds", "json_1_1_bods_match")
+OCDS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing")
 
 
 def get_company_statements(
@@ -87,7 +87,7 @@ def get_json_from_db(conn):
                 AND jsonb_array_length(award -> 'suppliers') > 2
                 AND award <> 'null'
                 AND date_created>'2020-01-01'
-            limit 100
+                AND date_created<'2020-06-01'
             ;
     """
     cursor = conn.cursor()
@@ -119,13 +119,10 @@ def get_and_insert_1_1_json(row):
 
         # Fixing OCDS errors
         rowjson = fix_cf_supplier_ids(rowjson)
-        print(rowjson)
 
         json_1_1 = upgrade_10_11(json.loads(json.dumps(rowjson), object_pairs_hook=OrderedDict))
         json_1_1 = json.dumps(json_1_1)
-        print(json_1_1)
 
-        # TODO change to main conn
         insert_1_1_json(json_1_1, row[1], row[2], local_connection)
     except:
         logging.debug('Failed to get 1.1 OCDS', exc_info=True)
@@ -137,6 +134,7 @@ def get_1_1_ocds(conn, schema, table, limit=None):
     query = """
     SELECT ocds_json, ocid
     FROM %s.%s
+    ORDER BY ocid
     """ % (schema, table)
     if limit:
         query += ' LIMIT %s' % limit
@@ -158,46 +156,47 @@ def match_supplier_info(conn, supplier):
     return cursor.fetchall()
 
 
-def update_parties(ocdsjson):
+def update_parties(ocdsjson, dataset='BODS'):
     """ Change suppliers to tenderers """
 
-    # TODO check for parties having multiple roles
     parties = ocdsjson['releases'][0]['parties']
     newparties = []
     tenderers = []
+
     for i, party in enumerate(parties):
-        if 'buyer' in party['roles']:
-            newparties.append(party)
         if 'supplier' in party['roles']:
 
             supplier = party['name']
             sup_info = match_supplier_info(oo_connection, supplier)
 
-            # Skips adding supplier if not found in Companies House
-            if not sup_info:
-                continue
+            if dataset in ('BODS', 'suppliers'):
+                # Skips adding supplier if a match isn't found in Companies House
+                if not sup_info:
+                    continue
 
-            # Skips adding supplier if not found in BODS elastic index
-            bodsmatch = get_company_statements(sup_info[0][0])
-            if not bodsmatch:
-                continue
-
-            party['roles'].append('tenderer')
-            party['id'] = str(i)
+            if dataset == 'BODS':
+                # Skips adding supplier if not found in BODS elastic index
+                bodsmatch = get_company_statements(sup_info[0][0])
+                if not bodsmatch:
+                    continue
 
             try:
                 # Adding supplier info from Companies house
                 party['identifier'] = {"id": sup_info[0][0],
                                        "scheme": sup_info[0][1],
                                        "legalName": sup_info[0][2]}
-
             except:
                 logging.info('No CH match')
+
+            party['roles'].append('tenderer')
+            party['id'] = str(i)
 
             tenderers.append({
                 'id': str(i),
                 'name': supplier
             })
+            newparties.append(party)
+        else:
             newparties.append(party)
 
     ocdsjson['releases'][0]['parties'] = newparties
@@ -217,10 +216,6 @@ def fix_dates(d_json, aws):
     d_json['releases'][0]['date'] = newpubdate_str
 
     # Move contract period to tender section
-
-    if len(d_json['releases'][0]['tender']['milestones']) > 2:
-        print(d_json['releases'][0]['tender']['milestones'])
-
     if aws["contractPeriod"]:
         d_json['releases'][0]['tender']["contractPeriod"] = aws["contractPeriod"]
     try:
@@ -237,7 +232,7 @@ def fix_dates(d_json, aws):
     return d_json
 
 
-def aws_to_tender(json_ocds):
+def aws_to_tender(json_ocds, dataset='BODS'):
     """ Converts a Contracts Finder award to tender """
 
     awards = json_ocds['releases'][0]['awards']
@@ -246,7 +241,7 @@ def aws_to_tender(json_ocds):
     award_info = awards[0]
     json_ocds['releases'][0]['tag'][0] = 'tender'
 
-    json_ocds = update_parties(json_ocds)
+    json_ocds = update_parties(json_ocds, dataset=dataset)
     json_ocds = fix_dates(json_ocds, award_info)
     return json_ocds
 
@@ -286,36 +281,49 @@ def insert_clean_1_1_tenders(ocds_tender, conn):
         cursor.execute(query, vals)
         conn.commit()
     except:
-        # traceback.print_exc()
-        logging.info('Failed to insert 1.1 OCDS', exc_info=1)
+        logging.info('Failed to insert 1.1 OCDS', exc_info=True)
 
 
 if __name__ == '__main__':
 
     local_connection = connect_from_url(DATABASE_URL)
     oo_connection = connect_from_url(OPENOPPS_DB_URL)
+    dataset = 'BODS'
 
     # Getting the cf notices as they are, converting into 1.1
     response = get_json_from_db(oo_connection)
     for row in response:
         get_and_insert_1_1_json(row)
 
-    response = get_1_1_ocds(local_connection, 'scrap', 'cf_ocds_1_1', limit=100)
+    response = get_1_1_ocds(local_connection, 'scrap', 'cf_ocds_1_1', limit=500)
+    i = 0
     for row in response:
-        tenders_json = aws_to_tender(row[0])
+        tenders_json = aws_to_tender(row[0], dataset=dataset)
 
         if tenders_json['releases'][0]['tender']['numberOfTenderers'] < 2:
             continue
 
         # Remove null fields
-        # tenders_json = del_nulls(tenders_json)
+        # clean_ocds_json = del_nulls(tenders_json)
 
         print(json.dumps(tenders_json))
         insert_clean_1_1_tenders(tenders_json, local_connection)
         ocid = tenders_json['releases'][0]['ocid']
-        filepath = os.path.join(OCDS_OUTPUT_DIR, '%s.json' % ocid)
-        with open(filepath, 'w') as jsonfile:
-            jsonfile.write(json.dumps(tenders_json))
+        filedir = os.path.join(OCDS_OUTPUT_DIR, 'json_1_1_bods_match', '%s.json' % ocid)
+
+        if dataset == 'suppliers':
+            ocid = ocid.replace('-b5fd17-', '-c6ge28-')
+            filedir = os.path.join(OCDS_OUTPUT_DIR, 'json_1_1_supplier_ids_match', '%s.json' % ocid)
+        if dataset == 'raw':
+            ocid = ocid.replace('-b5fd17-', '-d7hf39-')
+            filedir = os.path.join(OCDS_OUTPUT_DIR, 'json_1_1_raw', '%s.json' % ocid)
+
+        with open(filedir, 'w') as dataloc:
+            dataloc.write(json.dumps(tenders_json))
+
+        i += 1
+        if i == 100:
+            break
 
     oo_connection.close()
     local_connection.close()
