@@ -9,6 +9,7 @@ import logging
 from datetime import datetime, timedelta
 from collections import OrderedDict
 from urllib.parse import urlparse
+from django.conf import settings
 from copy import deepcopy
 from hashlib import md5
 import traceback
@@ -27,6 +28,7 @@ from ocdskit.upgrade import upgrade_10_11
 ELASTICSEARCH_7_TEST = os.getenv("ELASTICSEARCH_7_TEST")
 DATABASE_URL = os.environ.get('DATABASE_URL')
 OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
+BODS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing", "json_1_1_bods_match")
 
 
 def get_company_statements(
@@ -161,8 +163,11 @@ def update_parties(ocdsjson):
 
     # TODO check for parties having multiple roles
     parties = ocdsjson['releases'][0]['parties']
+    newparties = []
     tenderers = []
     for i, party in enumerate(parties):
+        if 'buyer' in party['roles']:
+            newparties.append(party)
         if 'supplier' in party['roles']:
 
             supplier = party['name']
@@ -170,23 +175,22 @@ def update_parties(ocdsjson):
 
             # Skips adding supplier if not found in Companies House
             if not sup_info:
-                del ocdsjson['releases'][0]['parties'][i]
                 continue
 
             # Skips adding supplier if not found in BODS elastic index
             bodsmatch = get_company_statements(sup_info[0][0])
             if not bodsmatch:
-                del ocdsjson['releases'][0]['parties'][i]
                 continue
 
-            ocdsjson['releases'][0]['parties'][i]['roles'][0] = 'tenderer'
-            ocdsjson['releases'][0]['parties'][i]['id'] = str(i)
+            party['roles'].append('tenderer')
+            party['id'] = str(i)
 
             try:
                 # Adding supplier info from Companies house
-                ocdsjson['releases'][0]['parties'][i]['identifier'] = {"id": sup_info[0][0],
-                                                                       "scheme": sup_info[0][1],
-                                                                       "legalName": sup_info[0][2]}
+                party['identifier'] = {"id": sup_info[0][0],
+                                       "scheme": sup_info[0][1],
+                                       "legalName": sup_info[0][2]}
+
             except:
                 logging.info('No CH match')
 
@@ -194,10 +198,13 @@ def update_parties(ocdsjson):
                 'id': str(i),
                 'name': supplier
             })
+            newparties.append(party)
 
+    ocdsjson['releases'][0]['parties'] = newparties
     # print('Sucessfully matched tenders:', len(tenderers))
     ocdsjson['releases'][0]['tender']['numberOfTenderers'] = len(tenderers)
     ocdsjson['releases'][0]['tender']['tenderers'] = tenderers
+    ocdsjson['releases'][0]['awards'][0]['suppliers'] = tenderers
     return ocdsjson
 
 
@@ -289,9 +296,9 @@ if __name__ == '__main__':
     oo_connection = connect_from_url(OPENOPPS_DB_URL)
 
     # Getting the cf notices as they are, converting into 1.1
-    # response = get_json_from_db(oo_connection)
-    # for row in response:
-    #     get_and_insert_1_1_json(row)
+    response = get_json_from_db(oo_connection)
+    for row in response:
+        get_and_insert_1_1_json(row)
 
     response = get_1_1_ocds(local_connection, 'scrap', 'cf_ocds_1_1', limit=100)
     for row in response:
@@ -301,12 +308,14 @@ if __name__ == '__main__':
             continue
 
         # Remove null fields
-        clean_ocds_json = del_nulls(tenders_json)
-        print(json.dumps(clean_ocds_json))
-        insert_clean_1_1_tenders(clean_ocds_json, local_connection)
-        ocid = clean_ocds_json['releases'][0]['ocid']
-        with open('/Users/erinclark/git/bluetail/data/contracts_finder/processing/json_1_1_bods_match/%s.json' % ocid, 'w') as dataloc:
-            dataloc.write(json.dumps(clean_ocds_json))
+        # tenders_json = del_nulls(tenders_json)
+
+        print(json.dumps(tenders_json))
+        insert_clean_1_1_tenders(tenders_json, local_connection)
+        ocid = tenders_json['releases'][0]['ocid']
+        filepath = os.path.join(BODS_OUTPUT_DIR, '%s.json' % ocid)
+        with open(filepath, 'w') as jsonfile:
+            jsonfile.write(json.dumps(tenders_json))
 
     oo_connection.close()
     local_connection.close()
