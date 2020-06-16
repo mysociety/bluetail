@@ -11,6 +11,7 @@ This requires multiple steps
 
 """
 import json
+import shutil
 import sys
 from urllib.parse import urlparse
 import logging
@@ -29,7 +30,7 @@ logger = logging.getLogger(__name__)
 ELASTICSEARCH_7_TEST = os.getenv("ELASTICSEARCH_7_TEST")
 DATABASE_URL = os.environ.get('DATABASE_URL')
 SQL_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing", "sql")
-BODS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing", "bods")
+BODS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "bods")
 ELASTICSEARCH_CONN = None
 
 
@@ -157,8 +158,9 @@ def lookup_ch_ids():
 
     OUTPUT_DIR = os.path.join(BODS_OUTPUT_DIR, "ch_id_openownership_bods")
 
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    if os.path.exists(OUTPUT_DIR):
+        shutil.rmtree(OUTPUT_DIR)
+    os.makedirs(OUTPUT_DIR)
 
     for i, item in df.iterrows():
         scheme = item.get("party_identifier_scheme")

@@ -28,7 +28,7 @@ from ocdskit.upgrade import upgrade_10_11
 ELASTICSEARCH_7_TEST = os.getenv("ELASTICSEARCH_7_TEST")
 DATABASE_URL = os.environ.get('DATABASE_URL')
 OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
-BODS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing", "json_1_1_bods_match")
+OCDS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "ocds", "json_1_1_bods_match")
 
 
 def get_company_statements(
@@ -313,7 +313,7 @@ if __name__ == '__main__':
         print(json.dumps(tenders_json))
         insert_clean_1_1_tenders(tenders_json, local_connection)
         ocid = tenders_json['releases'][0]['ocid']
-        filepath = os.path.join(BODS_OUTPUT_DIR, '%s.json' % ocid)
+        filepath = os.path.join(OCDS_OUTPUT_DIR, '%s.json' % ocid)
         with open(filepath, 'w') as jsonfile:
             jsonfile.write(json.dumps(tenders_json))
 

@@ -33,6 +33,19 @@ For speed of setup and avoiding complexity some assumptions are made on the data
 
 This data is replicated from the original prototype by MySociety here https://mysociety.github.io/bods-dashboard-prototype/
 
+This has the OCID 
+
+    ocds-123abc-PROC-20-0001
+    
+View just this data by appending the `ocid_prefix` param
+
+    ?ocid_prefix=ocds-123abc-
+
+like this
+ 
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-123abc-
+    
+
 ### Contracts Finder Data
 
 These have OCIDs beginning with 
@@ -42,3 +55,13 @@ These have OCIDs beginning with
 For example
 
     ocds-b5fd17-0c8a03bf-dcb1-4978-a59f-0fd7c364d7dd
+    
+
+View just this data by appending the `ocid_prefix` param
+
+    ?ocid_prefix=ocds-b5fd17
+
+like this
+ 
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17
+    

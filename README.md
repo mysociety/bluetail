@@ -114,7 +114,7 @@ or on heroku
     heroku run "script/insert_example_data" --app [heroku app name]
 
     
-#### Viewing example data
+## Viewing example data
 
 There are basic endpoints for viewing the sample data by ID
 
@@ -129,7 +129,29 @@ http://localhost:8000/bods/statement/entity/1dc0e987-5c57-4a1c-b3ad-61353b66a9b1
 http://localhost:8000/bods/statement/ownership/676ce2ec-e244-409e-85f9-9823e88bc003/
 
 
-### Flags
+### Filtering the dataset
+
+Each dataset has a distinct OCID prefix, as with publishers of real data.
+
+https://standard.open-contracting.org/latest/en/schema/identifiers/#contracting-process-identifier-ocid
+
+We can filter our tender listing to a specific dataset by specifying a prefix in the HTML parameter `ocid_prefix`:
+
+For example:
+
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17
+    
+####Prefixes used in the sample data:
+
+Prototype data:
+
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-123abc-
+
+Contracts Finder data linked to Companies House
+
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17
+
+## Flags
 
 Flags are warnings/errors about the data, attached to an individual or company.
 
