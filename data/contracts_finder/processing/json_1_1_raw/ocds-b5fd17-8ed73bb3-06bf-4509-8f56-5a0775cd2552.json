@@ -1,0 +1,197 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2e6c94d8-7a31-4233-8edc-5578f11107b2.json",
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "version": "1.1",
+  "releases": [
+    {
+      "id": "ocds-b5fd17-8ed73bb3-06bf-4509-8f56-5a0775cd2552-322972-knows001-dn425491-29788048",
+      "tag": [
+        "tender"
+      ],
+      "date": "2019-09-10T00:00:00Z",
+      "ocid": "ocds-b5fd17-8ed73bb3-06bf-4509-8f56-5a0775cd2552",
+      "buyer": {
+        "id": "10f4f96aadd1965e94138f2ec8633685",
+        "name": "Knowsley Council"
+      },
+      "awards": [
+        {
+          "id": "c6df8c8d-9f52-4837-beea-b50917aafe6f",
+          "date": "2019-10-28T00:00:00Z",
+          "value": {
+            "amount": 150000,
+            "currency": "GBP"
+          },
+          "status": "active",
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Lambert Smith Hampton"
+            },
+            {
+              "id": "2",
+              "name": "Keppie Massie"
+            },
+            {
+              "id": "3",
+              "name": "CP Viability Ltd"
+            }
+          ],
+          "description": "See description of related tender",
+          "contractPeriod": {
+            "endDate": "2022-10-28T00:00:00Z",
+            "startDate": "2019-10-29T00:00:00Z"
+          }
+        }
+      ],
+      "tender": {
+        "id": "ocds-b5fd17-8ed73bb3-06bf-4509-8f56-5a0775cd2552-knows001-dn425491-29788048",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "id": "73220000",
+              "uri": "http://cpv.data.ac.uk/code-73220000.html",
+              "scheme": "CPV",
+              "description": "Development consultancy services"
+            }
+          }
+        ],
+        "title": "Development Viability Appraisal Services",
+        "value": {
+          "amount": 150000,
+          "currency": "GBP"
+        },
+        "status": "complete",
+        "minValue": {
+          "amount": 150000,
+          "currency": "GBP"
+        },
+        "description": "Development Viability Appraisal Services",
+        "tenderPeriod": {
+          "endDate": "2019-09-17T00:00:00Z"
+        },
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "ojeuContractType": "Services"
+        },
+        "procurementMethodDetails": "Other - ",
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Lambert Smith Hampton"
+          },
+          {
+            "id": "2",
+            "name": "Keppie Massie"
+          },
+          {
+            "id": "3",
+            "name": "CP Viability Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-10-29T00:00:00Z",
+          "endDate": "2022-10-28T00:00:00Z"
+        }
+      },
+      "parties": [
+        {
+          "id": "10f4f96aadd1965e94138f2ec8633685",
+          "name": "Knowsley Council",
+          "roles": [
+            "buyer"
+          ],
+          "address": {
+            "locality": "Huyton",
+            "postalCode": "L36 9YU",
+            "countryName": "England",
+            "streetAddress": "2nd Floor, Municipal Building Archway Road"
+          },
+          "contactPoint": {
+            "uri": "http://www.knowsley.gov.uk",
+            "name": "Catherine Bacon",
+            "email": "catherine.bacon@knowsley.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "name": "Lambert Smith Hampton",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "address": {
+            "streetAddress": "W1D 1NN"
+          },
+          "identifier": {
+            "id": ""
+          },
+          "contactPoint": {
+            "name": "Mr Mark Taylor"
+          },
+          "x_awardValue": {
+            "currency": "GBP"
+          }
+        },
+        {
+          "id": "2",
+          "sme": true,
+          "vco": true,
+          "name": "Keppie Massie",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "address": {
+            "streetAddress": "L3 9BY"
+          },
+          "identifier": {
+            "id": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Rachael Cooley"
+          },
+          "x_awardValue": {
+            "currency": "GBP"
+          }
+        },
+        {
+          "id": "3",
+          "sme": true,
+          "name": "CP Viability Ltd",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "address": {
+            "streetAddress": "LS24 9LB"
+          },
+          "identifier": {
+            "id": ""
+          },
+          "contactPoint": {
+            "name": "Mr David Newham"
+          },
+          "x_awardValue": {
+            "currency": "GBP"
+          }
+        }
+      ],
+      "language": "en-GB",
+      "initiationType": "tender"
+    }
+  ],
+  "publisher": {
+    "uri": "https://www.contractsfinder.service.gov.uk",
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "publishedDate": "2019-10-31T13:18:28Z",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting"
+}
