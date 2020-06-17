@@ -2,24 +2,14 @@ import json
 import os
 
 from django.conf import settings
+from django.db.models import Q
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import DetailView, ListView, TemplateView
 
 from bluetail.helpers import BodsHelperFunctions, FlagHelperFunctions, ContextHelperFunctions
-from bluetail.models import BODSPersonStatementJSON, BODSEntityStatementJSON, BODSOwnershipStatementJSON, OCDSTender, OCDSParty, BODSEntityStatement, \
+from bluetail.models import OCDSTender, OCDSParty, BODSEntityStatement, \
     BODSOwnershipStatement, BODSPersonStatement
-
-
-def test_view(request):
-    example_ocds_path = os.path.join(settings.BASE_DIR, "example_files", "ocds_tenderers.json")
-    example_ocds_json = json.load(open(example_ocds_path))
-    json_pretty = json.dumps(example_ocds_json, sort_keys=True, indent=4)
-    context = {
-        "ocds_full": example_ocds_json,
-        "ocds_full_pretty": json_pretty,
-    }
-    return render(request, "test.html", context)
 
 
 def tenders_view(request):
@@ -195,8 +185,19 @@ def tenderer_view(request):
 
 class OCDSList(ListView):
     template_name = "ocds-list.html"
-    queryset = OCDSTender.objects.order_by('-ocid')
     context_object_name = 'tenders'
+
+    def get_queryset(self):
+        queryset = OCDSTender.objects.order_by('-ocid')
+        ocid_prefixes = self.request.GET.getlist('ocid_prefix')
+
+        if ocid_prefixes:
+            query = Q()
+            for ocid_prefix in ocid_prefixes:
+                query.add(Q(ocid__startswith=ocid_prefix), Q.OR)
+            queryset = queryset.filter(query)
+
+        return queryset
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -298,17 +299,17 @@ class OCDSTendererDetailView(TemplateView):
 
 class BODSPersonStatementView(DetailView):
     template_name = "bods_statement.html"
-    model = BODSPersonStatementJSON
-    queryset = BODSPersonStatementJSON.objects.all()
+    model = BODSPersonStatement
+    queryset = BODSPersonStatement.objects.all()
 
 
 class BODSEntityStatementView(DetailView):
     template_name = "bods_statement.html"
-    model = BODSEntityStatementJSON
-    queryset = BODSEntityStatementJSON.objects.all()
+    model = BODSEntityStatement
+    queryset = BODSEntityStatement.objects.all()
 
 
 class BODSOwnershipStatementView(DetailView):
     template_name = "bods_statement.html"
-    model = BODSOwnershipStatementJSON
-    queryset = BODSOwnershipStatementJSON.objects.all()
+    model = BODSOwnershipStatement
+    queryset = BODSOwnershipStatement.objects.all()

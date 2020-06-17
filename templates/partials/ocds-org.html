@@ -24,7 +24,9 @@
         </li>
         <li class="list-group-item {% if flags.company_id_flags.error %}list-group-item-danger{% elif flags.company_id_flags.warning %}list-group-item-warning{% endif %}">
             <small class="scorecard-key">Company ID</small>
-            <span class="scorecard-value">[{{ company.party_identifier_scheme }}] {{ company.party_identifier_id }}</span>
+            {% if company.party_identifier_scheme %}
+                <span class="scorecard-value">[{{ company.party_identifier_scheme }}] {{ company.party_identifier_id }}</span>
+            {% endif %}
             {% for flag in flags.company_id_flags.error %}
                 {% if flag %}
                     <p class="scorecard-warning">{{ flag.flag_text }}</p>

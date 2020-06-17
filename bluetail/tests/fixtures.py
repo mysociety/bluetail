@@ -5,10 +5,12 @@ from django.conf import settings
 
 from bluetail import models
 
+PROTOTYPE_DATA_PATH = os.path.join(settings.BASE_DIR, "data", "prototype")
+
 
 def insert_flags():
     # Insert Flags
-    example_flags_path = os.path.join(settings.BASE_DIR, "example_files", "flags", "flags.csv")
+    example_flags_path = os.path.join(PROTOTYPE_DATA_PATH, "flags", "flags.csv")
 
     with open(example_flags_path) as f:
         reader = csv.DictReader(f)
@@ -25,7 +27,7 @@ def insert_flags():
 
 def insert_flag_attachments():
     # Insert assigned Flags
-    example_flags_path = os.path.join(settings.BASE_DIR, "example_files", "flags", "flag_attachments.csv")
+    example_flags_path = os.path.join(PROTOTYPE_DATA_PATH, "flags", "flag_attachments.csv")
 
     with open(example_flags_path) as f:
         reader = csv.DictReader(f)

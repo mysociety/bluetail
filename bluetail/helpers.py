@@ -1,5 +1,11 @@
+import json
+import logging
+import os
 
-from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement
+from bluetail import models
+from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON
+
+logger = logging.getLogger(__name__)
 
 
 class FlagHelperFunctions():
@@ -110,3 +116,62 @@ class ContextHelperFunctions():
         tenderer_context["total_errors"] = len(errors)
 
         return tenderer_context
+
+
+class UpsertDataHelpers:
+
+    def upsert_ocds_data(self, ocds_json_path_or_string):
+        """
+        Takes a path to an OCDS Package or a stringn containing OCDS JSON data
+        Upserts all releases to the Bluetail database
+        """
+        if os.path.exists(ocds_json_path_or_string):
+            ocds_json = json.load(open(ocds_json_path_or_string))
+        else:
+            ocds_json = json.loads(ocds_json_path_or_string)
+
+        ocds_releases = []
+
+        if ocds_json.get("records"):
+            # We have a record package
+            for record in ocds_json["records"]:
+                compiledRelease = record["compiledRelease"]
+                ocds_releases.append(compiledRelease)
+
+        if ocds_json.get("releases"):
+            # We have a release package
+            for release in ocds_json["releases"]:
+                ocds_releases.append(release)
+
+        for release_json in ocds_releases:
+            OCDSReleaseJSON.objects.update_or_create(
+                ocid=release_json.get("ocid"),
+                defaults={
+                    "release_id": release_json.get("id"),
+                    "release_json": release_json,
+                }
+
+            )
+
+    def upsert_bods_data(self, bods_json_path_or_string):
+        """
+        Takes a path to an BODS JSON or a string containing BODS JSON statement array
+        Upserts all statements to the Bluetail database
+        """
+
+        if os.path.exists(bods_json_path_or_string):
+            bods_json = json.load(open(bods_json_path_or_string))
+        else:
+            bods_json = json.loads(bods_json_path_or_string)
+
+        for statement in bods_json:
+            statement_id = statement.get("statementID")
+            statement_type = statement.get("statementType")
+            logger.info("Inserting statement: %s %s", statement_id, statement_type)
+
+            models.BODSStatementJSON.objects.update_or_create(
+                statement_id=statement_id,
+                defaults={
+                    "statement_json": statement,
+                }
+            )

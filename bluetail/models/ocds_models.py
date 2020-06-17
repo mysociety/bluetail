@@ -102,6 +102,7 @@ class OCDSParty(pgviews.View):
             bluetail_ocds_release_json ocds,
             LATERAL jsonb_array_elements(ocds.release_json -> 'parties') party,
             LATERAL jsonb_array_elements_text(party -> 'roles') role
+        WHERE role = 'tenderer'
         """
 
     class Meta:

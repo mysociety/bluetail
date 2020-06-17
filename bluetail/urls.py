@@ -5,10 +5,9 @@ from django.views.generic import RedirectView
 import bluetail.views as views
 
 urlpatterns = [
-    path('test/', views.test_view, name='test-view'),
-    path('tenderer/', views.tenderer_view, name='example-tenderer'),
-    path('tender/', views.tender_view, name='example-tender'),
-    path('tenders/', views.tenders_view, name='example-tenders'),
+    path('prototype/tenderer/', views.tenderer_view, name='example-tenderer'),
+    path('prototype/tender/', views.tender_view, name='example-tender'),
+    path('prototype/tenders/', views.tenders_view, name='example-tenders'),
     path('', RedirectView.as_view(url=reverse_lazy('ocds-list')), name='example-tenders'),
 
     path('ocds/', views.OCDSList.as_view(), name='ocds-list'),

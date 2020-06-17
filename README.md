@@ -114,7 +114,7 @@ or on heroku
     heroku run "script/insert_example_data" --app [heroku app name]
 
     
-#### Viewing example data
+## Viewing example data
 
 There are basic endpoints for viewing the sample data by ID
 
@@ -129,7 +129,29 @@ http://localhost:8000/bods/statement/entity/1dc0e987-5c57-4a1c-b3ad-61353b66a9b1
 http://localhost:8000/bods/statement/ownership/676ce2ec-e244-409e-85f9-9823e88bc003/
 
 
-### Flags
+### Filtering the dataset
+
+Each dataset has a distinct OCID prefix, as with publishers of real data.
+
+https://standard.open-contracting.org/latest/en/schema/identifiers/#contracting-process-identifier-ocid
+
+We can filter our tender listing to a specific dataset by specifying a prefix in the HTML parameter `ocid_prefix`:
+
+For example:
+
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17
+    
+####Prefixes used in the sample data:
+
+Prototype data:
+
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-123abc-
+
+Contracts Finder data linked to Companies House
+
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17
+
+## Flags
 
 Flags are warnings/errors about the data, attached to an individual or company.
 
@@ -147,3 +169,40 @@ or without prompt (username: admin, password: admin)
 
     echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'admin')" | python manage.py shell
 
+
+### Deployment to Heroku 
+
+The Heroku-GitHub integration does not work with `git-submodules` 
+(Related issue in Notion: https://www.notion.so/spendnetwork/Fix-COLLECTSTATIC-on-Heroku-deployment-814cd676c81c41aba1b622b4a8a161bb)
+
+So to deploy we need to push to the Heroku `bluetail` app git remote manually.
+
+This is easiest done using the Heroku CLI tools. https://devcenter.heroku.com/articles/heroku-cli
+
+1. Log in to Heroku CLI (https://devcenter.heroku.com/articles/heroku-cli#getting-started)
+2. Add the Heroku app git remote to your git clone
+    
+    Execute this command in your bluetail clone root directory
+            
+        heroku git:remote --app bluetail
+
+3. Force push your branch to the Heroku remote `master` branch.
+
+        git push heroku master:master --force
+        
+    3. Note you can push any local branch, but it must be pushed to the Heroku remote `master` branch to deploy. 
+        
+            git push heroku [local_branch_to_push]:master --force
+
+4. (Optional) Run the setup script to reset the Heroku database.
+
+        heroku run "script/setup"
+
+### Testing
+
+There are just a few tests written to aid development. 
+To run use this command
+
+    script/manage test
+    
+    

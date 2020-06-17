@@ -1,69 +1,40 @@
+import glob
 import json
 import logging
 import os
+import shutil
 
 from django.core.management import BaseCommand
 from django.conf import settings
 
-from bluetail import models
+from bluetail.helpers import UpsertDataHelpers
 from bluetail.tests.fixtures import insert_flags, insert_flag_attachments
 
 logger = logging.getLogger(__name__)
+
+DATA_DIR = os.path.join(settings.BASE_DIR, "data")
 
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         """Add dummy example data to database for demo."""
-        # Insert OCDS JSON
-        example_ocds_path = os.path.join(settings.BASE_DIR, "example_files", "ocds_tenderers.json")
-        example_ocds_json = json.load(open(example_ocds_path))
 
+        upsert_helper = UpsertDataHelpers()
+
+        # Insert PROTOTYPE OCDS JSON
+        example_ocds_path = os.path.join(DATA_DIR, "prototype", "ocds", "ocds_tenderers_package.json")
         logger.info("Insert sample OCDS")
-        models.OCDSReleaseJSON.objects.update_or_create(
-            ocid=example_ocds_json.get("ocid"),
-            defaults={
-                "release_id": example_ocds_json.get("id"),
-                "release_json": example_ocds_json,
-            }
-        )
+        upsert_helper.upsert_ocds_data(example_ocds_path)
 
         # Insert BODS JSON
         logger.info("Insert sample BODS")
-        example_bods_path = os.path.join(settings.BASE_DIR, "example_files", "PROC-20-0001")
+        example_bods_path = os.path.join(DATA_DIR, "prototype", "bods", "PROC-20-0001")
         files = os.listdir(example_bods_path)
 
         for f in files:
             try:
                 f_path = os.path.join(example_bods_path, f)
-                f_json = json.load(open(f_path))
-                for statement in f_json:
-                    statement_id = statement.get("statementID")
-                    statement_type = statement.get("statementType")
-                    logger.info("Inserting statement: %s %s", statement_id, statement_type)
-                    if statement_type == "entityStatement":
-                        models.BODSEntityStatementJSON.objects.update_or_create(
-                            statement_id=statement_id,
-                            defaults={
-                                # "statement_id": statement_id,
-                                "statement_json": statement,
-                            }
-                        )
-                    elif statement_type == 'ownershipOrControlStatement':
-                        models.BODSOwnershipStatementJSON.objects.update_or_create(
-                            statement_id=statement_id,
-                            defaults={
-                                # "statement_id": statement.get("statementID"),
-                                "statement_json": statement,
-                            }
-                        )
-                    elif statement_type == "personStatement":
-                        models.BODSPersonStatementJSON.objects.update_or_create(
-                            statement_id=statement_id,
-                            defaults={
-                                # "statement_id": statement.get("statementID"),
-                                "statement_json": statement,
-                            }
-                        )
+                upsert_helper.upsert_bods_data(f_path)
 
             except:
                 logger.exception("Failed to insert example file %s", f_path)
@@ -75,3 +46,31 @@ class Command(BaseCommand):
         # Insert assigned Flags
         logger.info("Insert sample FlagAttachments")
         insert_flag_attachments()
+
+
+        # Insert CF Data
+
+        # Insert CF OCDS JSON
+        logger.info("Insert sample OCDS")
+        cf_ocds_path = os.path.join(DATA_DIR, "contracts_finder", "ocds")
+
+        for root, dirs, files in os.walk(cf_ocds_path):
+            for f in files:
+                try:
+                    f_path = os.path.join(root, f)
+                    upsert_helper.upsert_ocds_data(f_path)
+                except:
+                    logger.exception("Failed to insert file %s", f_path)
+
+        # Insert BODS JSON
+        logger.info("Insert sample BODS")
+        cf_bods_path = os.path.join(DATA_DIR, "contracts_finder", "bods")
+
+        for root, dirs, files in os.walk(cf_bods_path):
+            for f in files:
+                try:
+                    f_path = os.path.join(root, f)
+                    upsert_helper.upsert_bods_data(f_path)
+                except:
+                    logger.exception("Failed to insert file %s", f_path)
+

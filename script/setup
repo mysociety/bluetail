@@ -11,8 +11,9 @@ find . -name '*.pyc' -delete
 psql -d $DATABASE_URL -c "DROP SCHEMA IF EXISTS public CASCADE"
 psql -d $DATABASE_URL -c "CREATE SCHEMA public"
 
-# Create database user if not exists.
-sudo -u postgres psql -c "SELECT 'exists' FROM pg_roles WHERE rolname='bluetail'" | grep -q 'exists' || sudo -u postgres psql -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"
+# Create database user if not exists. TODO Fix (if this is needed?) Doesn't work on Heroku/Mac
+#sudo -u postgres psql -c "SELECT 'exists' FROM pg_roles WHERE rolname='bluetail'" | grep -q 'exists' || sudo -u postgres psql -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"
+#psql -d $DATABASE_URL -c "SELECT 'exists' FROM pg_roles WHERE rolname='bluetail'" | grep -q 'exists' || psql -d $DATABASE_URL -c "CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'"
 
 # Set up database.
 script/migrate
