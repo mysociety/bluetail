@@ -9,7 +9,7 @@
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "Company ID",
+        "scheme": "GB-LAC",
         "id": "5315469852"
       }
     ],
@@ -49,7 +49,7 @@
     },
     "identifiers": [
       {
-        "scheme": "Company ID",
+        "scheme": "GB-LAC",
         "id": "6159248167"
       }
     ],
@@ -78,7 +78,7 @@
     },
     "identifiers": [
       {
-        "scheme": "Company ID",
+        "scheme": "GB-LAC",
         "id": "1216485124578"
       }
     ],
@@ -107,7 +107,7 @@
     },
     "identifiers": [
       {
-        "scheme": "Company ID",
+        "scheme": "GB-LAC",
         "id": "6213874"
       }
     ],
