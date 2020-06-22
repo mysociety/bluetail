@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
+# Mysociety Django project
 django = ">=2.2,<2.3"
 markdown = "==2.6.8"
 pillow = "*"
@@ -26,7 +27,7 @@ django-import-export = "==2.0.2"
 waitress = "==1.4.3"
 whitenoise = "==5.0.1"
 dj-database-url = "==0.5.0"
-# Bluetail specific
+# Bluetail
 django-pgviews-redux = "==0.6.0"
 
 [dev-packages]
