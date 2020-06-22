@@ -23,15 +23,27 @@ class FlagHelperFunctions():
             flags.append(flag)
         return flags
 
+    def get_flags_for_bods_identifier(self, identifier, ocid=None):
+        """
+        Gets all flags associated with a scheme/id of a person/company/etc.
+        """
+        flag_attachments = FlagAttachment.objects.filter(
+            identifier_scheme=identifier.get("scheme"),
+            identifier_id=identifier.get("id"),
+            identifier_schemeName=identifier.get("schemeName"),
+            ocid=ocid,
+        )
+        flags = []
+        for flag_attachment in flag_attachments:
+            flag = Flag.objects.get(flag_name=flag_attachment.flag_name)
+            flags.append(flag)
+        return flags
+
     def get_flags_for_bods_entity_or_person(self, object):
         flags = []
         for identifier in object.identifiers_json:
-            id_flags = self.get_flags_for_scheme_and_id(
-                identifier.get("scheme"),
-                identifier.get("id"),
-            )
+            id_flags = self.get_flags_for_bods_identifier(identifier)
             flags.extend(id_flags)
-
         return flags
 
     def get_flags_for_ocds_party(self, object):
@@ -102,8 +114,8 @@ class BodsHelperFunctions():
                             interested_entities.append(interested_entity)
 
         interested_parties = {
-           "interested_persons": interested_persons,
-           "interested_entities": interested_entities,
+            "interested_persons": interested_persons,
+            "interested_entities": interested_entities,
         }
 
         return interested_parties

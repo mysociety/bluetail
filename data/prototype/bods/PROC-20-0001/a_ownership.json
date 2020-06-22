@@ -164,7 +164,7 @@
     "identifiers": [
       {
         "id": "FZDS12383607776793",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -189,7 +189,7 @@
     "identifiers": [
       {
         "id": "YDAZ21513405928609",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -214,7 +214,7 @@
     "identifiers": [
       {
         "id": "PFQY03765447964910",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {

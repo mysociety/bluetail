@@ -164,7 +164,7 @@
     "identifiers": [
       {
         "id": "FUJV09080045017715",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -189,7 +189,7 @@
     "identifiers": [
       {
         "id": "OIVH85660017351759",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -214,7 +214,7 @@
     "identifiers": [
       {
         "id": "ODSH83622173388827",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -239,7 +239,7 @@
     "identifiers": [
       {
         "id": "HMCI17014140912423",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {

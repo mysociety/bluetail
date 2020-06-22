@@ -18,6 +18,6 @@ class TestFlagHelperFunctions(TestCase):
         insert_flag_attachments()
 
     def test_get_flags_for_scheme_and_id(self):
-        scheme, id = ("Company ID", "1602647563")
+        scheme, id = ("GB-LAC", "1602647563")
         flags = self.helper.get_flags_for_scheme_and_id(scheme, id)
         assert any(flag.flag_name == "company_id_invalid" for flag in flags)

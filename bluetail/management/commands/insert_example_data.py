@@ -47,7 +47,6 @@ class Command(BaseCommand):
         logger.info("Insert sample FlagAttachments")
         insert_flag_attachments()
 
-
         # Insert CF Data
 
         # Insert CF OCDS JSON
@@ -68,9 +67,10 @@ class Command(BaseCommand):
 
         for root, dirs, files in os.walk(cf_bods_path):
             for f in files:
+                if not f.endswith(".json"):
+                    continue
                 try:
                     f_path = os.path.join(root, f)
                     upsert_helper.upsert_bods_data(f_path)
                 except:
                     logger.exception("Failed to insert file %s", f_path)
-

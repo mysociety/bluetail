@@ -223,7 +223,7 @@
     "identifiers": [
       {
         "id": "OHAQ34066217083012",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -248,7 +248,7 @@
     "identifiers": [
       {
         "id": "MOVI50755167525081",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -273,7 +273,7 @@
     "identifiers": [
       {
         "id": "NLOJ02279054534291",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -298,7 +298,7 @@
     "identifiers": [
       {
         "id": "HMCI17014140912423",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {

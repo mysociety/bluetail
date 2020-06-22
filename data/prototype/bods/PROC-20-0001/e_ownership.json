@@ -223,7 +223,7 @@
     "identifiers": [
       {
         "id": "RUNN65849294146541",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -248,7 +248,7 @@
     "identifiers": [
       {
         "id": "BTZK96794302402721",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -273,7 +273,7 @@
     "identifiers": [
       {
         "id": "ODHL07546948060657",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -298,7 +298,7 @@
     "identifiers": [
       {
         "id": "LLBT75151447597460",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
