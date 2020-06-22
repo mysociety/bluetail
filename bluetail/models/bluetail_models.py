@@ -34,10 +34,12 @@ class Flag(models.Model):
 
 class FlagAttachment(models.Model):
     """
-    Model to attach Flags to a person/company identifier
+    Model to attach Flags to a person/company/ocid identifier
     """
-    identifier_scheme = models.CharField(max_length=1024)
-    identifier_id = models.CharField(max_length=1024)
+    ocid = models.CharField(max_length=1024, null=True)
+    identifier_schemeName = models.CharField(max_length=1024, null=True)
+    identifier_scheme = models.CharField(max_length=1024, null=True)
+    identifier_id = models.CharField(max_length=1024, null=True)
     flag_name = models.ForeignKey(Flag, on_delete=None)
 
     def __str__(self):
