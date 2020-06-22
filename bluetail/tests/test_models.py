@@ -3,9 +3,12 @@ import os
 
 from django.conf import settings
 from django.test import TestCase
-from bluetail.models import OCDSReleaseJSON
+
+from bluetail.helpers import UpsertDataHelpers
+from bluetail.models import OCDSReleaseJSON, BODSStatementJSON, BODSEntityStatement
 
 PROTOTYPE_DATA_PATH = os.path.join(settings.BASE_DIR, "data", "prototype")
+TEST_DATA_PATH = os.path.join(settings.BASE_DIR, "bluetail", "tests", "data")
 
 
 class OcdsReleaseTestCase(TestCase):
@@ -26,3 +29,18 @@ class OcdsReleaseTestCase(TestCase):
     def test_release(self):
         release = OCDSReleaseJSON.objects.get(ocid="ocds-123abc-PROC-20-0001")
         self.assertEqual(release.release_id, "PROC-20-0001-02-tender")
+
+
+class BODSEntityStatementTestCase(TestCase):
+    def setUp(self):
+        json_path = os.path.join(TEST_DATA_PATH, "GB-COH_00088456_bods.json")
+        UpsertDataHelpers().upsert_bods_data(json_path)
+
+    def test_release(self):
+        statement = BODSEntityStatement.objects.get(statement_id="openownership-register-4501624486344343879")
+        self.assertEqual(statement.entity_name, "INTERSERVE PLC")
+
+    def test_CH_id(self):
+        ch_id = "00088456"
+        entity_statments = BODSEntityStatement.objects.filter(identifiers_json__contains=[{'scheme': 'GB-COH', 'id': ch_id}])
+        assert any(s.statement_id == "openownership-register-4501624486344343879" for s in entity_statments)
