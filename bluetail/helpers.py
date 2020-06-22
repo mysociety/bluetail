@@ -10,9 +10,9 @@ logger = logging.getLogger(__name__)
 
 class FlagHelperFunctions():
 
-    def get_flags_for_schema_and_id(self, identifier_scheme, identifier_id):
+    def get_flags_for_scheme_and_id(self, identifier_scheme, identifier_id):
         """
-        Gets all flags associated with a schema/id of a person/company/etc.
+        Gets all flags associated with a scheme/id of a person/company/etc.
 
         TODO Tidy flag field
         Appends the `field` attribute in a slightly hacky way until we decide better
@@ -84,7 +84,7 @@ class ContextHelperFunctions():
         warnings = []
         errors = []
 
-        tenderer_flags = flags_helper.get_flags_for_schema_and_id(tenderer.party_identifier_scheme, tenderer.party_identifier_id)
+        tenderer_flags = flags_helper.get_flags_for_scheme_and_id(tenderer.party_identifier_scheme, tenderer.party_identifier_id)
         for flag in tenderer_flags:
             if flag.flag_type == "warning":
                 warnings.append(flag)
@@ -93,7 +93,7 @@ class ContextHelperFunctions():
 
         interested_parties = bods_helper.get_related_bods_data_for_tenderer(tenderer)
         for person in interested_parties["interested_persons"]:
-            person_flags = flags_helper.get_flags_for_schema_and_id(person.identifiers_0_scheme, person.identifiers_0_id)
+            person_flags = flags_helper.get_flags_for_scheme_and_id(person.identifiers_0_scheme, person.identifiers_0_id)
             if person_flags:
                 for flag in person_flags:
                     if flag.flag_type == "warning":
@@ -101,7 +101,7 @@ class ContextHelperFunctions():
                     elif flag.flag_type == "error":
                         errors.append(flag)
         for entity in interested_parties["interested_entities"]:
-            entity_flags = flags_helper.get_flags_for_schema_and_id(entity.identifiers_0_scheme, entity.identifiers_0_id)
+            entity_flags = flags_helper.get_flags_for_scheme_and_id(entity.identifiers_0_scheme, entity.identifiers_0_id)
             if entity_flags:
                 for flag in entity_flags:
                     if flag.flag_type == "warning":

@@ -17,7 +17,7 @@ class TestFlagHelperFunctions(TestCase):
         insert_flags()
         insert_flag_attachments()
 
-    def test_get_flags_for_schema_and_id(self):
-        schema, id = ("Company ID", "1602647563")
-        flags = self.helper.get_flags_for_schema_and_id(schema, id)
+    def test_get_flags_for_scheme_and_id(self):
+        scheme, id = ("Company ID", "1602647563")
+        flags = self.helper.get_flags_for_scheme_and_id(scheme, id)
         assert any(flag.flag_name == "company_id_invalid" for flag in flags)
