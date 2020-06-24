@@ -23,8 +23,11 @@
             <span class="scorecard-value">{{ company.entity_name }}</span>
         </li>
         <li class="list-group-item {% if flags.company_id_flags.error %}list-group-item-danger{% elif flags.company_id_flags.warning %}list-group-item-warning{% endif %}">
-            <small class="scorecard-key">{{ company.identifiers_json.0.scheme }}</small>
-            <span class="scorecard-value">{{ company.identifiers_json.0.id }}</span>
+            <small class="scorecard-key">Company ID</small>
+            <span class="scorecard-value">
+                [{{ company.identifiers_json.0.scheme }}]
+                {{ company.identifiers_json.0.id }}
+            </span>
             {% for flag in flags.company_id_flags.error %}
                 {% if flag %}
                     <p class="scorecard-warning">{{ flag.flag_text }}</p>

@@ -4,7 +4,8 @@
     </a>
     {% if tenderer.object.party_identifier_scheme %}
         <div class="ml-3">
-            ({{ tenderer.object.party_identifier_scheme }}: {{ tenderer.object.party_identifier_id }})
+            [{{ tenderer.object.party_identifier_scheme }}]
+            {{ tenderer.object.party_identifier_id }}
         </div>
     {% endif %}
     <div class="ml-3">
