@@ -31,7 +31,7 @@ For speed of setup and avoiding complexity some assumptions are made on the data
 
 ### Prototype data
 
-This data is replicated from the original prototype by MySociety here https://mysociety.github.io/bods-dashboard-prototype/
+This data is replicated from the original prototype by mySociety here https://mysociety.github.io/bods-dashboard-prototype/
 
 This has the OCID 
 

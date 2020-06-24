@@ -2,6 +2,8 @@ import json
 import logging
 import os
 
+from django.db.models import Q
+
 from bluetail import models
 from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON
 
@@ -9,28 +11,104 @@ logger = logging.getLogger(__name__)
 
 
 class FlagHelperFunctions():
-
-    def get_flags_for_schema_and_id(self, identifier_scheme, identifier_id):
+    def get_flags_for_ocds_party_identifier(self, identifier, ocid=None):
         """
-        Gets all flags associated with a schema/id of a person/company/etc.
-
-        TODO Tidy flag field
-        Appends the `field` attribute in a slightly hacky way until we decide better
+        Gets all flags associated with a OCDS Party identifier using scheme/id
         """
+        if ocid:
+            flags = Flag.objects.filter(Q(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__ocid=ocid,
+            ) | Q(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__ocid__isnull=True,
+            ))
+        else:
+            flags = Flag.objects.filter(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+            )
+        return flags
 
-        flag_attachments = FlagAttachment.objects.filter(
-            identifier_scheme=identifier_scheme,
-            identifier_id=identifier_id,
+    def get_flags_for_ocid(self, ocid):
+        """
+        Gets all flags associated with a OCID
+        """
+        flags = Flag.objects.filter(
+            flagattachment__ocid=ocid,
         )
+        return flags
 
+    def get_flags_for_bods_identifier(self, identifier, ocid=None):
+        """
+        Gets all flags associated with a BODS identifier, using any combination of scheme/schemeName/id
+        """
+        if ocid:
+            flags = Flag.objects.filter(Q(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__identifier_schemeName=identifier.get("schemeName"),
+                flagattachment__ocid=ocid,
+            ) | Q(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__identifier_schemeName=identifier.get("schemeName"),
+                flagattachment__ocid__isnull=True,
+            ))
+        else:
+            flags = Flag.objects.filter(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__identifier_schemeName=identifier.get("schemeName"),
+                flagattachment__ocid__isnull=True,
+            )
+        return flags
+
+
+    def get_flags_for_bods_entity_or_person(self, object):
+        flags = []
+        for identifier in object.identifiers_json:
+            id_flags = self.get_flags_for_bods_identifier(identifier)
+            flags.extend(id_flags)
+        return flags
+
+    def get_flags_for_ocds_party(self, object):
         flags = []
 
-        for flag_attachment in flag_attachments:
-            flag = Flag.objects.get(flag_name=flag_attachment.flag_name)
+        primary_identifier = object.party_json.get("identifier")
+        flags.extend(self.get_flags_for_ocds_party_identifier(primary_identifier))
 
-            flags.append(flag)
-
+        for identifier in object.party_json.get("additionalIdentifiers", []):
+            id_flags = self.get_flags_for_ocds_party_identifier(identifier)
+            flags.extend(id_flags)
         return flags
+
+    def build_flags_context(self, flags):
+        company_id_flags = [flag for flag in flags if flag.flag_field == "company_id"]
+        person_id_flags = [flag for flag in flags if flag.flag_field == "person_id"]
+        jurisdiction_flags = [flag for flag in flags if flag.flag_field == "jurisdiction"]
+
+        flags_dict = {
+            "flags": flags,
+            "total_errors": sum([1 for flag in flags if flag.flag_type == "error"]),
+            "total_warnings": sum([1 for flag in flags if flag.flag_type == "warning"]),
+            "company_id_flags": {
+                "error": [flag for flag in company_id_flags if flag.flag_type == "error"],
+                "warning": [flag for flag in company_id_flags if flag.flag_type == "warning"],
+            },
+            "person_id_flags": {
+                "error": [flag for flag in person_id_flags if flag.flag_type == "error"],
+                "warning": [flag for flag in person_id_flags if flag.flag_type == "warning"],
+            },
+            "jurisdiction_flags": {
+                "error": [flag for flag in jurisdiction_flags if flag.flag_type == "error"],
+                "warning": [flag for flag in jurisdiction_flags if flag.flag_type == "warning"],
+            },
+        }
+
+        return flags_dict
 
 
 class BodsHelperFunctions():
@@ -40,10 +118,7 @@ class BodsHelperFunctions():
         interested_persons = []
         interested_entities = []
 
-        entity_statments = BODSEntityStatement.objects.filter(
-            # identifiers_0_scheme=tenderer.party_identifier_scheme,
-            identifiers_0_id=tenderer.party_identifier_id
-        )
+        entity_statments = BODSEntityStatement.objects.filter(identifiers_json__contains=[{'scheme': tenderer.party_identifier_scheme, 'id': tenderer.party_identifier_id}])
 
         if entity_statments:
             for entity_statment in entity_statments:
@@ -60,8 +135,8 @@ class BodsHelperFunctions():
                             interested_entities.append(interested_entity)
 
         interested_parties = {
-           "interested_persons": interested_persons,
-           "interested_entities": interested_entities,
+            "interested_persons": interested_persons,
+            "interested_entities": interested_entities,
         }
 
         return interested_parties
@@ -84,7 +159,7 @@ class ContextHelperFunctions():
         warnings = []
         errors = []
 
-        tenderer_flags = flags_helper.get_flags_for_schema_and_id(tenderer.party_identifier_scheme, tenderer.party_identifier_id)
+        tenderer_flags = flags_helper.get_flags_for_ocds_party(tenderer)
         for flag in tenderer_flags:
             if flag.flag_type == "warning":
                 warnings.append(flag)
@@ -93,7 +168,7 @@ class ContextHelperFunctions():
 
         interested_parties = bods_helper.get_related_bods_data_for_tenderer(tenderer)
         for person in interested_parties["interested_persons"]:
-            person_flags = flags_helper.get_flags_for_schema_and_id(person.identifiers_0_scheme, person.identifiers_0_id)
+            person_flags = flags_helper.get_flags_for_bods_entity_or_person(person)
             if person_flags:
                 for flag in person_flags:
                     if flag.flag_type == "warning":
@@ -101,7 +176,7 @@ class ContextHelperFunctions():
                     elif flag.flag_type == "error":
                         errors.append(flag)
         for entity in interested_parties["interested_entities"]:
-            entity_flags = flags_helper.get_flags_for_schema_and_id(entity.identifiers_0_scheme, entity.identifiers_0_id)
+            entity_flags = flags_helper.get_flags_for_bods_entity_or_person(entity)
             if entity_flags:
                 for flag in entity_flags:
                     if flag.flag_type == "warning":

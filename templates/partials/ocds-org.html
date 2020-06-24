@@ -1,5 +1,5 @@
 {% load flag_templatetags %}
-{% get_flags company.party_identifier_scheme company.party_identifier_id as flags %}
+{% get_flags_for_ocds_party company as flags %}
 
 <div class="card bods-scorecard">
     <h5 class="card-header d-flex align-items-center">

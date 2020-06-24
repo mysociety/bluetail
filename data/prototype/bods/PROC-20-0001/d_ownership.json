@@ -9,7 +9,7 @@
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "Company ID",
+        "scheme": "GB-LAC",
         "id": "5315469854"
       }
     ],
@@ -49,7 +49,7 @@
     },
     "identifiers": [
       {
-        "scheme": "Company ID",
+        "scheme": "GB-LAC",
         "id": "9313254625"
       }
     ],
@@ -78,7 +78,7 @@
     },
     "identifiers": [
       {
-        "scheme": "Company ID",
+        "scheme": "GB-LAC",
         "id": "6948732519"
       }
     ],
@@ -164,7 +164,7 @@
     "identifiers": [
       {
         "id": "FUJV09080045017715",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -189,7 +189,7 @@
     "identifiers": [
       {
         "id": "OIVH85660017351759",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -214,7 +214,7 @@
     "identifiers": [
       {
         "id": "ODSH83622173388827",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {
@@ -239,7 +239,7 @@
     "identifiers": [
       {
         "id": "HMCI17014140912423",
-        "scheme": "National ID"
+        "schemeName": "National ID"
       }
     ],
     "publicationDetails": {

@@ -1,5 +1,5 @@
 {% load flag_templatetags %}
-{% get_flags person.identifiers_0_scheme person.identifiers_0_id as flags %}
+{% get_flags_for_bods_entity_or_person person as flags %}
 
 <div class="card bods-scorecard">
     <h5 class="card-header d-flex align-items-center">
@@ -23,8 +23,8 @@
             <span class="scorecard-value">{{ person.fullName }}</span>
         </li>
         <li class="list-group-item {% if flags.person_id_flags.error %}list-group-item-danger{% elif flags.person_id_flags.warning %}list-group-item-warning{% endif %}">
-            <small class="scorecard-key">{{ person.identifiers_0_scheme }}</small>
-            <span class="scorecard-value">{{ person.identifiers_0_id }}</span>
+            <small class="scorecard-key">{{ person.identifiers_json.0.scheme }}</small>
+            <span class="scorecard-value">{{ person.identifiers_json.0.id }}</span>
             {% for flag in flags.person_id_flags.error %}
                 {% if flag %}
                     <p class="scorecard-warning">{{ flag.flag_text }}</p>

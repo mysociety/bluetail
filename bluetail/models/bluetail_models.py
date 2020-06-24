@@ -34,10 +34,12 @@ class Flag(models.Model):
 
 class FlagAttachment(models.Model):
     """
-    Model to attach Flags to a person/company identifier
+    Model to attach Flags to a person/company/ocid identifier
     """
-    identifier_scheme = models.CharField(max_length=1024)
-    identifier_id = models.CharField(max_length=1024)
+    ocid = models.CharField(max_length=1024, null=True)
+    identifier_schemeName = models.CharField(max_length=1024, null=True)
+    identifier_scheme = models.CharField(max_length=1024, null=True)
+    identifier_id = models.CharField(max_length=1024, null=True)
     flag_name = models.ForeignKey(Flag, on_delete=None)
 
     def __str__(self):
@@ -46,4 +48,4 @@ class FlagAttachment(models.Model):
     class Meta:
         app_label = 'bluetail'
         db_table = 'bluetail_flag_attachment'
-        unique_together = (("identifier_scheme", "identifier_id", "flag_name"),)
+        unique_together = (("ocid", "identifier_schemeName", "identifier_scheme", "identifier_id", "flag_name"),)
