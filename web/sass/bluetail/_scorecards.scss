@@ -11,6 +11,10 @@
     @include media-breakpoint-up('lg') {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .card-header {
+        border-bottom: none;
+    }
 }
 
 .scorecard-key {
