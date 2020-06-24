@@ -37,7 +37,7 @@ class TestFlagHelperFunctions(TestCase):
             "schemeName": "National ID"
         }
         flags = self.helper.get_flags_for_bods_identifier(identifier)
-        assert any(flag.flag_name == "person_in_multiple_applications_to_tender" for flag in flags)
+        assert any(flag.flag_name == "person_id_matches_cabinet_minister" for flag in flags)
 
     def test_get_flags_for_bods_identifier_with_ocid(self):
         identifier = {
