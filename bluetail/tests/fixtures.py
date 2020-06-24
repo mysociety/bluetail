@@ -34,14 +34,16 @@ def insert_flag_attachments():
         for row in reader:
             flag = models.Flag.objects.get(flag_name=row["flag_name"])
             models.FlagAttachment.objects.update_or_create(
-                identifier_scheme=row.get("identifier_scheme") or None,
                 identifier_schemeName=row.get("identifier_schemeName") or None,
-                ocid=row.get("ocid") or None,
+                identifier_scheme=row.get("identifier_scheme") or None,
                 identifier_id=row.get("identifier_id") or None,
+                ocid=row.get("ocid") or None,
                 flag_name=flag,
                 defaults={
+                    "identifier_schemeName": row.get("identifier_schemeName") or None,
                     "identifier_scheme": row.get("identifier_scheme") or None,
                     "identifier_id": row.get("identifier_id") or None,
+                    "ocid": row.get("ocid") or None,
                     "flag_name": flag,
                 }
             )

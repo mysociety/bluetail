@@ -2,6 +2,8 @@ import json
 import logging
 import os
 
+from django.db.models import Q
+
 from bluetail import models
 from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON
 
@@ -11,23 +13,59 @@ logger = logging.getLogger(__name__)
 class FlagHelperFunctions():
     def get_flags_for_ocds_party_identifier(self, identifier, ocid=None):
         """
-        Gets all flags associated with a scheme/id of a person/company/etc.
+        Gets all flags associated with a OCDS Party identifier using scheme/id
         """
-        return Flag.objects.filter(
-            flagattachment__identifier_scheme=identifier.get("scheme"),
-            flagattachment__identifier_id=identifier.get("id"),
+        if ocid:
+            flags = Flag.objects.filter(Q(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__ocid=ocid,
+            ) | Q(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__ocid__isnull=True,
+            ))
+        else:
+            flags = Flag.objects.filter(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+            )
+        return flags
+
+    def get_flags_for_ocid(self, ocid):
+        """
+        Gets all flags associated with a OCID
+        """
+        flags = Flag.objects.filter(
+            flagattachment__ocid=ocid,
         )
+        return flags
 
     def get_flags_for_bods_identifier(self, identifier, ocid=None):
         """
         Gets all flags associated with a BODS identifier, using any combination of scheme/schemeName/id
         """
-        return Flag.objects.filter(
-            flagattachment__identifier_scheme=identifier.get("scheme"),
-            flagattachment__identifier_id=identifier.get("id"),
-            flagattachment__identifier_schemeName=identifier.get("schemeName"),
-            flagattachment__ocid=ocid,
-        )
+        if ocid:
+            flags = Flag.objects.filter(Q(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__identifier_schemeName=identifier.get("schemeName"),
+                flagattachment__ocid=ocid,
+            ) | Q(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__identifier_schemeName=identifier.get("schemeName"),
+                flagattachment__ocid__isnull=True,
+            ))
+        else:
+            flags = Flag.objects.filter(
+                flagattachment__identifier_scheme=identifier.get("scheme"),
+                flagattachment__identifier_id=identifier.get("id"),
+                flagattachment__identifier_schemeName=identifier.get("schemeName"),
+                flagattachment__ocid__isnull=True,
+            )
+        return flags
+
 
     def get_flags_for_bods_entity_or_person(self, object):
         flags = []
@@ -48,7 +86,6 @@ class FlagHelperFunctions():
         return flags
 
     def build_flags_context(self, flags):
-
         company_id_flags = [flag for flag in flags if flag.flag_field == "company_id"]
         person_id_flags = [flag for flag in flags if flag.flag_field == "person_id"]
         jurisdiction_flags = [flag for flag in flags if flag.flag_field == "jurisdiction"]

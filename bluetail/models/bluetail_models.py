@@ -48,4 +48,4 @@ class FlagAttachment(models.Model):
     class Meta:
         app_label = 'bluetail'
         db_table = 'bluetail_flag_attachment'
-        unique_together = (("identifier_scheme", "identifier_id", "flag_name"),)
+        unique_together = (("ocid", "identifier_schemeName", "identifier_scheme", "identifier_id", "flag_name"),)
