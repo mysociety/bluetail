@@ -1,4 +1,4 @@
-# Mysociety Django project
+# mySociety Django project
 Django==2.2.13
 Markdown==2.6.8
 Pillow==7.1.2

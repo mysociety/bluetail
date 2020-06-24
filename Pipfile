@@ -4,7 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-# Mysociety Django project
+# mySociety Django project
 django = ">=2.2,<2.3"
 markdown = "==2.6.8"
 pillow = "*"
