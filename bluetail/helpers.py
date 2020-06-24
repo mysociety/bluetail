@@ -9,35 +9,25 @@ logger = logging.getLogger(__name__)
 
 
 class FlagHelperFunctions():
-    def get_flags_for_scheme_and_id(self, identifier_scheme, identifier_id):
+    def get_flags_for_ocds_party_identifier(self, identifier, ocid=None):
         """
         Gets all flags associated with a scheme/id of a person/company/etc.
         """
-        flag_attachments = FlagAttachment.objects.filter(
-            identifier_scheme=identifier_scheme,
-            identifier_id=identifier_id,
+        return Flag.objects.filter(
+            flagattachment__identifier_scheme=identifier.get("scheme"),
+            flagattachment__identifier_id=identifier.get("id"),
         )
-        flags = []
-        for flag_attachment in flag_attachments:
-            flag = Flag.objects.get(flag_name=flag_attachment.flag_name)
-            flags.append(flag)
-        return flags
 
     def get_flags_for_bods_identifier(self, identifier, ocid=None):
         """
-        Gets all flags associated with a scheme/id of a person/company/etc.
+        Gets all flags associated with a BODS identifier, using any combination of scheme/schemeName/id
         """
-        flag_attachments = FlagAttachment.objects.filter(
-            identifier_scheme=identifier.get("scheme"),
-            identifier_id=identifier.get("id"),
-            identifier_schemeName=identifier.get("schemeName"),
-            ocid=ocid,
+        return Flag.objects.filter(
+            flagattachment__identifier_scheme=identifier.get("scheme"),
+            flagattachment__identifier_id=identifier.get("id"),
+            flagattachment__identifier_schemeName=identifier.get("schemeName"),
+            flagattachment__ocid=ocid,
         )
-        flags = []
-        for flag_attachment in flag_attachments:
-            flag = Flag.objects.get(flag_name=flag_attachment.flag_name)
-            flags.append(flag)
-        return flags
 
     def get_flags_for_bods_entity_or_person(self, object):
         flags = []
@@ -49,18 +39,12 @@ class FlagHelperFunctions():
     def get_flags_for_ocds_party(self, object):
         flags = []
 
-        flags.extend(self.get_flags_for_scheme_and_id(
-            object.party_identifier_scheme,
-            object.party_identifier_id,
-        ))
+        primary_identifier = object.party_json.get("identifier")
+        flags.extend(self.get_flags_for_ocds_party_identifier(primary_identifier))
 
         for identifier in object.party_json.get("additionalIdentifiers", []):
-            id_flags = self.get_flags_for_scheme_and_id(
-                identifier.get("scheme"),
-                identifier.get("id"),
-            )
+            id_flags = self.get_flags_for_ocds_party_identifier(identifier)
             flags.extend(id_flags)
-
         return flags
 
     def build_flags_context(self, flags):
