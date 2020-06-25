@@ -4,7 +4,7 @@ from collections import defaultdict
 from django.core.management import BaseCommand
 
 from bluetail.helpers import BodsHelperFunctions
-from bluetail.models import Flag, FlagAttachment, OCDSParty, OCDSTender
+from bluetail.models import Flag, FlagAttachment, OCDSParty, OCDSTender, ExternalPerson, BODSPersonStatement
 
 logger = logging.getLogger('django')
 
@@ -15,6 +15,10 @@ class Command(BaseCommand):
     help = "Scans contracts and flags suspicious entities"
 
     def handle(self, *args, **kwargs):
+        self.flag_within_contracts()
+        self.flag_external_people()
+
+    def flag_within_contracts(self):
         person_in_multiple_applications_to_tender = Flag.objects.get(
             flag_name='person_in_multiple_applications_to_tender')
         company_in_multiple_applications_to_tender = Flag.objects.get(
@@ -49,16 +53,47 @@ class Command(BaseCommand):
                     logger.info("{}: {} is a beneficial owner of {}".format(
                         tender.ocid, person.fullName, [t.party_name for t in people_to_tenderers[person]]))
                     for identifier in person.identifiers_json:
-                        self.create_flag_attachment(tender.ocid, identifier, person_in_multiple_applications_to_tender)
+                        self._create_flag_attachment(tender.ocid, identifier, person_in_multiple_applications_to_tender)
 
             if len(entities_with_multiple_parties) > 0:
                 for entity in entities_with_multiple_parties:
                     logger.info("{}: {} is a beneficial owner of {}".format(
                         tender.ocid, entity.entity_name, [t.party_name for t in entities_to_tenderers[entity]]))
                     for identifier in entity.identifiers_json:
-                        self.create_flag_attachment(tender.ocid, identifier, company_in_multiple_applications_to_tender)
+                        self._create_flag_attachment(tender.ocid, identifier, company_in_multiple_applications_to_tender)
 
-    def create_flag_attachment(self, ocid, identifier, flag):
+    def flag_external_people(self):
+        people = BODSPersonStatement.objects.all()
+        for person in people:
+            for identifier in person.identifiers_json:
+                external_people = ExternalPerson.objects.filter(
+                    scheme=identifier['schemeName'],
+                    identifier=identifier['id']
+                )
+                if external_people:
+                    for external_person in external_people:
+                        fa, created = FlagAttachment.objects.get_or_create(
+                            identifier_schemeName=external_person.scheme,
+                            identifier_id=external_person.identifier,
+                            flag_name=external_person.flag
+                        )
+                        if created:
+                            self.stdout.write(self.style.SUCCESS(
+                                "{}:{} -> {}\n".format(
+                                    fa.identifier_schemeName,
+                                    fa.identifier_id,
+                                    fa.flag_name
+                                )
+                            ))
+                        else:
+                            self.stdout.write(self.style.WARNING(
+                                "Existing record found for {}:{}".format(
+                                    external_person.scheme,
+                                    external_person.identifier
+                                )
+                            ))
+
+    def _create_flag_attachment(self, ocid, identifier, flag):
         fa, created = FlagAttachment.objects.get_or_create(
             ocid=ocid,
             identifier_schemeName=identifier.get('schemeName'),
