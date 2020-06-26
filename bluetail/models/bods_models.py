@@ -1,7 +1,12 @@
+from faker import Faker
+
 from django.contrib.postgres.fields import JSONField
 from django.db import models
 
 from django_pgviews import view as pgviews
+
+
+fake = Faker()
 
 
 class BODSStatementJSON(models.Model):
@@ -25,6 +30,11 @@ class BODSPersonStatement(pgviews.View):
     identifiers_json = JSONField()
     fullName = models.TextField()
     personType = models.TextField()
+
+    def fullName(self):
+        if not hasattr(self, 'fakeName'):
+            self.fakeName = fake.name()
+        return self.fakeName
 
     sql = """
         SELECT
