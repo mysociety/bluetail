@@ -1,1 +1,119 @@
-[{"statementID": "openownership-register-1640776561283399699", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "CARETECH UK LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "03638958"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/03638958", "uri": "https://opencorporates.com/companies/gb/03638958"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b94ef567e4ebf340bbfb36", "uri": "http://register.openownership.org/entities/59b94ef567e4ebf340bbfb36"}], "foundingDate": "1998-09-22", "addresses": [{"type": "registered", "address": "1386 London Road, Leigh On Sea, Essex, SS9 2UJ", "country": "GB"}]}, {"statementID": "openownership-register-6209263976525477150", "statementType": "ownershipOrControlStatement", "statementDate": "2016-07-01", "subject": {"describedByEntityStatement": "openownership-register-1640776561283399699"}, "interestedParty": {"describedByPersonStatement": "openownership-register-1499180722979564036"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2016-07-01"}, {"type": "voting-rights", "details": "voting-rights-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2016-07-01"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-07-01"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-1499180722979564036", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Antony Philip Mears"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04061627/persons-with-significant-control/individual/9oq7IdAFNbmhEWv69abyv_MJ7OM"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b94ef467e4ebf340bbf392", "uri": "http://register.openownership.org/entities/59b94ef467e4ebf340bbf392"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1966-02-01", "addresses": [{"address": "1386 London Road, Leigh On Sea, Essex, SS9 2UJ"}]}]
+[
+    {
+        "statementID": "openownership-register-1640776561283399699",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CARETECH UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03638958"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03638958",
+                "uri": "https://opencorporates.com/companies/gb/03638958"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94ef567e4ebf340bbfb36",
+                "uri": "http://register.openownership.org/entities/59b94ef567e4ebf340bbfb36"
+            }
+        ],
+        "foundingDate": "1998-09-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1386 London Road, Leigh On Sea, Essex, SS9 2UJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6209263976525477150",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1640776561283399699"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1499180722979564036"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-07-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-07-01"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-07-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1499180722979564036",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Antony Philip Mears"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04061627/persons-with-significant-control/individual/9oq7IdAFNbmhEWv69abyv_MJ7OM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94ef467e4ebf340bbf392",
+                "uri": "http://register.openownership.org/entities/59b94ef467e4ebf340bbf392"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-02-01",
+        "addresses": [
+            {
+                "address": "1386 London Road, Leigh On Sea, Essex, SS9 2UJ"
+            }
+        ]
+    }
+]

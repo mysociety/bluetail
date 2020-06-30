@@ -1,1 +1,120 @@
-[{"statementID": "openownership-register-5107949797889526030", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "NEW STREET TAXIS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "09885585"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/09885585", "uri": "https://opencorporates.com/companies/gb/09885585"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b991d567e4ebf340ee2c53", "uri": "http://register.openownership.org/entities/59b991d567e4ebf340ee2c53"}], "foundingDate": "2015-11-24", "dissolutionDate": "2019-04-30", "addresses": [{"type": "registered", "address": "Unit 3a Park Steet, Burton On Trent, Staffordshire, DE14 3TN", "country": "GB"}]}, {"statementID": "openownership-register-15544329181476583213", "statementType": "ownershipOrControlStatement", "statementDate": "2016-08-01", "subject": {"describedByEntityStatement": "openownership-register-5107949797889526030"}, "interestedParty": {"describedByPersonStatement": "openownership-register-609918801343123342"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-08-01"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-08-01"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-08-01"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-609918801343123342", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Mohammed Rashid"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/09885585/persons-with-significant-control/individual/nPFKXTK1A1F6co9hu_5CREvxL0Q"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b991d567e4ebf340ee2c5d", "uri": "http://register.openownership.org/entities/59b991d567e4ebf340ee2c5d"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1957-05-01", "addresses": [{"address": "Unit 3a, Park Steet, Burton On Trent, Staffordshire, DE14 3TN"}]}]
+[
+    {
+        "statementID": "openownership-register-5107949797889526030",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NEW STREET TAXIS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09885585"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09885585",
+                "uri": "https://opencorporates.com/companies/gb/09885585"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b991d567e4ebf340ee2c53",
+                "uri": "http://register.openownership.org/entities/59b991d567e4ebf340ee2c53"
+            }
+        ],
+        "foundingDate": "2015-11-24",
+        "dissolutionDate": "2019-04-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 3a Park Steet, Burton On Trent, Staffordshire, DE14 3TN",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15544329181476583213",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5107949797889526030"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-609918801343123342"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-01"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-08-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-609918801343123342",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mohammed Rashid"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09885585/persons-with-significant-control/individual/nPFKXTK1A1F6co9hu_5CREvxL0Q"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b991d567e4ebf340ee2c5d",
+                "uri": "http://register.openownership.org/entities/59b991d567e4ebf340ee2c5d"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-05-01",
+        "addresses": [
+            {
+                "address": "Unit 3a, Park Steet, Burton On Trent, Staffordshire, DE14 3TN"
+            }
+        ]
+    }
+]

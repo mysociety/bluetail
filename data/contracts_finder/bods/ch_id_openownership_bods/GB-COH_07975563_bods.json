@@ -1,1 +1,60 @@
-[{"statementID": "openownership-register-9661412472226247757", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "SOUTHERN DOMESTIC ABUSE SERVICE", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "07975563"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/07975563", "uri": "https://opencorporates.com/companies/gb/07975563"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59c502e167e4ebf34061c5fe", "uri": "http://register.openownership.org/entities/59c502e167e4ebf34061c5fe"}], "foundingDate": "2012-03-05", "addresses": [{"type": "registered", "address": "Piper House Dukes Court, Bognor Road, Chichester, West Sussex, PO19 8FX", "country": "GB"}]}, {"statementID": "openownership-register-3967553379318385919", "statementType": "ownershipOrControlStatement", "statementDate": "2017-03-05", "subject": {"describedByEntityStatement": "openownership-register-9661412472226247757"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-9661412472226247757",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SOUTHERN DOMESTIC ABUSE SERVICE",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07975563"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07975563",
+                "uri": "https://opencorporates.com/companies/gb/07975563"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c502e167e4ebf34061c5fe",
+                "uri": "http://register.openownership.org/entities/59c502e167e4ebf34061c5fe"
+            }
+        ],
+        "foundingDate": "2012-03-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Piper House Dukes Court, Bognor Road, Chichester, West Sussex, PO19 8FX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3967553379318385919",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-03-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9661412472226247757"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

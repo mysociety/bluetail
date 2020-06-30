@@ -1,1 +1,331 @@
-[{"statementID": "openownership-register-17185923218869641433", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "G F TOMLINSON BIRMINGHAM LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "05650995"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/05650995", "uri": "https://opencorporates.com/companies/gb/05650995"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96c7767e4ebf34047ad25", "uri": "http://register.openownership.org/entities/59b96c7767e4ebf34047ad25"}], "foundingDate": "2005-12-12", "addresses": [{"type": "registered", "address": "Tomlinson House Duffield Road, Little Eaton, Derby, Derbyshire, DE21 5DR", "country": "GB"}]}, {"statementID": "openownership-register-12925916066289398155", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-17185923218869641433"}, "interestedParty": {"describedByPersonStatement": "openownership-register-6361268595778175410"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control", "startDate": "2016-04-06", "endDate": "2019-05-24"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-5459418723421579172", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-17185923218869641433"}, "interestedParty": {"describedByPersonStatement": "openownership-register-4912481543414990493"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-4782577933145099989", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-17185923218869641433"}, "interestedParty": {"describedByEntityStatement": "openownership-register-17458964582270695001"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-17458964582270695001", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "G.F.TOMLINSON GROUP LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00233721"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/00233721", "uri": "https://opencorporates.com/companies/gb/00233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "233721"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9313d67e4ebf34033f9e5", "uri": "http://register.openownership.org/entities/59b9313d67e4ebf34033f9e5"}], "foundingDate": "1928-10-01", "addresses": [{"type": "registered", "address": "Tomlinson House Duffield Road, Little Eaton, Derby, Derbyshire, DE21 5DR", "country": "GB"}]}, {"statementID": "openownership-register-6361268595778175410", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Barry Edward Sewards"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/00233721/persons-with-significant-control/individual/qWukhXcqJRxcBB8WZeYDSwYp2U8"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9414367e4ebf3407f0152", "uri": "http://register.openownership.org/entities/59b9414367e4ebf3407f0152"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1937-09-01", "addresses": [{"address": "Tomlinson House, Duffield Road, Little Eaton, Derby, Derbyshire, DE21 5DR", "country": "GB"}]}, {"statementID": "openownership-register-4912481543414990493", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Andrew James Spencer Sewards"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02332956/persons-with-significant-control/individual/O0LiJDlSd6fqRZG22E3mhdCLMgY"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9418267e4ebf340801393", "uri": "http://register.openownership.org/entities/59b9418267e4ebf340801393"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1968-07-01", "addresses": [{"address": "Tomlinson House, Duffield Road, Little Eaton, Derby, Derbyshire, DE21 5DR"}]}]
+[
+    {
+        "statementID": "openownership-register-17185923218869641433",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "G F TOMLINSON BIRMINGHAM LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05650995"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05650995",
+                "uri": "https://opencorporates.com/companies/gb/05650995"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96c7767e4ebf34047ad25",
+                "uri": "http://register.openownership.org/entities/59b96c7767e4ebf34047ad25"
+            }
+        ],
+        "foundingDate": "2005-12-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Tomlinson House Duffield Road, Little Eaton, Derby, Derbyshire, DE21 5DR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12925916066289398155",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17185923218869641433"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6361268595778175410"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06",
+                "endDate": "2019-05-24"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5459418723421579172",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17185923218869641433"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4912481543414990493"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4782577933145099989",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17185923218869641433"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17458964582270695001"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17458964582270695001",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "G.F.TOMLINSON GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233721"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00233721",
+                "uri": "https://opencorporates.com/companies/gb/00233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "233721"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9313d67e4ebf34033f9e5",
+                "uri": "http://register.openownership.org/entities/59b9313d67e4ebf34033f9e5"
+            }
+        ],
+        "foundingDate": "1928-10-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Tomlinson House Duffield Road, Little Eaton, Derby, Derbyshire, DE21 5DR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6361268595778175410",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Barry Edward Sewards"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00233721/persons-with-significant-control/individual/qWukhXcqJRxcBB8WZeYDSwYp2U8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9414367e4ebf3407f0152",
+                "uri": "http://register.openownership.org/entities/59b9414367e4ebf3407f0152"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1937-09-01",
+        "addresses": [
+            {
+                "address": "Tomlinson House, Duffield Road, Little Eaton, Derby, Derbyshire, DE21 5DR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4912481543414990493",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Andrew James Spencer Sewards"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02332956/persons-with-significant-control/individual/O0LiJDlSd6fqRZG22E3mhdCLMgY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9418267e4ebf340801393",
+                "uri": "http://register.openownership.org/entities/59b9418267e4ebf340801393"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-07-01",
+        "addresses": [
+            {
+                "address": "Tomlinson House, Duffield Road, Little Eaton, Derby, Derbyshire, DE21 5DR"
+            }
+        ]
+    }
+]

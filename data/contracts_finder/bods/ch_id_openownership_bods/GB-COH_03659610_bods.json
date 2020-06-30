@@ -1,1 +1,135 @@
-[{"statementID": "openownership-register-4581269409314436596", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "CLEARWATER TECHNOLOGY LTD", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "03659610"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03659610"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/03659610", "uri": "https://opencorporates.com/companies/gb/03659610"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9312567e4ebf340337ed6", "uri": "http://register.openownership.org/entities/59b9312567e4ebf340337ed6"}], "foundingDate": "1998-10-30", "addresses": [{"type": "registered", "address": "20 Grosvenor Place, London, SW1X 7HN", "country": "GB"}]}, {"statementID": "openownership-register-9025129037065950981", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4581269409314436596"}, "interestedParty": {"describedByEntityStatement": "openownership-register-2415162765912871713"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-2415162765912871713", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "CLEARWATER GROUP LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02494701"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02494701"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02494701"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02494701", "uri": "https://opencorporates.com/companies/gb/02494701"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9579867e4ebf340e38eea", "uri": "http://register.openownership.org/entities/59b9579867e4ebf340e38eea"}], "foundingDate": "1990-04-23", "addresses": [{"type": "registered", "address": "20 Grosvenor Place, London, SW1X 7HN", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-4581269409314436596",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CLEARWATER TECHNOLOGY LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03659610"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03659610"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03659610",
+                "uri": "https://opencorporates.com/companies/gb/03659610"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9312567e4ebf340337ed6",
+                "uri": "http://register.openownership.org/entities/59b9312567e4ebf340337ed6"
+            }
+        ],
+        "foundingDate": "1998-10-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "20 Grosvenor Place, London, SW1X 7HN",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9025129037065950981",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4581269409314436596"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2415162765912871713"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2415162765912871713",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CLEARWATER GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02494701"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02494701"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02494701"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02494701",
+                "uri": "https://opencorporates.com/companies/gb/02494701"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9579867e4ebf340e38eea",
+                "uri": "http://register.openownership.org/entities/59b9579867e4ebf340e38eea"
+            }
+        ],
+        "foundingDate": "1990-04-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "20 Grosvenor Place, London, SW1X 7HN",
+                "country": "GB"
+            }
+        ]
+    }
+]

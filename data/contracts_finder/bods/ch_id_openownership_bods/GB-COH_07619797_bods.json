@@ -1,1 +1,120 @@
-[{"statementID": "openownership-register-16959614849599198106", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "UKCLOUD LTD", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "07619797"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/07619797", "uri": "https://opencorporates.com/companies/gb/07619797"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9bc5d67e4ebf3408c66fd", "uri": "http://register.openownership.org/entities/59b9bc5d67e4ebf3408c66fd"}], "foundingDate": "2011-05-03", "addresses": [{"type": "registered", "address": "Hartham Park, Corsham, Wiltshire, SN13 0RP", "country": "GB"}]}, {"statementID": "openownership-register-13784987120475079156", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-16959614849599198106"}, "interestedParty": {"describedByEntityStatement": "openownership-register-6825921624352056776"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-6825921624352056776", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "VIRTUAL INFRASTRUCTURE GROUP LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "08099285"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "08099285"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/08099285", "uri": "https://opencorporates.com/companies/gb/08099285"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9bc5e67e4ebf3408c6bff", "uri": "http://register.openownership.org/entities/59b9bc5e67e4ebf3408c6bff"}], "foundingDate": "2012-06-11", "addresses": [{"type": "registered", "address": "Hartham Park, Hartham, Corsham, Wiltshire, SN13 0RP", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-16959614849599198106",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "UKCLOUD LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07619797"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07619797",
+                "uri": "https://opencorporates.com/companies/gb/07619797"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bc5d67e4ebf3408c66fd",
+                "uri": "http://register.openownership.org/entities/59b9bc5d67e4ebf3408c66fd"
+            }
+        ],
+        "foundingDate": "2011-05-03",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Hartham Park, Corsham, Wiltshire, SN13 0RP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13784987120475079156",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16959614849599198106"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6825921624352056776"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6825921624352056776",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VIRTUAL INFRASTRUCTURE GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08099285"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08099285"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08099285",
+                "uri": "https://opencorporates.com/companies/gb/08099285"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bc5e67e4ebf3408c6bff",
+                "uri": "http://register.openownership.org/entities/59b9bc5e67e4ebf3408c6bff"
+            }
+        ],
+        "foundingDate": "2012-06-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Hartham Park, Hartham, Corsham, Wiltshire, SN13 0RP",
+                "country": "GB"
+            }
+        ]
+    }
+]

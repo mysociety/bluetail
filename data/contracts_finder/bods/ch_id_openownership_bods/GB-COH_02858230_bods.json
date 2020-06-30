@@ -1,1 +1,169 @@
-[{"statementID": "openownership-register-5904251069730825774", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "VECTAIR ENVIRONMENTAL LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02858230"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02858230", "uri": "https://opencorporates.com/companies/gb/02858230"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d20d", "uri": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d20d"}], "foundingDate": "1993-09-29", "addresses": [{"type": "registered", "address": "5 Apollo House, Calleva Park, Aldermaston, Berkshire, RG7 8TN", "country": "GB"}]}, {"statementID": "openownership-register-3757173976780896724", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-5904251069730825774"}, "interestedParty": {"describedByPersonStatement": "openownership-register-15030313418206581044"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-16618186792417843985", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-5904251069730825774"}, "interestedParty": {"describedByPersonStatement": "openownership-register-14845565540633825835"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-15030313418206581044", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Frank Doran"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02858230/persons-with-significant-control/individual/8PMNh2KhCTbOCaxahDspeLeyBB4"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d21f", "uri": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d21f"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1952-10-01", "addresses": [{"address": "100, Thetford Road, New Malden, KT3 5DZ"}]}, {"statementID": "openownership-register-14845565540633825835", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Mark Corr"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02858230/persons-with-significant-control/individual/pmh-3yHnb6dmKnpuAO0ffozAGdM"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d21c", "uri": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d21c"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1954-10-01", "addresses": [{"address": "33, Brookly Gardens, Fleet, GU51 3LL"}]}]
+[
+    {
+        "statementID": "openownership-register-5904251069730825774",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VECTAIR ENVIRONMENTAL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02858230"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02858230",
+                "uri": "https://opencorporates.com/companies/gb/02858230"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d20d",
+                "uri": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d20d"
+            }
+        ],
+        "foundingDate": "1993-09-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "5 Apollo House, Calleva Park, Aldermaston, Berkshire, RG7 8TN",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3757173976780896724",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5904251069730825774"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15030313418206581044"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16618186792417843985",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5904251069730825774"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14845565540633825835"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15030313418206581044",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Frank Doran"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02858230/persons-with-significant-control/individual/8PMNh2KhCTbOCaxahDspeLeyBB4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d21f",
+                "uri": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d21f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1952-10-01",
+        "addresses": [
+            {
+                "address": "100, Thetford Road, New Malden, KT3 5DZ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14845565540633825835",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark Corr"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02858230/persons-with-significant-control/individual/pmh-3yHnb6dmKnpuAO0ffozAGdM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d21c",
+                "uri": "http://register.openownership.org/entities/59b94cc067e4ebf340b1d21c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1954-10-01",
+        "addresses": [
+            {
+                "address": "33, Brookly Gardens, Fleet, GU51 3LL"
+            }
+        ]
+    }
+]

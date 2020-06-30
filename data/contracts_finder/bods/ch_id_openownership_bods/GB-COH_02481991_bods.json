@@ -1,1 +1,323 @@
-[{"statementID": "openownership-register-15423582078868648277", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "VEOLIA ES (UK) LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02481991", "uri": "https://opencorporates.com/companies/gb/02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02481991"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5ab946319dfc3fae186849b4", "uri": "http://register.openownership.org/entities/5ab946319dfc3fae186849b4"}], "foundingDate": "1990-03-16", "addresses": [{"type": "registered", "address": "210 Pentonville Road, London, N1 9JY", "country": "GB"}]}, {"statementID": "openownership-register-5247846338404446325", "statementType": "ownershipOrControlStatement", "statementDate": "2016-06-30", "subject": {"describedByEntityStatement": "openownership-register-15423582078868648277"}, "interestedParty": {"describedByEntityStatement": "openownership-register-15694518436180161071"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-06-30"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-06-30"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-06-30"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-15694518436180161071", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "VEOLIA ENVIRONMENTAL SERVICES (UK) PLC", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02215767"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02215767", "uri": "https://opencorporates.com/companies/gb/02215767"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b939cb67e4ebf3405ccde2", "uri": "http://register.openownership.org/entities/59b939cb67e4ebf3405ccde2"}], "foundingDate": "1988-02-01", "addresses": [{"type": "registered", "address": "210 Pentonville Road, London, N1 9JY", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-15423582078868648277",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VEOLIA ES (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02481991",
+                "uri": "https://opencorporates.com/companies/gb/02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02481991"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab946319dfc3fae186849b4",
+                "uri": "http://register.openownership.org/entities/5ab946319dfc3fae186849b4"
+            }
+        ],
+        "foundingDate": "1990-03-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "210 Pentonville Road, London, N1 9JY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5247846338404446325",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15423582078868648277"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-15694518436180161071"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15694518436180161071",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VEOLIA ENVIRONMENTAL SERVICES (UK) PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02215767"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02215767",
+                "uri": "https://opencorporates.com/companies/gb/02215767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b939cb67e4ebf3405ccde2",
+                "uri": "http://register.openownership.org/entities/59b939cb67e4ebf3405ccde2"
+            }
+        ],
+        "foundingDate": "1988-02-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "210 Pentonville Road, London, N1 9JY",
+                "country": "GB"
+            }
+        ]
+    }
+]

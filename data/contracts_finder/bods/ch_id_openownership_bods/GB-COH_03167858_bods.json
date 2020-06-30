@@ -1,1 +1,169 @@
-[{"statementID": "openownership-register-13342972498027729456", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "LOGAN CONSTRUCTION (SOUTH EAST) LTD", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "03167858"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/03167858", "uri": "https://opencorporates.com/companies/gb/03167858"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f4567e4ebf340a56973", "uri": "http://register.openownership.org/entities/59b97f4567e4ebf340a56973"}], "foundingDate": "1996-03-05", "addresses": [{"type": "registered", "address": "Unit 7 Business Park, 238 Green Lane, Eltham, London, SE9 3TL", "country": "GB"}]}, {"statementID": "openownership-register-14124600181223536630", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-31", "subject": {"describedByEntityStatement": "openownership-register-13342972498027729456"}, "interestedParty": {"describedByPersonStatement": "openownership-register-13352352626729001033"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2017-01-31"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2020-01-21T11:51:17Z"}}, {"statementID": "openownership-register-10715689353564864064", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-31", "subject": {"describedByEntityStatement": "openownership-register-13342972498027729456"}, "interestedParty": {"describedByPersonStatement": "openownership-register-4261944417252000762"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2017-01-31"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-13352352626729001033", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "William Patrick Logan"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/03167858/persons-with-significant-control/individual/9ngEYifPe8SLdke3gGTF2RqEglg"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f4567e4ebf340a56982", "uri": "http://register.openownership.org/entities/59b97f4567e4ebf340a56982"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1973-10-01", "addresses": [{"address": "Unit 7, Business Park, 238 Green Lane, Eltham, London, SE9 3TL"}]}, {"statementID": "openownership-register-4261944417252000762", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "William Patrick Logan"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/03167858/persons-with-significant-control/individual/byzSm4lfgDw--NaNbY5NfwmwZ2k"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f4567e4ebf340a56994", "uri": "http://register.openownership.org/entities/59b97f4567e4ebf340a56994"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1947-05-01", "addresses": [{"address": "Unit 7, Business Park, 238 Green Lane, Eltham, London, SE9 3TL"}]}]
+[
+    {
+        "statementID": "openownership-register-13342972498027729456",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LOGAN CONSTRUCTION (SOUTH EAST) LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03167858"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03167858",
+                "uri": "https://opencorporates.com/companies/gb/03167858"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f4567e4ebf340a56973",
+                "uri": "http://register.openownership.org/entities/59b97f4567e4ebf340a56973"
+            }
+        ],
+        "foundingDate": "1996-03-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 7 Business Park, 238 Green Lane, Eltham, London, SE9 3TL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14124600181223536630",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-31",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13342972498027729456"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13352352626729001033"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-01-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10715689353564864064",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-31",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13342972498027729456"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4261944417252000762"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2017-01-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13352352626729001033",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "William Patrick Logan"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03167858/persons-with-significant-control/individual/9ngEYifPe8SLdke3gGTF2RqEglg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f4567e4ebf340a56982",
+                "uri": "http://register.openownership.org/entities/59b97f4567e4ebf340a56982"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1973-10-01",
+        "addresses": [
+            {
+                "address": "Unit 7, Business Park, 238 Green Lane, Eltham, London, SE9 3TL"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4261944417252000762",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "William Patrick Logan"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03167858/persons-with-significant-control/individual/byzSm4lfgDw--NaNbY5NfwmwZ2k"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f4567e4ebf340a56994",
+                "uri": "http://register.openownership.org/entities/59b97f4567e4ebf340a56994"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1947-05-01",
+        "addresses": [
+            {
+                "address": "Unit 7, Business Park, 238 Green Lane, Eltham, London, SE9 3TL"
+            }
+        ]
+    }
+]

@@ -1,1 +1,113 @@
-[{"statementID": "openownership-register-718205271537256273", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "BIOTRONIK U.K. LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "01442431"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/01442431", "uri": "https://opencorporates.com/companies/gb/01442431"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b98b8067e4ebf340d7ea5d", "uri": "http://register.openownership.org/entities/59b98b8067e4ebf340d7ea5d"}], "foundingDate": "1979-08-08", "addresses": [{"type": "registered", "address": "Biotronik House, Avonbury Business Park, Bicester, Oxfordshire, OX26 2UA", "country": "GB"}]}, {"statementID": "openownership-register-7743782702787622287", "statementType": "ownershipOrControlStatement", "statementDate": "2016-06-30", "subject": {"describedByEntityStatement": "openownership-register-718205271537256273"}, "interestedParty": {"describedByEntityStatement": "openownership-register-2344645658060870937"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-06-30"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-06-30"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors-as-firm", "startDate": "2016-06-30"}, {"type": "influence-or-control", "details": "significant-influence-or-control-as-firm", "startDate": "2016-06-30"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-2344645658060870937", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "International Biotronik Beteiligungs Kg Bt Verwaltungs Gmbh", "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/01442431/persons-with-significant-control/corporate-entity/pBmlgkZuTfLO5c5e5CJ4yjfqnaI"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b98b8067e4ebf340d7ea68", "uri": "http://register.openownership.org/entities/59b98b8067e4ebf340d7ea68"}], "addresses": [{"type": "registered", "address": "1, Woermannkehre, Berlin"}]}]
+[
+    {
+        "statementID": "openownership-register-718205271537256273",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BIOTRONIK U.K. LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01442431"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01442431",
+                "uri": "https://opencorporates.com/companies/gb/01442431"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98b8067e4ebf340d7ea5d",
+                "uri": "http://register.openownership.org/entities/59b98b8067e4ebf340d7ea5d"
+            }
+        ],
+        "foundingDate": "1979-08-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Biotronik House, Avonbury Business Park, Bicester, Oxfordshire, OX26 2UA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7743782702787622287",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-718205271537256273"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2344645658060870937"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors-as-firm",
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2344645658060870937",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "International Biotronik Beteiligungs Kg Bt Verwaltungs Gmbh",
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01442431/persons-with-significant-control/corporate-entity/pBmlgkZuTfLO5c5e5CJ4yjfqnaI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98b8067e4ebf340d7ea68",
+                "uri": "http://register.openownership.org/entities/59b98b8067e4ebf340d7ea68"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1, Woermannkehre, Berlin"
+            }
+        ]
+    }
+]

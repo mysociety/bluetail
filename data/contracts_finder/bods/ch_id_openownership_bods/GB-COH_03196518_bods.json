@@ -1,1 +1,60 @@
-[{"statementID": "openownership-register-11415704624600844692", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "IDEAL FOR ALL LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "03196518"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/03196518", "uri": "https://opencorporates.com/companies/gb/03196518"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59c508c167e4ebf3406eb33c", "uri": "http://register.openownership.org/entities/59c508c167e4ebf3406eb33c"}], "foundingDate": "1996-05-09", "addresses": [{"type": "registered", "address": "100 Oldbury Road, Smethwick, West Midlands, B66 1JE", "country": "GB"}]}, {"statementID": "openownership-register-6730162519618051726", "statementType": "ownershipOrControlStatement", "statementDate": "2017-05-21", "subject": {"describedByEntityStatement": "openownership-register-11415704624600844692"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-11415704624600844692",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "IDEAL FOR ALL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03196518"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03196518",
+                "uri": "https://opencorporates.com/companies/gb/03196518"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c508c167e4ebf3406eb33c",
+                "uri": "http://register.openownership.org/entities/59c508c167e4ebf3406eb33c"
+            }
+        ],
+        "foundingDate": "1996-05-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "100 Oldbury Road, Smethwick, West Midlands, B66 1JE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6730162519618051726",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-05-21",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11415704624600844692"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

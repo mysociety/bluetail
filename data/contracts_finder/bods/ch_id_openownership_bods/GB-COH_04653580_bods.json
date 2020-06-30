@@ -1,1 +1,233 @@
-[{"statementID": "openownership-register-7250669306693762252", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "RIDER LEVETT BUCKNALL UK LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04653580"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/04653580", "uri": "https://opencorporates.com/companies/gb/04653580"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9339a67e4ebf340400baa", "uri": "http://register.openownership.org/entities/59b9339a67e4ebf340400baa"}], "foundingDate": "2003-01-31", "addresses": [{"type": "registered", "address": "15 Colmore Row, Birmingham, West Midlands, B3 2BH", "country": "GB"}]}, {"statementID": "openownership-register-2227417909411851246", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-7250669306693762252"}, "interestedParty": {"describedByPersonStatement": "openownership-register-14625823436902465893"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent-as-trust", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent-as-trust", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-16240284868291248626", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-7250669306693762252"}, "interestedParty": {"describedByPersonStatement": "openownership-register-9505691467153504908"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent-as-trust", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent-as-trust", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-14625823436902465893", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Maureen Caroline Quayle"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04653580/persons-with-significant-control/individual/LiqdRosBeICYDpk8_AiTU0t-5pg"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a47b67e4ebf34031c2fd", "uri": "http://register.openownership.org/entities/59b9a47b67e4ebf34031c2fd"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1959-03-01", "addresses": [{"address": "St Mary's, The Parade, Castletown, IM9 1LG", "country": "IM"}]}, {"statementID": "openownership-register-9505691467153504908", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Mark St John Schofield"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04653580/persons-with-significant-control/individual/P5Y6EmhqlsbQdz8nb8UMjNlT894"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a47b67e4ebf34031c2f4", "uri": "http://register.openownership.org/entities/59b9a47b67e4ebf34031c2f4"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1964-07-01", "addresses": [{"address": "St Mary's, The Parade, Castletown, IM9 1LG", "country": "IM"}]}]
+[
+    {
+        "statementID": "openownership-register-7250669306693762252",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "RIDER LEVETT BUCKNALL UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04653580"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04653580",
+                "uri": "https://opencorporates.com/companies/gb/04653580"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9339a67e4ebf340400baa",
+                "uri": "http://register.openownership.org/entities/59b9339a67e4ebf340400baa"
+            }
+        ],
+        "foundingDate": "2003-01-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "15 Colmore Row, Birmingham, West Midlands, B3 2BH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2227417909411851246",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7250669306693762252"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14625823436902465893"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent-as-trust",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent-as-trust",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16240284868291248626",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7250669306693762252"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9505691467153504908"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent-as-trust",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent-as-trust",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14625823436902465893",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Maureen Caroline Quayle"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04653580/persons-with-significant-control/individual/LiqdRosBeICYDpk8_AiTU0t-5pg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a47b67e4ebf34031c2fd",
+                "uri": "http://register.openownership.org/entities/59b9a47b67e4ebf34031c2fd"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-03-01",
+        "addresses": [
+            {
+                "address": "St Mary's, The Parade, Castletown, IM9 1LG",
+                "country": "IM"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9505691467153504908",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark St John Schofield"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04653580/persons-with-significant-control/individual/P5Y6EmhqlsbQdz8nb8UMjNlT894"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a47b67e4ebf34031c2f4",
+                "uri": "http://register.openownership.org/entities/59b9a47b67e4ebf34031c2f4"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-07-01",
+        "addresses": [
+            {
+                "address": "St Mary's, The Parade, Castletown, IM9 1LG",
+                "country": "IM"
+            }
+        ]
+    }
+]

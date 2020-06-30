@@ -1,1 +1,736 @@
-[{"statementID": "openownership-register-4442162229988002011", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "ASHFORDS LLP", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC342432"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/OC342432", "uri": "https://opencorporates.com/companies/gb/OC342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc342432"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b920a667e4ebf340ea5b08", "uri": "http://register.openownership.org/entities/59b920a667e4ebf340ea5b08"}], "foundingDate": "2009-01-07", "addresses": [{"type": "registered", "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH", "country": "GB"}]}, {"statementID": "openownership-register-2695368120306549604", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-3473572154848905592"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-17699754866767552592", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-15230387729249208841"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06", "endDate": "2018-01-12"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-6042355952223842474", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-13682641575622083992"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-13557013695673138406", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-9594672080618897631"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-14228164358055924264", "statementType": "ownershipOrControlStatement", "statementDate": "2018-07-06", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-8694325656096344587"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2018-07-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-4837093494964446056", "statementType": "ownershipOrControlStatement", "statementDate": "2018-01-12", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-15859045837999734916"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2018-01-12", "endDate": "2020-04-30"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2020-05-26T09:05:26Z"}}, {"statementID": "openownership-register-1822406331930248651", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-4396228279436516156"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-14255502053085298004", "statementType": "ownershipOrControlStatement", "statementDate": "2018-01-12", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-16133992242825407583"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2018-01-12", "endDate": "2018-04-30"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-5689184067564264558", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-338605344135560537"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06", "endDate": "2020-04-21"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2020-04-24T09:24:16Z"}}, {"statementID": "openownership-register-16606177655401225975", "statementType": "ownershipOrControlStatement", "statementDate": "2018-01-12", "subject": {"describedByEntityStatement": "openownership-register-4442162229988002011"}, "interestedParty": {"describedByPersonStatement": "openownership-register-10041257467811247726"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2018-01-12"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-3473572154848905592", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Timothy Ralph Heal"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/0LkWxYWrPG3r5KmwQhpAPeZ5cX8"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca8c", "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca8c"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1968-11-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}, {"statementID": "openownership-register-15230387729249208841", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Judith Margaret Park"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/5E8ZnhfJ0BNXkXJsEQ-0IxU9REk"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f8867e4ebf340a6cac5", "uri": "http://register.openownership.org/entities/59b97f8867e4ebf340a6cac5"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1958-03-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}, {"statementID": "openownership-register-13682641575622083992", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Michael Alistair Alden"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/5mb768-cwQuauez_ft3ZyburZLU"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6caa4", "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6caa4"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1968-12-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}, {"statementID": "openownership-register-9594672080618897631", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Mark Mallyon Lomas"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/8KoPJXGsnA4429c7oMhI3XwFX-U"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca63", "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca63"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1962-11-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}, {"statementID": "openownership-register-8694325656096344587", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Louise Jane Workman"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/AsegU2a5fPtUF31UnzZsrEQAZPU"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5c3d3c669dfc3fae1817c229", "uri": "http://register.openownership.org/entities/5c3d3c669dfc3fae1817c229"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1970-05-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}, {"statementID": "openownership-register-15859045837999734916", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Ruth Kathryn Murray"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/N3gKYKS3fu0auWY3C96KnPuUA3E"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5aba68d49dfc3fae18f46d2b", "uri": "http://register.openownership.org/entities/5aba68d49dfc3fae18f46d2b"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1978-02-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}, {"statementID": "openownership-register-4396228279436516156", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Andrew Collins Betteridge"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/YzAif2Bu8L1SZopHBwrzU-Vxnck"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca45", "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca45"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1975-07-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}, {"statementID": "openownership-register-16133992242825407583", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Samantha Miriam Irene Palmer"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/i_G1bGKkFO-2ngtkSPhngi1LnfI"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5aba68cd9dfc3fae18f46760", "uri": "http://register.openownership.org/entities/5aba68cd9dfc3fae18f46760"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1968-01-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH", "country": "GB"}]}, {"statementID": "openownership-register-338605344135560537", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Garry Sutherland Mackay"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/lCY9mUKJYhQ50EF4WGMJKWx5jcs"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca79", "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca79"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1970-07-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}, {"statementID": "openownership-register-10041257467811247726", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Robert Dirk Horsey"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC342432/persons-with-significant-control/individual/mhQKEHuVgg_5zfQ-013MkxIxEpo"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5aba68d09dfc3fae18f469d6", "uri": "http://register.openownership.org/entities/5aba68d09dfc3fae18f469d6"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1963-06-01", "addresses": [{"address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"}]}]
+[
+    {
+        "statementID": "openownership-register-4442162229988002011",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ASHFORDS LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC342432"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC342432",
+                "uri": "https://opencorporates.com/companies/gb/OC342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc342432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b920a667e4ebf340ea5b08",
+                "uri": "http://register.openownership.org/entities/59b920a667e4ebf340ea5b08"
+            }
+        ],
+        "foundingDate": "2009-01-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2695368120306549604",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3473572154848905592"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17699754866767552592",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15230387729249208841"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06",
+                "endDate": "2018-01-12"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6042355952223842474",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13682641575622083992"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13557013695673138406",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9594672080618897631"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14228164358055924264",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-07-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8694325656096344587"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2018-07-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4837093494964446056",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-01-12",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15859045837999734916"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2018-01-12",
+                "endDate": "2020-04-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-05-26T09:05:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1822406331930248651",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4396228279436516156"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14255502053085298004",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-01-12",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16133992242825407583"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2018-01-12",
+                "endDate": "2018-04-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5689184067564264558",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-338605344135560537"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06",
+                "endDate": "2020-04-21"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-04-24T09:24:16Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16606177655401225975",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-01-12",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4442162229988002011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10041257467811247726"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2018-01-12"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3473572154848905592",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Timothy Ralph Heal"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/0LkWxYWrPG3r5KmwQhpAPeZ5cX8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca8c",
+                "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca8c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-11-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15230387729249208841",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Judith Margaret Park"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/5E8ZnhfJ0BNXkXJsEQ-0IxU9REk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f8867e4ebf340a6cac5",
+                "uri": "http://register.openownership.org/entities/59b97f8867e4ebf340a6cac5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1958-03-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13682641575622083992",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Michael Alistair Alden"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/5mb768-cwQuauez_ft3ZyburZLU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6caa4",
+                "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6caa4"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-12-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9594672080618897631",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark Mallyon Lomas"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/8KoPJXGsnA4429c7oMhI3XwFX-U"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca63",
+                "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca63"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1962-11-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8694325656096344587",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Louise Jane Workman"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/AsegU2a5fPtUF31UnzZsrEQAZPU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5c3d3c669dfc3fae1817c229",
+                "uri": "http://register.openownership.org/entities/5c3d3c669dfc3fae1817c229"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-05-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15859045837999734916",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Ruth Kathryn Murray"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/N3gKYKS3fu0auWY3C96KnPuUA3E"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba68d49dfc3fae18f46d2b",
+                "uri": "http://register.openownership.org/entities/5aba68d49dfc3fae18f46d2b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1978-02-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4396228279436516156",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Andrew Collins Betteridge"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/YzAif2Bu8L1SZopHBwrzU-Vxnck"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca45",
+                "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca45"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-07-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16133992242825407583",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Samantha Miriam Irene Palmer"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/i_G1bGKkFO-2ngtkSPhngi1LnfI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba68cd9dfc3fae18f46760",
+                "uri": "http://register.openownership.org/entities/5aba68cd9dfc3fae18f46760"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-01-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-338605344135560537",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Garry Sutherland Mackay"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/lCY9mUKJYhQ50EF4WGMJKWx5jcs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca79",
+                "uri": "http://register.openownership.org/entities/59b97f8767e4ebf340a6ca79"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-07-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10041257467811247726",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Robert Dirk Horsey"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC342432/persons-with-significant-control/individual/mhQKEHuVgg_5zfQ-013MkxIxEpo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba68d09dfc3fae18f469d6",
+                "uri": "http://register.openownership.org/entities/5aba68d09dfc3fae18f469d6"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-06-01",
+        "addresses": [
+            {
+                "address": "Ashford House, Grenadier Road, Exeter, Devon, EX1 3LH"
+            }
+        ]
+    }
+]

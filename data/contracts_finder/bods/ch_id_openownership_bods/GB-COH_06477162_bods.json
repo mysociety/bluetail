@@ -1,1 +1,81 @@
-[{"statementID": "openownership-register-9925551355087157004", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "THIRTEEN HOUSING GROUP LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06477162"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06477162"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06477162"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06477162", "uri": "https://opencorporates.com/companies/gb/06477162"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "6477162"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "6477162"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5ab967ae9dfc3fae18b8557f", "uri": "http://register.openownership.org/entities/5ab967ae9dfc3fae18b8557f"}], "foundingDate": "2008-01-18", "dissolutionDate": "2017-04-04", "addresses": [{"type": "registered", "address": "Northshore, North Shore Road, Stockton-On-Tees, Cleveland, TS18 2NB", "country": "GB"}]}, {"statementID": "openownership-register-8117091232262198386", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-16", "subject": {"describedByEntityStatement": "openownership-register-9925551355087157004"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-9925551355087157004",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THIRTEEN HOUSING GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06477162"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06477162"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06477162"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06477162",
+                "uri": "https://opencorporates.com/companies/gb/06477162"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6477162"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6477162"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab967ae9dfc3fae18b8557f",
+                "uri": "http://register.openownership.org/entities/5ab967ae9dfc3fae18b8557f"
+            }
+        ],
+        "foundingDate": "2008-01-18",
+        "dissolutionDate": "2017-04-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Northshore, North Shore Road, Stockton-On-Tees, Cleveland, TS18 2NB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8117091232262198386",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-16",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9925551355087157004"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

@@ -1,1 +1,114 @@
-[{"statementID": "openownership-register-7589789291810974457", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "ACKLAM'S COACHES LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06291076"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06291076", "uri": "https://opencorporates.com/companies/gb/06291076"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9d78767e4ebf340f0adc0", "uri": "http://register.openownership.org/entities/59b9d78767e4ebf340f0adc0"}], "foundingDate": "2007-06-25", "addresses": [{"type": "registered", "address": "Barmston Close, Swinemoor Lane, Beverley, East Yorkshire, HU17 0LA", "country": "GB"}]}, {"statementID": "openownership-register-14657933451749663601", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-7589789291810974457"}, "interestedParty": {"describedByEntityStatement": "openownership-register-11334713963275452489"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-11334713963275452489", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "ACKLAMS PROPERTIES LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06166907"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06166907"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06166907"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06166907", "uri": "https://opencorporates.com/companies/gb/06166907"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b93f6f67e4ebf34076a4a2", "uri": "http://register.openownership.org/entities/59b93f6f67e4ebf34076a4a2"}], "foundingDate": "2007-03-19", "addresses": [{"type": "registered", "address": "Barmston Close, Swinemoor Lane, Beverley, East Yorkshire, HU17 0LA", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-7589789291810974457",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ACKLAM'S COACHES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06291076"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06291076",
+                "uri": "https://opencorporates.com/companies/gb/06291076"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d78767e4ebf340f0adc0",
+                "uri": "http://register.openownership.org/entities/59b9d78767e4ebf340f0adc0"
+            }
+        ],
+        "foundingDate": "2007-06-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Barmston Close, Swinemoor Lane, Beverley, East Yorkshire, HU17 0LA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14657933451749663601",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7589789291810974457"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-11334713963275452489"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11334713963275452489",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ACKLAMS PROPERTIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06166907"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06166907"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06166907"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06166907",
+                "uri": "https://opencorporates.com/companies/gb/06166907"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93f6f67e4ebf34076a4a2",
+                "uri": "http://register.openownership.org/entities/59b93f6f67e4ebf34076a4a2"
+            }
+        ],
+        "foundingDate": "2007-03-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Barmston Close, Swinemoor Lane, Beverley, East Yorkshire, HU17 0LA",
+                "country": "GB"
+            }
+        ]
+    }
+]

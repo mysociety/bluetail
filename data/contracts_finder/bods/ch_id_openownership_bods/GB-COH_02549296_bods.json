@@ -1,1 +1,125 @@
-[{"statementID": "openownership-register-17668807612686345858", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "LAND USE CONSULTANTS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02549296"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02549296"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02549296", "uri": "https://opencorporates.com/companies/gb/02549296"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b94a8167e4ebf340a88ade", "uri": "http://register.openownership.org/entities/59b94a8167e4ebf340a88ade"}], "foundingDate": "1990-10-17", "addresses": [{"type": "registered", "address": "250 Waterloo Road, London, SE1 8RD", "country": "GB"}]}, {"statementID": "openownership-register-5545381169558994637", "statementType": "ownershipOrControlStatement", "statementDate": "2019-12-24", "subject": {"describedByEntityStatement": "openownership-register-17668807612686345858"}, "interestedParty": {"describedByEntityStatement": "openownership-register-3113747546022031505"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2019-12-24"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2019-12-24"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2020-03-24T16:58:02Z"}}, {"statementID": "openownership-register-3113747546022031505", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "LAND USE CONSULTANTS TRUSTEE (EOT) LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "12349809"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/12349809", "uri": "https://opencorporates.com/companies/gb/12349809"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "12349809"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5def86529dfc3fae18ef7562", "uri": "http://register.openownership.org/entities/5def86529dfc3fae18ef7562"}], "foundingDate": "2019-12-05", "addresses": [{"type": "registered", "address": "250 Waterloo Road, London, SE1 8RD", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-17668807612686345858",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LAND USE CONSULTANTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02549296"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02549296"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02549296",
+                "uri": "https://opencorporates.com/companies/gb/02549296"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94a8167e4ebf340a88ade",
+                "uri": "http://register.openownership.org/entities/59b94a8167e4ebf340a88ade"
+            }
+        ],
+        "foundingDate": "1990-10-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "250 Waterloo Road, London, SE1 8RD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5545381169558994637",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-12-24",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17668807612686345858"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-3113747546022031505"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-12-24"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-12-24"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3113747546022031505",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LAND USE CONSULTANTS TRUSTEE (EOT) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12349809"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/12349809",
+                "uri": "https://opencorporates.com/companies/gb/12349809"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12349809"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5def86529dfc3fae18ef7562",
+                "uri": "http://register.openownership.org/entities/5def86529dfc3fae18ef7562"
+            }
+        ],
+        "foundingDate": "2019-12-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "250 Waterloo Road, London, SE1 8RD",
+                "country": "GB"
+            }
+        ]
+    }
+]

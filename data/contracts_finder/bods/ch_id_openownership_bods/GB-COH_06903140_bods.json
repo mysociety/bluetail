@@ -1,1 +1,197 @@
-[{"statementID": "openownership-register-746486342085374943", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "REED SPECIALIST RECRUITMENT LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06903140"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06903140", "uri": "https://opencorporates.com/companies/gb/06903140"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06903140"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9bee167e4ebf34095fd69", "uri": "http://register.openownership.org/entities/59b9bee167e4ebf34095fd69"}], "foundingDate": "2009-05-12", "addresses": [{"type": "registered", "address": "Academy Court, 94 Chancery Lane, London, WC2A 1DT", "country": "GB"}]}, {"statementID": "openownership-register-10472729119013673977", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-746486342085374943"}, "interestedParty": {"describedByEntityStatement": "openownership-register-3274878148568023999"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-6179561907350305835", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-746486342085374943"}, "interestedParty": {"describedByPersonStatement": "openownership-register-3642049359273931717"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-3274878148568023999", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "REED EXECUTIVE LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02061422"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02061422", "uri": "https://opencorporates.com/companies/gb/02061422"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9433e67e4ebf340869646", "uri": "http://register.openownership.org/entities/59b9433e67e4ebf340869646"}], "foundingDate": "1986-10-03", "addresses": [{"type": "registered", "address": "Academy Court, 94 Chancery Lane, London, WC2A 1DT", "country": "GB"}]}, {"statementID": "openownership-register-3642049359273931717", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "James Andrew Reed"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/06317279/persons-with-significant-control/individual/A2bRR3cQO9-imdlmXoMtvgA53tI"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9278f67e4ebf3400693d0", "uri": "http://register.openownership.org/entities/59b9278f67e4ebf3400693d0"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1963-04-01", "addresses": [{"address": "Academy Court, 94 Chancery Lane, London, WC2A 1DT"}]}]
+[
+    {
+        "statementID": "openownership-register-746486342085374943",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "REED SPECIALIST RECRUITMENT LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06903140"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06903140",
+                "uri": "https://opencorporates.com/companies/gb/06903140"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06903140"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bee167e4ebf34095fd69",
+                "uri": "http://register.openownership.org/entities/59b9bee167e4ebf34095fd69"
+            }
+        ],
+        "foundingDate": "2009-05-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Academy Court, 94 Chancery Lane, London, WC2A 1DT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10472729119013673977",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-746486342085374943"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-3274878148568023999"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6179561907350305835",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-746486342085374943"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3642049359273931717"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3274878148568023999",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "REED EXECUTIVE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02061422"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02061422",
+                "uri": "https://opencorporates.com/companies/gb/02061422"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9433e67e4ebf340869646",
+                "uri": "http://register.openownership.org/entities/59b9433e67e4ebf340869646"
+            }
+        ],
+        "foundingDate": "1986-10-03",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Academy Court, 94 Chancery Lane, London, WC2A 1DT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3642049359273931717",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "James Andrew Reed"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06317279/persons-with-significant-control/individual/A2bRR3cQO9-imdlmXoMtvgA53tI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9278f67e4ebf3400693d0",
+                "uri": "http://register.openownership.org/entities/59b9278f67e4ebf3400693d0"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-04-01",
+        "addresses": [
+            {
+                "address": "Academy Court, 94 Chancery Lane, London, WC2A 1DT"
+            }
+        ]
+    }
+]

@@ -1,1 +1,259 @@
-[{"statementID": "openownership-register-16759715981876063167", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "HUNTERS CONTRACTS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02530207"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02530207", "uri": "https://opencorporates.com/companies/gb/02530207"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9349567e4ebf3404492bd", "uri": "http://register.openownership.org/entities/59b9349567e4ebf3404492bd"}], "foundingDate": "1990-08-13", "addresses": [{"type": "registered", "address": "Unit A, Oyo Business Units, Hindmans Way, Dagenham, Essex, RM9 6LP", "country": "GB"}]}, {"statementID": "openownership-register-1848811945709103981", "statementType": "ownershipOrControlStatement", "statementDate": "2019-08-23", "subject": {"describedByEntityStatement": "openownership-register-16759715981876063167"}, "interestedParty": {"describedByEntityStatement": "openownership-register-5181218656863256527"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2019-08-23"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2019-08-23"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2019-08-23"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-09-25T14:19:31Z"}}, {"statementID": "openownership-register-1151005138289814879", "statementType": "ownershipOrControlStatement", "statementDate": "2016-08-06", "subject": {"describedByEntityStatement": "openownership-register-16759715981876063167"}, "interestedParty": {"describedByPersonStatement": "openownership-register-7113287072679054831"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-08-06", "endDate": "2019-08-23"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-09-25T14:19:31Z"}}, {"statementID": "openownership-register-7484868920946975944", "statementType": "ownershipOrControlStatement", "statementDate": "2016-08-06", "subject": {"describedByEntityStatement": "openownership-register-16759715981876063167"}, "interestedParty": {"describedByPersonStatement": "openownership-register-4693730484952132358"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-08-06", "endDate": "2019-08-23"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-09-25T14:19:31Z"}}, {"statementID": "openownership-register-5181218656863256527", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "HUNTERS CONTRACTS (HOLDINGS) LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "10015572"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/10015572", "uri": "https://opencorporates.com/companies/gb/10015572"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "10015572"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b98d4267e4ebf340de5ec1", "uri": "http://register.openownership.org/entities/59b98d4267e4ebf340de5ec1"}], "foundingDate": "2016-02-19", "addresses": [{"type": "registered", "address": "Unit A Oyo Business Units, Hindmans Way, Dagenham, Essex, RM9 6LP", "country": "GB"}]}, {"statementID": "openownership-register-7113287072679054831", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Martin Playell"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02530207/persons-with-significant-control/individual/HrXXGb2quBs8pW2qlIsRfxJ6cww"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9349567e4ebf3404492c9", "uri": "http://register.openownership.org/entities/59b9349567e4ebf3404492c9"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1961-02-01", "addresses": [{"address": "Unit A, Oyo Business Units, Hindmans Way, Dagenham, Essex, RM9 6LP"}]}, {"statementID": "openownership-register-4693730484952132358", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Gary Mark Thomas"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02530207/persons-with-significant-control/individual/StB9AGeAXMMX_HpgoMm9STXGD2E"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9349567e4ebf3404492cc", "uri": "http://register.openownership.org/entities/59b9349567e4ebf3404492cc"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1966-07-01", "addresses": [{"address": "Unit A, Oyo Business Units, Hindmans Way, Dagenham, Essex, RM9 6LP"}]}]
+[
+    {
+        "statementID": "openownership-register-16759715981876063167",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HUNTERS CONTRACTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02530207"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02530207",
+                "uri": "https://opencorporates.com/companies/gb/02530207"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9349567e4ebf3404492bd",
+                "uri": "http://register.openownership.org/entities/59b9349567e4ebf3404492bd"
+            }
+        ],
+        "foundingDate": "1990-08-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit A, Oyo Business Units, Hindmans Way, Dagenham, Essex, RM9 6LP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1848811945709103981",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-08-23",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16759715981876063167"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-5181218656863256527"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-08-23"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-08-23"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2019-08-23"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-25T14:19:31Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1151005138289814879",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16759715981876063167"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7113287072679054831"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-06",
+                "endDate": "2019-08-23"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-25T14:19:31Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7484868920946975944",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16759715981876063167"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4693730484952132358"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-06",
+                "endDate": "2019-08-23"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-25T14:19:31Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5181218656863256527",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HUNTERS CONTRACTS (HOLDINGS) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10015572"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10015572",
+                "uri": "https://opencorporates.com/companies/gb/10015572"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10015572"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98d4267e4ebf340de5ec1",
+                "uri": "http://register.openownership.org/entities/59b98d4267e4ebf340de5ec1"
+            }
+        ],
+        "foundingDate": "2016-02-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit A Oyo Business Units, Hindmans Way, Dagenham, Essex, RM9 6LP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7113287072679054831",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Martin Playell"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02530207/persons-with-significant-control/individual/HrXXGb2quBs8pW2qlIsRfxJ6cww"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9349567e4ebf3404492c9",
+                "uri": "http://register.openownership.org/entities/59b9349567e4ebf3404492c9"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-02-01",
+        "addresses": [
+            {
+                "address": "Unit A, Oyo Business Units, Hindmans Way, Dagenham, Essex, RM9 6LP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4693730484952132358",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Gary Mark Thomas"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02530207/persons-with-significant-control/individual/StB9AGeAXMMX_HpgoMm9STXGD2E"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9349567e4ebf3404492cc",
+                "uri": "http://register.openownership.org/entities/59b9349567e4ebf3404492cc"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-07-01",
+        "addresses": [
+            {
+                "address": "Unit A, Oyo Business Units, Hindmans Way, Dagenham, Essex, RM9 6LP"
+            }
+        ]
+    }
+]

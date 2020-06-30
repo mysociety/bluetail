@@ -1,1 +1,119 @@
-[{"statementID": "openownership-register-1230997587996336356", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "CLEE HILL PLANT LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "00839629"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/00839629", "uri": "https://opencorporates.com/companies/gb/00839629"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b92e7967e4ebf340274c91", "uri": "http://register.openownership.org/entities/59b92e7967e4ebf340274c91"}], "foundingDate": "1965-03-03", "addresses": [{"type": "registered", "address": "Mansfield Road, Hasland, Chesterfield, Derbyshire, S41 0JW", "country": "GB"}]}, {"statementID": "openownership-register-12216090179071663229", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-1230997587996336356"}, "interestedParty": {"describedByPersonStatement": "openownership-register-4934518077778343529"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-08-16T09:24:39Z"}}, {"statementID": "openownership-register-4934518077778343529", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "David Anthony Hargreaves"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/00839629/persons-with-significant-control/individual/jq4tW9u8spWOdwd1PSDkW5ErqxU"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b92e7967e4ebf340274cba", "uri": "http://register.openownership.org/entities/59b92e7967e4ebf340274cba"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1961-06-01", "addresses": [{"address": "Mansfield Road, Hasland, Chesterfield, Derbyshire, S41 0JW"}]}]
+[
+    {
+        "statementID": "openownership-register-1230997587996336356",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CLEE HILL PLANT LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00839629"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00839629",
+                "uri": "https://opencorporates.com/companies/gb/00839629"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e7967e4ebf340274c91",
+                "uri": "http://register.openownership.org/entities/59b92e7967e4ebf340274c91"
+            }
+        ],
+        "foundingDate": "1965-03-03",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Mansfield Road, Hasland, Chesterfield, Derbyshire, S41 0JW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12216090179071663229",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1230997587996336356"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4934518077778343529"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-08-16T09:24:39Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4934518077778343529",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Anthony Hargreaves"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00839629/persons-with-significant-control/individual/jq4tW9u8spWOdwd1PSDkW5ErqxU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e7967e4ebf340274cba",
+                "uri": "http://register.openownership.org/entities/59b92e7967e4ebf340274cba"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-06-01",
+        "addresses": [
+            {
+                "address": "Mansfield Road, Hasland, Chesterfield, Derbyshire, S41 0JW"
+            }
+        ]
+    }
+]

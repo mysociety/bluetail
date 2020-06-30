@@ -1,1 +1,60 @@
-[{"statementID": "openownership-register-5117083330356038685", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "BIRMINGHAM CITY UNIVERSITY ACADEMIES TRUST", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "08497028"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/08497028", "uri": "https://opencorporates.com/companies/gb/08497028"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59c5060d67e4ebf340688796", "uri": "http://register.openownership.org/entities/59c5060d67e4ebf340688796"}], "foundingDate": "2013-04-19", "addresses": [{"type": "registered", "address": "Birmingham City University University House, 15 Bartholomew Row, Birmingham, B5 5JU", "country": "GB"}]}, {"statementID": "openownership-register-2062225003777768743", "statementType": "ownershipOrControlStatement", "statementDate": "2017-04-19", "subject": {"describedByEntityStatement": "openownership-register-5117083330356038685"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-5117083330356038685",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BIRMINGHAM CITY UNIVERSITY ACADEMIES TRUST",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08497028"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08497028",
+                "uri": "https://opencorporates.com/companies/gb/08497028"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c5060d67e4ebf340688796",
+                "uri": "http://register.openownership.org/entities/59c5060d67e4ebf340688796"
+            }
+        ],
+        "foundingDate": "2013-04-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Birmingham City University University House, 15 Bartholomew Row, Birmingham, B5 5JU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2062225003777768743",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-04-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5117083330356038685"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

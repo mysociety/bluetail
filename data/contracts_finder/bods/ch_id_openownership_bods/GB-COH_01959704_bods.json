@@ -1,1 +1,154 @@
-[{"statementID": "openownership-register-15870694892958943673", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "WYG ENGINEERING LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "01959704"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01959704"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01959704"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01959704"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01959704"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01959704"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01959704"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/01959704", "uri": "https://opencorporates.com/companies/gb/01959704"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9254767e4ebf340fd5687", "uri": "http://register.openownership.org/entities/59b9254767e4ebf340fd5687"}], "foundingDate": "1985-11-15", "addresses": [{"type": "registered", "address": "3 Sovereign Square, Sovereign Street, Leeds, LS1 4ER", "country": "GB"}]}, {"statementID": "openownership-register-8732229636134778986", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-15870694892958943673"}, "interestedParty": {"describedByEntityStatement": "openownership-register-5313834348502548521"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-09-25T14:19:31Z"}}, {"statementID": "openownership-register-5313834348502548521", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "WYG GROUP LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06595608"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06595608"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06595608"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06595608"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06595608"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06595608", "uri": "https://opencorporates.com/companies/gb/06595608"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b93a2067e4ebf3405e812a", "uri": "http://register.openownership.org/entities/59b93a2067e4ebf3405e812a"}], "foundingDate": "2008-05-16", "addresses": [{"type": "registered", "address": "3 Sovereign Square, Sovereign Street, Leeds, LS1 4ER", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-15870694892958943673",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WYG ENGINEERING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01959704"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01959704"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01959704"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01959704"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01959704"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01959704"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01959704"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01959704",
+                "uri": "https://opencorporates.com/companies/gb/01959704"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9254767e4ebf340fd5687",
+                "uri": "http://register.openownership.org/entities/59b9254767e4ebf340fd5687"
+            }
+        ],
+        "foundingDate": "1985-11-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3 Sovereign Square, Sovereign Street, Leeds, LS1 4ER",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8732229636134778986",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15870694892958943673"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-5313834348502548521"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-25T14:19:31Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5313834348502548521",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WYG GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06595608"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06595608"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06595608"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06595608"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06595608"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06595608",
+                "uri": "https://opencorporates.com/companies/gb/06595608"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a2067e4ebf3405e812a",
+                "uri": "http://register.openownership.org/entities/59b93a2067e4ebf3405e812a"
+            }
+        ],
+        "foundingDate": "2008-05-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3 Sovereign Square, Sovereign Street, Leeds, LS1 4ER",
+                "country": "GB"
+            }
+        ]
+    }
+]

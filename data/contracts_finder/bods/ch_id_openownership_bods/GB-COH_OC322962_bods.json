@@ -1,1 +1,74 @@
-[{"statementID": "openownership-register-5525816457374190478", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "STEPHENSONS SOLICITORS LLP", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC322962"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC322962"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/OC322962", "uri": "https://opencorporates.com/companies/gb/OC322962"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc322962"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9c2b967e4ebf340a4b370", "uri": "http://register.openownership.org/entities/59b9c2b967e4ebf340a4b370"}], "foundingDate": "2006-10-06", "addresses": [{"type": "registered", "address": "Wigan Investment Centre, Wigan Investment Centre, Waterside Drive, Wigan, WN3 5BA", "country": "GB"}]}, {"statementID": "openownership-register-12063858916696067411", "statementType": "ownershipOrControlStatement", "statementDate": "2016-10-06", "subject": {"describedByEntityStatement": "openownership-register-5525816457374190478"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-5525816457374190478",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "STEPHENSONS SOLICITORS LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC322962"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC322962"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC322962",
+                "uri": "https://opencorporates.com/companies/gb/OC322962"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc322962"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c2b967e4ebf340a4b370",
+                "uri": "http://register.openownership.org/entities/59b9c2b967e4ebf340a4b370"
+            }
+        ],
+        "foundingDate": "2006-10-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Wigan Investment Centre, Wigan Investment Centre, Waterside Drive, Wigan, WN3 5BA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12063858916696067411",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-10-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5525816457374190478"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

@@ -1,1 +1,119 @@
-[{"statementID": "openownership-register-10658334186289859501", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "COMMUNITY CARDIOLOGY LTD", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "11675325"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/11675325", "uri": "https://opencorporates.com/companies/gb/11675325"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5bf44e4e9dfc3fae18ca708a", "uri": "http://register.openownership.org/entities/5bf44e4e9dfc3fae18ca708a"}], "foundingDate": "2018-11-13", "addresses": [{"type": "registered", "address": "7 Sorrells 7 The Sorrells, Stanford-Le-Hope Ss17 7dz, Stanford-Le-Hope, SS17 7DZ", "country": "GB"}]}, {"statementID": "openownership-register-9856347413490870934", "statementType": "ownershipOrControlStatement", "statementDate": "2018-11-13", "subject": {"describedByEntityStatement": "openownership-register-10658334186289859501"}, "interestedParty": {"describedByPersonStatement": "openownership-register-4997885502304371347"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2018-11-13"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2018-11-13"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2018-11-13"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-4997885502304371347", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Raymond Peprah Arhin"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/11675325/persons-with-significant-control/individual/jVlq2yKQPIAQMh7dQJsw39Ky2U8"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5bf44e4e9dfc3fae18ca7116", "uri": "http://register.openownership.org/entities/5bf44e4e9dfc3fae18ca7116"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1972-04-01", "addresses": [{"address": "29, Mary Rose Close, Grays, Essex, RM16 6LY"}]}]
+[
+    {
+        "statementID": "openownership-register-10658334186289859501",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "COMMUNITY CARDIOLOGY LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11675325"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11675325",
+                "uri": "https://opencorporates.com/companies/gb/11675325"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bf44e4e9dfc3fae18ca708a",
+                "uri": "http://register.openownership.org/entities/5bf44e4e9dfc3fae18ca708a"
+            }
+        ],
+        "foundingDate": "2018-11-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "7 Sorrells 7 The Sorrells, Stanford-Le-Hope Ss17 7dz, Stanford-Le-Hope, SS17 7DZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9856347413490870934",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-11-13",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10658334186289859501"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4997885502304371347"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-11-13"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-11-13"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2018-11-13"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4997885502304371347",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Raymond Peprah Arhin"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/11675325/persons-with-significant-control/individual/jVlq2yKQPIAQMh7dQJsw39Ky2U8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bf44e4e9dfc3fae18ca7116",
+                "uri": "http://register.openownership.org/entities/5bf44e4e9dfc3fae18ca7116"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1972-04-01",
+        "addresses": [
+            {
+                "address": "29, Mary Rose Close, Grays, Essex, RM16 6LY"
+            }
+        ]
+    }
+]
