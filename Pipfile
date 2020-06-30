@@ -20,7 +20,7 @@ futures = "==3.0.5"
 libsass = "==0.12.3"
 olefile = "==0.44"
 psycopg2 = "==2.8.5"
-six = "==1.10.0"
+six = "*"
 feedparser = "==5.2.1"
 django-import-export = "==2.0.2"
 # Heroku
@@ -30,13 +30,14 @@ dj-database-url = "==0.5.0"
 # Bluetail
 django-pgviews-redux = "==0.6.0"
 
-[dev-packages]
-# Used for scripts to gather and process Contracts Finder data
+# Used for scripts to gather and process Contracts Finder and BODS data
 ocdskit = "*"
 pandas = "*"
 elasticsearch = "<8"
 elasticsearch_dsl = "*"
 smart_open = "*"
+
+[dev-packages]
 
 [requires]
 python_version = "3.6"
