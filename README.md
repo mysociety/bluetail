@@ -161,7 +161,7 @@ Contracts Finder data with suppliers linked to Companies House and an ID include
 
 ## Flags
 
-Flags are warnings/errors about the data, attached to an individual or company.
+Flags are warnings/errors about the data, attached to an individual or company and/or a contracting process.
 
 Flag
 

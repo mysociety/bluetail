@@ -36,6 +36,7 @@ ocdskit = "*"
 pandas = "*"
 elasticsearch = "<8"
 elasticsearch_dsl = "*"
+smart_open = "*"
 
 [requires]
 python_version = "3.6"
