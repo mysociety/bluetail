@@ -1,8 +1,10 @@
 import os
 import subprocess
-from unittest import TestCase
+from unittest import skip
+
 from django.conf import settings
 from django.core.management import call_command
+from django.test import TestCase
 
 SCRIPTS_DIR = os.path.join(settings.BASE_DIR, "script")
 
@@ -12,6 +14,7 @@ class TestFlagHelperFunctions(TestCase):
     def setUp(self):
         pass
 
+    @skip("Only for local testing")
     def test_script_setup(self):
         db = settings.DATABASES["default"]
         test_db_url = "postgres://{USER}:{PASSWORD}@{HOST}:{PORT}/{NAME}".format(
