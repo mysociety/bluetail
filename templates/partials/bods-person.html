@@ -18,13 +18,9 @@
         {% endif %}
     </h5>
     <ul class="list-group list-group-flush">
-        <li class="list-group-item">
+        <li class="list-group-item {% if flags.person_id_flags.error %}list-group-item-danger{% elif flags.person_id_flags.warning %}list-group-item-warning{% endif %}">
             <small class="scorecard-key">Full name</small>
             <span class="scorecard-value">{{ person.fullName }}</span>
-        </li>
-        <li class="list-group-item {% if flags.person_id_flags.error %}list-group-item-danger{% elif flags.person_id_flags.warning %}list-group-item-warning{% endif %}">
-            <small class="scorecard-key">{{ person.identifiers_json.0.scheme }}</small>
-            <span class="scorecard-value">{{ person.identifiers_json.0.id }}</span>
             {% for flag in flags.person_id_flags.error %}
                 {% if flag %}
                     <p class="scorecard-warning">{{ flag.flag_text }}</p>
@@ -36,5 +32,23 @@
                 {% endif %}
             {% endfor %}
         </li>
+      {% if person.statement_json.birthDate %}
+        <li class="list-group-item">
+            <small class="scorecard-key">Date of birth</small>
+            <span class="scorecard-value">{{ person.statement_json.birthDate }}</span>
+        </li>
+      {% endif %}
+      {% if person.statement_json.addresses %}
+        <li class="list-group-item">
+            <small class="scorecard-key">Address</small>
+            <span class="scorecard-value">{{ person.statement_json.addresses.0.address }}</span>
+        </li>
+      {% endif %}
+      {% if person.statement_json.nationalities %}
+        <li class="list-group-item">
+            <small class="scorecard-key">Nationality</small>
+            <span class="scorecard-value">{{ person.statement_json.nationalities.0.name }}</span>
+        </li>
+      {% endif %}
     </ul>
 </div>
