@@ -147,9 +147,17 @@ Prototype data:
 
     http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-123abc-
 
-Contracts Finder data linked to Companies House
+Contracts Finder data linked to Companies House where suppliers have a matching BODS record:
 
-    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17bodsmatch
+    
+Contracts Finder data including only suppliers which can be linked to Companies House:
+
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17suppliermatch
+    
+Contracts Finder data with suppliers linked to Companies House and an ID included where a match exists:
+
+    http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17raw
 
 ## Flags
 

@@ -5,14 +5,10 @@ Altering them to Tender type
 Skipping rows with less than 2 supplier that can be matched to BODS
 """
 import json
-import logging
 from datetime import datetime, timedelta
 from collections import OrderedDict
 from urllib.parse import urlparse
 from django.conf import settings
-from copy import deepcopy
-from hashlib import md5
-import traceback
 import psycopg2
 import logging
 import random
@@ -20,7 +16,6 @@ import os
 
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
-from elasticsearch_dsl.query import Term, Q
 
 from ocdskit.upgrade import upgrade_10_11
 
@@ -260,7 +255,7 @@ def del_nulls(d):
     return d
 
 
-def insert_clean_1_1_tenders(ocds_tender, conn):
+def insert_clean_1_1_tenders_postgres(ocds_tender, conn):
     ocid = ocds_tender['releases'][0]['ocid']
     try:
         # """
@@ -284,13 +279,40 @@ def insert_clean_1_1_tenders(ocds_tender, conn):
         logging.info('Failed to insert 1.1 OCDS', exc_info=True)
 
 
+def insert_clean_1_1_tenders(ocds_tender, conn, dataset):
+
+    ocid = tenders_json['releases'][0]['ocid']
+    dataset_dir = 'json_1_1_bods_match'
+    if dataset == 'BODS':
+        tenders_json['releases'][0]['ocid'] = ocid.replace('-b5fd17-', '-b5fd17bodsmatch-')
+        dataset_dir = 'json_1_1_bods_match'
+    elif dataset == 'suppliers':
+        tenders_json['releases'][0]['ocid'] = ocid.replace('-b5fd17-', '-b5fd17suppliermatch-')
+        dataset_dir = 'json_1_1_supplier_ids_match'
+    elif dataset == 'raw':
+        tenders_json['releases'][0]['ocid'] = ocid.replace('-b5fd17-', '-b5fd17raw-')
+        dataset_dir = 'json_1_1_raw'
+
+    ocid = tenders_json['releases'][0]['ocid']
+    filedir = os.path.join(OCDS_OUTPUT_DIR, dataset_dir, '%s.json' % ocid)
+    with open(filedir, 'w') as dataloc:
+        dataloc.write(json.dumps(tenders_json))
+
+    insert_clean_1_1_tenders_postgres(ocds_tender, conn)
+
+
 if __name__ == '__main__':
 
     local_connection = connect_from_url(DATABASE_URL)
     oo_connection = connect_from_url(OPENOPPS_DB_URL)
+
+    # set dataset to
+    # BODS: all suppliers have a match in the BODS dataset, other natural suppliers are removed
+    # suppliers: Suppliers have a match with a Companies House ID in the OpenOpps orgs table, other suppliers are removed
+    # raw: All suppliers are included, and CH IDs are added where a match is found
     dataset = 'BODS'
 
-    # Getting the cf notices as they are, converting into 1.1
+    # Get the Contracts Finder notices as they are and convert to OCDS 1.1
     response = get_json_from_db(oo_connection)
     for row in response:
         get_and_insert_1_1_json(row)
@@ -298,28 +320,16 @@ if __name__ == '__main__':
     response = get_1_1_ocds(local_connection, 'scrap', 'cf_ocds_1_1', limit=500)
     i = 0
     for row in response:
-        tenders_json = aws_to_tender(row[0], dataset=dataset)
 
+        tenders_json = aws_to_tender(row[0], dataset=dataset)
         if tenders_json['releases'][0]['tender']['numberOfTenderers'] < 2:
             continue
 
-        # Remove null fields
+        # Remove null json fields from OCDS
         # clean_ocds_json = del_nulls(tenders_json)
 
         print(json.dumps(tenders_json))
-        insert_clean_1_1_tenders(tenders_json, local_connection)
-        ocid = tenders_json['releases'][0]['ocid']
-        filedir = os.path.join(OCDS_OUTPUT_DIR, 'json_1_1_bods_match', '%s.json' % ocid)
-
-        if dataset == 'suppliers':
-            ocid = ocid.replace('-b5fd17-', '-c6ge28-')
-            filedir = os.path.join(OCDS_OUTPUT_DIR, 'json_1_1_supplier_ids_match', '%s.json' % ocid)
-        if dataset == 'raw':
-            ocid = ocid.replace('-b5fd17-', '-d7hf39-')
-            filedir = os.path.join(OCDS_OUTPUT_DIR, 'json_1_1_raw', '%s.json' % ocid)
-
-        with open(filedir, 'w') as dataloc:
-            dataloc.write(json.dumps(tenders_json))
+        insert_clean_1_1_tenders(tenders_json, local_connection, dataset)
 
         i += 1
         if i == 100:
