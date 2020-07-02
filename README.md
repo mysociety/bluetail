@@ -313,3 +313,34 @@ If you don't have a superuser, create one manually like this
 or without prompt (username: admin, password: admin)
 
     echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'admin')" | python manage.py shell
+
+
+## Tradeoffs between postgres views and tables for OCDS data
+
+The way bluetail currently works is the OCDS JSON is loaded into PostgreSQL in
+its raw form. Postgres views are used to query this JSON and convert it to a
+tabular format.
+
+Pros
+
+- Simple to load the data in, just add JSON
+- Don't have to define the schema up-front
+- Can do ad-hoc queries on the full data
+
+Cons
+
+- Makes it harder to join between OCDS data and BODS entities
+- Need to have a deep understanding of OCDS/BODS to query the database effectively
+
+Contrast this to using foreign keys. This would require defining a schema
+up-front and then parsing the JSON and storing it in the appropriate table(s).
+
+Pros
+
+- Don't need to have a deep understanding of OCDS/BODS to query the data
+- Makes joining between tables easier
+
+Cons
+
+- Time consuming and potentially error-prone defining a schema up-front
+- Quite a bit of data processing required to load JSON into separate tables
