@@ -177,6 +177,11 @@ or without prompt (username: admin, password: admin)
 
     echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'admin')" | python manage.py shell
 
+### Scanning contracts for potential problems
+
+There is a management command, `scan_contracts`, which looks through all
+contracts and flags up any suspicious activity. In production this command
+should be run on a regular basis to check for any new problems.
 
 ### Deployment to Heroku 
 
