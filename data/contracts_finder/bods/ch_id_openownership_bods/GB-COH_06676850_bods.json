@@ -1,1 +1,169 @@
-[{"statementID": "openownership-register-7765446697655359824", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "VISION HOUSING LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06676850"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06676850", "uri": "https://opencorporates.com/companies/gb/06676850"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b99b8f67e4ebf3401035dc", "uri": "http://register.openownership.org/entities/59b99b8f67e4ebf3401035dc"}], "foundingDate": "2008-08-19", "addresses": [{"type": "registered", "address": "Unit 6 Sugar Mill Business Park, 432 Dewsbury Road, Leeds, West Yorkshire, LS11 7DF", "country": "GB"}]}, {"statementID": "openownership-register-3429013040547620772", "statementType": "ownershipOrControlStatement", "statementDate": "2016-06-01", "subject": {"describedByEntityStatement": "openownership-register-7765446697655359824"}, "interestedParty": {"describedByPersonStatement": "openownership-register-7294357168908925997"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-06-01"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-13311287070290142777", "statementType": "ownershipOrControlStatement", "statementDate": "2016-06-01", "subject": {"describedByEntityStatement": "openownership-register-7765446697655359824"}, "interestedParty": {"describedByPersonStatement": "openownership-register-1559439231715980484"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-06-01"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-7294357168908925997", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Claire Lincoln"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/06676850/persons-with-significant-control/individual/dL7a1VINaPmPQpzEa22u3yXLwM4"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b99b8f67e4ebf3401035f1", "uri": "http://register.openownership.org/entities/59b99b8f67e4ebf3401035f1"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1984-11-01", "addresses": [{"address": "Unit 12, 432 Dewsbury Road, Leeds, LS11 7DF"}]}, {"statementID": "openownership-register-1559439231715980484", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Esther Powell"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/06676850/persons-with-significant-control/individual/qfJWwFXCu6ebz_KR33ul3J84LDs"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b99b9067e4ebf34010369e", "uri": "http://register.openownership.org/entities/59b99b9067e4ebf34010369e"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1978-08-01", "addresses": [{"address": "Unit 12, 432 Dewsbury Road, Beeston, Leeds, West Yorkshire, LS11 7DF"}]}]
+[
+    {
+        "statementID": "openownership-register-7765446697655359824",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VISION HOUSING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06676850"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06676850",
+                "uri": "https://opencorporates.com/companies/gb/06676850"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99b8f67e4ebf3401035dc",
+                "uri": "http://register.openownership.org/entities/59b99b8f67e4ebf3401035dc"
+            }
+        ],
+        "foundingDate": "2008-08-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 6 Sugar Mill Business Park, 432 Dewsbury Road, Leeds, West Yorkshire, LS11 7DF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3429013040547620772",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7765446697655359824"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7294357168908925997"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13311287070290142777",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7765446697655359824"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1559439231715980484"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7294357168908925997",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Claire Lincoln"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06676850/persons-with-significant-control/individual/dL7a1VINaPmPQpzEa22u3yXLwM4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99b8f67e4ebf3401035f1",
+                "uri": "http://register.openownership.org/entities/59b99b8f67e4ebf3401035f1"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1984-11-01",
+        "addresses": [
+            {
+                "address": "Unit 12, 432 Dewsbury Road, Leeds, LS11 7DF"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1559439231715980484",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Esther Powell"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06676850/persons-with-significant-control/individual/qfJWwFXCu6ebz_KR33ul3J84LDs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99b9067e4ebf34010369e",
+                "uri": "http://register.openownership.org/entities/59b99b9067e4ebf34010369e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1978-08-01",
+        "addresses": [
+            {
+                "address": "Unit 12, 432 Dewsbury Road, Beeston, Leeds, West Yorkshire, LS11 7DF"
+            }
+        ]
+    }
+]

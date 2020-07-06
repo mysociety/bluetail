@@ -1,1 +1,120 @@
-[{"statementID": "openownership-register-14198750154650353851", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "JAKARANDA CARE LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "11535946"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/11535946", "uri": "https://opencorporates.com/companies/gb/11535946"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5bbb763c9dfc3fae18360579", "uri": "http://register.openownership.org/entities/5bbb763c9dfc3fae18360579"}], "foundingDate": "2018-08-24", "addresses": [{"type": "registered", "address": "12 Plough Lane, Newborough, Peterborough, PE6 7SR", "country": "GB"}]}, {"statementID": "openownership-register-11175210421644384553", "statementType": "ownershipOrControlStatement", "statementDate": "2018-08-24", "subject": {"describedByEntityStatement": "openownership-register-14198750154650353851"}, "interestedParty": {"describedByPersonStatement": "openownership-register-15111544636522483007"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2018-08-24"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2018-08-24"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2018-08-24"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-08-16T09:24:39Z"}}, {"statementID": "openownership-register-15111544636522483007", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "David Mandlenkosi Munyoro"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/11535946/persons-with-significant-control/individual/JdzPKK6LYPQ9iQjtSGcy-K1cyqQ"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5bbb763c9dfc3fae183605fc", "uri": "http://register.openownership.org/entities/5bbb763c9dfc3fae183605fc"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1968-10-01", "addresses": [{"address": "59, London Road, Leicester, Leicestershire, LE2 0PE", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-14198750154650353851",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "JAKARANDA CARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11535946"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11535946",
+                "uri": "https://opencorporates.com/companies/gb/11535946"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bbb763c9dfc3fae18360579",
+                "uri": "http://register.openownership.org/entities/5bbb763c9dfc3fae18360579"
+            }
+        ],
+        "foundingDate": "2018-08-24",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "12 Plough Lane, Newborough, Peterborough, PE6 7SR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11175210421644384553",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-08-24",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14198750154650353851"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15111544636522483007"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-08-24"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-08-24"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2018-08-24"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-08-16T09:24:39Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15111544636522483007",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Mandlenkosi Munyoro"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/11535946/persons-with-significant-control/individual/JdzPKK6LYPQ9iQjtSGcy-K1cyqQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bbb763c9dfc3fae183605fc",
+                "uri": "http://register.openownership.org/entities/5bbb763c9dfc3fae183605fc"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-10-01",
+        "addresses": [
+            {
+                "address": "59, London Road, Leicester, Leicestershire, LE2 0PE",
+                "country": "GB"
+            }
+        ]
+    }
+]

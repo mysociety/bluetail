@@ -1,1 +1,104 @@
-[{"statementID": "openownership-register-17537337472726483550", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "RAPID IMPROVEMENT LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06129256"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06129256", "uri": "https://opencorporates.com/companies/gb/06129256"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9929c67e4ebf340f11ce6", "uri": "http://register.openownership.org/entities/59b9929c67e4ebf340f11ce6"}], "foundingDate": "2007-02-27", "addresses": [{"type": "registered", "address": "34-38 Upper Green East, Mitcham, CR4 2PB", "country": "GB"}]}, {"statementID": "openownership-register-17212505598105927345", "statementType": "ownershipOrControlStatement", "statementDate": "2017-02-27", "subject": {"describedByEntityStatement": "openownership-register-17537337472726483550"}, "interestedParty": {"describedByPersonStatement": "openownership-register-9016991444604656251"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2017-02-27"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-9016991444604656251", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Isaac Kofi Dweben"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/06129256/persons-with-significant-control/individual/3SjVX_ZQtyMHmyhgfCFL0kK98IM"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9929c67e4ebf340f11cf9", "uri": "http://register.openownership.org/entities/59b9929c67e4ebf340f11cf9"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1956-01-01", "addresses": [{"address": "34-38, Upper Green East, Mitcham, CR4 2PB", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-17537337472726483550",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "RAPID IMPROVEMENT LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06129256"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06129256",
+                "uri": "https://opencorporates.com/companies/gb/06129256"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9929c67e4ebf340f11ce6",
+                "uri": "http://register.openownership.org/entities/59b9929c67e4ebf340f11ce6"
+            }
+        ],
+        "foundingDate": "2007-02-27",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "34-38 Upper Green East, Mitcham, CR4 2PB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17212505598105927345",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-27",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17537337472726483550"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9016991444604656251"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-02-27"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9016991444604656251",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Isaac Kofi Dweben"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06129256/persons-with-significant-control/individual/3SjVX_ZQtyMHmyhgfCFL0kK98IM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9929c67e4ebf340f11cf9",
+                "uri": "http://register.openownership.org/entities/59b9929c67e4ebf340f11cf9"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-01-01",
+        "addresses": [
+            {
+                "address": "34-38, Upper Green East, Mitcham, CR4 2PB",
+                "country": "GB"
+            }
+        ]
+    }
+]

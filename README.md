@@ -141,7 +141,7 @@ For example:
 
     http://127.0.0.1:8000/ocds/?ocid_prefix=ocds-b5fd17
     
-####Prefixes used in the sample data:
+#### Prefixes used in the sample data:
 
 Prototype data:
 
@@ -161,7 +161,7 @@ Contracts Finder data with suppliers linked to Companies House and an ID include
 
 ## Flags
 
-Flags are warnings/errors about the data, attached to an individual or company.
+Flags are warnings/errors about the data, attached to an individual or company and/or a contracting process.
 
 Flag
 
@@ -176,6 +176,45 @@ If you don't have a superuser, create one manually like this
 or without prompt (username: admin, password: admin)
 
     echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'admin')" | python manage.py shell
+
+### Updating the BODS data
+
+There are Django management commands included for looking up BODS data from the Open Ownership register
+
+- bluetail/management/commands/create_openownership_elasticsearch_index.py
+
+    This is a script to build an Elasticsearch index for querying the Open Ownership register.
+    
+    This requires this variable to be set
+    
+        ELASTICSEARCH_URL="https://..."
+
+    To change the index name from the default `bods-open_ownership_register`, also set this var
+
+        ELASTICSEARCH_BODS_INDEX="bods-open_ownership_register"
+    
+    Run command using:
+    
+        script/manage create_openownership_elasticsearch_index
+    
+
+- bluetail/management/commands/get_bods_statements_from_ocds.py
+
+    This script will lookup any Companies House IDs present in the OCDS data to gather any related BODS data from the elasticsearch index created above and store in the Bluetail database.
+    
+    NB. Note this only does 1 depth of lookup currently. ie.
+     
+    - This will get all BODS statements for the Beneficial owners of a company
+    - This does NOT lookup these immediate beneficial owners or parent companies to get further companies/persons related to those
+ 
+    This command requires this variable to be set
+    
+        ELASTICSEARCH_URL="https://..."
+
+    Run command using:
+    
+        script/manage get_bods_statements_from_ocds
+    
 
 
 ### Deployment to Heroku 

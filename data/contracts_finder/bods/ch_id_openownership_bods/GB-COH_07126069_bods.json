@@ -1,1 +1,169 @@
-[{"statementID": "openownership-register-17306722235810549829", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "MOBILITY SOLUTIONS (SOUTH) LTD", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "07126069"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/07126069", "uri": "https://opencorporates.com/companies/gb/07126069"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06d9", "uri": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06d9"}], "foundingDate": "2010-01-14", "addresses": [{"type": "registered", "address": "21 Brookside Centre, Sumpters Way Temple Farm Industrial Estate, Southend-On-Sea, SS2 5RR", "country": "GB"}]}, {"statementID": "openownership-register-6902982277192661542", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-14", "subject": {"describedByEntityStatement": "openownership-register-17306722235810549829"}, "interestedParty": {"describedByPersonStatement": "openownership-register-5063172860808152444"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2017-01-14"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-3268092565308794166", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-14", "subject": {"describedByEntityStatement": "openownership-register-17306722235810549829"}, "interestedParty": {"describedByPersonStatement": "openownership-register-8988967854279155531"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2017-01-14"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-5063172860808152444", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Michael Edward John Schacht"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/07126069/persons-with-significant-control/individual/48UqjMlmivcI2Fy4QGgP0er-1FU"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06f6", "uri": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06f6"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1957-08-01", "addresses": [{"address": "21 Brookside Centre, Sumpters Way, Temple Farm Industrial Estate, Southend-On-Sea, SS2 5RR"}]}, {"statementID": "openownership-register-8988967854279155531", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Peter Francis Chandler"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/07126069/persons-with-significant-control/individual/tA4OT8L6CwLGu_G7tfd2oy1NyT0"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06f3", "uri": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06f3"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1960-11-01", "addresses": [{"address": "21 Brookside Centre, Sumpters Way, Temple Farm Industrial Estate, Southend-On-Sea, SS2 5RR"}]}]
+[
+    {
+        "statementID": "openownership-register-17306722235810549829",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MOBILITY SOLUTIONS (SOUTH) LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07126069"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07126069",
+                "uri": "https://opencorporates.com/companies/gb/07126069"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06d9",
+                "uri": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06d9"
+            }
+        ],
+        "foundingDate": "2010-01-14",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "21 Brookside Centre, Sumpters Way Temple Farm Industrial Estate, Southend-On-Sea, SS2 5RR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6902982277192661542",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-14",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17306722235810549829"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-5063172860808152444"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-01-14"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3268092565308794166",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-14",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17306722235810549829"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8988967854279155531"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-01-14"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5063172860808152444",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Michael Edward John Schacht"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07126069/persons-with-significant-control/individual/48UqjMlmivcI2Fy4QGgP0er-1FU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06f6",
+                "uri": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06f6"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-08-01",
+        "addresses": [
+            {
+                "address": "21 Brookside Centre, Sumpters Way, Temple Farm Industrial Estate, Southend-On-Sea, SS2 5RR"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8988967854279155531",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Peter Francis Chandler"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07126069/persons-with-significant-control/individual/tA4OT8L6CwLGu_G7tfd2oy1NyT0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06f3",
+                "uri": "http://register.openownership.org/entities/59b9a38467e4ebf3402e06f3"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-11-01",
+        "addresses": [
+            {
+                "address": "21 Brookside Centre, Sumpters Way, Temple Farm Industrial Estate, Southend-On-Sea, SS2 5RR"
+            }
+        ]
+    }
+]

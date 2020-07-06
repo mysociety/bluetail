@@ -1,1 +1,120 @@
-[{"statementID": "openownership-register-15748838470583377966", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "DEVON ENABLING SERVICES LTD.", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "09003518"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/09003518", "uri": "https://opencorporates.com/companies/gb/09003518"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9631167e4ebf3401958b9", "uri": "http://register.openownership.org/entities/59b9631167e4ebf3401958b9"}], "foundingDate": "2014-04-22", "addresses": [{"type": "registered", "address": "26 St. Annes Road, Torquay, TQ1 3NX", "country": "GB"}]}, {"statementID": "openownership-register-9322590320947926559", "statementType": "ownershipOrControlStatement", "statementDate": "2016-11-28", "subject": {"describedByEntityStatement": "openownership-register-15748838470583377966"}, "interestedParty": {"describedByPersonStatement": "openownership-register-11033765320354268914"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-11-28"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-11-28"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-11-28"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-11033765320354268914", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Anthony Moore"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/09003518/persons-with-significant-control/individual/L3ge2VJFHi-5sxosdVxyzg2QS88"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9631167e4ebf3401958c2", "uri": "http://register.openownership.org/entities/59b9631167e4ebf3401958c2"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1967-03-01", "addresses": [{"address": "26, St. Annes Road, Torquay, TQ1 3NX", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-15748838470583377966",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DEVON ENABLING SERVICES LTD.",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09003518"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09003518",
+                "uri": "https://opencorporates.com/companies/gb/09003518"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9631167e4ebf3401958b9",
+                "uri": "http://register.openownership.org/entities/59b9631167e4ebf3401958b9"
+            }
+        ],
+        "foundingDate": "2014-04-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "26 St. Annes Road, Torquay, TQ1 3NX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9322590320947926559",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-28",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15748838470583377966"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11033765320354268914"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-28"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-28"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-11-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11033765320354268914",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Anthony Moore"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09003518/persons-with-significant-control/individual/L3ge2VJFHi-5sxosdVxyzg2QS88"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9631167e4ebf3401958c2",
+                "uri": "http://register.openownership.org/entities/59b9631167e4ebf3401958c2"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-03-01",
+        "addresses": [
+            {
+                "address": "26, St. Annes Road, Torquay, TQ1 3NX",
+                "country": "GB"
+            }
+        ]
+    }
+]

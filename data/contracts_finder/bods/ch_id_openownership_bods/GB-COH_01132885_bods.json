@@ -1,1 +1,130 @@
-[{"statementID": "openownership-register-4990606606035353058", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "KONICA MINOLTA BUSINESS SOLUTIONS (UK) LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "01132885"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01132885"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01132885"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01132885"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01132885"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "01132885"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/01132885", "uri": "https://opencorporates.com/companies/gb/01132885"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b93a9967e4ebf34060cfb8", "uri": "http://register.openownership.org/entities/59b93a9967e4ebf34060cfb8"}], "foundingDate": "1973-09-06", "addresses": [{"type": "registered", "address": "Konica House, Miles Gray Road, Basildon, Essex.,, SS14 3AR", "country": "GB"}]}, {"statementID": "openownership-register-11457405398976650151", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4990606606035353058"}, "interestedParty": {"describedByEntityStatement": "openownership-register-13765493510809101634"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-13765493510809101634", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "Konica Minolta Incorporated", "incorporatedInJurisdiction": {"name": "Japan", "code": "JP"}, "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/01132885/persons-with-significant-control/corporate-entity/Jg8ZDKpCsp4lOrM063DIfWoNR7I"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96afe67e4ebf3404079b0", "uri": "http://register.openownership.org/entities/59b96afe67e4ebf3404079b0"}], "addresses": [{"type": "registered", "address": "Jp Tower, 2-7-2 Marunouchi, Chiyoda-Ku, Tokyo 100-7015", "country": "JP"}]}]
+[
+    {
+        "statementID": "openownership-register-4990606606035353058",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "KONICA MINOLTA BUSINESS SOLUTIONS (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01132885"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01132885"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01132885"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01132885"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01132885"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01132885"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01132885",
+                "uri": "https://opencorporates.com/companies/gb/01132885"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a9967e4ebf34060cfb8",
+                "uri": "http://register.openownership.org/entities/59b93a9967e4ebf34060cfb8"
+            }
+        ],
+        "foundingDate": "1973-09-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Konica House, Miles Gray Road, Basildon, Essex.,, SS14 3AR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11457405398976650151",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4990606606035353058"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-13765493510809101634"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13765493510809101634",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Konica Minolta Incorporated",
+        "incorporatedInJurisdiction": {
+            "name": "Japan",
+            "code": "JP"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01132885/persons-with-significant-control/corporate-entity/Jg8ZDKpCsp4lOrM063DIfWoNR7I"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96afe67e4ebf3404079b0",
+                "uri": "http://register.openownership.org/entities/59b96afe67e4ebf3404079b0"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Jp Tower, 2-7-2 Marunouchi, Chiyoda-Ku, Tokyo 100-7015",
+                "country": "JP"
+            }
+        ]
+    }
+]

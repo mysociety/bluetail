@@ -1,1 +1,185 @@
-[{"statementID": "openownership-register-1656269297772372121", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "THOMAS LISTER LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "04487125"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/04487125", "uri": "https://opencorporates.com/companies/gb/04487125"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9245467e4ebf340f943f0", "uri": "http://register.openownership.org/entities/59b9245467e4ebf340f943f0"}], "foundingDate": "2002-07-16", "addresses": [{"type": "registered", "address": "11 The Courtyard, Buntsford Gate, Bromsgrove, Worcestershire, B60 3DJ", "country": "GB"}]}, {"statementID": "openownership-register-3169321219718929282", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-1656269297772372121"}, "interestedParty": {"describedByPersonStatement": "openownership-register-17736711504365200633"}, "interests": [{"type": "voting-rights", "details": "voting-rights-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2016-04-06"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2020-02-24T11:31:42Z"}}, {"statementID": "openownership-register-11233237945514360626", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-1656269297772372121"}, "interestedParty": {"describedByPersonStatement": "openownership-register-712442969542196945"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2020-02-24T11:31:42Z"}}, {"statementID": "openownership-register-17736711504365200633", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Chris Bernard Thomas"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04487125/persons-with-significant-control/individual/FzB-LJ8WUlpnraWgoWGcirO1MLo"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9245467e4ebf340f94413", "uri": "http://register.openownership.org/entities/59b9245467e4ebf340f94413"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1963-12-01", "addresses": [{"address": "Harwood, Laylocks Lane, Broadheath Common, Worcester, WR2 6RL"}]}, {"statementID": "openownership-register-712442969542196945", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Rachel Julie Lister"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04487125/persons-with-significant-control/individual/XQTSMtYClEIpiT1Ka2Nfa87Sz7A"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9245467e4ebf340f94418", "uri": "http://register.openownership.org/entities/59b9245467e4ebf340f94418"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1970-09-01", "addresses": [{"address": "65, Suffok Way, Fernhill Heath, Worcester, WR3 7RJ"}]}]
+[
+    {
+        "statementID": "openownership-register-1656269297772372121",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THOMAS LISTER LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04487125"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04487125",
+                "uri": "https://opencorporates.com/companies/gb/04487125"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9245467e4ebf340f943f0",
+                "uri": "http://register.openownership.org/entities/59b9245467e4ebf340f943f0"
+            }
+        ],
+        "foundingDate": "2002-07-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "11 The Courtyard, Buntsford Gate, Bromsgrove, Worcestershire, B60 3DJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3169321219718929282",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1656269297772372121"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-17736711504365200633"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-02-24T11:31:42Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11233237945514360626",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1656269297772372121"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-712442969542196945"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-02-24T11:31:42Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17736711504365200633",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Chris Bernard Thomas"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04487125/persons-with-significant-control/individual/FzB-LJ8WUlpnraWgoWGcirO1MLo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9245467e4ebf340f94413",
+                "uri": "http://register.openownership.org/entities/59b9245467e4ebf340f94413"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-12-01",
+        "addresses": [
+            {
+                "address": "Harwood, Laylocks Lane, Broadheath Common, Worcester, WR2 6RL"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-712442969542196945",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Rachel Julie Lister"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04487125/persons-with-significant-control/individual/XQTSMtYClEIpiT1Ka2Nfa87Sz7A"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9245467e4ebf340f94418",
+                "uri": "http://register.openownership.org/entities/59b9245467e4ebf340f94418"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-09-01",
+        "addresses": [
+            {
+                "address": "65, Suffok Way, Fernhill Heath, Worcester, WR3 7RJ"
+            }
+        ]
+    }
+]

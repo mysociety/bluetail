@@ -1,1 +1,343 @@
-[{"statementID": "openownership-register-8283328982740122423", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "LIFEWAYS COMMUNITY CARE LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "04126127"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04126127"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/04126127", "uri": "https://opencorporates.com/companies/gb/04126127"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b939ac67e4ebf3405c2244", "uri": "http://register.openownership.org/entities/59b939ac67e4ebf3405c2244"}], "foundingDate": "2000-12-15", "addresses": [{"type": "registered", "address": "56 Southwark Bridge Road, London, SE1 0AS", "country": "GB"}]}, {"statementID": "openownership-register-6326920737012382382", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-15", "subject": {"describedByEntityStatement": "openownership-register-8283328982740122423"}, "interestedParty": {"describedByEntityStatement": "openownership-register-17709164874164273333"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-15"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-15"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-15"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-17709164874164273333", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "LIFEWAYS FINANCE LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06295365"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06295365", "uri": "https://opencorporates.com/companies/gb/06295365"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9274167e4ebf3400545bd", "uri": "http://register.openownership.org/entities/59b9274167e4ebf3400545bd"}], "foundingDate": "2007-06-27", "addresses": [{"type": "registered", "address": "56 Southwark Bridge Road, London, SE1 0AS", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-8283328982740122423",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LIFEWAYS COMMUNITY CARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04126127"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04126127"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04126127",
+                "uri": "https://opencorporates.com/companies/gb/04126127"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b939ac67e4ebf3405c2244",
+                "uri": "http://register.openownership.org/entities/59b939ac67e4ebf3405c2244"
+            }
+        ],
+        "foundingDate": "2000-12-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "56 Southwark Bridge Road, London, SE1 0AS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6326920737012382382",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-15",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8283328982740122423"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17709164874164273333"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-15"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-15"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-15"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17709164874164273333",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LIFEWAYS FINANCE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06295365"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06295365",
+                "uri": "https://opencorporates.com/companies/gb/06295365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9274167e4ebf3400545bd",
+                "uri": "http://register.openownership.org/entities/59b9274167e4ebf3400545bd"
+            }
+        ],
+        "foundingDate": "2007-06-27",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "56 Southwark Bridge Road, London, SE1 0AS",
+                "country": "GB"
+            }
+        ]
+    }
+]

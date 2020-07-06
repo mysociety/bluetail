@@ -1,1 +1,184 @@
-[{"statementID": "openownership-register-12435009316561752641", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "SKANSKA RASHLEIGH WEATHERFOIL LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "00798550"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/00798550", "uri": "https://opencorporates.com/companies/gb/00798550"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b992e367e4ebf340f20e0e", "uri": "http://register.openownership.org/entities/59b992e367e4ebf340f20e0e"}], "foundingDate": "1964-03-26", "addresses": [{"type": "registered", "address": "Maple Cross House, Denham Way Maple Cross, Rickmansworth, Hertfordshire, WD3 9SW", "country": "GB"}]}, {"statementID": "openownership-register-6024915320804307200", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-12435009316561752641"}, "interestedParty": {"describedByEntityStatement": "openownership-register-6905764423547145952"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-6905764423547145952", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "SKANSKA CONSTRUCTION UK LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00191408"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/00191408", "uri": "https://opencorporates.com/companies/gb/00191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "191408"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "191408"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b992e267e4ebf340f20af4", "uri": "http://register.openownership.org/entities/59b992e267e4ebf340f20af4"}], "foundingDate": "1923-07-19", "addresses": [{"type": "registered", "address": "Maple Cross House, Denham Way Maple Cross, Rickmansworth, Hertfordshire, WD3 9SW", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-12435009316561752641",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SKANSKA RASHLEIGH WEATHERFOIL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00798550"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00798550",
+                "uri": "https://opencorporates.com/companies/gb/00798550"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b992e367e4ebf340f20e0e",
+                "uri": "http://register.openownership.org/entities/59b992e367e4ebf340f20e0e"
+            }
+        ],
+        "foundingDate": "1964-03-26",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Maple Cross House, Denham Way Maple Cross, Rickmansworth, Hertfordshire, WD3 9SW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6024915320804307200",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12435009316561752641"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6905764423547145952"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6905764423547145952",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SKANSKA CONSTRUCTION UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00191408"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00191408",
+                "uri": "https://opencorporates.com/companies/gb/00191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "191408"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "191408"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b992e267e4ebf340f20af4",
+                "uri": "http://register.openownership.org/entities/59b992e267e4ebf340f20af4"
+            }
+        ],
+        "foundingDate": "1923-07-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Maple Cross House, Denham Way Maple Cross, Rickmansworth, Hertfordshire, WD3 9SW",
+                "country": "GB"
+            }
+        ]
+    }
+]

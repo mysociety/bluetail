@@ -1,1 +1,165 @@
-[{"statementID": "openownership-register-5669514348931504728", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "COMENSURA LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "04085767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04085767"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/04085767", "uri": "https://opencorporates.com/companies/gb/04085767"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "4085767"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b94afd67e4ebf340a9d2c7", "uri": "http://register.openownership.org/entities/59b94afd67e4ebf340a9d2c7"}], "foundingDate": "2000-10-09", "addresses": [{"type": "registered", "address": "800 The Boulevard, Capability Green, Luton, Bedfordshire, LU1 3BA", "country": "GB"}]}, {"statementID": "openownership-register-2114679396020570071", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-5669514348931504728"}, "interestedParty": {"describedByEntityStatement": "openownership-register-9357185206627844111"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-9357185206627844111", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "IMPELLAM HOLDINGS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "00490212"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00490212"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00490212"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00490212"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00490212"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00490212"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00490212"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/00490212", "uri": "https://opencorporates.com/companies/gb/00490212"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "00490212"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b93ee967e4ebf340745c33", "uri": "http://register.openownership.org/entities/59b93ee967e4ebf340745c33"}], "foundingDate": "1951-01-05", "addresses": [{"type": "registered", "address": "800 The Boulevard, Capability Green, Luton, Bedfordshire, LU1 3BA", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-5669514348931504728",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "COMENSURA LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04085767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04085767"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04085767",
+                "uri": "https://opencorporates.com/companies/gb/04085767"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "4085767"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94afd67e4ebf340a9d2c7",
+                "uri": "http://register.openownership.org/entities/59b94afd67e4ebf340a9d2c7"
+            }
+        ],
+        "foundingDate": "2000-10-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "800 The Boulevard, Capability Green, Luton, Bedfordshire, LU1 3BA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2114679396020570071",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5669514348931504728"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-9357185206627844111"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9357185206627844111",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "IMPELLAM HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00490212"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00490212"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00490212"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00490212"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00490212"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00490212"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00490212"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00490212",
+                "uri": "https://opencorporates.com/companies/gb/00490212"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00490212"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93ee967e4ebf340745c33",
+                "uri": "http://register.openownership.org/entities/59b93ee967e4ebf340745c33"
+            }
+        ],
+        "foundingDate": "1951-01-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "800 The Boulevard, Capability Green, Luton, Bedfordshire, LU1 3BA",
+                "country": "GB"
+            }
+        ]
+    }
+]

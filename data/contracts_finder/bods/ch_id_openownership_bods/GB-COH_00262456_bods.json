@@ -1,1 +1,197 @@
-[{"statementID": "openownership-register-13926997676151675609", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "THORNES INDEPENDENT LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "00262456"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/00262456", "uri": "https://opencorporates.com/companies/gb/00262456"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9637d67e4ebf3401b68f3", "uri": "http://register.openownership.org/entities/59b9637d67e4ebf3401b68f3"}], "foundingDate": "1932-02-04", "addresses": [{"type": "registered", "address": "Coach Station, Hull Road  Hemingbrough, Selby, North Yorkshire, YO8 6QG", "country": "GB"}]}, {"statementID": "openownership-register-10484106646362052689", "statementType": "ownershipOrControlStatement", "statementDate": "2016-06-30", "subject": {"describedByEntityStatement": "openownership-register-13926997676151675609"}, "interestedParty": {"describedByPersonStatement": "openownership-register-16892636312372195225"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2016-06-30"}, {"type": "voting-rights", "details": "voting-rights-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2016-06-30"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-9222207703521955799", "statementType": "ownershipOrControlStatement", "statementDate": "2016-06-30", "subject": {"describedByEntityStatement": "openownership-register-13926997676151675609"}, "interestedParty": {"describedByPersonStatement": "openownership-register-11771093770413204291"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-06-30"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-06-30"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-11771093770413204291", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Christine Thornes"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02123276/persons-with-significant-control/individual/96gT0PCnE11-9I3pnmr1JsipSyk"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9637767e4ebf3401b4723", "uri": "http://register.openownership.org/entities/59b9637767e4ebf3401b4723"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1958-04-01", "addresses": [{"address": "Fir Tree House, Hull Road, Hemingbrough, Selby, YO8 6QG", "country": "GB"}]}, {"statementID": "openownership-register-16892636312372195225", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Philip Thornes"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02123276/persons-with-significant-control/individual/mMPh7p_UEaoyn4ICEdUMnf_DGwk"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9637767e4ebf3401b4730", "uri": "http://register.openownership.org/entities/59b9637767e4ebf3401b4730"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1949-08-01", "addresses": [{"address": "Fir Tree House, Hull Road, Hemingbrough, Selby, YO8 6QG", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-13926997676151675609",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THORNES INDEPENDENT LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00262456"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00262456",
+                "uri": "https://opencorporates.com/companies/gb/00262456"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9637d67e4ebf3401b68f3",
+                "uri": "http://register.openownership.org/entities/59b9637d67e4ebf3401b68f3"
+            }
+        ],
+        "foundingDate": "1932-02-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Coach Station, Hull Road  Hemingbrough, Selby, North Yorkshire, YO8 6QG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10484106646362052689",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13926997676151675609"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16892636312372195225"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9222207703521955799",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13926997676151675609"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11771093770413204291"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11771093770413204291",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Christine Thornes"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02123276/persons-with-significant-control/individual/96gT0PCnE11-9I3pnmr1JsipSyk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9637767e4ebf3401b4723",
+                "uri": "http://register.openownership.org/entities/59b9637767e4ebf3401b4723"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1958-04-01",
+        "addresses": [
+            {
+                "address": "Fir Tree House, Hull Road, Hemingbrough, Selby, YO8 6QG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16892636312372195225",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Philip Thornes"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02123276/persons-with-significant-control/individual/mMPh7p_UEaoyn4ICEdUMnf_DGwk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9637767e4ebf3401b4730",
+                "uri": "http://register.openownership.org/entities/59b9637767e4ebf3401b4730"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1949-08-01",
+        "addresses": [
+            {
+                "address": "Fir Tree House, Hull Road, Hemingbrough, Selby, YO8 6QG",
+                "country": "GB"
+            }
+        ]
+    }
+]

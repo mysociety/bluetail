@@ -1,1 +1,656 @@
-[{"statementID": "openownership-register-3095570885452774947", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "SANDERSON WEATHERALL LLP", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC344770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC344770"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/OC344770", "uri": "https://opencorporates.com/companies/gb/OC344770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc344770"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9655d67e4ebf34024382b", "uri": "http://register.openownership.org/entities/59b9655d67e4ebf34024382b"}], "foundingDate": "2009-04-07", "addresses": [{"type": "registered", "address": "6th Floor Central Square, 29 Wellington Street, Leeds, LS1 4DL", "country": "GB"}]}, {"statementID": "openownership-register-13818886577814001972", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-12276135248519039151"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06", "endDate": "2018-06-30"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-12-10T10:45:26Z"}}, {"statementID": "openownership-register-9436433136497870776", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-15278934684241418494"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-15886764394515737524", "statementType": "ownershipOrControlStatement", "statementDate": "2017-04-10", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-16487775237719957935"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2017-04-10"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-9579109869500439938", "statementType": "ownershipOrControlStatement", "statementDate": "2018-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-13995646828748330398"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2018-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-1699223325152617504", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-11006297771840872907"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-5914448458497858295", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-14016745425172113257"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06", "endDate": "2017-05-31"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-14549262962119213094", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-7266201876784217447"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-2332129167579050491", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-6876488956542971096"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-16042746883763585276", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-2344834983264182546"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-12325759666066540513", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3095570885452774947"}, "interestedParty": {"describedByPersonStatement": "openownership-register-745574459357274808"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-14016745425172113257", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Robert Graham Allan Brown"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC344770/persons-with-significant-control/individual/AtyEd3AN91E9ZEvQDNZowLyqMig"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9ad4567e4ebf34051abed", "uri": "http://register.openownership.org/entities/59b9ad4567e4ebf34051abed"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1957-06-01", "addresses": [{"address": "25, Wellington Street, Leeds, LS1 4WG", "country": "GB"}]}, {"statementID": "openownership-register-6876488956542971096", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Martin Walker Archer"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/25z_VFkZHva4J-8s0f5xMwgW7Es"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca20", "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca20"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1957-03-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL", "country": "GB"}]}, {"statementID": "openownership-register-15278934684241418494", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Richard Mcintosh Farr"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/4o-3dRumpunlZeWJSOA1Wf0KcuI"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dc9ff", "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dc9ff"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1959-01-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL", "country": "GB"}]}, {"statementID": "openownership-register-16487775237719957935", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Matthew John Lawrence"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/FxZ0n27mun77dD9RCuIHbVVzgj8"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9e39f67e4ebf3401eba7a", "uri": "http://register.openownership.org/entities/59b9e39f67e4ebf3401eba7a"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1976-04-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL", "country": "GB"}]}, {"statementID": "openownership-register-12276135248519039151", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Robert Patterson"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/MGE-5r06oKvDIG10FOfPW0QlGAQ"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca7c", "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca7c"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1958-05-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL", "country": "GB"}]}, {"statementID": "openownership-register-11006297771840872907", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "George Mclean Penrice"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/aOTqRCkGMPi6S5CTOlWpKZ2dhas"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca1b", "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca1b"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1960-02-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL"}]}, {"statementID": "openownership-register-7266201876784217447", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Matthew Midwinter"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/b9K4ISq48zUeAMS34HvK0QZwAqY"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca71", "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca71"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1967-08-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL"}]}, {"statementID": "openownership-register-13995646828748330398", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Kevin Michael Mcgorie"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/bzrYbyAxTMEeCr0sXkJjpCNB5W4"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5b16d2229dfc3fae1863bdef", "uri": "http://register.openownership.org/entities/5b16d2229dfc3fae1863bdef"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1983-02-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL", "country": "GB"}]}, {"statementID": "openownership-register-745574459357274808", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "David Downing"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/hlNRpH37K-PuHVVs0iH-nr60aK0"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca3c", "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca3c"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1971-09-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL", "country": "GB"}]}, {"statementID": "openownership-register-2344834983264182546", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Philip Bernard Kenny"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04870380/persons-with-significant-control/individual/raYNrW7zaAdkcA38SvutAi3jUew"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca66", "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca66"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1956-01-01", "addresses": [{"address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL"}]}]
+[
+    {
+        "statementID": "openownership-register-3095570885452774947",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SANDERSON WEATHERALL LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC344770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC344770"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC344770",
+                "uri": "https://opencorporates.com/companies/gb/OC344770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc344770"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9655d67e4ebf34024382b",
+                "uri": "http://register.openownership.org/entities/59b9655d67e4ebf34024382b"
+            }
+        ],
+        "foundingDate": "2009-04-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "6th Floor Central Square, 29 Wellington Street, Leeds, LS1 4DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13818886577814001972",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12276135248519039151"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06",
+                "endDate": "2018-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-12-10T10:45:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9436433136497870776",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15278934684241418494"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15886764394515737524",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-04-10",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16487775237719957935"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2017-04-10"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9579109869500439938",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13995646828748330398"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2018-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1699223325152617504",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11006297771840872907"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5914448458497858295",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14016745425172113257"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06",
+                "endDate": "2017-05-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14549262962119213094",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7266201876784217447"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2332129167579050491",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6876488956542971096"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16042746883763585276",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2344834983264182546"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12325759666066540513",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3095570885452774947"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-745574459357274808"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14016745425172113257",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Robert Graham Allan Brown"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC344770/persons-with-significant-control/individual/AtyEd3AN91E9ZEvQDNZowLyqMig"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ad4567e4ebf34051abed",
+                "uri": "http://register.openownership.org/entities/59b9ad4567e4ebf34051abed"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-06-01",
+        "addresses": [
+            {
+                "address": "25, Wellington Street, Leeds, LS1 4WG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6876488956542971096",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Martin Walker Archer"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/25z_VFkZHva4J-8s0f5xMwgW7Es"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca20",
+                "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca20"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-03-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15278934684241418494",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Richard Mcintosh Farr"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/4o-3dRumpunlZeWJSOA1Wf0KcuI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dc9ff",
+                "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dc9ff"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-01-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16487775237719957935",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Matthew John Lawrence"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/FxZ0n27mun77dD9RCuIHbVVzgj8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9e39f67e4ebf3401eba7a",
+                "uri": "http://register.openownership.org/entities/59b9e39f67e4ebf3401eba7a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-04-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12276135248519039151",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Robert Patterson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/MGE-5r06oKvDIG10FOfPW0QlGAQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca7c",
+                "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca7c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1958-05-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11006297771840872907",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "George Mclean Penrice"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/aOTqRCkGMPi6S5CTOlWpKZ2dhas"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca1b",
+                "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca1b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-02-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7266201876784217447",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Matthew Midwinter"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/b9K4ISq48zUeAMS34HvK0QZwAqY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca71",
+                "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca71"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-08-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13995646828748330398",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Kevin Michael Mcgorie"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/bzrYbyAxTMEeCr0sXkJjpCNB5W4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b16d2229dfc3fae1863bdef",
+                "uri": "http://register.openownership.org/entities/5b16d2229dfc3fae1863bdef"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1983-02-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-745574459357274808",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Downing"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/hlNRpH37K-PuHVVs0iH-nr60aK0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca3c",
+                "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca3c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1971-09-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2344834983264182546",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Philip Bernard Kenny"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04870380/persons-with-significant-control/individual/raYNrW7zaAdkcA38SvutAi3jUew"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9368467e4ebf3404dca66",
+                "uri": "http://register.openownership.org/entities/59b9368467e4ebf3404dca66"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-01-01",
+        "addresses": [
+            {
+                "address": "6th Floor, Central Square, 29 Wellington Street, Leeds, LS1 4DL"
+            }
+        ]
+    }
+]

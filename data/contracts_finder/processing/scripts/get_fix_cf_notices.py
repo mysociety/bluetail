@@ -20,7 +20,7 @@ from elasticsearch_dsl import Search
 from ocdskit.upgrade import upgrade_10_11
 
 
-ELASTICSEARCH_7_TEST = os.getenv("ELASTICSEARCH_7_TEST")
+ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL")
 DATABASE_URL = os.environ.get('DATABASE_URL')
 OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
 OCDS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing")
@@ -29,7 +29,7 @@ OCDS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "p
 def get_company_statements(
         company_id,
         scheme='GB-COH',
-        elastic_conn=Elasticsearch(ELASTICSEARCH_7_TEST, verify_certs=True),
+        elastic_conn=Elasticsearch(ELASTICSEARCH_URL, verify_certs=True),
 ):
     s = Search(using=elastic_conn, index="bods") \
         .filter("term", identifiers__scheme__keyword=scheme) \

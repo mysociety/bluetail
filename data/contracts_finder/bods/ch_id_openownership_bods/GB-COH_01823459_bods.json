@@ -1,1 +1,125 @@
-[{"statementID": "openownership-register-6774826385858692215", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "SCARAB SWEEPERS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "01823459"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/01823459", "uri": "https://opencorporates.com/companies/gb/01823459"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b92b1a67e4ebf3401664ba", "uri": "http://register.openownership.org/entities/59b92b1a67e4ebf3401664ba"}], "foundingDate": "1984-06-11", "addresses": [{"type": "registered", "address": "Pattenden Lane, Marden, Tonbridge, Kent, TN12 9QD", "country": "GB"}]}, {"statementID": "openownership-register-11724158710847601856", "statementType": "ownershipOrControlStatement", "statementDate": "2016-07-26", "subject": {"describedByEntityStatement": "openownership-register-6774826385858692215"}, "interestedParty": {"describedByEntityStatement": "openownership-register-17039009893337720386"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-07-26"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-07-26"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-17039009893337720386", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "SCARAB HOLDINGS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02086673"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02086673"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02086673"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02086673", "uri": "https://opencorporates.com/companies/gb/02086673"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b92b0467e4ebf34016009f", "uri": "http://register.openownership.org/entities/59b92b0467e4ebf34016009f"}], "foundingDate": "1987-01-02", "addresses": [{"type": "registered", "address": "Pattenden Lane, Marden, Tonbridge, Kent,, TN12 9QD", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-6774826385858692215",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SCARAB SWEEPERS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01823459"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01823459",
+                "uri": "https://opencorporates.com/companies/gb/01823459"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92b1a67e4ebf3401664ba",
+                "uri": "http://register.openownership.org/entities/59b92b1a67e4ebf3401664ba"
+            }
+        ],
+        "foundingDate": "1984-06-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Pattenden Lane, Marden, Tonbridge, Kent, TN12 9QD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11724158710847601856",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-26",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6774826385858692215"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17039009893337720386"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-26"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-26"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17039009893337720386",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SCARAB HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02086673"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02086673"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02086673"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02086673",
+                "uri": "https://opencorporates.com/companies/gb/02086673"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92b0467e4ebf34016009f",
+                "uri": "http://register.openownership.org/entities/59b92b0467e4ebf34016009f"
+            }
+        ],
+        "foundingDate": "1987-01-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Pattenden Lane, Marden, Tonbridge, Kent,, TN12 9QD",
+                "country": "GB"
+            }
+        ]
+    }
+]

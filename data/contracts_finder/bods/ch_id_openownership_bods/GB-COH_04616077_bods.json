@@ -1,1 +1,115 @@
-[{"statementID": "openownership-register-12935491266432967750", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "J H CONTRACT SERVICES LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "04616077"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/04616077", "uri": "https://opencorporates.com/companies/gb/04616077"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96c1867e4ebf3404603e3", "uri": "http://register.openownership.org/entities/59b96c1867e4ebf3404603e3"}], "foundingDate": "2002-12-12", "addresses": [{"type": "registered", "address": "2 Mountsdie, Stanmore, Middlesex, HA7 2DT", "country": "GB"}]}, {"statementID": "openownership-register-17908919856826953297", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-12935491266432967750"}, "interestedParty": {"describedByPersonStatement": "openownership-register-13687027330277610945"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-13687027330277610945", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Peter John Hand"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/04616077/persons-with-significant-control/individual/-9KkvKs4kikfSjIH2_0lQd3VFMg"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96c1867e4ebf3404603f3", "uri": "http://register.openownership.org/entities/59b96c1867e4ebf3404603f3"}], "nationalities": [{"name": "Ireland", "code": "IE"}], "birthDate": "1941-10-01", "addresses": [{"address": "30 St Ronans Crescent, Woodford Green, Essex, IG8 9DG", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-12935491266432967750",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "J H CONTRACT SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04616077"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04616077",
+                "uri": "https://opencorporates.com/companies/gb/04616077"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96c1867e4ebf3404603e3",
+                "uri": "http://register.openownership.org/entities/59b96c1867e4ebf3404603e3"
+            }
+        ],
+        "foundingDate": "2002-12-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "2 Mountsdie, Stanmore, Middlesex, HA7 2DT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17908919856826953297",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12935491266432967750"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13687027330277610945"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13687027330277610945",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Peter John Hand"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04616077/persons-with-significant-control/individual/-9KkvKs4kikfSjIH2_0lQd3VFMg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96c1867e4ebf3404603f3",
+                "uri": "http://register.openownership.org/entities/59b96c1867e4ebf3404603f3"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "Ireland",
+                "code": "IE"
+            }
+        ],
+        "birthDate": "1941-10-01",
+        "addresses": [
+            {
+                "address": "30 St Ronans Crescent, Woodford Green, Essex, IG8 9DG",
+                "country": "GB"
+            }
+        ]
+    }
+]

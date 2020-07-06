@@ -1,1 +1,331 @@
-[{"statementID": "openownership-register-16978872598916964281", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "AURORA OPTIONS", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02264564"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02264564", "uri": "https://opencorporates.com/companies/gb/02264564"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b982df67e4ebf340b62561", "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b62561"}], "foundingDate": "1988-06-03", "addresses": [{"type": "registered", "address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB", "country": "GB"}]}, {"statementID": "openownership-register-5442628093859183031", "statementType": "ownershipOrControlStatement", "statementDate": "2016-05-05", "subject": {"describedByEntityStatement": "openownership-register-16978872598916964281"}, "interestedParty": {"describedByPersonStatement": "openownership-register-4825369952675511509"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-as-firm", "startDate": "2016-05-05"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-5141430759142017530", "statementType": "ownershipOrControlStatement", "statementDate": "2016-05-05", "subject": {"describedByEntityStatement": "openownership-register-16978872598916964281"}, "interestedParty": {"describedByPersonStatement": "openownership-register-11228655992067172683"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-as-firm", "startDate": "2016-05-05"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-9215918033833049345", "statementType": "ownershipOrControlStatement", "statementDate": "2016-05-05", "subject": {"describedByEntityStatement": "openownership-register-16978872598916964281"}, "interestedParty": {"describedByPersonStatement": "openownership-register-14304061789876416412"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-as-firm", "startDate": "2016-05-05"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-3660110935734417343", "statementType": "ownershipOrControlStatement", "statementDate": "2016-05-05", "subject": {"describedByEntityStatement": "openownership-register-16978872598916964281"}, "interestedParty": {"describedByPersonStatement": "openownership-register-18159969709663061491"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control", "startDate": "2016-05-05"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-17194212719154598222", "statementType": "ownershipOrControlStatement", "statementDate": "2016-05-05", "subject": {"describedByEntityStatement": "openownership-register-16978872598916964281"}, "interestedParty": {"describedByPersonStatement": "openownership-register-11765096590920476483"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-as-firm", "startDate": "2016-05-05"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-4825369952675511509", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Jerry Tosswell"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02264564/persons-with-significant-control/individual/9Jl00MOwXfmZgCgFNbTt1FFgAwY"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b982df67e4ebf340b62593", "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b62593"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1967-06-01", "addresses": [{"address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"}]}, {"statementID": "openownership-register-11228655992067172683", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "William Scott"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02264564/persons-with-significant-control/individual/G9x93B53k5GQdv2oSWe8IVVjDhY"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b982df67e4ebf340b625aa", "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b625aa"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1955-10-01", "addresses": [{"address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"}]}, {"statementID": "openownership-register-14304061789876416412", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Isabelle Nathalie Terrisson"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02264564/persons-with-significant-control/individual/MrfhSkHrd3mtdr83KBUr9Kqw1hU"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b982df67e4ebf340b6259d", "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b6259d"}], "birthDate": "1965-05-01", "addresses": [{"address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"}]}, {"statementID": "openownership-register-18159969709663061491", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Jean Young"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02264564/persons-with-significant-control/individual/XIo48u2vh8yYGX03Mc9sbXLupWY"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b982df67e4ebf340b6259b", "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b6259b"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1955-06-01", "addresses": [{"address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"}]}, {"statementID": "openownership-register-11765096590920476483", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Mark Ballantine"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02264564/persons-with-significant-control/individual/cX2186PRJF-DXWVwTv6zd3xc0S4"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b982df67e4ebf340b625ba", "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b625ba"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1962-09-01", "addresses": [{"address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"}]}]
+[
+    {
+        "statementID": "openownership-register-16978872598916964281",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AURORA OPTIONS",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02264564"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02264564",
+                "uri": "https://opencorporates.com/companies/gb/02264564"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b982df67e4ebf340b62561",
+                "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b62561"
+            }
+        ],
+        "foundingDate": "1988-06-03",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5442628093859183031",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16978872598916964281"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4825369952675511509"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-05-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5141430759142017530",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16978872598916964281"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11228655992067172683"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-05-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9215918033833049345",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16978872598916964281"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14304061789876416412"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-05-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3660110935734417343",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16978872598916964281"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-18159969709663061491"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-05-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17194212719154598222",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16978872598916964281"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11765096590920476483"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-05-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4825369952675511509",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Jerry Tosswell"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02264564/persons-with-significant-control/individual/9Jl00MOwXfmZgCgFNbTt1FFgAwY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b982df67e4ebf340b62593",
+                "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b62593"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-06-01",
+        "addresses": [
+            {
+                "address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11228655992067172683",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "William Scott"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02264564/persons-with-significant-control/individual/G9x93B53k5GQdv2oSWe8IVVjDhY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b982df67e4ebf340b625aa",
+                "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b625aa"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1955-10-01",
+        "addresses": [
+            {
+                "address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14304061789876416412",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Isabelle Nathalie Terrisson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02264564/persons-with-significant-control/individual/MrfhSkHrd3mtdr83KBUr9Kqw1hU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b982df67e4ebf340b6259d",
+                "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b6259d"
+            }
+        ],
+        "birthDate": "1965-05-01",
+        "addresses": [
+            {
+                "address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18159969709663061491",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Jean Young"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02264564/persons-with-significant-control/individual/XIo48u2vh8yYGX03Mc9sbXLupWY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b982df67e4ebf340b6259b",
+                "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b6259b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1955-06-01",
+        "addresses": [
+            {
+                "address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11765096590920476483",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark Ballantine"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02264564/persons-with-significant-control/individual/cX2186PRJF-DXWVwTv6zd3xc0S4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b982df67e4ebf340b625ba",
+                "uri": "http://register.openownership.org/entities/59b982df67e4ebf340b625ba"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1962-09-01",
+        "addresses": [
+            {
+                "address": "Unit 3 California Building, Deals Gateway, London, SE13 7SB"
+            }
+        ]
+    }
+]

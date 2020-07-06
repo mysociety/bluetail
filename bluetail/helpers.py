@@ -7,7 +7,7 @@ from django.db.models import Q
 from bluetail import models
 from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('django')
 
 
 class FlagHelperFunctions():

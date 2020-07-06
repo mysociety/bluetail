@@ -1,1 +1,100 @@
-[{"statementID": "openownership-register-15478742157055774516", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "WARDELL ARMSTRONG LLP", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC307138"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC307138"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC307138"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC307138"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC307138"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/OC307138", "uri": "https://opencorporates.com/companies/gb/OC307138"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc307138"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc307138"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc307138"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc307138"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b92b9767e4ebf340189ed6", "uri": "http://register.openownership.org/entities/59b92b9767e4ebf340189ed6"}], "foundingDate": "2004-03-04", "addresses": [{"type": "registered", "address": "Sir Henry Doulton House Forge, Lane Etruria Stoke On Trent, Staffordshire, ST1 5BD", "country": "GB"}]}, {"statementID": "openownership-register-5294881441179871011", "statementType": "ownershipOrControlStatement", "statementDate": "2016-09-01", "subject": {"describedByEntityStatement": "openownership-register-15478742157055774516"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-15478742157055774516",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WARDELL ARMSTRONG LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC307138"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC307138"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC307138"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC307138"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC307138"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC307138",
+                "uri": "https://opencorporates.com/companies/gb/OC307138"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc307138"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc307138"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc307138"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc307138"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92b9767e4ebf340189ed6",
+                "uri": "http://register.openownership.org/entities/59b92b9767e4ebf340189ed6"
+            }
+        ],
+        "foundingDate": "2004-03-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Sir Henry Doulton House Forge, Lane Etruria Stoke On Trent, Staffordshire, ST1 5BD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5294881441179871011",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-09-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15478742157055774516"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

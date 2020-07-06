@@ -1,1 +1,326 @@
-[{"statementID": "openownership-register-1955869517880905989", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "PROGRESSIVE CARE LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "03641345"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03641345"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/03641345", "uri": "https://opencorporates.com/companies/gb/03641345"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5ab9bbb69dfc3fae1887c35b", "uri": "http://register.openownership.org/entities/5ab9bbb69dfc3fae1887c35b"}], "foundingDate": "1998-09-30", "addresses": [{"type": "registered", "address": "51 Attercliffe Common, Sheffield, S9 2AE", "country": "GB"}]}, {"statementID": "openownership-register-11811902949044071713", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-1955869517880905989"}, "interestedParty": {"describedByEntityStatement": "openownership-register-6533909013695848103"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06", "endDate": "2017-08-18"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06", "endDate": "2017-08-18"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-06", "endDate": "2017-08-18"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-3213735878325894300", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-1955869517880905989"}, "interestedParty": {"describedByPersonStatement": "openownership-register-15475482067022578647"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06", "endDate": "2016-10-02"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-09-06T08:35:11Z"}}, {"statementID": "openownership-register-8980309791504757866", "statementType": "ownershipOrControlStatement", "statementDate": "2017-08-18", "subject": {"describedByEntityStatement": "openownership-register-1955869517880905989"}, "interestedParty": {"describedByEntityStatement": "openownership-register-14439750207829839814"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2017-08-18"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-15475482067022578647", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Shabir Mohammad Ali"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/03641345/persons-with-significant-control/individual/1BehmDHSjyxR9XLj6Jmg0GX530I"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5aba110a9dfc3fae18628abf", "uri": "http://register.openownership.org/entities/5aba110a9dfc3fae18628abf"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1965-03-01", "addresses": [{"address": "51, Attercliffe Common, Sheffield, S9 2AE"}]}, {"statementID": "openownership-register-14439750207829839814", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "PROGRESSIVE CARE UK LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "05878916"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "05878916"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "05878916"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "05878916"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "05878916"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/05878916", "uri": "https://opencorporates.com/companies/gb/05878916"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "05878916"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9db4367e4ebf340ff02bd", "uri": "http://register.openownership.org/entities/59b9db4367e4ebf340ff02bd"}], "foundingDate": "2006-07-17", "addresses": [{"type": "registered", "address": "51 Attercliffe Common, Sheffield, S9 2AE", "country": "GB"}]}, {"statementID": "openownership-register-6533909013695848103", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "PROGRESSIVE CARE (HOLDINGS) LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06401090"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06401090"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06401090"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06401090"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06401090"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06401090"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06401090"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "06401090"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06401090", "uri": "https://opencorporates.com/companies/gb/06401090"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5ab94d659dfc3fae18799961", "uri": "http://register.openownership.org/entities/5ab94d659dfc3fae18799961"}], "foundingDate": "2007-10-16", "addresses": [{"type": "registered", "address": "51 Attercliffe Common, Sheffield, South Yorkshire, S9 2AE", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-1955869517880905989",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PROGRESSIVE CARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03641345"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03641345"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03641345",
+                "uri": "https://opencorporates.com/companies/gb/03641345"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab9bbb69dfc3fae1887c35b",
+                "uri": "http://register.openownership.org/entities/5ab9bbb69dfc3fae1887c35b"
+            }
+        ],
+        "foundingDate": "1998-09-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "51 Attercliffe Common, Sheffield, S9 2AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11811902949044071713",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1955869517880905989"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6533909013695848103"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-08-18"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-08-18"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2017-08-18"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3213735878325894300",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1955869517880905989"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15475482067022578647"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2016-10-02"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-06T08:35:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8980309791504757866",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-08-18",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1955869517880905989"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-14439750207829839814"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-08-18"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15475482067022578647",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Shabir Mohammad Ali"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03641345/persons-with-significant-control/individual/1BehmDHSjyxR9XLj6Jmg0GX530I"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba110a9dfc3fae18628abf",
+                "uri": "http://register.openownership.org/entities/5aba110a9dfc3fae18628abf"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1965-03-01",
+        "addresses": [
+            {
+                "address": "51, Attercliffe Common, Sheffield, S9 2AE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14439750207829839814",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PROGRESSIVE CARE UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05878916"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05878916"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05878916"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05878916"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05878916"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05878916",
+                "uri": "https://opencorporates.com/companies/gb/05878916"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05878916"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9db4367e4ebf340ff02bd",
+                "uri": "http://register.openownership.org/entities/59b9db4367e4ebf340ff02bd"
+            }
+        ],
+        "foundingDate": "2006-07-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "51 Attercliffe Common, Sheffield, S9 2AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6533909013695848103",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PROGRESSIVE CARE (HOLDINGS) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06401090"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06401090"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06401090"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06401090"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06401090"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06401090"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06401090"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06401090"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06401090",
+                "uri": "https://opencorporates.com/companies/gb/06401090"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab94d659dfc3fae18799961",
+                "uri": "http://register.openownership.org/entities/5ab94d659dfc3fae18799961"
+            }
+        ],
+        "foundingDate": "2007-10-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "51 Attercliffe Common, Sheffield, South Yorkshire, S9 2AE",
+                "country": "GB"
+            }
+        ]
+    }
+]
