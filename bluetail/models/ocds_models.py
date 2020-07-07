@@ -3,6 +3,8 @@ from django.db import models
 
 from django_pgviews import view as pgviews
 
+from .bluetail_models import Flag
+
 
 class OCDSReleaseJSON(models.Model):
     """
@@ -56,6 +58,18 @@ class OCDSTender(pgviews.View):
             ocds.release_json -> 'buyer' ->> 'id' AS buyer_id
         FROM bluetail_ocds_release_json ocds
         """
+
+    @property
+    def flags(self):
+        return Flag.objects.filter(flagattachment__ocid=self.ocid)
+
+    @property
+    def total_warnings(self):
+        return self.flags.filter(flag_type="warning").count()
+
+    @property
+    def total_errors(self):
+        return self.flags.filter(flag_type="error").count()
 
     class Meta:
         app_label = 'bluetail'

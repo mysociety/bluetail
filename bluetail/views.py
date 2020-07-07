@@ -190,6 +190,7 @@ class OCDSList(ListView):
     def get_queryset(self):
         queryset = OCDSTender.objects.order_by('-ocid')
         ocid_prefixes = self.request.GET.getlist('ocid_prefix')
+        has_flags = self.request.GET.get('has_flags')
 
         if ocid_prefixes:
             query = Q()
@@ -197,39 +198,10 @@ class OCDSList(ListView):
                 query.add(Q(ocid__startswith=ocid_prefix), Q.OR)
             queryset = queryset.filter(query)
 
+        if has_flags:
+            queryset = (x for x in queryset if len(x.flags) > 0)
+
         return queryset
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-
-        # WIP to get total errors/warnings for tenders list
-
-        # new_context = {
-        #
-        # }
-        #
-        # # get the tender from the DetailView context "object"
-        # for tender in self.object_list:
-        #
-        #     # Get tenderers
-        #     tenderers = OCDSParty.objects.filter(ocid=tender.ocid, party_role="tenderer")
-        #
-        #     # Augment context
-        #     new_context = {
-        #         "tender": tender,
-        #         "tenderers": [],
-        #     }
-        #
-        #     # Lookup flags and append tenderers to context
-        #     context_helper = ContextHelperFunctions()
-        #
-        #     for tenderer in tenderers:
-        #         tenderer_context = context_helper.get_tenderer_context(tenderer)
-        #         new_context["tenderers"].append(tenderer_context)
-
-        # context.update(new_context)
-
-        return context
 
 
 class OCDSTenderDetailView(DetailView):
