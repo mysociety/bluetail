@@ -1,1 +1,250 @@
-[{"statementID": "openownership-register-8193690666033265385", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "QA LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02413137"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02413137"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02413137"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02413137", "uri": "https://opencorporates.com/companies/gb/02413137"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "2413137"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "2413137"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "2413137"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9dcad67e4ebf34004c341", "uri": "http://register.openownership.org/entities/59b9dcad67e4ebf34004c341"}], "foundingDate": "1989-08-14", "addresses": [{"type": "registered", "address": "Rath House, 55-65 Uxbridge Road, Slough, Berkshire, SL1 1SG", "country": "GB"}]}, {"statementID": "openownership-register-4139369446066628291", "statementType": "ownershipOrControlStatement", "statementDate": "2017-06-23", "subject": {"describedByEntityStatement": "openownership-register-8193690666033265385"}, "interestedParty": {"describedByEntityStatement": "openownership-register-7000781160411308409"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2017-06-23"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2017-06-23"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2017-06-23"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-7000781160411308409", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "SECKLOE 208 LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "03684770"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/03684770", "uri": "https://opencorporates.com/companies/gb/03684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "3684770"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5ab99f6c9dfc3fae1840b4af", "uri": "http://register.openownership.org/entities/5ab99f6c9dfc3fae1840b4af"}], "foundingDate": "1998-12-16", "addresses": [{"type": "registered", "address": "Rath House, 55-65 Uxbridge Road, Slough, Berkshire, SL1 1SG", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-8193690666033265385",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "QA LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02413137"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02413137"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02413137"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02413137",
+                "uri": "https://opencorporates.com/companies/gb/02413137"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2413137"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2413137"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2413137"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9dcad67e4ebf34004c341",
+                "uri": "http://register.openownership.org/entities/59b9dcad67e4ebf34004c341"
+            }
+        ],
+        "foundingDate": "1989-08-14",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Rath House, 55-65 Uxbridge Road, Slough, Berkshire, SL1 1SG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4139369446066628291",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-06-23",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8193690666033265385"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-7000781160411308409"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-06-23"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-06-23"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2017-06-23"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7000781160411308409",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SECKLOE 208 LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03684770"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03684770",
+                "uri": "https://opencorporates.com/companies/gb/03684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3684770"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab99f6c9dfc3fae1840b4af",
+                "uri": "http://register.openownership.org/entities/5ab99f6c9dfc3fae1840b4af"
+            }
+        ],
+        "foundingDate": "1998-12-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Rath House, 55-65 Uxbridge Road, Slough, Berkshire, SL1 1SG",
+                "country": "GB"
+            }
+        ]
+    }
+]

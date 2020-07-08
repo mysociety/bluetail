@@ -1,1 +1,84 @@
-[{"statementID": "openownership-register-1591138865727749012", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "BRAMLEY ELDERLY ACTION", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "03008194"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/03008194", "uri": "https://opencorporates.com/companies/gb/03008194"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59c4ff6e67e4ebf3405a73d4", "uri": "http://register.openownership.org/entities/59c4ff6e67e4ebf3405a73d4"}], "foundingDate": "1995-01-10", "dissolutionDate": "2018-06-19", "addresses": [{"type": "registered", "address": "Bramley Community Centre Waterloo Lane, Bramley, Leeds, West Yorkshire, LS13 2JB", "country": "GB"}]}, {"statementID": "openownership-register-1516383961145739703", "statementType": "ownershipOrControlStatement", "statementDate": "2019-01-14", "subject": {"describedByEntityStatement": "openownership-register-1591138865727749012"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-11120982765704532684", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-10", "subject": {"describedByEntityStatement": "openownership-register-1591138865727749012"}, "interestedParty": {"unspecified": {"reason": "unknown", "description": "Unknown person(s)"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-1591138865727749012",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BRAMLEY ELDERLY ACTION",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03008194"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03008194",
+                "uri": "https://opencorporates.com/companies/gb/03008194"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4ff6e67e4ebf3405a73d4",
+                "uri": "http://register.openownership.org/entities/59c4ff6e67e4ebf3405a73d4"
+            }
+        ],
+        "foundingDate": "1995-01-10",
+        "dissolutionDate": "2018-06-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Bramley Community Centre Waterloo Lane, Bramley, Leeds, West Yorkshire, LS13 2JB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1516383961145739703",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-01-14",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1591138865727749012"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11120982765704532684",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-10",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1591138865727749012"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "unknown",
+                "description": "Unknown person(s)"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

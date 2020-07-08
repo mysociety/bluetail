@@ -10,7 +10,7 @@ from django.conf import settings
 from bluetail.helpers import UpsertDataHelpers
 from bluetail.tests.fixtures import insert_flags, insert_flag_attachments
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('django')
 
 DATA_DIR = os.path.join(settings.BASE_DIR, "data")
 

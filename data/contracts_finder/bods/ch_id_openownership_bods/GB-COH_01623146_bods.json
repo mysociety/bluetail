@@ -1,1 +1,114 @@
-[{"statementID": "openownership-register-3906713934552393104", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "MANGAR INTERNATIONAL LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "01623146"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/01623146", "uri": "https://opencorporates.com/companies/gb/01623146"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9d2b567e4ebf340dfc1f9", "uri": "http://register.openownership.org/entities/59b9d2b567e4ebf340dfc1f9"}], "foundingDate": "1982-03-19", "addresses": [{"type": "registered", "address": "Presteigne, Powys, LD8 2UF", "country": "GB"}]}, {"statementID": "openownership-register-7055110416884687046", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3906713934552393104"}, "interestedParty": {"describedByEntityStatement": "openownership-register-7787150357561173227"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-7787150357561173227", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "MANGAR INTERNATIONAL (HOLDINGS) LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "04493857"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04493857"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "04493857"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/04493857", "uri": "https://opencorporates.com/companies/gb/04493857"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b93abf67e4ebf3406184f8", "uri": "http://register.openownership.org/entities/59b93abf67e4ebf3406184f8"}], "foundingDate": "2002-07-24", "addresses": [{"type": "registered", "address": "2nd Floor Padmore House Hall Court, Hall Park Way, Town Centre, Telford, England, TF3 4LX", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-3906713934552393104",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MANGAR INTERNATIONAL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01623146"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01623146",
+                "uri": "https://opencorporates.com/companies/gb/01623146"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d2b567e4ebf340dfc1f9",
+                "uri": "http://register.openownership.org/entities/59b9d2b567e4ebf340dfc1f9"
+            }
+        ],
+        "foundingDate": "1982-03-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Presteigne, Powys, LD8 2UF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7055110416884687046",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3906713934552393104"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-7787150357561173227"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7787150357561173227",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MANGAR INTERNATIONAL (HOLDINGS) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04493857"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04493857"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04493857"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04493857",
+                "uri": "https://opencorporates.com/companies/gb/04493857"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93abf67e4ebf3406184f8",
+                "uri": "http://register.openownership.org/entities/59b93abf67e4ebf3406184f8"
+            }
+        ],
+        "foundingDate": "2002-07-24",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "2nd Floor Padmore House Hall Court, Hall Park Way, Town Centre, Telford, England, TF3 4LX",
+                "country": "GB"
+            }
+        ]
+    }
+]

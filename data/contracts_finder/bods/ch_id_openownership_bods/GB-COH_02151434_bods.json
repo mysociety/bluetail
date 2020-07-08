@@ -1,1 +1,169 @@
-[{"statementID": "openownership-register-15714745617343152702", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "OUTWARD HOUSING", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02151434"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02151434", "uri": "https://opencorporates.com/companies/gb/02151434"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9c77867e4ebf340b6678d", "uri": "http://register.openownership.org/entities/59b9c77867e4ebf340b6678d"}], "foundingDate": "1987-07-29", "addresses": [{"type": "registered", "address": "Newlon House 4 Daneland Walk, Hale Village, London, N17 9FE", "country": "GB"}]}, {"statementID": "openownership-register-6846608988713489896", "statementType": "ownershipOrControlStatement", "statementDate": "2016-05-18", "subject": {"describedByEntityStatement": "openownership-register-15714745617343152702"}, "interestedParty": {"describedByEntityStatement": "openownership-register-10178342263652973022"}, "interests": [{"type": "voting-rights", "details": "voting-rights-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2016-05-18"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-05-18"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-5433386402402511159", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-15714745617343152702"}, "interestedParty": {"describedByEntityStatement": "openownership-register-8525559614418959356"}, "interests": [{"type": "voting-rights", "details": "voting-rights-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2016-04-06"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-10178342263652973022", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "Newlon Housing Trust", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "18449r"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9c77d67e4ebf340b66d35", "uri": "http://register.openownership.org/entities/59b9c77d67e4ebf340b66d35"}], "addresses": [{"type": "registered", "address": "4, Daneland Walk, London, N17 9FE", "country": "GB"}]}, {"statementID": "openownership-register-8525559614418959356", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "Newlon Housing Trust", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "18449r"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5bbc49549dfc3fae189366fa", "uri": "http://register.openownership.org/entities/5bbc49549dfc3fae189366fa"}], "addresses": [{"type": "registered", "address": "4, Daneland Walk, London, N17 9FE", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-15714745617343152702",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "OUTWARD HOUSING",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02151434"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02151434",
+                "uri": "https://opencorporates.com/companies/gb/02151434"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c77867e4ebf340b6678d",
+                "uri": "http://register.openownership.org/entities/59b9c77867e4ebf340b6678d"
+            }
+        ],
+        "foundingDate": "1987-07-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Newlon House 4 Daneland Walk, Hale Village, London, N17 9FE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6846608988713489896",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-18",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15714745617343152702"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-10178342263652973022"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-05-18"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-05-18"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5433386402402511159",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15714745617343152702"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8525559614418959356"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10178342263652973022",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Newlon Housing Trust",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "18449r"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c77d67e4ebf340b66d35",
+                "uri": "http://register.openownership.org/entities/59b9c77d67e4ebf340b66d35"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "4, Daneland Walk, London, N17 9FE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8525559614418959356",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Newlon Housing Trust",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "18449r"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bbc49549dfc3fae189366fa",
+                "uri": "http://register.openownership.org/entities/5bbc49549dfc3fae189366fa"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "4, Daneland Walk, London, N17 9FE",
+                "country": "GB"
+            }
+        ]
+    }
+]

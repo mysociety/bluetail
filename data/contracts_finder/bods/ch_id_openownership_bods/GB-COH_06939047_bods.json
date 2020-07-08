@@ -1,1 +1,115 @@
-[{"statementID": "openownership-register-10593353822116484909", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "BRISTOL BUSINESS FORMS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "06939047"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/06939047", "uri": "https://opencorporates.com/companies/gb/06939047"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9d88567e4ebf340f43afe", "uri": "http://register.openownership.org/entities/59b9d88567e4ebf340f43afe"}], "foundingDate": "2009-06-19", "addresses": [{"type": "registered", "address": "The Island House, The Island, Midsomer Norton, Radstock, BA3 2DZ", "country": "GB"}]}, {"statementID": "openownership-register-17918321692845512359", "statementType": "ownershipOrControlStatement", "statementDate": "2017-06-19", "subject": {"describedByEntityStatement": "openownership-register-10593353822116484909"}, "interestedParty": {"describedByPersonStatement": "openownership-register-4979746705247740555"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2017-06-19"}, {"type": "voting-rights", "details": "voting-rights-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2017-06-19"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-4979746705247740555", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Jesse Mark Brooks"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/06939047/persons-with-significant-control/individual/yHHbB5BZmhT1BKQ7fk8pGEsBQy8"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9d88567e4ebf340f43b09", "uri": "http://register.openownership.org/entities/59b9d88567e4ebf340f43b09"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1960-11-01", "addresses": [{"address": "Highbury House, Highbury Street, Coleford, Radstock, BA3 5NT", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-10593353822116484909",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BRISTOL BUSINESS FORMS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06939047"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06939047",
+                "uri": "https://opencorporates.com/companies/gb/06939047"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d88567e4ebf340f43afe",
+                "uri": "http://register.openownership.org/entities/59b9d88567e4ebf340f43afe"
+            }
+        ],
+        "foundingDate": "2009-06-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Island House, The Island, Midsomer Norton, Radstock, BA3 2DZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17918321692845512359",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-06-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10593353822116484909"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4979746705247740555"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2017-06-19"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2017-06-19"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4979746705247740555",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Jesse Mark Brooks"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06939047/persons-with-significant-control/individual/yHHbB5BZmhT1BKQ7fk8pGEsBQy8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d88567e4ebf340f43b09",
+                "uri": "http://register.openownership.org/entities/59b9d88567e4ebf340f43b09"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-11-01",
+        "addresses": [
+            {
+                "address": "Highbury House, Highbury Street, Coleford, Radstock, BA3 5NT",
+                "country": "GB"
+            }
+        ]
+    }
+]

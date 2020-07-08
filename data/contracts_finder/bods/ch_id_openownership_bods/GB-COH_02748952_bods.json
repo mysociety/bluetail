@@ -1,1 +1,215 @@
-[{"statementID": "openownership-register-9453015105478539871", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "TVS SUPPLY CHAIN SOLUTIONS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02748952"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02748952"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02748952"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02748952"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02748952", "uri": "https://opencorporates.com/companies/gb/02748952"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "2748952"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "2748952"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "2748952"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b99e2b67e4ebf3401a0b9d", "uri": "http://register.openownership.org/entities/59b99e2b67e4ebf3401a0b9d"}], "foundingDate": "1992-09-21", "addresses": [{"type": "registered", "address": "Logistics House, Buckshaw Avenue, Chorley, Lancashire, PR6 7AJ", "country": "GB"}]}, {"statementID": "openownership-register-12267259586664236615", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-9453015105478539871"}, "interestedParty": {"describedByEntityStatement": "openownership-register-12751343604025125925"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06", "endDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-17514572138185635972", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-9453015105478539871"}, "interestedParty": {"describedByEntityStatement": "openownership-register-13408966325747066079"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-12751343604025125925", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "Tvs Logistics Services Limited", "incorporatedInJurisdiction": {"name": "India", "code": "IN"}, "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02748952/persons-with-significant-control/corporate-entity/Og1PWmokRNVUN2qQ0lI0KnyCoeg"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/5ab9843e9dfc3fae18fe90ff", "uri": "http://register.openownership.org/entities/5ab9843e9dfc3fae18fe90ff"}], "addresses": [{"type": "registered", "address": "Cathedral Road, Gopalapuram, Chennai, Tamil Nadu, 600086", "country": "IN"}]}, {"statementID": "openownership-register-13408966325747066079", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "TVS LOGISTICS INVESTMENT UK LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "07003943"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "07003943"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "07003943"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/07003943", "uri": "https://opencorporates.com/companies/gb/07003943"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "7003943"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "7003943"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9e29767e4ebf3401add11", "uri": "http://register.openownership.org/entities/59b9e29767e4ebf3401add11"}], "foundingDate": "2009-08-28", "addresses": [{"type": "registered", "address": "Logistics House, Buckshaw Avenue, Chorley, Lancashire, PR6 7AJ", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-9453015105478539871",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TVS SUPPLY CHAIN SOLUTIONS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02748952"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02748952"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02748952"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02748952"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02748952",
+                "uri": "https://opencorporates.com/companies/gb/02748952"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2748952"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2748952"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2748952"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99e2b67e4ebf3401a0b9d",
+                "uri": "http://register.openownership.org/entities/59b99e2b67e4ebf3401a0b9d"
+            }
+        ],
+        "foundingDate": "1992-09-21",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Logistics House, Buckshaw Avenue, Chorley, Lancashire, PR6 7AJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12267259586664236615",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9453015105478539871"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-12751343604025125925"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17514572138185635972",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9453015105478539871"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-13408966325747066079"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12751343604025125925",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Tvs Logistics Services Limited",
+        "incorporatedInJurisdiction": {
+            "name": "India",
+            "code": "IN"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02748952/persons-with-significant-control/corporate-entity/Og1PWmokRNVUN2qQ0lI0KnyCoeg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab9843e9dfc3fae18fe90ff",
+                "uri": "http://register.openownership.org/entities/5ab9843e9dfc3fae18fe90ff"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Cathedral Road, Gopalapuram, Chennai, Tamil Nadu, 600086",
+                "country": "IN"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13408966325747066079",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TVS LOGISTICS INVESTMENT UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07003943"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07003943"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07003943"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07003943",
+                "uri": "https://opencorporates.com/companies/gb/07003943"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "7003943"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "7003943"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9e29767e4ebf3401add11",
+                "uri": "http://register.openownership.org/entities/59b9e29767e4ebf3401add11"
+            }
+        ],
+        "foundingDate": "2009-08-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Logistics House, Buckshaw Avenue, Chorley, Lancashire, PR6 7AJ",
+                "country": "GB"
+            }
+        ]
+    }
+]

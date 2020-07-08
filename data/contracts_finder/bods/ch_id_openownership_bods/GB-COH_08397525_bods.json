@@ -1,1 +1,114 @@
-[{"statementID": "openownership-register-7304274729032299552", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "MIDCO CARE LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "08397525"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/08397525", "uri": "https://opencorporates.com/companies/gb/08397525"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b98f7067e4ebf340e6862f", "uri": "http://register.openownership.org/entities/59b98f7067e4ebf340e6862f"}], "foundingDate": "2013-02-11", "addresses": [{"type": "registered", "address": "Laxton House, 191 Lincoln Road, Peterborough, PE1 2PN", "country": "GB"}]}, {"statementID": "openownership-register-7010293915002988413", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-01", "subject": {"describedByEntityStatement": "openownership-register-7304274729032299552"}, "interestedParty": {"describedByPersonStatement": "openownership-register-9278112927788432855"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2017-01-01"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2017-01-01"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-9278112927788432855", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Mzingaye Bhebe"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/08397525/persons-with-significant-control/individual/38ikFAA8Xpwlu9UeI0WegbuXiqQ"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b98f7067e4ebf340e68639", "uri": "http://register.openownership.org/entities/59b98f7067e4ebf340e68639"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1970-04-01", "addresses": [{"address": "Laxton House, 191 Lincoln Road, Peterborough, PE1 2PN"}]}]
+[
+    {
+        "statementID": "openownership-register-7304274729032299552",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MIDCO CARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08397525"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08397525",
+                "uri": "https://opencorporates.com/companies/gb/08397525"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98f7067e4ebf340e6862f",
+                "uri": "http://register.openownership.org/entities/59b98f7067e4ebf340e6862f"
+            }
+        ],
+        "foundingDate": "2013-02-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Laxton House, 191 Lincoln Road, Peterborough, PE1 2PN",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7010293915002988413",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7304274729032299552"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9278112927788432855"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-01-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-01-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9278112927788432855",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mzingaye Bhebe"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/08397525/persons-with-significant-control/individual/38ikFAA8Xpwlu9UeI0WegbuXiqQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98f7067e4ebf340e68639",
+                "uri": "http://register.openownership.org/entities/59b98f7067e4ebf340e68639"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-04-01",
+        "addresses": [
+            {
+                "address": "Laxton House, 191 Lincoln Road, Peterborough, PE1 2PN"
+            }
+        ]
+    }
+]

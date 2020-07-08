@@ -1,1 +1,108 @@
-[{"statementID": "openownership-register-3530732949981686926", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "FRESH START IN EDUCATION LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "07133204"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "07133204"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/07133204", "uri": "https://opencorporates.com/companies/gb/07133204"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b98f8a67e4ebf340e6d71c", "uri": "http://register.openownership.org/entities/59b98f8a67e4ebf340e6d71c"}], "foundingDate": "2010-01-22", "addresses": [{"type": "registered", "address": "45 Queen Street, Deal, Kent, CT14 6EY", "country": "GB"}]}, {"statementID": "openownership-register-10719871888034298078", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-22", "subject": {"describedByEntityStatement": "openownership-register-3530732949981686926"}, "interestedParty": {"describedByPersonStatement": "openownership-register-1447480266313142422"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-50-to-75-percent", "share": {"minimum": 50, "maximum": 75, "exclusiveMinimum": true, "exclusiveMaximum": true}, "startDate": "2017-01-22"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2020-03-24T16:58:02Z"}}, {"statementID": "openownership-register-1447480266313142422", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Antony Meade"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/07133204/persons-with-significant-control/individual/aTqSdOz8AG8jOuT0-UajBqbW-aU"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b98f8a67e4ebf340e6d727", "uri": "http://register.openownership.org/entities/59b98f8a67e4ebf340e6d727"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1967-06-01", "addresses": [{"address": "45, Queen Street, Deal, Kent, CT14 6EY"}]}]
+[
+    {
+        "statementID": "openownership-register-3530732949981686926",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FRESH START IN EDUCATION LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07133204"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07133204"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07133204",
+                "uri": "https://opencorporates.com/companies/gb/07133204"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98f8a67e4ebf340e6d71c",
+                "uri": "http://register.openownership.org/entities/59b98f8a67e4ebf340e6d71c"
+            }
+        ],
+        "foundingDate": "2010-01-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "45 Queen Street, Deal, Kent, CT14 6EY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10719871888034298078",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-22",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3530732949981686926"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1447480266313142422"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2017-01-22"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1447480266313142422",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Antony Meade"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07133204/persons-with-significant-control/individual/aTqSdOz8AG8jOuT0-UajBqbW-aU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98f8a67e4ebf340e6d727",
+                "uri": "http://register.openownership.org/entities/59b98f8a67e4ebf340e6d727"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-06-01",
+        "addresses": [
+            {
+                "address": "45, Queen Street, Deal, Kent, CT14 6EY"
+            }
+        ]
+    }
+]

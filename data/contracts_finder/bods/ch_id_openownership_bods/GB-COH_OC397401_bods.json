@@ -1,1 +1,90 @@
-[{"statementID": "openownership-register-10529995378911682754", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "DEVONSHIRES SOLICITORS LLP", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC397401"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC397401"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC397401"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC397401"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/OC397401", "uri": "https://opencorporates.com/companies/gb/OC397401"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc397401"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc397401"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc397401"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96fd167e4ebf34058324f", "uri": "http://register.openownership.org/entities/59b96fd167e4ebf34058324f"}], "foundingDate": "2015-01-07", "addresses": [{"type": "registered", "address": "30 Finsbury Circus, London, Greater London, EC2M 7DT", "country": "GB"}]}, {"statementID": "openownership-register-10217011032742468695", "statementType": "ownershipOrControlStatement", "statementDate": "2017-01-07", "subject": {"describedByEntityStatement": "openownership-register-10529995378911682754"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-10529995378911682754",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DEVONSHIRES SOLICITORS LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC397401"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC397401"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC397401"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC397401"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC397401",
+                "uri": "https://opencorporates.com/companies/gb/OC397401"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc397401"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc397401"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc397401"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96fd167e4ebf34058324f",
+                "uri": "http://register.openownership.org/entities/59b96fd167e4ebf34058324f"
+            }
+        ],
+        "foundingDate": "2015-01-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "30 Finsbury Circus, London, Greater London, EC2M 7DT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10217011032742468695",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-07",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10529995378911682754"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

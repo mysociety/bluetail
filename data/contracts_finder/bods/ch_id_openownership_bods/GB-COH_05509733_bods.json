@@ -1,1 +1,104 @@
-[{"statementID": "openownership-register-3258880133823919752", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "PROVENTURE CONSULTING LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "05509733"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/05509733", "uri": "https://opencorporates.com/companies/gb/05509733"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9273967e4ebf34005177e", "uri": "http://register.openownership.org/entities/59b9273967e4ebf34005177e"}], "foundingDate": "2005-07-15", "addresses": [{"type": "registered", "address": "Blackfriars House, Parsonage, Manchester, M3 2JA", "country": "GB"}]}, {"statementID": "openownership-register-4719260220353858347", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-3258880133823919752"}, "interestedParty": {"describedByPersonStatement": "openownership-register-356725435670256055"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-356725435670256055", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Stephen Anthony Cooley"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/05509733/persons-with-significant-control/individual/CUK2jP5w_xZFQL7AVxvyoEckXP4"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9273967e4ebf34005178e", "uri": "http://register.openownership.org/entities/59b9273967e4ebf34005178e"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1965-01-01", "addresses": [{"address": "Village Farmhouse, Main Street, Askham Richard, York, YO23 3PT", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-3258880133823919752",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PROVENTURE CONSULTING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05509733"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05509733",
+                "uri": "https://opencorporates.com/companies/gb/05509733"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9273967e4ebf34005177e",
+                "uri": "http://register.openownership.org/entities/59b9273967e4ebf34005177e"
+            }
+        ],
+        "foundingDate": "2005-07-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Blackfriars House, Parsonage, Manchester, M3 2JA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4719260220353858347",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3258880133823919752"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-356725435670256055"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-356725435670256055",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Stephen Anthony Cooley"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05509733/persons-with-significant-control/individual/CUK2jP5w_xZFQL7AVxvyoEckXP4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9273967e4ebf34005178e",
+                "uri": "http://register.openownership.org/entities/59b9273967e4ebf34005178e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1965-01-01",
+        "addresses": [
+            {
+                "address": "Village Farmhouse, Main Street, Askham Richard, York, YO23 3PT",
+                "country": "GB"
+            }
+        ]
+    }
+]

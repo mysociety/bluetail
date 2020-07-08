@@ -1,1 +1,103 @@
-[{"statementID": "openownership-register-14753487720686084721", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "HI-SPEC FACILITIES SERVICES LTD", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "04373379"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/04373379", "uri": "https://opencorporates.com/companies/gb/04373379"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b982ad67e4ebf340b54068", "uri": "http://register.openownership.org/entities/59b982ad67e4ebf340b54068"}], "foundingDate": "2002-02-13", "addresses": [{"type": "registered", "address": "20 Schooner Court, Crossways Business Park, Dartford, Kent, DA2 6NW", "country": "GB"}]}, {"statementID": "openownership-register-900378280108297776", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-14753487720686084721"}, "interestedParty": {"describedByPersonStatement": "openownership-register-12749578496820464378"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-12749578496820464378", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Colin Alexander Stirling"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/03732022/persons-with-significant-control/individual/77ZSP79UGsBefVlN3OQQJNNP__o"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9548267e4ebf340d4a96e", "uri": "http://register.openownership.org/entities/59b9548267e4ebf340d4a96e"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1960-12-01", "addresses": [{"address": "20, Schooner Court, Crossways Business Park, Dartford, Kent, DA2 6NW"}]}]
+[
+    {
+        "statementID": "openownership-register-14753487720686084721",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HI-SPEC FACILITIES SERVICES LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04373379"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04373379",
+                "uri": "https://opencorporates.com/companies/gb/04373379"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b982ad67e4ebf340b54068",
+                "uri": "http://register.openownership.org/entities/59b982ad67e4ebf340b54068"
+            }
+        ],
+        "foundingDate": "2002-02-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "20 Schooner Court, Crossways Business Park, Dartford, Kent, DA2 6NW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-900378280108297776",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14753487720686084721"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12749578496820464378"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12749578496820464378",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Colin Alexander Stirling"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03732022/persons-with-significant-control/individual/77ZSP79UGsBefVlN3OQQJNNP__o"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9548267e4ebf340d4a96e",
+                "uri": "http://register.openownership.org/entities/59b9548267e4ebf340d4a96e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-12-01",
+        "addresses": [
+            {
+                "address": "20, Schooner Court, Crossways Business Park, Dartford, Kent, DA2 6NW"
+            }
+        ]
+    }
+]

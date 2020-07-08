@@ -8,8 +8,8 @@ helper = FlagHelperFunctions()
 
 
 @register.simple_tag()
-def get_flags_for_bods_entity_or_person(object):
-    flags = helper.get_flags_for_bods_entity_or_person(object)
+def get_flags_for_bods_entity_or_person(object, ocid=None):
+    flags = helper.get_flags_for_bods_entity_or_person(object, ocid=ocid)
     flags_context = helper.build_flags_context(flags)
     return flags_context
 

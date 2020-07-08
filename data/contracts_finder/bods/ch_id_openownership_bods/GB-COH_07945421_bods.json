@@ -1,1 +1,60 @@
-[{"statementID": "openownership-register-11671628070842014296", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "SOLIHULL ACTION THROUGH ADVOCACY", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "07945421"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/07945421", "uri": "https://opencorporates.com/companies/gb/07945421"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59c5018667e4ebf3405efe4e", "uri": "http://register.openownership.org/entities/59c5018667e4ebf3405efe4e"}], "foundingDate": "2012-02-10", "addresses": [{"type": "registered", "address": "11-13 Land Lane, Marston Green, Birmingham, B37 7DE", "country": "GB"}]}, {"statementID": "openownership-register-926083203046507683", "statementType": "ownershipOrControlStatement", "statementDate": "2017-02-08", "subject": {"describedByEntityStatement": "openownership-register-11671628070842014296"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-11671628070842014296",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SOLIHULL ACTION THROUGH ADVOCACY",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07945421"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07945421",
+                "uri": "https://opencorporates.com/companies/gb/07945421"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c5018667e4ebf3405efe4e",
+                "uri": "http://register.openownership.org/entities/59c5018667e4ebf3405efe4e"
+            }
+        ],
+        "foundingDate": "2012-02-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "11-13 Land Lane, Marston Green, Birmingham, B37 7DE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-926083203046507683",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-08",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11671628070842014296"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

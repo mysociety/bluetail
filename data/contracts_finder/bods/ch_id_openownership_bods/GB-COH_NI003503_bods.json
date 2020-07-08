@@ -1,1 +1,198 @@
-[{"statementID": "openownership-register-5068739231110588824", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "JOHN GRAHAM CONSTRUCTION LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI003503"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI003503"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI003503"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI003503"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/NI003503", "uri": "https://opencorporates.com/companies/gb/NI003503"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Ni003503"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Ni003503"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Ni003503"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9701767e4ebf3405995a5", "uri": "http://register.openownership.org/entities/59b9701767e4ebf3405995a5"}], "foundingDate": "1955-03-29", "addresses": [{"type": "registered", "address": "5 Ballygowan Road, Hillsborough, County Down, BT26 6HX", "country": "GB"}]}, {"statementID": "openownership-register-327572377792050550", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-5068739231110588824"}, "interestedParty": {"describedByEntityStatement": "openownership-register-1021309547064406233"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-1021309547064406233", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "JOHN GRAHAM HOLDINGS LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "NI057921"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/NI057921", "uri": "https://opencorporates.com/companies/gb/NI057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Ni057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Ni057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Ni057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Ni057921"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Ni57921"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9605967e4ebf3400c44b2", "uri": "http://register.openownership.org/entities/59b9605967e4ebf3400c44b2"}], "foundingDate": "2006-01-24", "addresses": [{"type": "registered", "address": "5 Ballygowan Road, Hillsborough, County Down, BT26 6HX", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-5068739231110588824",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "JOHN GRAHAM CONSTRUCTION LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI003503"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI003503"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI003503"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI003503"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/NI003503",
+                "uri": "https://opencorporates.com/companies/gb/NI003503"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ni003503"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ni003503"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ni003503"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9701767e4ebf3405995a5",
+                "uri": "http://register.openownership.org/entities/59b9701767e4ebf3405995a5"
+            }
+        ],
+        "foundingDate": "1955-03-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "5 Ballygowan Road, Hillsborough, County Down, BT26 6HX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-327572377792050550",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5068739231110588824"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1021309547064406233"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1021309547064406233",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "JOHN GRAHAM HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "NI057921"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/NI057921",
+                "uri": "https://opencorporates.com/companies/gb/NI057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ni057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ni057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ni057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ni057921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ni57921"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9605967e4ebf3400c44b2",
+                "uri": "http://register.openownership.org/entities/59b9605967e4ebf3400c44b2"
+            }
+        ],
+        "foundingDate": "2006-01-24",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "5 Ballygowan Road, Hillsborough, County Down, BT26 6HX",
+                "country": "GB"
+            }
+        ]
+    }
+]

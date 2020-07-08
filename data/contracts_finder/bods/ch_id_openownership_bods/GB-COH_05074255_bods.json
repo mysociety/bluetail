@@ -1,1 +1,268 @@
-[{"statementID": "openownership-register-4681355752078933603", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "EBENI LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "05074255"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/05074255", "uri": "https://opencorporates.com/companies/gb/05074255"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a08667e4ebf34022a911", "uri": "http://register.openownership.org/entities/59b9a08667e4ebf34022a911"}], "foundingDate": "2004-03-16", "addresses": [{"type": "registered", "address": "Hartham Park, Corsham, Wiltshire, SN13 0RP", "country": "GB"}]}, {"statementID": "openownership-register-7118406110540948009", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4681355752078933603"}, "interestedParty": {"describedByPersonStatement": "openownership-register-10872724831684301528"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-15213226373010678301", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4681355752078933603"}, "interestedParty": {"describedByPersonStatement": "openownership-register-1202066062550920661"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-195698067330936892", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-4681355752078933603"}, "interestedParty": {"describedByPersonStatement": "openownership-register-10870118883823868684"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-25-to-50-percent", "share": {"minimum": 25, "maximum": 50, "exclusiveMinimum": true, "exclusiveMaximum": false}, "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-10872724831684301528", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Jason Edward Denness"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/05074255/persons-with-significant-control/individual/8-cSb4dnPiPbaAey22mfCQCZqLw"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a08667e4ebf34022a920", "uri": "http://register.openownership.org/entities/59b9a08667e4ebf34022a920"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1971-06-01", "addresses": [{"address": "Hartham Park, Corsham, Wiltshire, SN13 0RP"}]}, {"statementID": "openownership-register-1202066062550920661", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Joanne Latham"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/05074255/persons-with-significant-control/individual/QB25QPImZGBsZ3TVVIfLYYx_p8s"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a08667e4ebf34022a929", "uri": "http://register.openownership.org/entities/59b9a08667e4ebf34022a929"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1975-10-01", "addresses": [{"address": "Hartham Park, Corsham, Wiltshire, SN13 0RP"}]}, {"statementID": "openownership-register-10870118883823868684", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Alan James Simpson"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/05074255/persons-with-significant-control/individual/jyS1sLPMloVE-eGklhkcml-GNPs"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b9a08667e4ebf34022a932", "uri": "http://register.openownership.org/entities/59b9a08667e4ebf34022a932"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1966-06-01", "addresses": [{"address": "Hartham Park, Corsham, Wiltshire, SN13 0RP"}]}]
+[
+    {
+        "statementID": "openownership-register-4681355752078933603",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "EBENI LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05074255"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05074255",
+                "uri": "https://opencorporates.com/companies/gb/05074255"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a08667e4ebf34022a911",
+                "uri": "http://register.openownership.org/entities/59b9a08667e4ebf34022a911"
+            }
+        ],
+        "foundingDate": "2004-03-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Hartham Park, Corsham, Wiltshire, SN13 0RP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7118406110540948009",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4681355752078933603"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10872724831684301528"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15213226373010678301",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4681355752078933603"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1202066062550920661"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-195698067330936892",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4681355752078933603"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10870118883823868684"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10872724831684301528",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Jason Edward Denness"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05074255/persons-with-significant-control/individual/8-cSb4dnPiPbaAey22mfCQCZqLw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a08667e4ebf34022a920",
+                "uri": "http://register.openownership.org/entities/59b9a08667e4ebf34022a920"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1971-06-01",
+        "addresses": [
+            {
+                "address": "Hartham Park, Corsham, Wiltshire, SN13 0RP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1202066062550920661",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Joanne Latham"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05074255/persons-with-significant-control/individual/QB25QPImZGBsZ3TVVIfLYYx_p8s"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a08667e4ebf34022a929",
+                "uri": "http://register.openownership.org/entities/59b9a08667e4ebf34022a929"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-10-01",
+        "addresses": [
+            {
+                "address": "Hartham Park, Corsham, Wiltshire, SN13 0RP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10870118883823868684",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Alan James Simpson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05074255/persons-with-significant-control/individual/jyS1sLPMloVE-eGklhkcml-GNPs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a08667e4ebf34022a932",
+                "uri": "http://register.openownership.org/entities/59b9a08667e4ebf34022a932"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-06-01",
+        "addresses": [
+            {
+                "address": "Hartham Park, Corsham, Wiltshire, SN13 0RP"
+            }
+        ]
+    }
+]

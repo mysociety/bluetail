@@ -1,1 +1,188 @@
-[{"statementID": "openownership-register-12919233566118944401", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "MATRIX SCM LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02227962"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02227962", "uri": "https://opencorporates.com/companies/gb/02227962"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96d5067e4ebf3404c1c9f", "uri": "http://register.openownership.org/entities/59b96d5067e4ebf3404c1c9f"}], "foundingDate": "1988-03-07", "addresses": [{"type": "registered", "address": "2nd Floor Partis House, Knowlhill, Milton Keynes, MK5 8HJ", "country": "GB"}]}, {"statementID": "openownership-register-10065787368924596462", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-12919233566118944401"}, "interestedParty": {"describedByEntityStatement": "openownership-register-17249552802191097592"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-06"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-16184503758098832573", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-20", "subject": {"describedByEntityStatement": "openownership-register-12919233566118944401"}, "interestedParty": {"describedByEntityStatement": "openownership-register-17249552802191097592"}, "interests": [{"type": "shareholding", "details": "ownership-of-shares-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-20"}, {"type": "voting-rights", "details": "voting-rights-75-to-100-percent", "share": {"minimum": 75, "maximum": 100, "exclusiveMinimum": false, "exclusiveMaximum": false}, "startDate": "2016-04-20"}, {"type": "appointment-of-board", "details": "right-to-appoint-and-remove-directors", "startDate": "2016-04-20"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-17249552802191097592", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "MATRIX SCM GROUP LTD", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "10071010"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "10071010"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "10071010"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "10071010"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/10071010", "uri": "https://opencorporates.com/companies/gb/10071010"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "10071010"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96d5167e4ebf3404c228a", "uri": "http://register.openownership.org/entities/59b96d5167e4ebf3404c228a"}], "foundingDate": "2016-03-18", "addresses": [{"type": "registered", "address": "2nd Floor Partis House, Knowlhill, Milton Keynes, MK5 8HJ", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-12919233566118944401",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MATRIX SCM LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02227962"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02227962",
+                "uri": "https://opencorporates.com/companies/gb/02227962"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96d5067e4ebf3404c1c9f",
+                "uri": "http://register.openownership.org/entities/59b96d5067e4ebf3404c1c9f"
+            }
+        ],
+        "foundingDate": "1988-03-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "2nd Floor Partis House, Knowlhill, Milton Keynes, MK5 8HJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10065787368924596462",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12919233566118944401"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17249552802191097592"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16184503758098832573",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-20",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12919233566118944401"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17249552802191097592"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-20"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-20"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-20"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17249552802191097592",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MATRIX SCM GROUP LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10071010"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10071010"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10071010"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10071010"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10071010",
+                "uri": "https://opencorporates.com/companies/gb/10071010"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10071010"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96d5167e4ebf3404c228a",
+                "uri": "http://register.openownership.org/entities/59b96d5167e4ebf3404c228a"
+            }
+        ],
+        "foundingDate": "2016-03-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "2nd Floor Partis House, Knowlhill, Milton Keynes, MK5 8HJ",
+                "country": "GB"
+            }
+        ]
+    }
+]

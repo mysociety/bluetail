@@ -1,1 +1,60 @@
-[{"statementID": "openownership-register-8985132140041005903", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "THE HAMPTON TRUST (HAMPSHIRE & THE ISLE OF WIGHT)", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "03182827"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/03182827", "uri": "https://opencorporates.com/companies/gb/03182827"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59c507ae67e4ebf3406c3fc3", "uri": "http://register.openownership.org/entities/59c507ae67e4ebf3406c3fc3"}], "foundingDate": "1996-03-29", "addresses": [{"type": "registered", "address": "The Chubut Suite Ashurst Lodge, Ashurst, Southampton, Hampshire, SO40 7AA", "country": "GB"}]}, {"statementID": "openownership-register-2134820078371707448", "statementType": "ownershipOrControlStatement", "statementDate": "2017-03-29", "subject": {"describedByEntityStatement": "openownership-register-8985132140041005903"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-8985132140041005903",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THE HAMPTON TRUST (HAMPSHIRE & THE ISLE OF WIGHT)",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03182827"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03182827",
+                "uri": "https://opencorporates.com/companies/gb/03182827"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c507ae67e4ebf3406c3fc3",
+                "uri": "http://register.openownership.org/entities/59c507ae67e4ebf3406c3fc3"
+            }
+        ],
+        "foundingDate": "1996-03-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Chubut Suite Ashurst Lodge, Ashurst, Southampton, Hampshire, SO40 7AA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2134820078371707448",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-03-29",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8985132140041005903"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

@@ -1,1 +1,60 @@
-[{"statementID": "openownership-register-8881783635191456703", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "EAST LONDON ADVANCED TECHNOLOGY TRAINING", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "01812908"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/01812908", "uri": "https://opencorporates.com/companies/gb/01812908"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59c4fcd667e4ebf340552528", "uri": "http://register.openownership.org/entities/59c4fcd667e4ebf340552528"}], "foundingDate": "1984-05-01", "addresses": [{"type": "registered", "address": "260-264 Kingsland Road, London, E8 4DG", "country": "GB"}]}, {"statementID": "openownership-register-8830280272934176460", "statementType": "ownershipOrControlStatement", "statementDate": "2016-12-17", "subject": {"describedByEntityStatement": "openownership-register-8881783635191456703"}, "interestedParty": {"unspecified": {"reason": "no-beneficial-owners", "description": "No person"}}, "interests": [], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}]
+[
+    {
+        "statementID": "openownership-register-8881783635191456703",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "EAST LONDON ADVANCED TECHNOLOGY TRAINING",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01812908"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01812908",
+                "uri": "https://opencorporates.com/companies/gb/01812908"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4fcd667e4ebf340552528",
+                "uri": "http://register.openownership.org/entities/59c4fcd667e4ebf340552528"
+            }
+        ],
+        "foundingDate": "1984-05-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "260-264 Kingsland Road, London, E8 4DG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8830280272934176460",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-12-17",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8881783635191456703"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

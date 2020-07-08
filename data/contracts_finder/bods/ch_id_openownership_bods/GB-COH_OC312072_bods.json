@@ -1,1 +1,108 @@
-[{"statementID": "openownership-register-9220721173195754129", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "MONTAGU EVANS LLP", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC312072"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "OC312072"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/OC312072", "uri": "https://opencorporates.com/companies/gb/OC312072"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "Oc312072"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b967e367e4ebf340302398", "uri": "http://register.openownership.org/entities/59b967e367e4ebf340302398"}], "foundingDate": "2005-03-11", "addresses": [{"type": "registered", "address": "5 Bolton Street, London, W1J 8BA", "country": "GB"}]}, {"statementID": "openownership-register-9236401626114207773", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-9220721173195754129"}, "interestedParty": {"describedByPersonStatement": "openownership-register-10793348860452187452"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control-limited-liability-partnership", "startDate": "2016-04-06", "endDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2019-07-08T10:37:11Z"}}, {"statementID": "openownership-register-10793348860452187452", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Robert Vern Bower"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/OC312072/persons-with-significant-control/individual/tqEwuZ6JQVaMRhbWfNUBKbNLCDw"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b996b467e4ebf340ff37f2", "uri": "http://register.openownership.org/entities/59b996b467e4ebf340ff37f2"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1968-07-01", "addresses": [{"address": "5, Bolton Street, London, W1J 8BA"}]}]
+[
+    {
+        "statementID": "openownership-register-9220721173195754129",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MONTAGU EVANS LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC312072"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC312072"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC312072",
+                "uri": "https://opencorporates.com/companies/gb/OC312072"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc312072"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b967e367e4ebf340302398",
+                "uri": "http://register.openownership.org/entities/59b967e367e4ebf340302398"
+            }
+        ],
+        "foundingDate": "2005-03-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "5 Bolton Street, London, W1J 8BA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9236401626114207773",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9220721173195754129"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10793348860452187452"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-limited-liability-partnership",
+                "startDate": "2016-04-06",
+                "endDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10793348860452187452",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Robert Vern Bower"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC312072/persons-with-significant-control/individual/tqEwuZ6JQVaMRhbWfNUBKbNLCDw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b996b467e4ebf340ff37f2",
+                "uri": "http://register.openownership.org/entities/59b996b467e4ebf340ff37f2"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-07-01",
+        "addresses": [
+            {
+                "address": "5, Bolton Street, London, W1J 8BA"
+            }
+        ]
+    }
+]

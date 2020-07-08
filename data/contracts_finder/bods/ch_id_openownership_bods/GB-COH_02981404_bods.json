@@ -1,1 +1,107 @@
-[{"statementID": "openownership-register-1482073563839415095", "statementType": "entityStatement", "entityType": "registeredEntity", "name": "PRECIOUS HOMES LIMITED", "incorporatedInJurisdiction": {"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}, "identifiers": [{"scheme": "GB-COH", "schemeName": "Companies House", "id": "02981404"}, {"scheme": "GB-COH", "schemeName": "Companies House", "id": "02981404"}, {"schemeName": "OpenCorporates", "id": "https://opencorporates.com/companies/gb/02981404", "uri": "https://opencorporates.com/companies/gb/02981404"}, {"scheme": "GB-COH", "schemeName": "Companies House"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96b5b67e4ebf340425d91", "uri": "http://register.openownership.org/entities/59b96b5b67e4ebf340425d91"}], "foundingDate": "1994-10-20", "addresses": [{"type": "registered", "address": "Magic House, 5-11 Green Lanes, Palmers Green, London, N13 4TN", "country": "GB"}]}, {"statementID": "openownership-register-17346033271871298324", "statementType": "ownershipOrControlStatement", "statementDate": "2016-04-06", "subject": {"describedByEntityStatement": "openownership-register-1482073563839415095"}, "interestedParty": {"describedByPersonStatement": "openownership-register-9811749988520686478"}, "interests": [{"type": "influence-or-control", "details": "significant-influence-or-control", "startDate": "2016-04-06"}], "source": {"type": ["officialRegister"], "description": "GB Persons Of Significant Control Register", "url": "http://download.companieshouse.gov.uk/en_pscdata.html", "retrievedAt": "2020-05-26T09:05:26Z"}}, {"statementID": "openownership-register-9811749988520686478", "statementType": "personStatement", "personType": "knownPerson", "names": [{"type": "individual", "fullName": "Mitesh Dhanak"}], "identifiers": [{"schemeName": "GB Persons Of Significant Control Register", "id": "/company/02981404/persons-with-significant-control/individual/Ekwgt619ebIiL-aC7xLgBd_7Uno"}, {"schemeName": "OpenOwnership Register", "id": "http://register.openownership.org/entities/59b96c1567e4ebf34045f802", "uri": "http://register.openownership.org/entities/59b96c1567e4ebf34045f802"}], "nationalities": [{"name": "United Kingdom of Great Britain and Northern Ireland", "code": "GB"}], "birthDate": "1968-04-01", "addresses": [{"address": "Magic House, 5-11 Green Lanes, Palmers Green, London, N13 4TN", "country": "GB"}]}]
+[
+    {
+        "statementID": "openownership-register-1482073563839415095",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PRECIOUS HOMES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02981404"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02981404"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02981404",
+                "uri": "https://opencorporates.com/companies/gb/02981404"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96b5b67e4ebf340425d91",
+                "uri": "http://register.openownership.org/entities/59b96b5b67e4ebf340425d91"
+            }
+        ],
+        "foundingDate": "1994-10-20",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Magic House, 5-11 Green Lanes, Palmers Green, London, N13 4TN",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17346033271871298324",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1482073563839415095"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9811749988520686478"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-05-26T09:05:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9811749988520686478",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mitesh Dhanak"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02981404/persons-with-significant-control/individual/Ekwgt619ebIiL-aC7xLgBd_7Uno"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96c1567e4ebf34045f802",
+                "uri": "http://register.openownership.org/entities/59b96c1567e4ebf34045f802"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-04-01",
+        "addresses": [
+            {
+                "address": "Magic House, 5-11 Green Lanes, Palmers Green, London, N13 4TN",
+                "country": "GB"
+            }
+        ]
+    }
+]
