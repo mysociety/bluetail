@@ -34,3 +34,4 @@ _env3/
 conf/config.py
 .env*
 !.env-template.env
+.idea
