@@ -3,6 +3,7 @@ import logging
 import os
 from copy import deepcopy
 
+from django.core.files.base import ContentFile
 from django.db.models import Q
 from cove.input.models import SuppliedData
 from ocdskit.combine import merge
@@ -231,12 +232,20 @@ class UpsertDataHelpers:
         """
         if os.path.exists(ocds_json_path_or_string):
             ocds_json = json.load(open(ocds_json_path_or_string))
+            filename = os.path.split(ocds_json_path_or_string)[1]
         else:
             ocds_json = json.loads(ocds_json_path_or_string)
+            filename = "package.json"
+
+        # Create SuppliedData entry
+        supplied_data = SuppliedData()
+        supplied_data.current_app = "bluetail"
+        supplied_data.original_file.save(filename, ContentFile(json.dumps(ocds_json)))
+        supplied_data.save()
 
         if ocds_json.get("records"):
             # We have a record package
-            self.upload_record_package(ocds_json)
+            self.upload_record_package(ocds_json, supplied_data=supplied_data)
 
         if ocds_json.get("releases"):
             # We have a release package
@@ -244,7 +253,7 @@ class UpsertDataHelpers:
             rp = merge([ocds_json], published_date=ocds_json.get("publishedDate"), return_package=True)
             # Then upload the package
             for r in rp:
-                self.upload_record_package(r)
+                self.upload_record_package(r, supplied_data=supplied_data)
 
     def upsert_bods_data(self, bods_json_path_or_string):
         """
