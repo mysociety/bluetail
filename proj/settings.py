@@ -103,6 +103,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     'pipeline',
+
+    # "cove",
+    "cove.input",
+    # "cove_ocds",
+
     'bluetail',
     'django_pgviews',
 ]
