@@ -1,12 +1,77 @@
 from django.contrib.postgres.fields import JSONField
 from django.db import models
-
 from django_pgviews import view as pgviews
+from cove.input.models import SuppliedData
 
 from .bluetail_models import Flag
 
 
-class OCDSReleaseJSON(models.Model):
+class OCDSPackageDataJSON(models.Model):
+    """
+    Model to store OCDS JSON package data.
+    """
+    package_data = JSONField(null=True)
+    supplied_data = models.ForeignKey(SuppliedData, on_delete=None, null=True)
+
+    class Meta:
+        app_label = 'bluetail'
+        db_table = 'bluetail_ocds_package_data_json'
+
+
+class OCDSPackageData(pgviews.View):
+    """
+    Model to store OCDS JSON package data.
+    """
+    package_data = JSONField()
+    supplied_data = models.ForeignKey(SuppliedData, on_delete=None)
+    uri = models.TextField()
+    publishedDate = models.DateTimeField()
+    publisher = JSONField()
+    publisher_uid = models.TextField()
+    publisher_uri = models.TextField()
+    publisher_name = models.TextField()
+    publisher_scheme = models.TextField()
+    extensions = JSONField()
+
+    sql = """
+        SELECT
+            package.id,
+            package.supplied_data_id,
+            package.package_data ->> 'uri' as uri,
+            package.package_data ->> 'license' as license,
+            package.package_data ->> 'version' as version,
+            package.package_data ->> 'publishedDate' as publishedDate,
+            package.package_data ->> 'publicationPolicy' as publicationPolicy,            
+            package.package_data -> 'packages' as packages,
+            package.package_data -> 'publisher' as publisher,
+            package.package_data -> 'publisher' ->> 'uid' as publisher_uid,
+            package.package_data -> 'publisher' ->> 'uri' as publisher_uri,
+            package.package_data -> 'publisher' ->> 'name' as publisher_name,
+            package.package_data -> 'publisher' ->> 'scheme' as publisher_scheme,
+            package.package_data -> 'extensions' as extensions
+        FROM bluetail_ocds_package_data_json package
+        """
+
+    class Meta:
+        app_label = 'bluetail'
+        db_table = 'bluetail_ocds_package_data_view'
+        managed = False
+
+
+class OCDSRecordJSON(models.Model):
+    """
+    Model to store OCDS JSON records.
+    """
+    ocid = models.TextField(primary_key=True)
+    record_json = JSONField()
+    package_data = models.ForeignKey(OCDSPackageDataJSON, on_delete=None, null=True)
+
+    class Meta:
+        app_label = 'bluetail'
+        db_table = 'bluetail_ocds_record_json'
+
+
+class OCDSReleaseJSON(pgviews.View):
     """
     Model to store OCDS JSON releases.
     OCID must be unique so multiple releases for a single OCID should be compiled before insertion.
@@ -14,10 +79,21 @@ class OCDSReleaseJSON(models.Model):
     ocid = models.TextField(primary_key=True)
     release_id = models.TextField()
     release_json = JSONField()
+    package_data = models.ForeignKey(OCDSPackageDataJSON, on_delete=None, null=True)
+
+    sql = """
+        SELECT
+            ocds.ocid,
+            ocds.record_json -> 'compiledRelease' ->> 'id' as release_id,
+            ocds.record_json -> 'compiledRelease' as release_json,
+            ocds.package_data_id
+        FROM bluetail_ocds_record_json ocds
+        """
 
     class Meta:
         app_label = 'bluetail'
         db_table = 'bluetail_ocds_release_json'
+        managed = False
 
 
 class OCDSTender(pgviews.View):
@@ -31,6 +107,7 @@ class OCDSTender(pgviews.View):
     ocid = models.TextField(primary_key=True)
     release_id = models.TextField()
     release_json = JSONField()
+    package_data_id = models.TextField()
     title = models.TextField()
     description = models.TextField()
     value = models.FloatField()
@@ -46,6 +123,8 @@ class OCDSTender(pgviews.View):
             ocds.ocid,
             ocds.release_id,
             ocds.release_json,
+            ocds.package_data_id,
+            ocds.release_json -> 'tag' as release_tag,
             ocds.release_json ->> 'language' AS language,
             ocds.release_json -> 'tender' ->> 'title' AS title,
             ocds.release_json -> 'tender' ->> 'description' AS description,

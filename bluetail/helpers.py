@@ -1,11 +1,14 @@
 import json
 import logging
 import os
+from copy import deepcopy
 
 from django.db.models import Q
+from cove.input.models import SuppliedData
+from ocdskit.combine import merge
 
 from bluetail import models
-from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON
+from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON, OCDSPackageDataJSON, OCDSRecordJSON
 
 logger = logging.getLogger('django')
 
@@ -193,39 +196,55 @@ class ContextHelperFunctions():
 
 
 class UpsertDataHelpers:
+    def upload_record_package(self, package_json, supplied_data=None):
+        """
+        Upload a record package
+            creates a SuppliedData object if not given
+            creates a OCDSPackageDataJSON object
+        """
+        if not supplied_data:
+            supplied_data = SuppliedData()
+            supplied_data.current_app = "bluetail"
+            supplied_data.save()
+        package_data = deepcopy(package_json)
+        records = package_data.pop("records")
+        package, created = OCDSPackageDataJSON.objects.update_or_create(
+            supplied_data=supplied_data,
+            package_data=package_data
+        )
+
+        for record in records:
+            ocid = record.get("ocid")
+            record_json, created = OCDSRecordJSON.objects.update_or_create(
+                ocid=ocid,
+                defaults={
+                    "record_json": record,
+                    "package_data": package,
+
+                }
+            )
 
     def upsert_ocds_data(self, ocds_json_path_or_string):
         """
-        Takes a path to an OCDS Package or a stringn containing OCDS JSON data
-        Upserts all releases to the Bluetail database
+        Takes a path to an OCDS Package or a string containing OCDS JSON data
+        Upserts all data to the Bluetail database
         """
         if os.path.exists(ocds_json_path_or_string):
             ocds_json = json.load(open(ocds_json_path_or_string))
         else:
             ocds_json = json.loads(ocds_json_path_or_string)
 
-        ocds_releases = []
-
         if ocds_json.get("records"):
             # We have a record package
-            for record in ocds_json["records"]:
-                compiledRelease = record["compiledRelease"]
-                ocds_releases.append(compiledRelease)
+            self.upload_record_package(ocds_json)
 
         if ocds_json.get("releases"):
             # We have a release package
-            for release in ocds_json["releases"]:
-                ocds_releases.append(release)
-
-        for release_json in ocds_releases:
-            OCDSReleaseJSON.objects.update_or_create(
-                ocid=release_json.get("ocid"),
-                defaults={
-                    "release_id": release_json.get("id"),
-                    "release_json": release_json,
-                }
-
-            )
+            # First we use OCDSkit merge to create a record package
+            rp = merge([ocds_json], published_date=ocds_json.get("publishedDate"), return_package=True)
+            # Then upload the package
+            for r in rp:
+                self.upload_record_package(r)
 
     def upsert_bods_data(self, bods_json_path_or_string):
         """
@@ -241,7 +260,7 @@ class UpsertDataHelpers:
         for statement in bods_json:
             statement_id = statement.get("statementID")
             statement_type = statement.get("statementType")
-            logger.info("Inserting statement: %s %s", statement_id, statement_type)
+            logger.debug("Inserting statement: %s %s", statement_id, statement_type)
 
             models.BODSStatementJSON.objects.update_or_create(
                 statement_id=statement_id,

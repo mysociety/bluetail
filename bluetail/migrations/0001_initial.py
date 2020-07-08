@@ -129,6 +129,7 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'bluetail_ocds_release_json',
+                'managed': False,
             },
         ),
         migrations.CreateModel(
