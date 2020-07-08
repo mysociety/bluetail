@@ -52,7 +52,7 @@ class Command(BaseCommand):
                 for entity in entities_with_multiple_parties:
                     self.stdout.write("{}: {} is a beneficial owner of {}\n".format(
                         tender.ocid, entity.entity_name, [t.party_name for t in entities_to_tenderers[entity]]))
-                    for identifier in person.identifiers_json:
+                    for identifier in entity.identifiers_json:
                         self.create_flag_attachment(tender.ocid, identifier, company_in_multiple_applications_to_tender)
 
     def create_flag_attachment(self, ocid, identifier, flag):
