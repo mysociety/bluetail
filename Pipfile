@@ -36,8 +36,8 @@ libcoveweb = {ref = "v0.14.0", git = "https://github.com/OpenDataServices/lib-co
 ocdskit = "*"
 pandas = "*"
 elasticsearch = "<8"
-elasticsearch_dsl = "*"
-smart_open = "*"
+elasticsearch-dsl = "*"
+smart-open = "*"
 
 [dev-packages]
 
