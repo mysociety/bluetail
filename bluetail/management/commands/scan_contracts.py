@@ -1,9 +1,12 @@
+import logging
 from collections import defaultdict
 
 from django.core.management import BaseCommand
 
 from bluetail.helpers import BodsHelperFunctions
 from bluetail.models import Flag, FlagAttachment, OCDSParty, OCDSTender
+
+logger = logging.getLogger('django')
 
 bods_helper = BodsHelperFunctions()
 
@@ -43,14 +46,14 @@ class Command(BaseCommand):
 
             if len(people_with_multiple_parties) > 0:
                 for person in people_with_multiple_parties:
-                    self.stdout.write("{}: {} is a beneficial owner of {}\n".format(
+                    logger.info("{}: {} is a beneficial owner of {}".format(
                         tender.ocid, person.fullName, [t.party_name for t in people_to_tenderers[person]]))
                     for identifier in person.identifiers_json:
                         self.create_flag_attachment(tender.ocid, identifier, person_in_multiple_applications_to_tender)
 
             if len(entities_with_multiple_parties) > 0:
                 for entity in entities_with_multiple_parties:
-                    self.stdout.write("{}: {} is a beneficial owner of {}\n".format(
+                    logger.info("{}: {} is a beneficial owner of {}".format(
                         tender.ocid, entity.entity_name, [t.party_name for t in entities_to_tenderers[entity]]))
                     for identifier in entity.identifiers_json:
                         self.create_flag_attachment(tender.ocid, identifier, company_in_multiple_applications_to_tender)
@@ -64,8 +67,6 @@ class Command(BaseCommand):
             flag_name=flag
         )
         if created:
-            self.stdout.write(
-                "successfully created flag for {}\n".format(identifier))
+            logger.info("successfully created flag for {}".format(identifier))
         else:
-            self.stdout.write(
-                "found existing flag for {}\n".format(identifier))
+            logger.info("found existing flag for {}".format(identifier))
