@@ -216,6 +216,11 @@ There are Django management commands included for looking up BODS data from the 
         script/manage get_bods_statements_from_ocds
     
 
+### Scanning contracts for potential problems
+
+There is a management command, `scan_contracts`, which looks through all
+contracts and flags up any suspicious activity. In production this command
+should be run on a regular basis to check for any new problems.
 
 ### Deployment to Heroku 
 
