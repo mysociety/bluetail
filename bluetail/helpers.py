@@ -66,24 +66,23 @@ class FlagHelperFunctions():
             )
         return flags
 
-
-    def get_flags_for_bods_entity_or_person(self, object):
+    def get_flags_for_bods_entity_or_person(self, object, ocid=None):
         flags = []
         for identifier in object.identifiers_json:
-            id_flags = self.get_flags_for_bods_identifier(identifier)
+            id_flags = self.get_flags_for_bods_identifier(identifier, ocid=ocid)
             flags.extend(id_flags)
-        return flags
+        return list(set(flags))
 
     def get_flags_for_ocds_party(self, object):
         flags = []
 
         primary_identifier = object.party_json.get("identifier")
-        flags.extend(self.get_flags_for_ocds_party_identifier(primary_identifier))
+        flags.extend(self.get_flags_for_ocds_party_identifier(primary_identifier, ocid=object.ocid))
 
         for identifier in object.party_json.get("additionalIdentifiers", []):
-            id_flags = self.get_flags_for_ocds_party_identifier(identifier)
+            id_flags = self.get_flags_for_ocds_party_identifier(identifier, ocid=object.ocid)
             flags.extend(id_flags)
-        return flags
+        return list(set(flags))
 
     def build_flags_context(self, flags):
         company_id_flags = [flag for flag in flags if flag.flag_field == "company_id"]
@@ -168,7 +167,7 @@ class ContextHelperFunctions():
 
         interested_parties = bods_helper.get_related_bods_data_for_tenderer(tenderer)
         for person in interested_parties["interested_persons"]:
-            person_flags = flags_helper.get_flags_for_bods_entity_or_person(person)
+            person_flags = flags_helper.get_flags_for_bods_entity_or_person(person, ocid=tenderer.ocid)
             if person_flags:
                 for flag in person_flags:
                     if flag.flag_type == "warning":
@@ -176,7 +175,7 @@ class ContextHelperFunctions():
                     elif flag.flag_type == "error":
                         errors.append(flag)
         for entity in interested_parties["interested_entities"]:
-            entity_flags = flags_helper.get_flags_for_bods_entity_or_person(entity)
+            entity_flags = flags_helper.get_flags_for_bods_entity_or_person(entity, ocid=tenderer.ocid)
             if entity_flags:
                 for flag in entity_flags:
                     if flag.flag_type == "warning":
