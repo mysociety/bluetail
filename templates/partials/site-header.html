@@ -4,21 +4,23 @@
             {% include 'icons/shield.html' with classes="icon mr-1" %}
             Ministry of Efficiency
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'example-tenders' %}">
-                        Tenders in progress
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'ocds-list' %}?has_flags=true">
-                        Tenders with issues
-                    </a>
+                <li class="nav-item dropdown">
+                    <button class="nav-link btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tenders
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}">All</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-123abc-">Prototype</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-b5fd17suppliermatch-">Contracts Finder</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?has_flags=true">Flagged</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">

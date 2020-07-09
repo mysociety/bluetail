@@ -3,19 +3,19 @@
 {% block title %}Tenders{% endblock %}
 
 {% block content %}
-<div class="container-md">
+    <div class="container-md">
 
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb my-4">
-            <li class="breadcrumb-item active" aria-current="page">Tenders in progress</li>
-        </ol>
-    </nav>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb my-4">
+                <li class="breadcrumb-item active" aria-current="page">Tenders</li>
+            </ol>
+        </nav>
 
-    <h1 class="mt-4">Tenders in progress</h1>
-    {%  for object in object_list %}
-        {% include "partials/ocds-card.html" with view="ocds-detail" ocid=object.ocid title=object.title publisher=object.buyer end=object.tender_enddate tenderers=object.release_json.tender.tenderers errors=object.total_errors warnings=object.total_warnings %}
+        <h1 class="mt-4">Tenders</h1>
+        {% for object in object_list %}
+            {% include "partials/ocds-card.html" with view="ocds-detail" ocid=object.ocid title=object.title publisher=object.buyer end=object.tender_enddate tenderers=object.release_json.tender.tenderers errors=object.total_errors warnings=object.total_warnings %}
 
-    {% endfor %}
+        {% endfor %}
 
-</div>
+    </div>
 {% endblock %}
