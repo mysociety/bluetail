@@ -29,13 +29,15 @@ whitenoise = "==5.0.1"
 dj-database-url = "==0.5.0"
 # Bluetail
 django-pgviews-redux = "==0.6.0"
+# Silvereye
+libcoveweb = {ref = "v0.14.0", git = "https://github.com/OpenDataServices/lib-cove-web.git", editable = true}
 
 # Used for scripts to gather and process Contracts Finder and BODS data
 ocdskit = "*"
 pandas = "*"
 elasticsearch = "<8"
-elasticsearch_dsl = "*"
-smart_open = "*"
+elasticsearch-dsl = "*"
+smart-open = "*"
 
 [dev-packages]
 

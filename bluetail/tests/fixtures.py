@@ -15,15 +15,17 @@ def insert_flags():
     with open(example_flags_path) as f:
         reader = csv.DictReader(f)
         for row in reader:
-            models.Flag.objects.update_or_create(defaults=row, **row)
-            # models.Flag.objects.update_or_create(
-            #     flag_name=row["flag_name"],
-            #     defaults={
-            #         "flag_name": row["flag_name"],
-            #         "flag_type": row["flag_type"],
-            #         "flag_text": row["flag_text"],
-            #     }
-            # )
+            # More concise, Less explicit..
+            # models.Flag.objects.update_or_create(defaults=row, **row)
+            models.Flag.objects.update_or_create(
+                flag_name=row["flag_name"],
+                defaults={
+                    "flag_name": row["flag_name"],
+                    "flag_type": row["flag_type"],
+                    "flag_text": row["flag_text"],
+                    "flag_field": row["flag_field"],
+                }
+            )
 
 def insert_flag_attachments():
     # Insert assigned Flags

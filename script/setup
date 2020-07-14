@@ -19,7 +19,8 @@ psql -d $DATABASE_URL -c "CREATE SCHEMA public"
 script/migrate
 
 # Insert example data.
-script/manage insert_example_data
+script/manage insert_prototype_data
+script/manage insert_contracts_finder_data
 script/manage scan_contracts
 
 # Create superuser.
