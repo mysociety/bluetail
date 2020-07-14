@@ -23,6 +23,7 @@ def insert_flags():
                     "flag_name": row["flag_name"],
                     "flag_type": row["flag_type"],
                     "flag_text": row["flag_text"],
+                    "flag_field": row["flag_field"],
                 }
             )
 
