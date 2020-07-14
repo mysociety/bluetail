@@ -32,3 +32,4 @@ pandas==1.0.5
 elasticsearch==7.8.0
 elasticsearch-dsl==7.2.1
 smart-open==2.1.0
+django-storages==1.9.1
