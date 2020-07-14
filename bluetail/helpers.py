@@ -207,6 +207,7 @@ class UpsertDataHelpers:
             supplied_data = SuppliedData()
             supplied_data.current_app = "bluetail"
             supplied_data.save()
+
         package_data = deepcopy(package_json)
         records = package_data.pop("records")
         package, created = OCDSPackageDataJSON.objects.update_or_create(
@@ -225,7 +226,7 @@ class UpsertDataHelpers:
                 }
             )
 
-    def upsert_ocds_data(self, ocds_json_path_or_string):
+    def upsert_ocds_data(self, ocds_json_path_or_string, supplied_data=None):
         """
         Takes a path to an OCDS Package or a string containing OCDS JSON data
         Upserts all data to the Bluetail database
@@ -237,11 +238,12 @@ class UpsertDataHelpers:
             ocds_json = json.loads(ocds_json_path_or_string)
             filename = "package.json"
 
-        # Create SuppliedData entry
-        supplied_data = SuppliedData()
-        supplied_data.current_app = "bluetail"
-        supplied_data.original_file.save(filename, ContentFile(json.dumps(ocds_json)))
-        supplied_data.save()
+        if not supplied_data:
+            # Create SuppliedData entry
+            supplied_data = SuppliedData()
+            supplied_data.current_app = "bluetail"
+            supplied_data.original_file.save(filename, ContentFile(json.dumps(ocds_json)))
+            supplied_data.save()
 
         if ocds_json.get("records"):
             # We have a record package
