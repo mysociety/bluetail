@@ -11,4 +11,4 @@ class UploadResults(TemplateView):
         return context
 
 def publisher(request):
-    return render(request, "publisher.html", {})
+    return render(request, "silvereye/publisher.html", {})
