@@ -6,4 +6,5 @@ import silvereye.views as views
 
 urlpatterns = [
     path('', views.UploadResults.as_view(), name='publisher-hub'),
+    path('publisher/', views.publisher, name='publisher'),
 ]
