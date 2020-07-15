@@ -226,7 +226,7 @@ class UpsertDataHelpers:
                 }
             )
 
-    def upsert_ocds_data(self, ocds_json_path_or_string, supplied_data=None):
+    def upsert_ocds_data(self, ocds_json_path_or_string, supplied_data=None, process_json=None):
         """
         Takes a path to an OCDS Package or a string containing OCDS JSON data
         Upserts all data to the Bluetail database
@@ -237,6 +237,9 @@ class UpsertDataHelpers:
         else:
             ocds_json = json.loads(ocds_json_path_or_string)
             filename = "package.json"
+
+        if process_json:
+            ocds_json = process_json(ocds_json)
 
         if not supplied_data:
             # Create SuppliedData entry
@@ -257,7 +260,7 @@ class UpsertDataHelpers:
             for r in rp:
                 self.upload_record_package(r, supplied_data=supplied_data)
 
-    def upsert_bods_data(self, bods_json_path_or_string):
+    def upsert_bods_data(self, bods_json_path_or_string, process_json=None):
         """
         Takes a path to an BODS JSON or a string containing BODS JSON statement array
         Upserts all statements to the Bluetail database
@@ -267,6 +270,9 @@ class UpsertDataHelpers:
             bods_json = json.load(open(bods_json_path_or_string))
         else:
             bods_json = json.loads(bods_json_path_or_string)
+
+        if process_json:
+            bods_json = process_json(bods_json)
 
         for statement in bods_json:
             statement_id = statement.get("statementID")
