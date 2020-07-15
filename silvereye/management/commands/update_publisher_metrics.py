@@ -23,10 +23,7 @@ class Command(BaseCommand):
         with connections['default'].cursor() as cursor:
             for sql_file in sql_files:
                 if sql_file.endswith(".sql"):
-                    try:
-                        file_path = os.path.join(METRICS_SQL_DIR, sql_file)
-                        sql = open(file_path).read()
-                        logger.info(f"Executing metric sql from file {file_path}")
-                        cursor.execute(sql)
-                    except:
-                        logger.error(f"Error with sql_file {sql_file}")
+                    file_path = os.path.join(METRICS_SQL_DIR, sql_file)
+                    sql = open(file_path).read()
+                    logger.info(f"Executing metric sql from file {file_path}")
+                    cursor.execute(sql)
