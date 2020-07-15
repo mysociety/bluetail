@@ -1,4 +1,5 @@
 from django.views.generic import TemplateView
+from django.shortcuts import render
 
 
 class UploadResults(TemplateView):
@@ -8,3 +9,6 @@ class UploadResults(TemplateView):
         context = super().get_context_data(**kwargs)
         context['test'] = "Hello, world"
         return context
+
+def publisher(request):
+    return render(request, "silvereye/publisher.html", {})
