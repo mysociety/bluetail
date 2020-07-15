@@ -1,5 +1,5 @@
 """
-Command to create an elasticsearch index from the Open Ownership register
+Command to create an generate publisher metrics
 """
 import logging
 import os
@@ -16,10 +16,9 @@ METRICS_SQL_DIR = os.path.join(SILVEREYE_DIR, "metrics", "sql")
 
 
 class Command(BaseCommand):
-    help = "Create an Elasticsearch index from the Open Ownership register bulk download for Bluetail to lookup BODS data"
+    help = "Generates publisher metrics for tenders"
 
     def handle(self, *args, **kwargs):
-        logger.info("Creating Elasticsearch index of Open Ownership register: %s",)
         sql_files = os.listdir(METRICS_SQL_DIR)
         with connections['default'].cursor() as cursor:
             for sql_file in sql_files:
