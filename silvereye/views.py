@@ -2,6 +2,9 @@ from django.views.generic import TemplateView
 from django.shortcuts import render
 
 
+from silvereye.models import PublisherMetrics
+
+
 class UploadResults(TemplateView):
     template_name = "silvereye/upload_results.html"
 
@@ -10,5 +13,7 @@ class UploadResults(TemplateView):
         context['test'] = "Hello, world"
         return context
 
-def publisher(request):
-    return render(request, "silvereye/publisher.html", {})
+def publisher(request, publisher_id='test'):
+    context = {}
+    context['metrics'] = PublisherMetrics.objects.get(publisher_id=publisher_id)
+    return render(request, "silvereye/publisher.html", context)
