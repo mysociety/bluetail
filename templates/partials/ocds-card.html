@@ -7,7 +7,7 @@
         </div>
       {% endif %}
         <h2 class="h3 card-title">
-            <a {% if view %}href="{% url view ocid %}"{% else %}href="#" class="fake-link"{% endif %}>
+            <a {% if view %}href="{% url view ocid %}?{{ request.GET.urlencode }}"{% else %}href="#" class="fake-link"{% endif %}>
                 {{ title }}
             </a>
         </h2>

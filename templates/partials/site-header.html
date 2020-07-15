@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
     <div class="container-md">
-        <a class="navbar-brand" href="{% url 'example-tenders' %}">
+        <a class="navbar-brand" href="{% url 'ocds-list' %}">
             {% include 'icons/shield.html' with classes="icon mr-1" %}
             Ministry of Efficiency
         </a>
@@ -18,7 +18,9 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="{% url 'ocds-list' %}">All</a>
                         <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-123abc-">Prototype</a>
-                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-b5fd17suppliermatch-">Contracts Finder</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-b5fd17raw-">Contracts Finder unlinked</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-b5fd17suppliermatch-">Contracts Finder with linked suppliers</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-b5fd17bodsmatch-">Contracts Finder with beneficial owners</a>
                         <a class="dropdown-item" href="{% url 'ocds-list' %}?has_flags=true">Flagged</a>
                     </div>
                 </li>

@@ -1,5 +1,5 @@
 <div class="application-summary">
-    <a href="{% url 'ocds-tenderer' tenderer.ocid tenderer.party_id %}">
+    <a href="{% url 'ocds-tenderer' tenderer.ocid tenderer.party_id %}?{{ request.GET.urlencode }}">
         {{ name }}
     </a>
     {% if tenderer.object.party_identifier_scheme %}

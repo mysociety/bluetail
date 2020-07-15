@@ -7,7 +7,7 @@
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb my-4">
-            <li class="breadcrumb-item"><a href="{% url 'ocds-list' %}">Tenders</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'ocds-list' %}?{{ request.GET.urlencode }}">Tenders</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ object.title|truncatewords:3 }}</li>
         </ol>
     </nav>
