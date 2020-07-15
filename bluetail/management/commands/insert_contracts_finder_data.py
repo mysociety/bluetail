@@ -29,6 +29,12 @@ def anonymise_bods_json_data(bods_json):
             if 'addresses' in statement:
                 for address in statement['addresses']:
                     address['address'] = fake.address()
+        if statement['statementType'] == 'entityStatement':
+            if 'name' in statement:
+                statement['name'] = fake.company()
+            if 'addresses' in statement:
+                for address in statement['addresses']:
+                    address['address'] = fake.address()
     return bods_json
 
 
