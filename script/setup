@@ -20,7 +20,7 @@ script/migrate
 
 # Insert example data.
 script/manage insert_prototype_data
-script/manage insert_contracts_finder_data
+script/manage insert_contracts_finder_data --anonymise
 script/manage scan_contracts
 
 # Create superuser.
