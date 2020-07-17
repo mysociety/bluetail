@@ -84,7 +84,7 @@ script/server
 
 The site requires:
 
-* Python 3.5
+* Python 3.6
 * Django 2.2.8
 * A Postgres database
 
