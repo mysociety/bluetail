@@ -222,6 +222,35 @@ There is a management command, `scan_contracts`, which looks through all
 contracts and flags up any suspicious activity. In production this command
 should be run on a regular basis to check for any new problems.
 
+### External vs internal identifiers
+
+Currently people are only flagged based on identifiers. We have two distinct
+sets of identifiers. Internal identifiers come from the BODS data, we use these
+to attach flags to BODS entities. External identifiers are imported from other
+sources, e.g. a list of cabinet ministers.
+
+In certain circumstances, internal identifiers might match external identifiers,
+even if the scheme and the identifier aren't an exact match. For example these
+two identifiers are for the same company, but both the scheme and the identifier
+are different.
+
+| Source    | Scheme          | Identifier |
+| --------- | --------------- | ---------- |
+| BODS data | GB-COH          | 1234567    |
+| External  | Companies House | 01234567   |
+
+To solve this problem we have two models for storing identifiers. The
+`ExternalPerson` model stores external identifiers, along with the flag that
+the identifier applies to. These external identifiers can come from any external
+data source, as long as there's an appropriate flag to attach.
+
+A spreadsheet with a list of current cabinet ministers with identifiers for them
+could be imported into the `ExternalPerson` model with the
+`person_id_matches_cabinet_minister` flag. Then a separate process compares the
+identifiers of people and companies in contracts with `ExternalPerson` records.
+When it finds a match it creates a `FlagAttachment` record, which uses the
+internal identifier from the bods data to attach the flag.
+
 ### Deployment to Heroku 
 
 The Heroku-GitHub integration does not work with `git-submodules` 
