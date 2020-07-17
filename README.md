@@ -47,7 +47,7 @@ script/manage collectstatic --noinput --clear
 
 You’ll need:
 
-* Python 3.x
+* Python 3.6
 * A local Postgres server
 
 As above, make sure you’ve cloned the repo and checked out its submodules.
