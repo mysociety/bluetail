@@ -183,12 +183,13 @@ def tenderer_view(request):
     return render(request, "tenderer.html", context)
 
 
-class OCDSList(ListView):
-    template_name = "ocds-list.html"
+class OCDSTenderList(ListView):
+    template_name = "ocds-tender-list.html"
     context_object_name = 'tenders'
 
-    def get_queryset(self):
-        queryset = OCDSTender.objects.order_by('-ocid')
+    def get_queryset(self, **kwargs):
+        queryset = OCDSTender.objects.order_by('ocid')
+
         ocid_prefixes = self.request.GET.getlist('ocid_prefix')
         has_flags = self.request.GET.get('has_flags')
 
@@ -206,7 +207,7 @@ class OCDSList(ListView):
 
 class OCDSTenderDetailView(DetailView):
     model = OCDSTender
-    template_name = "ocds.html"
+    template_name = "ocds-tender.html"
     queryset = OCDSTender.objects.all()
 
     def get_context_data(self, **kwargs):
@@ -236,7 +237,7 @@ class OCDSTenderDetailView(DetailView):
 
 
 class OCDSTendererDetailView(TemplateView):
-    template_name = "ocds-tenderer.html"
+    template_name = "ocds-tender-tenderer.html"
 
     def get_context_data(self, ocid, tenderer_id, **kwargs):
         context = super().get_context_data(**kwargs)

@@ -7,8 +7,8 @@
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb my-4">
-            <li class="breadcrumb-item"><a href="{% url 'example-tenders' %}">Tenders in progress</a></li>
-            <li class="breadcrumb-item"><a href="{% url 'ocds-detail' tender.ocid %}">{{ tender.title|truncatewords:3 }}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'ocds-list' %}?{{ request.GET.urlencode }}">Tenders in progress</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'ocds-detail' tender.ocid %}?{{ request.GET.urlencode }}">{{ tender.title|truncatewords:3 }}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ tenderer.party_name }}</li>
         </ol>
     </nav>
