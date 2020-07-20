@@ -17,6 +17,7 @@ fake = Faker('en_GB')
 # Generate the same dataset on each run.
 # Note that the data might change if faker is updated.
 Faker.seed(1234)
+fake_buyer_dict = {}
 
 
 def anonymise_bods_json_data(bods_json):
@@ -48,7 +49,10 @@ def anonymise_ocds_json_data(ocds_json):
     for release in releases:
         # anonimise buyer
         orig_buyer = release["buyer"]["name"]
-        fake_buyer = f"{fake.city()} City Council"
+        fake_buyer = fake_buyer_dict.get(orig_buyer)
+        if not fake_buyer:
+            fake_buyer = f"{fake.city()} City Council"
+            fake_buyer_dict[orig_buyer] = fake_buyer
 
         release["buyer"]["name"] = fake_buyer
         for party in release["parties"]:
