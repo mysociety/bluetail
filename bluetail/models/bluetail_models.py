@@ -65,6 +65,19 @@ class ExternalPerson(models.Model):
     def __str__(self):
         return "%s (%s)" % (self.name, self.flag)
 
+    @classmethod
+    def match(cls, scheme, identifier):
+        """
+        Find person matches for a given scheme and identifier.
+
+        This method could potentially be expanded to search by other attributes
+        such as name or date of birth.
+        """
+        return cls.objects.filter(
+            scheme=scheme,
+            identifier=identifier
+        )
+
     class Meta:
         constraints = [
             models.UniqueConstraint(fields=['name', 'scheme', 'identifier', 'flag'], name='unique_person_flag')

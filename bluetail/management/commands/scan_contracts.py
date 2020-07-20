@@ -66,7 +66,7 @@ class Command(BaseCommand):
         people = BODSPersonStatement.objects.all()
         for person in people:
             for identifier in person.identifiers_json:
-                external_people = ExternalPerson.objects.filter(
+                external_people = ExternalPerson.match(
                     scheme=identifier['schemeName'],
                     identifier=identifier['id']
                 )
