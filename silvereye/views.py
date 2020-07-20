@@ -15,3 +15,6 @@ def publisher(request):
 
 def publisherHome(request):
     return render(request, "silvereye/publisher_hub_home.html", {})
+
+def publisherListing(request):
+    return render(request, "silvereye/publisher_listing.html", {})

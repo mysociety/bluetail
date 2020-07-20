@@ -1,0 +1,20 @@
+.listing-table {
+  table,thead,tbody,tr {
+    width:100%
+} 
+}
+
+.display-good {
+  font-weight: bold;
+  color: $success;
+}
+
+.display-acceptable {
+  font-weight: bold;
+  color: $warning;
+}
+
+.display-bad {
+  font-weight: bold;
+  color: $danger;
+}
