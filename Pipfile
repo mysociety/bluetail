@@ -39,6 +39,7 @@ elasticsearch = "<8"
 elasticsearch_dsl = "*"
 smart_open = "*"
 django-storages = "<2"
+faker = "==4.1.1"
 
 [dev-packages]
 
