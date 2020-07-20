@@ -12,3 +12,6 @@ class UploadResults(TemplateView):
 
 def publisher(request):
     return render(request, "silvereye/publisher.html", {})
+
+def publisherHome(request):
+    return render(request, "silvereye/publisher_hub_home.html", {})

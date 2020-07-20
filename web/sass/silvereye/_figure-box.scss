@@ -1,5 +1,7 @@
 .figure-box {
-
+  svg {
+    margin-top: $spacer/2
+  }
 }
 
 .figure-box__change {
@@ -9,6 +11,7 @@
 .figure-box__main-figure {
   font-size: 2em;
   font-weight: bold;
+  line-height: 1em;
 }
 
 .figure-box__compare-figure {
