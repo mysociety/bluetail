@@ -202,7 +202,7 @@ class OCDSTenderList(ListView):
 
         if has_flags:
             ocids_with_flags = [x.ocid for x in queryset if len(x.flags) > 0]
-            queryset.filter(ocid__in=ocids_with_flags)
+            queryset = queryset.filter(ocid__in=ocids_with_flags)
 
         if flags:
             flag_attachments = FlagAttachment.objects.filter(flag_name__in=flags)
