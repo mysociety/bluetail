@@ -1,0 +1,224 @@
+[
+    {
+        "statementID": "openownership-register-3421831545712586020",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WRING GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03899806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03899806"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03899806",
+                "uri": "https://opencorporates.com/companies/gb/03899806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3899806"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9620e67e4ebf340143c4f",
+                "uri": "http://register.openownership.org/entities/59b9620e67e4ebf340143c4f"
+            }
+        ],
+        "foundingDate": "1999-12-21",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Vale Lane, Bedminster, Bristol, BS3 5RU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15611830443470751207",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3421831545712586020"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-4344135391648294214"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent-as-trust",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5137826012130088830",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3421831545712586020"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12668834070350013237"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1773361919656656736",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3421831545712586020"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15827195105871690363"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4344135391648294214",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "J E Wring Discretionary Trust",
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03899806/persons-with-significant-control/corporate-entity/29bGuJ2-wU5-XzQNSJDFdNY7YEM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9685567e4ebf340329eda",
+                "uri": "http://register.openownership.org/entities/59b9685567e4ebf340329eda"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "5, Vale Lane, Bristol, BS3 5RU"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12668834070350013237",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Dean Stuart Wring"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03899806/persons-with-significant-control/individual/SSQE6nUVPcWtD2pxre5YIaDJz1g"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9685567e4ebf340329e8a",
+                "uri": "http://register.openownership.org/entities/59b9685567e4ebf340329e8a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-03-01",
+        "addresses": [
+            {
+                "address": "Vale Lane, Bedminster, Bristol, BS3 5RU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15827195105871690363",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "John Matthew Wring"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03899806/persons-with-significant-control/individual/km4RxrxumjBs9_eMin-Ee_6uw7M"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9685567e4ebf340329c6d",
+                "uri": "http://register.openownership.org/entities/59b9685567e4ebf340329c6d"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1965-11-01",
+        "addresses": [
+            {
+                "address": "Vale Lane, Bedminster, Bristol, BS3 5RU",
+                "country": "GB"
+            }
+        ]
+    }
+]

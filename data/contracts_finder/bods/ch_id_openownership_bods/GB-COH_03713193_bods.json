@@ -1,0 +1,135 @@
+[
+    {
+        "statementID": "openownership-register-3506403190421448405",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SKILLS TRAINING UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03713193"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03713193",
+                "uri": "https://opencorporates.com/companies/gb/03713193"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b61c67e4ebf34073f537",
+                "uri": "http://register.openownership.org/entities/59b9b61c67e4ebf34073f537"
+            }
+        ],
+        "foundingDate": "1999-02-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Hygeia House 3rd Floor, 66 College Road, Harrow, HA1 1BE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18400074416331082204",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3506403190421448405"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-11156120909510529380"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11156120909510529380",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SKILLS TRAINING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07867533"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07867533"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07867533"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07867533",
+                "uri": "https://opencorporates.com/companies/gb/07867533"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "7867533"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94cc567e4ebf340b1efd5",
+                "uri": "http://register.openownership.org/entities/59b94cc567e4ebf340b1efd5"
+            }
+        ],
+        "foundingDate": "2011-12-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Hygeia House, 66 College Road, Harrow, HA1 1BE",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "statementID": "openownership-register-12401544843872257122",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AIMIA FOODS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01542173"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01542173"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01542173",
+                "uri": "https://opencorporates.com/companies/gb/01542173"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01542173"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b175f929dfc3fae18d229a1",
+                "uri": "http://register.openownership.org/entities/5b175f929dfc3fae18d229a1"
+            }
+        ],
+        "foundingDate": "1981-01-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Penny Lane, Haydock, Merseyside, WA11 0QZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13581188056892983786",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12401544843872257122"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-16073091573728425082"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16073091573728425082",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AIMIA FOODS GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05202201"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05202201"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05202201"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05202201",
+                "uri": "https://opencorporates.com/companies/gb/05202201"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "5202201"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "5202201"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9657e67e4ebf34024a61c",
+                "uri": "http://register.openownership.org/entities/59b9657e67e4ebf34024a61c"
+            }
+        ],
+        "foundingDate": "2004-08-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Penny Lane, Haydock, Merseyside, WA11 0QZ",
+                "country": "GB"
+            }
+        ]
+    }
+]

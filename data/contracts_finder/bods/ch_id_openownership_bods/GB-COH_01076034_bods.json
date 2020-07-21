@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-15386766128262956784",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SWALE HEATING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01076034"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01076034",
+                "uri": "https://opencorporates.com/companies/gb/01076034"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99cba67e4ebf340145560",
+                "uri": "http://register.openownership.org/entities/59b99cba67e4ebf340145560"
+            }
+        ],
+        "foundingDate": "1972-10-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Heard Way, Eurolink Industrial Estate, Sittingbourne, Kent, ME10 3SA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16776564214942729822",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15386766128262956784"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4632572851815586499"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4632572851815586499",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Ian Marsh Pierson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01076034/persons-with-significant-control/individual/ktla34mFtMg421IsvNNspFVm4kQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99cba67e4ebf34014556f",
+                "uri": "http://register.openownership.org/entities/59b99cba67e4ebf34014556f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1950-05-01",
+        "addresses": [
+            {
+                "address": "Heard Way, Eurolink Industrial Estate, Sittingbourne, Kent, ME10 3SA"
+            }
+        ]
+    }
+]

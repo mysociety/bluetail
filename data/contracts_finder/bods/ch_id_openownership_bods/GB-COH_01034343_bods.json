@@ -1,0 +1,156 @@
+[
+    {
+        "statementID": "openownership-register-8847214217990128915",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01034343"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01034343"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01034343",
+                "uri": "https://opencorporates.com/companies/gb/01034343"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1034343"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e2667e4ebf34025b3e4",
+                "uri": "http://register.openownership.org/entities/59b92e2667e4ebf34025b3e4"
+            }
+        ],
+        "foundingDate": "1971-12-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "23-27 Alie Street, London, E1 8DS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4808952683569666839",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8847214217990128915"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6884566662819547971"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6884566662819547971",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "The Travelers Companies, Inc.",
+        "incorporatedInJurisdiction": {
+            "name": "United States of America",
+            "code": "US"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03100830/persons-with-significant-control/corporate-entity/p9PqgUjCeV57ZwC2uDRAooaZaaE"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/us_mn/f8d8d590-9bd4-e011-a886-001ec94ffe7f",
+                "uri": "https://opencorporates.com/companies/us_mn/f8d8d590-9bd4-e011-a886-001ec94ffe7f"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05943599/persons-with-significant-control/corporate-entity/LiqdKg0-Gxh8jTSCZpa-dO4o1Zs"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03900859/persons-with-significant-control/corporate-entity/M1Dbt1XWFa8dTJhDG9esOqPlq0Q"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03708247/persons-with-significant-control/corporate-entity/oY0f36ucdpIIZDs8BV4_Nrtn9Dg"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02686242/persons-with-significant-control/corporate-entity/g49IwMpIBFgU-Khu_Dvve9NAGbE"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04724906/persons-with-significant-control/corporate-entity/W5jf6d3KuzJaA6wWfTG8J-0k2uA"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03207530/persons-with-significant-control/corporate-entity/d8sP8NSWgpeZ7Riw6cyuDNfvIe0"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01034343/persons-with-significant-control/corporate-entity/2f7BYTyGfBv82G3HbyE6cMpuh4g"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00972175/persons-with-significant-control/corporate-entity/XiqW4pZxHBIy0m6hFrH9BXIVVJ8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93bd667e4ebf3406673e6",
+                "uri": "http://register.openownership.org/entities/59b93bd667e4ebf3406673e6"
+            }
+        ],
+        "foundingDate": "1853-03-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "385 Washington Str, St Paul, MN 55102, USA",
+                "country": "US"
+            }
+        ]
+    }
+]

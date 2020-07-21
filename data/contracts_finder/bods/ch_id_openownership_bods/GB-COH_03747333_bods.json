@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-13606735820397137851",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ALLIANCE DISPOSABLES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03747333"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03747333",
+                "uri": "https://opencorporates.com/companies/gb/03747333"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ab1467e4ebf34049b64f",
+                "uri": "http://register.openownership.org/entities/59b9ab1467e4ebf34049b64f"
+            }
+        ],
+        "foundingDate": "1999-04-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Alliance House, Marshfield Bank, Crewe, Cheshire, CW2 8UY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2870585061676153799",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13606735820397137851"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10440968738804459143"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10440968738804459143",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Henderson Elder"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03747333/persons-with-significant-control/individual/JRp3Wz2HgqHf_9MQA5lDLiSomXA"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ab1467e4ebf34049b65c",
+                "uri": "http://register.openownership.org/entities/59b9ab1467e4ebf34049b65c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-01-01",
+        "addresses": [
+            {
+                "address": "Alliance House, Marshfield Bank, Crewe, Cheshire, CW2 8UY"
+            }
+        ]
+    }
+]

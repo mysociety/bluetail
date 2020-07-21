@@ -1,0 +1,109 @@
+[
+    {
+        "statementID": "openownership-register-5447031371502499299",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MARILLO FOODS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04455911"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04455911",
+                "uri": "https://opencorporates.com/companies/gb/04455911"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d93a67e4ebf340f70524",
+                "uri": "http://register.openownership.org/entities/59b9d93a67e4ebf340f70524"
+            }
+        ],
+        "foundingDate": "2002-06-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Laurel House, 173 Chorley New Road, Bolton, Lancashire, BL1 4QZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3255338607829997168",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5447031371502499299"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-14780486149320204173"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-01-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14780486149320204173",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MARILLO HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10519620"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10519620"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10519620",
+                "uri": "https://opencorporates.com/companies/gb/10519620"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9698167e4ebf34038be37",
+                "uri": "http://register.openownership.org/entities/59b9698167e4ebf34038be37"
+            }
+        ],
+        "foundingDate": "2016-12-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Laurel House, 173 Chorley New Road, Bolton, BL1 4QZ",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "statementID": "openownership-register-7132524127595107989",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ACIVICO LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07792304"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07792304"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07792304"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07792304",
+                "uri": "https://opencorporates.com/companies/gb/07792304"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07792304"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9506667e4ebf340c1fdd9",
+                "uri": "http://register.openownership.org/entities/59b9506667e4ebf340c1fdd9"
+            }
+        ],
+        "foundingDate": "2011-09-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Louisa House, 92 - 93 Edward Street, Birmingham, B1 2RA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2978126242838796113",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7132524127595107989"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8448117586798180151"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8448117586798180151",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Birmingham City Council",
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07792304/persons-with-significant-control/legal-person/YO0ycf1Wc7vhxAHkmzOLh_puPXo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9506667e4ebf340c1fddd",
+                "uri": "http://register.openownership.org/entities/59b9506667e4ebf340c1fddd"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Council House, The Council House, Victoria Square, Birmingham, B1 1BB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,203 @@
+[
+    {
+        "statementID": "openownership-register-6023564463413253023",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PRIVATE PUBLIC LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06405704"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06405704",
+                "uri": "https://opencorporates.com/companies/gb/06405704"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9578667e4ebf340e330f8",
+                "uri": "http://register.openownership.org/entities/59b9578667e4ebf340e330f8"
+            }
+        ],
+        "foundingDate": "2007-10-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "23 Jacob Street, London, SE1 2BG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16359857086323072522",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6023564463413253023"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7606849887816118141"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7610753461365083006",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6023564463413253023"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16374039758004962704"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7606849887816118141",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Simon Morioka"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06405704/persons-with-significant-control/individual/M-oT34cDSHHuhRnBUlX2CbjzwGQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9578667e4ebf340e33105",
+                "uri": "http://register.openownership.org/entities/59b9578667e4ebf340e33105"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-07-01",
+        "addresses": [
+            {
+                "address": "23 Jacob Street, London, SE1 2BG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16374039758004962704",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Claire Louise Kennedy"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06405704/persons-with-significant-control/individual/pmOFtABYL-wMWBrvskS9pyuRwDo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9578667e4ebf340e33102",
+                "uri": "http://register.openownership.org/entities/59b9578667e4ebf340e33102"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1977-07-01",
+        "addresses": [
+            {
+                "address": "23 Jacob Street, London, SE1 2BG",
+                "country": "GB"
+            }
+        ]
+    }
+]

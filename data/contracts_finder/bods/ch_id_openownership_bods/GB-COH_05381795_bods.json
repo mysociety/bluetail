@@ -1,0 +1,104 @@
+[
+    {
+        "statementID": "openownership-register-14373545374221526196",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SERVICE CARE SOLUTIONS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05381795"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05381795",
+                "uri": "https://opencorporates.com/companies/gb/05381795"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99c6a67e4ebf34013408b",
+                "uri": "http://register.openownership.org/entities/59b99c6a67e4ebf34013408b"
+            }
+        ],
+        "foundingDate": "2005-03-03",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Arthur House, 12-13 Starkie Street, Preston, PR1 3LU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14216135041768185087",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14373545374221526196"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2665182740137155762"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2665182740137155762",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Richard Martin Freye"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05381795/persons-with-significant-control/individual/2Oc2Gzwb_NUozwTjGqUIKU_QjEE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99c6a67e4ebf340134096",
+                "uri": "http://register.openownership.org/entities/59b99c6a67e4ebf340134096"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-12-01",
+        "addresses": [
+            {
+                "address": "Arthur House, 12-13, Starkie Street, Preston, PR1 3LU",
+                "country": "GB"
+            }
+        ]
+    }
+]

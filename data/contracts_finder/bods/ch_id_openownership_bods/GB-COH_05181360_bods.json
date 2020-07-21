@@ -1,0 +1,102 @@
+[
+    {
+        "statementID": "openownership-register-153067705514150371",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HIGHER EDUCATION COMMUNICATION LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05181360"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05181360",
+                "uri": "https://opencorporates.com/companies/gb/05181360"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92a4867e4ebf34012833f",
+                "uri": "http://register.openownership.org/entities/59b92a4867e4ebf34012833f"
+            }
+        ],
+        "foundingDate": "2004-07-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "82 Feeder Road, Bristol, BS2 0TQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5340554265492415916",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-153067705514150371"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15756782582356305115"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-07-01"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-07-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15756782582356305115",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Paul William Brown"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05181360/persons-with-significant-control/individual/OTrI8SPHD0pjBwLPgaagBObKx7A"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92a4867e4ebf34012834b",
+                "uri": "http://register.openownership.org/entities/59b92a4867e4ebf34012834b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-07-01",
+        "addresses": [
+            {
+                "address": "82, Feeder Road, Bristol, BS2 0TQ"
+            }
+        ]
+    }
+]

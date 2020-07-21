@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-12624625850555186458",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "P. P. M. LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04099788"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04099788",
+                "uri": "https://opencorporates.com/companies/gb/04099788"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b955ab67e4ebf340da5e29",
+                "uri": "http://register.openownership.org/entities/59b955ab67e4ebf340da5e29"
+            }
+        ],
+        "foundingDate": "2000-10-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 34, Cibyn Industrial Estate, Caernarfon, Gwynedd, LL55 2BD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15790871708150617379",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-10-31",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12624625850555186458"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6737904046341050183"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-10-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6737904046341050183",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "John Brinley Jones"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09208538/persons-with-significant-control/individual/j3nZb8SpPOByvZeUXgQJ5s4tQG4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93bdf67e4ebf34066aaba",
+                "uri": "http://register.openownership.org/entities/59b93bdf67e4ebf34066aaba"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-09-01",
+        "addresses": [
+            {
+                "address": "Unit 34, Cibyn Industrial Estate, Caernarfon, Gwynedd, LL55 2BD"
+            }
+        ]
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "statementID": "openownership-register-16779560108421009871",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ACUMA SOLUTIONS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04100859"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04100859",
+                "uri": "https://opencorporates.com/companies/gb/04100859"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95c8167e4ebf340fa7c25",
+                "uri": "http://register.openownership.org/entities/59b95c8167e4ebf340fa7c25"
+            }
+        ],
+        "foundingDate": "2000-11-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Applicon House, Exchange Street, Stockport, SK3 0EY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8351448869000361835",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-02",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16779560108421009871"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8983440525816853096"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-02"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-313848344297452137",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16779560108421009871"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8983440525816853096"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8983440525816853096",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SAKSOFT SOLUTIONS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05936122"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05936122"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05936122"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05936122"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05936122",
+                "uri": "https://opencorporates.com/companies/gb/05936122"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "5936122"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "5936122"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9439967e4ebf340881910",
+                "uri": "http://register.openownership.org/entities/59b9439967e4ebf340881910"
+            }
+        ],
+        "foundingDate": "2006-09-14",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Applicon House, Exchange Street, Stockport, SK3 0EY",
+                "country": "GB"
+            }
+        ]
+    }
+]

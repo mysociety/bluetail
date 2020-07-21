@@ -1,0 +1,186 @@
+[
+    {
+        "statementID": "openownership-register-10816081169730581969",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VIX TECHNOLOGY UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03039051"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03039051",
+                "uri": "https://opencorporates.com/companies/gb/03039051"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03039051"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99e7d67e4ebf3401b176b",
+                "uri": "http://register.openownership.org/entities/59b99e7d67e4ebf3401b176b"
+            }
+        ],
+        "foundingDate": "1995-03-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1st Floor, Unit 406 Cambridge Science Park, Milton Road, Cambridge, CB4 0WW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2084555846356571961",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10816081169730581969"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-11064642425000142065"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7783648359045192984",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10816081169730581969"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-4337926607409223393"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4337926607409223393",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Vix Limited",
+        "incorporatedInJurisdiction": {
+            "name": "Jamaica",
+            "code": "JM"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02649163/persons-with-significant-control/corporate-entity/aIXX-HfT1veYfOhP1R3CgiGT3G0"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/jm/57294",
+                "uri": "https://opencorporates.com/companies/jm/57294"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03039051/persons-with-significant-control/corporate-entity/nWe-FjVich8beDjOKmda0d9wY-Q"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9903467e4ebf340e9055a",
+                "uri": "http://register.openownership.org/entities/59b9903467e4ebf340e9055a"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "34, 34 Bermudiana Road, Hamilton, Hm11, Bermuda",
+                "country": "JM"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11064642425000142065",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "UIL Limited",
+        "incorporatedInJurisdiction": {
+            "name": "Bermuda",
+            "code": "BM"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/10636773/persons-with-significant-control/corporate-entity/0OQpW5wlZm8XHldQwbC0qIokQg0"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07252700/persons-with-significant-control/corporate-entity/_NGelHse0ucnm2b21zZOVc-7WmU"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/bm/39480",
+                "uri": "https://opencorporates.com/companies/bm/39480"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09691867/persons-with-significant-control/corporate-entity/1oUeIpUMTUC8LyA77AKZtekQlhU"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02649163/persons-with-significant-control/corporate-entity/ZRixAAPDrovj0xYnw4M7gpW0NAQ"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03039051/persons-with-significant-control/corporate-entity/9JA_wJCGtcL-sOOJHM7lIcFlDhE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab97b9e9dfc3fae18e953f8",
+                "uri": "http://register.openownership.org/entities/5ab97b9e9dfc3fae18e953f8"
+            }
+        ],
+        "foundingDate": "2007-01-17"
+    }
+]

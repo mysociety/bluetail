@@ -1,0 +1,60 @@
+[
+    {
+        "statementID": "openownership-register-2588804945416724148",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ARMSTRONG YORK ASBESTOS ENVIRONMENTAL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04663503"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04663503",
+                "uri": "https://opencorporates.com/companies/gb/04663503"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c5004067e4ebf3405c170e",
+                "uri": "http://register.openownership.org/entities/59c5004067e4ebf3405c170e"
+            }
+        ],
+        "foundingDate": "2003-02-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Stanhope Industrial Park, Wharf Road, Stanford Le Hope, Essex, SS17 0EH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5239383107589229854",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-29",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2588804945416724148"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

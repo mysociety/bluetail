@@ -1,0 +1,181 @@
+[
+    {
+        "statementID": "openownership-register-18049403110087694570",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ACS BUSINESS SUPPLIES LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06584936"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06584936",
+                "uri": "https://opencorporates.com/companies/gb/06584936"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cde167e4ebf340cde8a5",
+                "uri": "http://register.openownership.org/entities/59b9cde167e4ebf340cde8a5"
+            }
+        ],
+        "foundingDate": "2008-05-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "82 Wandsworth Bridge Road, London, SW6 2TF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17618160182506975432",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18049403110087694570"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2728642788657536476"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10375844017346566392",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18049403110087694570"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2763271787730364695"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2728642788657536476",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mukhtar Hussain"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07734017/persons-with-significant-control/individual/WTVeQcEG45KkD0GaR59GJFsaw5k"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94b3567e4ebf340aa81d7",
+                "uri": "http://register.openownership.org/entities/59b94b3567e4ebf340aa81d7"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-10-01",
+        "addresses": [
+            {
+                "address": "82, Wandsworth Bridge Road, London, SW6 2TF"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2763271787730364695",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Nicholas Paul Gold"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04149759/persons-with-significant-control/individual/iYdrru6DbFR-_OKxC0epcD3-Cps"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b987c167e4ebf340cb6b6d",
+                "uri": "http://register.openownership.org/entities/59b987c167e4ebf340cb6b6d"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1972-02-01",
+        "addresses": [
+            {
+                "address": "82, Wandsworth Bridge Road, London, SW6 2TF"
+            }
+        ]
+    }
+]
