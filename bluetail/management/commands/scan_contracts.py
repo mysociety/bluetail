@@ -5,7 +5,7 @@ from django.core.management import BaseCommand
 
 from bluetail import helpers
 from bluetail.helpers import BodsHelperFunctions
-from bluetail.models import Flag, FlagAttachment, OCDSParty, OCDSTender, ExternalPerson, BODSPersonStatement
+from bluetail.models import Flag, FlagAttachment, OCDSTenderer, OCDSTender, ExternalPerson, BODSPersonStatement
 
 logger = logging.getLogger('django')
 
@@ -32,7 +32,7 @@ class Command(BaseCommand):
             entities_to_tenderers = defaultdict(lambda: [])
 
             # Get all tenderers
-            tenderers = OCDSParty.objects.filter(
+            tenderers = OCDSTenderer.objects.filter(
                 ocid=tender.ocid, party_role="tenderer")
 
             for tenderer in tenderers:

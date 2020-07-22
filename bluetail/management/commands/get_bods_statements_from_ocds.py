@@ -18,7 +18,7 @@ from elasticsearch_dsl.query import Term, Q
 from django.conf import settings
 from django.core.management import BaseCommand
 
-from bluetail.models import OCDSParty
+from bluetail.models import OCDSTenderer
 
 logger = logging.getLogger('django')
 
@@ -142,7 +142,7 @@ def lookup_ch_ids():
     # Get list of Company Numbers from the OCDS Parties
     logger.info("Getting OCDS Party scheme/id queryset")
 
-    ids = OCDSParty.objects.filter(party_identifier_scheme="GB-COH")
+    ids = OCDSTenderer.objects.filter(party_identifier_scheme="GB-COH")
 
     elasticsearch_conn = Elasticsearch(ELASTICSEARCH_URL, verify_certs=True)
     OUTPUT_DIR = os.path.join(BODS_OUTPUT_DIR, "ch_id_openownership_bods")

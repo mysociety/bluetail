@@ -1,6 +1,6 @@
 select *
 from
-    public.bluetail_ocds_parties_view
+    public.bluetail_ocds_tenderers_view
 where
       ocid = 'ocds-b5fd17-0ac9f3a6-83f4-4f8a-874c-f927b48d445c'
   AND party_role = 'tenderer'
@@ -21,7 +21,7 @@ SELECT
     party ->> 'name'                         party_name,
     party -> 'contactPoint' ->> 'name'    as contact_name
 FROM
-    bluetail_ocds_release_json ocds,
+    bluetail_ocds_release_json_view ocds,
     LATERAL jsonb_array_elements(ocds.release_json -> 'parties') party,
     LATERAL jsonb_array_elements_text(party -> 'roles') role
 WHERE
