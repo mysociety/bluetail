@@ -1,0 +1,303 @@
+[
+    {
+        "statementID": "openownership-register-5386618001674022885",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FORDS OF BLYTHE BRIDGE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01273930"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01273930",
+                "uri": "https://opencorporates.com/companies/gb/01273930"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a5a67e4ebf3405f9212",
+                "uri": "http://register.openownership.org/entities/59b93a5a67e4ebf3405f9212"
+            }
+        ],
+        "foundingDate": "1976-08-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "203 Grindley Lane, Blythe Bridge, Stoke-On-Trent, ST11 9JS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4673431715213850868",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5386618001674022885"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16528491442673905665"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14258092444096156007",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5386618001674022885"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3406594465238212845"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-08-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-08-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-06T08:35:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1135092139897410247",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5386618001674022885"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4794446988759760060"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11278861360996618155",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5386618001674022885"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3406594465238212845"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-08-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-06T08:35:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16528491442673905665",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Alexis Ford"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01273930/persons-with-significant-control/individual/CBdGsqmN_Z0hL6rpZAq1c0asIUk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a5a67e4ebf3405f923c",
+                "uri": "http://register.openownership.org/entities/59b93a5a67e4ebf3405f923c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1983-10-01",
+        "addresses": [
+            {
+                "address": "Holme Lea, Heath House Lane, Lower Tean, Stoke On Trent, Staffordshire, ST10 4LP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3406594465238212845",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Paul James Ford"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01273930/persons-with-significant-control/individual/dyOTvjjHmAAraQaukQlZxKgUv-c"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a5a67e4ebf3405f9225",
+                "uri": "http://register.openownership.org/entities/59b93a5a67e4ebf3405f9225"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1952-02-01",
+        "addresses": [
+            {
+                "address": "Highfields Farm, 215 Uttoxeter Road, Draycott, Staffordshire, ST11 9AE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4794446988759760060",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Luke Ford"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01273930/persons-with-significant-control/individual/cVlxD8_uAkefWgn1OyoiLHKVJTM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a5a67e4ebf3405f923f",
+                "uri": "http://register.openownership.org/entities/59b93a5a67e4ebf3405f923f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1978-09-01",
+        "addresses": [
+            {
+                "address": "The Old Church House, New Road, Dilhorne, Stoke On Trent, Staffordshire, ST10 2PQ"
+            }
+        ]
+    }
+]

@@ -1,0 +1,159 @@
+[
+    {
+        "statementID": "openownership-register-7226595464370432878",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GP STRATEGIES TRAINING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08003851"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08003851"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08003851"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08003851",
+                "uri": "https://opencorporates.com/companies/gb/08003851"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "8003851"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ba1667e4ebf340836b78",
+                "uri": "http://register.openownership.org/entities/59b9ba1667e4ebf340836b78"
+            }
+        ],
+        "foundingDate": "2012-03-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3rd Floor, 1 Ashley Road, Altrincham, Cheshire, WA14 2DT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6313743385087174415",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7226595464370432878"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-3301200806504927387"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3301200806504927387",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GP STRATEGIES HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06340333"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06340333"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06340333"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06340333",
+                "uri": "https://opencorporates.com/companies/gb/06340333"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6340333"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6340333"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab9712d9dfc3fae18cf994b",
+                "uri": "http://register.openownership.org/entities/5ab9712d9dfc3fae18cf994b"
+            }
+        ],
+        "foundingDate": "2007-08-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3rd Floor, 1 Ashley Road, Altrincham, Cheshire, WA14 2DT",
+                "country": "GB"
+            }
+        ]
+    }
+]

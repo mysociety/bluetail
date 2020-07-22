@@ -1,0 +1,268 @@
+[
+    {
+        "statementID": "openownership-register-4756979513242240452",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AUDIT PARTNERSHIP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05357998"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05357998"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05357998",
+                "uri": "https://opencorporates.com/companies/gb/05357998"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b972d867e4ebf340682f2b",
+                "uri": "http://register.openownership.org/entities/59b972d867e4ebf340682f2b"
+            }
+        ],
+        "foundingDate": "2005-02-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Moorside Business Park Moorside, Tockwith, York, YO26 7QG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14784217137744394829",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-10-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4756979513242240452"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6499049011518217348"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-10-05"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-10-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5527654962149931575",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4756979513242240452"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6567876491443279457"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-10-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16566836270007287541",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4756979513242240452"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9936454618216078655"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-10-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9936454618216078655",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Philippa Lucy Cook"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05581030/persons-with-significant-control/individual/H5S-34MFL5wYMclnJiyMbL5Ve0w"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94e1867e4ebf340b816c2",
+                "uri": "http://register.openownership.org/entities/59b94e1867e4ebf340b816c2"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-07-01",
+        "addresses": [
+            {
+                "address": "Moorside Business Park, Moorside, Tockwith, York, YO26 7QG"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6567876491443279457",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "James Frederick Cook"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05581030/persons-with-significant-control/individual/xcfa1_xNag02u4PgGM8EhSNoYB8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94e1867e4ebf340b816dd",
+                "uri": "http://register.openownership.org/entities/59b94e1867e4ebf340b816dd"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1971-05-01",
+        "addresses": [
+            {
+                "address": "Moorside Business Park, Moorside, Tockwith, York, YO26 7QG"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6499049011518217348",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "H5 GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11588243"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11588243",
+                "uri": "https://opencorporates.com/companies/gb/11588243"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11588243"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11588243"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bbb98269dfc3fae1897b174",
+                "uri": "http://register.openownership.org/entities/5bbb98269dfc3fae1897b174"
+            }
+        ],
+        "foundingDate": "2018-09-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Moorside Business Park Moorside, Tockwith, York, YO26 7QG",
+                "country": "GB"
+            }
+        ]
+    }
+]

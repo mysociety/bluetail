@@ -1,0 +1,154 @@
+[
+    {
+        "statementID": "openownership-register-2799628304965922593",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HCL TECHNOLOGIES UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08658132"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08658132",
+                "uri": "https://opencorporates.com/companies/gb/08658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "8658132"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "8658132"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a9167e4ebf34060a67c",
+                "uri": "http://register.openownership.org/entities/59b93a9167e4ebf34060a67c"
+            }
+        ],
+        "foundingDate": "2013-08-20",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Axon Centre Church Road, Egham, Surrey, TW20 9QB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8971973701582763291",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2799628304965922593"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7993202466931750873"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7993202466931750873",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sivaprasad Sivasubramaniam Nadar"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/08658132/persons-with-significant-control/individual/k3IY2D-zYuXbG_7zFfL2KzKl5Uk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93ab667e4ebf340615f18",
+                "uri": "http://register.openownership.org/entities/59b93ab667e4ebf340615f18"
+            }
+        ],
+        "birthDate": "1945-07-01",
+        "addresses": [
+            {
+                "address": "Axon Centre, Church Road, Egham, Surrey, TW20 9QB",
+                "country": "IN"
+            }
+        ]
+    }
+]

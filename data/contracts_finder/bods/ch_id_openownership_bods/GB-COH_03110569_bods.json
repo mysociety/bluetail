@@ -1,0 +1,105 @@
+[
+    {
+        "statementID": "openownership-register-3079224736071426888",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "COMPUTACENTER PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03110569"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03110569",
+                "uri": "https://opencorporates.com/companies/gb/03110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3110569"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93ffe67e4ebf340795ba6",
+                "uri": "http://register.openownership.org/entities/59b93ffe67e4ebf340795ba6"
+            }
+        ],
+        "foundingDate": "1995-10-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Hatfield Avenue, Hatfield, Hertfordshire, AL10 9TW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11561853444443448893",
+        "statementType": "ownershipOrControlStatement",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3079224736071426888"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "unknown",
+                "description": "Unknown person(s)"
+            }
+        },
+        "interests": []
+    }
+]

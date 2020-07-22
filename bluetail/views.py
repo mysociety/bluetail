@@ -9,7 +9,7 @@ from django.views.generic import DetailView, ListView, TemplateView
 
 from bluetail.helpers import BodsHelperFunctions, FlagHelperFunctions, ContextHelperFunctions
 from bluetail.models import OCDSTender, OCDSTenderer, BODSEntityStatement, \
-    BODSOwnershipStatement, BODSPersonStatement
+    BODSOwnershipStatement, BODSPersonStatement, FlagAttachment
 
 
 def tenders_view(request):
@@ -192,6 +192,7 @@ class OCDSTenderList(ListView):
 
         ocid_prefixes = self.request.GET.getlist('ocid_prefix')
         has_flags = self.request.GET.get('has_flags')
+        flags = self.request.GET.getlist('flag')
 
         if ocid_prefixes:
             query = Q()
@@ -200,7 +201,13 @@ class OCDSTenderList(ListView):
             queryset = queryset.filter(query)
 
         if has_flags:
-            queryset = (x for x in queryset if len(x.flags) > 0)
+            ocids_with_flags = [x.ocid for x in queryset if len(x.flags) > 0]
+            queryset = queryset.filter(ocid__in=ocids_with_flags)
+
+        if flags:
+            flag_attachments = FlagAttachment.objects.filter(flag_name__in=flags)
+            ocids = flag_attachments.values_list('ocid', flat=True)
+            queryset = queryset.filter(ocid__in=ocids)
 
         return queryset
 

@@ -1,0 +1,148 @@
+[
+    {
+        "statementID": "openownership-register-8821477532766796733",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VERSION 1 LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC223430"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/SC223430",
+                "uri": "https://opencorporates.com/companies/gb/SC223430"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94caf67e4ebf340b17bd3",
+                "uri": "http://register.openownership.org/entities/59b94caf67e4ebf340b17bd3"
+            }
+        ],
+        "foundingDate": "2001-09-20",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "4-5 Lochside View, Edinburgh, EH12 9DH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1885722544689193914",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8821477532766796733"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-13486352763283711730"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent-as-firm",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13486352763283711730",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VERSION 1 SOFTWARE UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08661831"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08661831"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08661831"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08661831",
+                "uri": "https://opencorporates.com/companies/gb/08661831"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "8661831"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "8661831"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08661831"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94c9d67e4ebf340b12dbc",
+                "uri": "http://register.openownership.org/entities/59b94c9d67e4ebf340b12dbc"
+            }
+        ],
+        "foundingDate": "2013-08-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Grosvenor House, Prospect Hill, Redditch, Worcestershire, B97 4DL",
+                "country": "GB"
+            }
+        ]
+    }
+]

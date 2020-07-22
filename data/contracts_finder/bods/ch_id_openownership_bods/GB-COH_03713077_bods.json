@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-372802064142787837",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ALL PURPOSE CLEANING AND CATERING SUPPLIES LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03713077"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03713077",
+                "uri": "https://opencorporates.com/companies/gb/03713077"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9894c67e4ebf340d0b131",
+                "uri": "http://register.openownership.org/entities/59b9894c67e4ebf340d0b131"
+            }
+        ],
+        "foundingDate": "1999-02-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Redlands House The Maltings, North Drive, Friars Well Business Centre, Wartnaby, Leicestershire, LE14 3HQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-319741522736577263",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-372802064142787837"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13265405543146979877"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5211952271353253996",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-372802064142787837"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4638949933869794237"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13265405543146979877",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Julie Sandra Ashby"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03713077/persons-with-significant-control/individual/R1A3-r5BUGWwyz76Hl6ruVp2TFw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9894c67e4ebf340d0b137",
+                "uri": "http://register.openownership.org/entities/59b9894c67e4ebf340d0b137"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1971-01-01",
+        "addresses": [
+            {
+                "address": "2, North Drive, Wartnaby, Melton Mowbray, LE14 3HQ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4638949933869794237",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Kevin Michael Ashby"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03713077/persons-with-significant-control/individual/XWiDSH2-hTwA7E3cNiLahP6ePd0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9894c67e4ebf340d0b15b",
+                "uri": "http://register.openownership.org/entities/59b9894c67e4ebf340d0b15b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-02-01",
+        "addresses": [
+            {
+                "address": "2, North Drive, Wartnaby, Melton Mowbray, LE14 3HQ"
+            }
+        ]
+    }
+]

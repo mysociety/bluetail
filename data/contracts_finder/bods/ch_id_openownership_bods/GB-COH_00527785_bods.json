@@ -1,0 +1,60 @@
+[
+    {
+        "statementID": "openownership-register-16358835565974453577",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ROTADEX SYSTEMS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00527785"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00527785",
+                "uri": "https://opencorporates.com/companies/gb/00527785"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4f88767e4ebf3404c4210",
+                "uri": "http://register.openownership.org/entities/59c4f88767e4ebf3404c4210"
+            }
+        ],
+        "foundingDate": "1954-01-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Systems House Central Business Park, Mackadown Lane, Birmingham, B33 0JL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14479907123418705274",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-10-13",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16358835565974453577"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

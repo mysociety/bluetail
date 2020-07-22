@@ -1,0 +1,48 @@
+[
+    {
+        "statementID": "openownership-register-12652268316197420923",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "OPEN UNIVERSITY(THE)",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "RC000391"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/RC000391",
+                "uri": "https://opencorporates.com/companies/gb/RC000391"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Rc 000391"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9250267e4ebf340fc253c",
+                "uri": "http://register.openownership.org/entities/59b9250267e4ebf340fc253c"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13809267072056309032",
+        "statementType": "ownershipOrControlStatement",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12652268316197420923"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "unknown",
+                "description": "Unknown person(s)"
+            }
+        },
+        "interests": []
+    }
+]

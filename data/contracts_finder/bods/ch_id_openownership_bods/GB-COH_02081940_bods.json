@@ -1,0 +1,178 @@
+[
+    {
+        "statementID": "openownership-register-15058460663800101026",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "KNIGHTS BROWN CONSTRUCTION LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02081940"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02081940",
+                "uri": "https://opencorporates.com/companies/gb/02081940"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b931e267e4ebf34037046c",
+                "uri": "http://register.openownership.org/entities/59b931e267e4ebf34037046c"
+            }
+        ],
+        "foundingDate": "1986-12-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "160 Christchurch Rd, Ringwood, Hampshire, BH24 3AR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6462878518585140539",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15058460663800101026"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6299664328225225884"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6299664328225225884",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "KNIGHTS BROWN LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00756733"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00756733",
+                "uri": "https://opencorporates.com/companies/gb/00756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "0756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "0756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "0756733"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "0756733"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b931e167e4ebf34036fda4",
+                "uri": "http://register.openownership.org/entities/59b931e167e4ebf34036fda4"
+            }
+        ],
+        "foundingDate": "1963-04-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "160 Christchurch Road, Ringwood, Hampshire, BH24 3AR",
+                "country": "GB"
+            }
+        ]
+    }
+]

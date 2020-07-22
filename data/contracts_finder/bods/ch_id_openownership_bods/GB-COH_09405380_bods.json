@@ -1,0 +1,125 @@
+[
+    {
+        "statementID": "openownership-register-13131345252183969556",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CORNERSTONE BARRISTERS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09405380"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09405380",
+                "uri": "https://opencorporates.com/companies/gb/09405380"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9405a67e4ebf3407b3e24",
+                "uri": "http://register.openownership.org/entities/59b9405a67e4ebf3407b3e24"
+            }
+        ],
+        "foundingDate": "2015-01-26",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "2-3 Gray's Inn Square, London, WC1R 5JH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13402096664166415006",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-09-21",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13131345252183969556"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11987009113610367443"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-09-21"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-09-21"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-09-21"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-09-21"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11987009113610367443",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Philip Alan Kolvin"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09405380/persons-with-significant-control/individual/ZT6SnXmO8umi3YZDRRHC2-G5Ijc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9405a67e4ebf3407b3e56",
+                "uri": "http://register.openownership.org/entities/59b9405a67e4ebf3407b3e56"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-08-01",
+        "addresses": [
+            {
+                "address": "2-3, Gray's Inn Square, London, WC1R 5JH",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "statementID": "openownership-register-7164442963467282993",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BARINGA PARTNERS LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC303471"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC303471"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC303471"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC303471"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC303471",
+                "uri": "https://opencorporates.com/companies/gb/OC303471"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc303471"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc303471"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc303471"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc303471"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9382967e4ebf34055ab89",
+                "uri": "http://register.openownership.org/entities/59b9382967e4ebf34055ab89"
+            }
+        ],
+        "foundingDate": "2002-11-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Dominican Court, 17 Hatfields, London, SE1 8DJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16095190820239411162",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7164442963467282993"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

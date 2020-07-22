@@ -1,0 +1,193 @@
+[
+    {
+        "statementID": "openownership-register-12351506256175195553",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ALLWAG PROMOTIONS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03602082"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03602082",
+                "uri": "https://opencorporates.com/companies/gb/03602082"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92bca67e4ebf340198a51",
+                "uri": "http://register.openownership.org/entities/59b92bca67e4ebf340198a51"
+            }
+        ],
+        "foundingDate": "1998-07-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Bleak House, 146 High Street, Billericay, Essex, CM12 9DF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12314190310598526713",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12351506256175195553"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1231990670378480270"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-625910977558669251",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12351506256175195553"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10614649093505225095"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1231990670378480270",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Angela Jane Wagstaff"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03602082/persons-with-significant-control/individual/Je0MexHMiopFL5oDVkPGzbovTXw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92bca67e4ebf340198a67",
+                "uri": "http://register.openownership.org/entities/59b92bca67e4ebf340198a67"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-09-01",
+        "addresses": [
+            {
+                "address": "Bleak House, 146 High St, Billericay, Essex, CM12 9DF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10614649093505225095",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Alan Wagstaff"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03602082/persons-with-significant-control/individual/hCXmj_ZIRFRaJl5kQJtVsY88_hs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92bca67e4ebf340198a72",
+                "uri": "http://register.openownership.org/entities/59b92bca67e4ebf340198a72"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-11-01",
+        "addresses": [
+            {
+                "address": "Bleak House, 146 High St, Billericay, Essex, CM12 9DF",
+                "country": "GB"
+            }
+        ]
+    }
+]

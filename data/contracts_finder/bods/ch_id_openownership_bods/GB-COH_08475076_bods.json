@@ -1,0 +1,97 @@
+[
+    {
+        "statementID": "openownership-register-12722448753208493008",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "EXPANSE GROUP LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08475076"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08475076",
+                "uri": "https://opencorporates.com/companies/gb/08475076"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b75267e4ebf3407901c4",
+                "uri": "http://register.openownership.org/entities/59b9b75267e4ebf3407901c4"
+            }
+        ],
+        "foundingDate": "2013-04-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Dean Wood House Lafford Lane, Upholland, Skelmersdale, WN8 0QY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10373622109250115197",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12722448753208493008"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14385068484947281340"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-11-27T19:27:34Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14385068484947281340",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Anthony Mark Brown"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/08475076/persons-with-significant-control/individual/a6iMdlaAUWGrGEJJ4IFuiM402Bs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b75267e4ebf3407901d6",
+                "uri": "http://register.openownership.org/entities/59b9b75267e4ebf3407901d6"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1979-10-01",
+        "addresses": [
+            {
+                "address": "Dean Wood House, Lafford Lane, Upholland, Skelmersdale, WN8 0QY"
+            }
+        ]
+    }
+]
