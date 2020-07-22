@@ -9,7 +9,7 @@ from cove.input.models import SuppliedData
 from ocdskit.combine import merge
 
 from bluetail import models
-from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON, OCDSPackageDataJSON, OCDSRecordJSON, BODSStatementJSON, OCDSParty
+from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON, OCDSPackageDataJSON, OCDSRecordJSON, BODSStatementJSON, OCDSTenderer
 
 logger = logging.getLogger('django')
 
@@ -158,7 +158,7 @@ class BodsHelperFunctions():
                 if ch_ids:
                     ch_id = str(ch_ids[0]["id"]).upper()
                     owned_company_numbers.append(ch_id)
-                    parties_with_ch_id = OCDSParty.objects.filter(party_identifier_scheme='GB-COH', party_identifier_id=ch_id)
+                    parties_with_ch_id = OCDSTenderer.objects.filter(party_identifier_scheme='GB-COH', party_identifier_id=ch_id)
                     for party in parties_with_ch_id:
                         ocids.append(party.ocid)
 
