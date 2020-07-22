@@ -3,6 +3,7 @@ from collections import defaultdict
 
 from django.core.management import BaseCommand
 
+from bluetail import helpers
 from bluetail.helpers import BodsHelperFunctions
 from bluetail.models import Flag, FlagAttachment, OCDSParty, OCDSTender, ExternalPerson, BODSPersonStatement
 
@@ -17,6 +18,7 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         self.flag_within_contracts()
         self.flag_external_people()
+        self.flag_tenders_linked_to_external_people()
 
     def flag_within_contracts(self):
         person_in_multiple_applications_to_tender = Flag.objects.get(
@@ -92,6 +94,42 @@ class Command(BaseCommand):
                                     external_person.identifier
                                 )
                             ))
+
+    def flag_tenders_linked_to_external_people(self):
+        people = BODSPersonStatement.objects.all()
+        for person in people:
+            for identifier in person.identifiers_json:
+                external_people = ExternalPerson.match(
+                    scheme=identifier['schemeName'],
+                    identifier=identifier['id']
+                )
+                if external_people:
+                    related_ocids = helpers.BodsHelperFunctions().get_related_tender_ocids_for_bods_person(person)
+                    for external_person in external_people:
+                        for ocid in related_ocids:
+                            fa, created = FlagAttachment.objects.get_or_create(
+                                ocid=ocid,
+                                identifier_schemeName=external_person.scheme,
+                                identifier_id=external_person.identifier,
+                                flag_name=external_person.flag
+                            )
+                            if created:
+                                self.stdout.write(self.style.SUCCESS(
+                                    "{}:{}:{} -> {}\n".format(
+                                        ocid,
+                                        fa.identifier_schemeName,
+                                        fa.identifier_id,
+                                        fa.flag_name
+                                    )
+                                ))
+                            else:
+                                self.stdout.write(self.style.WARNING(
+                                    "Existing record found for {}:{}".format(
+                                        external_person.scheme,
+                                        external_person.identifier
+                                    )
+                                ))
+
 
     def _create_flag_attachment(self, ocid, identifier, flag):
         fa, created = FlagAttachment.objects.get_or_create(
