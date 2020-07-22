@@ -99,6 +99,9 @@ class Command(BaseCommand):
         people = BODSPersonStatement.objects.all()
         for person in people:
             for identifier in person.identifiers_json:
+                # Skip identifiers that are not the OpenOwnership register to avoid duplicates
+                if identifier['schemeName'] != "OpenOwnership Register":
+                    continue
                 external_people = ExternalPerson.match(
                     scheme=identifier['schemeName'],
                     identifier=identifier['id']
