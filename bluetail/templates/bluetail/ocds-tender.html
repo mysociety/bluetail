@@ -31,7 +31,7 @@
 
     <div class="application-summaries">
       {% for tenderer in tenderers %}
-        {% include "partials/ocds-tenders-received-row.html" with tenderer=tenderer id=tenderer.party_id name=tenderer.party_name errors=tenderer.total_errors warnings=tenderer.total_warnings %}
+        {% include "bluetail/partials/ocds-tenders-received-row.html" with tenderer=tenderer id=tenderer.party_id name=tenderer.party_name errors=tenderer.total_errors warnings=tenderer.total_warnings %}
       {% endfor %}
     </div>
 

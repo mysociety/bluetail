@@ -13,7 +13,7 @@ from bluetail.models import OCDSTender, OCDSParty, BODSEntityStatement, \
 
 
 class OCDSTenderList(ListView):
-    template_name = "ocds-tender-list.html"
+    template_name = "bluetail/ocds-tender-list.html"
     context_object_name = 'tenders'
 
     def get_queryset(self, **kwargs):
@@ -43,7 +43,7 @@ class OCDSTenderList(ListView):
 
 class OCDSTenderDetailView(DetailView):
     model = OCDSTender
-    template_name = "ocds-tender.html"
+    template_name = "bluetail/ocds-tender.html"
     queryset = OCDSTender.objects.all()
 
     def get_context_data(self, **kwargs):
@@ -73,7 +73,7 @@ class OCDSTenderDetailView(DetailView):
 
 
 class OCDSTendererDetailView(TemplateView):
-    template_name = "ocds-tender-tenderer.html"
+    template_name = "bluetail/ocds-tender-tenderer.html"
 
     def get_context_data(self, ocid, tenderer_id, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -107,18 +107,18 @@ class OCDSTendererDetailView(TemplateView):
 
 
 class BODSPersonStatementView(DetailView):
-    template_name = "bods_statement.html"
+    template_name = "bluetail/bods_statement.html"
     model = BODSPersonStatement
     queryset = BODSPersonStatement.objects.all()
 
 
 class BODSEntityStatementView(DetailView):
-    template_name = "bods_statement.html"
+    template_name = "bluetail/bods_statement.html"
     model = BODSEntityStatement
     queryset = BODSEntityStatement.objects.all()
 
 
 class BODSOwnershipStatementView(DetailView):
-    template_name = "bods_statement.html"
+    template_name = "bluetail/bods_statement.html"
     model = BODSOwnershipStatement
     queryset = BODSOwnershipStatement.objects.all()

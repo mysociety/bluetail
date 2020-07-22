@@ -6,13 +6,13 @@
         <span class="mr-auto">{{ person.fullName }}</span>
         {% if flags.total_errors %}
             <span class="ml-2 badge badge-pill badge-danger d-flex">
-            {% include "icons/prohibited.html" with classes="icon mr-1" %}
+            {% include "bluetail/icons/prohibited.html" with classes="icon mr-1" %}
             {{ flags.total_errors }}
         </span>
         {% endif %}
         {% if flags.total_warnings %}
             <span class="ml-2 badge badge-pill badge-warning d-flex">
-            {% include "icons/exclamation.html" with classes="icon mr-1" %}
+            {% include "bluetail/icons/exclamation.html" with classes="icon mr-1" %}
             {{ flags.total_warnings }}
         </span>
         {% endif %}
