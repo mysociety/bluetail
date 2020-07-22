@@ -1,8 +1,14 @@
-.bods-application-page {
+.application-page {
     h2 {
         @include font-size($h4-font-size);
         margin: ($spacer * 3) 0 ($spacer * 1.5) 0;
         padding-bottom: $spacer;
         border-bottom: 1px solid $border-color;
+    }
+
+    code {
+        background: $gray-200;
+        border-radius: 0.2em;
+        padding: 0.25em 0.4em;
     }
 }

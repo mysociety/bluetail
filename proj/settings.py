@@ -67,17 +67,16 @@ TEMPLATES = [
 
 MEDIA_ROOT = PROJECT_PATH + "/media/"
 
-# Define some custom locations at which the staticfiles app
-# can find our (mostly CSS and JavaScript) files.
-#
-# Rather than adding the entire "vendor" directory all in one go
-# (which would result in collectstatic having to copy *all* of the
-# files in the bootstrap submodule into our static directory),
-# we specify the path to the exact subdirectory we want from each
-# vendor, and give them each a namespace, so they’re easy to
-# reference in our templates.
+# Define some custom locations at which the staticfiles app can find our
+# files, which it will collect in the directory defined by `STATIC_ROOT`.
+# django-pipeline will then compile them from there (if required).
 STATICFILES_DIRS = (
     os.path.join(PROJECT_PATH, "web"),
+    os.path.join(PROJECT_PATH, "bluetail", "web"),
+    (
+        "bootstrap",
+        os.path.join(PROJECT_PATH, "vendor", "bootstrap", "scss"),
+    ),
     (
         "html5shiv",
         os.path.join(PROJECT_PATH, "vendor", "html5shiv"),
@@ -183,11 +182,4 @@ PIPELINE = {
     # Use the libsass commandline tool (that's bundled with libsass) as our
     # sass compiler, so there's no need to install anything else.
     'SASS_BINARY': SASSC_LOCATION,
-
-    # Add the bootstrap sass directory to libsass load path so that we don’t
-    # have to use `../../vendor/bootstrap/scss` paths in our Sass @imports.
-    # NOTE: If a file with the same name exists in both `/web/sass/…` and
-    # `/vendor/bootstrap/scss/…`, the `/web/sass` version will be chosen
-    # by libsass, and the `/vendor/bootstrap` version will be ignored.
-    'SASS_ARGUMENTS': '-I ' + os.path.join(PROJECT_PATH, "vendor", "bootstrap", "scss"),
 }

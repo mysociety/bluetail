@@ -1,13 +1,62 @@
 @charset "utf-8";
 
+// A NOTE ABOUT FILE PATHS
+//
+// django.contrib.staticfiles copies this file into `<project>/static/`
+// (along with any other files/directories defined in `STATICFILES_DIRS`)
+// and then django-pipeline compiles the Sass files from there.
+//
+// So imports in this file are relative to `<project>/static/sass/main.scss`,
+// not `<project>/web/sass/main.scss`.
+//
+// That’s why `@import "../bootstrap/<whatever>" works – because at the
+// point the Sass files are compiled, django.contrib.staticfiles has
+// already copied the Bootstrap sass files into `<project>/static/bootstrap/`.
+
 @import "bluetail/variables";
 
-// TODO: Should really import only the bootstrap
-// components we need, rather than the whole lot.
-@import "bootstrap";
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+@import "../bootstrap/mixins";
+@import "../bootstrap/root";
+@import "../bootstrap/reboot";
+@import "../bootstrap/type";
+@import "../bootstrap/images";
+@import "../bootstrap/code";
+@import "../bootstrap/grid";
+@import "../bootstrap/tables";
+@import "../bootstrap/forms";
+@import "../bootstrap/buttons";
+@import "../bootstrap/transitions";
+@import "../bootstrap/dropdown";
+@import "../bootstrap/button-group";
+@import "../bootstrap/input-group";
+@import "../bootstrap/custom-forms";
+@import "../bootstrap/nav";
+@import "../bootstrap/navbar";
+@import "../bootstrap/card";
+@import "../bootstrap/breadcrumb";
+// @import "../bootstrap/pagination";
+@import "../bootstrap/badge";
+// @import "../bootstrap/jumbotron";
+// @import "../bootstrap/alert";
+// @import "../bootstrap/progress";
+// @import "../bootstrap/media";
+@import "../bootstrap/list-group";
+// @import "../bootstrap/close";
+// @import "../bootstrap/toasts";
+// @import "../bootstrap/modal";
+// @import "../bootstrap/tooltip";
+// @import "../bootstrap/popover";
+// @import "../bootstrap/carousel";
+// @import "../bootstrap/spinners";
+@import "../bootstrap/utilities";
+@import "../bootstrap/print";
 
 @import "bluetail/icon";
-@import "bluetail/site-footer";
 @import "bluetail/application-summaries";
 @import "bluetail/application-page";
 @import "bluetail/scorecards";
+
+@import "site-header";
+@import "site-footer";
