@@ -1,0 +1,212 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7c824481-e67b-4727-85d0-d4c744771e95.json",
+  "version": "1.1",
+  "publishedDate": "2019-12-12T08:39:27Z",
+  "publisher": {
+    "name": "Wakefield and District Housing",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-dfd888fe-5fff-4d2f-8e1c-e0b82c715a3a",
+      "id": "ocds-b5fd17-dfd888fe-5fff-4d2f-8e1c-e0b82c715a3a-331852-dn442603",
+      "date": "2019-08-23T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "eb1a2f851cae6114549fbb19b0df3cdd",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/552BbKNx",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Wakefield and District Housing",
+          "address": {
+            "streetAddress": "Merefield House, Whistler Drive ",
+            "locality": "CASTLEFORD",
+            "region": null,
+            "postalCode": "WF105HX",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Nigel Robson",
+            "email": "procurement@wdh.co.uk",
+            "telephone": "01977 724444",
+            "faxNumber": null,
+            "uri": "www.wdh.co.uk"
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC348998",
+            "scheme": "GB-COH",
+            "legalName": "MCHALE CONTRACTS AND PLANT ENVIRONMENTAL LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MCHALE CONTRACTS AND PLANT ENVIRONMENTAL LLP",
+          "address": {
+            "streetAddress": "South Bradford Trading Estate,Spartan Road\nBRADFORD\nWest Yorkshire\nBD12 0RY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Andrew Stubbs",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01912115",
+            "scheme": "GB-COH",
+            "legalName": "TERSUS CONSULTANCY LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TERSUS CONSULTANCY LIMITED",
+          "address": {
+            "streetAddress": "The Hyde\nBRIGHTON\nEast Sussex\nBN2 4JE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Joanne Hodgkiss",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-dfd888fe-5fff-4d2f-8e1c-e0b82c715a3a-dn442603",
+        "title": "ASBESTOS SURVEYS",
+        "description": "Asbestos surveys to properties owned and managed by Wakefield and District Housing Limited. Including Management Surveys, Refurbishment and Demolition Surveys and Re-inspection of materials previously identified Surveys.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90650000",
+              "description": "Asbestos removal services",
+              "uri": "http://cpv.data.ac.uk/code-90650000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 622000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-15T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "MCHALE CONTRACTS AND PLANT ENVIRONMENTAL LLP"
+          },
+          {
+            "id": "3",
+            "name": "TERSUS CONSULTANCY LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-01T00:00:00Z",
+          "endDate": "2022-12-22T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "eb1a2f851cae6114549fbb19b0df3cdd",
+        "name": "Wakefield and District Housing"
+      },
+      "awards": [
+        {
+          "id": "4cb1f6c3-3c36-436d-8507-d90c8d59bd3b",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-04T00:00:00Z",
+          "value": {
+            "amount": 622000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "MCHALE CONTRACTS AND PLANT ENVIRONMENTAL LLP"
+            },
+            {
+              "id": "3",
+              "name": "TERSUS CONSULTANCY LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-01T00:00:00Z",
+            "endDate": "2022-12-22T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

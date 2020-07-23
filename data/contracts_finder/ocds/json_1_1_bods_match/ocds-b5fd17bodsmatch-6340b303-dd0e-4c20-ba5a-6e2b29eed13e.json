@@ -1,0 +1,271 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ac64cbd3-8b4e-460b-978f-5902fa4f9ff1.json",
+  "version": "1.1",
+  "publishedDate": "2019-11-07T11:33:21Z",
+  "publisher": {
+    "name": "ROYAL BOTANIC GARDENS, KEW",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-6340b303-dd0e-4c20-ba5a-6e2b29eed13e",
+      "id": "ocds-b5fd17-6340b303-dd0e-4c20-ba5a-6e2b29eed13e-324458-rbgkew-715",
+      "date": "2019-07-10T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "3b32e03bf9fb31f2d7913f451c9b549a",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/EM5q33BA",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "ROYAL BOTANIC GARDENS, KEW",
+          "address": {
+            "streetAddress": "Kew Green ",
+            "locality": "RICHMOND",
+            "region": null,
+            "postalCode": "TW93AB",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "David Golledge",
+            "email": "d.golledge@kew.org",
+            "telephone": "07398 204947",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00245380",
+            "scheme": "GB-COH",
+            "legalName": "SPEEDY HIRE (UK) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SPEEDY HIRE (UK) LIMITED",
+          "address": {
+            "streetAddress": "9 Tritton Road Trading Estate Chieftain Way\nLN6 7RY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 20000
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00644490",
+            "scheme": "GB-COH",
+            "legalName": "HSS HIRE SERVICE GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HSS HIRE SERVICE GROUP LIMITED",
+          "address": {
+            "streetAddress": "25 Willow Lane\nMITCHAM\nSURREY\nCR4 4TS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 20000
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-6340b303-dd0e-4c20-ba5a-6e2b29eed13e-rbgkew",
+        "title": "Provision of Emergency Equipment",
+        "description": "Provision of emergency equipment for a period of one (1) year following exit of primary estates outsource partner.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "31100000",
+              "description": "Electric motors, generators and transformers",
+              "uri": "http://cpv.data.ac.uk/code-31100000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "31500000",
+              "description": "Lighting equipment and electric lamps",
+              "uri": "http://cpv.data.ac.uk/code-31500000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "31600000",
+              "description": "Electrical equipment and apparatus",
+              "uri": "http://cpv.data.ac.uk/code-31600000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44100000",
+              "description": "Construction materials and associated items",
+              "uri": "http://cpv.data.ac.uk/code-44100000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44200000",
+              "description": "Structural products",
+              "uri": "http://cpv.data.ac.uk/code-44200000.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44300000",
+              "description": "Cable, wire and related products",
+              "uri": "http://cpv.data.ac.uk/code-44300000.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44400000",
+              "description": "Miscellaneous fabricated products and related items",
+              "uri": "http://cpv.data.ac.uk/code-44400000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 20000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 80000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "direct",
+        "procurementMethodDetails": "Single tender action (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "SPEEDY HIRE (UK) LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "HSS HIRE SERVICE GROUP LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-08-06T00:00:00Z",
+          "endDate": "2020-08-05T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "3b32e03bf9fb31f2d7913f451c9b549a",
+        "name": "ROYAL BOTANIC GARDENS, KEW"
+      },
+      "awards": [
+        {
+          "id": "f0d76bfa-875a-47c6-8ef0-299713740ce8",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-08-01T00:00:00Z",
+          "value": {
+            "amount": 80000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "SPEEDY HIRE (UK) LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "HSS HIRE SERVICE GROUP LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-08-06T00:00:00Z",
+            "endDate": "2020-08-05T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

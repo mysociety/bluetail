@@ -1,0 +1,412 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/340aaaf1-61f9-4734-a05a-c108e9ed8adb.json",
+  "version": "1.1",
+  "publishedDate": "2019-12-19T19:29:36Z",
+  "publisher": {
+    "name": "ATTAIN HEALTH MANAGEMENT SERVICES LTD",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-b0c6515a-a890-43e3-81ee-aeffced5e859",
+      "id": "ocds-b5fd17-b0c6515a-a890-43e3-81ee-aeffced5e859-333585-ace---0355-2019---mid",
+      "date": "2019-05-27T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "61a7cfc065772a881cfc65d7105c7cd5",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/5zHT2gb5",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "ATTAIN HEALTH MANAGEMENT SERVICES LTD",
+          "address": {
+            "streetAddress": "NHS Mid Essex CCG, Wren House, Hedgerows Business Park, Colchester Road,",
+            "locality": "Chelmsford",
+            "region": null,
+            "postalCode": "CM2 5PF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Cariad Burgess",
+            "email": "Cariad.Burgess@Attain.co.uk",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "www.midessexccg.nhs.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06470511",
+            "scheme": "GB-COH",
+            "legalName": "ACTIVE ASSISTANCE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ACTIVE ASSISTANCE LIMITED",
+          "address": {
+            "streetAddress": "1 Suffolk Way\nSEVENOAKS\nKent\nTN13 1YL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "08827331",
+            "scheme": "GB-COH",
+            "legalName": "CHENAI HOLISTIC HOME CARE AGENCY LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CHENAI HOLISTIC HOME CARE AGENCY LTD",
+          "address": {
+            "streetAddress": "Yew Tree Avenue\nDAGENHAM\nEssex\nRM10 7XS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04522416",
+            "scheme": "GB-COH",
+            "legalName": "COMPLETE CARE HOLDINGS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "COMPLETE CARE HOLDINGS LIMITED",
+          "address": {
+            "streetAddress": "Unit 1310 Solihull Parkway\nBIRMINGHAM\nWest Midlands\nB37 7YB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Simon Sinclair",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02665898",
+            "scheme": "GB-COH",
+            "legalName": "ENS RECRUITMENT LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ENS RECRUITMENT LIMITED",
+          "address": {
+            "streetAddress": "22-24 Hamlet Court Road\nSS0 7LX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Catherine Lawrence",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "08782207",
+            "scheme": "GB-COH",
+            "legalName": "GLENAVON CARE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "GLENAVON CARE LIMITED",
+          "address": {
+            "streetAddress": "80-86 New London Road\nCHELMSFORD\nEssex\nCM2 0PD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Adam Daly",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04862206",
+            "scheme": "GB-COH",
+            "legalName": "INDEPENDENT COMMUNITY CARE MANAGEMENT LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "INDEPENDENT COMMUNITY CARE MANAGEMENT LIMITED",
+          "address": {
+            "streetAddress": "2 Swallow Court Kettering Parkway\nKETTERING\nNORTHAMPTONSHIRE\nNN15 6XX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Emma Mugridge",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02958051",
+            "scheme": "GB-COH",
+            "legalName": "SUGARMAN HEALTH AND WELLBEING LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SUGARMAN HEALTH AND WELLBEING LIMITED",
+          "address": {
+            "streetAddress": "Hillingdon\nUXBRIDGE\nMiddlesex\nUB10 9PF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sadek Ahmed",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b0c6515a-a890-43e3-81ee-aeffced5e859-ace---0355-2019---mid",
+        "title": "Complex and Non-Complex Domiciliary Care Service Pseudo Dynamic Purchasing System for NHS Mid Essex CCG",
+        "description": "NHS Mid Essex CCG was seeking suitably qualified providers for the provision of complex and non-complex domiciliary care for adults. This service was in lots, with Lot 1 for complex and high levels of domiciliary care needs and Lot 2 for non-complex, moderate and low domiciliary care needs. The intention was to formally procure this new pseudo dynamic purchasing system with suitably qualified providers that was to be operational from 7.11.2019 for a period of 36 months plus the option to extend for a further 24 months. This Framework may be used at any point in the life of contract by: NHS Basildon and Brentwood, Castle Point and Rochford, Southend and Thurrock CCGs. Should any of the above named CCGs wish to join this framework, the documents will be amended accordingly to reflect their activity data. 13 Providers have been awarded on this round of the PDPS. The total aggregate contract value is &pound;43.5M for the 3 years plus the option to extend for a further 2 years (5 years total) however there is no guaranteed activity within this contract and Providers will receive payment upon actual service delivery. The establishment of this pseudo dynamic purchasing system (PDPS) was intended to procure these services which fall within the light-touch regime (LTR - PCR 2015 Regulations 74-77). The Pseudo DPS will in many respects look and feel like a DPS set up under PCR 2015 Regulation 34, but the flexibility of the LTR will apply. None of the formal procedural rules have any direct application including the requirements of Regulation 34. The contracting authorities make this distinction to avoid implying that they will follow, or be bound by, the full procurement regime under PCR 2015 for this procurement. Future opportunities for organisations to express an interest in this framework will be advertised in January 2020. Potential bidders can request to participate by completing a qualification questionnaire to demonstrate how they meet the stated minimum selection criteria. In addition, potential bidders who wish to join the PDPS must provide information about their proposed ability to provide Complex and Non-Complex Domiciliary Care Services. The tender documents issued by contracting authorities for specific call-offs under this PDPS will fully confirm the specific terms and conditions applicable for the provision of services. Call-off contracts will be awarded by further competition via an invitation to tender issued by any of the participating contracting authorities. Providing that a potential bidder on the approved provider list has been identified as eligible to bid for a particular call-off contract via the PDPS filtering process, and they continue to meet the minimum selection criteria, they will be able to bid for the call-off contract. Should you require any information regarding this PDPS in between rounds please contact the email",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85100000",
+              "description": "Health services",
+              "uri": "http://cpv.data.ac.uk/code-85100000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 43500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-19T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 7,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ACTIVE ASSISTANCE LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "CHENAI HOLISTIC HOME CARE AGENCY LTD"
+          },
+          {
+            "id": "6",
+            "name": "COMPLETE CARE HOLDINGS LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "ENS RECRUITMENT LIMITED"
+          },
+          {
+            "id": "8",
+            "name": "GLENAVON CARE LIMITED"
+          },
+          {
+            "id": "9",
+            "name": "INDEPENDENT COMMUNITY CARE MANAGEMENT LIMITED"
+          },
+          {
+            "id": "13",
+            "name": "SUGARMAN HEALTH AND WELLBEING LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-11-07T00:00:00Z",
+          "endDate": "2022-11-08T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "61a7cfc065772a881cfc65d7105c7cd5",
+        "name": "ATTAIN HEALTH MANAGEMENT SERVICES LTD"
+      },
+      "awards": [
+        {
+          "id": "75aa39ea-f5d8-413b-8b9b-6b0aa88d6192",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-11-18T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ACTIVE ASSISTANCE LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "CHENAI HOLISTIC HOME CARE AGENCY LTD"
+            },
+            {
+              "id": "6",
+              "name": "COMPLETE CARE HOLDINGS LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "ENS RECRUITMENT LIMITED"
+            },
+            {
+              "id": "8",
+              "name": "GLENAVON CARE LIMITED"
+            },
+            {
+              "id": "9",
+              "name": "INDEPENDENT COMMUNITY CARE MANAGEMENT LIMITED"
+            },
+            {
+              "id": "13",
+              "name": "SUGARMAN HEALTH AND WELLBEING LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-11-19T00:00:00Z",
+            "endDate": "2022-11-08T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

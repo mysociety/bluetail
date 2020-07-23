@@ -1,0 +1,491 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/06791ea2-bafa-4c08-a15f-7381d1a1081f.json",
+  "version": "1.1",
+  "publishedDate": "2019-11-08T10:06:58Z",
+  "publisher": {
+    "name": "UK SHARED BUSINESS SERVICES LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-e87405a3-adc9-11e6-9901-0019b9f3037b",
+      "id": "ocds-b5fd17-e87405a3-adc9-11e6-9901-0019b9f3037b-324700-ojeu-cr16026bis",
+      "date": "2016-08-26T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "9a914d9910110c5c4982056f38148323",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/dXGP288m",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "UK SHARED BUSINESS SERVICES LIMITED",
+          "address": {
+            "streetAddress": "UK Shared Business Services North Star House, North Star Avenue",
+            "locality": "Swindon",
+            "region": null,
+            "postalCode": "SN1 2FF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "research@uksbs.co.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03069806",
+            "scheme": "GB-COH",
+            "legalName": "WINNING MOVES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "WINNING MOVES LIMITED",
+          "address": {
+            "streetAddress": "Broad Street\nBIRMINGHAM\nWEST MIDLANDS\nB1 2ND\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05087808",
+            "scheme": "GB-COH",
+            "legalName": "3KQ LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "3KQ LIMITED",
+          "address": {
+            "streetAddress": "Murley Moss Business Park\nKENDAL\nCumbria\nLA9 7RL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Rhuari Bennett",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "09093788",
+            "scheme": "GB-COH",
+            "legalName": "HOPKINS VAN MIL: CREATING CONNECTIONS LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HOPKINS VAN MIL: CREATING CONNECTIONS LTD",
+          "address": {
+            "streetAddress": "6 Deans Yard\nLONDON\nSW1P 3NP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Henrietta Hopkins",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04287646",
+            "scheme": "GB-COH",
+            "legalName": "ICARUS COLLECTIVE LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ICARUS COLLECTIVE LTD",
+          "address": {
+            "streetAddress": "THE OLD VICARAGE ST. JOHN STREET\nASHBOURNE\nDERBYSHIRE\nDE6 1GP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Helen Bovey",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01640855",
+            "scheme": "GB-COH",
+            "legalName": "IPSOS MORI UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "IPSOS MORI UK LIMITED",
+          "address": {
+            "streetAddress": "79-81 BOROUGH ROAD\nLONDON\nSE1 1FY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Paul Harvey",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02343617",
+            "scheme": "GB-COH",
+            "legalName": "OFFICE FOR PUBLIC MANAGEMENT LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "OFFICE FOR PUBLIC MANAGEMENT LIMITED",
+          "address": {
+            "streetAddress": "252b Grays Inn Road\nWC1X 8JT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Richard Peacock",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06600181",
+            "scheme": "GB-COH",
+            "legalName": "COLLINGWOOD ENVIRONMENTAL PLANNING LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "COLLINGWOOD ENVIRONMENTAL PLANNING LIMITED",
+          "address": {
+            "streetAddress": "Unit 1e, The Chandlery\nLONDON\nSE1 7QY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Rolands Sadauskis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05326647",
+            "scheme": "GB-COH",
+            "legalName": "URSUS CONSULTING LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "URSUS CONSULTING LIMITED",
+          "address": {
+            "streetAddress": "5 St. Marks Road\nLEAMINGTON SPA\nWARWICKSHIRE\nCV32 6DL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-e87405a3-adc9-11e6-9901-0019b9f3037b-ojeu-cr16026bis",
+        "title": "Sciencewise",
+        "description": "The Sciencewise programme supports Government policy making around emerging technologies by engaging the public through the use of deliberative dialogue mechanisms to better understand their concerns and aspirations.\r\nIt is the intention of BIS to deliver the programme through a Framework with 3 Lots.  \r\nThrough Lot 1, the successful bidder or bidders will support BIS in running the programme by providing dialogue expertise, including, but not necessarily limited to, all stages of the dialogue commissioning and delivery process. A maximum funding of up to \u00a3200k pa will be offered for this.\r\nBIS will be responsible for overall management of the Sciencewise programme. This will include sourcing new public dialogue projects to inform policy making on emerging technologies, leading on governance arrangements, approving project proposals, business cases and oversight and approval of project reporting. \r\nLot 2 will include dialogue delivery providers (to bid in to deliver dialogue projects supported through the Sciencewise programme) and Lot 3 will include dialogue evaluation contractors (to\r\nUK Shared Business Services eSourcing",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "73000000",
+              "description": "Research and development services and related consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-73000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71621000",
+              "description": "Technical analysis or consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71621000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72220000",
+              "description": "Systems and technical consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-72220000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72246000",
+              "description": "Systems consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-72246000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79400000",
+              "description": "Business and management consultancy and related services",
+              "uri": "http://cpv.data.ac.uk/code-79400000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2900000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2016-09-02T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 8,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "WINNING MOVES LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "3KQ LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "HOPKINS VAN MIL: CREATING CONNECTIONS LTD"
+          },
+          {
+            "id": "5",
+            "name": "ICARUS COLLECTIVE LTD"
+          },
+          {
+            "id": "6",
+            "name": "IPSOS MORI UK LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "OFFICE FOR PUBLIC MANAGEMENT LIMITED"
+          },
+          {
+            "id": "8",
+            "name": "COLLINGWOOD ENVIRONMENTAL PLANNING LIMITED"
+          },
+          {
+            "id": "12",
+            "name": "URSUS CONSULTING LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2016-10-03T00:00:00Z",
+          "endDate": "2020-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "9a914d9910110c5c4982056f38148323",
+        "name": "UK SHARED BUSINESS SERVICES LIMITED"
+      },
+      "awards": [
+        {
+          "id": "82975f31-10c6-4b0f-8550-1a2e11c84902",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2016-10-02T00:00:00Z",
+          "value": {
+            "amount": 649000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "WINNING MOVES LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "3KQ LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "HOPKINS VAN MIL: CREATING CONNECTIONS LTD"
+            },
+            {
+              "id": "5",
+              "name": "ICARUS COLLECTIVE LTD"
+            },
+            {
+              "id": "6",
+              "name": "IPSOS MORI UK LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "OFFICE FOR PUBLIC MANAGEMENT LIMITED"
+            },
+            {
+              "id": "8",
+              "name": "COLLINGWOOD ENVIRONMENTAL PLANNING LIMITED"
+            },
+            {
+              "id": "12",
+              "name": "URSUS CONSULTING LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2016-10-03T00:00:00Z",
+            "endDate": "2020-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

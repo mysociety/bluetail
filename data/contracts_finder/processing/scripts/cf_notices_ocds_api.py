@@ -1,5 +1,8 @@
 # coding=utf-8
 """
+Gets OCDS JSON notices from the Contracts Finder API, and insert 100 with sufficient content,
+with an option to update these using the existing OCIDs
+
 API Info
 
 https://content-api.publishing.service.gov.uk/#gov-uk-content-api
@@ -32,8 +35,14 @@ from ocdskit.upgrade import upgrade_10_11
 from ocdskit.combine import merge
 
 import requests
+import logging.config
+# logging.config.dictConfig({
+#     'version': 1,
+#     'disable_existing_loggers': True,
+# })
 
-logger = logging.getLogger('django')
+logger = logging.getLogger(__name__)
+# logging.basicConfig(level=logging.INFO)
 
 ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL")
 DATABASE_URL = os.environ.get('DATABASE_URL')
@@ -71,7 +80,7 @@ def session_with_backoff(
 
 
 def search(publishedFrom=None, publishedTo=None):
-    logger.info("Searching CF OCDS notices from {0} to {1}".format(publishedFrom, publishedTo))
+    logger.info("Searching CF OCDS award notices from {0} to {1}".format(publishedFrom, publishedTo))
 
     ocds_api_url = "https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search"
     max_page = 1
@@ -95,7 +104,6 @@ def search(publishedFrom=None, publishedTo=None):
 
     logger.info("Making CF OCDS API request. From %s to %s.", publishedFrom, publishedTo)
 
-    ocids = []
     session = session_with_backoff()
 
     while page <= max_page:
@@ -118,36 +126,17 @@ def search(publishedFrom=None, publishedTo=None):
             if ocid == 'ocds-b5fd17-':
                 continue
 
-            ocids.append(ocid)
             yield notice
         page += 1
         ocds_api_params["page"] = page
-
-
-def fix_buyer(ocds, notice):
-    try:
-        orig_buyer_name = ocds['releases'][0]['buyer']['name']
-        publisher_name = ocds['publisher']['name']
-        organisationName = notice['item']['organisationName']
-        if not orig_buyer_name:
-            logger.info("Updating buyer name in OCDS from the CF notice.\n"
-                        "ocds['releases'][0]['buyer']['name'] = {0}\n"
-                        "notice['item']['organisationName'] = {1}\n".format(
-                orig_buyer_name,
-                organisationName
-            ))
-            ocds['releases'][0]['buyer']['name'] = organisationName
-        # fixedocds['releases'][0]['tender']['procuringEntity']['buyer']['name'] = publisher_name
-        return ocds
-    except:
-        logger.critical("Error updating CF notice buyer", exc_info=True)
 
 
 class CFDownload(object):
     def __init__(self, **kwargs):
 
         self.session = session_with_backoff()
-        self.skipped = 0
+        self.too_few_suppliers_skipped = 0
+        self.too_few_matched_suppliers_skipped = 0
         self.inserted = 0
         self.fromDate = None
         self.toDate = None
@@ -167,6 +156,10 @@ class CFDownload(object):
                 self.toDate = str(date.today())
 
     def get_notices(self, datasetpth='json_1_1_bods_match'):
+        """ Get notices from Contracts Finder API
+            With option of searching date periods
+            or searching existing OCIDs that have a sufficient number of matched suppliers.
+         """
         session = session_with_backoff()
         if self.saved_files:
             dirpath = os.path.join(OCDS_OUTPUT_DIR, datasetpth)
@@ -184,10 +177,11 @@ class CFDownload(object):
 
 
 def fix_cf_supplier_ids(json):
-    """Modify Contracts Finder OCDS JSON enough to be processed
-    """
+    """ Modify Contracts Finder OCDS JSON enough to be processed """
     try:
+        # Fixing to match current version, to be processed by ocdskit
         json['version'] = '1.0'
+        # Giving suppliers distinct IDs (source sets all supplier IDs to zero)
         for i, supplier in enumerate(json['releases'][0]['awards'][0]['suppliers']):
             json['releases'][0]['awards'][0]['suppliers'][i]['id'] = str(i)
     except:
@@ -198,7 +192,6 @@ def fix_cf_supplier_ids(json):
 # def get_and_insergett_1_1_json(row):
 def clean_and_convert_to_1_1(row):
     try:
-        # Fix json format
         rowjson = json.dumps(row)
         rowjson = json.loads(rowjson)
 
@@ -214,6 +207,7 @@ def clean_and_convert_to_1_1(row):
 
 
 def match_supplier_info(suppliername):
+    """ Adding supplier details from table where a match is found. """
     try:
         row = supplier_df.loc[suppliername]
         supplier_match = {
@@ -232,6 +226,7 @@ def get_company_statements(
         scheme='GB-COH',
         elastic_conn=Elasticsearch(ELASTICSEARCH_URL, verify_certs=True),
 ):
+    """ Check for an existing BODS document for a supplier ID """
     s = Search(using=elastic_conn, index="bods") \
         .filter("term", identifiers__scheme__keyword=scheme) \
         .filter("term", identifiers__id__keyword=company_id)
@@ -242,7 +237,7 @@ def get_company_statements(
 
 
 def update_parties(ocdsjson, dataset='bodsmatch'):
-    """ Change suppliers to tenderers """
+    """ Change suppliers to tenderers to reflect tender process. """
 
     parties = ocdsjson['releases'][0]['parties']
     newparties = []
@@ -357,18 +352,29 @@ def run(**kwargs):
         try:
 
             uri = notice_ocds_json["uri"]
+            ocid = notice_ocds_json["releases"][0]["ocid"]
+            number_of_suppliers = len(notice_ocds_json['releases'][0]['awards'][0]['suppliers'])
+            if number_of_suppliers < 2:
+                logger.debug('Notice %s contains less than 2 suppliers - skipping' % ocid)
+                downloader.too_few_suppliers_skipped += 1
+                continue
+
             notice_ocds_1_1_json = clean_and_convert_to_1_1(notice_ocds_json)
 
             # Convert award to tender
             dataset = kwargs.get('dataset')
             tenders_json = aws_to_tender(notice_ocds_1_1_json, dataset=dataset)
             if tenders_json['releases'][0]['tender']['numberOfTenderers'] < 2:
+                logger.debug('Notice %s has less than 2 matched suppliers - skipping' % ocid)
+                downloader.too_few_matched_suppliers_skipped += 1
                 continue
 
             clean_and_dump_1_1_tenders(tenders_json, dataset=dataset)
+            downloader.inserted += 1
 
             i += 1
             if i == 100:
+                logger.info('Inserted 100 notices')
                 break
 
         except KeyboardInterrupt:
@@ -379,7 +385,7 @@ def run(**kwargs):
 
     logger.info('Processed {0} notices.'.format(i))
     logger.info('Inserted {0} notices.'.format(downloader.inserted))
-    logger.info('Skipped {0} notices.'.format(downloader.skipped))
+    logger.info('Skipped {0} notices.'.format(downloader.too_few_suppliers_skipped + downloader.too_few_matched_suppliers_skipped))
 
 
 def create_parser():

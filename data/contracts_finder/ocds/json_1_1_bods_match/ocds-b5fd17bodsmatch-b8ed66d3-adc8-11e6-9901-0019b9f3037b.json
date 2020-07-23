@@ -1,0 +1,622 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/97d494c7-8a52-453a-b771-8bfeed25aea7.json",
+  "version": "1.1",
+  "publishedDate": "2019-11-22T14:21:51Z",
+  "publisher": {
+    "name": "PROCURE PLUS HOLDINGS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-b8ed66d3-adc8-11e6-9901-0019b9f3037b",
+      "id": "ocds-b5fd17-b8ed66d3-adc8-11e6-9901-0019b9f3037b-327941-2015-s-165-301104",
+      "date": "2015-09-11T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "c429b4d24084239845acaf8cf5153ae1",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/5wuN3tuF",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "PROCURE PLUS HOLDINGS LIMITED",
+          "address": {
+            "streetAddress": "Duckworth House, Lancastrian Office Centre Talbot Road",
+            "locality": "Manchester",
+            "region": null,
+            "postalCode": "M32 0FP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "frameworks@procure-plus.com",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "www.re-allies.com"
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03244506",
+            "scheme": "GB-COH",
+            "legalName": "PLP CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PLP CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "30 Rochdale Lane\nHEYWOOD\nOL10 1PF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06382267",
+            "scheme": "GB-COH",
+            "legalName": "ASPECT BUILDING SOLUTIONS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ASPECT BUILDING SOLUTIONS LIMITED",
+          "address": {
+            "streetAddress": "Asquith Avenue Business Park\nLEEDS\nWEST YORKSHIRE\nLS27 7RZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01236338",
+            "scheme": "GB-COH",
+            "legalName": "LINDUM GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "LINDUM GROUP LIMITED",
+          "address": {
+            "streetAddress": "Station Road\nLINCOLN\nLINCOLNSHIRE\nLN6 3QX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02519234",
+            "scheme": "GB-COH",
+            "legalName": "MEARS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MEARS LIMITED",
+          "address": {
+            "streetAddress": "Montpellier Court\nGLOUCESTER\nGLOUCESTERSHIRE\nGL3 4AH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06437711",
+            "scheme": "GB-COH",
+            "legalName": "STRATEGIC TEAM GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "STRATEGIC TEAM GROUP LIMITED",
+          "address": {
+            "streetAddress": "Strategic Business Centre\nWF10 4UA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04949492",
+            "scheme": "GB-COH",
+            "legalName": "TH MICHAELS (CONSTRUCTION) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TH MICHAELS (CONSTRUCTION) LIMITED",
+          "address": {
+            "streetAddress": "Crown House\nS4 7QG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "31",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00800556",
+            "scheme": "GB-COH",
+            "legalName": "BARDSLEY CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BARDSLEY CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Globe Lane, Globe Square\nSK16 4RG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "33",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02958435",
+            "scheme": "GB-COH",
+            "legalName": "CRUDEN GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CRUDEN GROUP LIMITED",
+          "address": {
+            "streetAddress": "Hillcrest, Knutsford Road, Grappenhall\nWARRINGTON\nCHESHIRE\nWA4 3LA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "34",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00190204",
+            "scheme": "GB-COH",
+            "legalName": "ERIC WRIGHT CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ERIC WRIGHT CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Sceptre House\nPR5 6AW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "43",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03578140",
+            "scheme": "GB-COH",
+            "legalName": "SEDDON CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SEDDON CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Plodder Lane,Edge Fold\nBOLTON\nLancashire\nBL4 0NN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "44",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01263512",
+            "scheme": "GB-COH",
+            "legalName": "TERMRIM CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TERMRIM CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "1 Pellon Place,Bradley Business Park Dyson Wood Way\nHUDDERSFIELD\nWest Yorkshire\nHD2 1GT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "45",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00545646",
+            "scheme": "GB-COH",
+            "legalName": "UNITED LIVING (NORTH) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "UNITED LIVING (NORTH) LIMITED",
+          "address": {
+            "streetAddress": "Azalea Drive\nSWANLEY\nKent\nBR8 8HU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b8ed66d3-adc8-11e6-9901-0019b9f3037b-2015/s-165-301104",
+        "title": "Framework Agreement for New Build",
+        "description": "Re:allies Works Ltd (Re:allies) is a social housing regeneration consortia. Its membership consists of regional housing consortia who bring together unmatched experience in procurement and regeneration. The membership currently consists of Procure Plus (PP), Efficiency North (EN) and Central Housing Consortium (CHIC). Further information can be found by visiting www.re-allies.com\r\nRe:allies wishes to procure and enter into a framework agreement with multiple contractors for the new build construction of residential and commercial buildings. The scope of works undertaken via the framework agreement will include site preparation, site remediation, associated civil engineering and infrastructure works, design, new build construction, refurbishment and the development of various property types. Contractors who are appointed to the framework agreement will be required to meet minimum training and employment targets that are linked to the works awarded via the framework agreement. Contractors will, where requested, be required to source goods, materials and services required for the works from framework agreements already established by Re:allies.\r\nThe framework agreement will allow contracting authorities named and referred to within this notice to enter into underlying contracts for the completion of the works covered by the framework agreement. The framework agreement is divided into 4 Lots and the details are as follows -\r\n1. Schemes up to a value of 2 000 000 GBP\r\nPredominantly the North West. This may extend to other areas of the UK.\r\n2. Schemes up to a value of 2 000 000 GBP\r\nPredominantly Yorkshire and Humberside. This may extend to other areas of the UK.\r\n3. Schemes with a value in excess of 2 000 000 GBP\r\nNorth West and Yorkshire and Humberside. This may extend to other areas of the UK.\r\n4. Offsite manufacture and construction\r\nNorth West and Yorkshire and Humberside. This may extend to other areas of the UK. \r\nBidders are advised that they are permitted to bid for one Lot only. Companies are not entitled to submit a bid for the framework agreement if -\r\n\u2014 They are within the same group of companies as any other company that is bidding for a place on the framework agreement; or\r\n\u2014 Any company in which it has an interest or shareholding is bidding for a place on framework agreement.\r\nRe:allies will be hosting a Bidders Day on 14.9.2015. The event will be held at Hotel Football, 99 Sir Matt Busby Way, Stretford, M16 0SZ. The purpose of the event is to give an overview of the opportunity and the procurement process. It will also be an opportunity for the Bidders to meet the Re:allies team. Registration instructions are located within the invitation to tender. \r\n\r\nAdditional details can be found in the attached Contract Notice.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44211000",
+              "description": "Prefabricated buildings",
+              "uri": "http://cpv.data.ac.uk/code-44211000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 836000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2015-09-25T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 12,
+        "tenderers": [
+          {
+            "id": "11",
+            "name": "PLP CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "14",
+            "name": "ASPECT BUILDING SOLUTIONS LIMITED"
+          },
+          {
+            "id": "21",
+            "name": "LINDUM GROUP LIMITED"
+          },
+          {
+            "id": "22",
+            "name": "MEARS LIMITED"
+          },
+          {
+            "id": "27",
+            "name": "STRATEGIC TEAM GROUP LIMITED"
+          },
+          {
+            "id": "29",
+            "name": "TH MICHAELS (CONSTRUCTION) LIMITED"
+          },
+          {
+            "id": "31",
+            "name": "BARDSLEY CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "33",
+            "name": "CRUDEN GROUP LIMITED"
+          },
+          {
+            "id": "34",
+            "name": "ERIC WRIGHT CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "43",
+            "name": "SEDDON CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "44",
+            "name": "TERMRIM CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "45",
+            "name": "UNITED LIVING (NORTH) LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2016-01-25T00:00:00Z",
+          "endDate": "2020-01-24T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "c429b4d24084239845acaf8cf5153ae1",
+        "name": "PROCURE PLUS HOLDINGS LIMITED"
+      },
+      "awards": [
+        {
+          "id": "70780d21-20db-4af4-b695-663bd68bb892",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2015-12-14T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "11",
+              "name": "PLP CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "14",
+              "name": "ASPECT BUILDING SOLUTIONS LIMITED"
+            },
+            {
+              "id": "21",
+              "name": "LINDUM GROUP LIMITED"
+            },
+            {
+              "id": "22",
+              "name": "MEARS LIMITED"
+            },
+            {
+              "id": "27",
+              "name": "STRATEGIC TEAM GROUP LIMITED"
+            },
+            {
+              "id": "29",
+              "name": "TH MICHAELS (CONSTRUCTION) LIMITED"
+            },
+            {
+              "id": "31",
+              "name": "BARDSLEY CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "33",
+              "name": "CRUDEN GROUP LIMITED"
+            },
+            {
+              "id": "34",
+              "name": "ERIC WRIGHT CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "43",
+              "name": "SEDDON CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "44",
+              "name": "TERMRIM CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "45",
+              "name": "UNITED LIVING (NORTH) LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2016-01-25T00:00:00Z",
+            "endDate": "2020-01-24T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

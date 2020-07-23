@@ -1,0 +1,212 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4be86e27-6a3f-4393-9f52-97075e99d360.json",
+  "version": "1.1",
+  "publishedDate": "2019-12-24T13:40:10Z",
+  "publisher": {
+    "name": "Countess Of Chester Hospital",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-9c77a42b-01b6-41d8-ac4e-ff77c2bd5e05",
+      "id": "ocds-b5fd17-9c77a42b-01b6-41d8-ac4e-ff77c2bd5e05-334446-f-062-loc-19-ib-award",
+      "date": "2019-09-16T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "1433c72b21ae23238caa4bf0ab3405a2",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/3B55jxc4",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Countess Of Chester Hospital",
+          "address": {
+            "streetAddress": "Liverpool Road ",
+            "locality": "CHESTER",
+            "region": null,
+            "postalCode": "CH21UL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "coc-tr.COCH-commercial-procurement-services@nhs.net",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "www.nhssourcing.co.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03669454",
+            "scheme": "GB-COH",
+            "legalName": "STRYKER UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "STRYKER UK LIMITED",
+          "address": {
+            "streetAddress": "Hambridge Road\nNEWBURY\nBERKSHIRE\nRG14 5AW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jennie Rose",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02598523",
+            "scheme": "GB-COH",
+            "legalName": "SYSMEX UK LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SYSMEX UK LIMITED",
+          "address": {
+            "streetAddress": "Sysmex House Garamonde Drive\nMK8 8DF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sysmex Contracts",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-9c77a42b-01b6-41d8-ac4e-ff77c2bd5e05-f/062/loc/19/ib-award",
+        "title": "National Framework Agreement for Non-Wire Lesion Localisation &amp; Sentinel Lymph Node Location Products",
+        "description": "The Countess of Chester Hospital NHS Foundation Trust, through its Commercial Procurement Services, wishes to award a national framework agreement with four Lots:\r\n\r\nLot 1a - supply of non-wire lesion localisation detectors.\r\nLot 1b - supply of non-wire lesion localisation implants &amp; associated implantation devices.\r\nLot 2a - supply of sentinel lymph node location detectors.\r\nLot 2b - supply of sentinel lymph node location tracer fluids, except radioisotopes.\r\n\r\nTenders may be submitted for one or more Lots.\r\n\r\nSuppliers Instructions How to Express Interest and bid for this Tender:\r\n1. Browse to the esourcing portal https://www.nhssourcing.co.uk and click on view current opportunities\r\n2. Select the title of the ITT.\r\n3. Review the ITT, Framework Agreement Specification, Prerequisites and List of Eligible Users (you may do this without registering).\r\n4. Register your organisation on the eSourcing portal (this is only required once).\r\n5. Accept the portal terms and conditions and click &#039;continue&#039;, Enter your organisation and user details, Note the username you chose and click &#039;Save&#039; when complete You will shortly receive an e-mail with your unique password (please keep this secure).\r\n6. Login to the portal with the username/password.\r\n7. Click the &#039;PQQs/ITTs Open To All Suppliers&#039; link. (These are Pre-Qualification Questionnaires or Invitations to Tender open to any registered supplier)\r\n8. Click on the relevant PQQ/ITT to access the content.\r\n9. Click the &#039;Express Interest&#039; button at the top of the page This will move the PQQ/ITT into your &#039;My PQQs/My ITTs&#039; page. (This is a secure area reserved for your projects only). You can now access any attachments by clicking &#039;Buyer Attachments&#039; in the &#039;PQQ/ITT Details&#039; box.\r\n10. Responding to the ITT. Click &#039;My Response&#039; under &#039;PQQ/ITT Details&#039;, you can choose to &#039;Create Response&#039; or to &#039;Decline to Respond&#039; (please give a reason if declining) You can now use the Messages function to communicate with the buyer and seek any clarification Note the deadline for completion, then follow the on-screen instructions to complete the ITT There may be a mixture of online and offline actions for you to perform (there is detailed online help available) You must then submit your reply using the &#039;Submit Response&#039; button at the top of the page. If you require any further assistance please consult the online help, or contact the eTendering help desk.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "33100000",
+              "description": "Medical equipments",
+              "uri": "http://cpv.data.ac.uk/code-33100000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-18T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "STRYKER UK LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "SYSMEX UK LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-01T00:00:00Z",
+          "endDate": "2024-12-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "1433c72b21ae23238caa4bf0ab3405a2",
+        "name": "Countess Of Chester Hospital"
+      },
+      "awards": [
+        {
+          "id": "0d288ce6-db1a-478a-8055-617272752bea",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-13T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "STRYKER UK LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "SYSMEX UK LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-12-20T00:00:00Z",
+            "endDate": "2023-12-19T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6217d37b-b2c5-479a-926c-2bde68172b69.json",
+  "version": "1.1",
+  "publishedDate": "2020-06-03T09:23:58Z",
+  "publisher": {
+    "name": "South Tyneside Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-5fc5b7b2-c523-405a-a682-c03c9e23ee6a",
+      "id": "ocds-b5fd17-5fc5b7b2-c523-405a-a682-c03c9e23ee6a-361888-nepo419",
+      "date": "2019-11-11T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "2945b91cc07b9ea7cdd7c30f4affe145",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/BpB93Ch9",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "South Tyneside Council",
+          "address": {
+            "streetAddress": "Town Hall, Westoe Road ",
+            "locality": "South Shields",
+            "region": null,
+            "postalCode": "NE332RL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Shona Mac Daid",
+            "email": "shona.macdaid@southtyneside.gov.uk",
+            "telephone": "07436283839",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04146587",
+            "scheme": "GB-COH",
+            "legalName": "1ST COVERALL COMPANY LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "1ST COVERALL COMPANY LIMITED",
+          "address": {
+            "streetAddress": "Unit 10 Tovil Green Business Park Burial Ground Lane\nME15 6TA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03779287",
+            "scheme": "GB-COH",
+            "legalName": "SMI GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SMI GROUP LIMITED",
+          "address": {
+            "streetAddress": "Curlew Street\nSE1 2ND\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-5fc5b7b2-c523-405a-a682-c03c9e23ee6a-nepo419",
+        "title": "Work wear, Personal Protection Equipment including safety footwear and Uniform Clothing",
+        "description": "South Tyneside Council (STC) is looking to conduct a procurement exercise which will result in the establishment of a Framework on behalf of NEPO Local Authorities and other\r\nNEPO Associate Members for the Supply &amp; Delivery of Work Wear, Personal Protection Equipment including Safety Footwear and Uniform Clothing which fully meets the requirements of Contracting Authorities.\r\nThere will be three lots on the Framework\r\nThe Framework will be for 2 years with a possible extension of 2 years on a 12 month basis or 1 x 24 month\r\nThe three lots are;\r\nLot 1- Work Wear\r\nLot 2- Personal Protection Equipment including Safety Footwear\r\nLot 3 - Uniform Clothing\r\nIt is proposed that 1 - 3 suppliers be appointed to each lot. Call off will be available by direct award to the supplier(s) offering the most economically advantageous solution for authority specific requirements taking into account information submitted at framework tender stage. Call off will also be available by further competition.\r\nThe procurement documents are available for unrestricted and full direct access, free of charge, at:www.nepoportal.org\r\nAdditional information can be obtained from the abovementioned address\r\nTenders or requests to participate must be submitted electronically via: www.nepoportal.org",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "18000000",
+              "description": "Clothing, footwear, luggage articles and accessories",
+              "uri": "http://cpv.data.ac.uk/code-18000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 4000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-06T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "1ST COVERALL COMPANY LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "SMI GROUP LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-07-01T00:00:00Z",
+          "endDate": "2024-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "2945b91cc07b9ea7cdd7c30f4affe145",
+        "name": "South Tyneside Council"
+      },
+      "awards": [
+        {
+          "id": "324c58aa-c09e-4be6-a2fd-8663df27082c",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-06-02T00:00:00Z",
+          "value": {
+            "amount": 1865598,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "1ST COVERALL COMPANY LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "SMI GROUP LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-07-01T00:00:00Z",
+            "endDate": "2024-06-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

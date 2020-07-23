@@ -1,0 +1,246 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e5d4dc59-2627-46d4-afb7-8b4a2da93bf3.json",
+  "version": "1.1",
+  "publishedDate": "2020-06-03T15:54:57Z",
+  "publisher": {
+    "name": "EU SUPPLY PLC",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-47e17ed6-f3b9-484f-a0e4-124526902982",
+      "id": "ocds-b5fd17-47e17ed6-f3b9-484f-a0e4-124526902982-362028-20200603155416-3510",
+      "date": "2019-07-30T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "d8054e87c20b710b021acd55c2355f3f",
+          "roles": [
+            "buyer"
+          ],
+          "name": "CTM Portal for the NDA Shared Services Alliance",
+          "address": {
+            "streetAddress": "HINTON HOUSE CHESHIRE",
+            "locality": "WARRINGTON",
+            "region": null,
+            "postalCode": "WA3 6GR",
+            "countryName": "ENG"
+          },
+          "contactPoint": {
+            "name": "Christina Colgan",
+            "email": "Christina.colgan@innuserv.com",
+            "telephone": "+44 1925802641",
+            "faxNumber": null,
+            "uri": "https://www.gov.uk/government/case-studies/shared-services-alliance-ssa-for-nuclear-decommissioning-estate"
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02562870",
+            "scheme": "GB-COH",
+            "legalName": "FRAZER-NASH CONSULTANCY LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "FRAZER-NASH CONSULTANCY LIMITED",
+          "address": {
+            "streetAddress": "Devonport Royal Dockyard, Devonport, Plymouth, PL1 4SG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03975999",
+            "scheme": "GB-COH",
+            "legalName": "CAVENDISH NUCLEAR LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CAVENDISH NUCLEAR LIMITED",
+          "address": {
+            "streetAddress": "33 Wigmore Street, London, W1U 1QX United Kingdom",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-47e17ed6-f3b9-484f-a0e4-124526902982-20200603155416-3510",
+        "title": "FRAMEWORK AGREEMENT FOR THE PROVISION OF  TRANSPORT SAFETY CASE SUPPORT SERVICES",
+        "description": "The Framework Agreement will consist of 5 Lots: Lot 2- Shielding and Dosing Lot 3 - Safety Case - Thermal including Computation fluid Dynamics (CDF) Lot 4 - Safety Case - Structural including finite Element Analysis (FEA) Impact Lot 5 - Safety Case - Technical Author Lot 6 - Safety Case - Peer Review\r\n\r\nNote: Lot 1 - Safety Case -Criticality, was withdrawn from this framework. \r\n\r\nAlong with INS Radioactive Waste Management (RWM) and Direct Rail Services (DRS) will be participants to the Framework",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44421722",
+              "description": "Safety cases",
+              "uri": "http://cpv.data.ac.uk/code-44421722.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71241000",
+              "description": "Feasibility study, advisory service, analysis",
+              "uri": "http://cpv.data.ac.uk/code-71241000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71356300",
+              "description": "Technical support services",
+              "uri": "http://cpv.data.ac.uk/code-71356300.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79314000",
+              "description": "Feasibility study",
+              "uri": "http://cpv.data.ac.uk/code-79314000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "92312213",
+              "description": "Technical author services",
+              "uri": "http://cpv.data.ac.uk/code-92312213.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 15000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-17T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "3",
+            "name": "FRAZER-NASH CONSULTANCY LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "CAVENDISH NUCLEAR LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-11T00:00:00Z",
+          "endDate": "2023-05-10T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "d8054e87c20b710b021acd55c2355f3f",
+        "name": "CTM Portal for the NDA Shared Services Alliance"
+      },
+      "awards": [
+        {
+          "id": "88436a72-668f-40b2-a188-d648e73437a4",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-27T00:00:00Z",
+          "value": {
+            "amount": 1500000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "3",
+              "name": "FRAZER-NASH CONSULTANCY LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "CAVENDISH NUCLEAR LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-11T00:00:00Z",
+            "endDate": "2023-05-10T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

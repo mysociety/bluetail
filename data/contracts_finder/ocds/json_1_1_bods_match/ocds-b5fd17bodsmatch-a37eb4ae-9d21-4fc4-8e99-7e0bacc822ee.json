@@ -1,0 +1,2272 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e448f4b6-cbc6-42ac-9093-4c6936336c67.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-17T14:33:37Z",
+  "publisher": {
+    "name": "PROCURE PLUS HOLDINGS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-a37eb4ae-9d21-4fc4-8e99-7e0bacc822ee",
+      "id": "ocds-b5fd17-a37eb4ae-9d21-4fc4-8e99-7e0bacc822ee-344327-installation-and-repair",
+      "date": "2017-10-27T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "7457bf8b253c3e134de3eab4216daaa8",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/5wuN3tuF",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "PROCURE PLUS HOLDINGS LIMITED",
+          "address": {
+            "streetAddress": "Duckworth House, Lancastrian Office Centre Talbot Road",
+            "locality": "Manchester",
+            "region": null,
+            "postalCode": "M32 0FP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "frameworks@procure-plus.com",
+            "telephone": "0161 874 1831",
+            "faxNumber": null,
+            "uri": "www.procure-plus.com"
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02518468",
+            "scheme": "GB-COH",
+            "legalName": "ALLIED ROOFING AND CONSTRUCTION LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ALLIED ROOFING AND CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Unit 5 Higher Bury Street\nSTOCKPORT\nCHESHIRE\nSK4 1BJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sean Doyle",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06471949",
+            "scheme": "GB-COH",
+            "legalName": "B4BOX LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "B4BOX LTD",
+          "address": {
+            "streetAddress": "B 4 Box Community College, Wharf Street, Stockport, SK4 1UD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03788520",
+            "scheme": "GB-COH",
+            "legalName": "CONCEPT HEATING SYSTEMS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CONCEPT HEATING SYSTEMS LIMITED",
+          "address": {
+            "streetAddress": "135 High Street, Little Lever, Bolton, Lancashire, BL3 1LX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02650749",
+            "scheme": "GB-COH",
+            "legalName": "DLP SERVICES (NORTHERN) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "DLP SERVICES (NORTHERN) LIMITED",
+          "address": {
+            "streetAddress": "54 Cobden Street\nSALFORD\nLANCASHIRE\nM6 6WF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "08968523",
+            "scheme": "GB-COH",
+            "legalName": "HOLDEN BUILDING SOLUTIONS LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "HOLDEN BUILDING SOLUTIONS LTD",
+          "address": {
+            "streetAddress": "44 York Street, Clitheroe, Lancashire, BB7 2DL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04015903",
+            "scheme": "GB-COH",
+            "legalName": "TOP NOTCH CONTRACTORS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "TOP NOTCH CONTRACTORS LIMITED",
+          "address": {
+            "streetAddress": "Durranhill Industrial Estate\nCA1 3NQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02122905",
+            "scheme": "GB-COH",
+            "legalName": "HUYTON PLUMBING AND HEATING LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "HUYTON PLUMBING AND HEATING LIMITED",
+          "address": {
+            "streetAddress": "28-30 Westgate\nSKELMERSDALE\nLANCASHIRE\nWN8 8AZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03860866",
+            "scheme": "GB-COH",
+            "legalName": "A. CONNOLLY LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "A. CONNOLLY LIMITED",
+          "address": {
+            "streetAddress": "The Old Dairy, Leed Street, Wigan, United Kingdom, WN3 4BW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00099243",
+            "scheme": "GB-COH",
+            "legalName": "EMANUEL WHITTAKER LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "EMANUEL WHITTAKER LIMITED",
+          "address": {
+            "streetAddress": "400 Rochdale Road\nOL1 2LW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01738371",
+            "scheme": "GB-COH",
+            "legalName": "ENGIE REGENERATION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ENGIE REGENERATION LIMITED",
+          "address": {
+            "streetAddress": "Golden Smithies Lane, Wath Upon Dearne\nROTHERHAM\nSOUTH YORKSHIRE\nS63 7ER\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01324100",
+            "scheme": "GB-COH",
+            "legalName": "FRANK ROGERS (BUILDING CONTRACTOR) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FRANK ROGERS (BUILDING CONTRACTOR) LIMITED",
+          "address": {
+            "streetAddress": "Larkhill Lane, Clubmoor\nL13 9BR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01060906",
+            "scheme": "GB-COH",
+            "legalName": "HERBERT T. FORREST LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HERBERT T. FORREST LIMITED",
+          "address": {
+            "streetAddress": "4th Floor Abbey House, 32 Booth Street, Manchester, M2 4AB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00879464",
+            "scheme": "GB-COH",
+            "legalName": "IAN WILLIAMS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "IAN WILLIAMS LIMITED",
+          "address": {
+            "streetAddress": "Chipping Sodbury\nBS34 5LP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02651873",
+            "scheme": "GB-COH",
+            "legalName": "KIER SERVICES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "KIER SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Rockingham Business Park, Birdwell\nBARNSLEY\nSouth Yorkshire\nS70 5TW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Alison Tew",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02519234",
+            "scheme": "GB-COH",
+            "legalName": "MEARS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MEARS LIMITED",
+          "address": {
+            "streetAddress": "Montpellier Court\nGLOUCESTER\nGLOUCESTERSHIRE\nGL3 4AH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "26",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03578140",
+            "scheme": "GB-COH",
+            "legalName": "SEDDON CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SEDDON CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Plodder Lane,Edge Fold\nBOLTON\nLancashire\nBL4 0NN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Bid Team",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04233269",
+            "scheme": "GB-COH",
+            "legalName": "THE CASEY GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "THE CASEY GROUP LIMITED",
+          "address": {
+            "streetAddress": "RYDINGS ROAD\nOL12 9PS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01977948",
+            "scheme": "GB-COH",
+            "legalName": "WATES CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "WATES CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "WATES HOUSE,STATION APPROACH\nLEATHERHEAD\nSURREY\nKT22 7SW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "31",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01632310",
+            "scheme": "GB-COH",
+            "legalName": "BAAS CONSTRUCTION LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BAAS CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Brooklands Road\nBurnley\nLancashire\nBB11 3PR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "32",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02529939",
+            "scheme": "GB-COH",
+            "legalName": "ESH CONSTRUCTION LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ESH CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Esh House,Bowburn North Industrial Estate, Bowburn\nDURHAM\nCOUNTY DURHAM\nDH6 5PF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "34",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "SC114142",
+            "scheme": "GB-COH",
+            "legalName": "BELL DECORATING GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BELL DECORATING GROUP LIMITED",
+          "address": {
+            "streetAddress": "Rochsolloch Road\nAIRDRIE\nLanarkshire\nML6 9BG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "35",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02935593",
+            "scheme": "GB-COH",
+            "legalName": "MITIE PROPERTY SERVICES (UK) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MITIE PROPERTY SERVICES (UK) LIMITED",
+          "address": {
+            "streetAddress": "Stirling Road Industrial Estate\nAirdrie\nLanarkshire\nML6 7UD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "36",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02403551",
+            "scheme": "GB-COH",
+            "legalName": "NOVUS PROPERTY SOLUTIONS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "NOVUS PROPERTY SOLUTIONS LIMITED",
+          "address": {
+            "streetAddress": "Festival Way\nStoke-On-Trent\nStaffordshire\nST1 5SH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "38",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03157805",
+            "scheme": "GB-COH",
+            "legalName": "PENNY LANE BUILDERS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PENNY LANE BUILDERS LIMITED",
+          "address": {
+            "streetAddress": "Penny Lane House, Evans Road Venture Point, Speke, Liverpool, L24 9PG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "39",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03382494",
+            "scheme": "GB-COH",
+            "legalName": "ROTHWELL PLUMBING SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ROTHWELL PLUMBING SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Unit 3 Stephens Way\nWIGAN\nLancashire\nWN3 6PH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Graham Rothwell",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "40",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04460588",
+            "scheme": "GB-COH",
+            "legalName": "COMPLETE ELECTRICAL UK LTD."
+          },
+          "sme": true,
+          "vco": false,
+          "name": "COMPLETE ELECTRICAL UK LTD.",
+          "address": {
+            "streetAddress": "Unit B,Wheatlea Road\nWigan\nLancashire\nWN3 6XR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "44",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05743944",
+            "scheme": "GB-COH",
+            "legalName": "FIELDWAY SUPPLIES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FIELDWAY SUPPLIES LIMITED",
+          "address": {
+            "streetAddress": "Wilson Road\nL36 6AW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "45",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03259068",
+            "scheme": "GB-COH",
+            "legalName": "GOS HEATING LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "GOS HEATING LIMITED",
+          "address": {
+            "streetAddress": "216 Strand Road\nPRESTON\nLancashire\nPR1 8UJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "47",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07237932",
+            "scheme": "GB-COH",
+            "legalName": "HOUSING MAINTENANCE SOLUTIONS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HOUSING MAINTENANCE SOLUTIONS LIMITED",
+          "address": {
+            "streetAddress": "4 Corporation Street, St. Helens, England, WA9 1LD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "48",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04242416",
+            "scheme": "GB-COH",
+            "legalName": "LIBERTY GAS GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "LIBERTY GAS GROUP LIMITED",
+          "address": {
+            "streetAddress": "Garden Works, Charley Wood Road,Knowsley Industrial Estate\nLIVERPOOL\nMerseyside\nL33 7SG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "49",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06434382",
+            "scheme": "GB-COH",
+            "legalName": "OAKES ENERGY SERVICES LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "OAKES ENERGY SERVICES LTD",
+          "address": {
+            "streetAddress": "The Venture Building Rainton Business Park, Mandarin Road, Houghton Le Spring, England, DH4 5RA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "50",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01026007",
+            "scheme": "GB-COH",
+            "legalName": "BRITISH GAS SOCIAL HOUSING LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BRITISH GAS SOCIAL HOUSING LIMITED",
+          "address": {
+            "streetAddress": "Manor Park Avenue, Manor Park,\nRUNCORN\nCheshire\nWA7 1TN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "51",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01179878",
+            "scheme": "GB-COH",
+            "legalName": "DODD GROUP (MIDLANDS) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DODD GROUP (MIDLANDS) LIMITED",
+          "address": {
+            "streetAddress": "Stafford Park 13\nTF3 3AZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "53",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04387251",
+            "scheme": "GB-COH",
+            "legalName": "AFM GAS SERVICES LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "AFM GAS SERVICES LTD",
+          "address": {
+            "streetAddress": "73 Lowther Street, Whitehaven, Cumbria, CA28 7AH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "54",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04267794",
+            "scheme": "GB-COH",
+            "legalName": "WARMER ENERGY SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "WARMER ENERGY SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Unit B2,Senator Point, South Boundary Road, Knowsley Industrial Park\nLIVERPOOL\nMerseyside\nL33 7RR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "64",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02876387",
+            "scheme": "GB-COH",
+            "legalName": "RICHMOND JOINERS AND BUILDERS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "RICHMOND JOINERS AND BUILDERS LIMITED",
+          "address": {
+            "streetAddress": "169-171 Huddersfield Road\nOLDHAM\nLancashire\nOL1 3PA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "65",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01089940",
+            "scheme": "GB-COH",
+            "legalName": "SOVEREIGN GROUP LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SOVEREIGN GROUP LIMITED",
+          "address": {
+            "streetAddress": "Vale Street\nBB9 0TA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "69",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01382149",
+            "scheme": "GB-COH",
+            "legalName": "SUSTAINABLE BUILDING SERVICES (UK) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SUSTAINABLE BUILDING SERVICES (UK) LIMITED",
+          "address": {
+            "streetAddress": "Maple View\nSKELMERSDALE\nLancashire\nWN8 9TQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "71",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06543150",
+            "scheme": "GB-COH",
+            "legalName": "GROUNDWORK MANCHESTER SALFORD STOCKPORT TAMESIDE AND TRAFFORD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "GROUNDWORK MANCHESTER SALFORD STOCKPORT TAMESIDE AND TRAFFORD",
+          "address": {
+            "streetAddress": "Lake Road\nM17 1TU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "72",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04049863",
+            "scheme": "GB-COH",
+            "legalName": "LANDSCAPE ENGINEERING LTD."
+          },
+          "sme": true,
+          "vco": false,
+          "name": "LANDSCAPE ENGINEERING LTD.",
+          "address": {
+            "streetAddress": "PARK ROAD\nBB12 8ED\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "73",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04475224",
+            "scheme": "GB-COH",
+            "legalName": "MAYSON BROS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MAYSON BROS LIMITED",
+          "address": {
+            "streetAddress": "Chapel Street Depot,Chapel Street\nEGREMONT\nCUMBRIA\nCA22 2DU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "75",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06459279",
+            "scheme": "GB-COH",
+            "legalName": "ASPECT CONTRACTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ASPECT CONTRACTS LIMITED",
+          "address": {
+            "streetAddress": "Honywood Road\nSS14 3DS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "78",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01274344",
+            "scheme": "GB-COH",
+            "legalName": "KELTBRAY LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "KELTBRAY LIMITED",
+          "address": {
+            "streetAddress": "St Andrew&#039;s House\nESHER\nSURREY\nKT10 9TA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 0
+          }
+        },
+        {
+          "id": "79",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC348998",
+            "scheme": "GB-COH",
+            "legalName": "MCHALE CONTRACTS AND PLANT ENVIRONMENTAL LLP"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MCHALE CONTRACTS AND PLANT ENVIRONMENTAL LLP",
+          "address": {
+            "streetAddress": "South Bradford Trading Estate Spartan Road, Low Moor, Bradford, West Yorkshire, England, BD12 0RY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "81",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "NI035996",
+            "scheme": "GB-COH",
+            "legalName": "PRECISION INDUSTRIAL SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PRECISION INDUSTRIAL SERVICES LIMITED",
+          "address": {
+            "streetAddress": "28 Campsie Industrial Estate, Mclean Road, Eglinton, L&#039;Derry, BT47 3XX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "82",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01889657",
+            "scheme": "GB-COH",
+            "legalName": "SHIELD ENVIRONMENTAL SERVICES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SHIELD ENVIRONMENTAL SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Crown Way, Warmley\nBRISTOL\nAVON\nBS30 8XJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "83",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02951763",
+            "scheme": "GB-COH",
+            "legalName": "WOODS BUILDING SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "WOODS BUILDING SERVICES LIMITED",
+          "address": {
+            "streetAddress": "WOODS HOUSE\nCM20 2DP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "84",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03770250",
+            "scheme": "GB-COH",
+            "legalName": "ASBESTOS CONTROL AND TREATMENT LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ASBESTOS CONTROL AND TREATMENT LIMITED",
+          "address": {
+            "streetAddress": "Unit 14 Lingard Court Sky Park Trading Estate Owen Drive\nL24 1YL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "86",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06132725",
+            "scheme": "GB-COH",
+            "legalName": "PROLINE GROUP LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PROLINE GROUP LTD",
+          "address": {
+            "streetAddress": "Regency House, 45-53 Chorley New Road, Bolton, BL1 4QR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "87",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04072464",
+            "scheme": "GB-COH",
+            "legalName": "SURE MAINTENANCE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SURE MAINTENANCE LIMITED",
+          "address": {
+            "streetAddress": "Speke Road\nL19 2RF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "88",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00988135",
+            "scheme": "GB-COH",
+            "legalName": "E.R. WILLIAMS (PAINTING CONTRACTORS) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "E.R. WILLIAMS (PAINTING CONTRACTORS) LIMITED",
+          "address": {
+            "streetAddress": "Premier Works, 48-52 Toad Lane, Rochdale, Lancashire, OL12 0NU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "90",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05301280",
+            "scheme": "GB-COH",
+            "legalName": "LAWTECH GROUP LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "LAWTECH GROUP LIMITED",
+          "address": {
+            "streetAddress": "Neptune Close\nROCHESTER\nKent\nME2 4LT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "91",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05585984",
+            "scheme": "GB-COH",
+            "legalName": "WARM FRONT LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "WARM FRONT LIMITED",
+          "address": {
+            "streetAddress": "Tudor Industrial Estate Ashton Street\nDUKINFIELD\nCheshire\nSK16 4RN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-a37eb4ae-9d21-4fc4-8e99-7e0bacc822ee-installation-and-repair",
+        "title": "Framework Agreement for Installation and Repair",
+        "description": "Procure Plus Ltd (PP) is a social housing regeneration consortium based in the North West of England. PP specialises in the procurement of goods, works and services for the construction and maintenance of social housing properties. PP is a member of www.reallies.com . PP wishes to procure and enter into a framework agreement for the completion of a range of installation and repair works for planned maintenance predominantly in social housing properties but works may also be carried out in other public buildings including but not limited to schools and offices. The contractors will be expected to complete the works to a high standard and are expected to share PP&#039;s commitment to regeneration, specifically the creation of training and employment opportunities. Contractors will be required to interact with, and source certain materials from, the suppliers who are appointed to other Re:allies agreements (which are each subject to a separate procurement and contract notice).",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "09332000",
+              "description": "Solar installation",
+              "uri": "http://cpv.data.ac.uk/code-09332000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90650000",
+              "description": "Asbestos removal services",
+              "uri": "http://cpv.data.ac.uk/code-90650000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 967125000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2017-11-17T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 53,
+        "tenderers": [
+          {
+            "id": "3",
+            "name": "ALLIED ROOFING AND CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "B4BOX LTD"
+          },
+          {
+            "id": "6",
+            "name": "CONCEPT HEATING SYSTEMS LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "DLP SERVICES (NORTHERN) LIMITED"
+          },
+          {
+            "id": "8",
+            "name": "HOLDEN BUILDING SOLUTIONS LTD"
+          },
+          {
+            "id": "12",
+            "name": "TOP NOTCH CONTRACTORS LIMITED"
+          },
+          {
+            "id": "15",
+            "name": "HUYTON PLUMBING AND HEATING LIMITED"
+          },
+          {
+            "id": "16",
+            "name": "A. CONNOLLY LIMITED"
+          },
+          {
+            "id": "17",
+            "name": "EMANUEL WHITTAKER LIMITED"
+          },
+          {
+            "id": "18",
+            "name": "ENGIE REGENERATION LIMITED"
+          },
+          {
+            "id": "20",
+            "name": "FRANK ROGERS (BUILDING CONTRACTOR) LIMITED"
+          },
+          {
+            "id": "21",
+            "name": "HERBERT T. FORREST LIMITED"
+          },
+          {
+            "id": "22",
+            "name": "IAN WILLIAMS LIMITED"
+          },
+          {
+            "id": "24",
+            "name": "KIER SERVICES LIMITED"
+          },
+          {
+            "id": "25",
+            "name": "MEARS LIMITED"
+          },
+          {
+            "id": "26",
+            "name": "SEDDON CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "28",
+            "name": "THE CASEY GROUP LIMITED"
+          },
+          {
+            "id": "29",
+            "name": "WATES CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "31",
+            "name": "BAAS CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "32",
+            "name": "ESH CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "34",
+            "name": "BELL DECORATING GROUP LIMITED"
+          },
+          {
+            "id": "35",
+            "name": "MITIE PROPERTY SERVICES (UK) LIMITED"
+          },
+          {
+            "id": "36",
+            "name": "NOVUS PROPERTY SOLUTIONS LIMITED"
+          },
+          {
+            "id": "38",
+            "name": "PENNY LANE BUILDERS LIMITED"
+          },
+          {
+            "id": "39",
+            "name": "ROTHWELL PLUMBING SERVICES LIMITED"
+          },
+          {
+            "id": "40",
+            "name": "COMPLETE ELECTRICAL UK LTD."
+          },
+          {
+            "id": "44",
+            "name": "FIELDWAY SUPPLIES LIMITED"
+          },
+          {
+            "id": "45",
+            "name": "GOS HEATING LIMITED"
+          },
+          {
+            "id": "47",
+            "name": "HOUSING MAINTENANCE SOLUTIONS LIMITED"
+          },
+          {
+            "id": "48",
+            "name": "LIBERTY GAS GROUP LIMITED"
+          },
+          {
+            "id": "49",
+            "name": "OAKES ENERGY SERVICES LTD"
+          },
+          {
+            "id": "50",
+            "name": "BRITISH GAS SOCIAL HOUSING LIMITED"
+          },
+          {
+            "id": "51",
+            "name": "DODD GROUP (MIDLANDS) LIMITED"
+          },
+          {
+            "id": "53",
+            "name": "AFM GAS SERVICES LTD"
+          },
+          {
+            "id": "54",
+            "name": "WARMER ENERGY SERVICES LIMITED"
+          },
+          {
+            "id": "64",
+            "name": "RICHMOND JOINERS AND BUILDERS LIMITED"
+          },
+          {
+            "id": "65",
+            "name": "SOVEREIGN GROUP LIMITED"
+          },
+          {
+            "id": "69",
+            "name": "SUSTAINABLE BUILDING SERVICES (UK) LIMITED"
+          },
+          {
+            "id": "71",
+            "name": "GROUNDWORK MANCHESTER SALFORD STOCKPORT TAMESIDE AND TRAFFORD"
+          },
+          {
+            "id": "72",
+            "name": "LANDSCAPE ENGINEERING LTD."
+          },
+          {
+            "id": "73",
+            "name": "MAYSON BROS LIMITED"
+          },
+          {
+            "id": "75",
+            "name": "ASPECT CONTRACTS LIMITED"
+          },
+          {
+            "id": "78",
+            "name": "KELTBRAY LIMITED"
+          },
+          {
+            "id": "79",
+            "name": "MCHALE CONTRACTS AND PLANT ENVIRONMENTAL LLP"
+          },
+          {
+            "id": "81",
+            "name": "PRECISION INDUSTRIAL SERVICES LIMITED"
+          },
+          {
+            "id": "82",
+            "name": "SHIELD ENVIRONMENTAL SERVICES LIMITED"
+          },
+          {
+            "id": "83",
+            "name": "WOODS BUILDING SERVICES LIMITED"
+          },
+          {
+            "id": "84",
+            "name": "ASBESTOS CONTROL AND TREATMENT LIMITED"
+          },
+          {
+            "id": "86",
+            "name": "PROLINE GROUP LTD"
+          },
+          {
+            "id": "87",
+            "name": "SURE MAINTENANCE LIMITED"
+          },
+          {
+            "id": "88",
+            "name": "E.R. WILLIAMS (PAINTING CONTRACTORS) LIMITED"
+          },
+          {
+            "id": "90",
+            "name": "LAWTECH GROUP LIMITED"
+          },
+          {
+            "id": "91",
+            "name": "WARM FRONT LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2018-08-01T00:00:00Z",
+          "endDate": "2023-07-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "7457bf8b253c3e134de3eab4216daaa8",
+        "name": "PROCURE PLUS HOLDINGS LIMITED"
+      },
+      "awards": [
+        {
+          "id": "ee995d43-c2db-4d23-abdb-bdb4b1dfb3b4",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2018-06-28T00:00:00Z",
+          "value": {
+            "amount": 967125000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "3",
+              "name": "ALLIED ROOFING AND CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "B4BOX LTD"
+            },
+            {
+              "id": "6",
+              "name": "CONCEPT HEATING SYSTEMS LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "DLP SERVICES (NORTHERN) LIMITED"
+            },
+            {
+              "id": "8",
+              "name": "HOLDEN BUILDING SOLUTIONS LTD"
+            },
+            {
+              "id": "12",
+              "name": "TOP NOTCH CONTRACTORS LIMITED"
+            },
+            {
+              "id": "15",
+              "name": "HUYTON PLUMBING AND HEATING LIMITED"
+            },
+            {
+              "id": "16",
+              "name": "A. CONNOLLY LIMITED"
+            },
+            {
+              "id": "17",
+              "name": "EMANUEL WHITTAKER LIMITED"
+            },
+            {
+              "id": "18",
+              "name": "ENGIE REGENERATION LIMITED"
+            },
+            {
+              "id": "20",
+              "name": "FRANK ROGERS (BUILDING CONTRACTOR) LIMITED"
+            },
+            {
+              "id": "21",
+              "name": "HERBERT T. FORREST LIMITED"
+            },
+            {
+              "id": "22",
+              "name": "IAN WILLIAMS LIMITED"
+            },
+            {
+              "id": "24",
+              "name": "KIER SERVICES LIMITED"
+            },
+            {
+              "id": "25",
+              "name": "MEARS LIMITED"
+            },
+            {
+              "id": "26",
+              "name": "SEDDON CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "28",
+              "name": "THE CASEY GROUP LIMITED"
+            },
+            {
+              "id": "29",
+              "name": "WATES CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "31",
+              "name": "BAAS CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "32",
+              "name": "ESH CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "34",
+              "name": "BELL DECORATING GROUP LIMITED"
+            },
+            {
+              "id": "35",
+              "name": "MITIE PROPERTY SERVICES (UK) LIMITED"
+            },
+            {
+              "id": "36",
+              "name": "NOVUS PROPERTY SOLUTIONS LIMITED"
+            },
+            {
+              "id": "38",
+              "name": "PENNY LANE BUILDERS LIMITED"
+            },
+            {
+              "id": "39",
+              "name": "ROTHWELL PLUMBING SERVICES LIMITED"
+            },
+            {
+              "id": "40",
+              "name": "COMPLETE ELECTRICAL UK LTD."
+            },
+            {
+              "id": "44",
+              "name": "FIELDWAY SUPPLIES LIMITED"
+            },
+            {
+              "id": "45",
+              "name": "GOS HEATING LIMITED"
+            },
+            {
+              "id": "47",
+              "name": "HOUSING MAINTENANCE SOLUTIONS LIMITED"
+            },
+            {
+              "id": "48",
+              "name": "LIBERTY GAS GROUP LIMITED"
+            },
+            {
+              "id": "49",
+              "name": "OAKES ENERGY SERVICES LTD"
+            },
+            {
+              "id": "50",
+              "name": "BRITISH GAS SOCIAL HOUSING LIMITED"
+            },
+            {
+              "id": "51",
+              "name": "DODD GROUP (MIDLANDS) LIMITED"
+            },
+            {
+              "id": "53",
+              "name": "AFM GAS SERVICES LTD"
+            },
+            {
+              "id": "54",
+              "name": "WARMER ENERGY SERVICES LIMITED"
+            },
+            {
+              "id": "64",
+              "name": "RICHMOND JOINERS AND BUILDERS LIMITED"
+            },
+            {
+              "id": "65",
+              "name": "SOVEREIGN GROUP LIMITED"
+            },
+            {
+              "id": "69",
+              "name": "SUSTAINABLE BUILDING SERVICES (UK) LIMITED"
+            },
+            {
+              "id": "71",
+              "name": "GROUNDWORK MANCHESTER SALFORD STOCKPORT TAMESIDE AND TRAFFORD"
+            },
+            {
+              "id": "72",
+              "name": "LANDSCAPE ENGINEERING LTD."
+            },
+            {
+              "id": "73",
+              "name": "MAYSON BROS LIMITED"
+            },
+            {
+              "id": "75",
+              "name": "ASPECT CONTRACTS LIMITED"
+            },
+            {
+              "id": "78",
+              "name": "KELTBRAY LIMITED"
+            },
+            {
+              "id": "79",
+              "name": "MCHALE CONTRACTS AND PLANT ENVIRONMENTAL LLP"
+            },
+            {
+              "id": "81",
+              "name": "PRECISION INDUSTRIAL SERVICES LIMITED"
+            },
+            {
+              "id": "82",
+              "name": "SHIELD ENVIRONMENTAL SERVICES LIMITED"
+            },
+            {
+              "id": "83",
+              "name": "WOODS BUILDING SERVICES LIMITED"
+            },
+            {
+              "id": "84",
+              "name": "ASBESTOS CONTROL AND TREATMENT LIMITED"
+            },
+            {
+              "id": "86",
+              "name": "PROLINE GROUP LTD"
+            },
+            {
+              "id": "87",
+              "name": "SURE MAINTENANCE LIMITED"
+            },
+            {
+              "id": "88",
+              "name": "E.R. WILLIAMS (PAINTING CONTRACTORS) LIMITED"
+            },
+            {
+              "id": "90",
+              "name": "LAWTECH GROUP LIMITED"
+            },
+            {
+              "id": "91",
+              "name": "WARM FRONT LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2018-08-01T00:00:00Z",
+            "endDate": "2023-07-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

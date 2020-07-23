@@ -1,0 +1,811 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6978da52-5c48-42ea-b281-51cd3ad9904a.json",
+  "version": "1.1",
+  "publishedDate": "2019-11-25T12:07:44Z",
+  "publisher": {
+    "name": "London Purchased Healthcare Team",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-32c3c3e1-3aea-4055-9190-39c123e0d574",
+      "id": "ocds-b5fd17-32c3c3e1-3aea-4055-9190-39c123e0d574-327415-yp547vwa2n",
+      "date": "2019-04-19T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "9256977c12b068e45a9dac48addac8ce",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/V5aZ63Am",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "London Purchased Healthcare Team",
+          "address": {
+            "streetAddress": "3 Lloyd&#039;s Avenue ",
+            "locality": "London",
+            "region": null,
+            "postalCode": "EC3N 3DS",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "LPH.DomCareAQP@nhs.net",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07840639",
+            "scheme": "GB-COH",
+            "legalName": "ALMA CARE (UK) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ALMA CARE (UK) LIMITED",
+          "address": {
+            "streetAddress": "9-19 Southbridge House,Southbridge Place\nCROYDON\nSurrey\nCR0 4HA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "08181621",
+            "scheme": "GB-COH",
+            "legalName": "RA CARE SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "RA CARE SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Unit C, Room 5,36-40 Copperfield Road\nLONDON\nE3 4RR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Md Ashraful Alam",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "08032094",
+            "scheme": "GB-COH",
+            "legalName": "INDIVIDUALISED CARE LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "INDIVIDUALISED CARE LTD",
+          "address": {
+            "streetAddress": "Goodridge Court,Goodridge Avenue\nGLOUCESTER\nGloucestershire\nGL2 5EN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06039301",
+            "scheme": "GB-COH",
+            "legalName": "ZINNIA CARE LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ZINNIA CARE LTD",
+          "address": {
+            "streetAddress": "23-25 Marlowes\nHP1 1LA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "10517040",
+            "scheme": "GB-COH",
+            "legalName": "ASHTON CARE LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ASHTON CARE LTD",
+          "address": {
+            "streetAddress": "C/o Cooper Harland,Unit 1.14, Barking Enterprise Ce\nBARKING\nEssex\nIG11 8FG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05283321",
+            "scheme": "GB-COH",
+            "legalName": "DYNAMIC PEOPLE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "DYNAMIC PEOPLE LIMITED",
+          "address": {
+            "streetAddress": "Unit 1 30-32 Friern Park\nN12 9DA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05996908",
+            "scheme": "GB-COH",
+            "legalName": "CYPRIAN CARE LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CYPRIAN CARE LTD",
+          "address": {
+            "streetAddress": "173 Green Lanes, Palmers Green\nLONDON\nN13 4UR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03965910",
+            "scheme": "GB-COH",
+            "legalName": "NORTH LONDON BIKUR CHOLIM LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "NORTH LONDON BIKUR CHOLIM LIMITED",
+          "address": {
+            "streetAddress": "First Floor 94 Stamford Hill\nLONDON\nN16 6XS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06848164",
+            "scheme": "GB-COH",
+            "legalName": "NEXT STEP SUPPORT LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "NEXT STEP SUPPORT LIMITED",
+          "address": {
+            "streetAddress": "Langley House Park Road East Finchley\nLONDON\nN2 8EY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05033345",
+            "scheme": "GB-COH",
+            "legalName": "FOCUS CARING SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FOCUS CARING SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Broadland Business Park\nNORWICH\nNorfolk\nNR7 0LB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "10247790",
+            "scheme": "GB-COH",
+            "legalName": "STERLING STANDARD CARE GROUP LTD."
+          },
+          "sme": true,
+          "vco": false,
+          "name": "STERLING STANDARD CARE GROUP LTD.",
+          "address": {
+            "streetAddress": "116-118, Finchley Road\nLONDON\nNW3 5HT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04847203",
+            "scheme": "GB-COH",
+            "legalName": "UNICARE (LONDON) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "UNICARE (LONDON) LIMITED",
+          "address": {
+            "streetAddress": "13 SALCOMBE GARDENS\nNW7 2NU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07469685",
+            "scheme": "GB-COH",
+            "legalName": "CAPITAL HOMECARE (UK) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CAPITAL HOMECARE (UK) LIMITED",
+          "address": {
+            "streetAddress": "77a Woolwich New Road\nLONDON\nSE18 6ED\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04215772",
+            "scheme": "GB-COH",
+            "legalName": "EMBRACE UK COMMUNITY SUPPORT CENTRE."
+          },
+          "sme": true,
+          "vco": false,
+          "name": "EMBRACE UK COMMUNITY SUPPORT CENTRE.",
+          "address": {
+            "streetAddress": "Secretary,Selby Centre, Selby Road\nLONDON\nN17 8JL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Alem Gebrehiwot",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "30",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06102135",
+            "scheme": "GB-COH",
+            "legalName": "MNA HOME CARE SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MNA HOME CARE SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Perivale\nUB6 7JD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "33",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "09764111",
+            "scheme": "GB-COH",
+            "legalName": "HAZELROSE CARE (UK) LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "HAZELROSE CARE (UK) LTD",
+          "address": {
+            "streetAddress": "29 Blackthorne Drive\nLONDON\nE4 6LS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "42",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "08719024",
+            "scheme": "GB-COH",
+            "legalName": "CLASSIQUE CARE SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CLASSIQUE CARE SERVICES LIMITED",
+          "address": {
+            "streetAddress": "2 Lansdowne Road\nCROYDON\nSurrey\nCR9 2ER\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Valerie Moses",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-32c3c3e1-3aea-4055-9190-39c123e0d574-yp547vwa2n",
+        "title": "Pan-London CHC Domiciliary Care AQP - Phase 4",
+        "description": "London Clinical Commissioning Groups (CCGs) seek applications for the provision of domiciliary care services. Successful providers will be added to a domiciliary care Any Qualified Provider (AQP) list which is used by the contracting CCGs to make continuing healthcare (CHC) placements. There is no guaranteed volume of activity under the AQP.\r\nApplications are open from Monday 15 April to Friday 24.5.2019.\r\nTo access the ITT and offer documentation, please follow the instructions below: \r\n1) Create an account at Delta eSourcing: https://www.delta-esourcing.com/delta/signup.html?userType=supplier \r\n2) Access the opportunity by clicking here: https://www.delta-esourcing.com/respond/YP547VWA2N or by searching the access code: YP547VWA2N \r\n3) Respond to the opportunity. \r\nThe qualification process is led by the London Purchased Healthcare Team on behalf of the London CCGs. Further guidance on how to apply, and details of the full qualification criteria, is included as part of the offer documentation. If you have queries that are not answered by these documents, please contact the London Purchased Healthcare Team directly through Delta e-Sourcing.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-05-24T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 17,
+        "tenderers": [
+          {
+            "id": "3",
+            "name": "ALMA CARE (UK) LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "RA CARE SERVICES LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "INDIVIDUALISED CARE LTD"
+          },
+          {
+            "id": "9",
+            "name": "ZINNIA CARE LTD"
+          },
+          {
+            "id": "10",
+            "name": "ASHTON CARE LTD"
+          },
+          {
+            "id": "13",
+            "name": "DYNAMIC PEOPLE LIMITED"
+          },
+          {
+            "id": "14",
+            "name": "CYPRIAN CARE LTD"
+          },
+          {
+            "id": "15",
+            "name": "NORTH LONDON BIKUR CHOLIM LIMITED"
+          },
+          {
+            "id": "16",
+            "name": "NEXT STEP SUPPORT LIMITED"
+          },
+          {
+            "id": "18",
+            "name": "FOCUS CARING SERVICES LIMITED"
+          },
+          {
+            "id": "22",
+            "name": "STERLING STANDARD CARE GROUP LTD."
+          },
+          {
+            "id": "23",
+            "name": "UNICARE (LONDON) LIMITED"
+          },
+          {
+            "id": "24",
+            "name": "CAPITAL HOMECARE (UK) LIMITED"
+          },
+          {
+            "id": "28",
+            "name": "EMBRACE UK COMMUNITY SUPPORT CENTRE."
+          },
+          {
+            "id": "30",
+            "name": "MNA HOME CARE SERVICES LIMITED"
+          },
+          {
+            "id": "33",
+            "name": "HAZELROSE CARE (UK) LTD"
+          },
+          {
+            "id": "42",
+            "name": "CLASSIQUE CARE SERVICES LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-09-04T00:00:00Z",
+          "endDate": "2020-11-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "9256977c12b068e45a9dac48addac8ce",
+        "name": "London Purchased Healthcare Team"
+      },
+      "awards": [
+        {
+          "id": "db5822ac-ab55-4a4f-8c96-08c8cd44ea4c",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-08-20T00:00:00Z",
+          "value": {
+            "amount": 1,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "3",
+              "name": "ALMA CARE (UK) LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "RA CARE SERVICES LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "INDIVIDUALISED CARE LTD"
+            },
+            {
+              "id": "9",
+              "name": "ZINNIA CARE LTD"
+            },
+            {
+              "id": "10",
+              "name": "ASHTON CARE LTD"
+            },
+            {
+              "id": "13",
+              "name": "DYNAMIC PEOPLE LIMITED"
+            },
+            {
+              "id": "14",
+              "name": "CYPRIAN CARE LTD"
+            },
+            {
+              "id": "15",
+              "name": "NORTH LONDON BIKUR CHOLIM LIMITED"
+            },
+            {
+              "id": "16",
+              "name": "NEXT STEP SUPPORT LIMITED"
+            },
+            {
+              "id": "18",
+              "name": "FOCUS CARING SERVICES LIMITED"
+            },
+            {
+              "id": "22",
+              "name": "STERLING STANDARD CARE GROUP LTD."
+            },
+            {
+              "id": "23",
+              "name": "UNICARE (LONDON) LIMITED"
+            },
+            {
+              "id": "24",
+              "name": "CAPITAL HOMECARE (UK) LIMITED"
+            },
+            {
+              "id": "28",
+              "name": "EMBRACE UK COMMUNITY SUPPORT CENTRE."
+            },
+            {
+              "id": "30",
+              "name": "MNA HOME CARE SERVICES LIMITED"
+            },
+            {
+              "id": "33",
+              "name": "HAZELROSE CARE (UK) LTD"
+            },
+            {
+              "id": "42",
+              "name": "CLASSIQUE CARE SERVICES LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-09-04T00:00:00Z",
+            "endDate": "2020-11-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

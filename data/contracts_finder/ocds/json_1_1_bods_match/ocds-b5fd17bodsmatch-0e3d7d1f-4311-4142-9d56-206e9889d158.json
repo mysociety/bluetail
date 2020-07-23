@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/481ebb73-507c-4ac5-8dd2-32a0fce794cf.json",
+  "version": "1.1",
+  "publishedDate": "2019-12-03T15:27:14Z",
+  "publisher": {
+    "name": "OPTIVO",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-0e3d7d1f-4311-4142-9d56-206e9889d158",
+      "id": "ocds-b5fd17-0e3d7d1f-4311-4142-9d56-206e9889d158-330043-op7070",
+      "date": "2019-05-02T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "69e9d7e8aef89d4ba0ba50c20a1b155b",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "OPTIVO",
+          "address": {
+            "streetAddress": "125 High Street ",
+            "locality": "CROYDON",
+            "region": null,
+            "postalCode": "CR09XP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Xoliswa Cox",
+            "email": "procurement@optivo.org.uk",
+            "telephone": "02080362890",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03902490",
+            "scheme": "GB-COH",
+            "legalName": "COLOURS DECORATING LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "COLOURS DECORATING LIMITED",
+          "address": {
+            "streetAddress": "York Road\nST LEONARDS-ON-SEA\nEAST SUSSEX\nTN37 6PU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03902490",
+            "scheme": "GB-COH",
+            "legalName": "COLOURS DECORATING LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "COLOURS DECORATING LIMITED",
+          "address": {
+            "streetAddress": "York Road\nST LEONARDS-ON-SEA\nEAST SUSSEX\nTN37 6PU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-0e3d7d1f-4311-4142-9d56-206e9889d158-op7070",
+        "title": "Sussex Window &amp; Door Replacement",
+        "description": "Sussex Window &amp; Door Replacement",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44221100",
+              "description": "Windows",
+              "uri": "http://cpv.data.ac.uk/code-44221100.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "limited",
+        "procurementMethodDetails": "Competitive quotation (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-11T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "COLOURS DECORATING LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "COLOURS DECORATING LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-08-12T00:00:00Z",
+          "endDate": "2021-08-11T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "69e9d7e8aef89d4ba0ba50c20a1b155b",
+        "name": "OPTIVO"
+      },
+      "awards": [
+        {
+          "id": "ac40783a-7c8d-436f-8b32-a3c68d8d5a2f",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-07-11T00:00:00Z",
+          "value": {
+            "amount": 2000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "COLOURS DECORATING LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "COLOURS DECORATING LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-08-12T00:00:00Z",
+            "endDate": "2021-08-11T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7723c2df-2d18-4f76-babc-e5175bed86ee.json",
+  "version": "1.1",
+  "publishedDate": "2020-06-29T08:59:11Z",
+  "publisher": {
+    "name": "South Yorkshire Police Headquarters",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-278939d3-ac5c-45b9-b578-bc53776e5ab7",
+      "id": "ocds-b5fd17-278939d3-ac5c-45b9-b578-bc53776e5ab7-366891-1597-2017",
+      "date": "2019-06-10T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "0300500a7cede301ae92cf1940057bb7",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/urSt89dk",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "South Yorkshire Police Headquarters",
+          "address": {
+            "streetAddress": "5 Carbrook Hall Road ",
+            "locality": "SHEFFIELD",
+            "region": null,
+            "postalCode": "S92EH",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "David Holbrook",
+            "email": "david.holbrook@southyorks.pnn.police.uk",
+            "telephone": "07464 986517",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02579852",
+            "scheme": "GB-COH",
+            "legalName": "INSIGHT DIRECT (UK) LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "INSIGHT DIRECT (UK) LTD",
+          "address": {
+            "streetAddress": "Technology Buildings,Insight Campus, Terry Street\nSHEFFIELD\nSouth Yorkshire\nS9 2BU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Roger Talbot",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02548628",
+            "scheme": "GB-COH",
+            "legalName": "PHOENIX SOFTWARE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PHOENIX SOFTWARE LIMITED",
+          "address": {
+            "streetAddress": "Blenheim House,York Road, Pocklington\nYORK\nNorth Yorkshire\nYO42 1NS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Phoenix Software",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01584718",
+            "scheme": "GB-COH",
+            "legalName": "COMPUTACENTER (UK) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "COMPUTACENTER (UK) LIMITED",
+          "address": {
+            "streetAddress": "Hatfield Avenue\nSE1 8EZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-278939d3-ac5c-45b9-b578-bc53776e5ab7-1597-2017",
+        "title": "Yorkshire &amp; The Humber Regional Hardware Framework",
+        "description": "Award of the regional hardware framework for the Yorkshire &amp; The Humber Police forces. This framework has 4 lots and will allow each force to direct award to the awarded resellers.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "30200000",
+              "description": "Computer equipment and supplies",
+              "uri": "http://cpv.data.ac.uk/code-30200000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48000000",
+              "description": "Software package and information systems",
+              "uri": "http://cpv.data.ac.uk/code-48000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 40000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-05T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "INSIGHT DIRECT (UK) LTD"
+          },
+          {
+            "id": "3",
+            "name": "PHOENIX SOFTWARE LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "COMPUTACENTER (UK) LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-09-16T00:00:00Z",
+          "endDate": "2023-06-15T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "0300500a7cede301ae92cf1940057bb7",
+        "name": "South Yorkshire Police Headquarters"
+      },
+      "awards": [
+        {
+          "id": "81369e66-33a0-4776-b1f3-895c72803e57",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-09-03T00:00:00Z",
+          "value": {
+            "amount": 40000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "INSIGHT DIRECT (UK) LTD"
+            },
+            {
+              "id": "3",
+              "name": "PHOENIX SOFTWARE LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "COMPUTACENTER (UK) LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-09-16T00:00:00Z",
+            "endDate": "2023-06-15T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

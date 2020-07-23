@@ -1,0 +1,1491 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/48ee95e0-f3ea-49cf-89bb-b66b38529972.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-17T14:41:57Z",
+  "publisher": {
+    "name": "PROCURE PLUS HOLDINGS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-9fcba26b-37ac-4352-83d9-9a4d41de9541",
+      "id": "ocds-b5fd17-9fcba26b-37ac-4352-83d9-9a4d41de9541-344336-2018-s-083-187314",
+      "date": "2018-04-06T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "1b7eec1781343d4c8dde87a890eba0ff",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/5wuN3tuF",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "PROCURE PLUS HOLDINGS LIMITED",
+          "address": {
+            "streetAddress": "Duckworth House ",
+            "locality": "Manchester",
+            "region": null,
+            "postalCode": "M320FP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "frameworks@re-allies.com",
+            "telephone": "0161 874 3149",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02888194",
+            "scheme": "GB-COH",
+            "legalName": "NPS PROPERTY CONSULTANTS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "NPS PROPERTY CONSULTANTS LIMITED",
+          "address": {
+            "streetAddress": "Saint Andrews Business Park\nNORWICH\nNorfolk\nNR7 0HR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06552502",
+            "scheme": "GB-COH",
+            "legalName": "LEAP ENVIRONMENTAL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "LEAP ENVIRONMENTAL LIMITED",
+          "address": {
+            "streetAddress": "The Atrium,Curtis Road\nDORKING\nSurrey\nRH4 1XA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03118932",
+            "scheme": "GB-COH",
+            "legalName": "HYDROCK CONSULTANTS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HYDROCK CONSULTANTS LIMITED",
+          "address": {
+            "streetAddress": "Over Court Barns,Over Lane, Almondsbury\nBRISTOL\nAVON\nBS32 4DF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01470149",
+            "scheme": "GB-COH",
+            "legalName": "RPS CONSULTING SERVICES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "RPS CONSULTING SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Milton Park\nABINGDON\nOXFORDSHIRE\nOX14 4SH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04287238",
+            "scheme": "GB-COH",
+            "legalName": "SUTCLIFFE PROJECTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SUTCLIFFE PROJECTS LIMITED",
+          "address": {
+            "streetAddress": "18-20 Harrington Street\nLIVERPOOL\nMERSEYSIDE\nL2 9QA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03945920",
+            "scheme": "GB-COH",
+            "legalName": "PENNINGTON CHOICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PENNINGTON CHOICES LIMITED",
+          "address": {
+            "streetAddress": "Brookfield House, Tarporley Road\nWARRINGTON\nCHESHIRE\nWA4 4EA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05097507",
+            "scheme": "GB-COH",
+            "legalName": "ENVIRONMENTAL ESSENTIALS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ENVIRONMENTAL ESSENTIALS LIMITED",
+          "address": {
+            "streetAddress": "Cannel Row Silverdale Enterprise Park\nST5 6SS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04409614",
+            "scheme": "GB-COH",
+            "legalName": "FRANKHAM CONSULTANCY GROUP LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FRANKHAM CONSULTANCY GROUP LIMITED",
+          "address": {
+            "streetAddress": "Maidstone Road\nKent\nDA14 5AE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03442515",
+            "scheme": "GB-COH",
+            "legalName": "AIRBORNE ENVIRONMENTAL CONSULTANTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "AIRBORNE ENVIRONMENTAL CONSULTANTS LIMITED",
+          "address": {
+            "streetAddress": "Unit 23 Wheel Forge Way\nM17 1EH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02981693",
+            "scheme": "GB-COH",
+            "legalName": "ENVIRONTEC LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ENVIRONTEC LIMITED",
+          "address": {
+            "streetAddress": "The Street\nCM3 2EJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03053057",
+            "scheme": "GB-COH",
+            "legalName": "LIFE ENVIRONMENTAL SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "LIFE ENVIRONMENTAL SERVICES LIMITED",
+          "address": {
+            "streetAddress": "South Street\nBishop&#039;s Stortford\nCM23 3AR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06495874",
+            "scheme": "GB-COH",
+            "legalName": "LUCION ENVIRONMENTAL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "LUCION ENVIRONMENTAL LIMITED",
+          "address": {
+            "streetAddress": "7 Halifax Court, Dunston\nGATESHEAD\nNE11 9JT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04663503",
+            "scheme": "GB-COH",
+            "legalName": "ARMSTRONG YORK ASBESTOS ENVIRONMENTAL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ARMSTRONG YORK ASBESTOS ENVIRONMENTAL LIMITED",
+          "address": {
+            "streetAddress": "Stanhope Industrial Estate, Wharf Road\nSTANFORD-LE-HOPE\nSS17 0EH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "26",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03945920",
+            "scheme": "GB-COH",
+            "legalName": "PENNINGTON CHOICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PENNINGTON CHOICES LIMITED",
+          "address": {
+            "streetAddress": "Brookfield House, Tarporley Road\nWARRINGTON\nCHESHIRE\nWA4 4EA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06304855",
+            "scheme": "GB-COH",
+            "legalName": "ELVET CONSTRUCTION CONSULTANTS LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ELVET CONSTRUCTION CONSULTANTS LTD",
+          "address": {
+            "streetAddress": "Unit 6 The Greenhouse,Greencroft Industrial Park\nSTANLEY\nCounty Durham\nDH9 7XN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02903668",
+            "scheme": "GB-COH",
+            "legalName": "MICHAEL DYSON ASSOCIATES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MICHAEL DYSON ASSOCIATES LIMITED",
+          "address": {
+            "streetAddress": "West House\nHD9 6LB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "30",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07123292",
+            "scheme": "GB-COH",
+            "legalName": "WILKINSON COWAN PARTNERSHIP LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "WILKINSON COWAN PARTNERSHIP LTD",
+          "address": {
+            "streetAddress": "15 LADYBRIDGE ROAD\nCHEADLE\nSK8 5BL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "33",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04394343",
+            "scheme": "GB-COH",
+            "legalName": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED",
+          "address": {
+            "streetAddress": "BELL HOUSE\nRH2 7JB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "44",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC303181",
+            "scheme": "GB-COH",
+            "legalName": "SUMMERS-INMAN CONSTRUCTION AND PROPERTY CONSULTANTS LLP"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SUMMERS-INMAN CONSTRUCTION AND PROPERTY CONSULTANTS LLP",
+          "address": {
+            "streetAddress": "Bevan House\nNE13 9BA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "45",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03830233",
+            "scheme": "GB-COH",
+            "legalName": "THE VINDEN PARTNERSHIP LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "THE VINDEN PARTNERSHIP LIMITED",
+          "address": {
+            "streetAddress": "Folds Road\nBOLTON\nLancashire\nBL1 2RZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "47",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07792304",
+            "scheme": "GB-COH",
+            "legalName": "ACIVICO LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ACIVICO LIMITED",
+          "address": {
+            "streetAddress": "92 - 93 Edward Street\nB1 2RA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "50",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02362015",
+            "scheme": "GB-COH",
+            "legalName": "AEGIS SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "AEGIS SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Ashton-on-ribble\nPR2 2YP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "54",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03450319",
+            "scheme": "GB-COH",
+            "legalName": "WALDECK ASSOCIATES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "WALDECK ASSOCIATES LIMITED",
+          "address": {
+            "streetAddress": "2 Kesteven Street\nSLEAFORD\nLincolnshire\nNG34 7DT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "58",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC309255",
+            "scheme": "GB-COH",
+            "legalName": "ROBINSON LOW FRANCIS LLP"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ROBINSON LOW FRANCIS LLP",
+          "address": {
+            "streetAddress": "26 Finsbury Square\nLONDON\nEC2A 1DS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "62",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01477221",
+            "scheme": "GB-COH",
+            "legalName": "POOLE DICK ASSOCIATES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "POOLE DICK ASSOCIATES LIMITED",
+          "address": {
+            "streetAddress": "Unit C1, Waterfold Park\nBURY\nLANCASHIRE\nBL9 7BR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "65",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC366907",
+            "scheme": "GB-COH",
+            "legalName": "CPC PROJECT SERVICES LLP"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CPC PROJECT SERVICES LLP",
+          "address": {
+            "streetAddress": "5-9 Quality Court\nWC2A 1HP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "66",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04168609",
+            "scheme": "GB-COH",
+            "legalName": "BERNARD TAYLOR PARTNERSHIP LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BERNARD TAYLOR PARTNERSHIP LIMITED",
+          "address": {
+            "streetAddress": "Elizabeth House,486 Didsbury Road\nSTOCKPORT\nCHESHIRE\nSK4 3BS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "68",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02913588",
+            "scheme": "GB-COH",
+            "legalName": "WATSON BATTY ARCHITECTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "WATSON BATTY ARCHITECTS LIMITED",
+          "address": {
+            "streetAddress": "Shires House, Shires Road, Guiseley\nLS20 8EU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lauren Perry",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "77",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02789905",
+            "scheme": "GB-COH",
+            "legalName": "MERSEY DESIGN GROUP LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MERSEY DESIGN GROUP LIMITED",
+          "address": {
+            "streetAddress": "41 Shaw Street\nL6 1HL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "79",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "08149072",
+            "scheme": "GB-COH",
+            "legalName": "RANCE BOOTH SMITH ARCHITECTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "RANCE BOOTH SMITH ARCHITECTS LIMITED",
+          "address": {
+            "streetAddress": "11 Victoria Road\nBD18 3LA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "80",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04187948",
+            "scheme": "GB-COH",
+            "legalName": "AINSLEY GOMMON ARCHITECTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "AINSLEY GOMMON ARCHITECTS LIMITED",
+          "address": {
+            "streetAddress": "1 Price Street Hamilton Square\nBirkenhead\nWirral\nCH41 6JN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "81",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC300486",
+            "scheme": "GB-COH",
+            "legalName": "FEILDEN + MAWSON LLP"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FEILDEN + MAWSON LLP",
+          "address": {
+            "streetAddress": "1 Ferry Road\nNORWICH\nNorfolk\nNR1 1SU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "82",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03782167",
+            "scheme": "GB-COH",
+            "legalName": "BREWSTER BYE ARCHITECTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BREWSTER BYE ARCHITECTS LIMITED",
+          "address": {
+            "streetAddress": "5 North Hill Road\nLS6 2EN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "86",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02342309",
+            "scheme": "GB-COH",
+            "legalName": "PATRICK PARSONS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PATRICK PARSONS LIMITED",
+          "address": {
+            "streetAddress": "Waterloo House, Thornton Street\nNEWCASTLE-UPON-TYNE\nTyne &amp; Wear\nNE1 4AP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-9fcba26b-37ac-4352-83d9-9a4d41de9541-2018/s-083-187314",
+        "title": "Framework Agreement for Consultancy Services",
+        "description": "Reallies is a social housing regeneration consortia. Its membership consists of regional housing consortia who bring together unmatched experience in procurement and regeneration. The membership consists of Procure Plus (PP), Efficiency North (EN) and Central Housing Investment Consortium (CHIC). Further information can be found by visiting www.reallies.com\r\n\r\nReallies wishes to procure and enter into a framework agreement for the provision of consultancy services to be completed predominantly in social housing properties but may also be carried out in other public buildings, including but not limited to, schools and offices.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71315200",
+              "description": "Building consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71315200.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 22737000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2018-06-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 34,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "NPS PROPERTY CONSULTANTS LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "LEAP ENVIRONMENTAL LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "HYDROCK CONSULTANTS LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "RPS CONSULTING SERVICES LIMITED"
+          },
+          {
+            "id": "9",
+            "name": "SUTCLIFFE PROJECTS LIMITED"
+          },
+          {
+            "id": "13",
+            "name": "PENNINGTON CHOICES LIMITED"
+          },
+          {
+            "id": "14",
+            "name": "ENVIRONMENTAL ESSENTIALS LIMITED"
+          },
+          {
+            "id": "17",
+            "name": "FRANKHAM CONSULTANCY GROUP LIMITED"
+          },
+          {
+            "id": "18",
+            "name": "AIRBORNE ENVIRONMENTAL CONSULTANTS LIMITED"
+          },
+          {
+            "id": "20",
+            "name": "ENVIRONTEC LIMITED"
+          },
+          {
+            "id": "21",
+            "name": "LIFE ENVIRONMENTAL SERVICES LIMITED"
+          },
+          {
+            "id": "23",
+            "name": "LUCION ENVIRONMENTAL LIMITED"
+          },
+          {
+            "id": "24",
+            "name": "ARMSTRONG YORK ASBESTOS ENVIRONMENTAL LIMITED"
+          },
+          {
+            "id": "26",
+            "name": "PENNINGTON CHOICES LIMITED"
+          },
+          {
+            "id": "27",
+            "name": "ELVET CONSTRUCTION CONSULTANTS LTD"
+          },
+          {
+            "id": "28",
+            "name": "MICHAEL DYSON ASSOCIATES LIMITED"
+          },
+          {
+            "id": "30",
+            "name": "WILKINSON COWAN PARTNERSHIP LTD"
+          },
+          {
+            "id": "33",
+            "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED"
+          },
+          {
+            "id": "44",
+            "name": "SUMMERS-INMAN CONSTRUCTION AND PROPERTY CONSULTANTS LLP"
+          },
+          {
+            "id": "45",
+            "name": "THE VINDEN PARTNERSHIP LIMITED"
+          },
+          {
+            "id": "47",
+            "name": "ACIVICO LIMITED"
+          },
+          {
+            "id": "50",
+            "name": "AEGIS SERVICES LIMITED"
+          },
+          {
+            "id": "54",
+            "name": "WALDECK ASSOCIATES LIMITED"
+          },
+          {
+            "id": "58",
+            "name": "ROBINSON LOW FRANCIS LLP"
+          },
+          {
+            "id": "62",
+            "name": "POOLE DICK ASSOCIATES LIMITED"
+          },
+          {
+            "id": "65",
+            "name": "CPC PROJECT SERVICES LLP"
+          },
+          {
+            "id": "66",
+            "name": "BERNARD TAYLOR PARTNERSHIP LIMITED"
+          },
+          {
+            "id": "68",
+            "name": "WATSON BATTY ARCHITECTS LIMITED"
+          },
+          {
+            "id": "77",
+            "name": "MERSEY DESIGN GROUP LIMITED"
+          },
+          {
+            "id": "79",
+            "name": "RANCE BOOTH SMITH ARCHITECTS LIMITED"
+          },
+          {
+            "id": "80",
+            "name": "AINSLEY GOMMON ARCHITECTS LIMITED"
+          },
+          {
+            "id": "81",
+            "name": "FEILDEN + MAWSON LLP"
+          },
+          {
+            "id": "82",
+            "name": "BREWSTER BYE ARCHITECTS LIMITED"
+          },
+          {
+            "id": "86",
+            "name": "PATRICK PARSONS LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2018-11-05T00:00:00Z",
+          "endDate": "2022-11-04T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "1b7eec1781343d4c8dde87a890eba0ff",
+        "name": "PROCURE PLUS HOLDINGS LIMITED"
+      },
+      "awards": [
+        {
+          "id": "4545a735-526f-44b5-ba27-2db16dfa9ad2",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2018-10-22T00:00:00Z",
+          "value": {
+            "amount": 22737000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "NPS PROPERTY CONSULTANTS LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "LEAP ENVIRONMENTAL LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "HYDROCK CONSULTANTS LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "RPS CONSULTING SERVICES LIMITED"
+            },
+            {
+              "id": "9",
+              "name": "SUTCLIFFE PROJECTS LIMITED"
+            },
+            {
+              "id": "13",
+              "name": "PENNINGTON CHOICES LIMITED"
+            },
+            {
+              "id": "14",
+              "name": "ENVIRONMENTAL ESSENTIALS LIMITED"
+            },
+            {
+              "id": "17",
+              "name": "FRANKHAM CONSULTANCY GROUP LIMITED"
+            },
+            {
+              "id": "18",
+              "name": "AIRBORNE ENVIRONMENTAL CONSULTANTS LIMITED"
+            },
+            {
+              "id": "20",
+              "name": "ENVIRONTEC LIMITED"
+            },
+            {
+              "id": "21",
+              "name": "LIFE ENVIRONMENTAL SERVICES LIMITED"
+            },
+            {
+              "id": "23",
+              "name": "LUCION ENVIRONMENTAL LIMITED"
+            },
+            {
+              "id": "24",
+              "name": "ARMSTRONG YORK ASBESTOS ENVIRONMENTAL LIMITED"
+            },
+            {
+              "id": "26",
+              "name": "PENNINGTON CHOICES LIMITED"
+            },
+            {
+              "id": "27",
+              "name": "ELVET CONSTRUCTION CONSULTANTS LTD"
+            },
+            {
+              "id": "28",
+              "name": "MICHAEL DYSON ASSOCIATES LIMITED"
+            },
+            {
+              "id": "30",
+              "name": "WILKINSON COWAN PARTNERSHIP LTD"
+            },
+            {
+              "id": "33",
+              "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED"
+            },
+            {
+              "id": "44",
+              "name": "SUMMERS-INMAN CONSTRUCTION AND PROPERTY CONSULTANTS LLP"
+            },
+            {
+              "id": "45",
+              "name": "THE VINDEN PARTNERSHIP LIMITED"
+            },
+            {
+              "id": "47",
+              "name": "ACIVICO LIMITED"
+            },
+            {
+              "id": "50",
+              "name": "AEGIS SERVICES LIMITED"
+            },
+            {
+              "id": "54",
+              "name": "WALDECK ASSOCIATES LIMITED"
+            },
+            {
+              "id": "58",
+              "name": "ROBINSON LOW FRANCIS LLP"
+            },
+            {
+              "id": "62",
+              "name": "POOLE DICK ASSOCIATES LIMITED"
+            },
+            {
+              "id": "65",
+              "name": "CPC PROJECT SERVICES LLP"
+            },
+            {
+              "id": "66",
+              "name": "BERNARD TAYLOR PARTNERSHIP LIMITED"
+            },
+            {
+              "id": "68",
+              "name": "WATSON BATTY ARCHITECTS LIMITED"
+            },
+            {
+              "id": "77",
+              "name": "MERSEY DESIGN GROUP LIMITED"
+            },
+            {
+              "id": "79",
+              "name": "RANCE BOOTH SMITH ARCHITECTS LIMITED"
+            },
+            {
+              "id": "80",
+              "name": "AINSLEY GOMMON ARCHITECTS LIMITED"
+            },
+            {
+              "id": "81",
+              "name": "FEILDEN + MAWSON LLP"
+            },
+            {
+              "id": "82",
+              "name": "BREWSTER BYE ARCHITECTS LIMITED"
+            },
+            {
+              "id": "86",
+              "name": "PATRICK PARSONS LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2018-10-23T00:00:00Z",
+            "endDate": "2022-10-22T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

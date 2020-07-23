@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/55f7acfb-7db0-46fe-9c80-ba93ecee4e3e.json",
+  "version": "1.1",
+  "publishedDate": "2020-06-23T15:10:56Z",
+  "publisher": {
+    "name": "Middlesbrough Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-edfc8c9d-9b73-41ef-b9fb-7ce65cf0c7c5",
+      "id": "ocds-b5fd17-edfc8c9d-9b73-41ef-b9fb-7ce65cf0c7c5-365956-asc003-2019",
+      "date": "2020-03-02T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "743ac986cf8db7f79be1880ca2d12044",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/FrqU3KsZ",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Middlesbrough Council",
+          "address": {
+            "streetAddress": "Town Hall ",
+            "locality": "MIDDLESBROUGH",
+            "region": null,
+            "postalCode": "TS12QQ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "kim_brodie@middlesbrough.gov.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "IP22981R",
+            "scheme": "GB-COH",
+            "legalName": "HOME GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HOME GROUP LIMITED",
+          "address": {
+            "streetAddress": "Gosforth\nNEWCASTLE-UPON-TYNE\nTyne &amp; Wear\nNE12 8ET\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Karen Birch",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01867042",
+            "scheme": "GB-COH",
+            "legalName": "NORTHERN LIFE CARE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "NORTHERN LIFE CARE LIMITED",
+          "address": {
+            "streetAddress": "7-9 Haywra Street\nHG1 5BJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Gilvray Croudson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-edfc8c9d-9b73-41ef-b9fb-7ce65cf0c7c5-asc003",
+        "title": "Focussed Care &amp; Support",
+        "description": "Focussed Care &amp; Support",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 75000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-16T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "8",
+            "name": "HOME GROUP LIMITED"
+          },
+          {
+            "id": "9",
+            "name": "NORTHERN LIFE CARE LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2028-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "743ac986cf8db7f79be1880ca2d12044",
+        "name": "Middlesbrough Council"
+      },
+      "awards": [
+        {
+          "id": "cb9ed493-4e6f-42cc-8815-8fff850f79cb",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-27T00:00:00Z",
+          "value": {
+            "amount": 75000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "8",
+              "name": "HOME GROUP LIMITED"
+            },
+            {
+              "id": "9",
+              "name": "NORTHERN LIFE CARE LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2028-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

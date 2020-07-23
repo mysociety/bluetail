@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2312663e-b676-4032-b605-5dfca6b25290.json",
+  "version": "1.1",
+  "publishedDate": "2019-12-09T17:46:39Z",
+  "publisher": {
+    "name": "Association Of North East Councils",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-a933d161-bad1-45aa-b56e-4b596fa50715",
+      "id": "ocds-b5fd17-a933d161-bad1-45aa-b56e-4b596fa50715-331290-nepo208",
+      "date": "2019-08-23T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "a27fc3368ed622628387377b4c3ac54c",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/cy4R326D",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Association Of North East Councils",
+          "address": {
+            "streetAddress": "The Guildhall, Sandhill ",
+            "locality": "Newcastle Upon Tyne",
+            "region": null,
+            "postalCode": "NE13AF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "fleet@nepo.org",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04168225",
+            "scheme": "GB-COH",
+            "legalName": "CERTAS ENERGY UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CERTAS ENERGY UK LIMITED",
+          "address": {
+            "streetAddress": "302 Bridgewater Place Birchwood Park\nWARRINGTON\nCheshire\nWA3 6XG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Gillian McKenzie",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02412689",
+            "scheme": "GB-COH",
+            "legalName": "FUCHS LUBRICANTS (UK) PLC"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "FUCHS LUBRICANTS (UK) PLC",
+          "address": {
+            "streetAddress": "New Century Street\nST1 5HU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ed Hirst",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-a933d161-bad1-45aa-b56e-4b596fa50715-nepo208",
+        "title": "NEPO208 Vehicle Parts &amp; Lubricants",
+        "description": "NEPO seeks to establish a framework contract for the supply of vehicle parts and lubricants for a wide range of cars, light &amp; medium commercials, heavy goods, specialist and grounds maintenance vehicles.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "34300000",
+              "description": "Parts and accessories for vehicles and their engines",
+              "uri": "http://cpv.data.ac.uk/code-34300000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 4000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 16000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-20T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "5",
+            "name": "CERTAS ENERGY UK LIMITED"
+          },
+          {
+            "id": "10",
+            "name": "FUCHS LUBRICANTS (UK) PLC"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-01T00:00:00Z",
+          "endDate": "2023-12-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "a27fc3368ed622628387377b4c3ac54c",
+        "name": "Association Of North East Councils"
+      },
+      "awards": [
+        {
+          "id": "1abc9671-d505-431b-9d4c-de92c1cf0c6b",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-09T00:00:00Z",
+          "value": {
+            "amount": 4000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "5",
+              "name": "CERTAS ENERGY UK LIMITED"
+            },
+            {
+              "id": "10",
+              "name": "FUCHS LUBRICANTS (UK) PLC"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-01T00:00:00Z",
+            "endDate": "2023-12-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

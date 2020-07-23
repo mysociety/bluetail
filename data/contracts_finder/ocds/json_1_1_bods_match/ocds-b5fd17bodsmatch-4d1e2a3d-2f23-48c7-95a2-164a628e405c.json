@@ -1,0 +1,252 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2746168a-ff67-49bb-b81c-ce21f4925963.json",
+  "version": "1.1",
+  "publishedDate": "2020-06-24T09:25:48Z",
+  "publisher": {
+    "name": "Staffordshire County Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-4d1e2a3d-2f23-48c7-95a2-164a628e405c",
+      "id": "ocds-b5fd17-4d1e2a3d-2f23-48c7-95a2-164a628e405c-366074-ia1774",
+      "date": "2020-01-17T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "d83462daf7d7fa4a1b6b4b6f65c1e8c1",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/2JAv6sFy",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Staffordshire County Council",
+          "address": {
+            "streetAddress": "Tipping Street ",
+            "locality": "STAFFORD",
+            "region": null,
+            "postalCode": "ST162DH",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Laura Kendall",
+            "email": "commercial.team@staffordshire.gov.uk",
+            "telephone": "01785854657",
+            "faxNumber": null,
+            "uri": "https://supplierlive.proactisp2p.com/Account/Login#"
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04082871",
+            "scheme": "GB-COH",
+            "legalName": "FG LIBRARY PRODUCTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FG LIBRARY PRODUCTS LIMITED",
+          "address": {
+            "streetAddress": "Swan Valley\nNORTHAMPTON\nNorthamptonshire\nNN4 9EF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Julian Glover",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00242437",
+            "scheme": "GB-COH",
+            "legalName": "MORLEYS (BICESTER) LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MORLEYS (BICESTER) LTD",
+          "address": {
+            "streetAddress": "Arkwright Road\nOX26 4UU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Adam Smith",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00295393",
+            "scheme": "GB-COH",
+            "legalName": "WAGSTAFF BROS.,LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "WAGSTAFF BROS.,LIMITED",
+          "address": {
+            "streetAddress": "CLERKENWELL\nLONDON\nEC1V 4JR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lianne Gray",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-4d1e2a3d-2f23-48c7-95a2-164a628e405c-ia1774",
+        "title": "Framework Agreement for Furniture",
+        "description": "Framework Agreement for Furniture split into three lots\r\n\r\nLot One - Office Furniture\r\nLot Two - Educational Furniture\r\nLot Three - Library Furniture",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39100000",
+              "description": "Furniture",
+              "uri": "http://cpv.data.ac.uk/code-39100000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 6500000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-20T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "FG LIBRARY PRODUCTS LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "MORLEYS (BICESTER) LTD"
+          },
+          {
+            "id": "8",
+            "name": "WAGSTAFF BROS.,LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-07-01T00:00:00Z",
+          "endDate": "2024-06-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "d83462daf7d7fa4a1b6b4b6f65c1e8c1",
+        "name": "Staffordshire County Council"
+      },
+      "awards": [
+        {
+          "id": "9e994f6d-4b64-4183-90a7-10e8e3d3708b",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-06-24T00:00:00Z",
+          "value": {
+            "amount": 6500000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "FG LIBRARY PRODUCTS LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "MORLEYS (BICESTER) LTD"
+            },
+            {
+              "id": "8",
+              "name": "WAGSTAFF BROS.,LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-07-01T00:00:00Z",
+            "endDate": "2024-06-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}
