@@ -1,0 +1,501 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8dcc0e7c-451d-41e0-8a9b-0f8afa981123.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-30T12:16:47Z",
+  "publisher": {
+    "name": "NHS SUPPLY CHAIN",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-dd3b9c63-6451-40d4-8fe3-a82ce4b3f80d",
+      "id": "ocds-b5fd17-dd3b9c63-6451-40d4-8fe3-a82ce4b3f80d-356661-pnl00001294-1",
+      "date": "2019-08-19T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "950d29ad00e74a8100d4bf085e2c259a",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/8479ZfZ7",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "NHS SUPPLY CHAIN",
+          "address": {
+            "streetAddress": "NHS Supply Chain Operated by DHL Supply Chain Limited acting as agent of Supply Chain Coordination Ltd (SCCL) c/o Skipton House, 80 London Road",
+            "locality": "London",
+            "region": null,
+            "postalCode": "SE1 6LH",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "Ravinder.sidhu@supplychain.nhs.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02296559",
+            "scheme": "GB-COH",
+            "legalName": "B. BRAUN MEDICAL LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "B. BRAUN MEDICAL LIMITED",
+          "address": {
+            "streetAddress": "Brookdale Road\r\nThorncliffe Park Estate\r\nChapeltown\r\nSheffield\r\nS35 2PW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01820888",
+            "scheme": "GB-COH",
+            "legalName": "B M S CRITICAL CARE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "B M S CRITICAL CARE LIMITED",
+          "address": {
+            "streetAddress": "Unit B Hurstwood Court\r\nMercer, Way\r\nShadsworth Business Park\r\nBlackburn\r\nLancashire\r\nBB1 2QU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00852702",
+            "scheme": "GB-COH",
+            "legalName": "BECTON, DICKINSON U.K. LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BECTON, DICKINSON U.K. LIMITED",
+          "address": {
+            "streetAddress": "1030 Eskdale Road\r\nWinnersh Triangle\r\nWokingham\r\nBerkshire\r\nEngland\r\nRG41 5TS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00461365",
+            "scheme": "GB-COH",
+            "legalName": "BAXTER HEALTHCARE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BAXTER HEALTHCARE LIMITED",
+          "address": {
+            "streetAddress": "Caxton Way\r\nThetford, Norfolk\r\nIP24 3SE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02061802",
+            "scheme": "GB-COH",
+            "legalName": "CODAN LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CODAN LIMITED",
+          "address": {
+            "streetAddress": "1 Eastheath Avenue\r\nWokingham\r\nBerkshire\r\nRG41 2PR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02663514",
+            "scheme": "GB-COH",
+            "legalName": "FANNIN (UK) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "FANNIN (UK) LIMITED",
+          "address": {
+            "streetAddress": "Dcc Vital Westminster Industrial Estate\r\nRepton Road\r\nMeasham\r\nSwadlincote\r\nDerbyshire\r\nDE12 7DT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02654669",
+            "scheme": "GB-COH",
+            "legalName": "MEDICINA LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MEDICINA LIMITED",
+          "address": {
+            "streetAddress": "Units 1-4 Rivington View Business Park Station Road\r\nBlackrod\r\nBolton\r\nEngland\r\nBL6 5BN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03001008",
+            "scheme": "GB-COH",
+            "legalName": "MERIT MEDICAL UK LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MERIT MEDICAL UK LIMITED",
+          "address": {
+            "streetAddress": "Unit 27 Suttons Business Park Sutton Park Avenue\r\nEarley\r\nReading\r\nBerkshire\r\nUnited Kingdom\r\nRG6 1AZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01131530",
+            "scheme": "GB-COH",
+            "legalName": "VYGON (U.K.) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "VYGON (U.K.) LIMITED",
+          "address": {
+            "streetAddress": "The Pierre Simonet Building V Park\r\nGateway North\r\nLatham Road\r\nSwindon\r\nWiltshire\r\nSN25 4DL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-dd3b9c63-6451-40d4-8fe3-a82ce4b3f80d-pnl00001294-1",
+        "title": "Needlefree Connection Systems and Associated Products",
+        "description": "NHS Supply Chain seeks to establish a non-exclusive framework agreement for supply to NHS supply chain depots via the Stock/Blue Diamond routes and to the NHS Supply Chain customer base via the E-Direct Route.\r\nDetails of the NHS Supply Chain routes to market can be found in Appendix 4b operational suppliers requirements.\r\nThe framework agreement is for the supply of needle free connectors and connection systems/access devices and associated products intended to provide direct infusion of fluids or administration of medication to a patient.\r\nIt is anticipated that in the first 24 months of the framework agreement the value of purchases will be circa 72000 000 GBP. For the full 48 month term (if extended) the anticipated value is circa 144 000 000 GBP. These values are approximate only and are based on the most recent historical usage information, with a forecasted level of growth. The values provided are for guidance only and are not a guarantee of business.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "33191000",
+              "description": "Sterilisation, disinfection and hygiene devices",
+              "uri": "http://cpv.data.ac.uk/code-33191000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "33194000",
+              "description": "Devices and instruments for transfusion and infusion",
+              "uri": "http://cpv.data.ac.uk/code-33194000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 72000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 144000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-30T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 9,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "B. BRAUN MEDICAL LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "B M S CRITICAL CARE LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "BECTON, DICKINSON U.K. LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "BAXTER HEALTHCARE LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "CODAN LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "FANNIN (UK) LIMITED"
+          },
+          {
+            "id": "13",
+            "name": "MEDICINA LIMITED"
+          },
+          {
+            "id": "14",
+            "name": "MERIT MEDICAL UK LIMITED"
+          },
+          {
+            "id": "18",
+            "name": "VYGON (U.K.) LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-11-01T00:00:00Z",
+          "endDate": "2024-10-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "950d29ad00e74a8100d4bf085e2c259a",
+        "name": "NHS SUPPLY CHAIN"
+      },
+      "awards": [
+        {
+          "id": "3dddc0b8-0977-4379-ad6a-d93bd60ec829",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-17T00:00:00Z",
+          "value": {
+            "amount": 144000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "B. BRAUN MEDICAL LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "B M S CRITICAL CARE LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "BECTON, DICKINSON U.K. LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "BAXTER HEALTHCARE LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "CODAN LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "FANNIN (UK) LIMITED"
+            },
+            {
+              "id": "13",
+              "name": "MEDICINA LIMITED"
+            },
+            {
+              "id": "14",
+              "name": "MERIT MEDICAL UK LIMITED"
+            },
+            {
+              "id": "18",
+              "name": "VYGON (U.K.) LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-11-01T00:00:00Z",
+            "endDate": "2024-10-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

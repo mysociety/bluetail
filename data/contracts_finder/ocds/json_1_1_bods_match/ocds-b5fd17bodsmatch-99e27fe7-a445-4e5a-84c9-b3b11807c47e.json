@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/53760c66-d0fc-4c8e-9f8c-837b6d4611e5.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-30T15:25:07Z",
+  "publisher": {
+    "name": "Independent Office For Police Conduct",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-99e27fe7-a445-4e5a-84c9-b3b11807c47e",
+      "id": "ocds-b5fd17-99e27fe7-a445-4e5a-84c9-b3b11807c47e-356789-nat-2020-15",
+      "date": "2019-11-04T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "10e0ec4606e67ef8905e83df92109cd4",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/64mmEr7h",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Independent Office For Police Conduct",
+          "address": {
+            "streetAddress": "10 South Colonnade ",
+            "locality": "LONDON",
+            "region": null,
+            "postalCode": "E144PU",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Annie Krikorian",
+            "email": "annie.krikorian@policeconduct.gov.uk",
+            "telephone": "020 7166 5113",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02413137",
+            "scheme": "GB-COH",
+            "legalName": "QA LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "QA LIMITED",
+          "address": {
+            "streetAddress": "Rath House 55-65 Uxbridge Road\nSLOUGH\nBerkshire\nSL1 1SG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02413137",
+            "scheme": "GB-COH",
+            "legalName": "QA LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "QA LIMITED",
+          "address": {
+            "streetAddress": "Rath House 55-65 Uxbridge Road\nSLOUGH\nBerkshire\nSL1 1SG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-99e27fe7-a445-4e5a-84c9-b3b11807c47e-nat/2020",
+        "title": "Higher Digital Apprenticeships",
+        "description": "The delivery of higher digital apprenticeships",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "80530000",
+              "description": "Vocational training services",
+              "uri": "http://cpv.data.ac.uk/code-80530000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 100000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-27T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "QA LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "QA LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-02-24T00:00:00Z",
+          "endDate": "2023-02-24T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "10e0ec4606e67ef8905e83df92109cd4",
+        "name": "Independent Office For Police Conduct"
+      },
+      "awards": [
+        {
+          "id": "df636504-8468-4177-8b4b-cd4833ee3ed4",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-30T00:00:00Z",
+          "value": {
+            "amount": 100000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "QA LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "QA LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-02-24T00:00:00Z",
+            "endDate": "2023-02-24T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

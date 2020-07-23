@@ -1,1 +1,781 @@
-{"uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1bedb927-0b6d-4ed5-8766-a25a72636ad2.json", "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/", "version": "1.1", "releases": [{"id": "ocds-b5fd17-34a15b98-89c3-4a3f-9b01-e0cd1be67e15-344893-2020-s-046-109659", "tag": ["tender"], "date": "2019-11-11T00:00:00Z", "ocid": "ocds-b5fd17bodsmatch-34a15b98-89c3-4a3f-9b01-e0cd1be67e15", "buyer": {"id": "377a870fc8e52ca5454b073858b34412", "name": "FOODBUY EUROPE LIMITED"}, "awards": [{"id": "617d4c90-8d99-42c6-a964-f45578bab98f", "date": "2020-01-30T00:00:00Z", "title": "", "value": {"amount": 184843060, "currency": "GBP"}, "status": "active", "suppliers": [{"id": "1", "name": "AIMIA FOODS LIMITED"}, {"id": "2", "name": "BFS GROUP LIMITED"}, {"id": "10", "name": "JUICEWORKS LIMITED"}, {"id": "14", "name": "MARILLO FOODS LIMITED"}, {"id": "18", "name": "MEDINA DAIRY LIMITED"}, {"id": "21", "name": "N.H. CASE LIMITED"}], "description": "See description of related tender", "contractPeriod": {"endDate": "2021-02-28T00:00:00Z", "startDate": "2020-03-01T00:00:00Z"}}], "tender": {"id": "ocds-b5fd17-34a15b98-89c3-4a3f-9b01-e0cd1be67e15-2020/s-046-109659", "items": [{"id": 1, "description": "See description of related tender.", "classification": {"id": "03211000", "uri": "http://cpv.data.ac.uk/code-03211000.html", "scheme": "CPV", "description": "Cereals"}}, {"id": 2, "description": "See description of related tender.", "classification": {"id": "03221000", "uri": "http://cpv.data.ac.uk/code-03221000.html", "scheme": "CPV", "description": "Vegetables"}}, {"id": 3, "description": "See description of related tender.", "classification": {"id": "03222112", "uri": "http://cpv.data.ac.uk/code-03222112.html", "scheme": "CPV", "description": "Pineapples"}}, {"id": 4, "description": "See description of related tender.", "classification": {"id": "03222321", "uri": "http://cpv.data.ac.uk/code-03222321.html", "scheme": "CPV", "description": "Apples"}}, {"id": 5, "description": "See description of related tender.", "classification": {"id": "03222322", "uri": "http://cpv.data.ac.uk/code-03222322.html", "scheme": "CPV", "description": "Pears"}}, {"id": 6, "description": "See description of related tender.", "classification": {"id": "03222331", "uri": "http://cpv.data.ac.uk/code-03222331.html", "scheme": "CPV", "description": "Apricots"}}, {"id": 7, "description": "See description of related tender.", "classification": {"id": "03222332", "uri": "http://cpv.data.ac.uk/code-03222332.html", "scheme": "CPV", "description": "Peaches"}}, {"id": 8, "description": "See description of related tender.", "classification": {"id": "03222334", "uri": "http://cpv.data.ac.uk/code-03222334.html", "scheme": "CPV", "description": "Plums"}}, {"id": 9, "description": "See description of related tender.", "classification": {"id": "03311000", "uri": "http://cpv.data.ac.uk/code-03311000.html", "scheme": "CPV", "description": "Fish"}}, {"id": 10, "description": "See description of related tender.", "classification": {"id": "03333000", "uri": "http://cpv.data.ac.uk/code-03333000.html", "scheme": "CPV", "description": "Fresh cows' milk"}}, {"id": 11, "description": "See description of related tender.", "classification": {"id": "15111100", "uri": "http://cpv.data.ac.uk/code-15111100.html", "scheme": "CPV", "description": "Beef"}}, {"id": 12, "description": "See description of related tender.", "classification": {"id": "15112000", "uri": "http://cpv.data.ac.uk/code-15112000.html", "scheme": "CPV", "description": "Poultry"}}, {"id": 13, "description": "See description of related tender.", "classification": {"id": "15115100", "uri": "http://cpv.data.ac.uk/code-15115100.html", "scheme": "CPV", "description": "Lamb"}}, {"id": 14, "description": "See description of related tender.", "classification": {"id": "15130000", "uri": "http://cpv.data.ac.uk/code-15130000.html", "scheme": "CPV", "description": "Meat products"}}, {"id": 15, "description": "See description of related tender.", "classification": {"id": "15211000", "uri": "http://cpv.data.ac.uk/code-15211000.html", "scheme": "CPV", "description": "Fish fillets"}}, {"id": 16, "description": "See description of related tender.", "classification": {"id": "15220000", "uri": "http://cpv.data.ac.uk/code-15220000.html", "scheme": "CPV", "description": "Frozen fish, fish fillets and other fish meat"}}, {"id": 17, "description": "See description of related tender.", "classification": {"id": "15241100", "uri": "http://cpv.data.ac.uk/code-15241100.html", "scheme": "CPV", "description": "Canned salmon"}}, {"id": 18, "description": "See description of related tender.", "classification": {"id": "15241400", "uri": "http://cpv.data.ac.uk/code-15241400.html", "scheme": "CPV", "description": "Canned tuna"}}, {"id": 19, "description": "See description of related tender.", "classification": {"id": "15241800", "uri": "http://cpv.data.ac.uk/code-15241800.html", "scheme": "CPV", "description": "Coated fish preparations"}}, {"id": 20, "description": "See description of related tender.", "classification": {"id": "15253000", "uri": "http://cpv.data.ac.uk/code-15253000.html", "scheme": "CPV", "description": "Shellfish products"}}, {"id": 21, "description": "See description of related tender.", "classification": {"id": "15310000", "uri": "http://cpv.data.ac.uk/code-15310000.html", "scheme": "CPV", "description": "Potatoes and potato products"}}, {"id": 22, "description": "See description of related tender.", "classification": {"id": "15320000", "uri": "http://cpv.data.ac.uk/code-15320000.html", "scheme": "CPV", "description": "Fruit and vegetable juices"}}, {"id": 23, "description": "See description of related tender.", "classification": {"id": "15330000", "uri": "http://cpv.data.ac.uk/code-15330000.html", "scheme": "CPV", "description": "Processed fruit and vegetables"}}, {"id": 24, "description": "See description of related tender.", "classification": {"id": "15411100", "uri": "http://cpv.data.ac.uk/code-15411100.html", "scheme": "CPV", "description": "Vegetable oils"}}, {"id": 25, "description": "See description of related tender.", "classification": {"id": "15411110", "uri": "http://cpv.data.ac.uk/code-15411110.html", "scheme": "CPV", "description": "Olive oil"}}, {"id": 26, "description": "See description of related tender.", "classification": {"id": "15411200", "uri": "http://cpv.data.ac.uk/code-15411200.html", "scheme": "CPV", "description": "Cooking oil"}}, {"id": 27, "description": "See description of related tender.", "classification": {"id": "15431000", "uri": "http://cpv.data.ac.uk/code-15431000.html", "scheme": "CPV", "description": "Margarine and similar preparations"}}, {"id": 28, "description": "See description of related tender.", "classification": {"id": "15510000", "uri": "http://cpv.data.ac.uk/code-15510000.html", "scheme": "CPV", "description": "Milk and cream"}}, {"id": 29, "description": "See description of related tender.", "classification": {"id": "15530000", "uri": "http://cpv.data.ac.uk/code-15530000.html", "scheme": "CPV", "description": "Butter"}}, {"id": 30, "description": "See description of related tender.", "classification": {"id": "15543200", "uri": "http://cpv.data.ac.uk/code-15543200.html", "scheme": "CPV", "description": "Cheddar cheese"}}, {"id": 31, "description": "See description of related tender.", "classification": {"id": "15543300", "uri": "http://cpv.data.ac.uk/code-15543300.html", "scheme": "CPV", "description": "Grated cheese"}}, {"id": 32, "description": "See description of related tender.", "classification": {"id": "15544000", "uri": "http://cpv.data.ac.uk/code-15544000.html", "scheme": "CPV", "description": "Hard cheese"}}, {"id": 33, "description": "See description of related tender.", "classification": {"id": "15551000", "uri": "http://cpv.data.ac.uk/code-15551000.html", "scheme": "CPV", "description": "Yoghurt and other fermented milk products"}}, {"id": 34, "description": "See description of related tender.", "classification": {"id": "15555000", "uri": "http://cpv.data.ac.uk/code-15555000.html", "scheme": "CPV", "description": "Ice cream and similar products"}}, {"id": 35, "description": "See description of related tender.", "classification": {"id": "15612410", "uri": "http://cpv.data.ac.uk/code-15612410.html", "scheme": "CPV", "description": "Cake mixes"}}, {"id": 36, "description": "See description of related tender.", "classification": {"id": "15613310", "uri": "http://cpv.data.ac.uk/code-15613310.html", "scheme": "CPV", "description": "Prepared breakfast cereals"}}, {"id": 37, "description": "See description of related tender.", "classification": {"id": "15613311", "uri": "http://cpv.data.ac.uk/code-15613311.html", "scheme": "CPV", "description": "Cornflakes"}}, {"id": 38, "description": "See description of related tender.", "classification": {"id": "15626000", "uri": "http://cpv.data.ac.uk/code-15626000.html", "scheme": "CPV", "description": "Custard powder"}}, {"id": 39, "description": "See description of related tender.", "classification": {"id": "15831000", "uri": "http://cpv.data.ac.uk/code-15831000.html", "scheme": "CPV", "description": "Sugar"}}, {"id": 40, "description": "See description of related tender.", "classification": {"id": "15833100", "uri": "http://cpv.data.ac.uk/code-15833100.html", "scheme": "CPV", "description": "Desserts"}}, {"id": 41, "description": "See description of related tender.", "classification": {"id": "15871260", "uri": "http://cpv.data.ac.uk/code-15871260.html", "scheme": "CPV", "description": "Sauces"}}, {"id": 42, "description": "See description of related tender.", "classification": {"id": "15871273", "uri": "http://cpv.data.ac.uk/code-15871273.html", "scheme": "CPV", "description": "Mayonnaise"}}, {"id": 43, "description": "See description of related tender.", "classification": {"id": "15872100", "uri": "http://cpv.data.ac.uk/code-15872100.html", "scheme": "CPV", "description": "Pepper"}}, {"id": 44, "description": "See description of related tender.", "classification": {"id": "15872400", "uri": "http://cpv.data.ac.uk/code-15872400.html", "scheme": "CPV", "description": "Salt"}}, {"id": 45, "description": "See description of related tender.", "classification": {"id": "15891610", "uri": "http://cpv.data.ac.uk/code-15891610.html", "scheme": "CPV", "description": "Mixes for stocks"}}, {"id": 46, "description": "See description of related tender.", "classification": {"id": "15893300", "uri": "http://cpv.data.ac.uk/code-15893300.html", "scheme": "CPV", "description": "Gravy mixes"}}], "title": "Multi Temperature Products", "value": {"amount": 184843060, "currency": "GBP"}, "status": "complete", "minValue": {"amount": 25672647, "currency": "GBP"}, "documents": [], "description": "NHS Supply Chain: Food seeked to establish a non-exclusive Framework Agreement for the supply of the Multi-Temperature Products Lines, delivered to the Multi Temperature Distributor depots. The Framework Agreement will have an initial term of 12 months with an option to extend incrementally for up to a total of 48 months. It is anticipated that in the first 12 months the value of the Framework Agreement will be in the region of &pound;25,672,647.\r\nFor the full 48 month term (if extended) the anticipated value of the Framework Agreement will be in the region of &pound;184,843,060.\r\nThese values are approximate only and are based on the most recent historical usage information, with a forecasted level of growth. The values provided are for guidance only and are not a guarantee of business.", "supplyChain": false, "hasEnquiries": null, "tenderPeriod": {"endDate": "2019-11-25T00:00:00Z"}, "awardCriteria": null, "submissionMethod": null, "xClassifications": {"isSuitableForSme": true, "isSuitableForVco": true, "ojeuContractType": "Products"}, "procurementMethod": "open", "eligibilityCriteria": null, "awardCriteriaDetails": null, "submissionMethodDetails": null, "procurementMethodDetails": "Open procedure (OJEU)", "procurementMethodRationale": "", "numberOfTenderers": 6, "tenderers": [{"id": "1", "name": "AIMIA FOODS LIMITED"}, {"id": "2", "name": "BFS GROUP LIMITED"}, {"id": "10", "name": "JUICEWORKS LIMITED"}, {"id": "14", "name": "MARILLO FOODS LIMITED"}, {"id": "18", "name": "MEDINA DAIRY LIMITED"}, {"id": "21", "name": "N.H. CASE LIMITED"}], "contractPeriod": {"startDate": "2020-03-01T00:00:00Z", "endDate": "2021-02-28T00:00:00Z"}}, "parties": [{"id": "377a870fc8e52ca5454b073858b34412", "name": "FOODBUY EUROPE LIMITED", "roles": ["buyer"], "address": {"region": null, "locality": "BIRMINGHAM", "postalCode": "B459PZ", "countryName": "England", "streetAddress": "Parklands Court 24 Parklands,Rubery "}, "identifier": {"id": "sid4gov.cabinetoffice.gov.uk/wNDg246z", "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv", "scheme": "GB-SRS", "legalName": null}, "contactPoint": {"name": "Strategic Sourcing", "email": "strategicsourcing@supplychain.nhs.uk", "faxNumber": null, "telephone": ""}}, {"id": "1", "sme": false, "vco": false, "name": "AIMIA FOODS LIMITED", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "PENNY LANE\nWA11 0QZ\nGB"}, "identifier": {"id": "01542173", "scheme": "GB-COH", "legalName": "AIMIA FOODS LIMITED"}, "contactPoint": {"name": "Carol Tuck", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "2", "sme": false, "vco": false, "name": "BFS GROUP LIMITED", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "4 Leigh Road\nSLOUGH\nBerkshire\nSL1 4BD\nGB"}, "identifier": {"id": "00239718", "scheme": "GB-COH", "legalName": "BFS GROUP LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "10", "sme": true, "vco": false, "name": "JUICEWORKS LIMITED", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Sonex House\nM22 4RX\nGB"}, "identifier": {"id": "04450381", "scheme": "GB-COH", "legalName": "JUICEWORKS LIMITED"}, "contactPoint": {"name": "Carmel Bonner", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "14", "sme": true, "vco": false, "name": "MARILLO FOODS LIMITED", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Rochdale Road\nHX6 4JU\nGB"}, "identifier": {"id": "04455911", "scheme": "GB-COH", "legalName": "MARILLO FOODS LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "18", "sme": false, "vco": false, "name": "MEDINA DAIRY LIMITED", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Vale Road\nWINDSOR\nBERKSHIRE\nSL4 5JL\nGB"}, "identifier": {"id": "02807474", "scheme": "GB-COH", "legalName": "MEDINA DAIRY LIMITED"}, "contactPoint": {"name": "Elliott Simpson", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "21", "sme": true, "vco": false, "name": "N.H. CASE LIMITED", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Bennetts Field Trading Estate\nBA9 9DS\nGB"}, "identifier": {"id": "01904912", "scheme": "GB-COH", "legalName": "N.H. CASE LIMITED"}, "contactPoint": {"name": "Jacklyn Case", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}], "language": "en-GB", "initiationType": "tender"}], "publisher": {"uid": null, "uri": "https://www.contractsfinder.service.gov.uk", "name": "FOODBUY EUROPE LIMITED", "scheme": "GB-GOVUK-crown_comercial_service"}, "extensions": ["https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"], "publishedDate": "2020-03-06T16:14:50Z", "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting"}
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1bedb927-0b6d-4ed5-8766-a25a72636ad2.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-06T16:14:50Z",
+  "publisher": {
+    "name": "FOODBUY EUROPE LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-34a15b98-89c3-4a3f-9b01-e0cd1be67e15",
+      "id": "ocds-b5fd17-34a15b98-89c3-4a3f-9b01-e0cd1be67e15-344893-2020-s-046-109659",
+      "date": "2019-10-21T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "377a870fc8e52ca5454b073858b34412",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/wNDg246z",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "FOODBUY EUROPE LIMITED",
+          "address": {
+            "streetAddress": "Parklands Court 24 Parklands,Rubery ",
+            "locality": "BIRMINGHAM",
+            "region": null,
+            "postalCode": "B459PZ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Strategic Sourcing",
+            "email": "strategicsourcing@supplychain.nhs.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01542173",
+            "scheme": "GB-COH",
+            "legalName": "AIMIA FOODS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "AIMIA FOODS LIMITED",
+          "address": {
+            "streetAddress": "PENNY LANE\nWA11 0QZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Carol Tuck",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00239718",
+            "scheme": "GB-COH",
+            "legalName": "BFS GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BFS GROUP LIMITED",
+          "address": {
+            "streetAddress": "4 Leigh Road\nSLOUGH\nBerkshire\nSL1 4BD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04450381",
+            "scheme": "GB-COH",
+            "legalName": "JUICEWORKS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JUICEWORKS LIMITED",
+          "address": {
+            "streetAddress": "Sonex House\nM22 4RX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Carmel Bonner",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02807474",
+            "scheme": "GB-COH",
+            "legalName": "MEDINA DAIRY LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MEDINA DAIRY LIMITED",
+          "address": {
+            "streetAddress": "Vale Road\nWINDSOR\nBERKSHIRE\nSL4 5JL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Elliott Simpson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01904912",
+            "scheme": "GB-COH",
+            "legalName": "N.H. CASE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "N.H. CASE LIMITED",
+          "address": {
+            "streetAddress": "Bennetts Field Trading Estate\nBA9 9DS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jacklyn Case",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-34a15b98-89c3-4a3f-9b01-e0cd1be67e15-2020/s-046-109659",
+        "title": "Multi Temperature Products",
+        "description": "NHS Supply Chain: Food seeked to establish a non-exclusive Framework Agreement for the supply of the Multi-Temperature Products Lines, delivered to the Multi Temperature Distributor depots. The Framework Agreement will have an initial term of 12 months with an option to extend incrementally for up to a total of 48 months. It is anticipated that in the first 12 months the value of the Framework Agreement will be in the region of &pound;25,672,647.\r\nFor the full 48 month term (if extended) the anticipated value of the Framework Agreement will be in the region of &pound;184,843,060.\r\nThese values are approximate only and are based on the most recent historical usage information, with a forecasted level of growth. The values provided are for guidance only and are not a guarantee of business.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03211000",
+              "description": "Cereals",
+              "uri": "http://cpv.data.ac.uk/code-03211000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03221000",
+              "description": "Vegetables",
+              "uri": "http://cpv.data.ac.uk/code-03221000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03222112",
+              "description": "Pineapples",
+              "uri": "http://cpv.data.ac.uk/code-03222112.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03222321",
+              "description": "Apples",
+              "uri": "http://cpv.data.ac.uk/code-03222321.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03222322",
+              "description": "Pears",
+              "uri": "http://cpv.data.ac.uk/code-03222322.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03222331",
+              "description": "Apricots",
+              "uri": "http://cpv.data.ac.uk/code-03222331.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03222332",
+              "description": "Peaches",
+              "uri": "http://cpv.data.ac.uk/code-03222332.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03222334",
+              "description": "Plums",
+              "uri": "http://cpv.data.ac.uk/code-03222334.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03311000",
+              "description": "Fish",
+              "uri": "http://cpv.data.ac.uk/code-03311000.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03333000",
+              "description": "Fresh cows' milk",
+              "uri": "http://cpv.data.ac.uk/code-03333000.html"
+            }
+          },
+          {
+            "id": 11,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15111100",
+              "description": "Beef",
+              "uri": "http://cpv.data.ac.uk/code-15111100.html"
+            }
+          },
+          {
+            "id": 12,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15112000",
+              "description": "Poultry",
+              "uri": "http://cpv.data.ac.uk/code-15112000.html"
+            }
+          },
+          {
+            "id": 13,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15115100",
+              "description": "Lamb",
+              "uri": "http://cpv.data.ac.uk/code-15115100.html"
+            }
+          },
+          {
+            "id": 14,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15130000",
+              "description": "Meat products",
+              "uri": "http://cpv.data.ac.uk/code-15130000.html"
+            }
+          },
+          {
+            "id": 15,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15211000",
+              "description": "Fish fillets",
+              "uri": "http://cpv.data.ac.uk/code-15211000.html"
+            }
+          },
+          {
+            "id": 16,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15220000",
+              "description": "Frozen fish, fish fillets and other fish meat",
+              "uri": "http://cpv.data.ac.uk/code-15220000.html"
+            }
+          },
+          {
+            "id": 17,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15241100",
+              "description": "Canned salmon",
+              "uri": "http://cpv.data.ac.uk/code-15241100.html"
+            }
+          },
+          {
+            "id": 18,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15241400",
+              "description": "Canned tuna",
+              "uri": "http://cpv.data.ac.uk/code-15241400.html"
+            }
+          },
+          {
+            "id": 19,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15241800",
+              "description": "Coated fish preparations",
+              "uri": "http://cpv.data.ac.uk/code-15241800.html"
+            }
+          },
+          {
+            "id": 20,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15253000",
+              "description": "Shellfish products",
+              "uri": "http://cpv.data.ac.uk/code-15253000.html"
+            }
+          },
+          {
+            "id": 21,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15310000",
+              "description": "Potatoes and potato products",
+              "uri": "http://cpv.data.ac.uk/code-15310000.html"
+            }
+          },
+          {
+            "id": 22,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15320000",
+              "description": "Fruit and vegetable juices",
+              "uri": "http://cpv.data.ac.uk/code-15320000.html"
+            }
+          },
+          {
+            "id": 23,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15330000",
+              "description": "Processed fruit and vegetables",
+              "uri": "http://cpv.data.ac.uk/code-15330000.html"
+            }
+          },
+          {
+            "id": 24,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15411100",
+              "description": "Vegetable oils",
+              "uri": "http://cpv.data.ac.uk/code-15411100.html"
+            }
+          },
+          {
+            "id": 25,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15411110",
+              "description": "Olive oil",
+              "uri": "http://cpv.data.ac.uk/code-15411110.html"
+            }
+          },
+          {
+            "id": 26,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15411200",
+              "description": "Cooking oil",
+              "uri": "http://cpv.data.ac.uk/code-15411200.html"
+            }
+          },
+          {
+            "id": 27,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15431000",
+              "description": "Margarine and similar preparations",
+              "uri": "http://cpv.data.ac.uk/code-15431000.html"
+            }
+          },
+          {
+            "id": 28,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15510000",
+              "description": "Milk and cream",
+              "uri": "http://cpv.data.ac.uk/code-15510000.html"
+            }
+          },
+          {
+            "id": 29,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15530000",
+              "description": "Butter",
+              "uri": "http://cpv.data.ac.uk/code-15530000.html"
+            }
+          },
+          {
+            "id": 30,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15543200",
+              "description": "Cheddar cheese",
+              "uri": "http://cpv.data.ac.uk/code-15543200.html"
+            }
+          },
+          {
+            "id": 31,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15543300",
+              "description": "Grated cheese",
+              "uri": "http://cpv.data.ac.uk/code-15543300.html"
+            }
+          },
+          {
+            "id": 32,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15544000",
+              "description": "Hard cheese",
+              "uri": "http://cpv.data.ac.uk/code-15544000.html"
+            }
+          },
+          {
+            "id": 33,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15551000",
+              "description": "Yoghurt and other fermented milk products",
+              "uri": "http://cpv.data.ac.uk/code-15551000.html"
+            }
+          },
+          {
+            "id": 34,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15555000",
+              "description": "Ice cream and similar products",
+              "uri": "http://cpv.data.ac.uk/code-15555000.html"
+            }
+          },
+          {
+            "id": 35,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15612410",
+              "description": "Cake mixes",
+              "uri": "http://cpv.data.ac.uk/code-15612410.html"
+            }
+          },
+          {
+            "id": 36,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15613310",
+              "description": "Prepared breakfast cereals",
+              "uri": "http://cpv.data.ac.uk/code-15613310.html"
+            }
+          },
+          {
+            "id": 37,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15613311",
+              "description": "Cornflakes",
+              "uri": "http://cpv.data.ac.uk/code-15613311.html"
+            }
+          },
+          {
+            "id": 38,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15626000",
+              "description": "Custard powder",
+              "uri": "http://cpv.data.ac.uk/code-15626000.html"
+            }
+          },
+          {
+            "id": 39,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15831000",
+              "description": "Sugar",
+              "uri": "http://cpv.data.ac.uk/code-15831000.html"
+            }
+          },
+          {
+            "id": 40,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15833100",
+              "description": "Desserts",
+              "uri": "http://cpv.data.ac.uk/code-15833100.html"
+            }
+          },
+          {
+            "id": 41,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15871260",
+              "description": "Sauces",
+              "uri": "http://cpv.data.ac.uk/code-15871260.html"
+            }
+          },
+          {
+            "id": 42,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15871273",
+              "description": "Mayonnaise",
+              "uri": "http://cpv.data.ac.uk/code-15871273.html"
+            }
+          },
+          {
+            "id": 43,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15872100",
+              "description": "Pepper",
+              "uri": "http://cpv.data.ac.uk/code-15872100.html"
+            }
+          },
+          {
+            "id": 44,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15872400",
+              "description": "Salt",
+              "uri": "http://cpv.data.ac.uk/code-15872400.html"
+            }
+          },
+          {
+            "id": 45,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15891610",
+              "description": "Mixes for stocks",
+              "uri": "http://cpv.data.ac.uk/code-15891610.html"
+            }
+          },
+          {
+            "id": 46,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15893300",
+              "description": "Gravy mixes",
+              "uri": "http://cpv.data.ac.uk/code-15893300.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 25672647,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 184843060,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-25T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "AIMIA FOODS LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "BFS GROUP LIMITED"
+          },
+          {
+            "id": "10",
+            "name": "JUICEWORKS LIMITED"
+          },
+          {
+            "id": "18",
+            "name": "MEDINA DAIRY LIMITED"
+          },
+          {
+            "id": "21",
+            "name": "N.H. CASE LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-01T00:00:00Z",
+          "endDate": "2021-02-28T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "377a870fc8e52ca5454b073858b34412",
+        "name": "FOODBUY EUROPE LIMITED"
+      },
+      "awards": [
+        {
+          "id": "617d4c90-8d99-42c6-a964-f45578bab98f",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-30T00:00:00Z",
+          "value": {
+            "amount": 184843060,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "AIMIA FOODS LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "BFS GROUP LIMITED"
+            },
+            {
+              "id": "10",
+              "name": "JUICEWORKS LIMITED"
+            },
+            {
+              "id": "18",
+              "name": "MEDINA DAIRY LIMITED"
+            },
+            {
+              "id": "21",
+              "name": "N.H. CASE LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-01T00:00:00Z",
+            "endDate": "2021-02-28T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/19e2c2b1-7f6e-42d1-962a-2a2e42aa9efc.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-15T20:13:46Z",
+  "publisher": {
+    "name": "STAFFORDSHIRE COUNTY COUNCIL",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-1d8bd9c9-c9f3-4c40-ab43-2ac13cb1ca23",
+      "id": "ocds-b5fd17-1d8bd9c9-c9f3-4c40-ab43-2ac13cb1ca23-354336-ia1750_award_notice",
+      "date": "2019-11-12T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "66d053ea293ab140376a2a6446e373f3",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/gAt5NMW9",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "STAFFORDSHIRE COUNTY COUNCIL",
+          "address": {
+            "streetAddress": "2 Staffordshire Place ",
+            "locality": "STAFFORD",
+            "region": null,
+            "postalCode": "ST162LP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Paul Timmins",
+            "email": "paul.timmins@staffordshire.gov.uk",
+            "telephone": "01785854646",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01273930",
+            "scheme": "GB-COH",
+            "legalName": "FORDS OF BLYTHE BRIDGE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FORDS OF BLYTHE BRIDGE LIMITED",
+          "address": {
+            "streetAddress": "203 Grindley Lane\nST11 9JS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01207642",
+            "scheme": "GB-COH",
+            "legalName": "M.W. CRIPWELL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "M.W. CRIPWELL LIMITED",
+          "address": {
+            "streetAddress": "119A Derby Street\nDE14 2LE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03652010",
+            "scheme": "GB-COH",
+            "legalName": "ROY DYKE ELECTRICAL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ROY DYKE ELECTRICAL LIMITED",
+          "address": {
+            "streetAddress": "44 Poole Crescent\nWV14 8SU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-1d8bd9c9-c9f3-4c40-ab43-2ac13cb1ca23-ia1750_award_notice",
+        "title": "The Supply of Planned &amp; Reactive Maintenance &amp; Minor Works (Framework Agreement)",
+        "description": "THIS IS NOT A CALL FOR COMPETITION. THIS IS AN AWARD NOTICE.\r\nThis multi-provider Framework Agreement will work in accordance with the National Schedule of Rates (&#039;NSR&#039;) and Provider day rates to provide Planned &amp; Reactive Maintenance and Minor Works, lotted as follows\r\n\r\nLOT 1 - Minor Building Works \r\n&bull;\tThe work typically consists of general building / construction projects to carry out internal/external alterations, new-build, alterations/extensions, refurbishments, fit-outs, fabric work, and external works.\r\n\r\nLOT 2 - Mechanical \r\n&bull;\tThe work will typically consist of mechanical engineering items, either as standalone projects, or associated Works in carrying out internal/external alterations and refurbishments with the occasional extension. Works are likely to include, but not limited to, heating, domestic hot water and gas installations, also air conditioning and mechanical ventilation systems.\r\n\r\nLOT 3 - Electrical \r\n&bull;\tThe work will typically consist of electrical engineering items, either as standalone projects, or associated works in carrying out internal/external alterations and refurbishments with the occasional extension. Works are likely to include, but not limited to, electrical rewiring, installation of new power, lighting and control systems also electrical ventilation systems\r\n\r\nProperties for all Lots will include County Council-owned properties, public sector estate and infrastructure, schools (maintained or otherwise), Academies, Free schools, libraries, community buildings, general offices, education/higher education property, health &amp; social care buildings, emergency services buildings, community buildings, occasional nursery facilities, sports facilities, and light industrial units.\r\n\r\nHow to register - follow the link to Proactis electronic tendering:\r\n- https://supplierlive.proactisp2p.com/Account/Login",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50000000",
+              "description": "Repair and maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50000000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "51100000",
+              "description": "Installation services of electrical and mechanical equipment",
+              "uri": "http://cpv.data.ac.uk/code-51100000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71242000",
+              "description": "Project and design preparation, estimation of costs",
+              "uri": "http://cpv.data.ac.uk/code-71242000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71314310",
+              "description": "Heating engineering services for buildings",
+              "uri": "http://cpv.data.ac.uk/code-71314310.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71321200",
+              "description": "Heating-system design services",
+              "uri": "http://cpv.data.ac.uk/code-71321200.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71334000",
+              "description": "Mechanical and electrical engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71334000.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71500000",
+              "description": "Construction-related services",
+              "uri": "http://cpv.data.ac.uk/code-71500000.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79415200",
+              "description": "Design consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79415200.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79930000",
+              "description": "Specialty design services",
+              "uri": "http://cpv.data.ac.uk/code-79930000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 25000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 50000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-07T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "FORDS OF BLYTHE BRIDGE LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "M.W. CRIPWELL LIMITED"
+          },
+          {
+            "id": "13",
+            "name": "ROY DYKE ELECTRICAL LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-01T00:00:00Z",
+          "endDate": "2024-04-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "66d053ea293ab140376a2a6446e373f3",
+        "name": "STAFFORDSHIRE COUNTY COUNCIL"
+      },
+      "awards": [
+        {
+          "id": "c18d7257-26d3-45af-953f-a60c5da06046",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-31T00:00:00Z",
+          "value": {
+            "amount": 50000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "FORDS OF BLYTHE BRIDGE LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "M.W. CRIPWELL LIMITED"
+            },
+            {
+              "id": "13",
+              "name": "ROY DYKE ELECTRICAL LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-01T00:00:00Z",
+            "endDate": "2024-04-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

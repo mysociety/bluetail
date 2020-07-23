@@ -1,0 +1,251 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e86d028a-cb5e-4b08-88fe-9fb3888464c9.json",
+  "version": "1.1",
+  "publishedDate": "2020-01-22T15:14:35Z",
+  "publisher": {
+    "name": "NORTH WESTERN UNIVERSITIES PURCHASING CONSORTIUM LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-da8d3a05-ac62-4e5d-9a07-01ee10c5a994",
+      "id": "ocds-b5fd17-da8d3a05-ac62-4e5d-9a07-01ee10c5a994-338884-2019-s-178-432898",
+      "date": "2019-11-25T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "21ed700c332b7859289c340a89c92ae6",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/uUw27ADV",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "NORTH WESTERN UNIVERSITIES PURCHASING CONSORTIUM LIMITED",
+          "address": {
+            "streetAddress": "Albert House,17 Bloom Street ",
+            "locality": "MANCHESTER",
+            "region": null,
+            "postalCode": "M13HZ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Sarah Dye",
+            "email": "nwupc@manchester.ac.uk",
+            "telephone": "0161 234 8003",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02667012",
+            "scheme": "GB-COH",
+            "legalName": "EDMUNDSON ELECTRICAL LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "EDMUNDSON ELECTRICAL LIMITED",
+          "address": {
+            "streetAddress": "Tatton Street\nKNUTSFORD\nCheshire\nWA16 6AY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Graham Rennie",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04725313",
+            "scheme": "GB-COH",
+            "legalName": "GRAFTON MERCHANTING GB LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "GRAFTON MERCHANTING GB LIMITED",
+          "address": {
+            "streetAddress": "5520 Oxford Business Park South, Oxford Business Park South\nOX4 2LL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jade Woodward",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00876412",
+            "scheme": "GB-COH",
+            "legalName": "PREMIER FARNELL LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PREMIER FARNELL LIMITED",
+          "address": {
+            "streetAddress": "150 Armley Road\nLeeds\nWest Yorkshire\nLS12 2PU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Marie Duggan",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-da8d3a05-ac62-4e5d-9a07-01ee10c5a994-2019/s-178-432898",
+        "title": "Electronic Components and Associated Products",
+        "description": "The NWUPC is seeking to establish a multi-provider Framework Agreement on behalf of the members of NWUPC Ltd, APUC, HEPCW, LUPC, NEUPC, SUPC and CPC for Electronic Components and Associated Products.\r\nThis Framework Agreement will commence on 1st January 2020 for an initial period of thirty six (36) months until 31st December 2022 with the option to extend the Agreement for twelve (12) months until 31st December 2023 subject to satisfactory Economic Operator performance.\r\nThe Framework Agreement will be split into 5 lots as follows:\r\nLot 1 - Electronic Components\r\nLot 2 - Tools and Fixings\r\nLot 3 - Test and Measurement Equipment\r\nLot 4 - Batteries\r\nLot 5 - Multi-purpose Lot",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "31711100",
+              "description": "Electronic components",
+              "uri": "http://cpv.data.ac.uk/code-31711100.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 22000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-23T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "3",
+            "name": "EDMUNDSON ELECTRICAL LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "GRAFTON MERCHANTING GB LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "PREMIER FARNELL LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-01T00:00:00Z",
+          "endDate": "2022-12-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "21ed700c332b7859289c340a89c92ae6",
+        "name": "NORTH WESTERN UNIVERSITIES PURCHASING CONSORTIUM LIMITED"
+      },
+      "awards": [
+        {
+          "id": "c85c022c-fe6c-4d60-b07f-4271bb5473ad",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-23T00:00:00Z",
+          "value": {
+            "amount": 22000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "3",
+              "name": "EDMUNDSON ELECTRICAL LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "GRAFTON MERCHANTING GB LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "PREMIER FARNELL LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-01T00:00:00Z",
+            "endDate": "2022-12-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9a42e786-4af2-4666-bd39-39079860c29c.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-13T12:10:29Z",
+  "publisher": {
+    "name": "FOODBUY EUROPE LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-d7cbabb9-333e-4cd8-b320-e69714b63ca1",
+      "id": "ocds-b5fd17-d7cbabb9-333e-4cd8-b320-e69714b63ca1-349249-2020-s-051-122266",
+      "date": "2019-09-16T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "377a870fc8e52ca5454b073858b34412",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/wNDg246z",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "FOODBUY EUROPE LIMITED",
+          "address": {
+            "streetAddress": "Parklands Court 24 Parklands,Rubery ",
+            "locality": "BIRMINGHAM",
+            "region": null,
+            "postalCode": "B459PZ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Strategic Sourcing",
+            "email": "strategicsourcing@supplychain.nhs.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00523477",
+            "scheme": "GB-COH",
+            "legalName": "ARTHUR BRETT CATERING LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ARTHUR BRETT CATERING LIMITED",
+          "address": {
+            "streetAddress": "Allison Street The Arches\nB5 5TH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00239718",
+            "scheme": "GB-COH",
+            "legalName": "BFS GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BFS GROUP LIMITED",
+          "address": {
+            "streetAddress": "4 Leigh Road\nSLOUGH\nBerkshire\nSL1 4BD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04906019",
+            "scheme": "GB-COH",
+            "legalName": "JOHN PALIN (WHOLESALE) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JOHN PALIN (WHOLESALE) LIMITED",
+          "address": {
+            "streetAddress": "Brookfield Industrial Estate\nDE4 5ND\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01543362",
+            "scheme": "GB-COH",
+            "legalName": "M.A. FORSHAW LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "M.A. FORSHAW LIMITED",
+          "address": {
+            "streetAddress": "10 Heatons Bridge Road\nL40 8JG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00600075",
+            "scheme": "GB-COH",
+            "legalName": "PRESCOTT-THOMAS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PRESCOTT-THOMAS LIMITED",
+          "address": {
+            "streetAddress": "21 Sherrin Road\nE10 5SQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00166886",
+            "scheme": "GB-COH",
+            "legalName": "RALPH LIVESEY LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "RALPH LIVESEY LIMITED",
+          "address": {
+            "streetAddress": "Unit 1 Fresh Food Distribution Centre\nPR2 9ZB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Tom Catherall",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01896240",
+            "scheme": "GB-COH",
+            "legalName": "RIBBLE FARM FARE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "RIBBLE FARM FARE LIMITED",
+          "address": {
+            "streetAddress": "Shay Lane, Longridge\nPR3 3BT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-d7cbabb9-333e-4cd8-b320-e69714b63ca1-2020/s-051-122266",
+        "title": "Fresh Food - Fruit and Vegetables",
+        "description": "The framework will cover prepared fruit, prepared salads, prepared vegetables, fresh fruit, salads, fresh vegetables and par-cooked frozen potatoes and chips.\r\nThe value for the first 12 months is anticipated to be 5 188 396 GBP and 20 753 584 GBP for the full 48 months(if extended).\r\nImportant information:\r\nIt is a mandatory requirement that applicants tender for all the product lines in Lot 1. Failure to do so will result in the applicant&#039;s tender submission for all submitted product lines for Lot 1 not being evaluated further.\r\nFor applicants tender submissions to be evaluated in Step 3 and 4, all product lines in Lot 1 must also meet the specification and product line descriptions to be evaluated further.\r\nThis lot will be evaluated on a lot basis. Applicants must meet or exceed a hurdle of 50 % for the lot to be awarded.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15310000",
+              "description": "Potatoes and potato products",
+              "uri": "http://cpv.data.ac.uk/code-15310000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15330000",
+              "description": "Processed fruit and vegetables",
+              "uri": "http://cpv.data.ac.uk/code-15330000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 5188396,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 20753584,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-18T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 7,
+        "tenderers": [
+          {
+            "id": "3",
+            "name": "ARTHUR BRETT CATERING LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "BFS GROUP LIMITED"
+          },
+          {
+            "id": "10",
+            "name": "JOHN PALIN (WHOLESALE) LIMITED"
+          },
+          {
+            "id": "12",
+            "name": "M.A. FORSHAW LIMITED"
+          },
+          {
+            "id": "14",
+            "name": "PRESCOTT-THOMAS LIMITED"
+          },
+          {
+            "id": "15",
+            "name": "RALPH LIVESEY LIMITED"
+          },
+          {
+            "id": "18",
+            "name": "RIBBLE FARM FARE LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-09T00:00:00Z",
+          "endDate": "2022-03-08T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "377a870fc8e52ca5454b073858b34412",
+        "name": "FOODBUY EUROPE LIMITED"
+      },
+      "awards": [
+        {
+          "id": "d2018974-6f3a-42be-9b18-6dd4fb8dd2b3",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-14T00:00:00Z",
+          "value": {
+            "amount": 20753584,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "3",
+              "name": "ARTHUR BRETT CATERING LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "BFS GROUP LIMITED"
+            },
+            {
+              "id": "10",
+              "name": "JOHN PALIN (WHOLESALE) LIMITED"
+            },
+            {
+              "id": "12",
+              "name": "M.A. FORSHAW LIMITED"
+            },
+            {
+              "id": "14",
+              "name": "PRESCOTT-THOMAS LIMITED"
+            },
+            {
+              "id": "15",
+              "name": "RALPH LIVESEY LIMITED"
+            },
+            {
+              "id": "18",
+              "name": "RIBBLE FARM FARE LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-09T00:00:00Z",
+            "endDate": "2022-03-08T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

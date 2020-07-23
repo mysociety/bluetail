@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f304266b-9223-493e-b996-519e26ce0b09.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-21T13:56:07Z",
+  "publisher": {
+    "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-4e7ec962-7804-4bf5-aa2a-a01900bc2dbc",
+      "id": "ocds-b5fd17-4e7ec962-7804-4bf5-aa2a-a01900bc2dbc-345460-1335",
+      "date": "2019-07-26T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "2b14926b224df8b7283a19c1a57ca335",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/au8q6EUc",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+          "address": {
+            "streetAddress": "Wilton ",
+            "locality": "REDCAR",
+            "region": null,
+            "postalCode": "TS104RF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Andrew Clifton",
+            "email": "e-tendering@uk-cpi.com",
+            "telephone": "01740 625716",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00536326",
+            "scheme": "GB-COH",
+            "legalName": "POTTS PRINT (UK) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "POTTS PRINT (UK) LIMITED",
+          "address": {
+            "streetAddress": "Atlas House,Nelson Park\nCRAMLINGTON\nNORTHUMBERLAND\nNE23 1WG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00551336",
+            "scheme": "GB-COH",
+            "legalName": "PARAGON GROUP UK LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PARAGON GROUP UK LIMITED",
+          "address": {
+            "streetAddress": "Pallion Trading Estate\nTYNE &amp; WEAR\nSR4 6ST\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-4e7ec962-7804-4bf5-aa2a-a01900bc2dbc-1335",
+        "title": "1335 - Framework for the Supply of Exhibition Displays",
+        "description": "CPI require the supply of various Exhibition Displays to promote our business at Internal and External events. These must be produced as\r\nper CPI&#039;s Brand Strategy and be of a high standard to maintain CPI&#039;s professional Image.\r\n\r\nWe wish to appoint a maximum of 3 suppliers to this framework.\r\n\r\nDocuments can be found at: https://ne1procurementservices.com/",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "22000000",
+              "description": "Printed matter and related products",
+              "uri": "http://cpv.data.ac.uk/code-22000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 181302,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-23T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "POTTS PRINT (UK) LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "PARAGON GROUP UK LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-09-10T00:00:00Z",
+          "endDate": "2023-09-09T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "2b14926b224df8b7283a19c1a57ca335",
+        "name": "CENTRE FOR PROCESS INNOVATION LIMITED"
+      },
+      "awards": [
+        {
+          "id": "966c26a9-12c0-4705-85ab-8a3091d7f42b",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-11-21T00:00:00Z",
+          "value": {
+            "amount": 181302,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "POTTS PRINT (UK) LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "PARAGON GROUP UK LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-12-02T00:00:00Z",
+            "endDate": "2023-12-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

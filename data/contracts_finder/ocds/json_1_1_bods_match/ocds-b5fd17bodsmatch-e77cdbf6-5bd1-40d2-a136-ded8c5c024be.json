@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3d06ef54-d9fe-4536-895a-ed588171c226.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-27T13:11:22Z",
+  "publisher": {
+    "name": "STAR Procurement",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-e77cdbf6-5bd1-40d2-a136-ded8c5c024be",
+      "id": "ocds-b5fd17-e77cdbf6-5bd1-40d2-a136-ded8c5c024be-346440-uid:6057---dn376645",
+      "date": "2018-11-01T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "ce054d1ef2f68c9cca0861f5ade545da",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "STAR Procurement",
+          "address": {
+            "streetAddress": "1 Waterside ",
+            "locality": "Sale",
+            "region": null,
+            "postalCode": "M337ZF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Stephanie Jones",
+            "email": "stephanie.jones@star-procurement.gov.uk",
+            "telephone": "07817121123",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06849888",
+            "scheme": "GB-COH",
+            "legalName": "BERTRAM TRADING LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BERTRAM TRADING LIMITED",
+          "address": {
+            "streetAddress": "1 Peachman Way\nNR7 0WF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02745298",
+            "scheme": "GB-COH",
+            "legalName": "ASKEWS AND HOLTS LIBRARY SERVICES LTD."
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ASKEWS AND HOLTS LIBRARY SERVICES LTD.",
+          "address": {
+            "streetAddress": "218-222 NORTH ROAD\nPR1 1SY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-e77cdbf6-5bd1-40d2-a136-ded8c5c024be-uid:6057-/-dn376645",
+        "title": "Supply &amp; Servicing of Materials to Public Library Authorities Contracts Finder award notice",
+        "description": "Supply and servicing of materials to public library authorities across the North West &amp; Yorkshire regions",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "22113000",
+              "description": "Library books",
+              "uri": "http://cpv.data.ac.uk/code-22113000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 5700000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-01-10T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "BERTRAM TRADING LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "ASKEWS AND HOLTS LIBRARY SERVICES LTD."
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-06-01T00:00:00Z",
+          "endDate": "2023-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "ce054d1ef2f68c9cca0861f5ade545da",
+        "name": "STAR Procurement"
+      },
+      "awards": [
+        {
+          "id": "05687862-2993-4d7e-8ee7-8fc47637c721",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-02-28T00:00:00Z",
+          "value": {
+            "amount": 22800000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "BERTRAM TRADING LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "ASKEWS AND HOLTS LIBRARY SERVICES LTD."
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-06-01T00:00:00Z",
+            "endDate": "2023-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/908053b6-3f80-4201-b186-879821db735f.json",
+  "version": "1.1",
+  "publishedDate": "2020-01-24T08:40:07Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-1d620a9e-b82c-4191-a86f-2557aef201d3",
+      "id": "ocds-b5fd17-1d620a9e-b82c-4191-a86f-2557aef201d3-339253-bip463678314",
+      "date": "2019-12-05T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "d71ba8c649b82b43d376c79307d37bed",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Incommunities Group Limited",
+          "address": {
+            "streetAddress": "The Quays Victoria Steet",
+            "locality": "Shipley",
+            "region": null,
+            "postalCode": "BD17 7BN",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "surinder.sandhu@incommunities.co.uk",
+            "telephone": "+441274254712",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC305127",
+            "scheme": "GB-COH",
+            "legalName": "BDO LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BDO LLP",
+          "address": {
+            "streetAddress": "3 Hardman Street\n        Spinningfields\n        Manchester\n        M3 3AT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC305127",
+            "scheme": "GB-COH",
+            "legalName": "BDO LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BDO LLP",
+          "address": {
+            "streetAddress": "3 Hardman Street\n        Manchester\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC305127",
+            "scheme": "GB-COH",
+            "legalName": "BDO LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BDO LLP",
+          "address": {
+            "streetAddress": "3 Hardman Street\n      Manchester\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC305127",
+            "scheme": "GB-COH",
+            "legalName": "BDO LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BDO LLP",
+          "address": {
+            "streetAddress": "3 Hardman Street\n    Manchester\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC305127",
+            "scheme": "GB-COH",
+            "legalName": "BDO LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BDO LLP",
+          "address": {
+            "streetAddress": "3 Hardman Street\n  Manchester\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC305127",
+            "scheme": "GB-COH",
+            "legalName": "BDO LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BDO LLP",
+          "address": {
+            "streetAddress": "3 Hardman Street\n  Manchester\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-1d620a9e-b82c-4191-a86f-2557aef201d3-bip463678314",
+        "title": "Statutory (External) audit services",
+        "description": "Provide statutory audit service for Incommunities Group Limited and its subsidiaries including Incommunities Treasury PLC",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79212300",
+              "description": "Statutory audit services",
+              "uri": "http://cpv.data.ac.uk/code-79212300.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 383000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-12T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "BDO LLP"
+          },
+          {
+            "id": "2",
+            "name": "BDO LLP"
+          },
+          {
+            "id": "3",
+            "name": "BDO LLP"
+          },
+          {
+            "id": "4",
+            "name": "BDO LLP"
+          },
+          {
+            "id": "5",
+            "name": "BDO LLP"
+          },
+          {
+            "id": "7",
+            "name": "BDO LLP"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-01T00:00:00Z",
+          "endDate": "2024-01-01T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "d71ba8c649b82b43d376c79307d37bed",
+        "name": "Incommunities Group Limited"
+      },
+      "awards": [
+        {
+          "id": "557d13a6-1dc1-4f28-935d-dd1afa23b71e",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-11-11T00:00:00Z",
+          "value": {
+            "amount": 383000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "BDO LLP"
+            },
+            {
+              "id": "2",
+              "name": "BDO LLP"
+            },
+            {
+              "id": "3",
+              "name": "BDO LLP"
+            },
+            {
+              "id": "4",
+              "name": "BDO LLP"
+            },
+            {
+              "id": "5",
+              "name": "BDO LLP"
+            },
+            {
+              "id": "7",
+              "name": "BDO LLP"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-01T00:00:00Z",
+            "endDate": "2024-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

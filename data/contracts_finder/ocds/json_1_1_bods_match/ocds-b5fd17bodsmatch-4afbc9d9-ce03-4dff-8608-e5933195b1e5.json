@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d61c92aa-03d4-4154-b5db-685feab39313.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-28T15:01:01Z",
+  "publisher": {
+    "name": "STAR Procurement",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-4afbc9d9-ce03-4dff-8608-e5933195b1e5",
+      "id": "ocds-b5fd17-4afbc9d9-ce03-4dff-8608-e5933195b1e5-361166-uid-6452",
+      "date": "2020-01-29T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "46051192a6d88bdfab415979966bbc27",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "STAR Procurement",
+          "address": {
+            "streetAddress": "1 Waterside House, Waterside Plaza Sale",
+            "locality": "MANCHESTER",
+            "region": null,
+            "postalCode": "M33 7ZF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Gary Lee",
+            "email": "gary.lee@star-procurement.gov.uk",
+            "telephone": "07977867695",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01987036",
+            "scheme": "GB-COH",
+            "legalName": "YOTTA LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "YOTTA LIMITED",
+          "address": {
+            "streetAddress": "Gem House, 8 Hamilton Terrace\nLEAMINGTON SPA\nWarwickshire\nCV32 4LY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Steve White",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01987036",
+            "scheme": "GB-COH",
+            "legalName": "YOTTA LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "YOTTA LIMITED",
+          "address": {
+            "streetAddress": "Gem House, 8 Hamilton Terrace\nLEAMINGTON SPA\nWarwickshire\nCV32 4LY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Steve White",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-4afbc9d9-ce03-4dff-8608-e5933195b1e5-uid-6452",
+        "title": "Rochdale EM &amp; Highways - Place Based Asset Management System",
+        "description": "G Cloud services contract provisioned under Lot 2 - Cloud Services for Rochdale MBC EM and Highways Place Based Asset Management System.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48600000",
+              "description": "Database and operating software package",
+              "uri": "http://cpv.data.ac.uk/code-48600000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 357400,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "YOTTA LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "YOTTA LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-04-01T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "46051192a6d88bdfab415979966bbc27",
+        "name": "STAR Procurement"
+      },
+      "awards": [
+        {
+          "id": "c633145d-3929-4f09-9d6e-be93b1fbe97c",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-31T00:00:00Z",
+          "value": {
+            "amount": 357400,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "YOTTA LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "YOTTA LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2024-04-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6a8bdf31-92d0-4df9-bc84-13a2b9653cf5.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-12T09:08:24Z",
+  "publisher": {
+    "name": "N H S Wakefield Clinical Commissioning Group",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-9e914701-26f6-4216-9cd6-da362fb361af",
+      "id": "ocds-b5fd17-9e914701-26f6-4216-9cd6-da362fb361af-343229-wccgchn2",
+      "date": "2019-10-30T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "05973e97565b59ba57b5ecd5b8001e1d",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "N H S Wakefield Clinical Commissioning Group",
+          "address": {
+            "streetAddress": "White Rose House West Parade",
+            "locality": "Wakefield",
+            "region": null,
+            "postalCode": "WF11LT",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Brenda Powell",
+            "email": "Brenda.Powell@greaterhuddersfieldccg.nhs.uk",
+            "telephone": "0148464262",
+            "faxNumber": null,
+            "uri": "www.wakefieldccg.nhs.uk"
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07712656",
+            "scheme": "GB-COH",
+            "legalName": "HC-ONE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HC-ONE LIMITED",
+          "address": {
+            "streetAddress": "Southgate House\nDL3 6AH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03135910",
+            "scheme": "GB-COH",
+            "legalName": "MARIA MALLABAND CARE GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MARIA MALLABAND CARE GROUP LIMITED",
+          "address": {
+            "streetAddress": "West Court, Gelderd Road\nLEEDS\nWEST YORKSHIRE\nLS12 6DB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-9e914701-26f6-4216-9cd6-da362fb361af-wccgchn2",
+        "title": "NHS Wakefield CCG: Nursing Home AQP",
+        "description": "Nationally there are approximately 416,000 people in the UK living in care homes the majority being over the age of 65 years. Many care home residents live with long term multiple health problems and also have \"end of life\" needs requiring holistic care planning and delivery by skilled and experienced staff. \r\n\r\nThis specification is intended to outline the expected outcomes the CCG wants to see for individuals in nursing homes in receipt of NHS Healthcare funding. \r\n\r\nIts contents provide an overview of what we would expect to see delivered in order that service users are provided for and supported to lead as fulfilling and holistic life as possible, and to die with dignity and respect. \r\n\r\nThis specification does not substitute for a service user&#039;s care plan as it would be expected their care plan will be one which is individualised and tailored to meet their changing care needs, and should be considered in conjunction with this specification.\r\n\r\nObjectives:\r\n\r\n&bull;\tTo provide high quality care through experienced, competent, supported and trained workforce. \r\n&bull;\tTo improve the service users&#039; health and wellbeing and ensure their safety thus reducing hospital admission. \r\n&bull;\tTo have care needs met in a way that puts the service user at the centre. \r\n&bull;\tTo provide good quality care that meets the required and expected standards of Nursing Home providers.\r\n&bull;\tTo provide a clean safe environment for service users. \r\n&bull;\tTo provide a calm and stable environment for service users.\r\n&bull;\tTo establish effective links with and work in close collaboration with other Health and Social Care Services to support service users&#039; care.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85100000",
+              "description": "Health services",
+              "uri": "http://cpv.data.ac.uk/code-85100000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 27500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-13T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "6",
+            "name": "HC-ONE LIMITED"
+          },
+          {
+            "id": "8",
+            "name": "MARIA MALLABAND CARE GROUP LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2025-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "05973e97565b59ba57b5ecd5b8001e1d",
+        "name": "N H S Wakefield Clinical Commissioning Group"
+      },
+      "awards": [
+        {
+          "id": "874585a4-a78b-4fd3-bfd0-84b446f70449",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-23T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "6",
+              "name": "HC-ONE LIMITED"
+            },
+            {
+              "id": "8",
+              "name": "MARIA MALLABAND CARE GROUP LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2025-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

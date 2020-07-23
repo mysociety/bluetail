@@ -1,0 +1,402 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9bf3a803-9d76-47f3-8bc9-29abc4b94b59.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-14T10:54:53Z",
+  "publisher": {
+    "name": "Crown Commercial Service",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-7c4fff5d-f67a-4b9e-8f00-926a366f0b24",
+      "id": "ocds-b5fd17-7c4fff5d-f67a-4b9e-8f00-926a366f0b24-354628-rm60592",
+      "date": "2020-01-01T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "da9c451f8c251d810ce6849196c4c566",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Crown Commercial Service",
+          "address": {
+            "streetAddress": "9th Floor, The Capital, Old Hall Street ",
+            "locality": "Liverpool",
+            "region": null,
+            "postalCode": "L39PP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "The minister for the cabinet office acting through Crown Commercial Service",
+            "email": "Supplier@crowncommercial.gov.uk",
+            "telephone": "+44 3450103503",
+            "faxNumber": null,
+            "uri": "https://www.gov.uk/government/organisations/crown-commercial-service"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00781883",
+            "scheme": "GB-COH",
+            "legalName": "ACE OFFICE ENVIRONMENTS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ACE OFFICE ENVIRONMENTS LIMITED",
+          "address": {
+            "streetAddress": "EMBERTON HOUSE\nBH8 0BP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05510758",
+            "scheme": "GB-COH",
+            "legalName": "BANNER GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BANNER GROUP LIMITED",
+          "address": {
+            "streetAddress": "Sheffield Airport Business Park,Europa Link\nSHEFFIELD\nSouth Yorkshire\nS9 1XU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00442696",
+            "scheme": "GB-COH",
+            "legalName": "LYRECO UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "LYRECO UK LIMITED",
+          "address": {
+            "streetAddress": "Unit 5 Deer Park Court\nTELFORD\nShropshire\nTF2 7NB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01613232",
+            "scheme": "GB-COH",
+            "legalName": "WARRENS OFFICE LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "WARRENS OFFICE LTD",
+          "address": {
+            "streetAddress": "Unit 1 Moorside Point\nSO23 7RX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7c4fff5d-f67a-4b9e-8f00-926a366f0b24-rm60592",
+        "title": "RM6059 Office Supplies Lot 2",
+        "description": "Crown Commercial Service (CCS) is seeking to establish a Framework Contract with Suppliers for the provision of Office Stationery Supplies and Electronic Office Supplies.\r\nThe new Framework Contract will replace the existing RM3723 Crown Office Supplies and RM3703 Office Supplies for the wider Public Sector.\r\nThe Supplier shall be required to provide the Deliverables (e.g.good and services) to all public sector organisations throughout the UK which includes England, Northern Ireland, Scotland, and Wales.\r\nThe Framework Agreement will consist of the following lots:\r\nLot 1 Office Stationery and Electronic Office Supplies - Direct Award Single Supplier\r\nLot 2 Office and Electronic Office Supplies - Multi Supplier Lot\r\nLot 3 Electronic Office Supplies - Direct Award Single Supplier\r\nThe framework will be established for 24 months with the option to extend for up to 2 further periods of 12 months.\r\nThe full specification is set out in Framework Schedule 1 (Specification), in the ITT.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "22111000",
+              "description": "School books",
+              "uri": "http://cpv.data.ac.uk/code-22111000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "22830000",
+              "description": "Exercise books",
+              "uri": "http://cpv.data.ac.uk/code-22830000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "30000000",
+              "description": "Office and computing machinery, equipment and supplies except furniture and software packages",
+              "uri": "http://cpv.data.ac.uk/code-30000000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "33141623",
+              "description": "First-aid boxes",
+              "uri": "http://cpv.data.ac.uk/code-33141623.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "37800000",
+              "description": "Handicraft and art supplies",
+              "uri": "http://cpv.data.ac.uk/code-37800000.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "38112100",
+              "description": "Global navigation and positioning systems (GPS or equivalent)",
+              "uri": "http://cpv.data.ac.uk/code-38112100.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "38650000",
+              "description": "Photographic equipment",
+              "uri": "http://cpv.data.ac.uk/code-38650000.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39113700",
+              "description": "Footrests",
+              "uri": "http://cpv.data.ac.uk/code-39113700.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39130000",
+              "description": "Office furniture",
+              "uri": "http://cpv.data.ac.uk/code-39130000.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39162000",
+              "description": "Educational equipment",
+              "uri": "http://cpv.data.ac.uk/code-39162000.html"
+            }
+          },
+          {
+            "id": 11,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39220000",
+              "description": "Kitchen equipment, household and domestic items and catering supplies",
+              "uri": "http://cpv.data.ac.uk/code-39220000.html"
+            }
+          },
+          {
+            "id": 12,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39800000",
+              "description": "Cleaning and polishing products",
+              "uri": "http://cpv.data.ac.uk/code-39800000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 170000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-12T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ACE OFFICE ENVIRONMENTS LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "BANNER GROUP LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "LYRECO UK LIMITED"
+          },
+          {
+            "id": "9",
+            "name": "WARRENS OFFICE LTD"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-18T00:00:00Z",
+          "endDate": "2024-04-17T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "da9c451f8c251d810ce6849196c4c566",
+        "name": "Crown Commercial Service"
+      },
+      "awards": [
+        {
+          "id": "f2e564d2-f6b8-40dd-8f27-3fc816baa23f",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-06T00:00:00Z",
+          "value": {
+            "amount": 170000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ACE OFFICE ENVIRONMENTS LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "BANNER GROUP LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "LYRECO UK LIMITED"
+            },
+            {
+              "id": "9",
+              "name": "WARRENS OFFICE LTD"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-18T00:00:00Z",
+            "endDate": "2024-04-17T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

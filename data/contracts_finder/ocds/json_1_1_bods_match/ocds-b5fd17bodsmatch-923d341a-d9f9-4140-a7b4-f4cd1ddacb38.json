@@ -1,0 +1,206 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c3b0116d-24ff-45cb-86cb-a0a57e98d972.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-22T15:01:45Z",
+  "publisher": {
+    "name": "ADB (UK) LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-923d341a-d9f9-4140-a7b4-f4cd1ddacb38",
+      "id": "ocds-b5fd17-923d341a-d9f9-4140-a7b4-f4cd1ddacb38-360477-c2f80486-65ec-4fea-a441-a15d8cc1aceb",
+      "date": "2020-03-15T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "04bc04d6a8c0260930881bc2132db12c",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Crescent Purchasing Consortium (CPC)",
+          "address": {
+            "streetAddress": "Procurement House Leslie Hough Way",
+            "locality": "Salford",
+            "region": null,
+            "postalCode": "M6 6AJ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Myles Woodman",
+            "email": "support@multiquote.com",
+            "telephone": "0151 482 9230",
+            "faxNumber": null,
+            "uri": "https://suppliers.multiquote.com"
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03073214",
+            "scheme": "GB-COH",
+            "legalName": "DIRECT CORPORATE CLOTHING PLC"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DIRECT CORPORATE CLOTHING PLC",
+          "address": {
+            "streetAddress": "DIRECT 2 INDUSTRIAL PARK, ROWAY LANE, oldbury, B69 3ES",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Kieran Pickavance",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03073214",
+            "scheme": "GB-COH",
+            "legalName": "DIRECT CORPORATE CLOTHING PLC"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DIRECT CORPORATE CLOTHING PLC",
+          "address": {
+            "streetAddress": "DIRECT 2 INDUSTRIAL PARK, ROWAY LANE, oldbury, B69 3ES",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Kieran Pickavance",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-923d341a-d9f9-4140-a7b4-f4cd1ddacb38-c2f80486-65ec-4fea-a441-a15d8cc1aceb",
+        "title": "CA6925 - Supply of PPE, Clothing and Uniforms",
+        "description": "CPC wants to continue its provision to its members of an easy to use and all-encompassing PPE, Clothing and Uniforms Framework listed with pre-evaluated, engaged and suitable suppliers.\\\r\n\\\r\nThe tender is available for CPC Members and also Higher Education institutions via our colleagues in other Consortia, these include; \\\r\n\\\r\nCPC          https://www.thecpc.ac.uk/members/regions.php\\\r\nNWUPC \thttp://www.nwupc.ac.uk\\\r\nNEUPC      http://www.neupc.ac.uk \t\\\r\nLUPC\t\thttp://www.lupc.ac.uk\t\\\r\nSUPC\thttp://supc.ac.uk\t\\\r\nTPL \t\thttp://www.tuco.org\t\t\\\r\nAPUC\thttp://www.apuc-scot.ac.uk\\\r\nHEPCW\thttp://www.hepcw.ac.uk\\\r\nEANI         https://www.eani.org.uk/\\\r\n\\\r\nFuture members of the CPC will also be able to access this framework and are listed here: https://www.gov.uk/guidance/get-information-about-schools.\\\r\n\\\r\nThe tender is also available for the following UK public sector bodies (and any future successors to these organisations):\\\r\n\\\r\nhttps://www.thecpc.ac.uk/suppliers/eligible-public-sector-bodies.php \\\r\n\\\r\n\\\r\n\\\r\n\\\r\nIncludes Lots: \\\r\nLot 1: Lot 1 - PPE (Personal Protective Equipment)\\\r\nLot 2: Lot 2 - Clothing\\\r\nLot 3: Lot 3 - Uniforms\\\r\nLot 4: Lot 4 - One Stop Shop\\\r\nLot 5: Lot 5 - First Aid Kits, Equipment and Accessories\\\r\n\\\r\nTo access this competition: \\\r\n\\\r\nRegistered:\\\r\nLogin to https://suppliers.multiquote.com and view the opportunity CA6925.\\\r\n\\\r\nNot registered:\\\r\nVisit https://suppliers.multiquote.com then register and quote CA6925 as the reason for registration. \\\r\n\\\r\n Any queries please contact MultiQuote on 0151 482 9230.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "18000000",
+              "description": "Clothing, footwear, luggage articles and accessories",
+              "uri": "http://cpv.data.ac.uk/code-18000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 20000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 20000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-05-10T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "5",
+            "name": "DIRECT CORPORATE CLOTHING PLC"
+          },
+          {
+            "id": "16",
+            "name": "DIRECT CORPORATE CLOTHING PLC"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-10T00:00:00Z",
+          "endDate": "2022-05-09T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "04bc04d6a8c0260930881bc2132db12c",
+        "name": "Crescent Purchasing Consortium (CPC)"
+      },
+      "awards": [
+        {
+          "id": "b241a50f-5d9f-468a-bd6b-5d88c61bac52",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-22T00:00:00Z",
+          "value": {
+            "amount": 500000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "5",
+              "name": "DIRECT CORPORATE CLOTHING PLC"
+            },
+            {
+              "id": "16",
+              "name": "DIRECT CORPORATE CLOTHING PLC"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-10T00:00:00Z",
+            "endDate": "2022-05-09T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5094a918-d21b-43c6-97a6-418824ae618a.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-24T14:42:39Z",
+  "publisher": {
+    "name": "UNIVERSITY OF SOUTHAMPTON",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-4c744a4b-8693-469d-b290-bb4af3cabc35",
+      "id": "ocds-b5fd17-4c744a4b-8693-469d-b290-bb4af3cabc35-345769-2019uos-0135",
+      "date": "2019-03-22T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "962c7d5b069c3e26e295224daf4ba690",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/d74ZA5zA",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "UNIVERSITY OF SOUTHAMPTON",
+          "address": {
+            "streetAddress": "Highfield ",
+            "locality": "SOUTHAMPTON",
+            "region": null,
+            "postalCode": "SO171BJ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Mark Gage",
+            "email": "m.c.gage@soton.ac.uk",
+            "telephone": "02380597674",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04253055",
+            "scheme": "GB-COH",
+            "legalName": "SCIQUIP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SCIQUIP LIMITED",
+          "address": {
+            "streetAddress": "NEWTOWN\nSY4 5NU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Angela Walker",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 25204
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02577009",
+            "scheme": "GB-COH",
+            "legalName": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED",
+          "address": {
+            "streetAddress": "The Square\nNORTH HUMBERSIDE\nHU13 0AE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Anil Sohal",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 2474.46
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01932827",
+            "scheme": "GB-COH",
+            "legalName": "VWR INTERNATIONAL LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "VWR INTERNATIONAL LTD",
+          "address": {
+            "streetAddress": "MAGNA PARK\nLE17 4XN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Christine Gilbert",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 10135
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03011929",
+            "scheme": "GB-COH",
+            "legalName": "WOLF LABORATORIES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "WOLF LABORATORIES LIMITED",
+          "address": {
+            "streetAddress": "COLENSO HOUSE\nYO42 2PX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sean Woodward",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 30893.3
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-4c744a4b-8693-469d-b290-bb4af3cabc35-2019uos-0135",
+        "title": "University of Southampton - Further Competition for laboratory equipment under the LUPC - Supply, Delivery, Installation and Post InstallationsServices of General Laboratory EquipmentFramework",
+        "description": "Procurement of small benchtop laboratory equipment",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "38000000",
+              "description": "Laboratory, optical and precision equipments (excl. glasses)",
+              "uri": "http://cpv.data.ac.uk/code-38000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 100000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-05-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "SCIQUIP LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "VWR INTERNATIONAL LTD"
+          },
+          {
+            "id": "4",
+            "name": "WOLF LABORATORIES LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-07-01T00:00:00Z",
+          "endDate": "2019-08-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "962c7d5b069c3e26e295224daf4ba690",
+        "name": "UNIVERSITY OF SOUTHAMPTON"
+      },
+      "awards": [
+        {
+          "id": "737253ba-6125-4b4e-9c8f-1792f5517b01",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-07-01T00:00:00Z",
+          "value": {
+            "amount": 68706.76,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "SCIQUIP LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "VWR INTERNATIONAL LTD"
+            },
+            {
+              "id": "4",
+              "name": "WOLF LABORATORIES LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-07-01T00:00:00Z",
+            "endDate": "2019-08-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

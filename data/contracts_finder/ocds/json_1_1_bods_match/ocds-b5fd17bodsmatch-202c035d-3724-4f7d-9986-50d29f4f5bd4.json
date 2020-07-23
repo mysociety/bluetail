@@ -1,0 +1,205 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e9505f42-9376-4558-9f95-63e88e7fd02d.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-04T15:40:04Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-202c035d-3724-4f7d-9986-50d29f4f5bd4",
+      "id": "ocds-b5fd17-202c035d-3724-4f7d-9986-50d29f4f5bd4-357323-bip450603673",
+      "date": "2019-10-28T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "a0ac3bfcda61bc1940eb1757f8076725",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Museum of London",
+          "address": {
+            "streetAddress": "150 London Wall ",
+            "locality": "London",
+            "region": null,
+            "postalCode": "EC2Y 5HN",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "procurement@museumoflondon.org.uk",
+            "telephone": "+442078145676",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01193013",
+            "scheme": "GB-COH",
+            "legalName": "ARTHUR J. GALLAGHER (UK) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ARTHUR J. GALLAGHER (UK) LIMITED",
+          "address": {
+            "streetAddress": "The Walbrook Building\n        London\n        EC4N 8AW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02989025",
+            "scheme": "GB-COH",
+            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+          },
+          "sme": false,
+          "vco": false,
+          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "address": {
+            "streetAddress": "The Walbrook Building\n        London\n        EC4N 8AW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-202c035d-3724-4f7d-9986-50d29f4f5bd4-bip450603673",
+        "title": "Insurance Services",
+        "description": "The provision of Insurance Services for the the Museum of London (&#039;Museum&#039;). This contract is divided into the following lots:\r\n      Lot 1 Property Combined\r\n      Lot 2 Fidelity Guarantee\r\n      Lot 3 Terrorism\r\n      Lot 4 Combined Liability\r\n      Lot 5 Excess Public and Products Liability \r\n      Lot 6 Motor Fleet\r\n      Lot 7 Personal Accident\r\n      Lot 8 Combined Engineering\r\n      Lot 9 Directors and Officers\r\n      Lot 10 Fine Arts/Museums",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "66510000",
+              "description": "Insurance services",
+              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 595000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-04T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "4",
+            "name": "ARTHUR J. GALLAGHER (UK) LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "RISK MANAGEMENT PARTNERS LTD."
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-12-01T00:00:00Z",
+          "endDate": "2024-12-01T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "a0ac3bfcda61bc1940eb1757f8076725",
+        "name": "Museum of London"
+      },
+      "awards": [
+        {
+          "id": "b53ae9ba-232b-4259-a866-7f60410db023",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-11-04T00:00:00Z",
+          "value": {
+            "amount": 595000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "4",
+              "name": "ARTHUR J. GALLAGHER (UK) LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "RISK MANAGEMENT PARTNERS LTD."
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-12-01T00:00:00Z",
+            "endDate": "2024-12-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

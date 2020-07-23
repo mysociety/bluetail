@@ -1,0 +1,312 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d5883794-ac64-4c8e-b2ad-2cfc72ddb2a7.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-04T15:19:57Z",
+  "publisher": {
+    "name": "EASTERN PROCUREMENT LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-95ab90ee-999c-453c-803a-b41d7dfb01ec",
+      "id": "ocds-b5fd17-95ab90ee-999c-453c-803a-b41d7dfb01ec-347430-eprf19---roofing-framework",
+      "date": "2019-08-02T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "f199d01c3ea0ce7c9c0bd13bf24c6f44",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/5BCA5yty",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "EASTERN PROCUREMENT LIMITED",
+          "address": {
+            "streetAddress": "THE OLD GRANARY GRANGE FARM ",
+            "locality": "NORWICH",
+            "region": null,
+            "postalCode": "NR161ET",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Leigh-Anne Franklin",
+            "email": "Leigh-anne@eastern-procurement.co.uk",
+            "telephone": "01508488244",
+            "faxNumber": null,
+            "uri": "https://in-tendhost.co.uk/epl/aspx/Home"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02529333",
+            "scheme": "GB-COH",
+            "legalName": "ASPECT GROUP SERVICES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ASPECT GROUP SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Unit 11 Chestnut Drive Wymondham Business Park\nWYMONDHAM\nNorfolk\nNR18 9SB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04687488",
+            "scheme": "GB-COH",
+            "legalName": "FOSTER PROPERTY MAINTENANCE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FOSTER PROPERTY MAINTENANCE LIMITED",
+          "address": {
+            "streetAddress": "79 Boleness Road\nPE13 2XQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02725227",
+            "scheme": "GB-COH",
+            "legalName": "HODGSON SAYERS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "HODGSON SAYERS LIMITED",
+          "address": {
+            "streetAddress": "Tanfield Lea\nSTANLEY\nCOUNTY DURHAM\nDH9 9NX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Marie Errington",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-95ab90ee-999c-453c-803a-b41d7dfb01ec-eprf19---roofing-framework",
+        "title": "EPRF19 - Roofing Framework",
+        "description": "Roofing and Roofing Repairs\r\n\r\nWork under this framework will consist of but not limited to;\r\no Repair of roof finishes to flat, slate and pitched roofs.\r\no Full and partial replacement of roof finishes to flat, slate and pitched roofs.\r\no Repair, upkeep and replacement of roofline.\r\no Chimney repair and removal.\r\no Full and partial re-roofing to out buildings such as sheds, extensions, over-doors and garages.\r\no Provision of access equipment in conjunction with the above.\r\no Ancillary works in conjunction with the above.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44112400",
+              "description": "Roof",
+              "uri": "http://cpv.data.ac.uk/code-44112400.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45112713",
+              "description": "Landscaping work for roof gardens",
+              "uri": "http://cpv.data.ac.uk/code-45112713.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45211340",
+              "description": "Multi-dwelling buildings construction work",
+              "uri": "http://cpv.data.ac.uk/code-45211340.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45260000",
+              "description": "Roof works and other special trade construction works",
+              "uri": "http://cpv.data.ac.uk/code-45260000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45300000",
+              "description": "Building installation work",
+              "uri": "http://cpv.data.ac.uk/code-45300000.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45453000",
+              "description": "Overhaul and refurbishment work",
+              "uri": "http://cpv.data.ac.uk/code-45453000.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50000000",
+              "description": "Repair and maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 19500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-10-11T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ASPECT GROUP SERVICES LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "FOSTER PROPERTY MAINTENANCE LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "HODGSON SAYERS LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-02-01T00:00:00Z",
+          "endDate": "2024-01-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "f199d01c3ea0ce7c9c0bd13bf24c6f44",
+        "name": "EASTERN PROCUREMENT LIMITED"
+      },
+      "awards": [
+        {
+          "id": "7770db4b-04f4-4e64-b1b9-a1198150e93e",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-03T00:00:00Z",
+          "value": {
+            "amount": 19500000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ASPECT GROUP SERVICES LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "FOSTER PROPERTY MAINTENANCE LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "HODGSON SAYERS LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-03T00:00:00Z",
+            "endDate": "2024-03-02T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

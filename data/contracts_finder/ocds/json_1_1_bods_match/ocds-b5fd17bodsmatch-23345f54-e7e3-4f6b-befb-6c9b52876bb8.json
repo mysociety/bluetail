@@ -1,0 +1,232 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d430e4eb-8d5b-4076-ab61-b9e46765e805.json",
+  "version": "1.1",
+  "publishedDate": "2020-01-28T09:12:03Z",
+  "publisher": {
+    "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-23345f54-e7e3-4f6b-befb-6c9b52876bb8",
+      "id": "ocds-b5fd17-23345f54-e7e3-4f6b-befb-6c9b52876bb8-339874-1082",
+      "date": "2019-10-17T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "2b14926b224df8b7283a19c1a57ca335",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/au8q6EUc",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+          "address": {
+            "streetAddress": "Wilton ",
+            "locality": "REDCAR",
+            "region": null,
+            "postalCode": "TS104RF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Andrew Clifton",
+            "email": "e-tendering@uk-cpi.com",
+            "telephone": "01740 625716",
+            "faxNumber": null,
+            "uri": "www.uk-cpi.com"
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07211681",
+            "scheme": "GB-COH",
+            "legalName": "PALL EUROPE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PALL EUROPE LIMITED",
+          "address": {
+            "streetAddress": "Southampton Road\nPO6 4BQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Maddy Brown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 181302
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06026124",
+            "scheme": "GB-COH",
+            "legalName": "SARTORIUS STEDIM UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SARTORIUS STEDIM UK LIMITED",
+          "address": {
+            "streetAddress": "Unit A3 Longmead Business Centre\nKT19 9QQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Natasha Karol",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 181302
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-23345f54-e7e3-4f6b-befb-6c9b52876bb8-1082",
+        "title": "Framework for the Supply of Filters",
+        "description": "CPI have identified a need to procure a panel of filter suppliers in order to provide continuity and a full rounded service over the course of the next 4 years. These normal flow filtration filters will be used for small and large-scale fermentations, CPI are looking to procure suppliers who can provide a full rounded service which will encompass technical support, account management and quality control.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "42514300",
+              "description": "Filtering apparatus",
+              "uri": "http://cpv.data.ac.uk/code-42514300.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "42514310",
+              "description": "Air filters",
+              "uri": "http://cpv.data.ac.uk/code-42514310.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "42912350",
+              "description": "Filtration plant equipment",
+              "uri": "http://cpv.data.ac.uk/code-42912350.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 90000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 181302,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-07T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "4",
+            "name": "PALL EUROPE LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "SARTORIUS STEDIM UK LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-11-10T00:00:00Z",
+          "endDate": "2023-11-10T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "2b14926b224df8b7283a19c1a57ca335",
+        "name": "CENTRE FOR PROCESS INNOVATION LIMITED"
+      },
+      "awards": [
+        {
+          "id": "c2e7a249-92bc-403a-a294-2d05db100b82",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-28T00:00:00Z",
+          "value": {
+            "amount": 181302,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "4",
+              "name": "PALL EUROPE LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "SARTORIUS STEDIM UK LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-31T00:00:00Z",
+            "endDate": "2024-01-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}
