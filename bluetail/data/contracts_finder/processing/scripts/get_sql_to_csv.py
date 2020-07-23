@@ -12,8 +12,8 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', "proj.settings")
 django.setup()
 
 OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
-SQL_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing", "sql")
-CSV_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing", "csv")
+SQL_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data", "contracts_finder", "processing", "sql")
+CSV_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data", "contracts_finder", "processing", "csv")
 
 
 def save_sql_to_csv(sql_or_path, csv_path):

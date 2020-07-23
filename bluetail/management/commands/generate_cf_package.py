@@ -10,7 +10,7 @@ from bluetail.helpers import UpsertDataHelpers
 
 logger = logging.getLogger('django')
 
-DATA_DIR = os.path.join(settings.BASE_DIR, "data")
+DATA_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data")
 
 
 class Command(BaseCommand):

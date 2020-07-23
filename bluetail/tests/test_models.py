@@ -9,7 +9,7 @@ from bluetail.helpers import UpsertDataHelpers
 from bluetail.models import OCDSReleaseJSON, BODSStatementJSON, BODSEntityStatement, BODSPersonStatement
 from bluetail.tests.fixtures import insert_flags, insert_flag_attachments
 
-PROTOTYPE_DATA_PATH = os.path.join(settings.BASE_DIR, "data", "prototype")
+PROTOTYPE_DATA_PATH = os.path.join(settings.BLUETAIL_APP_DIR, "data", "prototype")
 TEST_DATA_PATH = os.path.join(settings.BASE_DIR, "bluetail", "tests", "data")
 
 

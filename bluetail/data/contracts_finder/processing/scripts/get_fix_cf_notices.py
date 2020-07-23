@@ -23,7 +23,7 @@ from ocdskit.upgrade import upgrade_10_11
 ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL")
 DATABASE_URL = os.environ.get('DATABASE_URL')
 OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
-OCDS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing")
+OCDS_OUTPUT_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data", "contracts_finder", "processing")
 
 
 def get_company_statements(

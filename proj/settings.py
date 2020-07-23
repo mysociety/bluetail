@@ -116,6 +116,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATABASES = {
     'default': dj_database_url.config(env="DATABASE_URL", default=DATABASE_URL)
 }
+BLUETAIL_APP_DIR = os.path.join(BASE_DIR, "bluetail")
 
 MIDDLEWARE = (
     'django.contrib.sessions.middleware.SessionMiddleware',
