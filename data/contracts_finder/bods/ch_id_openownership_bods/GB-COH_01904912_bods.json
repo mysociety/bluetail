@@ -1,0 +1,124 @@
+[
+    {
+        "statementID": "openownership-register-11557259744187427726",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "N.H. CASE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01904912"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01904912",
+                "uri": "https://opencorporates.com/companies/gb/01904912"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b946a267e4ebf340956987",
+                "uri": "http://register.openownership.org/entities/59b946a267e4ebf340956987"
+            }
+        ],
+        "foundingDate": "1985-04-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "21 Bennetts Field, Wincanton, Somerset, BA9 9DT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17279390029365393885",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11557259744187427726"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10714193032123441080"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10714193032123441080",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Thomas Harry Case"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01904912/persons-with-significant-control/individual/XM6vbQFXOqTNDv8HkfaX8Q0Xw58"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b946a267e4ebf340956993",
+                "uri": "http://register.openownership.org/entities/59b946a267e4ebf340956993"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-01-01",
+        "addresses": [
+            {
+                "address": "21 Bennetts Field, Wincanton, Somerset, BA9 9DT"
+            }
+        ]
+    }
+]

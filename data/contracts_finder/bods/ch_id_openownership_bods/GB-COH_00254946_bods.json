@@ -1,0 +1,122 @@
+[
+    {
+        "statementID": "openownership-register-16185464138721864137",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LBS BUILDERS MERCHANTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00254946"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00254946",
+                "uri": "https://opencorporates.com/companies/gb/00254946"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b976ca67e4ebf3407aad93",
+                "uri": "http://register.openownership.org/entities/59b976ca67e4ebf3407aad93"
+            }
+        ],
+        "foundingDate": "1931-03-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Lbs Business Centre, Parc Amanwy, Ammanford, Carmarthenshire, SA18 3FE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14308504087773790419",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16185464138721864137"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-10336179303735789931"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10336179303735789931",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LBS HOLDINGS (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05031473"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05031473",
+                "uri": "https://opencorporates.com/companies/gb/05031473"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05031473"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05031473"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b985f567e4ebf340c47c30",
+                "uri": "http://register.openownership.org/entities/59b985f567e4ebf340c47c30"
+            }
+        ],
+        "foundingDate": "2004-02-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Lbs Business Centre, Parc Amanwy, Ammanford, Carmarthenshire, SA18 3FE",
+                "country": "GB"
+            }
+        ]
+    }
+]

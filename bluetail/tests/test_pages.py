@@ -2,7 +2,7 @@ from django.test import Client, TestCase
 from django.core.management import call_command
 from django.urls import reverse
 
-from bluetail.models import OCDSReleaseJSON, OCDSParty
+from bluetail.models import OCDSReleaseJSON, OCDSTenderer
 
 
 class TestTendererPage(TestCase):

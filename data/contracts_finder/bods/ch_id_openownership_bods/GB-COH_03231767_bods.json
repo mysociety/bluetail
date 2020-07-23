@@ -1,0 +1,263 @@
+[
+    {
+        "statementID": "openownership-register-10483746257552611524",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "RUNDLE & CO. LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03231767"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03231767",
+                "uri": "https://opencorporates.com/companies/gb/03231767"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9df8367e4ebf3400f285d",
+                "uri": "http://register.openownership.org/entities/59b9df8367e4ebf3400f285d"
+            }
+        ],
+        "foundingDate": "1996-07-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Peninsular House Floor 9 Peninsular House, 30-36, Monument Street, London, EC3R 8LJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14808707397780799528",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-05-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10483746257552611524"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-13791219672691321311"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-05-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6257053552906461196",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10483746257552611524"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2681552026235646211"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-04-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-04-30"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2019-04-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2681552026235646211",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TRADITIONAL GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03702279"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03702279"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03702279"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03702279",
+                "uri": "https://opencorporates.com/companies/gb/03702279"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3702279"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3702279"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97aeb67e4ebf3408f9c4d",
+                "uri": "http://register.openownership.org/entities/59b97aeb67e4ebf3408f9c4d"
+            }
+        ],
+        "foundingDate": "1999-01-21",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Devonshire House, 60 Goswell Road, London, EC1M 7AD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13791219672691321311",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "J.B.W. GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04118149",
+                "uri": "https://opencorporates.com/companies/gb/04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04118149"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba657a9dfc3fae18f1f8bd",
+                "uri": "http://register.openownership.org/entities/5aba657a9dfc3fae18f1f8bd"
+            }
+        ],
+        "foundingDate": "2000-12-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Floor 9 Peninsular House, 30-36 Monument Street, London, EC3R 8LJ",
+                "country": "GB"
+            }
+        ]
+    }
+]

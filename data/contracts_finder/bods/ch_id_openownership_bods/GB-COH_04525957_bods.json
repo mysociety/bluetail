@@ -1,0 +1,158 @@
+[
+    {
+        "statementID": "openownership-register-7781252477343506470",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LANDMARK CHAMBERS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04525957"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04525957",
+                "uri": "https://opencorporates.com/companies/gb/04525957"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9353f67e4ebf34047e8f9",
+                "uri": "http://register.openownership.org/entities/59b9353f67e4ebf34047e8f9"
+            }
+        ],
+        "foundingDate": "2002-09-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "180 Fleet Street, London, EC4A 2HG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17223157456887276523",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7781252477343506470"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2095310901630748910"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2937993598581165753",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7781252477343506470"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4730892350223051199"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2095310901630748910",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Neil St Clair Cameron"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04525957/persons-with-significant-control/individual/nBH-9lU-zQMXu_MIKlNpax0ZLoA"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9353f67e4ebf34047e922",
+                "uri": "http://register.openownership.org/entities/59b9353f67e4ebf34047e922"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-07-01",
+        "addresses": [
+            {
+                "address": "180 Fleet Street, London, EC4A 2HG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4730892350223051199",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Timothy James Mould"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04525957/persons-with-significant-control/individual/rUh1T0W1n-J2vObZ2cJOQunTMxc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9353f67e4ebf34047e902",
+                "uri": "http://register.openownership.org/entities/59b9353f67e4ebf34047e902"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-05-01",
+        "addresses": [
+            {
+                "address": "180 Fleet Street, London, EC4A 2HG"
+            }
+        ]
+    }
+]

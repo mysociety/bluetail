@@ -1,0 +1,236 @@
+[
+    {
+        "statementID": "openownership-register-12335573730075139596",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HARTLEY MCMASTER LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02638728"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02638728",
+                "uri": "https://opencorporates.com/companies/gb/02638728"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9197867e4ebf340d330d6",
+                "uri": "http://register.openownership.org/entities/59b9197867e4ebf340d330d6"
+            }
+        ],
+        "foundingDate": "1991-08-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Redfern House Redfern House, 105 Ashley Road, St Albans, Herts, AL1 5GD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9297801509804006336",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-11-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12335573730075139596"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-5953657866005951311"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2017-11-01"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2017-11-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8405689824146019543",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12335573730075139596"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12986449055159077763"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-25T14:19:31Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17812643092575575157",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12335573730075139596"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8561685360485204365"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30",
+                "endDate": "2017-11-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5953657866005951311",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Thomas Peter Dewar"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02638728/persons-with-significant-control/individual/0VEITxH2sWNvQCPSMNRguZb3cFg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba62519dfc3fae18efe27a",
+                "uri": "http://register.openownership.org/entities/5aba62519dfc3fae18efe27a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-11-01",
+        "addresses": [
+            {
+                "address": "Redfern House, Redfern House, 105 Ashley Road, St Albans, Herts, AL1 5GD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12986449055159077763",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Martin Slaughter"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02638728/persons-with-significant-control/individual/6m5T4771fRBop_vgZJiWY2xO9oQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9197867e4ebf340d330e1",
+                "uri": "http://register.openownership.org/entities/59b9197867e4ebf340d330e1"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-01-01",
+        "addresses": [
+            {
+                "address": "Redfern House, Redfern House, 105 Ashley Road, St Albans, Herts, AL1 5GD"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8561685360485204365",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Pamela Jane Slaughter"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02638728/persons-with-significant-control/individual/9-HE00zERQOS4gCOoQBBgBjDsuk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9197867e4ebf340d330ee",
+                "uri": "http://register.openownership.org/entities/59b9197867e4ebf340d330ee"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-02-01",
+        "addresses": [
+            {
+                "address": "Broadway Chambers, 1-5 The Broadway, St Peters Street St. Albans, Hertfordshire, AL1 3LH"
+            }
+        ]
+    }
+]

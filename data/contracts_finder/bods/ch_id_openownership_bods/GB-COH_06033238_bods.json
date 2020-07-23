@@ -1,0 +1,65 @@
+[
+    {
+        "statementID": "openownership-register-1169117710198239361",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THE UNIVERSITY OF CUMBRIA",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06033238"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06033238"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06033238",
+                "uri": "https://opencorporates.com/companies/gb/06033238"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c27867e4ebf340a3b4ce",
+                "uri": "http://register.openownership.org/entities/59b9c27867e4ebf340a3b4ce"
+            }
+        ],
+        "foundingDate": "2006-12-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Fusehill Street, Carlisle, Cumbria, CA1 2HH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5488379899898498061",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-12-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1169117710198239361"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

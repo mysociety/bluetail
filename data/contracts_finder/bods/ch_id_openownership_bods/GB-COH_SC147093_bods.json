@@ -1,0 +1,170 @@
+[
+    {
+        "statementID": "openownership-register-4700205287727720425",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ALLIED VEHICLES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC147093"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/SC147093",
+                "uri": "https://opencorporates.com/companies/gb/SC147093"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9546367e4ebf340d41a95",
+                "uri": "http://register.openownership.org/entities/59b9546367e4ebf340d41a95"
+            }
+        ],
+        "foundingDate": "1993-10-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "230 Balmore Road, Glasgow, Lanarkshire, G22 6LJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9257933463205243449",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4700205287727720425"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16682865049167584767"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30",
+                "endDate": "2020-03-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10291721638179409081",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4700205287727720425"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3836544705035802984"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16682865049167584767",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Michael Facenna"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC147093/persons-with-significant-control/individual/C-UAcAOE7gJka4fvEqgmYfyXL4c"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9546367e4ebf340d41aa1",
+                "uri": "http://register.openownership.org/entities/59b9546367e4ebf340d41aa1"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1947-11-01",
+        "addresses": [
+            {
+                "address": "230 Balmore Road, Glasgow, Lanarkshire, G22 6LJ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3836544705035802984",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Geraldo Facenna"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC147093/persons-with-significant-control/individual/YTqV7-GvIMjBIRx-sLVJkZZZSxw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9546367e4ebf340d41ad8",
+                "uri": "http://register.openownership.org/entities/59b9546367e4ebf340d41ad8"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1952-12-01",
+        "addresses": [
+            {
+                "address": "230 Balmore Road, Glasgow, Lanarkshire, G22 6LJ"
+            }
+        ]
+    }
+]

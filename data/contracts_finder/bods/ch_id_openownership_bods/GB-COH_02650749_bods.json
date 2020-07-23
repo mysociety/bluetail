@@ -1,0 +1,130 @@
+[
+    {
+        "statementID": "openownership-register-15814228165941813159",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DLP SERVICES (NORTHERN) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02650749"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02650749",
+                "uri": "https://opencorporates.com/companies/gb/02650749"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94c8367e4ebf340b0b819",
+                "uri": "http://register.openownership.org/entities/59b94c8367e4ebf340b0b819"
+            }
+        ],
+        "foundingDate": "1991-10-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "54 Cobden Street, Brindle Heath Industrial Estate, Pendleton  Salford, Lancashire, M6 6WF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6489740241232204664",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15814228165941813159"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-16006258541959661982"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16006258541959661982",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PENDLETON PROPERTY SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04354448"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04354448"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04354448",
+                "uri": "https://opencorporates.com/companies/gb/04354448"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04354448"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94c8467e4ebf340b0bb45",
+                "uri": "http://register.openownership.org/entities/59b94c8467e4ebf340b0bb45"
+            }
+        ],
+        "foundingDate": "2002-01-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "54 Cobden Street, Brindle Heath Industrial Park, Salford Manchester, M6 6WF",
+                "country": "GB"
+            }
+        ]
+    }
+]

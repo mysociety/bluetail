@@ -1,0 +1,97 @@
+[
+    {
+        "statementID": "openownership-register-3348732832437347905",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NEXUS ALPHA LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02941132"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02941132",
+                "uri": "https://opencorporates.com/companies/gb/02941132"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d1b467e4ebf340dbfda7",
+                "uri": "http://register.openownership.org/entities/59b9d1b467e4ebf340dbfda7"
+            }
+        ],
+        "foundingDate": "1994-06-21",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "London House, 7 - 11 Prescott Place, London, SW4 6BS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1598119170952751573",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3348732832437347905"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-289197427762966529"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-289197427762966529",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Patrick James Mcdougall"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07034114/persons-with-significant-control/individual/JR9tabxi7P1HMkgtHDedNCeyqrA"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93d0467e4ebf3406bca8b",
+                "uri": "http://register.openownership.org/entities/59b93d0467e4ebf3406bca8b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-02-01",
+        "addresses": [
+            {
+                "address": "London House, 7 - 11 Prescott Place, London, SW4 6BS"
+            }
+        ]
+    }
+]

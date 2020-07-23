@@ -1,0 +1,236 @@
+[
+    {
+        "statementID": "openownership-register-3753024433324769913",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "M.W. CRIPWELL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01207642"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01207642",
+                "uri": "https://opencorporates.com/companies/gb/01207642"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9636f67e4ebf3401b1c39",
+                "uri": "http://register.openownership.org/entities/59b9636f67e4ebf3401b1c39"
+            }
+        ],
+        "foundingDate": "1975-04-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Cripwell Building Services, 119a Derby Street, Burton-On-Trent, Staffordshire, DE14 2LE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4140426049362868772",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3753024433324769913"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4941664994447770046"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8952518627471319221",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3753024433324769913"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13871987274542198484"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-12-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2457069305917889056",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3753024433324769913"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2438814228361012615"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4941664994447770046",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Victoria Anne Thomas"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01207642/persons-with-significant-control/individual/6NOA4W1g5KOdUD_AkImgc_txxRQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9636f67e4ebf3401b1c9c",
+                "uri": "http://register.openownership.org/entities/59b9636f67e4ebf3401b1c9c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-01-01",
+        "addresses": [
+            {
+                "address": "Cripwell Building Services, 119a Derby Street, Burton-On-Trent, Staffordshire, DE14 2LE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13871987274542198484",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Leonard William Harper"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01207642/persons-with-significant-control/individual/l2QwHvVLY2j3__WMQQFpxSmF_1Y"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9636f67e4ebf3401b1cd1",
+                "uri": "http://register.openownership.org/entities/59b9636f67e4ebf3401b1cd1"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-06-01",
+        "addresses": [
+            {
+                "address": "Cripwell Building Services, 119a Derby Street, Burton-On-Trent, Staffordshire, DE14 2LE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2438814228361012615",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Carl Anthony Dent"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01207642/persons-with-significant-control/individual/uiiWiz8usqcQVUaMQ2x3R2fB2jU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9636f67e4ebf3401b1c3f",
+                "uri": "http://register.openownership.org/entities/59b9636f67e4ebf3401b1c3f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-01-01",
+        "addresses": [
+            {
+                "address": "Cripwell Building Services, 119a Derby Street, Burton-On-Trent, Staffordshire, DE14 2LE"
+            }
+        ]
+    }
+]

@@ -1,0 +1,257 @@
+[
+    {
+        "statementID": "openownership-register-16522441932814968293",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "COGNIZANT WORLDWIDE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07195160",
+                "uri": "https://opencorporates.com/companies/gb/07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "7195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07195160"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab933ec9dfc3fae183d92d4",
+                "uri": "http://register.openownership.org/entities/5ab933ec9dfc3fae183d92d4"
+            }
+        ],
+        "foundingDate": "2010-03-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Kingdom Street, Paddington Central, London, W2 6BD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18057371311374487302",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16522441932814968293"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-13719189656747533555"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-01-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-01-01"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2017-01-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5666471341148073001",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16522441932814968293"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-12251621379723299009"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent-as-firm",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-01-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent-as-firm",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-01-01"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors-as-firm",
+                "startDate": "2016-04-06",
+                "endDate": "2017-01-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13719189656747533555",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "COGNIZANT HOLDINGS UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10535398"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10535398"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10535398",
+                "uri": "https://opencorporates.com/companies/gb/10535398"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba71309dfc3fae18fa6dfd",
+                "uri": "http://register.openownership.org/entities/5aba71309dfc3fae18fa6dfd"
+            }
+        ],
+        "foundingDate": "2016-12-21",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Kingdom Street, Paddington Central, London, W2 6BD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12251621379723299009",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION",
+        "incorporatedInJurisdiction": {
+            "name": "United States of America",
+            "code": "US"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07776457/persons-with-significant-control/corporate-entity/jT02Mor1FhHbhG8BSoTWylwdLmU"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/us_de/2156937",
+                "uri": "https://opencorporates.com/companies/us_de/2156937"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07195160/persons-with-significant-control/corporate-entity/LDAnyuYY31NlpVfcOIrmlFNrrI4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93bd967e4ebf340668759",
+                "uri": "http://register.openownership.org/entities/59b93bd967e4ebf340668759"
+            }
+        ],
+        "foundingDate": "1988-04-06"
+    }
+]

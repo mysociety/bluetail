@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-15228439345968395011",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MERIDIAN COST BENEFIT LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04775740"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04775740",
+                "uri": "https://opencorporates.com/companies/gb/04775740"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96bca67e4ebf3404490cb",
+                "uri": "http://register.openownership.org/entities/59b96bca67e4ebf3404490cb"
+            }
+        ],
+        "foundingDate": "2003-05-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Tyttenhanger House, Coursers Road, St Albans, Hertfordshire, AL4 0PG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2693061617494638606",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15228439345968395011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16741559799145010947"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15495375592454400309",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15228439345968395011"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16163218956060124842"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16741559799145010947",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Peter Gerald Welch"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04775740/persons-with-significant-control/individual/7-Y_cRtGk3IffnpTnFo2dexJQio"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96bca67e4ebf3404490df",
+                "uri": "http://register.openownership.org/entities/59b96bca67e4ebf3404490df"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-05-01",
+        "addresses": [
+            {
+                "address": "Tyttenhanger House, Coursers Road, St Albans, Hertfordshire, AL4 0PG"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16163218956060124842",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Oliver Lyon"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04775740/persons-with-significant-control/individual/XSBiGa5kXDJSd2CX5Du-ti-2ZhQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96bca67e4ebf3404490e1",
+                "uri": "http://register.openownership.org/entities/59b96bca67e4ebf3404490e1"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-06-01",
+        "addresses": [
+            {
+                "address": "Tyttenhanger House, Coursers Road, St Albans, Hertfordshire, AL4 0PG"
+            }
+        ]
+    }
+]

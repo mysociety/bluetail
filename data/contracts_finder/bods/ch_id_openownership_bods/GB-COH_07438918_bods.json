@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-8500833878250455661",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CITY MINIBUS & COACH HIRE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07438918"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07438918",
+                "uri": "https://opencorporates.com/companies/gb/07438918"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9617d67e4ebf3401172e1",
+                "uri": "http://register.openownership.org/entities/59b9617d67e4ebf3401172e1"
+            }
+        ],
+        "foundingDate": "2010-11-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "83 Desford Way, Ashford,, Middlesex, TW15 3AS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10421329287096017045",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8500833878250455661"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-17454473480153256010"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17454473480153256010",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Dipak Kumar Mahatma"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07438918/persons-with-significant-control/individual/E3Q6CB5103FL-GmlTsvD4Mn7Erc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9617d67e4ebf3401172f2",
+                "uri": "http://register.openownership.org/entities/59b9617d67e4ebf3401172f2"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-06-01",
+        "addresses": [
+            {
+                "address": "83, Desford Way, Ashford,, Middlesex, TW15 3AS"
+            }
+        ]
+    }
+]

@@ -1,0 +1,248 @@
+[
+    {
+        "statementID": "openownership-register-16980995673612385838",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "JUICEWORKS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04450381"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04450381",
+                "uri": "https://opencorporates.com/companies/gb/04450381"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9dc8667e4ebf3400416d3",
+                "uri": "http://register.openownership.org/entities/59b9dc8667e4ebf3400416d3"
+            }
+        ],
+        "foundingDate": "2002-05-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Sonex House Sharston Road, Wythenshawe, Manchester, M22 4RX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15699501095040482755",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16980995673612385838"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16672937671826143167"
+        },
+        "interests": [
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2018-09-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10976524959956764962",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16980995673612385838"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16672937671826143167"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-09-28"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-09-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11566370913241132610",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-09-28",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16980995673612385838"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8919151291360702316"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-09-28"
+            },
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent-as-firm",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-09-28"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-09-28"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2018-09-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16672937671826143167",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Carmel Bonner"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04185738/persons-with-significant-control/individual/JeU2o8f8dLrm1nZYKt_e3q8BjwQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a99567e4ebf3404433ed",
+                "uri": "http://register.openownership.org/entities/59b9a99567e4ebf3404433ed"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-03-01",
+        "addresses": [
+            {
+                "address": "Northop House, Northop Country Park, Northop, Flintshire, CH7 6WD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8919151291360702316",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CREST OIL HOLDINGS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09102209"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09102209"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09102209",
+                "uri": "https://opencorporates.com/companies/gb/09102209"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "9102209"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b923ee67e4ebf340f796ca",
+                "uri": "http://register.openownership.org/entities/59b923ee67e4ebf340f796ca"
+            }
+        ],
+        "foundingDate": "2014-06-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Units 1 And 2 Fallows Way, Whiston Prescot, Liverpool, Merseyside, L35 1RZ",
+                "country": "GB"
+            }
+        ]
+    }
+]

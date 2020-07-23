@@ -1,0 +1,114 @@
+[
+    {
+        "statementID": "openownership-register-17326109973772095124",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WOODS BUILDING SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02951763"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02951763",
+                "uri": "https://opencorporates.com/companies/gb/02951763"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b929e667e4ebf34010b691",
+                "uri": "http://register.openownership.org/entities/59b929e667e4ebf34010b691"
+            }
+        ],
+        "foundingDate": "1994-07-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Woodshouse, River Way, Harlow, Essex, CM20 2DP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6537005849019886355",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17326109973772095124"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17471439566845697353"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17471439566845697353",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AA WOODS HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02875107"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02875107"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02875107"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02875107",
+                "uri": "https://opencorporates.com/companies/gb/02875107"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b929e667e4ebf34010b7e3",
+                "uri": "http://register.openownership.org/entities/59b929e667e4ebf34010b7e3"
+            }
+        ],
+        "foundingDate": "1993-11-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Woods House, River Way, Harlow, Essex, CM20 2DP",
+                "country": "GB"
+            }
+        ]
+    }
+]
