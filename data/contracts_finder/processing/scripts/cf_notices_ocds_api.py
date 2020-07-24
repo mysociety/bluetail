@@ -141,6 +141,7 @@ class CFDownload(object):
         self.fromDate = None
         self.toDate = None
         self.saved_files = kwargs.get('update')
+        self.dataset = kwargs.get('dataset')
 
         if kwargs.get('days') != None:
             self.fromDate = str(date.today() - timedelta(days=kwargs['days']))
@@ -154,6 +155,13 @@ class CFDownload(object):
                 self.toDate = kwargs['todate']
             else:
                 self.toDate = str(date.today())
+
+        if self.dataset == 'bodsmatch':
+            self.dataset_dir = 'json_1_1_bods_match'
+        elif self.dataset == 'suppliermatch':
+            self.dataset_dir = 'json_1_1_supplier_ids_match'
+        elif self.dataset == 'raw':
+            self.dataset_dir = 'json_1_1_raw'
 
     def get_notices(self, datasetpth='json_1_1_bods_match'):
         """ Get notices from Contracts Finder API
@@ -189,7 +197,6 @@ def fix_cf_supplier_ids(json):
     return json
 
 
-# def get_and_insergett_1_1_json(row):
 def clean_and_convert_to_1_1(row):
     try:
         rowjson = json.dumps(row)
@@ -322,22 +329,18 @@ def aws_to_tender(json_ocds, dataset='bodsmatch'):
     return json_ocds
 
 
-def clean_and_dump_1_1_tenders(notice_json, dataset='bodsmatch'):
+def clean_and_dump_1_1_tenders(notice_json, datasetinfo):
 
     ocid = notice_json['releases'][0]['ocid']
-    dataset_dir = 'json_1_1_bods_match'
-    if dataset == 'bodsmatch':
+    if datasetinfo.dataset == 'bodsmatch':
         notice_json['releases'][0]['ocid'] = ocid.replace('-b5fd17-', '-b5fd17bodsmatch-')
-        dataset_dir = 'json_1_1_bods_match'
-    elif dataset == 'suppliermatch':
+    elif datasetinfo.dataset == 'suppliermatch':
         notice_json['releases'][0]['ocid'] = ocid.replace('-b5fd17-', '-b5fd17suppliermatch-')
-        dataset_dir = 'json_1_1_supplier_ids_match'
-    elif dataset == 'raw':
+    elif datasetinfo.dataset == 'raw':
         notice_json['releases'][0]['ocid'] = ocid.replace('-b5fd17-', '-b5fd17raw-')
-        dataset_dir = 'json_1_1_raw'
 
     ocid = notice_json['releases'][0]['ocid']
-    filedir = os.path.join(OCDS_OUTPUT_DIR, dataset_dir, '%s.json' % ocid)
+    filedir = os.path.join(OCDS_OUTPUT_DIR, datasetinfo.dataset_dir, '%s.json' % ocid)
     with open(filedir, 'w') as dataloc:
         final_json = json.dumps(notice_json, indent=2)
         logger.info('Inserted notice %s' % ocid)
@@ -369,7 +372,7 @@ def run(**kwargs):
                 downloader.too_few_matched_suppliers_skipped += 1
                 continue
 
-            clean_and_dump_1_1_tenders(tenders_json, dataset=dataset)
+            clean_and_dump_1_1_tenders(tenders_json, downloader)
             downloader.inserted += 1
 
             i += 1

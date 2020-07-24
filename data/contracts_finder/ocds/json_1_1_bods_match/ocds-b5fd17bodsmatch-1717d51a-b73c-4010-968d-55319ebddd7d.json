@@ -24,13 +24,13 @@
       "initiationType": "tender",
       "parties": [
         {
-          "id": "8322a84a8c6750aac7bde6e3fb457dc6",
+          "id": "b823a8f14f3b48d75f710c3786db7a60",
           "roles": [
             "buyer"
           ],
           "identifier": {
             "scheme": "GB-SRS",
-            "id": "",
+            "id": "supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
             "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
             "legalName": null
           },
@@ -321,7 +321,7 @@
         }
       },
       "buyer": {
-        "id": "8322a84a8c6750aac7bde6e3fb457dc6",
+        "id": "b823a8f14f3b48d75f710c3786db7a60",
         "name": "Crown Commercial Service"
       },
       "awards": [
