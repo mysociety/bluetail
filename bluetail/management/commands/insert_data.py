@@ -84,11 +84,14 @@ def anonymise_ocds_json_data(ocds_json):
 
 class Command(BaseCommand):
     def add_arguments(self, parser):
+        parser.add_argument("directory", nargs=1, type=str, help="Directory to load data from")
         parser.add_argument("--anonymise", action='store_true', help="Anonymise names/addresses during insert")
 
     def handle(self, *args, **kwargs):
         """Add dummy example data to database for demo."""
         anonymise = kwargs['anonymise']
+        directory = kwargs['directory'][0]
+
         if anonymise:
             anonymise_ocds_function = anonymise_ocds_json_data
             anonymise_bods_function = anonymise_bods_json_data
@@ -99,10 +102,10 @@ class Command(BaseCommand):
         upsert_helper = UpsertDataHelpers()
 
         # Insert CF OCDS JSON
-        logger.info("Insert sample Contracts Finder OCDS")
-        cf_ocds_path = os.path.join(DATA_DIR, "contracts_finder", "ocds")
+        logger.info("Insert OCDS")
+        ocds_path = os.path.join(directory, "ocds")
 
-        for root, dirs, files in os.walk(cf_ocds_path):
+        for root, dirs, files in os.walk(ocds_path):
             for f in files:
                 if not f.endswith(".json"):
                     continue
@@ -113,10 +116,10 @@ class Command(BaseCommand):
                     logger.exception("Failed to insert file %s", f_path)
 
         # Insert BODS JSON
-        logger.info("Insert sample Contracts Finder BODS")
-        cf_bods_path = os.path.join(DATA_DIR, "contracts_finder", "bods")
+        logger.info("Insert BODS")
+        bods_path = os.path.join(directory, "bods")
 
-        for root, dirs, files in os.walk(cf_bods_path):
+        for root, dirs, files in os.walk(bods_path):
             for f in files:
                 if not f.endswith(".json"):
                     continue
