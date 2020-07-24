@@ -146,6 +146,38 @@
           }
         },
         {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04455911",
+            "scheme": "GB-COH",
+            "legalName": "MARILLO FOODS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MARILLO FOODS LIMITED",
+          "address": {
+            "streetAddress": "Rochdale Road\nHX6 4JU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
           "id": "18",
           "roles": [
             "supplier",
@@ -705,7 +737,7 @@
         },
         "supplyChain": false,
         "documents": [],
-        "numberOfTenderers": 5,
+        "numberOfTenderers": 6,
         "tenderers": [
           {
             "id": "1",
@@ -718,6 +750,10 @@
           {
             "id": "10",
             "name": "JUICEWORKS LIMITED"
+          },
+          {
+            "id": "14",
+            "name": "MARILLO FOODS LIMITED"
           },
           {
             "id": "18",
@@ -760,6 +796,10 @@
             {
               "id": "10",
               "name": "JUICEWORKS LIMITED"
+            },
+            {
+              "id": "14",
+              "name": "MARILLO FOODS LIMITED"
             },
             {
               "id": "18",

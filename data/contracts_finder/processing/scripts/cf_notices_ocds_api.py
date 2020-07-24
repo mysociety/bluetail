@@ -30,19 +30,17 @@ import os
 
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
-
 from ocdskit.upgrade import upgrade_10_11
-from ocdskit.combine import merge
 
 import requests
 import logging.config
-# logging.config.dictConfig({
-#     'version': 1,
-#     'disable_existing_loggers': True,
-# })
+logging.config.dictConfig({
+    'version': 1,
+    'disable_existing_loggers': True,
+})
 
 logger = logging.getLogger(__name__)
-# logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 
 ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL")
 DATABASE_URL = os.environ.get('DATABASE_URL')
@@ -186,46 +184,46 @@ class CFDownload(object):
 
 def fix_cf_supplier_ids(json):
     """ Modify Contracts Finder OCDS JSON enough to be processed """
-    try:
-        # Fixing to match current version, to be processed by ocdskit
-        json['version'] = '1.0'
-        # Giving suppliers distinct IDs (source sets all supplier IDs to zero)
-        for i, supplier in enumerate(json['releases'][0]['awards'][0]['suppliers']):
-            json['releases'][0]['awards'][0]['suppliers'][i]['id'] = str(i)
-    except:
-        logging.info('Failed to add supplier IDs', exc_info=True)
+    # Fixing to match current version, to be processed by ocdskit
+    json['version'] = '1.0'
+    # Giving suppliers distinct IDs (source sets all supplier IDs to zero)
+    for i, supplier in enumerate(json['releases'][0]['awards'][0]['suppliers']):
+        json['releases'][0]['awards'][0]['suppliers'][i]['id'] = str(i)
+
     return json
 
 
 def clean_and_convert_to_1_1(row):
-    try:
-        rowjson = json.dumps(row)
-        rowjson = json.loads(rowjson)
+    rowjson = json.dumps(row)
+    rowjson = json.loads(rowjson)
 
-        # Fix OCDS errors
-        rowjson = fix_cf_supplier_ids(rowjson)
+    # Fix OCDS errors
 
-        # Convert to 1.1 OCDS
-        json_1_1 = upgrade_10_11(json.loads(json.dumps(rowjson), object_pairs_hook=OrderedDict))
-        # json_1_1 = json.dumps(json_1_1)
-        return json_1_1
-    except:
-        logging.debug('Failed to get 1.1 OCDS', exc_info=True)
+    rowjson = fix_cf_supplier_ids(rowjson)
+
+    # Convert to 1.1 OCDS
+    json_1_1 = upgrade_10_11(json.loads(json.dumps(rowjson), object_pairs_hook=OrderedDict))
+    # json_1_1 = json.dumps(json_1_1)
+    return json_1_1
 
 
 def match_supplier_info(suppliername):
     """ Adding supplier details from table where a match is found. """
     try:
         row = supplier_df.loc[suppliername]
-        supplier_match = {
-            'id': row.iloc[0]['id'],
-            'scheme': row.iloc[0]['scheme'],
-            'legalName': suppliername
-        }
-        return supplier_match
-    except Exception as e:
+    except KeyError:
         logger.debug('Supplier match not found for %s', suppliername)
         return None
+
+    if isinstance(row, pd.DataFrame):
+        row = row.iloc[0]
+
+    supplier_match = {
+        'id': row['id'],
+        'scheme': row['scheme'],
+        'legalName': suppliername
+    }
+    return supplier_match
 
 
 def get_company_statements(
@@ -350,11 +348,14 @@ def clean_and_dump_1_1_tenders(notice_json, datasetinfo):
 def run(**kwargs):
 
     downloader = CFDownload(**kwargs)
+    dataset = kwargs.get('dataset')
+
     i = 1
     for notice_ocds_json in downloader.get_notices():
         try:
 
             uri = notice_ocds_json["uri"]
+
             ocid = notice_ocds_json["releases"][0]["ocid"]
             number_of_suppliers = len(notice_ocds_json['releases'][0]['awards'][0]['suppliers'])
             if number_of_suppliers < 2:
@@ -364,8 +365,7 @@ def run(**kwargs):
 
             notice_ocds_1_1_json = clean_and_convert_to_1_1(notice_ocds_json)
 
-            # Convert award to tender
-            dataset = kwargs.get('dataset')
+            # Convert award notices to tender notices
             tenders_json = aws_to_tender(notice_ocds_1_1_json, dataset=dataset)
             if tenders_json['releases'][0]['tender']['numberOfTenderers'] < 2:
                 logger.debug('Notice %s has less than 2 matched suppliers - skipping' % ocid)

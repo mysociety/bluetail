@@ -17,7 +17,7 @@
     {
       "ocid": "ocds-b5fd17bodsmatch-820534ff-7dd6-41b9-9b7d-d0184785b6f1",
       "id": "ocds-b5fd17-820534ff-7dd6-41b9-9b7d-d0184785b6f1-345900-lslgs-0031",
-      "date": "2019-07-19T00:00:00Z",
+      "date": "2019-05-24T00:00:00Z",
       "tag": [
         "tender"
       ],
@@ -112,6 +112,70 @@
             "currency": "GBP",
             "amount": null
           }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04495331",
+            "scheme": "GB-COH",
+            "legalName": "BROWNELL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BROWNELL LIMITED",
+          "address": {
+            "streetAddress": "Park Royal\nNW10 7XF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00252864",
+            "scheme": "GB-COH",
+            "legalName": "CHEMETALL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CHEMETALL LIMITED",
+          "address": {
+            "streetAddress": "65 Denbigh Road\nMK1 1PB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
         }
       ],
       "language": "en-GB",
@@ -159,7 +223,7 @@
         },
         "supplyChain": false,
         "documents": [],
-        "numberOfTenderers": 2,
+        "numberOfTenderers": 4,
         "tenderers": [
           {
             "id": "1",
@@ -168,6 +232,14 @@
           {
             "id": "2",
             "name": "CLEENOL GROUP LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "BROWNELL LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "CHEMETALL LIMITED"
           }
         ],
         "contractPeriod": {
@@ -198,6 +270,14 @@
             {
               "id": "2",
               "name": "CLEENOL GROUP LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "BROWNELL LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "CHEMETALL LIMITED"
             }
           ],
           "contractPeriod": {

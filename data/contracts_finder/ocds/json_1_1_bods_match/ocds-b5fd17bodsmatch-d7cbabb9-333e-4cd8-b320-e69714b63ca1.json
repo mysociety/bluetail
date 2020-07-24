@@ -17,7 +17,7 @@
     {
       "ocid": "ocds-b5fd17bodsmatch-d7cbabb9-333e-4cd8-b320-e69714b63ca1",
       "id": "ocds-b5fd17-d7cbabb9-333e-4cd8-b320-e69714b63ca1-349249-2020-s-051-122266",
-      "date": "2019-09-09T00:00:00Z",
+      "date": "2019-10-28T00:00:00Z",
       "tag": [
         "tender"
       ],
@@ -97,6 +97,38 @@
           "name": "BFS GROUP LIMITED",
           "address": {
             "streetAddress": "4 Leigh Road\nSLOUGH\nBerkshire\nSL1 4BD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05422252",
+            "scheme": "GB-COH",
+            "legalName": "FRESH N FRUITY (UK) LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FRESH N FRUITY (UK) LTD",
+          "address": {
+            "streetAddress": "UNIT 1 ALLEN HOUSE, NEW SPITAL FIELDS MKT\nE10 5SQ\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
@@ -242,6 +274,38 @@
           }
         },
         {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02955734",
+            "scheme": "GB-COH",
+            "legalName": "REYNOLDS CATERING SUPPLIES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "REYNOLDS CATERING SUPPLIES LIMITED",
+          "address": {
+            "streetAddress": "Britannia Road National Distribution Centre\nWALTHAM CROSS\nHertfordshire\nEN8 7RQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
           "id": "18",
           "roles": [
             "supplier",
@@ -329,7 +393,7 @@
         },
         "supplyChain": false,
         "documents": [],
-        "numberOfTenderers": 7,
+        "numberOfTenderers": 9,
         "tenderers": [
           {
             "id": "3",
@@ -338,6 +402,10 @@
           {
             "id": "4",
             "name": "BFS GROUP LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "FRESH N FRUITY (UK) LTD"
           },
           {
             "id": "10",
@@ -354,6 +422,10 @@
           {
             "id": "15",
             "name": "RALPH LIVESEY LIMITED"
+          },
+          {
+            "id": "17",
+            "name": "REYNOLDS CATERING SUPPLIES LIMITED"
           },
           {
             "id": "18",
@@ -390,6 +462,10 @@
               "name": "BFS GROUP LIMITED"
             },
             {
+              "id": "7",
+              "name": "FRESH N FRUITY (UK) LTD"
+            },
+            {
               "id": "10",
               "name": "JOHN PALIN (WHOLESALE) LIMITED"
             },
@@ -404,6 +480,10 @@
             {
               "id": "15",
               "name": "RALPH LIVESEY LIMITED"
+            },
+            {
+              "id": "17",
+              "name": "REYNOLDS CATERING SUPPLIES LIMITED"
             },
             {
               "id": "18",

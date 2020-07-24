@@ -17,7 +17,7 @@
     {
       "ocid": "ocds-b5fd17bodsmatch-521eb085-3a9f-42a6-9a9d-a2ff695f36b6",
       "id": "ocds-b5fd17-521eb085-3a9f-42a6-9a9d-a2ff695f36b6-352870-1460",
-      "date": "2019-12-06T00:00:00Z",
+      "date": "2019-11-08T00:00:00Z",
       "tag": [
         "tender"
       ],
@@ -73,6 +73,38 @@
           },
           "contactPoint": {
             "name": "Paul Bury",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC314079",
+            "scheme": "GB-COH",
+            "legalName": "HILL DICKINSON LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HILL DICKINSON LLP",
+          "address": {
+            "streetAddress": "1 St Pauls Square\nLIVERPOOL\nMERSEYSIDE\nL3 9SJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Julia Spurrett",
             "email": "",
             "telephone": "",
             "faxNumber": ""
@@ -192,11 +224,15 @@
         },
         "supplyChain": false,
         "documents": [],
-        "numberOfTenderers": 3,
+        "numberOfTenderers": 4,
         "tenderers": [
           {
             "id": "2",
             "name": "THE ENDEAVOUR PARTNERSHIP LLP"
+          },
+          {
+            "id": "3",
+            "name": "HILL DICKINSON LLP"
           },
           {
             "id": "4",
@@ -231,6 +267,10 @@
             {
               "id": "2",
               "name": "THE ENDEAVOUR PARTNERSHIP LLP"
+            },
+            {
+              "id": "3",
+              "name": "HILL DICKINSON LLP"
             },
             {
               "id": "4",
