@@ -8,7 +8,7 @@ bigenv/
 _output/
 _dependencies/
 media/
-static/
+/static/
 
 #################
 ## Eclipse
