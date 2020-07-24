@@ -1,0 +1,54 @@
+{% load flag_templatetags %}
+{% get_flags_for_bods_entity_or_person person tenderer.ocid as flags %}
+
+<div class="card bods-scorecard">
+    <h5 class="card-header d-flex align-items-center">
+        <span class="mr-auto">{{ person.fullName }}</span>
+        {% if flags.total_errors %}
+            <span class="ml-2 badge badge-pill badge-danger d-flex">
+            {% include "bluetail/icons/prohibited.html" with classes="icon mr-1" %}
+            {{ flags.total_errors }}
+        </span>
+        {% endif %}
+        {% if flags.total_warnings %}
+            <span class="ml-2 badge badge-pill badge-warning d-flex">
+            {% include "bluetail/icons/exclamation.html" with classes="icon mr-1" %}
+            {{ flags.total_warnings }}
+        </span>
+        {% endif %}
+    </h5>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item {% if flags.person_id_flags.error %}list-group-item-danger{% elif flags.person_id_flags.warning %}list-group-item-warning{% endif %}">
+            <small class="scorecard-key">Full name</small>
+            <span class="scorecard-value">{{ person.fullName }}</span>
+            {% for flag in flags.person_id_flags.error %}
+                {% if flag %}
+                    <p class="scorecard-warning">{{ flag.flag_text }}</p>
+                {% endif %}
+            {% endfor %}
+            {% for flag in flags.person_id_flags.warning %}
+                {% if flag %}
+                    <p class="scorecard-warning">{{ flag.flag_text }}</p>
+                {% endif %}
+            {% endfor %}
+        </li>
+      {% if person.statement_json.birthDate %}
+        <li class="list-group-item">
+            <small class="scorecard-key">Date of birth</small>
+            <span class="scorecard-value">{{ person.statement_json.birthDate }}</span>
+        </li>
+      {% endif %}
+      {% if person.statement_json.addresses %}
+        <li class="list-group-item">
+            <small class="scorecard-key">Address</small>
+            <span class="scorecard-value">{{ person.statement_json.addresses.0.address }}</span>
+        </li>
+      {% endif %}
+      {% if person.statement_json.nationalities %}
+        <li class="list-group-item">
+            <small class="scorecard-key">Nationality</small>
+            <span class="scorecard-value">{{ person.statement_json.nationalities.0.name }}</span>
+        </li>
+      {% endif %}
+    </ul>
+</div>

@@ -274,6 +274,11 @@ This is easiest done using the Heroku CLI tools. https://devcenter.heroku.com/ar
     3. Note you can push any local branch, but it must be pushed to the Heroku remote `master` branch to deploy. 
         
             git push heroku [local_branch_to_push]:master --force
+    
+        1. If there are issues/errors from the Heroku git repo it can be reset first using https://github.com/heroku/heroku-repo
+            
+                heroku plugins:install heroku-repo
+                heroku repo:reset -a bluetail
 
 4. (Optional) Run the setup script to reset the Heroku database.
 

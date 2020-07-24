@@ -6,9 +6,6 @@ import bluetail.views as views
 
 urlpatterns = [
     path('', RedirectView.as_view(url=reverse_lazy('ocds-list')), name='home'),
-    path('prototype/tenderer/', views.tenderer_view, name='example-tenderer'),
-    path('prototype/tender/', views.tender_view, name='example-tender'),
-    path('prototype/tenders/', views.tenders_view, name='example-tenders'),
     path('tenders/', views.OCDSTenderList.as_view(), name='ocds-list'),
     path('tenders/<str:pk>/', views.OCDSTenderDetailView.as_view(), name='ocds-detail'),
     path('tenders/<str:dataset>/<str:pk>/', views.OCDSTenderDetailView.as_view(), name='ocds-detail'),

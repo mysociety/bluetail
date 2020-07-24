@@ -25,7 +25,7 @@ logger = logging.getLogger('django')
 ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL")
 ELASTICSEARCH_BODS_INDEX = os.getenv("ELASTICSEARCH_BODS_INDEX", "bods-open_ownership_register")
 DATABASE_URL = os.environ.get('DATABASE_URL')
-BODS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "bods")
+BODS_OUTPUT_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data", "contracts_finder", "bods")
 ELASTICSEARCH_CONN = None
 
 

@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div class="container-md">
+        <a class="navbar-brand" href="{% url 'home' %}">
+            {% include "icons/shield.html" with classes="icon mr-1" %}
+            Ministry of Efficiency
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <button class="nav-link btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tenders
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <h6 class="dropdown-header">Filtered By Dataset</h6>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}">All</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-123abc-">Prototype</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-b5fd17raw-">Contracts Finder unlinked</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-b5fd17suppliermatch-">Contracts Finder with linked suppliers</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?ocid_prefix=ocds-b5fd17bodsmatch-">Contracts Finder with beneficial owners</a>
+
+                        <h6 class="dropdown-header">Filtered By Flag</h6>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?has_flags=true">Any Flag</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?has_flags=true&flag=person_id_matches_cabinet_minister">Beneficial Owner matches Cabinet Minister</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?has_flags=true&flag=company_in_multiple_applications_to_tender">Company linked to multiple applications to a tender</a>
+                        <a class="dropdown-item" href="{% url 'ocds-list' %}?has_flags=true&flag=person_in_multiple_applications_to_tender">Person linked to multiple applications to a tender</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Spending analysis
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'publisher-hub' %}">
+                        Publisher Hub
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
