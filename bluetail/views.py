@@ -8,7 +8,7 @@ from django.http import HttpResponse
 from django.views.generic import DetailView, ListView, TemplateView
 
 from bluetail.helpers import BodsHelperFunctions, FlagHelperFunctions, ContextHelperFunctions
-from bluetail.models import OCDSTender, OCDSParty, BODSEntityStatement, \
+from bluetail.models import OCDSTender, OCDSTenderer, BODSEntityStatement, \
     BODSOwnershipStatement, BODSPersonStatement, FlagAttachment
 
 
@@ -53,7 +53,7 @@ class OCDSTenderDetailView(DetailView):
         tender = self.object
 
         # Get tenderers
-        tenderers = OCDSParty.objects.filter(ocid=tender.ocid, party_role="tenderer")
+        tenderers = OCDSTenderer.objects.filter(ocid=tender.ocid, party_role="tenderer")
 
         # Augment context
         new_context = {
@@ -82,7 +82,7 @@ class OCDSTendererDetailView(TemplateView):
         tender = OCDSTender.objects.get(ocid=ocid)
 
         # Get tenderer
-        tenderer = OCDSParty.objects.get(ocid=ocid, party_id=tenderer_id)
+        tenderer = OCDSTenderer.objects.get(ocid=ocid, party_id=tenderer_id)
         if not tenderer:
             return context
 

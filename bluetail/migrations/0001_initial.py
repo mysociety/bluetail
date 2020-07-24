@@ -58,7 +58,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name='OCDSParty',
+            name='OCDSTenderer',
             fields=[
                 ('ocid', models.TextField(primary_key=True, serialize=False)),
                 ('release_json', django.contrib.postgres.fields.jsonb.JSONField()),
@@ -73,7 +73,7 @@ class Migration(migrations.Migration):
                 ('contact_name', models.TextField()),
             ],
             options={
-                'db_table': 'bluetail_ocds_parties_view',
+                'db_table': 'bluetail_ocds_tenderers_view',
                 'managed': False,
             },
         ),
@@ -128,7 +128,7 @@ class Migration(migrations.Migration):
                 ('release_json', django.contrib.postgres.fields.jsonb.JSONField()),
             ],
             options={
-                'db_table': 'bluetail_ocds_release_json',
+                'db_table': 'bluetail_ocds_release_json_view',
                 'managed': False,
             },
         ),
