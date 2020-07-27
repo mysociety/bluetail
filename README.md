@@ -230,9 +230,11 @@ The commands for loading this data are:
 
     script/manage insert_prototype_data
 
-    script/manage insert_contracts_finder_data --anonymise
+    script/manage insert_data bluetail/data/contracts_finder --anonymise
 
 The anonymise flag is used because we have manipulated real data in order to create the example datasets, and we want to avoid live or example sites that suggest relationships that do not exist for real people and companies. Anonymisation replaces names, birthdates and addresses of individuals, and names of procuring organisations and companies with fake versions, preserving the associations between entities. Leaving out this command would allow an ingest and comparison of real ownership and contracts data.
+
+Data can be loaded from another set of json files by calling `insert_data` with a different directory argument. The expectation is that that directory will contain subdirectories named `ocds` and `bods`, each containing json files with valid OCDS and BODs data in them.
 
 
 ##### Additional data sources
