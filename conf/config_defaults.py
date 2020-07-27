@@ -10,6 +10,9 @@ SITE_TWITTER = ''
 GOOGLE_ANALYTICS_ACCOUNT = ''
 SASSC_LOCATION = 'sassc'
 
+# Preferred company identifier scheme
+COMPANY_ID_SCHEME = os.getenv("COMPANY_ID_SCHEME",'GB-COH')
+
 
 # URL format provider://username:password@host:port/databasename
 DATABASE_URL = os.getenv("DATABASE_URL", 'postgres://bluetail:bluetail@localhost:5432/bluetail')

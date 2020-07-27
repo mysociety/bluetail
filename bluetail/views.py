@@ -4,6 +4,7 @@ import os
 from django.conf import settings
 from django.db.models import Q
 from django.shortcuts import render
+from django.conf import settings
 from django.http import HttpResponse
 from django.views.generic import DetailView, ListView, TemplateView
 
@@ -97,6 +98,7 @@ class OCDSTendererDetailView(TemplateView):
 
         new_context = {
             "tender": tender,
+            "company_id_scheme": settings.COMPANY_ID_SCHEME,
             "tenderer": tenderer_context,
             "owners": interested_parties["interested_persons"],
             "parents": interested_parties["interested_entities"],

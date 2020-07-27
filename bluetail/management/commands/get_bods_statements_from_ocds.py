@@ -38,7 +38,7 @@ class Command(BaseCommand):
 
 def get_entity_statements(
         company_id,
-        scheme='GB-COH',
+        scheme=settings.COMPANY_ID_SCHEME,
         elasticsearch_conn=ELASTICSEARCH_CONN,
 ):
     """
@@ -97,7 +97,7 @@ def get_statements_by_statementIDs(
 
 def get_bods_statements_for_company(
         company_id,
-        scheme='GB-COH',
+        scheme=settings.COMPANY_ID_SCHEME,
         elasticsearch_conn=ELASTICSEARCH_CONN,
 ):
     """
@@ -142,7 +142,7 @@ def lookup_ch_ids():
     # Get list of Company Numbers from the OCDS Parties
     logger.info("Getting OCDS Party scheme/id queryset")
 
-    ids = OCDSTenderer.objects.filter(party_identifier_scheme="GB-COH")
+    ids = OCDSTenderer.objects.filter(party_identifier_scheme=settings.COMPANY_ID_SCHEME)
 
     elasticsearch_conn = Elasticsearch(ELASTICSEARCH_URL, verify_certs=True)
     OUTPUT_DIR = os.path.join(BODS_OUTPUT_DIR, "ch_id_openownership_bods")

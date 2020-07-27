@@ -236,6 +236,7 @@ The anonymise flag is used because we have manipulated real data in order to cre
 
 Data can be loaded from another set of json files by calling `insert_data` with a different directory argument. The expectation is that that directory will contain subdirectories named `ocds` and `bods`, each containing json files with valid OCDS and BODS data in them.
 
+Bluetail uses one preferred [identifier scheme](http://standard.openownership.org/en/0.2.0/schema/guidance/identifiers.html) when matching and displaying companies - this is set in the `COMPANY_ID_SCHEME` setting in `config.py`.
 
 ##### Additional data sources
 
