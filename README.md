@@ -29,17 +29,11 @@ It ingests data about contracting processes in [OCDS](https://standard.open-cont
 
 ### Running Bluetail locally (with Vagrant)
 
-Make sure to check out the submodules when you `git clone`:
+Clone the repository
 
 ```
-git clone --recursive git@github.com:mysociety/bluetail.git
+git clone git@github.com:mysociety/bluetail.git
 cd bluetail
-```
-
-Or to check out the submodules in a repo you’ve already cloned:
-
-```
-git submodule update --init
 ```
 
 A Vagrantfile is included for local development. Assuming you have [Vagrant](https://www.vagrantup.com/) installed, you can create a Vagrant VM with:
@@ -65,7 +59,7 @@ You’ll need:
 * Python 3.6
 * A local Postgres server
 
-As above, make sure you’ve cloned the repo and checked out its submodules.
+As above, make sure you’ve cloned the repo.
 
 Open up a Postgres shell (eg: `psql`) and create a user and database matching the details in `conf/config.py`:
 
@@ -103,42 +97,48 @@ script/server
 
 ### Deployment to Heroku
 
+Heroku has good documentation for deploying using git. https://devcenter.heroku.com/articles/git
+
 These environment variables must be set on the Heroku app before deployment.
 
     DJANGO_SETTINGS_MODULE=proj.settings_heroku
     DATABASE_URL="postgres://..."
-    SECRET_KEY=""
+    SECRET_KEY=
 
+If you have forked the GitHub Repository you can connect your GitHub fork to a Heroku app and deploy using the Heroku dashboard:
 
-The Heroku-GitHub integration does not work with `git-submodules`
+https://devcenter.heroku.com/articles/github-integration
 
-So to deploy we need to push to the Heroku `bluetail` app git remote manually.
-
-This is easiest done using the Heroku CLI tools. https://devcenter.heroku.com/articles/heroku-cli
+Or else you can push your git clone directly to your Heroku app. This is easiest done using the Heroku CLI tools. https://devcenter.heroku.com/articles/heroku-cli
 
 1. Log in to Heroku CLI (https://devcenter.heroku.com/articles/heroku-cli#getting-started)
 2. Add the Heroku app git remote to your git clone
 
     Execute this command in your bluetail clone root directory
 
-        heroku git:remote --app bluetail
+        heroku git:remote --app your_heroku_appname
 
-3. Force push your branch to the Heroku remote `master` branch.
+3. Push your branch to the Heroku remote `master` branch.
 
-        git push heroku master:master --force
+        git push heroku master
 
     Note you can push any local branch, but it must be pushed to the Heroku remote `master` branch to deploy.
 
-        git push heroku [local_branch_to_push]:master --force
+        git push heroku [local_branch_to_push]:master
 
     If there are issues/errors from the Heroku git repo it can be reset first using https://github.com/heroku/heroku-repo
 
         heroku plugins:install heroku-repo
         heroku repo:reset -a bluetail
 
-4. (Optional) Run the setup script to reset the Heroku database.
+4. (Optional) Run the setup script to reset the Heroku database with the demo data.
 
         heroku run "script/setup"
+
+    4. Or else simply run migrate for a clean database.
+
+            heroku run "python manage.py migrate"
+
 
 ## Testing
 
