@@ -17,6 +17,10 @@ fake = Faker('en_GB')
 # Generate the same dataset on each run.
 # Note that the data might change if faker is updated.
 Faker.seed(1234)
+fake_buyer_dict = {}
+fake_tenderer_dict = {}
+fake_person_dict = {}
+fake_entity_dict = {}
 
 
 def anonymise_bods_json_data(bods_json):
@@ -25,13 +29,30 @@ def anonymise_bods_json_data(bods_json):
         if statement['statementType'] == 'personStatement':
             if 'names' in statement:
                 for name in statement['names']:
-                    name['fullName'] = fake.name()
+                    if name['fullName']:
+                        orig_name = name['fullName']
+                        fake_name = fake_person_dict.get(orig_name)
+                        if not fake_name:
+                            fake_name = fake.name()
+                            fake_person_dict[orig_name] = fake_name
+                        else:
+                            pass
+                        name['fullName'] = fake_name
             if 'addresses' in statement:
                 for address in statement['addresses']:
                     address['address'] = fake.address()
         if statement['statementType'] == 'entityStatement':
             if 'name' in statement:
                 statement['name'] = fake.company()
+                if statement['name']:
+                    orig_name = statement['name']
+                    fake_name = fake_entity_dict.get(orig_name)
+                    if not fake_name:
+                        fake_name = fake.company()
+                        fake_entity_dict[orig_name] = fake_name
+                    else:
+                        pass
+                    statement['name'] = fake_name
             if 'addresses' in statement:
                 for address in statement['addresses']:
                     address['address'] = fake.address()
@@ -48,7 +69,10 @@ def anonymise_ocds_json_data(ocds_json):
     for release in releases:
         # anonimise buyer
         orig_buyer = release["buyer"]["name"]
-        fake_buyer = f"{fake.city()} City Council"
+        fake_buyer = fake_buyer_dict.get(orig_buyer)
+        if not fake_buyer:
+            fake_buyer = f"{fake.city()} City Council"
+            fake_buyer_dict[orig_buyer] = fake_buyer
 
         release["buyer"]["name"] = fake_buyer
         for party in release["parties"]:
@@ -58,13 +82,16 @@ def anonymise_ocds_json_data(ocds_json):
         # anonimise tenderers
         for j, tenderer in enumerate(release["tender"]["tenderers"]):
             id = tenderer.get("id")
-            orig_name = tenderer.get("name")
-            fake_name = fake.company()
+            orig_tenderer = tenderer.get("name")
+            fake_tenderer = fake_tenderer_dict.get(orig_tenderer)
+            if not fake_tenderer:
+                fake_tenderer = fake.company()
+                fake_tenderer_dict[orig_tenderer] = fake_tenderer
 
-            release["tender"]["tenderers"][j]["name"] = fake_name
+            release["tender"]["tenderers"][j]["name"] = fake_tenderer
             for j, party in enumerate(release["parties"]):
                 if party.get("id") == id:
-                    release["parties"][j]["name"] = fake_name
+                    release["parties"][j]["name"] = fake_tenderer
                     fake_address = {
                         "streetAddress": fake.street_address(),
                         "locality": fake.city(),
@@ -77,7 +104,7 @@ def anonymise_ocds_json_data(ocds_json):
             for k, award in enumerate(release.get("awards", [])):
                 for l, supplier in enumerate(award.get("suppliers", [])):
                     if supplier.get("id") == id:
-                        release["awards"][k]["suppliers"][l]["name"] = fake_name
+                        release["awards"][k]["suppliers"][l]["name"] = fake_tenderer
     ocds_dict = json.dumps(ocds_json)
     return ocds_json
 
