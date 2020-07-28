@@ -15,10 +15,10 @@
           "identifier": {
             "scheme": "GB-LAC",
             "id": "E09000003",
-            "legalName": "London Borough of Barnet",
+            "legalName": "London Borough of Toupee",
             "uri": "http://www.barnet.gov.uk/"
           },
-          "name": "London Borough of Barnet",
+          "name": "London Borough of Toupee",
           "address": {
             "streetAddress": "4, North London Business Park, Oakleigh Rd S",
             "locality": "London",
@@ -149,7 +149,7 @@
       ],
       "buyer": {
         "id": "GB-LAC-E09000003",
-        "name": "London Borough of Barnet"
+        "name": "London Borough of Toupee"
       },
       "tender": {
         "id": "PROC-20-0001",
@@ -179,7 +179,7 @@
         },
         "procuringEntity": {
           "id": "GB-LAC-E09000003",
-          "name": "London Borough of Barnet"
+          "name": "London Borough of Toupee"
         },
         "numberOfTenderers": 5,
         "tenderers": [
