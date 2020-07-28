@@ -47,7 +47,6 @@ DATABASE_URL = os.environ.get('DATABASE_URL')
 OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
 OCDS_OUTPUT_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "ocds")
 PROCESSING_DIR = os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing")
-supplier_df = pd.read_csv(os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing", 'openopps_supplier_matches.csv'), index_col='legal_name')
 
 
 def session_with_backoff(
@@ -138,6 +137,7 @@ class CFDownload(object):
         self.inserted = 0
         self.fromDate = None
         self.toDate = None
+        self.rows = kwargs['rows']
         self.saved_files = kwargs.get('update')
         self.dataset = kwargs.get('dataset')
 
@@ -245,6 +245,7 @@ def update_parties(ocdsjson, dataset='bodsmatch'):
     """ Change suppliers to tenderers to reflect tender process. """
 
     parties = ocdsjson['releases'][0]['parties']
+    supplier_names = []
     newparties = []
     tenderers = []
 
@@ -252,6 +253,10 @@ def update_parties(ocdsjson, dataset='bodsmatch'):
         if 'supplier' in party['roles']:
 
             supplier = party['name']
+            if supplier in supplier_names:
+                logger.debug('Removing duplicated supplier %s', supplier)
+                continue
+            supplier_names.append(supplier)
             supplier_matched_id = match_supplier_info(supplier)
 
             if dataset in ('bodsmatch', 'suppliers'):
@@ -281,7 +286,6 @@ def update_parties(ocdsjson, dataset='bodsmatch'):
             newparties.append(party)
 
     ocdsjson['releases'][0]['parties'] = newparties
-    # print('Sucessfully matched tenders:', len(tenderers))
     ocdsjson['releases'][0]['tender']['numberOfTenderers'] = len(tenderers)
     ocdsjson['releases'][0]['tender']['tenderers'] = tenderers
     ocdsjson['releases'][0]['awards'][0]['suppliers'] = tenderers
@@ -375,10 +379,11 @@ def run(**kwargs):
             clean_and_dump_1_1_tenders(tenders_json, downloader)
             downloader.inserted += 1
 
-            i += 1
-            if i == 100:
+            if i == downloader.rows:
                 logger.info('Inserted 100 notices')
                 break
+            i += 1
+
 
         except KeyboardInterrupt:
             break
@@ -396,6 +401,7 @@ def create_parser():
     parser.add_argument("-s", "--dataset", type=str, help="Options of 'bodsmatch', 'suppliermatch' or 'raw'", default='bodsmatch')
     parser.add_argument("-u", "--update", action='store_true', default=False, help="Update notices already outputted by uri of saved files.")
     parser.add_argument("-d", "--days", type=int, help="Import the last x days of notices.")
+    parser.add_argument("-r", "--rows", type=int, help="Import x notices in total.", default=100)
     parser.add_argument("-f", "--fromdate", help="Import from date. YYYY-MM-DD", default='2020-01-01')
     parser.add_argument("-t", "--todate", help="Import to date. YYYY-MM-DD", default='2020-06-01')
     return parser
@@ -407,8 +413,11 @@ def kwargs_from_parsed_args(args):
 
 if __name__ == '__main__':
     parser = create_parser()
-    # parser.print_help()
+    parser.print_help()
     args = parser.parse_args()
+    supplier_df = pd.read_csv(
+        os.path.join(settings.BASE_DIR, "data", "contracts_finder", "processing", 'openopps_supplier_matches.csv'),
+        index_col='legal_name')
 
     try:
         run(**kwargs_from_parsed_args(args))
