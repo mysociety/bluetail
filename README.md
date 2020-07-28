@@ -177,10 +177,25 @@ or without prompt (username: admin, password: admin)
 
     echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('admin', 'admin@myproject.com', 'admin')" | python manage.py shell
 
+### Updating the OCDS data
+
+There is a script to update the OCDS JSON data:
+
+- bluetail/data/contracts_finder/processing/scripts/cf_notices_ocds_api.py
+
+    This has options to overwrite the existing example files by OCID, or to search notices between dates from the Contracts Finder API.
+    
+    Further arguments can be added to create datasets where all entities have a matching BODS document, Companies House ID, or leaving all distinct entities in.
+    
+    Note existing data uses fully BODS matched suppliers.
+    
+    As tenderer information is not given in the tender phase, this uses successful suppliers in award documents and uses them to replicate tenderers in the competitive phase.
+    
+
 ### Updating the BODS data
 
 There are Django management commands included for looking up BODS data from the Open Ownership register
-
+ 
 - bluetail/management/commands/create_openownership_elasticsearch_index.py
 
     This is a script to build an Elasticsearch index for querying the Open Ownership register.
