@@ -76,6 +76,8 @@ class Command(BaseCommand):
                     for external_person in external_people:
                         fa, created = FlagAttachment.objects.get_or_create(
                             identifier_schemeName=external_person.scheme,
+                            ocid=None,
+                            identifier_scheme=None,
                             identifier_id=external_person.identifier,
                             flag_name=external_person.flag
                         )
