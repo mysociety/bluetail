@@ -4,6 +4,7 @@ import os
 from copy import deepcopy
 
 from django.core.files.base import ContentFile
+from django.conf import settings
 from django.db.models import Q
 from cove.input.models import SuppliedData
 from ocdskit.combine import merge
@@ -154,11 +155,11 @@ class BodsHelperFunctions():
         for s in ownership_statments:
             entity_statements = BODSEntityStatement.objects.filter(statement_id=s.subject_entity_statement)
             for e in entity_statements:
-                ch_ids = [id for id in e.identifiers_json if id.get('scheme') == 'GB-COH']
+                ch_ids = [id for id in e.identifiers_json if id.get('scheme') == settings.COMPANY_ID_SCHEME]
                 if ch_ids:
                     ch_id = str(ch_ids[0]["id"]).upper()
                     owned_company_numbers.append(ch_id)
-                    parties_with_ch_id = OCDSTenderer.objects.filter(party_identifier_scheme='GB-COH', party_identifier_id=ch_id)
+                    parties_with_ch_id = OCDSTenderer.objects.filter(party_identifier_scheme=settings.COMPANY_ID_SCHEME, party_identifier_id=ch_id)
                     for party in parties_with_ch_id:
                         ocids.append(party.ocid)
 

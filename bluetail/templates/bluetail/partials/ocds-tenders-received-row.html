@@ -1,0 +1,21 @@
+<div class="application-summary">
+    <a href="{% url 'ocds-tenderer' tenderer.ocid tenderer.party_id %}?{{ request.GET.urlencode }}">
+        {{ name }}
+    </a>
+    {% if tenderer.object.party_identifier_scheme %}
+        <div class="ml-3">
+            [{{ tenderer.object.party_identifier_scheme }}]
+            {{ tenderer.object.party_identifier_id }}
+        </div>
+    {% endif %}
+    <div class="ml-3">
+        {% if errors %}
+            {% include "bluetail/partials/application-errors-badge.html" with n=errors %}
+        {% endif %}
+    </div>
+    <div class="ml-3">
+        {% if warnings %}
+            {% include "bluetail/partials/application-warnings-badge.html" with n=warnings %}
+        {% endif %}
+    </div>
+</div>

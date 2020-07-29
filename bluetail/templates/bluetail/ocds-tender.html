@@ -1,0 +1,62 @@
+{% extends "bluetail_and_silvereye_shared/base.html" %}
+
+{% block title %}{{ object.title }}{% endblock %}
+
+{% block content %}
+<div class="container-md">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-4">
+            <li class="breadcrumb-item"><a href="{% url 'ocds-list' %}?{{ request.GET.urlencode }}">Tenders</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ object.title|truncatewords:3 }}</li>
+        </ol>
+    </nav>
+
+    <h1 class="mt-4">{{ object.title }}</h1>
+{#    <p>Procurement notice <code>{{ object.ocid }}</code></p>>#}
+    <dl class="row mt-4" style="max-width: 32em">
+        <dt class="col-sm-5">Published by</dt>
+        <dd class="col-sm-7">{{ object.buyer }}</dd>
+        <dt class="col-sm-5">Published date</dt>
+        <dd class="col-sm-7">{{ object.release_date }}</dd>
+        <dt class="col-sm-5">Closing date</dt>
+        <dd class="col-sm-7">{{ object.tender_enddate }}</dd>
+        <dt class="col-sm-5">Contract start date</dt>
+        <dd class="col-sm-7">{{ object.tender_startdate }}</dd>
+        <dt class="col-sm-5">Value of contract</dt>
+        <dd class="col-sm-7">{{ object.value }} {{ object.currency }} </dd>
+    </dl>
+
+    <h2 class="mt-5">Tenders received</h2>
+
+    <div class="application-summaries">
+      {% for tenderer in tenderers %}
+        {% include "bluetail/partials/ocds-tenders-received-row.html" with tenderer=tenderer id=tenderer.party_id name=tenderer.party_name errors=tenderer.total_errors warnings=tenderer.total_warnings %}
+      {% endfor %}
+    </div>
+
+</div>
+
+{##}
+{#    <h3>OCID: {{ object.release_json.ocid }}</h3>#}
+{#    <p>{{ object }}</p>#}
+{#    <p><b>Object Type:</b> {{ object}}</p>#}
+{#    <p><b>Title:</b> {{ object.title }}</p>#}
+{#    <p><b>Description:</b> {{ object.description }}</p>#}
+{#    <h4>Parties</h4>#}
+{##}
+{#    {% for party in object.release_json.parties %}#}
+{#        <p>Party Name: {{ party.identifier.legalName }} ({{ party.identifier.id }})</p>#}
+{##}
+{#    {% endfor %}#}
+{#    <h3>Full JSON</h3>#}
+{##}
+{#    <p>#}
+{#        {% for key, value in object.release_json.items %}#}
+{#            <pre>{{ key }}: {{ value }}</pre>#}
+{##}
+{#        {% endfor %}#}
+{#    </p>#}
+
+{% endblock %}
+
