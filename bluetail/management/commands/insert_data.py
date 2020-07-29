@@ -139,6 +139,8 @@ class Command(BaseCommand):
                 f_path = os.path.join(root, f)
                 try:
                     upsert_helper.upsert_ocds_data(f_path, process_json=anonymise_ocds_function)
+                except KeyboardInterrupt:
+                    raise
                 except:
                     logger.exception("Failed to insert file %s", f_path)
 
@@ -153,6 +155,8 @@ class Command(BaseCommand):
                 f_path = os.path.join(root, f)
                 try:
                     upsert_helper.upsert_bods_data(f_path, process_json=anonymise_bods_function)
+                except KeyboardInterrupt:
+                    raise
                 except:
                     logger.exception("Failed to insert file %s", f_path)
 
