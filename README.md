@@ -226,9 +226,10 @@ NOTE: This depends on there being Companies House numbers linked to the OCDS sup
     script/manage get_contracts_finder_ocds_data --dataset=suppliermatch
     script/manage get_contracts_finder_ocds_data --dataset=bodsmatch
     
-To update just any existing files append `--update`
+To update just existing files append `--update`
 
     script/manage get_contracts_finder_ocds_data --dataset=raw --update
+    script/manage get_contracts_finder_ocds_data --dataset=suppliermatch --update
     
 To clear the existing data first append `--clear`
 

@@ -366,7 +366,7 @@ def run(**kwargs):
         os.makedirs(dataset_path)
 
     i = 0
-    for i, notice_ocds_json in enumerate(downloader.get_notices()):
+    for i, notice_ocds_json in enumerate(downloader.get_notices(datasetpth=downloader.dataset_dir)):
         try:
             uri = notice_ocds_json["uri"]
 
