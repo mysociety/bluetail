@@ -1,0 +1,424 @@
+[
+    {
+        "statementID": "openownership-register-261617165175720277",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ACACIA TRAINING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04080815"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04080815",
+                "uri": "https://opencorporates.com/companies/gb/04080815"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9491667e4ebf340a2136f",
+                "uri": "http://register.openownership.org/entities/59b9491667e4ebf340a2136f"
+            }
+        ],
+        "foundingDate": "2000-09-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Acacia House Trentham Business Quarter, Bellringer Road Trentham, Stoke-On-Trent, Staffordshire, ST4 8GB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6007854539078104131",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-12-21",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-261617165175720277"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-4825719670878637596"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-12-21",
+                "endDate": "2018-08-31"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-12-21",
+                "endDate": "2018-08-31"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2017-12-21",
+                "endDate": "2018-08-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7913111291199533469",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-08-31",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-261617165175720277"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1757786389015554931"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-08-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4766256355662757827",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-07",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-261617165175720277"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3097731176151082726"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-07",
+                "endDate": "2018-08-31"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-07",
+                "endDate": "2018-08-31"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-07",
+                "endDate": "2018-08-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-06T08:35:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-341305167928602734",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-261617165175720277"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-17024555603693671616"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-08-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5849766054416581642",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-261617165175720277"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15100677617242147258"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-08-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-06T08:35:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4825719670878637596",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DAYTRUM LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10398807"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10398807",
+                "uri": "https://opencorporates.com/companies/gb/10398807"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9441e67e4ebf3408a227b",
+                "uri": "http://register.openownership.org/entities/59b9441e67e4ebf3408a227b"
+            }
+        ],
+        "foundingDate": "2016-09-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "10 Leighton Lodge, 15 Branksome Wood Road, Bournemouth, BH2 6BX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1757786389015554931",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LARA GROUP PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10245668"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10245668",
+                "uri": "https://opencorporates.com/companies/gb/10245668"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10245668"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10245668"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab9aee99dfc3fae186697df",
+                "uri": "http://register.openownership.org/entities/5ab9aee99dfc3fae186697df"
+            }
+        ],
+        "foundingDate": "2016-06-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "2-8 London Road, Rocky Hill, Maidstone, Kent, ME16 8PZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3097731176151082726",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Victoria Anne Sylvester"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04080815/persons-with-significant-control/individual/CsB4ZnIDyvaR5Wl-vK6rcVGMGhs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba59de9dfc3fae18ea4b0e",
+                "uri": "http://register.openownership.org/entities/5aba59de9dfc3fae18ea4b0e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1979-02-01",
+        "addresses": [
+            {
+                "address": "Acacia House, Trentham Business Quarter Bellringer Road, Trentham, Stoke On Trent, Staffordshire, ST4 8GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17024555603693671616",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Anne Littleton"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04080815/persons-with-significant-control/individual/X5pJsWBZrxno1_N5qOVe9P1zN40"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9491667e4ebf340a21381",
+                "uri": "http://register.openownership.org/entities/59b9491667e4ebf340a21381"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-08-01",
+        "addresses": [
+            {
+                "address": "2 Clayalders Bank, Clayalders Bank, Eccleshall, Stafford, ST21 6QJ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15100677617242147258",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Victoria Sylvester"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04080815/persons-with-significant-control/individual/YOYFD2KH3PMH9SY-ux-Wh2slvCk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ca4e67e4ebf340c06ed3",
+                "uri": "http://register.openownership.org/entities/59b9ca4e67e4ebf340c06ed3"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1979-02-01",
+        "addresses": [
+            {
+                "address": "The Tannery, C/O Cloudaccountant, Kirkstall Road, Leeds, LS3 1HS",
+                "country": "GB"
+            }
+        ]
+    }
+]

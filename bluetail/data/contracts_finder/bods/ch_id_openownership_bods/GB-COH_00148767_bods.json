@@ -1,0 +1,130 @@
+[
+    {
+        "statementID": "openownership-register-913665175187559364",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "A L DALTON LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00148767"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00148767",
+                "uri": "https://opencorporates.com/companies/gb/00148767"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9278767e4ebf340066a70",
+                "uri": "http://register.openownership.org/entities/59b9278767e4ebf340066a70"
+            }
+        ],
+        "foundingDate": "1917-10-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Crossgate Dr., Queens Drive Indl. Estate, Nottingham, NG2 1LW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11866913490717079711",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-913665175187559364"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-15346806790015078215"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15346806790015078215",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "A L DALTON HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03744806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03744806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03744806"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03744806",
+                "uri": "https://opencorporates.com/companies/gb/03744806"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9278867e4ebf340066e1f",
+                "uri": "http://register.openownership.org/entities/59b9278867e4ebf340066e1f"
+            }
+        ],
+        "foundingDate": "1999-03-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "C/O A L Dalton Limited, Cross Gate Drive Queens Drive, Industrial Estate, Nottingham, NG2 1LW",
+                "country": "GB"
+            }
+        ]
+    }
+]

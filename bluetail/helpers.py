@@ -1,11 +1,16 @@
 import json
 import logging
 import os
+from copy import deepcopy
 
+from django.core.files.base import ContentFile
+from django.conf import settings
 from django.db.models import Q
+from cove.input.models import SuppliedData
+from ocdskit.combine import merge
 
 from bluetail import models
-from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON
+from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON, OCDSPackageDataJSON, OCDSRecordJSON, BODSStatementJSON, OCDSTenderer
 
 logger = logging.getLogger('django')
 
@@ -117,13 +122,16 @@ class BodsHelperFunctions():
         interested_persons = []
         interested_entities = []
 
+        # Get all BODS Entity statements with an identifier scheme/id that matches the tenderer
         entity_statments = BODSEntityStatement.objects.filter(identifiers_json__contains=[{'scheme': tenderer.party_identifier_scheme, 'id': tenderer.party_identifier_id}])
 
         if entity_statments:
             for entity_statment in entity_statments:
+                # For each entity, get the ownership statements where the entity is the subject of ownership
                 ownership_statements = BODSOwnershipStatement.objects.filter(subject_entity_statement=entity_statment.statement_id)
                 if ownership_statements:
                     for ownership_statement in ownership_statements:
+                        # For each ownership statement get the interested entity or person
                         interested_person_statement_id = ownership_statement.interested_person_statement_id
                         interested_entity_statement_id = ownership_statement.interested_entity_statement_id
                         if interested_person_statement_id:
@@ -140,6 +148,22 @@ class BodsHelperFunctions():
 
         return interested_parties
 
+    def get_related_tender_ocids_for_bods_person(self, person):
+        ocids = []
+        owned_company_numbers = []
+        ownership_statments = BODSOwnershipStatement.objects.filter(interested_person_statement_id=person.statement_id)
+        for s in ownership_statments:
+            entity_statements = BODSEntityStatement.objects.filter(statement_id=s.subject_entity_statement)
+            for e in entity_statements:
+                ch_ids = [id for id in e.identifiers_json if id.get('scheme') == settings.COMPANY_ID_SCHEME]
+                if ch_ids:
+                    ch_id = str(ch_ids[0]["id"]).upper()
+                    owned_company_numbers.append(ch_id)
+                    parties_with_ch_id = OCDSTenderer.objects.filter(party_identifier_scheme=settings.COMPANY_ID_SCHEME, party_identifier_id=ch_id)
+                    for party in parties_with_ch_id:
+                        ocids.append(party.ocid)
+
+        return ocids
 
 class ContextHelperFunctions():
 
@@ -193,41 +217,70 @@ class ContextHelperFunctions():
 
 
 class UpsertDataHelpers:
-
-    def upsert_ocds_data(self, ocds_json_path_or_string):
+    def upload_record_package(self, package_json, supplied_data=None):
         """
-        Takes a path to an OCDS Package or a stringn containing OCDS JSON data
-        Upserts all releases to the Bluetail database
+        Upload a record package
+            creates a SuppliedData object if not given
+            creates a OCDSPackageDataJSON object
+        """
+        if not supplied_data:
+            supplied_data = SuppliedData()
+            supplied_data.current_app = "bluetail"
+            supplied_data.save()
+
+        package_data = deepcopy(package_json)
+        records = package_data.pop("records")
+        package, created = OCDSPackageDataJSON.objects.update_or_create(
+            supplied_data=supplied_data,
+            package_data=package_data
+        )
+
+        for record in records:
+            ocid = record.get("ocid")
+            record_json, created = OCDSRecordJSON.objects.update_or_create(
+                ocid=ocid,
+                defaults={
+                    "record_json": record,
+                    "package_data": package,
+
+                }
+            )
+
+    def upsert_ocds_data(self, ocds_json_path_or_string, supplied_data=None, process_json=None):
+        """
+        Takes a path to an OCDS Package or a string containing OCDS JSON data
+        Upserts all data to the Bluetail database
         """
         if os.path.exists(ocds_json_path_or_string):
             ocds_json = json.load(open(ocds_json_path_or_string))
+            filename = os.path.split(ocds_json_path_or_string)[1]
         else:
             ocds_json = json.loads(ocds_json_path_or_string)
+            filename = "package.json"
 
-        ocds_releases = []
+        if process_json:
+            ocds_json = process_json(ocds_json)
+
+        if not supplied_data:
+            # Create SuppliedData entry
+            supplied_data = SuppliedData()
+            supplied_data.current_app = "bluetail"
+            supplied_data.original_file.save(filename, ContentFile(json.dumps(ocds_json)))
+            supplied_data.save()
 
         if ocds_json.get("records"):
             # We have a record package
-            for record in ocds_json["records"]:
-                compiledRelease = record["compiledRelease"]
-                ocds_releases.append(compiledRelease)
+            self.upload_record_package(ocds_json, supplied_data=supplied_data)
 
         if ocds_json.get("releases"):
             # We have a release package
-            for release in ocds_json["releases"]:
-                ocds_releases.append(release)
+            # First we use OCDSkit merge to create a record package
+            rp = merge([ocds_json], published_date=ocds_json.get("publishedDate"), return_package=True)
+            # Then upload the package
+            for r in rp:
+                self.upload_record_package(r, supplied_data=supplied_data)
 
-        for release_json in ocds_releases:
-            OCDSReleaseJSON.objects.update_or_create(
-                ocid=release_json.get("ocid"),
-                defaults={
-                    "release_id": release_json.get("id"),
-                    "release_json": release_json,
-                }
-
-            )
-
-    def upsert_bods_data(self, bods_json_path_or_string):
+    def upsert_bods_data(self, bods_json_path_or_string, process_json=None):
         """
         Takes a path to an BODS JSON or a string containing BODS JSON statement array
         Upserts all statements to the Bluetail database
@@ -238,10 +291,13 @@ class UpsertDataHelpers:
         else:
             bods_json = json.loads(bods_json_path_or_string)
 
+        if process_json:
+            bods_json = process_json(bods_json)
+
         for statement in bods_json:
             statement_id = statement.get("statementID")
             statement_type = statement.get("statementType")
-            logger.info("Inserting statement: %s %s", statement_id, statement_type)
+            logger.debug("Inserting statement: %s %s", statement_id, statement_type)
 
             models.BODSStatementJSON.objects.update_or_create(
                 statement_id=statement_id,

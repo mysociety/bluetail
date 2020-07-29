@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-480348402463233750",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ROY DYKE ELECTRICAL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03652010"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03652010",
+                "uri": "https://opencorporates.com/companies/gb/03652010"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9565867e4ebf340dd70f2",
+                "uri": "http://register.openownership.org/entities/59b9565867e4ebf340dd70f2"
+            }
+        ],
+        "foundingDate": "1998-10-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "44 Poole Crescent, Bilston, West Midlands, WV14 8SU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10181718268184925812",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-10-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-480348402463233750"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4565926666031789603"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-10-01"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-10-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13949915599019067232",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-10-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-480348402463233750"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11821647260325538757"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-10-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4565926666031789603",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Darren Dyke"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03652010/persons-with-significant-control/individual/Jo_2l62dj_OrExR7LXJx9t3-dlw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9565867e4ebf340dd7115",
+                "uri": "http://register.openownership.org/entities/59b9565867e4ebf340dd7115"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1969-02-01",
+        "addresses": [
+            {
+                "address": "44, Poole Crescent, Bilston, West Midlands, WV14 8SU"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11821647260325538757",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Roy Dyke"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03652010/persons-with-significant-control/individual/dSRKLKkafzFTR6WwILx_CYLsKzU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9565867e4ebf340dd7107",
+                "uri": "http://register.openownership.org/entities/59b9565867e4ebf340dd7107"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1937-02-01",
+        "addresses": [
+            {
+                "address": "44, Poole Crescent, Bilston, West Midlands, WV14 8SU",
+                "country": "GB"
+            }
+        ]
+    }
+]

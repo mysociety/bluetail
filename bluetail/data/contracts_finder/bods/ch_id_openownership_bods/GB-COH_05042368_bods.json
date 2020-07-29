@@ -1,0 +1,114 @@
+[
+    {
+        "statementID": "openownership-register-13598467569578830061",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HICKTON CONSULTANTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05042368"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05042368",
+                "uri": "https://opencorporates.com/companies/gb/05042368"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b986e567e4ebf340c82452",
+                "uri": "http://register.openownership.org/entities/59b986e567e4ebf340c82452"
+            }
+        ],
+        "foundingDate": "2004-02-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Amber Court, 51 Church Street, Elsecar, Barnsley, South Yorkshire, S74 8HT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11343186590520640156",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13598467569578830061"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-15571239508615462373"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-05-26T09:05:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15571239508615462373",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HICKTON HOLDINGS LTD.",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09158570"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09158570"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09158570",
+                "uri": "https://opencorporates.com/companies/gb/09158570"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09158570"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a0867e4ebf3405e0477",
+                "uri": "http://register.openownership.org/entities/59b93a0867e4ebf3405e0477"
+            }
+        ],
+        "foundingDate": "2014-08-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "51 Church Street, Elsecar, Barnsley, South Yorkshire, S74 8HT",
+                "country": "GB"
+            }
+        ]
+    }
+]

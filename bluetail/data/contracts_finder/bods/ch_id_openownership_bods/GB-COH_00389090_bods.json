@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-9931579910718406188",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BIC U.K. LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00389090"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00389090",
+                "uri": "https://opencorporates.com/companies/gb/00389090"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93dee67e4ebf3406fe578",
+                "uri": "http://register.openownership.org/entities/59b93dee67e4ebf3406fe578"
+            }
+        ],
+        "foundingDate": "1944-08-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Bic Uk Limited, Chaplin House Widewater Place, Moorhall Road Harefield, Middlesex, UB9 6NS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1697687406078126941",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9931579910718406188"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-4482435188075531239"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4482435188075531239",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SOCIETE BIC",
+        "incorporatedInJurisdiction": {
+            "name": "France",
+            "code": "FR"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00389090/persons-with-significant-control/corporate-entity/v11wgL61VOWzLALgVwgx-s7U9Jk"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/fr/552008443",
+                "uri": "https://opencorporates.com/companies/fr/552008443"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93df067e4ebf3406fe9be",
+                "uri": "http://register.openownership.org/entities/59b93df067e4ebf3406fe9be"
+            }
+        ],
+        "foundingDate": "1900-01-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "14 RUE JEANNE D ASNIERES, CLICHY, HAUTS-DE-SEINE, 92110",
+                "country": "FR"
+            }
+        ]
+    }
+]

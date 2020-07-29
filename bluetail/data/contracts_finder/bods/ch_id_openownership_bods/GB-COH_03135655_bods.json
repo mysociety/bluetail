@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-8728349895587894386",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HATS GROUP LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03135655"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03135655",
+                "uri": "https://opencorporates.com/companies/gb/03135655"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96f9867e4ebf3405712a0",
+                "uri": "http://register.openownership.org/entities/59b96f9867e4ebf3405712a0"
+            }
+        ],
+        "foundingDate": "1995-12-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "C/O Lsr Management Ltd Unit C2a Comet Studios, De Havilland Court, Amersham, Buckinghamshire, HP7 0PX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16424025467721338174",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8728349895587894386"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11446072509592777442"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-25T14:19:31Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6456422832167102060",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8728349895587894386"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12750223313520533996"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11446072509592777442",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Anthony Howard"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03135655/persons-with-significant-control/individual/_ahyHrTPIHxDzz5MGRddG1KW8zE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96f9967e4ebf34057152c",
+                "uri": "http://register.openownership.org/entities/59b96f9967e4ebf34057152c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1943-01-01",
+        "addresses": [
+            {
+                "address": "C/O Lsr Management Ltd, Unit C2a Comet Studios, De Havilland Court, Amersham, Buckinghamshire, HP7 0PX"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12750223313520533996",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Henry Bilinski"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03135655/persons-with-significant-control/individual/t_p868BdT3UQac8zbT-qtJf1aWU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96f9867e4ebf3405712b1",
+                "uri": "http://register.openownership.org/entities/59b96f9867e4ebf3405712b1"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-08-01",
+        "addresses": [
+            {
+                "address": "Unit C2a Comet Studios, De Havilland Court, Penn Street, Amersham, Buckinghamshire, HP7 0PX"
+            }
+        ]
+    }
+]

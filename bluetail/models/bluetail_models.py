@@ -49,3 +49,36 @@ class FlagAttachment(models.Model):
         app_label = 'bluetail'
         db_table = 'bluetail_flag_attachment'
         unique_together = (("ocid", "identifier_schemeName", "identifier_scheme", "identifier_id", "flag_name"),)
+
+
+class ExternalPerson(models.Model):
+    """
+    ExternalPerson stores information about an external person, along with the
+    flag name that they apply to.
+    """
+    scheme = models.CharField(max_length=1024)
+    name = models.CharField(max_length=1024)
+    identifier = models.CharField(max_length=1024)
+    date_of_birth = models.DateField(null=True)
+    flag = models.ForeignKey(Flag, on_delete=None)
+
+    def __str__(self):
+        return "%s (%s)" % (self.name, self.flag)
+
+    @classmethod
+    def match(cls, scheme, identifier):
+        """
+        Find person matches for a given scheme and identifier.
+
+        This method could potentially be expanded to search by other attributes
+        such as name or date of birth.
+        """
+        return cls.objects.filter(
+            scheme=scheme,
+            identifier=identifier
+        )
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['name', 'scheme', 'identifier', 'flag'], name='unique_person_flag')
+        ]

@@ -1,0 +1,16 @@
+{% extends "bluetail_and_silvereye_shared/base.html" %}
+
+{% block title %}Test view{% endblock %}
+
+{% block content %}
+    <h3>StatementID: {{ object.statement_id }}</h3>
+
+    <p>{{ object }}</p>
+    <h3>Full JSON</h3>
+    <p>
+        {% for key, value in object.statement_json.items %}
+            <pre>{{ key }}: {{ value }}</pre>
+
+        {% endfor %}
+    </p>
+{% endblock %}

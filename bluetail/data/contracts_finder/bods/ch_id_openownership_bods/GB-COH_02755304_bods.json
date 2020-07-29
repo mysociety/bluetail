@@ -1,0 +1,191 @@
+[
+    {
+        "statementID": "openownership-register-16431287243558640296",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "INFORMED SOLUTIONS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02755304"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02755304",
+                "uri": "https://opencorporates.com/companies/gb/02755304"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b945d067e4ebf340917152",
+                "uri": "http://register.openownership.org/entities/59b945d067e4ebf340917152"
+            }
+        ],
+        "foundingDate": "1992-10-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Old Bank, Old Market Place, Altrincham, Cheshire, WA14 4PA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3692851540263548251",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-12-27",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16431287243558640296"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-3901607536124656226"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-12-27"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-12-27"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2018-12-27"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9535306268377621065",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16431287243558640296"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13323706558369640258"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-12-27"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3901607536124656226",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THE INFORMED GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03465435"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03465435",
+                "uri": "https://opencorporates.com/companies/gb/03465435"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95e2b67e4ebf340023b9c",
+                "uri": "http://register.openownership.org/entities/59b95e2b67e4ebf340023b9c"
+            }
+        ],
+        "foundingDate": "1997-11-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Old Bank, Old Market Place, Altrincham, Cheshire, WA14 4PA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13323706558369640258",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Elizabeth Terese Vega"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02755304/persons-with-significant-control/individual/x_KspNcsSRtJYeE8xTUvao-lteY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b945d067e4ebf340917165",
+                "uri": "http://register.openownership.org/entities/59b945d067e4ebf340917165"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "Australia",
+                "code": "AU"
+            }
+        ],
+        "birthDate": "1960-02-01",
+        "addresses": [
+            {
+                "address": "Old Bank, Old Market Place, Altrincham, WA14 4PA"
+            }
+        ]
+    }
+]

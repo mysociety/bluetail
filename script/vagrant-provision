@@ -2,6 +2,20 @@
 
 sudo apt-get update
 
+#upgrade local python3 to python3.6
+cd /vagrant
+sudo apt-get install -y libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm
+sudo apt-get install -y libncurses5-dev  libncursesw5-dev xz-utils tk-dev libssl-dev
+
+sudo wget https://www.python.org/ftp/python/3.6.6/Python-3.6.6.tgz
+sudo tar xvf Python-3.6.6.tgz
+cd Python-3.6.6
+sudo ./configure --enable-optimizations --with-ssl=openssl
+sudo make -j8
+sudo make altinstall
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.6 1
+sudo rm /usr/bin/lsb_release
+
 cd /vagrant/bluetail
 
 #fix dpkg-preconfigure error

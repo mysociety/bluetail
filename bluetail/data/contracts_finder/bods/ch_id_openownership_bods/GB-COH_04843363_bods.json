@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-1377850647891543067",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "EXCELL (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04843363"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04843363",
+                "uri": "https://opencorporates.com/companies/gb/04843363"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ad8867e4ebf340529aea",
+                "uri": "http://register.openownership.org/entities/59b9ad8867e4ebf340529aea"
+            }
+        ],
+        "foundingDate": "2003-07-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 7 Ash Lane, Garforth, Leeds, LS25 2HG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13794982918061069057",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1377850647891543067"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-403405182531226129"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-403405182531226129",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Simon Peter Burton"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC348359/persons-with-significant-control/individual/JWvGZHGTgQ5CtOFU9AOjns8c6uo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a3667e4ebf3405ee961",
+                "uri": "http://register.openownership.org/entities/59b93a3667e4ebf3405ee961"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-04-01",
+        "addresses": [
+            {
+                "address": "Unit 7, Ash Lane, Garforth, Leeds, LS25 2HG"
+            }
+        ]
+    }
+]

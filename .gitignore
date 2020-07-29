@@ -8,7 +8,7 @@ bigenv/
 _output/
 _dependencies/
 media/
-static/
+/static/
 
 #################
 ## Eclipse
@@ -34,3 +34,4 @@ _env3/
 conf/config.py
 .env*
 !.env-template.env
+.idea

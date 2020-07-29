@@ -1,0 +1,533 @@
+[
+    {
+        "statementID": "openownership-register-2911145639923335698",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ARROW COUNTY SUPPLIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06355141"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06355141",
+                "uri": "https://opencorporates.com/companies/gb/06355141"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc59",
+                "uri": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc59"
+            }
+        ],
+        "foundingDate": "2007-08-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Arrow House, Longden Road, Shrewsbury, Shropshire, SY3 9AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17470742266041880548",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-08",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2911145639923335698"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-9984607908177655272"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-08"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-08"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-06-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10812867965555361236",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2911145639923335698"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10966010672598743742"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2016-06-08"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2016-06-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3075441245530967448",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2911145639923335698"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15435272793758474569"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06",
+                "endDate": "2016-06-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2917959917070503920",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2911145639923335698"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4510251741728670440"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06",
+                "endDate": "2016-06-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7657417015149254938",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2911145639923335698"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4819095680706446314"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2016-06-08"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2016-06-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14782615624642501189",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2911145639923335698"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10588681578789784355"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06",
+                "endDate": "2016-06-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12498212884110735006",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2911145639923335698"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12471413134902378240"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06",
+                "endDate": "2016-06-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9984607908177655272",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ARROW COUNTY HOLDINGS",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10158069"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10158069"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10158069",
+                "uri": "https://opencorporates.com/companies/gb/10158069"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b16cfce9dfc3fae185d98df",
+                "uri": "http://register.openownership.org/entities/5b16cfce9dfc3fae185d98df"
+            }
+        ],
+        "foundingDate": "2016-05-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Arrow House, Longden Road, Shrewsbury, Shropshire, SY3 9AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4510251741728670440",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sam Blackledge"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06355141/persons-with-significant-control/individual/GMaORMtPuEPbmi2zx10AK3blZ0k"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94b5467e4ebf340aafe86",
+                "uri": "http://register.openownership.org/entities/59b94b5467e4ebf340aafe86"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1986-02-01",
+        "addresses": [
+            {
+                "address": "Arrow House, Longden Road, Shrewsbury, Shropshire, SY3 9AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10966010672598743742",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Richard Allan Blackledge"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06355141/persons-with-significant-control/individual/1vy2PIYMCQ77qFCONFv9NTp-k-A"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc64",
+                "uri": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc64"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1955-05-01",
+        "addresses": [
+            {
+                "address": "Arrow House, Longden Road, Shrewsbury, Shropshire, SY3 9AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12471413134902378240",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Robert Blackledge"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06355141/persons-with-significant-control/individual/oiwp_59EPQLg6oj_7abyvbHP-68"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94b5467e4ebf340aafe7c",
+                "uri": "http://register.openownership.org/entities/59b94b5467e4ebf340aafe7c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1978-11-01",
+        "addresses": [
+            {
+                "address": "Arrow House, Longden Road, Shrewsbury, Shropshire, SY3 9AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4819095680706446314",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Rebecca Blackledge"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06355141/persons-with-significant-control/individual/dOlTgriypezqlwvjvVgyVKl0VM4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc76",
+                "uri": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc76"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-01-01",
+        "addresses": [
+            {
+                "address": "Arrow House, Longden Road, Shrewsbury, Shropshire, SY3 9AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15435272793758474569",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Edward John Blackledge"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06355141/persons-with-significant-control/individual/9dkmlsBexYd44_mbCMMP5b-UcFM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc6b",
+                "uri": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc6b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1982-12-01",
+        "addresses": [
+            {
+                "address": "Arrow House, Longden Road, Shrewsbury, Shropshire, SY3 9AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10588681578789784355",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Bruce Daniel Blackledge"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06355141/persons-with-significant-control/individual/lx1JsjPv7sC3A5XE81tATDn_v84"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc89",
+                "uri": "http://register.openownership.org/entities/59b94b5467e4ebf340aafc89"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1977-04-01",
+        "addresses": [
+            {
+                "address": "Arrow House, Longden Road, Shrewsbury, Shropshire, SY3 9AE",
+                "country": "GB"
+            }
+        ]
+    }
+]

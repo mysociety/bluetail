@@ -1,0 +1,90 @@
+[
+    {
+        "statementID": "openownership-register-2951824419475315461",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TRIAD GROUP PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02285049"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02285049"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02285049"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02285049"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02285049",
+                "uri": "https://opencorporates.com/companies/gb/02285049"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2285049"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2285049"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2285049"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2285049"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9305767e4ebf34030fffb",
+                "uri": "http://register.openownership.org/entities/59b9305767e4ebf34030fffb"
+            }
+        ],
+        "foundingDate": "1988-08-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Weyside Park, Catteshall Lane, Godalming, Surrey, GU7 1XE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14750830127380608087",
+        "statementType": "ownershipOrControlStatement",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2951824419475315461"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "unknown",
+                "description": "Unknown person(s)"
+            }
+        },
+        "interests": []
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "statementID": "openownership-register-1248588763722702289",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LIFE FITNESS (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02747223"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02747223"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02747223",
+                "uri": "https://opencorporates.com/companies/gb/02747223"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2747223"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93f3067e4ebf34075c2e4",
+                "uri": "http://register.openownership.org/entities/59b93f3067e4ebf34075c2e4"
+            }
+        ],
+        "foundingDate": "1992-09-14",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Queen Adelaide, Ely, Cambridgeshire, CB7 4UB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13449409265519328708",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1248588763722702289"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-5270310720287011158"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-06-27"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-06-27"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2019-06-27"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-25T09:59:00Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5270310720287011158",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Brunswick Corporation",
+        "incorporatedInJurisdiction": {
+            "name": "United States of America",
+            "code": "US"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02747223/persons-with-significant-control/corporate-entity/Kme0KIs-HI17UhE_LFDar-pHcd4"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/us_nh/581603",
+                "uri": "https://opencorporates.com/companies/us_nh/581603"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04176183/persons-with-significant-control/corporate-entity/n5HkGZqi85mwRQKyjkdS8Gr_YF8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93f3167e4ebf34075c511",
+                "uri": "http://register.openownership.org/entities/59b93f3167e4ebf34075c511"
+            }
+        ],
+        "foundingDate": "2007-07-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1, North Field Court, Lake Forest Il 60045-4811",
+                "country": "US"
+            }
+        ]
+    }
+]

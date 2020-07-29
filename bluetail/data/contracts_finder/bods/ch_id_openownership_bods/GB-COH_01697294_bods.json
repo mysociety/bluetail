@@ -1,0 +1,114 @@
+[
+    {
+        "statementID": "openownership-register-13579114086572655447",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CERTES COMPUTING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01697294"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01697294",
+                "uri": "https://opencorporates.com/companies/gb/01697294"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b91fa167e4ebf340e6d190",
+                "uri": "http://register.openownership.org/entities/59b91fa167e4ebf340e6d190"
+            }
+        ],
+        "foundingDate": "1983-02-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3 The Courtyard, Roman Way, Coleshill, Warwickshire, B46 1HQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2695993518317386179",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13579114086572655447"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-10744895943056701195"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10744895943056701195",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CERTES HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04656113"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04656113"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04656113"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04656113",
+                "uri": "https://opencorporates.com/companies/gb/04656113"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b91fa267e4ebf340e6d379",
+                "uri": "http://register.openownership.org/entities/59b91fa267e4ebf340e6d379"
+            }
+        ],
+        "foundingDate": "2003-02-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3 The Courtyard, Roman Way, Coleshill, Warwickshire, B46 1HQ",
+                "country": "GB"
+            }
+        ]
+    }
+]

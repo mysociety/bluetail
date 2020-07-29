@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-148626891693472263",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MAGENTA (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03640170"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03640170",
+                "uri": "https://opencorporates.com/companies/gb/03640170"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9473067e4ebf34098495d",
+                "uri": "http://register.openownership.org/entities/59b9473067e4ebf34098495d"
+            }
+        ],
+        "foundingDate": "1998-09-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Midland Court, Birkdale Close, Manners Industrial Estate, Ilkeston, Derbyshire, DE7 8YA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8723971563881646529",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-148626891693472263"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14067034796106603767"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7731830898254592815",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-148626891693472263"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16198955870521611158"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14067034796106603767",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Kim Lloyd"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03640170/persons-with-significant-control/individual/3KmJxe4OcQl-X0DAgChfzErmHbg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9473067e4ebf340984992",
+                "uri": "http://register.openownership.org/entities/59b9473067e4ebf340984992"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-05-01",
+        "addresses": [
+            {
+                "address": "Midland Court, Birkdale Close, Manners Industrial Estate, Ilkeston, Derbyshire, DE7 8YA"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16198955870521611158",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Stephen Woodhouse Lloyd"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03640170/persons-with-significant-control/individual/orRvmxfeaAIBrrjVuK7pzhv7JS0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9473067e4ebf340984970",
+                "uri": "http://register.openownership.org/entities/59b9473067e4ebf340984970"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-10-01",
+        "addresses": [
+            {
+                "address": "Midland Court, Birkdale Close, Manners Industrial Estate, Ilkeston, Derbyshire, DE7 8YA"
+            }
+        ]
+    }
+]

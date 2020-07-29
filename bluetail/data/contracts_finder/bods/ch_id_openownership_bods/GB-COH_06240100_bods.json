@@ -1,0 +1,289 @@
+[
+    {
+        "statementID": "openownership-register-11156038356718994611",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AMETHYST RISK MANAGEMENT LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06240100"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06240100",
+                "uri": "https://opencorporates.com/companies/gb/06240100"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d05d67e4ebf340d727c5",
+                "uri": "http://register.openownership.org/entities/59b9d05d67e4ebf340d727c5"
+            }
+        ],
+        "foundingDate": "2007-05-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3 Manor Courtyard, Hughenden Avenue, High Wycombe, Buckinghamshire, HP13 5RE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-524886211976082223",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-09",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11156038356718994611"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2083885183957683729"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-09",
+                "endDate": "2018-12-05"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-09",
+                "endDate": "2018-12-05"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-05-09",
+                "endDate": "2018-12-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-11-06T11:44:23Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10750719280830317778",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-09",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11156038356718994611"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16197973710322916454"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-09"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-09"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-05-09"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3149623041184307791",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-09",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11156038356718994611"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11937398892717242165"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-09"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-09"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-05-09"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2083885183957683729",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Stephen James Mash"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06240100/persons-with-significant-control/individual/4sahGNi55Y0WgmGDJJETRdq_mdE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d05d67e4ebf340d727cb",
+                "uri": "http://register.openownership.org/entities/59b9d05d67e4ebf340d727cb"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-06-01",
+        "addresses": [
+            {
+                "address": "Woodstream, 10 Ifoldhurst, Ifold, Loxwood, Billingshurst, West Sussex, RH14 0TX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16197973710322916454",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Judith Mary Jones"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06240100/persons-with-significant-control/individual/MUM7laLI7Vg6UUpJmiP8vJGLN0U"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d05d67e4ebf340d727d3",
+                "uri": "http://register.openownership.org/entities/59b9d05d67e4ebf340d727d3"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-10-01",
+        "addresses": [
+            {
+                "address": "Blakes Mead, Fencott, Kidlington, Oxfordshire, OX5 2RD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11937398892717242165",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Stephen Gerard Howe"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06240100/persons-with-significant-control/individual/ZkiLDTa_Amc-FbxIiONwA2CrdDo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d05d67e4ebf340d727dc",
+                "uri": "http://register.openownership.org/entities/59b9d05d67e4ebf340d727dc"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-10-01",
+        "addresses": [
+            {
+                "address": "Little Beeches, 1 Lodge Drive, Weyhill, Hampshire, SP11 0QJ",
+                "country": "GB"
+            }
+        ]
+    }
+]
