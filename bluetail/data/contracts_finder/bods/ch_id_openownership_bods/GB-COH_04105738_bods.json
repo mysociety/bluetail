@@ -1,0 +1,268 @@
+[
+    {
+        "statementID": "openownership-register-11891166508864993988",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04105738"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04105738",
+                "uri": "https://opencorporates.com/companies/gb/04105738"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95ed867e4ebf34005554c",
+                "uri": "http://register.openownership.org/entities/59b95ed867e4ebf34005554c"
+            }
+        ],
+        "foundingDate": "2000-11-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "7 Cumbie Way, Aycliffe Industrial Park, Newton Aycliffe, County Durham, DL5 6YA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16900219045026525676",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11891166508864993988"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7473730571534030563"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15749914077635671592",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11891166508864993988"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9494875458554860255"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5708555820241414756",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11891166508864993988"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1922020611760026943"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7473730571534030563",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Walter Scott Kelso Mcquilkin"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04105738/persons-with-significant-control/individual/-9qN3dL3QVYHqcORKZ_VquRSOvQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95ed867e4ebf340055558",
+                "uri": "http://register.openownership.org/entities/59b95ed867e4ebf340055558"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1974-12-01",
+        "addresses": [
+            {
+                "address": "7 Cumbie Way, Aycliffe Industrial Park, Newton Aycliffe, County Durham, DL5 6YA"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9494875458554860255",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Lindsay Reid Mcquilkin"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04105738/persons-with-significant-control/individual/KAutUgDJRqbzRh8wvD4RzoxoIeQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95ed867e4ebf3400555a3",
+                "uri": "http://register.openownership.org/entities/59b95ed867e4ebf3400555a3"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1947-12-01",
+        "addresses": [
+            {
+                "address": "7 Cumbie Way, Aycliffe Industrial Park, Newton Aycliffe, County Durham, DL5 6YA"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1922020611760026943",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Walter Gordon Campbell Mcquilkin"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04105738/persons-with-significant-control/individual/UMqSIUE-tsLOreTql2mh05W7tS0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95ed867e4ebf3400555c5",
+                "uri": "http://register.openownership.org/entities/59b95ed867e4ebf3400555c5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1945-12-01",
+        "addresses": [
+            {
+                "address": "7 Cumbie Way, Aycliffe Industrial Park, Newton Aycliffe, County Durham, DL5 6YA"
+            }
+        ]
+    }
+]

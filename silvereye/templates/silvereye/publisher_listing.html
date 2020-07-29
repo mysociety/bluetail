@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block title %}Publishers{% endblock %}
+
+{% block content %}
+<div class="container-md">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-4">
+            <li class="breadcrumb-item"><a href="{% url 'example-tenders' %}">Publisher Hub</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Publishers</li>
+        </ol>
+    </nav>
+
+    <h1 class="mt-4 mb-4">Publishers</h1>
+  <div class="row">
+    <div class="col-sm-12 col-md-3 pr-md-4">
+      <form>
+      <h3 class="h6">Filter by</h3>
+      <a href="#"><small>Clear all</small></a>
+      <fieldset class="mt-4">
+      <legend class="h6">Authority type</legend>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">London boroughs</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+        <label class="form-check-label" for="exampleCheck2">Metropolitan district</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck3">
+        <label class="form-check-label" for="exampleCheck3">Unitary</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck4">
+        <label class="form-check-label" for="exampleCheck4">County</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck5">
+        <label class="form-check-label" for="exampleCheck5">District or Borough</label>
+      </div>
+    </fieldset>
+    <fieldset class="mt-4">
+      <legend class="h6">Region</legend>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck6">
+        <label class="form-check-label" for="exampleCheck6">Scotland</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck7">
+        <label class="form-check-label" for="exampleCheck7">Northern Ireland</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck8">
+        <label class="form-check-label" for="exampleCheck8">Wales</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck9">
+        <label class="form-check-label" for="exampleCheck9">North West</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck01">
+        <label class="form-check-label" for="exampleCheck10">East of England</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck11">
+        <label class="form-check-label" for="exampleCheck11">West Midlands</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck12">
+        <label class="form-check-label" for="exampleCheck12">South East</label>
+      </div>
+      <div class="form-check mt-2">
+        <input type="checkbox" class="form-check-input" id="exampleCheck13">
+        <label class="form-check-label" for="exampleCheck13">Greater London</label>
+      </div>
+    </fieldset>
+    </form>
+    </div>
+    <div class="col-sm-12 col-md-9">
+      <div class="listing-table table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">
+                <svg class="mr-1" fill="none" height="10" viewBox="0 0 13 10" width="13" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m3.29623 7.09376 6.17127-6.17126 2.7512 2.75119-6.17128 6.17126z"/><path d="m6.0619 9.73558-6.0619-6.06191 2.75119-2.751185 6.0619 6.061905z"/></g></svg>
+                Last submission</th>
+            </tr>
+          </thead>
+          <colgroup>
+            <col style="width:75%">
+            <col style="width:25%">
+          </colgroup>  
+          <tbody>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-good"><svg alt="File is up to date" class="mr-2" fill="none" height="13" viewBox="0 0 13 13" width="13" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m0 7.46751 2.75119-2.75119 5.10935 5.10936-2.75119 2.75122z"/><path d="m2.35816 9.82568 7.46752-7.46752 2.75122 2.75119-7.46755 7.46755z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-good"><svg alt="File is up to date" class="mr-2" fill="none" height="13" viewBox="0 0 13 13" width="13" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m0 7.46751 2.75119-2.75119 5.10935 5.10936-2.75119 2.75122z"/><path d="m2.35816 9.82568 7.46752-7.46752 2.75122 2.75119-7.46755 7.46755z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-good"><svg alt="File is up to date" class="mr-2" fill="none" height="13" viewBox="0 0 13 13" width="13" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m0 7.46751 2.75119-2.75119 5.10935 5.10936-2.75119 2.75122z"/><path d="m2.35816 9.82568 7.46752-7.46752 2.75122 2.75119-7.46755 7.46755z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-acceptable"> <svg alt="A new file is expected soon" class="mr-2" fill="none" height="5" viewBox="0 0 10 5" width="10" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h10v5h-10z" fill="#c4c4c4"/></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-acceptable"> <svg alt="A new file is expected soon" class="mr-2" fill="none" height="5" viewBox="0 0 10 5" width="10" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h10v5h-10z" fill="#c4c4c4"/></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-bad"><svg alt="File is late" class="mr-2" fill="none" height="11" viewBox="0 0 11 11" width="11" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m.00001497 7.46751 7.46751503-7.46751 2.75117 2.75119-7.4675 7.46751z"/><path d="m7.46751 10.2187-7.46751-7.46751 2.75119-2.75118925 7.46751 7.46750925z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-bad"><svg alt="File is late" class="mr-2" fill="none" height="11" viewBox="0 0 11 11" width="11" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m.00001497 7.46751 7.46751503-7.46751 2.75117 2.75119-7.4675 7.46751z"/><path d="m7.46751 10.2187-7.46751-7.46751 2.75119-2.75118925 7.46751 7.46750925z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-bad"><svg alt="File is late" class="mr-2" fill="none" height="11" viewBox="0 0 11 11" width="11" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m.00001497 7.46751 7.46751503-7.46751 2.75117 2.75119-7.4675 7.46751z"/><path d="m7.46751 10.2187-7.46751-7.46751 2.75119-2.75118925 7.46751 7.46750925z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-bad"><svg alt="File is late" class="mr-2" fill="none" height="11" viewBox="0 0 11 11" width="11" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m.00001497 7.46751 7.46751503-7.46751 2.75117 2.75119-7.4675 7.46751z"/><path d="m7.46751 10.2187-7.46751-7.46751 2.75119-2.75118925 7.46751 7.46750925z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-bad"><svg alt="File is late" class="mr-2" fill="none" height="11" viewBox="0 0 11 11" width="11" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m.00001497 7.46751 7.46751503-7.46751 2.75117 2.75119-7.4675 7.46751z"/><path d="m7.46751 10.2187-7.46751-7.46751 2.75119-2.75118925 7.46751 7.46750925z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-bad"><svg alt="File is late" class="mr-2" fill="none" height="11" viewBox="0 0 11 11" width="11" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m.00001497 7.46751 7.46751503-7.46751 2.75117 2.75119-7.4675 7.46751z"/><path d="m7.46751 10.2187-7.46751-7.46751 2.75119-2.75118925 7.46751 7.46750925z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+            <tr>
+              <td>Borsetshire Council</td>
+              <td><span class="display-bad"><svg alt="File is late" class="mr-2" fill="none" height="11" viewBox="0 0 11 11" width="11" xmlns="http://www.w3.org/2000/svg"><g fill="#c4c4c4"><path d="m.00001497 7.46751 7.46751503-7.46751 2.75117 2.75119-7.4675 7.46751z"/><path d="m7.46751 10.2187-7.46751-7.46751 2.75119-2.75118925 7.46751 7.46750925z"/></g></svg> 12/04/2019</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+   
+</div>
+{% endblock %}

@@ -1,0 +1,191 @@
+[
+    {
+        "statementID": "openownership-register-15935398674547340362",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "RIVERSIDE ENVIRONMENTAL SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04620034"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04620034",
+                "uri": "https://opencorporates.com/companies/gb/04620034"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4fdcf67e4ebf34057083f",
+                "uri": "http://register.openownership.org/entities/59c4fdcf67e4ebf34057083f"
+            }
+        ],
+        "foundingDate": "2002-12-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 12 Whiffens Farm, Clement Street, Hextable, Kent, BR8 7PQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11484732645395400083",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-26",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15935398674547340362"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11409779061434878676"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-26"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-26"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9366885943939468198",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-26",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15935398674547340362"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-5049407589614147536"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-07-26"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-07-26"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11409779061434878676",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Christopher Paul Hansen"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04620034/persons-with-significant-control/individual/Y-rYLjfZxuV--_ooszfvWGC0ECE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba50dc9dfc3fae18e46300",
+                "uri": "http://register.openownership.org/entities/5aba50dc9dfc3fae18e46300"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1980-02-01",
+        "addresses": [
+            {
+                "address": "Unit 12 Whiffens Farm, Clement Street, Hextable, Kent, BR8 7PQ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5049407589614147536",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Jonathan James Francis"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04620034/persons-with-significant-control/individual/nHjdefI-fTVmK2lbgx8dC0KaYZ4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba50dc9dfc3fae18e463b5",
+                "uri": "http://register.openownership.org/entities/5aba50dc9dfc3fae18e463b5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1973-02-01",
+        "addresses": [
+            {
+                "address": "Unit 12 Whiffens Farm, Clement Street, Hextable, Kent, BR8 7PQ"
+            }
+        ]
+    }
+]

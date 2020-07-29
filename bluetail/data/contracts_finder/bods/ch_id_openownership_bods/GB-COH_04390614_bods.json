@@ -1,0 +1,201 @@
+[
+    {
+        "statementID": "openownership-register-12927479351907903435",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VENTBROOK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04390614"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04390614",
+                "uri": "https://opencorporates.com/companies/gb/04390614"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a5bf67e4ebf3403658b4",
+                "uri": "http://register.openownership.org/entities/59b9a5bf67e4ebf3403658b4"
+            }
+        ],
+        "foundingDate": "2002-03-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Duxbury's Centre Chain House Lane, Whitestake, Preston, Lancashire, PR4 4LB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-625937263211976666",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12927479351907903435"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16770456494155795129"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17630647920581347408",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12927479351907903435"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10418609687080538315"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16770456494155795129",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Garry Robert Tetlow"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04390614/persons-with-significant-control/individual/NGNK7lD4c48EdU4I40BU3bykeQw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a5bf67e4ebf3403658c3",
+                "uri": "http://register.openownership.org/entities/59b9a5bf67e4ebf3403658c3"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1962-09-01",
+        "addresses": [
+            {
+                "address": "Duxbury's Centre, Chain House Lane, Whitestake, Preston, Lancashire, PR4 4LB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10418609687080538315",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Nigel Peter Smith"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04390614/persons-with-significant-control/individual/wX0N59jU2DovxK2H8H-RNXh5Jxo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a5bf67e4ebf3403659af",
+                "uri": "http://register.openownership.org/entities/59b9a5bf67e4ebf3403659af"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-08-01",
+        "addresses": [
+            {
+                "address": "Duxbury's Centre, Chain House Lane, Whitestake, Preston, Lancashire, PR4 4LB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,312 @@
+[
+    {
+        "statementID": "openownership-register-14546057888549667340",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SOFTWIRE TECHNOLOGY LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03824658"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03824658",
+                "uri": "https://opencorporates.com/companies/gb/03824658"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9349e67e4ebf34044c7e4",
+                "uri": "http://register.openownership.org/entities/59b9349e67e4ebf34044c7e4"
+            }
+        ],
+        "foundingDate": "1999-08-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1st Floor Gallery Court, 28 Arcadia Avenue, London, N3 2FG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3289708205806314083",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-13",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14546057888549667340"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11469338733416615741"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-13",
+                "endDate": "2020-03-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1740349185052689798",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-13",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14546057888549667340"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4932215436806599044"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-13",
+                "endDate": "2020-03-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11037046024553032827",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-13",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14546057888549667340"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6519047071106941077"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-13",
+                "endDate": "2020-03-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12426402697589389422",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2020-03-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14546057888549667340"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-14658368649823620935"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2020-03-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11469338733416615741",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Peter Kenny"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03824658/persons-with-significant-control/individual/-QL3ZSwFJm4qqpWKEl_YqtLt3PI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9349e67e4ebf34044c810",
+                "uri": "http://register.openownership.org/entities/59b9349e67e4ebf34044c810"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-10-01",
+        "addresses": [
+            {
+                "address": "Suite 325, Highgate Studios, 53-79 Highgate Road, London, NW5 1TL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4932215436806599044",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Daniel Max Shavick"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03824658/persons-with-significant-control/individual/Ld0-Ezzj-GsQ6XY6kG8WxeFa97w"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9349e67e4ebf34044c7fb",
+                "uri": "http://register.openownership.org/entities/59b9349e67e4ebf34044c7fb"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-07-01",
+        "addresses": [
+            {
+                "address": "Suite 325, Highgate Studios, 53-79 Highgate Road, London, NW5 1TL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6519047071106941077",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Philip Alexander Marsden"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03824658/persons-with-significant-control/individual/NG5YTP-_DnKKMUzIfmrRIHKJtps"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9349e67e4ebf34044c827",
+                "uri": "http://register.openownership.org/entities/59b9349e67e4ebf34044c827"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-07-01",
+        "addresses": [
+            {
+                "address": "Suite 325, Highgate Studios, 53-79 Highgate Road, London, NW5 1TL"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14658368649823620935",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WITHANI LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12430617"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/12430617",
+                "uri": "https://opencorporates.com/companies/gb/12430617"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12430617"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5e53c6d8ac0ca34dfc5834c8",
+                "uri": "http://register.openownership.org/entities/5e53c6d8ac0ca34dfc5834c8"
+            }
+        ],
+        "foundingDate": "2020-01-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "First Floor, Gallery Court, 28 Arcadia Avenue, London, N3 2FG",
+                "country": "GB"
+            }
+        ]
+    }
+]

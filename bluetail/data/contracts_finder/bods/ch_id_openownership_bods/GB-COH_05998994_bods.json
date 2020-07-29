@@ -1,0 +1,114 @@
+[
+    {
+        "statementID": "openownership-register-17504634888994121118",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FOAMS 4 SPORTS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05998994"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05998994",
+                "uri": "https://opencorporates.com/companies/gb/05998994"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b963ff67e4ebf3401e0083",
+                "uri": "http://register.openownership.org/entities/59b963ff67e4ebf3401e0083"
+            }
+        ],
+        "foundingDate": "2006-11-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Library Chambers, 48 Union Street, Hyde, Cheshire, SK14 1ND",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4141396541476289401",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17504634888994121118"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14095552824885115582"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14095552824885115582",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Burrows"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05998994/persons-with-significant-control/individual/zM8S3YaveWJB66le_GZHbutp07A"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b963ff67e4ebf3401e008e",
+                "uri": "http://register.openownership.org/entities/59b963ff67e4ebf3401e008e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1953-12-01",
+        "addresses": [
+            {
+                "address": "Unit 1 Grosvenor Business Centre, Grosvenor Street, Ashton-Under-Lyne, Lancashire, OL7 0RE"
+            }
+        ]
+    }
+]

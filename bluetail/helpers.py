@@ -4,12 +4,13 @@ import os
 from copy import deepcopy
 
 from django.core.files.base import ContentFile
+from django.conf import settings
 from django.db.models import Q
 from cove.input.models import SuppliedData
 from ocdskit.combine import merge
 
 from bluetail import models
-from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON, OCDSPackageDataJSON, OCDSRecordJSON
+from bluetail.models import FlagAttachment, Flag, BODSEntityStatement, BODSOwnershipStatement, BODSPersonStatement, OCDSReleaseJSON, OCDSPackageDataJSON, OCDSRecordJSON, BODSStatementJSON, OCDSTenderer
 
 logger = logging.getLogger('django')
 
@@ -121,13 +122,16 @@ class BodsHelperFunctions():
         interested_persons = []
         interested_entities = []
 
+        # Get all BODS Entity statements with an identifier scheme/id that matches the tenderer
         entity_statments = BODSEntityStatement.objects.filter(identifiers_json__contains=[{'scheme': tenderer.party_identifier_scheme, 'id': tenderer.party_identifier_id}])
 
         if entity_statments:
             for entity_statment in entity_statments:
+                # For each entity, get the ownership statements where the entity is the subject of ownership
                 ownership_statements = BODSOwnershipStatement.objects.filter(subject_entity_statement=entity_statment.statement_id)
                 if ownership_statements:
                     for ownership_statement in ownership_statements:
+                        # For each ownership statement get the interested entity or person
                         interested_person_statement_id = ownership_statement.interested_person_statement_id
                         interested_entity_statement_id = ownership_statement.interested_entity_statement_id
                         if interested_person_statement_id:
@@ -144,6 +148,22 @@ class BodsHelperFunctions():
 
         return interested_parties
 
+    def get_related_tender_ocids_for_bods_person(self, person):
+        ocids = []
+        owned_company_numbers = []
+        ownership_statments = BODSOwnershipStatement.objects.filter(interested_person_statement_id=person.statement_id)
+        for s in ownership_statments:
+            entity_statements = BODSEntityStatement.objects.filter(statement_id=s.subject_entity_statement)
+            for e in entity_statements:
+                ch_ids = [id for id in e.identifiers_json if id.get('scheme') == settings.COMPANY_ID_SCHEME]
+                if ch_ids:
+                    ch_id = str(ch_ids[0]["id"]).upper()
+                    owned_company_numbers.append(ch_id)
+                    parties_with_ch_id = OCDSTenderer.objects.filter(party_identifier_scheme=settings.COMPANY_ID_SCHEME, party_identifier_id=ch_id)
+                    for party in parties_with_ch_id:
+                        ocids.append(party.ocid)
+
+        return ocids
 
 class ContextHelperFunctions():
 

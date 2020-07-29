@@ -1,0 +1,213 @@
+{% extends "base.html" %}
+
+{% block title %}Example Publisher{% endblock %}
+
+{% block content %}
+<div class="container-md">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb my-4">
+            <li class="breadcrumb-item"><a href="#">Publishers</a></li>
+            <li class="breadcrumb-item"><a href="#">Local Authorities</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Borsetshire Council</li>
+        </ol>
+    </nav>
+
+    <h1 class="mt-4">Borsetshire Council</h1>
+    <hr class="mb-5" />
+    <div class="row">
+      <div class="col-sm-12 col-md-8" role="main">
+        <div class="row">
+          <div class="col">
+            <h3 class="h6 ">Key figures</h3>
+              <div class="dropdown figures-dropdown mb-2">
+              Show <a class="dropdown-toggle mb-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                count</a> 
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">percentages</a>
+                <a class="dropdown-item" href="#">change</a>
+              </div>
+            </div>
+            <div class="dropdown figures-dropdown mb-2">
+              Last <a class="dropdown-toggle mb-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                3 months</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">6 months</a>
+                <a class="dropdown-item" href="#">12 months</a>
+                <a class="dropdown-item" href="#">All time</a>
+              </div>
+            </div>
+           
+            <div class="dropdown figures-dropdown mb-2">
+              Compare to <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                last year</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">two years ago</a>
+                <a class="dropdown-item" href="#">preceeding period</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3 class="h6">Tenders</h3>
+            <div class="figure-box media">
+              <svg width="36" height="51" viewBox="0 0 36 51" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                <path d="M18 0L36 31.1044H0L18 0Z" fill="#C4C4C4"/>
+                <path d="M12.9443 17.9341H23.0557V51H12.9443V17.9341Z" fill="#C4C4C4"/>
+              </svg>
+              <div class="media-body">
+                <p class="figure-box__change figure-box--up mb-0">+21%</p>
+                <p class="figure-box__main-figure figure-box--up mb-0">12,372</p>
+                <p class="figure-box__compare-figure">10,231</p>
+             </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3 class="h6">Contract awards</h3>
+            <div class="figure-box media">
+              <svg width="36" height="51" viewBox="0 0 36 51" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                <path d="M18 51L36 19.8956H0L18 51Z" fill="#C4C4C4"/>
+                <path d="M12.9443 33.0659H23.0557V-3.8147e-06H12.9443V33.0659Z" fill="#C4C4C4"/>
+              </svg>
+              <div class="media-body">
+                <p class="figure-box__change figure-box--up mb-0">+21%</p>
+                <p class="figure-box__main-figure figure-box--up mb-0">12,372</p>
+                <p class="figure-box__compare-figure">10,231</p>
+             </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <h3 class="h6">Spend files</h3>
+            <div class="figure-box media">
+              <svg width="36" height="51" viewBox="0 0 36 51" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                <path d="M18 0L36 31.1044H0L18 0Z" fill="#C4C4C4"/>
+                <path d="M12.9443 17.9341H23.0557V51H12.9443V17.9341Z" fill="#C4C4C4"/>
+              </svg>
+              <div class="media-body">
+                <p class="figure-box__change figure-box--down mb-0">-21%</p>
+                <p class="figure-box__main-figure figure-box--down mb-0">12,372</p>
+                <p class="figure-box__compare-figure">10,231</p>
+             </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+        <div class="row">
+          <div class="col">
+            <h3 class="h6">Completed fields</h3>
+          </div>
+          <div class="col">
+            <h3 class="h6">Tenders</h3>
+            <div class="figure-box media">
+              <svg width="36" height="51" viewBox="0 0 36 51" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                <path d="M18 0L36 31.1044H0L18 0Z" fill="#C4C4C4"/>
+                <path d="M12.9443 17.9341H23.0557V51H12.9443V17.9341Z" fill="#C4C4C4"/>
+              </svg>
+              <div class="media-body">
+                <p class="figure-box__main-figure figure-box--up mb-0">14 avg</p>
+                <p class="figure-box__compare-figure">13 mean</p>
+             </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3 class="h6">Contract awards</h3>
+            <div class="figure-box media">
+              <svg width="36" height="51" viewBox="0 0 36 51" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                <path d="M18 51L36 19.8956H0L18 51Z" fill="#C4C4C4"/>
+                <path d="M12.9443 33.0659H23.0557V-3.8147e-06H12.9443V33.0659Z" fill="#C4C4C4"/>
+              </svg>
+              <div class="media-body">
+                <p class="figure-box__main-figure figure-box--up mb-0">8.9 avg</p>
+                <p class="figure-box__compare-figure">6.5 mean</p>
+             </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <h3 class="h6">Spend files</h3>
+            <div class="figure-box media">
+              <svg width="36" height="51" viewBox="0 0 36 51" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                <path d="M18 0L36 31.1044H0L18 0Z" fill="#C4C4C4"/>
+                <path d="M12.9443 17.9341H23.0557V51H12.9443V17.9341Z" fill="#C4C4C4"/>
+              </svg>
+              <div class="media-body">
+                <p class="figure-box__main-figure figure-box--down mb-0">6 avg</p>
+                <p class="figure-box__compare-figure">6.5 mean</p>
+             </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+          <h2 class="h6">Yesterday</h2>
+          <ol class="list-unstyled timeline">
+            <li>
+              <div class="timeline__entry">
+                Received a new <a href="#">spend file for April 2020</a>
+              </div>
+              <li>
+                <div class="timeline__entry">
+                  Received a new <a href="#">spend file for April 2020</a>
+                </div>
+              </li>
+              <li>
+                <div class="timeline__entry">
+                  Received a new <a href="#">spend file for April 2020</a>
+                </div>
+              </li>
+              <li>
+                <div class="timeline__entry">
+                  Received a new <a href="#">spend file for April 2020</a>
+                </div>
+              </li>
+            </li>
+          </ol>
+          <h2 class="h6">Monday</h2>
+          <ol class="list-unstyled timeline">
+            <li>
+              <div class="timeline__entry">
+                Received a new <a href="#">spend file for April 2020</a>
+              </div>
+              <li>
+                <div class="timeline__entry">
+                  Received a new <a href="#">spend file for April 2020</a>
+                </div>
+              </li>
+              <li>
+                <div class="timeline__entry">
+                  Received a new <a href="#">spend file for April 2020</a>
+                </div>
+              </li>
+              <li>
+                <div class="timeline__entry">
+                  Received a new <a href="#">spend file for April 2020</a>
+                </div>
+              </li>
+            </li>
+          </ol>
+        </div>
+  
+      <div class="col-sm-12 col-md-4 pl-md-4">
+        <div class="nav flex-column nav-pills mb-5" role="navigation">
+          <a class="nav-link active"  href="#" aria-selected="true">Home</a>
+          <a class="nav-link"  href="#" role="tab" aria-selected="false">Tenders</a>
+          <a class="nav-link" href="#" role="tab" aria-selected="false">Contract award notices</a>
+          <a class="nav-link" href="#" role="tab" aria-selected="false">Spend files</a>
+        </div>
+        <div class="contact-details mb-5">
+          <div class="row">
+            <div class="col-8"><h2 class="h5">Contact details</h2></div>
+            <div class="col text-right"><a href="#">Edit</a></div>
+          </div>
+          
+          <p class="mb-1">Charlotte Blankenship</p>
+          <p class="mb-1"><a href="mailto:"procurement@borsetshire.gov.uk">procurement@borsetshire.gov.uk</a></p>
+          <p class="mb-0"><a href="tel:08003432321">08003432321</a></p>
+        </div>
+        <div>
+          <button type="button" class="btn btn-secondary btn-block">Download data <small>– 1282 rows, 128kb</small></button>
+        </div>
+      </div>
+    </div>
+  
+</div>
+{% endblock %}

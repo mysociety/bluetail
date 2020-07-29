@@ -1,0 +1,191 @@
+[
+    {
+        "statementID": "openownership-register-15646196879096792930",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BDA SURVEYING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04912280"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04912280",
+                "uri": "https://opencorporates.com/companies/gb/04912280"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b961c867e4ebf34012d117",
+                "uri": "http://register.openownership.org/entities/59b961c867e4ebf34012d117"
+            }
+        ],
+        "foundingDate": "2003-09-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "167 London Road, Leicester, LE2 1EG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16572832263517458268",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-24",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15646196879096792930"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6064472126588641192"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-24"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-24"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7198155654859092236",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-24",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15646196879096792930"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7158907644789037019"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-24"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-24"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6064472126588641192",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Robert Spencer Hubbard"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04912280/persons-with-significant-control/individual/R_6Zt2CtKGQsX2ePz-GVhXmPa7s"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b961c867e4ebf34012d12f",
+                "uri": "http://register.openownership.org/entities/59b961c867e4ebf34012d12f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-03-01",
+        "addresses": [
+            {
+                "address": "17, Lord Close, Countesthorpe, Leicester, LE8 5AL"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7158907644789037019",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Anthony Regan"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04912280/persons-with-significant-control/individual/iYLtbaRMx0F38qq7TxwaF7ot6og"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b961c867e4ebf34012d12d",
+                "uri": "http://register.openownership.org/entities/59b961c867e4ebf34012d12d"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-01-01",
+        "addresses": [
+            {
+                "address": "16, Peveril Road, Ashby Magna, Lutterworth, LE17 5NQ"
+            }
+        ]
+    }
+]

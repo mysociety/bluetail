@@ -1,0 +1,117 @@
+[
+    {
+        "statementID": "openownership-register-1010045239113374447",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BFS GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00239718"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00239718"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00239718",
+                "uri": "https://opencorporates.com/companies/gb/00239718"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00239718"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00239718"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "239718"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9888b67e4ebf340ce2503",
+                "uri": "http://register.openownership.org/entities/59b9888b67e4ebf340ce2503"
+            }
+        ],
+        "foundingDate": "1929-05-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "814 Leigh Road, Slough, SL1 4BD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14200184000368288782",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1010045239113374447"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-3307183878368656085"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3307183878368656085",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Bid Corporation Limited",
+        "incorporatedInJurisdiction": {
+            "name": "South Africa",
+            "code": "ZA"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00239718/persons-with-significant-control/corporate-entity/vppip8S1pznzDrQm1LzBNQsI9CY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c9db67e4ebf340beca13",
+                "uri": "http://register.openownership.org/entities/59b9c9db67e4ebf340beca13"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Postnet Suite 136, Private Bag X9976, Sandton 2146",
+                "country": "ZA"
+            }
+        ]
+    }
+]

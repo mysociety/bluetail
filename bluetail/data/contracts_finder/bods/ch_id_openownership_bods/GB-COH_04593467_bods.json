@@ -1,0 +1,242 @@
+[
+    {
+        "statementID": "openownership-register-155479438227923455",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SYSTEM PEOPLE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04593467"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04593467",
+                "uri": "https://opencorporates.com/companies/gb/04593467"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b963d267e4ebf3401d17cb",
+                "uri": "http://register.openownership.org/entities/59b963d267e4ebf3401d17cb"
+            }
+        ],
+        "foundingDate": "2002-11-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "System People Limited, Carlisle Airport, Carlisle, CA6 4NW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13513550859785269956",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-155479438227923455"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10074447472073385819"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4407647207949525583",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-155479438227923455"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6778059389761715287"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1688425054717276452",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-155479438227923455"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3201730869675825845"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10074447472073385819",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Anthony Joseph Higgins"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04593467/persons-with-significant-control/individual/nAWUz5Bb5536cOAgx028CwYZYy4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b963d267e4ebf3401d17ec",
+                "uri": "http://register.openownership.org/entities/59b963d267e4ebf3401d17ec"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1962-03-01",
+        "addresses": [
+            {
+                "address": "System People Limited, Carlisle Airport, Carlisle, CA6 4NW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6778059389761715287",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Robert Brown"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04593467/persons-with-significant-control/individual/puTbmwoMgL7h40aHQW7P5e2wg1M"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b963d267e4ebf3401d1815",
+                "uri": "http://register.openownership.org/entities/59b963d267e4ebf3401d1815"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1958-10-01",
+        "addresses": [
+            {
+                "address": "System People Limited, Carlisle Airport, Carlisle, CA6 4NW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3201730869675825845",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Rebecca Elizabeth Bird"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04593467/persons-with-significant-control/individual/vSk7uHQRB2K60zCaEQy6yMrm4g0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b963d267e4ebf3401d17e2",
+                "uri": "http://register.openownership.org/entities/59b963d267e4ebf3401d17e2"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1974-07-01",
+        "addresses": [
+            {
+                "address": "System People Limited, Carlisle Airport, Carlisle, CA6 4NW",
+                "country": "GB"
+            }
+        ]
+    }
+]

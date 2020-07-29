@@ -1,0 +1,109 @@
+[
+    {
+        "statementID": "openownership-register-2245142846348332838",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TESSELLA LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01466429"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01466429",
+                "uri": "https://opencorporates.com/companies/gb/01466429"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4fceb67e4ebf3405546ba",
+                "uri": "http://register.openownership.org/entities/59c4fceb67e4ebf3405546ba"
+            }
+        ],
+        "foundingDate": "1979-12-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "26 The Quadrant Abingdon Science Park, Abingdon, Oxfordshire, OX14 3YS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10319921058127117937",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2245142846348332838"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-18246877956789967302"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-18246877956789967302",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TESSELLA HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08126402"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08126402"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08126402",
+                "uri": "https://opencorporates.com/companies/gb/08126402"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba63c29dfc3fae18f0bfe4",
+                "uri": "http://register.openownership.org/entities/5aba63c29dfc3fae18f0bfe4"
+            }
+        ],
+        "foundingDate": "2012-07-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "26 The Quadrant, Abingdon Science Park, Abingdon, Oxfordshire, OX14 3YS",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -92,7 +92,7 @@ class OCDSReleaseJSON(pgviews.View):
 
     class Meta:
         app_label = 'bluetail'
-        db_table = 'bluetail_ocds_release_json'
+        db_table = 'bluetail_ocds_release_json_view'
         managed = False
 
 
@@ -135,7 +135,7 @@ class OCDSTender(pgviews.View):
             cast(NULLIF(ocds.release_json -> 'tender' -> 'tenderPeriod' ->> 'endDate', '') AS TIMESTAMPTZ) AS tender_enddate,
             ocds.release_json -> 'buyer' ->> 'name' AS buyer,
             ocds.release_json -> 'buyer' ->> 'id' AS buyer_id
-        FROM bluetail_ocds_release_json ocds
+        FROM bluetail_ocds_release_json_view ocds
         """
 
     @property
@@ -156,7 +156,7 @@ class OCDSTender(pgviews.View):
         managed = False
 
 
-class OCDSParty(pgviews.View):
+class OCDSTenderer(pgviews.View):
     """
     View for extracting Party details from an OCDSReleaseJSON object
     Parties as from an OCDS version 1.1 release in
@@ -192,7 +192,7 @@ class OCDSParty(pgviews.View):
             party ->> 'name'                           party_name,
             party -> 'contactPoint' ->> 'name'      as contact_name
         FROM
-            bluetail_ocds_release_json ocds,
+            bluetail_ocds_release_json_view ocds,
             LATERAL jsonb_array_elements(ocds.release_json -> 'parties') party,
             LATERAL jsonb_array_elements_text(party -> 'roles') role
         WHERE role = 'tenderer'
@@ -200,5 +200,5 @@ class OCDSParty(pgviews.View):
 
     class Meta:
         app_label = 'bluetail'
-        db_table = 'bluetail_ocds_parties_view'
+        db_table = 'bluetail_ocds_tenderers_view'
         managed = False

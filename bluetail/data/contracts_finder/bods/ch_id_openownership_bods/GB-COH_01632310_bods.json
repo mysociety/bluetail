@@ -1,0 +1,208 @@
+[
+    {
+        "statementID": "openownership-register-14026716005954184660",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BAAS CONSTRUCTION LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01632310"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01632310"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01632310"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01632310",
+                "uri": "https://opencorporates.com/companies/gb/01632310"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01632310"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b930ac67e4ebf3403221d8",
+                "uri": "http://register.openownership.org/entities/59b930ac67e4ebf3403221d8"
+            }
+        ],
+        "foundingDate": "1982-04-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Old Chapel, Brooklands Road, Burnley, Lancashire, BB11 3PR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16446301668976206753",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14026716005954184660"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-666583064200153344"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-01-21"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-01-21"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12076767301307369359",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14026716005954184660"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13543108177523332670"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-06T08:35:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-666583064200153344",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Lindsey Leng"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01632310/persons-with-significant-control/individual/IOVKUfkbdfyu1SECV91UliJQ59g"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ae2167e4ebf34054bb50",
+                "uri": "http://register.openownership.org/entities/59b9ae2167e4ebf34054bb50"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1954-01-01",
+        "addresses": [
+            {
+                "address": "The Old Chapel, Brooklands Road, Burnley, Lancashire, BB11 3PR"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13543108177523332670",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Kevin O'Connell"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01632310/persons-with-significant-control/individual/JVmmwfXqKRnnrvYSIM9_fZUOWEU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ae2167e4ebf34054bb4e",
+                "uri": "http://register.openownership.org/entities/59b9ae2167e4ebf34054bb4e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1948-11-01",
+        "addresses": [
+            {
+                "address": "The Old Chapel, Brooklands Road, Burnley, Lancashire, BB11 3PR"
+            }
+        ]
+    }
+]

@@ -20,7 +20,10 @@ script/migrate
 
 # Insert example data.
 script/manage insert_prototype_data
-script/manage insert_contracts_finder_data --anonymise
+script/manage insert_data bluetail/data/contracts_finder --anonymise
+script/manage generate_fake_popolo > fake_popolo.json
+script/manage load_identifiers_from_popolo fake_popolo.json person_id_matches_cabinet_minister
+rm fake_popolo.json
 script/manage scan_contracts
 
 # Create superuser.

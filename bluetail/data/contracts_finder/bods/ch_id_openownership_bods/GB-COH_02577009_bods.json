@@ -1,0 +1,127 @@
+[
+    {
+        "statementID": "openownership-register-4147905127732208727",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02577009"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02577009",
+                "uri": "https://opencorporates.com/companies/gb/02577009"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97f8267e4ebf340a6b409",
+                "uri": "http://register.openownership.org/entities/59b97f8267e4ebf340a6b409"
+            }
+        ],
+        "foundingDate": "1991-01-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Orchard House, The Square, Hessle, East Yorkshire, HU13 0AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15861129050317204208",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-04",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4147905127732208727"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-831780451326102987"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-07-04"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-831780451326102987",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "3D SA",
+        "incorporatedInJurisdiction": {
+            "name": "France",
+            "code": "FR"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02679665/persons-with-significant-control/corporate-entity/3hIoE7e3C9I5lQ_Q4X9WbnJID_o"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/NI028064/persons-with-significant-control/corporate-entity/z1f1JDVcGY2dGn50H3Sgbc8XP94"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02577009/persons-with-significant-control/corporate-entity/IlnOY4yTNJSRUAkwK6g-I83vfMg"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03743859/persons-with-significant-control/corporate-entity/oZdDafbQTOj0x14TMv49d8ZtKdY"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03972955/persons-with-significant-control/corporate-entity/ahKyX99BlxT2ETjTxxJ7PRI7AJA"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/10209555/persons-with-significant-control/corporate-entity/7UsYDHD0LGCRZbiMl1CasQlPbmQ"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02734457/persons-with-significant-control/corporate-entity/RYmixf1TXZE60_rt9YHtAjlOqFg"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/fr/419088760",
+                "uri": "https://opencorporates.com/companies/fr/419088760"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9754267e4ebf340733a5d",
+                "uri": "http://register.openownership.org/entities/59b9754267e4ebf340733a5d"
+            }
+        ],
+        "foundingDate": "1998-06-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "30 RUE DE L INDUSTRIE, BRUMATH, BAS-RHIN, 67170",
+                "country": "FR"
+            }
+        ]
+    }
+]

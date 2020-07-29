@@ -1,0 +1,171 @@
+[
+    {
+        "statementID": "openownership-register-454628538616315782",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GM COACHWORK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03548808"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03548808",
+                "uri": "https://opencorporates.com/companies/gb/03548808"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b36167e4ebf340695e80",
+                "uri": "http://register.openownership.org/entities/59b9b36167e4ebf340695e80"
+            }
+        ],
+        "foundingDate": "1998-04-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Teign Valley, Trusham, Newton Abbot, Devon, TQ13 0NX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11189539519625940618",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-454628538616315782"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15964966772985140031"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8722282967303185223",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-454628538616315782"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12492315505989068444"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15964966772985140031",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Linda Glynns Vooght"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03548808/persons-with-significant-control/individual/kHcbuvGSmyjkZKo4RGJjurssqpk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b36167e4ebf340695e9b",
+                "uri": "http://register.openownership.org/entities/59b9b36167e4ebf340695e9b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-08-01",
+        "addresses": [
+            {
+                "address": "Teign Valley, Trusham, Newton Abbot, Devon, TQ13 0NX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12492315505989068444",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Arthur William Vooght"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03548808/persons-with-significant-control/individual/oE1xqjC1Mkmrk9gQDIeRwz0XN4A"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b36167e4ebf340695e8c",
+                "uri": "http://register.openownership.org/entities/59b9b36167e4ebf340695e8c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1955-01-01",
+        "addresses": [
+            {
+                "address": "Teign Valley, Trusham, Newton Abbot, Devon, TQ13 0NX",
+                "country": "GB"
+            }
+        ]
+    }
+]

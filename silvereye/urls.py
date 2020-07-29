@@ -8,4 +8,6 @@ urlpatterns = [
     path('', views.UploadResults.as_view(), name='publisher-hub'),
     path('publisher/', views.publisher, name='publisher_example'),
     path('publisher/<publisher_id>', views.publisher, name='publisher'),
+    path('publisher-home/', views.publisherHome, name='publisher-home'),
+    path('publisher-listing/', views.publisherListing, name='publisher-listing'),
 ]

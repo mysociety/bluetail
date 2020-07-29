@@ -17,3 +17,9 @@ def publisher(request, publisher_id='test'):
     context = {}
     context['metrics'] = PublisherMetrics.objects.get(publisher_id=publisher_id)
     return render(request, "silvereye/publisher.html", context)
+
+def publisherHome(request):
+    return render(request, "silvereye/publisher_hub_home.html", {})
+
+def publisherListing(request):
+    return render(request, "silvereye/publisher_listing.html", {})

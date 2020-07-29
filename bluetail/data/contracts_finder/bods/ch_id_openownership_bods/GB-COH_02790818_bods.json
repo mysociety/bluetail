@@ -1,0 +1,139 @@
+[
+    {
+        "statementID": "openownership-register-17226433632655509695",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "RULLION LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02790818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02790818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02790818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02790818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02790818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02790818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02790818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02790818"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02790818",
+                "uri": "https://opencorporates.com/companies/gb/02790818"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95d1d67e4ebf340fd7ee9",
+                "uri": "http://register.openownership.org/entities/59b95d1d67e4ebf340fd7ee9"
+            }
+        ],
+        "foundingDate": "1993-02-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Mansion House 3rd Floor, Bridgewater Embankment, Altrincham, Cheshire, WA14 4RW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13602907301029396415",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17226433632655509695"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12006069213015315540"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-10-16T16:17:08Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12006069213015315540",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Rose Marie Jean Saoulli"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02790818/persons-with-significant-control/individual/vWtZx-eIiCT8-1mVVwINcY22GJg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9922667e4ebf340ef625f",
+                "uri": "http://register.openownership.org/entities/59b9922667e4ebf340ef625f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1950-10-01",
+        "addresses": [
+            {
+                "address": "Mansion House, 3rd Floor, Bridgewater Embankment, Altrincham, Cheshire, WA14 4RW",
+                "country": "CY"
+            }
+        ]
+    }
+]

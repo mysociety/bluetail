@@ -1,0 +1,238 @@
+[
+    {
+        "statementID": "openownership-register-2370487038309963623",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NIVEK CATERING SUPPLIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03297723"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03297723",
+                "uri": "https://opencorporates.com/companies/gb/03297723"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b971fe67e4ebf34063eb62",
+                "uri": "http://register.openownership.org/entities/59b971fe67e4ebf34063eb62"
+            }
+        ],
+        "foundingDate": "1996-12-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Perrys, 19/21 Swan Street, West Malling, Kent, ME19 6JU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8802242240025703010",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2370487038309963623"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2961976643756852362"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-03-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3163862480236057402",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2370487038309963623"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10187130638979300642"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14741622825835793235",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-03-29",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2370487038309963623"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1523944288116468423"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-03-29"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2961976643756852362",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Kevin Timbey Hanson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03297723/persons-with-significant-control/individual/ElX3TA6ZI1R3T3FiEfiXwlnd16E"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba22e29dfc3fae188d3016",
+                "uri": "http://register.openownership.org/entities/5aba22e29dfc3fae188d3016"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-07-01",
+        "addresses": [
+            {
+                "address": "19/21 Swan Street, West Malling, Kent, ME19 6JU"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1523944288116468423",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Julie Slater"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/10537748/persons-with-significant-control/individual/EanHFO8XZWcEwszMMm1fmDvrcVw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cc4167e4ebf340c82ab4",
+                "uri": "http://register.openownership.org/entities/59b9cc4167e4ebf340c82ab4"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-09-01",
+        "addresses": [
+            {
+                "address": "19/21 Swan Street, West Malling, Kent, ME19 6JU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10187130638979300642",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Kevin Slater"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/10537748/persons-with-significant-control/individual/LqI_u07fLjXSqOcGWAsTuEQX7mI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96fcd67e4ebf340581a28",
+                "uri": "http://register.openownership.org/entities/59b96fcd67e4ebf340581a28"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1955-09-01",
+        "addresses": [
+            {
+                "address": "19/21 Swan Street, West Malling, Kent, ME19 6JU",
+                "country": "GB"
+            }
+        ]
+    }
+]

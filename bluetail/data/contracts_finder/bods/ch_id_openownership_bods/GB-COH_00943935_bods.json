@@ -1,0 +1,114 @@
+[
+    {
+        "statementID": "openownership-register-2352006826321452462",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CAPGEMINI UK PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00943935"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00943935",
+                "uri": "https://opencorporates.com/companies/gb/00943935"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "943935"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9ad6067e4ebf34052245b",
+                "uri": "http://register.openownership.org/entities/59b9ad6067e4ebf34052245b"
+            }
+        ],
+        "foundingDate": "1968-12-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Forge End, Woking, Surrey, GU21 6DB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1323009441643271977",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2352006826321452462"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-13329356118099558087"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-10-16T16:17:08Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13329356118099558087",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CGS HOLDINGS LTD.",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02798276"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02798276"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02798276",
+                "uri": "https://opencorporates.com/companies/gb/02798276"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a4b567e4ebf3403273e5",
+                "uri": "http://register.openownership.org/entities/59b9a4b567e4ebf3403273e5"
+            }
+        ],
+        "foundingDate": "1993-03-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Forge End, Woking, Surrey, GU21 6DB",
+                "country": "GB"
+            }
+        ]
+    }
+]

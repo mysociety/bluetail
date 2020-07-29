@@ -1,0 +1,173 @@
+[
+    {
+        "statementID": "openownership-register-4294877429364080276",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "METRO ROD LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04235803"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04235803"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04235803",
+                "uri": "https://opencorporates.com/companies/gb/04235803"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "4235803"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04235803"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab930949dfc3fae1835a679",
+                "uri": "http://register.openownership.org/entities/5ab930949dfc3fae1835a679"
+            }
+        ],
+        "foundingDate": "2001-06-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Ashwood Court Springwood Close, Tytherington Business Park, Macclesfield, SK10 2XF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4177592675572628836",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-04-11",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4294877429364080276"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2575980012012492481"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-04-11"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-04-11"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2017-04-11"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2575980012012492481",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FRANCHISE BRANDS PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10281033"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10281033"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10281033"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10281033"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10281033"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10281033",
+                "uri": "https://opencorporates.com/companies/gb/10281033"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10281033"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10281033"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9234c67e4ebf340f53803",
+                "uri": "http://register.openownership.org/entities/59b9234c67e4ebf340f53803"
+            }
+        ],
+        "foundingDate": "2016-07-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Ashwood Court Springwood Close, Tytherington Business Park, Macclesfield, SK10 2XF",
+                "country": "GB"
+            }
+        ]
+    }
+]
