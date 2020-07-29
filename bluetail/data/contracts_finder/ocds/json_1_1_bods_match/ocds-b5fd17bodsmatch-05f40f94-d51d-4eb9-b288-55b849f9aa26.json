@@ -1,7 +1,7 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ae41c33-4a89-4c76-b491-8e7b5ca7ad37.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/78d76ee3-566b-4c23-b931-bec92acc3e0e.json",
   "version": "1.1",
-  "publishedDate": "2020-02-12T15:24:25Z",
+  "publishedDate": "2020-04-03T16:27:46Z",
   "publisher": {
     "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
     "scheme": "GB-GOVUK-crown_comercial_service",
@@ -15,16 +15,16 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-5f7001d9-3efc-40ba-8a0a-4756429a4c95",
-      "id": "ocds-b5fd17-5f7001d9-3efc-40ba-8a0a-4756429a4c95-343414-1475",
-      "date": "2019-10-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-05f40f94-d51d-4eb9-b288-55b849f9aa26",
+      "id": "ocds-b5fd17-05f40f94-d51d-4eb9-b288-55b849f9aa26-352557-1398",
+      "date": "2019-08-09T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "3f77ed31eabfaa920e20a98f5b60837a",
+          "id": "448eede2af8344f0614ee319c55e533c",
           "roles": [
             "buyer"
           ],
@@ -43,28 +43,29 @@
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Daryll Tighe",
+            "name": "",
             "email": "e-tendering@uk-cpi.com",
             "telephone": "01740 625716",
-            "faxNumber": null
+            "faxNumber": null,
+            "uri": "https://www.uk-cpi.com/"
           }
         },
         {
-          "id": "3",
+          "id": "2",
           "roles": [
             "supplier",
             "tenderer"
           ],
           "identifier": {
-            "id": "04105738",
+            "id": "00133804",
             "scheme": "GB-COH",
-            "legalName": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
+            "legalName": "ARCO LIMITED"
           },
-          "sme": true,
+          "sme": false,
           "vco": false,
-          "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD",
+          "name": "ARCO LIMITED",
           "address": {
-            "streetAddress": "Aycliffe Business Park\nDL5 6YA\nGB",
+            "streetAddress": "Waverley Street\nHU1 2SH\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
@@ -88,22 +89,22 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "02577009",
+            "id": "00442696",
             "scheme": "GB-COH",
-            "legalName": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+            "legalName": "LYRECO UK LIMITED"
           },
-          "sme": true,
+          "sme": false,
           "vco": false,
-          "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED",
+          "name": "LYRECO UK LIMITED",
           "address": {
-            "streetAddress": "The Square\nNORTH HUMBERSIDE\nHU13 0AE\nGB",
+            "streetAddress": "Unit 5 Deer Park Court\nTELFORD\nShropshire\nTF2 7NB\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Keith Robinson",
+            "name": "Andy Boyling",
             "email": "",
             "telephone": "",
             "faxNumber": ""
@@ -116,9 +117,9 @@
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-5f7001d9-3efc-40ba-8a0a-4756429a4c95-1475",
-        "title": "Framework for Automation Solutions and Specialist Consumables",
-        "description": "CPI wish to appoint a series of suppliers to support our lab automation requirements, primarily for our Formulation business unit based at our Coxon Building facility, through the support of our existing robotic platforms with upgrades, maintenance and ongoing consumable supply, and with the provision of new robotic platforms. The scope of supply for equipment purchases under this tender will include the supply and installation of equipment, with the option of commissioning the equipment if required. Purchases may include any design work, packing and shipping, training of users, maintenance, upgrades and ongoing running costs. This tender is split into 4 lots;\r\n&bull; Lot 1 - Purchase of new automation platforms\r\n&bull; Lot 2 - Purchase of automation solutions for existing Chemspeed robotic platforms\r\n&bull; Lot 3 - Purchase of automation solutions for existing Labman robotic platforms\r\n&bull; Lot 4 - Purchase of specialist consumables",
+        "id": "ocds-b5fd17-05f40f94-d51d-4eb9-b288-55b849f9aa26-1398",
+        "title": "Framework for Ongoing Supply of Personal 1398 - Protection Equipment (PPE), Janitorial Supplies and Safety Equipment",
+        "description": "CPI has a requirement for the appointment of a framework agreement for the provision of; personal protection equipment (PPE), janitorial supplies and safety equipment as set out in the attached documentation. This tender is to cover the call-off requirements as and when required by CPI. This framework agreement is split into the following lots: Lot 1 - Personal Protective Equipment (PPE) Lot 2 - Safety Equipment Lot 3 - Janitorial Supplies.  Tender documents are available to view on and bids are to be submitted through NE1 Procurement Services.",
         "status": "complete",
         "items": [
           {
@@ -126,9 +127,9 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "33790000",
-              "description": "Laboratory, hygienic or pharmaceutical glassware",
-              "uri": "http://cpv.data.ac.uk/code-33790000.html"
+              "id": "18000000",
+              "description": "Clothing, footwear, luggage articles and accessories",
+              "uri": "http://cpv.data.ac.uk/code-18000000.html"
             }
           },
           {
@@ -136,14 +137,54 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "48921000",
-              "description": "Automation system",
-              "uri": "http://cpv.data.ac.uk/code-48921000.html"
+              "id": "34992000",
+              "description": "Signs and illuminated signs",
+              "uri": "http://cpv.data.ac.uk/code-34992000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "35113100",
+              "description": "Site-safety equipment",
+              "uri": "http://cpv.data.ac.uk/code-35113100.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "35113400",
+              "description": "Protective and safety clothing",
+              "uri": "http://cpv.data.ac.uk/code-35113400.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "35113410",
+              "description": "Garments for biological or chemical protection",
+              "uri": "http://cpv.data.ac.uk/code-35113410.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39800000",
+              "description": "Cleaning and polishing products",
+              "uri": "http://cpv.data.ac.uk/code-39800000.html"
             }
           }
         ],
         "minValue": {
-          "amount": 10000000,
+          "amount": 300000,
           "currency": "GBP"
         },
         "value": {
@@ -158,13 +199,13 @@
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-04T00:00:00Z"
+          "endDate": "2019-10-18T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
         "xClassifications": {
           "isSuitableForSme": true,
-          "isSuitableForVco": false,
+          "isSuitableForVco": true,
           "ojeuContractType": "Products"
         },
         "supplyChain": false,
@@ -172,47 +213,47 @@
         "numberOfTenderers": 2,
         "tenderers": [
           {
-            "id": "3",
-            "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
+            "id": "2",
+            "name": "ARCO LIMITED"
           },
           {
             "id": "4",
-            "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+            "name": "LYRECO UK LIMITED"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-01-01T00:00:00Z",
-          "endDate": "2024-01-01T00:00:00Z"
+          "startDate": "2020-03-06T00:00:00Z",
+          "endDate": "2024-03-05T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "3f77ed31eabfaa920e20a98f5b60837a",
+        "id": "448eede2af8344f0614ee319c55e533c",
         "name": "CENTRE FOR PROCESS INNOVATION LIMITED"
       },
       "awards": [
         {
-          "id": "8af29a49-3e5d-4914-86db-a4e305522905",
+          "id": "dee5664f-24cd-43f5-8b73-350bcc6974f3",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-01-24T00:00:00Z",
+          "date": "2020-03-03T00:00:00Z",
           "value": {
-            "amount": 10000000,
+            "amount": 300000,
             "currency": "GBP"
           },
           "suppliers": [
             {
-              "id": "3",
-              "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
+              "id": "2",
+              "name": "ARCO LIMITED"
             },
             {
               "id": "4",
-              "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+              "name": "LYRECO UK LIMITED"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-01-24T00:00:00Z",
-            "endDate": "2024-01-24T00:00:00Z"
+            "startDate": "2020-03-06T00:00:00Z",
+            "endDate": "2024-03-05T00:00:00Z"
           }
         }
       ]

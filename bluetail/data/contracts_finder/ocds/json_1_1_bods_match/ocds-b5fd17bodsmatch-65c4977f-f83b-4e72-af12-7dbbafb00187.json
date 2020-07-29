@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1f17bdd8-c51d-4fcd-9b37-f90c7c8e5e25.json",
   "version": "1.1",
-  "publishedDate": "2020-04-27T11:59:02Z",
+  "publishedDate": "2020-02-14T17:47:24Z",
   "publisher": {
-    "name": "ESSEX COUNTY COUNCIL",
+    "name": "B F I",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,38 +15,39 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
-      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
-      "date": "2019-09-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-65c4977f-f83b-4e72-af12-7dbbafb00187",
+      "id": "ocds-b5fd17-65c4977f-f83b-4e72-af12-7dbbafb00187-344053-2020-fw9",
+      "date": "2019-12-31T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "id": "3474ef0911eba626d4b470c1fb381634",
           "roles": [
             "buyer"
           ],
           "identifier": {
-            "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
-            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "scheme": "GB-GOR",
+            "id": "PB189",
+            "uri": "https://government-organisation.register.gov.uk/record/PB189",
             "legalName": null
           },
-          "name": "ESSEX COUNTY COUNCIL",
+          "name": "B F I",
           "address": {
-            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
-            "locality": "CHELMSFORD",
+            "streetAddress": "The BFI National Film &amp; Television Archive (BFI National Archive) Kingshill Way",
+            "locality": "Berkhamsted",
             "region": null,
-            "postalCode": "CM1 1LX",
+            "postalCode": "HP4 3TP",
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Ben Patterson / Melanie Bailey",
-            "email": "ben.patterson@essex.gov.uk",
-            "telephone": "03330321542",
-            "faxNumber": null
+            "name": "Stephen Adams",
+            "email": "stephen.adams@bfi.org.uk",
+            "telephone": "02079574849",
+            "faxNumber": null,
+            "uri": "www.bfi.org.uk"
           }
         },
         {
@@ -56,29 +57,29 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "01034343",
+            "id": "02658501",
             "scheme": "GB-COH",
-            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "legalName": "STONE COMPUTERS LIMITED"
           },
           "sme": false,
           "vco": false,
-          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+          "name": "STONE COMPUTERS LIMITED",
           "address": {
-            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
+            "streetAddress": "Granite One Hundred\nST18 9AA\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jane Glyn",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 287807
+            "amount": 2350.99
           }
         },
         {
@@ -88,37 +89,37 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "02989025",
+            "id": "02579852",
             "scheme": "GB-COH",
-            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+            "legalName": "INSIGHT DIRECT (UK) LTD"
           },
           "sme": false,
           "vco": false,
-          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "name": "INSIGHT DIRECT (UK) LTD",
           "address": {
-            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "streetAddress": "5th Floor,\r\nMetro Building,\r\nTrafford Road,\r\nSalford,M5 3NN",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jenna Amos",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 11979
+            "amount": 809
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
-        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
-        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "id": "ocds-b5fd17-65c4977f-f83b-4e72-af12-7dbbafb00187-2020/fw9",
+        "title": "Hard Drive Purchase",
+        "description": "Purchase of Hard Drives - Awarded following catalogue purchase of equipment against Crown Commercial Services Framework Agreement RM3733 Lot 6",
         "status": "complete",
         "items": [
           {
@@ -126,36 +127,36 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "66510000",
-              "description": "Insurance services",
-              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+              "id": "30233132",
+              "description": "Hard-disk drives",
+              "uri": "http://cpv.data.ac.uk/code-30233132.html"
             }
           }
         ],
         "minValue": {
-          "amount": 1000000,
+          "amount": 3159.99,
           "currency": "GBP"
         },
         "value": {
-          "amount": 2200000,
+          "amount": 0,
           "currency": "GBP"
         },
-        "procurementMethod": "open",
-        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Catalogue purchase",
         "procurementMethodRationale": "",
         "awardCriteria": null,
         "awardCriteriaDetails": null,
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-09T00:00:00Z"
+          "endDate": "2020-02-11T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
         "xClassifications": {
-          "isSuitableForSme": true,
+          "isSuitableForSme": false,
           "isSuitableForVco": false,
-          "ojeuContractType": "Services"
+          "ojeuContractType": "Products"
         },
         "supplyChain": false,
         "documents": [],
@@ -163,46 +164,46 @@
         "tenderers": [
           {
             "id": "1",
-            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "name": "STONE COMPUTERS LIMITED"
           },
           {
             "id": "2",
-            "name": "RISK MANAGEMENT PARTNERS LTD."
+            "name": "INSIGHT DIRECT (UK) LTD"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-03-31T00:00:00Z",
-          "endDate": "2023-03-30T00:00:00Z"
+          "startDate": "2020-02-12T00:00:00Z",
+          "endDate": "2022-02-11T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "ed2c3175f8116513d556b92363f36d6b",
-        "name": "ESSEX COUNTY COUNCIL"
+        "id": "3474ef0911eba626d4b470c1fb381634",
+        "name": "B F I"
       },
       "awards": [
         {
-          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
+          "id": "7d860134-17e1-4760-a91c-6cb671e96fa9",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-03-31T00:00:00Z",
+          "date": "2020-02-12T00:00:00Z",
           "value": {
-            "amount": 1000000,
+            "amount": 3159.99,
             "currency": "GBP"
           },
           "suppliers": [
             {
               "id": "1",
-              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+              "name": "STONE COMPUTERS LIMITED"
             },
             {
               "id": "2",
-              "name": "RISK MANAGEMENT PARTNERS LTD."
+              "name": "INSIGHT DIRECT (UK) LTD"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-03-31T00:00:00Z",
-            "endDate": "2023-03-30T00:00:00Z"
+            "startDate": "2020-02-12T00:00:00Z",
+            "endDate": "2022-02-11T00:00:00Z"
           }
         }
       ]

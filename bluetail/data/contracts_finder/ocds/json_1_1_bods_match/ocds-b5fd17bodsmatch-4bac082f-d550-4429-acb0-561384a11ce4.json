@@ -1,0 +1,206 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a8a63ea5-b342-4eb4-b744-9005d1ca7b5e.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-09T17:45:06Z",
+  "publisher": {
+    "name": "MILLSTREAM ASSOCIATES LTD",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-4bac082f-d550-4429-acb0-561384a11ce4",
+      "id": "ocds-b5fd17-4bac082f-d550-4429-acb0-561384a11ce4-348760-mt219120",
+      "date": "2019-11-13T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "b401b5a43742eb225eafe736f10e5ab2",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Fusion21 Members Consortium",
+          "address": {
+            "streetAddress": "Unit 2 Puma Court, Kings Business Park ",
+            "locality": "Prescot",
+            "region": null,
+            "postalCode": "L34 1PJ",
+            "countryName": "\n              England\n"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "info@fusion21.co.uk",
+            "telephone": "+44 1514813000",
+            "faxNumber": null,
+            "uri": "http://www.fusion21.co.uk"
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01076034",
+            "scheme": "GB-COH",
+            "legalName": "SWALE HEATING LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SWALE HEATING LIMITED",
+          "address": {
+            "streetAddress": "HEARD WAY, EUROLINK INDUSTRIAL ESTATE, SITTINGBOURNE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "103",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05928200",
+            "scheme": "GB-COH",
+            "legalName": "SAYES SERVICE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SAYES SERVICE LIMITED",
+          "address": {
+            "streetAddress": "RICHARDSHAW ROAD, PUDSEY, LEEDS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-4bac082f-d550-4429-acb0-561384a11ce4-mt219120",
+        "title": "Fusion21 Heating and Renewables Framework",
+        "description": "Fusion21 has developed a framework for the full provision of heating works across public sector estates, the scope of the framework also includes heating related renewable technologies. The framework is broken down over 10 separate lots which include:1) Domestic servicing, maintenance and installation of heating systems;2) Domestic heating installations;3) Commercial servicing, maintenance and installation of heating systems;4) Commercial heating installations;5) Quality assurance and asset management consultancy;6) Principal design and project management consultancy;7) Installation of air and ground source heat pumps;8) Installation of solar heating systems;9) Installation of electric heating systems; and10) Department for education/education heating programmes.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45232141",
+              "description": "Heating works",
+              "uri": "http://cpv.data.ac.uk/code-45232141.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 40000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "27",
+            "name": "SWALE HEATING LIMITED"
+          },
+          {
+            "id": "103",
+            "name": "SAYES SERVICE LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-28T00:00:00Z",
+          "endDate": "2024-01-27T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "b401b5a43742eb225eafe736f10e5ab2",
+        "name": "Fusion21 Members Consortium"
+      },
+      "awards": [
+        {
+          "id": "70af4125-798b-473b-9493-cc55eb50f1e4",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-28T00:00:00Z",
+          "value": {
+            "amount": 40000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "27",
+              "name": "SWALE HEATING LIMITED"
+            },
+            {
+              "id": "103",
+              "name": "SAYES SERVICE LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-28T00:00:00Z",
+            "endDate": "2024-01-27T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

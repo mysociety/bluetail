@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3d06ef54-d9fe-4536-895a-ed588171c226.json",
   "version": "1.1",
-  "publishedDate": "2020-04-27T11:59:02Z",
+  "publishedDate": "2020-02-27T13:11:22Z",
   "publisher": {
-    "name": "ESSEX COUNTY COUNCIL",
+    "name": "STAR Procurement",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,37 +15,37 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
-      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
-      "date": "2019-09-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-e77cdbf6-5bd1-40d2-a136-ded8c5c024be",
+      "id": "ocds-b5fd17-e77cdbf6-5bd1-40d2-a136-ded8c5c024be-346440-uid:6057---dn376645",
+      "date": "2018-12-06T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "id": "ce054d1ef2f68c9cca0861f5ade545da",
           "roles": [
             "buyer"
           ],
           "identifier": {
             "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
+            "id": "",
             "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
             "legalName": null
           },
-          "name": "ESSEX COUNTY COUNCIL",
+          "name": "STAR Procurement",
           "address": {
-            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
-            "locality": "CHELMSFORD",
+            "streetAddress": "1 Waterside ",
+            "locality": "Sale",
             "region": null,
-            "postalCode": "CM1 1LX",
+            "postalCode": "M337ZF",
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Ben Patterson / Melanie Bailey",
-            "email": "ben.patterson@essex.gov.uk",
-            "telephone": "03330321542",
+            "name": "Stephanie Jones",
+            "email": "stephanie.jones@star-procurement.gov.uk",
+            "telephone": "07817121123",
             "faxNumber": null
           }
         },
@@ -56,69 +56,69 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "01034343",
+            "id": "06849888",
             "scheme": "GB-COH",
-            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "legalName": "BERTRAM TRADING LIMITED"
           },
           "sme": false,
           "vco": false,
-          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+          "name": "BERTRAM TRADING LIMITED",
           "address": {
-            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
+            "streetAddress": "1 Peachman Way\nNR7 0WF\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jane Glyn",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 287807
+            "amount": null
           }
         },
         {
-          "id": "2",
+          "id": "3",
           "roles": [
             "supplier",
             "tenderer"
           ],
           "identifier": {
-            "id": "02989025",
+            "id": "02745298",
             "scheme": "GB-COH",
-            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+            "legalName": "ASKEWS AND HOLTS LIBRARY SERVICES LTD."
           },
           "sme": false,
           "vco": false,
-          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "name": "ASKEWS AND HOLTS LIBRARY SERVICES LTD.",
           "address": {
-            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "streetAddress": "218-222 NORTH ROAD\nPR1 1SY\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jenna Amos",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 11979
+            "amount": null
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
-        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
-        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "id": "ocds-b5fd17-e77cdbf6-5bd1-40d2-a136-ded8c5c024be-uid:6057-/-dn376645",
+        "title": "Supply &amp; Servicing of Materials to Public Library Authorities Contracts Finder award notice",
+        "description": "Supply and servicing of materials to public library authorities across the North West &amp; Yorkshire regions",
         "status": "complete",
         "items": [
           {
@@ -126,36 +126,36 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "66510000",
-              "description": "Insurance services",
-              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+              "id": "22113000",
+              "description": "Library books",
+              "uri": "http://cpv.data.ac.uk/code-22113000.html"
             }
           }
         ],
         "minValue": {
-          "amount": 1000000,
+          "amount": 5700000,
           "currency": "GBP"
         },
         "value": {
-          "amount": 2200000,
+          "amount": 0,
           "currency": "GBP"
         },
-        "procurementMethod": "open",
-        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
         "procurementMethodRationale": "",
         "awardCriteria": null,
         "awardCriteriaDetails": null,
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-09T00:00:00Z"
+          "endDate": "2019-01-10T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
         "xClassifications": {
           "isSuitableForSme": true,
           "isSuitableForVco": false,
-          "ojeuContractType": "Services"
+          "ojeuContractType": "Products"
         },
         "supplyChain": false,
         "documents": [],
@@ -163,46 +163,46 @@
         "tenderers": [
           {
             "id": "1",
-            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "name": "BERTRAM TRADING LIMITED"
           },
           {
-            "id": "2",
-            "name": "RISK MANAGEMENT PARTNERS LTD."
+            "id": "3",
+            "name": "ASKEWS AND HOLTS LIBRARY SERVICES LTD."
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-03-31T00:00:00Z",
-          "endDate": "2023-03-30T00:00:00Z"
+          "startDate": "2019-06-01T00:00:00Z",
+          "endDate": "2023-05-31T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "ed2c3175f8116513d556b92363f36d6b",
-        "name": "ESSEX COUNTY COUNCIL"
+        "id": "ce054d1ef2f68c9cca0861f5ade545da",
+        "name": "STAR Procurement"
       },
       "awards": [
         {
-          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
+          "id": "05687862-2993-4d7e-8ee7-8fc47637c721",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-03-31T00:00:00Z",
+          "date": "2019-02-28T00:00:00Z",
           "value": {
-            "amount": 1000000,
+            "amount": 22800000,
             "currency": "GBP"
           },
           "suppliers": [
             {
               "id": "1",
-              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+              "name": "BERTRAM TRADING LIMITED"
             },
             {
-              "id": "2",
-              "name": "RISK MANAGEMENT PARTNERS LTD."
+              "id": "3",
+              "name": "ASKEWS AND HOLTS LIBRARY SERVICES LTD."
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-03-31T00:00:00Z",
-            "endDate": "2023-03-30T00:00:00Z"
+            "startDate": "2019-06-01T00:00:00Z",
+            "endDate": "2023-05-31T00:00:00Z"
           }
         }
       ]

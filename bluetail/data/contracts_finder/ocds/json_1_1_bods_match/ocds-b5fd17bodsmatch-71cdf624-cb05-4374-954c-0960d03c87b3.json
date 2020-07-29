@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/b0f3ae78-a511-48d3-970a-29181ee1b588.json",
   "version": "1.1",
-  "publishedDate": "2020-04-27T11:59:02Z",
+  "publishedDate": "2020-03-18T14:52:09Z",
   "publisher": {
-    "name": "ESSEX COUNTY COUNCIL",
+    "name": "Thurrock Council",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,37 +15,31 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
-      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
-      "date": "2019-09-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-71cdf624-cb05-4374-954c-0960d03c87b3",
+      "id": "ocds-b5fd17-71cdf624-cb05-4374-954c-0960d03c87b3-350568-ps-2019-285",
+      "date": "2019-11-08T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "id": "5041ec1aa7382458ee5e85bbb9dd2ea6",
           "roles": [
             "buyer"
           ],
-          "identifier": {
-            "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
-            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
-            "legalName": null
-          },
-          "name": "ESSEX COUNTY COUNCIL",
+          "name": "Thurrock Borough Council",
           "address": {
-            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
-            "locality": "CHELMSFORD",
+            "streetAddress": "Civic Offices,New Road ",
+            "locality": "GRAYS",
             "region": null,
-            "postalCode": "CM1 1LX",
+            "postalCode": "RM176SL",
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Ben Patterson / Melanie Bailey",
-            "email": "ben.patterson@essex.gov.uk",
-            "telephone": "03330321542",
+            "name": "Kiri Mason",
+            "email": "KMason@thurrock.gov.uk",
+            "telephone": "+44 (0) 1375 652243 ext 63299",
             "faxNumber": null
           }
         },
@@ -56,29 +50,29 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "01034343",
+            "id": "11696513",
             "scheme": "GB-COH",
-            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "legalName": "ALLIED HEALTH-SERVICES LIMITED"
           },
           "sme": false,
           "vco": false,
-          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+          "name": "ALLIED HEALTH-SERVICES LIMITED",
           "address": {
-            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
+            "streetAddress": "Staffordshire Technology Park\nSTAFFORD\nStaffordshire\nST18 0FX\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jane Glyn",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 287807
+            "amount": null
           }
         },
         {
@@ -88,37 +82,37 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "02989025",
+            "id": "02650043",
             "scheme": "GB-COH",
-            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+            "legalName": "HAMELIN TRUST"
           },
           "sme": false,
           "vco": false,
-          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "name": "HAMELIN TRUST",
           "address": {
-            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "streetAddress": "19 Radford Crescent\nBILLERICAY\nEssex\nCM12 0DU\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jenna Amos",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 11979
+            "amount": null
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
-        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
-        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "id": "ocds-b5fd17-71cdf624-cb05-4374-954c-0960d03c87b3-ps-2019-285",
+        "title": "Short Breaks for Disabled Children",
+        "description": "Thurrock Council is seeking to commission a multiple provider Select List to deliver a range of statutory Short Breaks services for some of the most vulnerable Children and Young People in Thurrock.\r\n\r\nThe Select List will supply direct services across two lots, listed below:\r\n\r\nLot 1 - Individual Support Services\r\nLot 2 - Residential Short Breaks\r\n\r\nPlease note this contract (Select List) started in 2019. The Select List has the option to open for new applications on an annual basis. This exercise is the first re-opening of the Select List.\r\n\r\nThe value provided in section 1 of this notice is the full four year value (the original contract is for 3 years with the option to extend for a further  1 year). There will be 2 + 1 years remaining from 1st April 2020.",
         "status": "complete",
         "items": [
           {
@@ -126,18 +120,18 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "66510000",
-              "description": "Insurance services",
-              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+              "id": "85300000",
+              "description": "Social work and related services",
+              "uri": "http://cpv.data.ac.uk/code-85300000.html"
             }
           }
         ],
         "minValue": {
-          "amount": 1000000,
+          "amount": 1600000,
           "currency": "GBP"
         },
         "value": {
-          "amount": 2200000,
+          "amount": 0,
           "currency": "GBP"
         },
         "procurementMethod": "open",
@@ -148,13 +142,13 @@
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-09T00:00:00Z"
+          "endDate": "2020-01-17T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
         "xClassifications": {
           "isSuitableForSme": true,
-          "isSuitableForVco": false,
+          "isSuitableForVco": true,
           "ojeuContractType": "Services"
         },
         "supplyChain": false,
@@ -163,46 +157,46 @@
         "tenderers": [
           {
             "id": "1",
-            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "name": "ALLIED HEALTH-SERVICES LIMITED"
           },
           {
             "id": "2",
-            "name": "RISK MANAGEMENT PARTNERS LTD."
+            "name": "HAMELIN TRUST"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-03-31T00:00:00Z",
-          "endDate": "2023-03-30T00:00:00Z"
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2022-03-31T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "ed2c3175f8116513d556b92363f36d6b",
-        "name": "ESSEX COUNTY COUNCIL"
+        "id": "5041ec1aa7382458ee5e85bbb9dd2ea6",
+        "name": "Thurrock Borough Council"
       },
       "awards": [
         {
-          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
+          "id": "3af55777-d2c5-4301-989f-85188d4761fd",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-03-31T00:00:00Z",
+          "date": "2020-03-17T00:00:00Z",
           "value": {
-            "amount": 1000000,
+            "amount": 1600000,
             "currency": "GBP"
           },
           "suppliers": [
             {
               "id": "1",
-              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+              "name": "ALLIED HEALTH-SERVICES LIMITED"
             },
             {
               "id": "2",
-              "name": "RISK MANAGEMENT PARTNERS LTD."
+              "name": "HAMELIN TRUST"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-03-31T00:00:00Z",
-            "endDate": "2023-03-30T00:00:00Z"
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2022-03-31T00:00:00Z"
           }
         }
       ]

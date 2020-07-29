@@ -1,7 +1,7 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ae41c33-4a89-4c76-b491-8e7b5ca7ad37.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d430e4eb-8d5b-4076-ab61-b9e46765e805.json",
   "version": "1.1",
-  "publishedDate": "2020-02-12T15:24:25Z",
+  "publishedDate": "2020-01-28T09:12:03Z",
   "publisher": {
     "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
     "scheme": "GB-GOVUK-crown_comercial_service",
@@ -15,16 +15,16 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-5f7001d9-3efc-40ba-8a0a-4756429a4c95",
-      "id": "ocds-b5fd17-5f7001d9-3efc-40ba-8a0a-4756429a4c95-343414-1475",
-      "date": "2019-10-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-23345f54-e7e3-4f6b-befb-6c9b52876bb8",
+      "id": "ocds-b5fd17-23345f54-e7e3-4f6b-befb-6c9b52876bb8-339874-1082",
+      "date": "2019-08-22T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "3f77ed31eabfaa920e20a98f5b60837a",
+          "id": "2b14926b224df8b7283a19c1a57ca335",
           "roles": [
             "buyer"
           ],
@@ -43,42 +43,11 @@
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Daryll Tighe",
+            "name": "Andrew Clifton",
             "email": "e-tendering@uk-cpi.com",
             "telephone": "01740 625716",
-            "faxNumber": null
-          }
-        },
-        {
-          "id": "3",
-          "roles": [
-            "supplier",
-            "tenderer"
-          ],
-          "identifier": {
-            "id": "04105738",
-            "scheme": "GB-COH",
-            "legalName": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
-          },
-          "sme": true,
-          "vco": false,
-          "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD",
-          "address": {
-            "streetAddress": "Aycliffe Business Park\nDL5 6YA\nGB",
-            "locality": "",
-            "region": "",
-            "postalCode": "",
-            "countryName": ""
-          },
-          "contactPoint": {
-            "name": "",
-            "email": "",
-            "telephone": "",
-            "faxNumber": ""
-          },
-          "x_awardValue": {
-            "currency": "GBP",
-            "amount": null
+            "faxNumber": null,
+            "uri": "www.uk-cpi.com"
           }
         },
         {
@@ -88,37 +57,69 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "02577009",
+            "id": "07211681",
             "scheme": "GB-COH",
-            "legalName": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+            "legalName": "PALL EUROPE LIMITED"
           },
-          "sme": true,
+          "sme": false,
           "vco": false,
-          "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED",
+          "name": "PALL EUROPE LIMITED",
           "address": {
-            "streetAddress": "The Square\nNORTH HUMBERSIDE\nHU13 0AE\nGB",
+            "streetAddress": "Southampton Road\nPO6 4BQ\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Keith Robinson",
+            "name": "Maddy Brown",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": null
+            "amount": 181302
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06026124",
+            "scheme": "GB-COH",
+            "legalName": "SARTORIUS STEDIM UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SARTORIUS STEDIM UK LIMITED",
+          "address": {
+            "streetAddress": "Unit A3 Longmead Business Centre\nKT19 9QQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Natasha Karol",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 181302
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-5f7001d9-3efc-40ba-8a0a-4756429a4c95-1475",
-        "title": "Framework for Automation Solutions and Specialist Consumables",
-        "description": "CPI wish to appoint a series of suppliers to support our lab automation requirements, primarily for our Formulation business unit based at our Coxon Building facility, through the support of our existing robotic platforms with upgrades, maintenance and ongoing consumable supply, and with the provision of new robotic platforms. The scope of supply for equipment purchases under this tender will include the supply and installation of equipment, with the option of commissioning the equipment if required. Purchases may include any design work, packing and shipping, training of users, maintenance, upgrades and ongoing running costs. This tender is split into 4 lots;\r\n&bull; Lot 1 - Purchase of new automation platforms\r\n&bull; Lot 2 - Purchase of automation solutions for existing Chemspeed robotic platforms\r\n&bull; Lot 3 - Purchase of automation solutions for existing Labman robotic platforms\r\n&bull; Lot 4 - Purchase of specialist consumables",
+        "id": "ocds-b5fd17-23345f54-e7e3-4f6b-befb-6c9b52876bb8-1082",
+        "title": "Framework for the Supply of Filters",
+        "description": "CPI have identified a need to procure a panel of filter suppliers in order to provide continuity and a full rounded service over the course of the next 4 years. These normal flow filtration filters will be used for small and large-scale fermentations, CPI are looking to procure suppliers who can provide a full rounded service which will encompass technical support, account management and quality control.",
         "status": "complete",
         "items": [
           {
@@ -126,9 +127,9 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "33790000",
-              "description": "Laboratory, hygienic or pharmaceutical glassware",
-              "uri": "http://cpv.data.ac.uk/code-33790000.html"
+              "id": "42514300",
+              "description": "Filtering apparatus",
+              "uri": "http://cpv.data.ac.uk/code-42514300.html"
             }
           },
           {
@@ -136,29 +137,39 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "48921000",
-              "description": "Automation system",
-              "uri": "http://cpv.data.ac.uk/code-48921000.html"
+              "id": "42514310",
+              "description": "Air filters",
+              "uri": "http://cpv.data.ac.uk/code-42514310.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "42912350",
+              "description": "Filtration plant equipment",
+              "uri": "http://cpv.data.ac.uk/code-42912350.html"
             }
           }
         ],
         "minValue": {
-          "amount": 10000000,
+          "amount": 90000,
           "currency": "GBP"
         },
         "value": {
-          "amount": 0,
+          "amount": 181302,
           "currency": "GBP"
         },
         "procurementMethod": "open",
-        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodDetails": "Open (non-OJEU)",
         "procurementMethodRationale": "",
         "awardCriteria": null,
         "awardCriteriaDetails": null,
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-04T00:00:00Z"
+          "endDate": "2019-11-07T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
@@ -172,47 +183,47 @@
         "numberOfTenderers": 2,
         "tenderers": [
           {
-            "id": "3",
-            "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
+            "id": "4",
+            "name": "PALL EUROPE LIMITED"
           },
           {
-            "id": "4",
-            "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+            "id": "5",
+            "name": "SARTORIUS STEDIM UK LIMITED"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-01-01T00:00:00Z",
-          "endDate": "2024-01-01T00:00:00Z"
+          "startDate": "2019-11-10T00:00:00Z",
+          "endDate": "2023-11-10T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "3f77ed31eabfaa920e20a98f5b60837a",
+        "id": "2b14926b224df8b7283a19c1a57ca335",
         "name": "CENTRE FOR PROCESS INNOVATION LIMITED"
       },
       "awards": [
         {
-          "id": "8af29a49-3e5d-4914-86db-a4e305522905",
+          "id": "c2e7a249-92bc-403a-a294-2d05db100b82",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-01-24T00:00:00Z",
+          "date": "2020-01-28T00:00:00Z",
           "value": {
-            "amount": 10000000,
+            "amount": 181302,
             "currency": "GBP"
           },
           "suppliers": [
             {
-              "id": "3",
-              "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
+              "id": "4",
+              "name": "PALL EUROPE LIMITED"
             },
             {
-              "id": "4",
-              "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+              "id": "5",
+              "name": "SARTORIUS STEDIM UK LIMITED"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-01-24T00:00:00Z",
-            "endDate": "2024-01-24T00:00:00Z"
+            "startDate": "2020-01-31T00:00:00Z",
+            "endDate": "2024-01-30T00:00:00Z"
           }
         }
       ]

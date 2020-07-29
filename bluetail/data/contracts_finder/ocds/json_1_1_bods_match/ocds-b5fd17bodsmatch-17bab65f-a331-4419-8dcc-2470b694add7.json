@@ -1,7 +1,7 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1eef3205-084a-4155-b85d-1638c8a3ba5c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4cbe9aad-d7d3-4f6d-bf15-19a79d40aeb8.json",
   "version": "1.1",
-  "publishedDate": "2020-03-09T15:41:27Z",
+  "publishedDate": "2020-03-09T15:44:18Z",
   "publisher": {
     "name": "BRAVOSOLUTION UK LIMITED",
     "scheme": "GB-GOVUK-crown_comercial_service",
@@ -15,9 +15,9 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-6ff08beb-a4d5-44db-b968-e5dae78bc3b5",
-      "id": "ocds-b5fd17-6ff08beb-a4d5-44db-b968-e5dae78bc3b5-348709-tender_195106-840451",
-      "date": "2019-06-03T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-17bab65f-a331-4419-8dcc-2470b694add7",
+      "id": "ocds-b5fd17-17bab65f-a331-4419-8dcc-2470b694add7-348712-tender_195106-840384",
+      "date": "2019-04-29T00:00:00Z",
       "tag": [
         "tender"
       ],
@@ -44,7 +44,7 @@
           }
         },
         {
-          "id": "1",
+          "id": "5",
           "roles": [
             "supplier",
             "tenderer"
@@ -76,7 +76,7 @@
           }
         },
         {
-          "id": "3",
+          "id": "18",
           "roles": [
             "supplier",
             "tenderer"
@@ -110,9 +110,9 @@
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-6ff08beb-a4d5-44db-b968-e5dae78bc3b5-tender_195106",
+        "id": "ocds-b5fd17-17bab65f-a331-4419-8dcc-2470b694add7-tender_195106",
         "title": "Consultancy and Advisory Services 2019",
-        "description": "This will be an award notice for the Renewal of Consultancy and Advisory 2017 Framework Agreement. Lot 5 - Audit, Counter Fraud and Spend Analysis, Internal Audit &amp; Counter Fraud; External Audit; Account Payable (AP) reviews - to  include in depth review of a Participating Authorities AP data, identifying monies in over payments, missed supplier credit and duplicate payments in order to recover cash;VAT reconciliation/reclaim; Contract compliance reviews. TERMS AND CONDITIONS/ACTIVITY BASED INCOME (ABI) The terms and conditions of this framework agreement and any resulting call-off contract is appended to the ITT. These terms include provisions requiring the payment by the supplier of an ABI management charge in consideration of the award of this framework agreement, The management and administration by HTE of the overall contract structure and associated documentation, as well as the requirement to submit regular Management information to HTE.",
+        "description": "This will be an award notice for the Renewal of Consultancy and Advisory 2017 Framework Agreement. Lot 1 - Business Consultancy Solutions and Advisory Services to include Consultancy and Advisory services for process redesign and improvement;Organisational and Change Management; Programme and Project Management; and Management Consultancy services. Lot 2 -  Resource Management Consultancy Solutions and Advisory Services, to include, Total Workforce Planning/Modelling; Training and development of personnel; Executive management training; Coaching; Succession Planning; Analysis of staffing and workflow; Identification of opportunities for efficiencies; Scheduling of staff; and Staffing strategy.\r\n\r\nTERMS AND CONDITIONS/ACTIVITY BASED INCOME (ABI) The terms and conditions of this framework agreement and any resulting call-off\r\ncontract is appended to the ITT. These terms include provisions requiring the payment by the supplier of an ABI management charge in consideration of the award of this framework agreement, The management and administration by HTE of the overall contract structure and associated documentation, as well as the requirement to submit regular Management information to HTE.",
         "status": "complete",
         "items": [
           {
@@ -120,9 +120,9 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "66170000",
-              "description": "Financial consultancy, financial transaction processing and clearing-house services",
-              "uri": "http://cpv.data.ac.uk/code-66170000.html"
+              "id": "72224000",
+              "description": "Project management consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-72224000.html"
             }
           },
           {
@@ -130,9 +130,9 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "79210000",
-              "description": "Accounting and auditing services",
-              "uri": "http://cpv.data.ac.uk/code-79210000.html"
+              "id": "79410000",
+              "description": "Business and management consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79410000.html"
             }
           },
           {
@@ -140,9 +140,9 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "79212000",
-              "description": "Auditing services",
-              "uri": "http://cpv.data.ac.uk/code-79212000.html"
+              "id": "79411000",
+              "description": "General management consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79411000.html"
             }
           },
           {
@@ -150,9 +150,9 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "79212100",
-              "description": "Financial auditing services",
-              "uri": "http://cpv.data.ac.uk/code-79212100.html"
+              "id": "79413000",
+              "description": "Marketing management consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79413000.html"
             }
           },
           {
@@ -160,9 +160,9 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "79212200",
-              "description": "Internal audit services",
-              "uri": "http://cpv.data.ac.uk/code-79212200.html"
+              "id": "79414000",
+              "description": "Human resources management consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79414000.html"
             }
           },
           {
@@ -170,24 +170,14 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "79212300",
-              "description": "Statutory audit services",
-              "uri": "http://cpv.data.ac.uk/code-79212300.html"
-            }
-          },
-          {
-            "id": 7,
-            "description": "See description of related tender.",
-            "classification": {
-              "scheme": "CPV",
-              "id": "79212400",
-              "description": "Fraud audit services",
-              "uri": "http://cpv.data.ac.uk/code-79212400.html"
+              "id": "79418000",
+              "description": "Procurement consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79418000.html"
             }
           }
         ],
         "minValue": {
-          "amount": 20000000,
+          "amount": 100000000,
           "currency": "GBP"
         },
         "value": {
@@ -216,17 +206,17 @@
         "numberOfTenderers": 2,
         "tenderers": [
           {
-            "id": "1",
+            "id": "5",
             "name": "BDO LLP"
           },
           {
-            "id": "3",
+            "id": "18",
             "name": "KPMG LLP"
           }
         ],
         "contractPeriod": {
-          "startDate": "2019-12-13T00:00:00Z",
-          "endDate": "2022-12-12T00:00:00Z"
+          "startDate": "2019-11-29T00:00:00Z",
+          "endDate": "2022-11-28T00:00:00Z"
         }
       },
       "buyer": {
@@ -235,28 +225,28 @@
       },
       "awards": [
         {
-          "id": "41ed27e9-3e3e-4dea-af7b-1bffe3afe7ac",
+          "id": "83456154-c64f-4120-b4f3-34641edf33b9",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2019-12-13T00:00:00Z",
+          "date": "2019-11-29T00:00:00Z",
           "value": {
-            "amount": 20000000,
+            "amount": 100000000,
             "currency": "GBP"
           },
           "suppliers": [
             {
-              "id": "1",
+              "id": "5",
               "name": "BDO LLP"
             },
             {
-              "id": "3",
+              "id": "18",
               "name": "KPMG LLP"
             }
           ],
           "contractPeriod": {
-            "startDate": "2019-12-13T00:00:00Z",
-            "endDate": "2022-12-12T00:00:00Z"
+            "startDate": "2019-11-29T00:00:00Z",
+            "endDate": "2022-11-28T00:00:00Z"
           }
         }
       ]

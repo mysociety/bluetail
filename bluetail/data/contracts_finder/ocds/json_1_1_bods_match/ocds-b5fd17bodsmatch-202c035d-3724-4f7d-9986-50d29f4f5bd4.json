@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e9505f42-9376-4558-9f95-63e88e7fd02d.json",
   "version": "1.1",
-  "publishedDate": "2020-04-27T11:59:02Z",
+  "publishedDate": "2020-05-04T15:40:04Z",
   "publisher": {
-    "name": "ESSEX COUNTY COUNCIL",
+    "name": "BIP SOLUTIONS LIMITED",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,74 +15,68 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
-      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
-      "date": "2019-09-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-202c035d-3724-4f7d-9986-50d29f4f5bd4",
+      "id": "ocds-b5fd17-202c035d-3724-4f7d-9986-50d29f4f5bd4-357323-bip450603673",
+      "date": "2019-08-19T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "id": "a0ac3bfcda61bc1940eb1757f8076725",
           "roles": [
             "buyer"
           ],
-          "identifier": {
-            "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
-            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
-            "legalName": null
-          },
-          "name": "ESSEX COUNTY COUNCIL",
+          "name": "Museum of London",
           "address": {
-            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
-            "locality": "CHELMSFORD",
+            "streetAddress": "150 London Wall ",
+            "locality": "London",
             "region": null,
-            "postalCode": "CM1 1LX",
-            "countryName": "England"
+            "postalCode": "EC2Y 5HN",
+            "countryName": "UK"
           },
           "contactPoint": {
-            "name": "Ben Patterson / Melanie Bailey",
-            "email": "ben.patterson@essex.gov.uk",
-            "telephone": "03330321542",
+            "name": "",
+            "email": "procurement@museumoflondon.org.uk",
+            "telephone": "+442078145676",
             "faxNumber": null
           }
         },
         {
-          "id": "1",
+          "id": "4",
           "roles": [
             "supplier",
             "tenderer"
           ],
           "identifier": {
-            "id": "01034343",
+            "id": "01193013",
             "scheme": "GB-COH",
-            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "legalName": "ARTHUR J. GALLAGHER (UK) LIMITED"
           },
           "sme": false,
           "vco": false,
-          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+          "name": "ARTHUR J. GALLAGHER (UK) LIMITED",
           "address": {
-            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
+            "streetAddress": "The Walbrook Building\n        London\n        EC4N 8AW",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jane Glyn",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 287807
+            "amount": null
           }
         },
         {
-          "id": "2",
+          "id": "7",
           "roles": [
             "supplier",
             "tenderer"
@@ -96,29 +90,29 @@
           "vco": false,
           "name": "RISK MANAGEMENT PARTNERS LTD.",
           "address": {
-            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "streetAddress": "The Walbrook Building\n        London\n        EC4N 8AW",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jenna Amos",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 11979
+            "amount": null
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
-        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
-        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "id": "ocds-b5fd17-202c035d-3724-4f7d-9986-50d29f4f5bd4-bip450603673",
+        "title": "Insurance Services",
+        "description": "The provision of Insurance Services for the the Museum of London (&#039;Museum&#039;). This contract is divided into the following lots:\r\n      Lot 1 Property Combined\r\n      Lot 2 Fidelity Guarantee\r\n      Lot 3 Terrorism\r\n      Lot 4 Combined Liability\r\n      Lot 5 Excess Public and Products Liability \r\n      Lot 6 Motor Fleet\r\n      Lot 7 Personal Accident\r\n      Lot 8 Combined Engineering\r\n      Lot 9 Directors and Officers\r\n      Lot 10 Fine Arts/Museums",
         "status": "complete",
         "items": [
           {
@@ -133,22 +127,22 @@
           }
         ],
         "minValue": {
-          "amount": 1000000,
+          "amount": 595000,
           "currency": "GBP"
         },
         "value": {
-          "amount": 2200000,
+          "amount": 0,
           "currency": "GBP"
         },
-        "procurementMethod": "open",
-        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
         "procurementMethodRationale": "",
         "awardCriteria": null,
         "awardCriteriaDetails": null,
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-09T00:00:00Z"
+          "endDate": "2019-11-04T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
@@ -162,47 +156,47 @@
         "numberOfTenderers": 2,
         "tenderers": [
           {
-            "id": "1",
-            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "id": "4",
+            "name": "ARTHUR J. GALLAGHER (UK) LIMITED"
           },
           {
-            "id": "2",
+            "id": "7",
             "name": "RISK MANAGEMENT PARTNERS LTD."
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-03-31T00:00:00Z",
-          "endDate": "2023-03-30T00:00:00Z"
+          "startDate": "2019-12-01T00:00:00Z",
+          "endDate": "2024-12-01T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "ed2c3175f8116513d556b92363f36d6b",
-        "name": "ESSEX COUNTY COUNCIL"
+        "id": "a0ac3bfcda61bc1940eb1757f8076725",
+        "name": "Museum of London"
       },
       "awards": [
         {
-          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
+          "id": "b53ae9ba-232b-4259-a866-7f60410db023",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-03-31T00:00:00Z",
+          "date": "2019-11-04T00:00:00Z",
           "value": {
-            "amount": 1000000,
+            "amount": 595000,
             "currency": "GBP"
           },
           "suppliers": [
             {
-              "id": "1",
-              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+              "id": "4",
+              "name": "ARTHUR J. GALLAGHER (UK) LIMITED"
             },
             {
-              "id": "2",
+              "id": "7",
               "name": "RISK MANAGEMENT PARTNERS LTD."
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-03-31T00:00:00Z",
-            "endDate": "2023-03-30T00:00:00Z"
+            "startDate": "2019-12-01T00:00:00Z",
+            "endDate": "2024-12-01T00:00:00Z"
           }
         }
       ]

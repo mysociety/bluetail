@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ae41c33-4a89-4c76-b491-8e7b5ca7ad37.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/cc7cd465-e075-4872-a7d0-edae3ff938ef.json",
   "version": "1.1",
-  "publishedDate": "2020-02-12T15:24:25Z",
+  "publishedDate": "2020-01-29T16:57:19Z",
   "publisher": {
-    "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+    "name": "UNIVERSITY OF ESSEX",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,56 +15,56 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-5f7001d9-3efc-40ba-8a0a-4756429a4c95",
-      "id": "ocds-b5fd17-5f7001d9-3efc-40ba-8a0a-4756429a4c95-343414-1475",
-      "date": "2019-10-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-623b6c7a-f944-4ccc-b325-e22ae4b1a54d",
+      "id": "ocds-b5fd17-623b6c7a-f944-4ccc-b325-e22ae4b1a54d-340387-t730",
+      "date": "2019-07-02T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "3f77ed31eabfaa920e20a98f5b60837a",
+          "id": "0dc62063f196aa567ba16f6ff2726504",
           "roles": [
             "buyer"
           ],
           "identifier": {
             "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/au8q6EUc",
+            "id": "sid4gov.cabinetoffice.gov.uk/7FXWaRZ8",
             "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
             "legalName": null
           },
-          "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+          "name": "UNIVERSITY OF ESSEX",
           "address": {
-            "streetAddress": "Wilton ",
-            "locality": "REDCAR",
+            "streetAddress": "University of Essex, Wivenhoe Park ",
+            "locality": "Colchester",
             "region": null,
-            "postalCode": "TS104RF",
+            "postalCode": "CO4 3SQ",
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Daryll Tighe",
-            "email": "e-tendering@uk-cpi.com",
-            "telephone": "01740 625716",
+            "name": "",
+            "email": "procure@essex.ac.uk",
+            "telephone": "01206 873013",
             "faxNumber": null
           }
         },
         {
-          "id": "3",
+          "id": "2",
           "roles": [
             "supplier",
             "tenderer"
           ],
           "identifier": {
-            "id": "04105738",
+            "id": "02530207",
             "scheme": "GB-COH",
-            "legalName": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
+            "legalName": "HUNTERS CONTRACTS LIMITED"
           },
           "sme": true,
           "vco": false,
-          "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD",
+          "name": "HUNTERS CONTRACTS LIMITED",
           "address": {
-            "streetAddress": "Aycliffe Business Park\nDL5 6YA\nGB",
+            "streetAddress": "Hindmans Way\nRM9 6LP\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
@@ -82,28 +82,28 @@
           }
         },
         {
-          "id": "4",
+          "id": "3",
           "roles": [
             "supplier",
             "tenderer"
           ],
           "identifier": {
-            "id": "02577009",
+            "id": "06437479",
             "scheme": "GB-COH",
-            "legalName": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+            "legalName": "FMS INTERIOR SERVICES LTD"
           },
           "sme": true,
           "vco": false,
-          "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED",
+          "name": "FMS INTERIOR SERVICES LTD",
           "address": {
-            "streetAddress": "The Square\nNORTH HUMBERSIDE\nHU13 0AE\nGB",
+            "streetAddress": "Unit 14 Trident Industrial Estate,Daten Avenue, Risley\nWARRINGTON\nCheshire\nWA3 6AX\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Keith Robinson",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
@@ -116,9 +116,9 @@
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-5f7001d9-3efc-40ba-8a0a-4756429a4c95-1475",
-        "title": "Framework for Automation Solutions and Specialist Consumables",
-        "description": "CPI wish to appoint a series of suppliers to support our lab automation requirements, primarily for our Formulation business unit based at our Coxon Building facility, through the support of our existing robotic platforms with upgrades, maintenance and ongoing consumable supply, and with the provision of new robotic platforms. The scope of supply for equipment purchases under this tender will include the supply and installation of equipment, with the option of commissioning the equipment if required. Purchases may include any design work, packing and shipping, training of users, maintenance, upgrades and ongoing running costs. This tender is split into 4 lots;\r\n&bull; Lot 1 - Purchase of new automation platforms\r\n&bull; Lot 2 - Purchase of automation solutions for existing Chemspeed robotic platforms\r\n&bull; Lot 3 - Purchase of automation solutions for existing Labman robotic platforms\r\n&bull; Lot 4 - Purchase of specialist consumables",
+        "id": "ocds-b5fd17-623b6c7a-f944-4ccc-b325-e22ae4b1a54d-t730",
+        "title": "T730 Provision of furniture and related services",
+        "description": "T730 Provision of furniture and related services framework agreement \r\n      The University of Essex is commencing this tender opportunity for the supply of different types of furniture including but not limited to office, breakout, laboratory, outdoor, reception, caf&eacute; / bistro, and integrated secure ICT desking furniture.\r\n      There will be three Lots. Lot 1 is for a Core List of Office Furniture, Lot 2 is for Design Led Furniture Projects and Lot 3 is for Specialist Ergonomic Furniture. \r\n      \r\n      Estimated framework agreement value excluding VAT between 0 GBP - 8 000 000 GBP",
         "status": "complete",
         "items": [
           {
@@ -126,9 +126,9 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "33790000",
-              "description": "Laboratory, hygienic or pharmaceutical glassware",
-              "uri": "http://cpv.data.ac.uk/code-33790000.html"
+              "id": "39100000",
+              "description": "Furniture",
+              "uri": "http://cpv.data.ac.uk/code-39100000.html"
             }
           },
           {
@@ -136,35 +136,35 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "48921000",
-              "description": "Automation system",
-              "uri": "http://cpv.data.ac.uk/code-48921000.html"
+              "id": "79934000",
+              "description": "Furniture design services",
+              "uri": "http://cpv.data.ac.uk/code-79934000.html"
             }
           }
         ],
         "minValue": {
-          "amount": 10000000,
-          "currency": "GBP"
-        },
-        "value": {
           "amount": 0,
           "currency": "GBP"
         },
-        "procurementMethod": "open",
-        "procurementMethodDetails": "Open procedure (OJEU)",
+        "value": {
+          "amount": 8000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (OJEU)",
         "procurementMethodRationale": "",
         "awardCriteria": null,
         "awardCriteriaDetails": null,
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-04T00:00:00Z"
+          "endDate": "2019-07-30T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
         "xClassifications": {
           "isSuitableForSme": true,
-          "isSuitableForVco": false,
+          "isSuitableForVco": true,
           "ojeuContractType": "Products"
         },
         "supplyChain": false,
@@ -172,47 +172,47 @@
         "numberOfTenderers": 2,
         "tenderers": [
           {
-            "id": "3",
-            "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
+            "id": "2",
+            "name": "HUNTERS CONTRACTS LIMITED"
           },
           {
-            "id": "4",
-            "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+            "id": "3",
+            "name": "FMS INTERIOR SERVICES LTD"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-01-01T00:00:00Z",
-          "endDate": "2024-01-01T00:00:00Z"
+          "startDate": "2019-10-21T00:00:00Z",
+          "endDate": "2023-10-20T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "3f77ed31eabfaa920e20a98f5b60837a",
-        "name": "CENTRE FOR PROCESS INNOVATION LIMITED"
+        "id": "0dc62063f196aa567ba16f6ff2726504",
+        "name": "UNIVERSITY OF ESSEX"
       },
       "awards": [
         {
-          "id": "8af29a49-3e5d-4914-86db-a4e305522905",
+          "id": "b800b43c-59d3-45e1-a625-a35edd45fcb9",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-01-24T00:00:00Z",
+          "date": "2020-01-07T00:00:00Z",
           "value": {
-            "amount": 10000000,
+            "amount": 0,
             "currency": "GBP"
           },
           "suppliers": [
             {
-              "id": "3",
-              "name": "NORTH ENGLAND LABORATORY SUPPLIES LTD"
+              "id": "2",
+              "name": "HUNTERS CONTRACTS LIMITED"
             },
             {
-              "id": "4",
-              "name": "SCIENTIFIC LABORATORY SUPPLIES LIMITED"
+              "id": "3",
+              "name": "FMS INTERIOR SERVICES LTD"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-01-24T00:00:00Z",
-            "endDate": "2024-01-24T00:00:00Z"
+            "startDate": "2020-01-20T00:00:00Z",
+            "endDate": "2024-01-19T00:00:00Z"
           }
         }
       ]

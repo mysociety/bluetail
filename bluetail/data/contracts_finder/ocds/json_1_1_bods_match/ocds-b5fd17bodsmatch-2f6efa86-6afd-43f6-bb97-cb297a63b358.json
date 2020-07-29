@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d9ebf584-7ce1-4570-91ab-90a1d397eaab.json",
   "version": "1.1",
-  "publishedDate": "2020-04-27T11:59:02Z",
+  "publishedDate": "2020-01-21T09:51:19Z",
   "publisher": {
-    "name": "ESSEX COUNTY COUNCIL",
+    "name": "Derby City Council",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,37 +15,37 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
-      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
-      "date": "2019-09-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-2f6efa86-6afd-43f6-bb97-cb297a63b358",
+      "id": "ocds-b5fd17-2f6efa86-6afd-43f6-bb97-cb297a63b358-338472-td1475",
+      "date": "2019-06-28T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "id": "f50e619e1f5718ded38c65883c89f2c8",
           "roles": [
             "buyer"
           ],
           "identifier": {
-            "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
-            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "scheme": "GB-LAE",
+            "id": "DER",
+            "uri": "https://local-authority-eng.register.gov.uk/record/DER",
             "legalName": null
           },
-          "name": "ESSEX COUNTY COUNCIL",
+          "name": "Derby City Council",
           "address": {
-            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
-            "locality": "CHELMSFORD",
+            "streetAddress": "Corporation Street ",
+            "locality": "Derby",
             "region": null,
-            "postalCode": "CM1 1LX",
+            "postalCode": "DE12FS",
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Ben Patterson / Melanie Bailey",
-            "email": "ben.patterson@essex.gov.uk",
-            "telephone": "03330321542",
+            "name": "Samina Rashid",
+            "email": "procurement@derby.gov.uk",
+            "telephone": "01332640768",
             "faxNumber": null
           }
         },
@@ -56,29 +56,29 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "01034343",
+            "id": "02827644",
             "scheme": "GB-COH",
-            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "legalName": "FINANCIAL DATA MANAGEMENT PLC"
           },
           "sme": false,
           "vco": false,
-          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+          "name": "FINANCIAL DATA MANAGEMENT PLC",
           "address": {
-            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
+            "streetAddress": "UNIT 7 ELECTRA BUSINESS PARK\nE16 4ES\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jane Glyn",
+            "name": "Alan Warner",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 287807
+            "amount": null
           }
         },
         {
@@ -88,37 +88,37 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "02989025",
+            "id": "04009079",
             "scheme": "GB-COH",
-            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+            "legalName": "PRINT IMAGE NETWORK LTD"
           },
           "sme": false,
           "vco": false,
-          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "name": "PRINT IMAGE NETWORK LTD",
           "address": {
-            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "streetAddress": "10 Heaton Lane Acorn Business Park\nSK4 1AS\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jenna Amos",
+            "name": "Pauline Selfe",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 11979
+            "amount": null
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
-        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
-        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "id": "ocds-b5fd17-2f6efa86-6afd-43f6-bb97-cb297a63b358-td1475",
+        "title": "The Supply of Bulk Mailing and Printing Services",
+        "description": "The tender is split in to two Lots, and Service Providers can bid for both or just one Lot.\r\n\r\nLot 1 is for the supply of Bulk Mailing and Printing Services in respect of the production and dispatch of a range of documents.\r\n\r\nLot 2 is for the supply of Elections and Electoral Bulk Mailing and Printing Services. The specification details various election and print scenarios that could occur in the first two years of the Initial Term.",
         "status": "complete",
         "items": [
           {
@@ -126,18 +126,38 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "66510000",
-              "description": "Insurance services",
-              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+              "id": "22821000",
+              "description": "Electoral forms",
+              "uri": "http://cpv.data.ac.uk/code-22821000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "22822000",
+              "description": "Business forms",
+              "uri": "http://cpv.data.ac.uk/code-22822000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "64112000",
+              "description": "Postal services related to letters",
+              "uri": "http://cpv.data.ac.uk/code-64112000.html"
             }
           }
         ],
         "minValue": {
-          "amount": 1000000,
+          "amount": 12500000,
           "currency": "GBP"
         },
         "value": {
-          "amount": 2200000,
+          "amount": 0,
           "currency": "GBP"
         },
         "procurementMethod": "open",
@@ -148,12 +168,12 @@
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-09T00:00:00Z"
+          "endDate": "2019-08-30T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
         "xClassifications": {
-          "isSuitableForSme": true,
+          "isSuitableForSme": false,
           "isSuitableForVco": false,
           "ojeuContractType": "Services"
         },
@@ -163,46 +183,46 @@
         "tenderers": [
           {
             "id": "1",
-            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "name": "FINANCIAL DATA MANAGEMENT PLC"
           },
           {
             "id": "2",
-            "name": "RISK MANAGEMENT PARTNERS LTD."
+            "name": "PRINT IMAGE NETWORK LTD"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-03-31T00:00:00Z",
-          "endDate": "2023-03-30T00:00:00Z"
+          "startDate": "2019-10-01T00:00:00Z",
+          "endDate": "2022-09-30T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "ed2c3175f8116513d556b92363f36d6b",
-        "name": "ESSEX COUNTY COUNCIL"
+        "id": "f50e619e1f5718ded38c65883c89f2c8",
+        "name": "Derby City Council"
       },
       "awards": [
         {
-          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
+          "id": "1da002cc-2237-4960-bf4e-a0199bca4045",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-03-31T00:00:00Z",
+          "date": "2019-09-23T00:00:00Z",
           "value": {
-            "amount": 1000000,
+            "amount": 1250000,
             "currency": "GBP"
           },
           "suppliers": [
             {
               "id": "1",
-              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+              "name": "FINANCIAL DATA MANAGEMENT PLC"
             },
             {
               "id": "2",
-              "name": "RISK MANAGEMENT PARTNERS LTD."
+              "name": "PRINT IMAGE NETWORK LTD"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-03-31T00:00:00Z",
-            "endDate": "2023-03-30T00:00:00Z"
+            "startDate": "2019-10-01T00:00:00Z",
+            "endDate": "2022-09-30T00:00:00Z"
           }
         }
       ]

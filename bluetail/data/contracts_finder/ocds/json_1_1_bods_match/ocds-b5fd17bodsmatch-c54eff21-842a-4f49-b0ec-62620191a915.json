@@ -1,0 +1,212 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8757015e-1ec7-4104-a0a3-7b0a45938744.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-07T14:40:40Z",
+  "publisher": {
+    "name": "N H S Wakefield Clinical Commissioning Group",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-c54eff21-842a-4f49-b0ec-62620191a915",
+      "id": "ocds-b5fd17-c54eff21-842a-4f49-b0ec-62620191a915-342485-wccgdcaqp1",
+      "date": "2019-10-25T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "bb2be3b7109b7bed90d96b58c948ad54",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "N H S Wakefield Clinical Commissioning Group",
+          "address": {
+            "streetAddress": "White Rose House ",
+            "locality": "Wakefield",
+            "region": null,
+            "postalCode": "WF11LT",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Brenda Powell",
+            "email": "Brenda.Powell@greaterhuddersfieldccg.nhs.uk",
+            "telephone": "01484 464262",
+            "faxNumber": null,
+            "uri": "https://www.wakefieldccg.nhs.uk/home/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "10499073",
+            "scheme": "GB-COH",
+            "legalName": "AEGIS CARE SOLUTIONS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "AEGIS CARE SOLUTIONS LIMITED",
+          "address": {
+            "streetAddress": "Suite 2 Diamond House,Whitelock Street\nLEEDS\nWest Yorkshire\nLS7 1AL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Gerald Johnson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "08985149",
+            "scheme": "GB-COH",
+            "legalName": "NICHE CARE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "NICHE CARE LIMITED",
+          "address": {
+            "streetAddress": "1 Phoenix Riverside,Sheffield Road\nROTHERHAM\nSouth Yorkshire\nS60 1FL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-c54eff21-842a-4f49-b0ec-62620191a915-wccgdcaqp1",
+        "title": "NHS Wakefield CCG: Domiciliary Care AQP",
+        "description": "The overarching aim for the service is for every service user to achieve their maximum possible level of independence at home and to improve well-being. \r\n\r\nThis represents a shift in thinking and approach away from traditional models of domiciliary care which have tended to focus on maintenance, rather than enablement, promoting independence and a person&#039;s individual wellbeing. \r\n\r\nThe objective is a change in culture, working practices, service delivery methods and the intention to foster a genuine spirit of partnership between the Parties, working closely together to ensure the successful implementation and further development of the domiciliary care service. \r\n\r\nAims &amp; Objectives\r\n\r\n&bull;\tTo provide high quality care through experienced, competent, supported and trained workforce\r\n&bull;\tTo improve the service users&#039; health and wellbeing and ensure their safety delaying and reducing the need for residential care and/or hospitalisation\r\n&bull;\tTo have care needs met in a way that puts the service user at the centre \r\n&bull;\tTo provide good quality care that meets the required and expected standards of domiciliary care providers\r\n&bull;\tTo safeguard vulnerable adults and care for people in a safe environment\r\n&bull;\tPromote the independence of people in their own homes and support people to regain and maintain their skills with a \"supporting to\" rather than \"doing for\" approach\r\n&bull;\tTo establish effective links with and work in close collaboration with other Health and Social Care Services to support service users&#039; care, signposting to other services and supporting this where required",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85100000",
+              "description": "Health services",
+              "uri": "http://cpv.data.ac.uk/code-85100000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 18200000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-08T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "AEGIS CARE SOLUTIONS LIMITED"
+          },
+          {
+            "id": "8",
+            "name": "NICHE CARE LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2025-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "bb2be3b7109b7bed90d96b58c948ad54",
+        "name": "N H S Wakefield Clinical Commissioning Group"
+      },
+      "awards": [
+        {
+          "id": "7061f851-566b-410a-b8f4-ffbb1cc99572",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-23T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "AEGIS CARE SOLUTIONS LIMITED"
+            },
+            {
+              "id": "8",
+              "name": "NICHE CARE LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2025-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

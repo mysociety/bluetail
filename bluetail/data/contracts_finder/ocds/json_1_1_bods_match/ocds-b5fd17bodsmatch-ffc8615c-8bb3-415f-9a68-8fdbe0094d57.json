@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/711a82e0-6732-4cb3-91fa-d46ee9fd0475.json",
   "version": "1.1",
-  "publishedDate": "2020-04-27T11:59:02Z",
+  "publishedDate": "2020-04-20T12:42:50Z",
   "publisher": {
-    "name": "ESSEX COUNTY COUNCIL",
+    "name": "LANCASHIRE CONSTABULARY",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,74 +15,42 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
-      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
-      "date": "2019-09-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-ffc8615c-8bb3-415f-9a68-8fdbe0094d57",
+      "id": "ocds-b5fd17-ffc8615c-8bb3-415f-9a68-8fdbe0094d57-354853-blpd-43816",
+      "date": "2019-09-13T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "id": "9eaaa9716f639a8e9e1a901390baff62",
           "roles": [
             "buyer"
           ],
           "identifier": {
             "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
+            "id": "sid4gov.cabinetoffice.gov.uk/zbKz776r",
             "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
             "legalName": null
           },
-          "name": "ESSEX COUNTY COUNCIL",
+          "name": "LANCASHIRE CONSTABULARY",
           "address": {
-            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
-            "locality": "CHELMSFORD",
+            "streetAddress": "SAUNDERS LANE ",
+            "locality": "Preston",
             "region": null,
-            "postalCode": "CM1 1LX",
+            "postalCode": "PR45SB",
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Ben Patterson / Melanie Bailey",
-            "email": "ben.patterson@essex.gov.uk",
-            "telephone": "03330321542",
+            "name": "PAUL EASTHAM",
+            "email": "paul.eastham@lancashire.pnn.police.uk",
+            "telephone": "01772 412322",
             "faxNumber": null
           }
         },
         {
-          "id": "1",
-          "roles": [
-            "supplier",
-            "tenderer"
-          ],
-          "identifier": {
-            "id": "01034343",
-            "scheme": "GB-COH",
-            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
-          },
-          "sme": false,
-          "vco": false,
-          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
-          "address": {
-            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
-            "locality": "",
-            "region": "",
-            "postalCode": "",
-            "countryName": ""
-          },
-          "contactPoint": {
-            "name": "Jane Glyn",
-            "email": "",
-            "telephone": "",
-            "faxNumber": ""
-          },
-          "x_awardValue": {
-            "currency": "GBP",
-            "amount": 287807
-          }
-        },
-        {
-          "id": "2",
+          "id": "4",
           "roles": [
             "supplier",
             "tenderer"
@@ -110,15 +78,47 @@
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 11979
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01193013",
+            "scheme": "GB-COH",
+            "legalName": "ARTHUR J. GALLAGHER (UK) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ARTHUR J. GALLAGHER (UK) LIMITED",
+          "address": {
+            "streetAddress": "25 Walbrook\nLONDON\nEC4N 8AW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Tim Devine",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
-        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
-        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "id": "ocds-b5fd17-ffc8615c-8bb3-415f-9a68-8fdbe0094d57-blpd-43816",
+        "title": "INSURANCE SERVICES",
+        "description": "Award of Various Insurance Services, Property, Crime/Fidelity Guarantee, Personal Accident and Travel, Engineering Services, Combined Liablity &amp; Motor Insurance, motor uninsured lost recovery, Airside Liability, and Terrorism awarded to different companies following a consortium tender of a number of police forces",
         "status": "complete",
         "items": [
           {
@@ -133,27 +133,27 @@
           }
         ],
         "minValue": {
-          "amount": 1000000,
+          "amount": 5423960,
           "currency": "GBP"
         },
         "value": {
-          "amount": 2200000,
+          "amount": 0,
           "currency": "GBP"
         },
-        "procurementMethod": "open",
-        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
         "procurementMethodRationale": "",
         "awardCriteria": null,
         "awardCriteriaDetails": null,
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-09T00:00:00Z"
+          "endDate": "2019-11-22T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
         "xClassifications": {
-          "isSuitableForSme": true,
+          "isSuitableForSme": false,
           "isSuitableForVco": false,
           "ojeuContractType": "Services"
         },
@@ -162,47 +162,47 @@
         "numberOfTenderers": 2,
         "tenderers": [
           {
-            "id": "1",
-            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "id": "4",
+            "name": "RISK MANAGEMENT PARTNERS LTD."
           },
           {
-            "id": "2",
-            "name": "RISK MANAGEMENT PARTNERS LTD."
+            "id": "5",
+            "name": "ARTHUR J. GALLAGHER (UK) LIMITED"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-03-31T00:00:00Z",
-          "endDate": "2023-03-30T00:00:00Z"
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2025-03-31T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "ed2c3175f8116513d556b92363f36d6b",
-        "name": "ESSEX COUNTY COUNCIL"
+        "id": "9eaaa9716f639a8e9e1a901390baff62",
+        "name": "LANCASHIRE CONSTABULARY"
       },
       "awards": [
         {
-          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
-          "title": "",
+          "id": "fa54b5c2-d510-45e3-a4eb-2e959a50ea39",
+          "title": null,
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-03-31T00:00:00Z",
+          "date": "2020-02-23T00:00:00Z",
           "value": {
-            "amount": 1000000,
+            "amount": 5219710,
             "currency": "GBP"
           },
           "suppliers": [
             {
-              "id": "1",
-              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+              "id": "4",
+              "name": "RISK MANAGEMENT PARTNERS LTD."
             },
             {
-              "id": "2",
-              "name": "RISK MANAGEMENT PARTNERS LTD."
+              "id": "5",
+              "name": "ARTHUR J. GALLAGHER (UK) LIMITED"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-03-31T00:00:00Z",
-            "endDate": "2023-03-30T00:00:00Z"
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2025-03-31T00:00:00Z"
           }
         }
       ]

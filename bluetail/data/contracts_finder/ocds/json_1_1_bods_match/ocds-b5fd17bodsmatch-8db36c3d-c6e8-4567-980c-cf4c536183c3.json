@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/70432f93-c64c-4d4b-a461-337c3d19ca64.json",
   "version": "1.1",
-  "publishedDate": "2020-04-27T11:59:02Z",
+  "publishedDate": "2020-04-30T18:28:05Z",
   "publisher": {
-    "name": "ESSEX COUNTY COUNCIL",
+    "name": "BRAVOSOLUTION UK LIMITED",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,110 +15,104 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
-      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
-      "date": "2019-09-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-8db36c3d-c6e8-4567-980c-cf4c536183c3",
+      "id": "ocds-b5fd17-8db36c3d-c6e8-4567-980c-cf4c536183c3-356855-tender_221866-853165",
+      "date": "2019-09-27T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "id": "67cc098ca6faa121e2448c0d607b1662",
           "roles": [
             "buyer"
           ],
-          "identifier": {
-            "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
-            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
-            "legalName": null
-          },
-          "name": "ESSEX COUNTY COUNCIL",
+          "name": "Pension Protection Fund",
           "address": {
-            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
-            "locality": "CHELMSFORD",
+            "streetAddress": "12 Dingwall Road, ",
+            "locality": "Croydon",
             "region": null,
-            "postalCode": "CM1 1LX",
+            "postalCode": "CR0 2NA",
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Ben Patterson / Melanie Bailey",
-            "email": "ben.patterson@essex.gov.uk",
-            "telephone": "03330321542",
+            "name": "Pension Protection Fund",
+            "email": "commercialservices@ppf.co.uk",
+            "telephone": "",
             "faxNumber": null
           }
         },
         {
-          "id": "1",
+          "id": "7",
           "roles": [
             "supplier",
             "tenderer"
           ],
           "identifier": {
-            "id": "01034343",
+            "id": "OC303675",
             "scheme": "GB-COH",
-            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "legalName": "DELOITTE LLP"
           },
           "sme": false,
           "vco": false,
-          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+          "name": "DELOITTE LLP",
           "address": {
-            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
+            "streetAddress": "1 New Street Square, London, EC4A 3HQ",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jane Glyn",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 287807
+            "amount": null
           }
         },
         {
-          "id": "2",
+          "id": "11",
           "roles": [
             "supplier",
             "tenderer"
           ],
           "identifier": {
-            "id": "02989025",
+            "id": "OC301540",
             "scheme": "GB-COH",
-            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+            "legalName": "KPMG LLP"
           },
           "sme": false,
           "vco": false,
-          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "name": "KPMG LLP",
           "address": {
-            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "streetAddress": "15 Canada Square, London, E14 5GL",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jenna Amos",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 11979
+            "amount": null
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
-        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
-        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "id": "ocds-b5fd17-8db36c3d-c6e8-4567-980c-cf4c536183c3-tender_221866",
+        "title": "Trustee and Support Services",
+        "description": "Services to cover situations where scheme employers are undergoing corporate restructuring, particularly where this involves insolvency proceedings. Services to support incumbent trustee boards by offering\r\nspecialist restructuring and insolvency advice, relating to the position of schemes, employers and the PPF in the context of an anticipated restructuring/insolvency event.  \r\n\r\nLot 1 Restructuring and Pre Insolvency Services\r\nLot 2 Trustee Services and Assessment Period work",
         "status": "complete",
         "items": [
           {
@@ -126,18 +120,18 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "66510000",
-              "description": "Insurance services",
-              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+              "id": "66520000",
+              "description": "Pension services",
+              "uri": "http://cpv.data.ac.uk/code-66520000.html"
             }
           }
         ],
         "minValue": {
-          "amount": 1000000,
+          "amount": 10000000,
           "currency": "GBP"
         },
         "value": {
-          "amount": 2200000,
+          "amount": 46000000,
           "currency": "GBP"
         },
         "procurementMethod": "open",
@@ -148,7 +142,7 @@
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-09T00:00:00Z"
+          "endDate": "2019-11-22T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
@@ -162,47 +156,47 @@
         "numberOfTenderers": 2,
         "tenderers": [
           {
-            "id": "1",
-            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "id": "7",
+            "name": "DELOITTE LLP"
           },
           {
-            "id": "2",
-            "name": "RISK MANAGEMENT PARTNERS LTD."
+            "id": "11",
+            "name": "KPMG LLP"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-03-31T00:00:00Z",
-          "endDate": "2023-03-30T00:00:00Z"
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "ed2c3175f8116513d556b92363f36d6b",
-        "name": "ESSEX COUNTY COUNCIL"
+        "id": "67cc098ca6faa121e2448c0d607b1662",
+        "name": "Pension Protection Fund"
       },
       "awards": [
         {
-          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
+          "id": "d84955a5-1348-4913-bf19-2a2e8c818b1b",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-03-31T00:00:00Z",
+          "date": "2020-04-01T00:00:00Z",
           "value": {
-            "amount": 1000000,
+            "amount": 46000000,
             "currency": "GBP"
           },
           "suppliers": [
             {
-              "id": "1",
-              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+              "id": "7",
+              "name": "DELOITTE LLP"
             },
             {
-              "id": "2",
-              "name": "RISK MANAGEMENT PARTNERS LTD."
+              "id": "11",
+              "name": "KPMG LLP"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-03-31T00:00:00Z",
-            "endDate": "2023-03-30T00:00:00Z"
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
           }
         }
       ]

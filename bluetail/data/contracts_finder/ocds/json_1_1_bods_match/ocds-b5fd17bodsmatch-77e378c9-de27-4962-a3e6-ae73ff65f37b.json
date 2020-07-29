@@ -1,9 +1,9 @@
 {
-  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ae189a80-dcc3-4e8b-8047-c2870ea97b9e.json",
   "version": "1.1",
-  "publishedDate": "2020-04-27T11:59:02Z",
+  "publishedDate": "2020-05-18T12:45:21Z",
   "publisher": {
-    "name": "ESSEX COUNTY COUNCIL",
+    "name": "Barnsley, Doncaster, Rotherham and Sheffield Combined Authority",
     "scheme": "GB-GOVUK-crown_comercial_service",
     "uid": null,
     "uri": "https://www.contractsfinder.service.gov.uk"
@@ -15,37 +15,37 @@
   "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
   "releases": [
     {
-      "ocid": "ocds-b5fd17bodsmatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
-      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
-      "date": "2019-09-30T00:00:00Z",
+      "ocid": "ocds-b5fd17bodsmatch-77e378c9-de27-4962-a3e6-ae73ff65f37b",
+      "id": "ocds-b5fd17-77e378c9-de27-4962-a3e6-ae73ff65f37b-359554-ps1920-029",
+      "date": "2019-12-20T00:00:00Z",
       "tag": [
         "tender"
       ],
       "initiationType": "tender",
       "parties": [
         {
-          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "id": "05d385af30b5f9f0785363865bf7a6a6",
           "roles": [
             "buyer"
           ],
           "identifier": {
             "scheme": "GB-SRS",
-            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
+            "id": "",
             "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
             "legalName": null
           },
-          "name": "ESSEX COUNTY COUNCIL",
+          "name": "Barnsley, Doncaster, Rotherham and Sheffield Combined Authority",
           "address": {
-            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
-            "locality": "CHELMSFORD",
+            "streetAddress": "S1 2BQ ",
+            "locality": "Sheffield",
             "region": null,
-            "postalCode": "CM1 1LX",
+            "postalCode": "S12BQ",
             "countryName": "England"
           },
           "contactPoint": {
-            "name": "Ben Patterson / Melanie Bailey",
-            "email": "ben.patterson@essex.gov.uk",
-            "telephone": "03330321542",
+            "name": "Joe Gardner",
+            "email": "procurement@sheffieldcityregion.org.uk",
+            "telephone": null,
             "faxNumber": null
           }
         },
@@ -56,29 +56,29 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "01034343",
+            "id": "01093549",
             "scheme": "GB-COH",
-            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "legalName": "ARCADIS (UK) LIMITED"
           },
           "sme": false,
           "vco": false,
-          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+          "name": "ARCADIS (UK) LIMITED",
           "address": {
-            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
+            "streetAddress": "Arcadis House, 34 York Way\nLONDON\nN1 9AB\nGB",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jane Glyn",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 287807
+            "amount": 39500
           }
         },
         {
@@ -88,37 +88,37 @@
             "tenderer"
           ],
           "identifier": {
-            "id": "02989025",
+            "id": "09882722",
             "scheme": "GB-COH",
-            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+            "legalName": "CAST CONSULT LIMITED"
           },
           "sme": false,
           "vco": false,
-          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "name": "CAST CONSULT LIMITED",
           "address": {
-            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "streetAddress": "Charles Lake House,\r\nClaire Causeway, \r\nCrossways Business Park, \r\nDartford, \r\nUnited Kingdom, \r\nDA2 6QA",
             "locality": "",
             "region": "",
             "postalCode": "",
             "countryName": ""
           },
           "contactPoint": {
-            "name": "Jenna Amos",
+            "name": "",
             "email": "",
             "telephone": "",
             "faxNumber": ""
           },
           "x_awardValue": {
             "currency": "GBP",
-            "amount": 11979
+            "amount": 39500
           }
         }
       ],
       "language": "en-GB",
       "tender": {
-        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
-        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
-        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "id": "ocds-b5fd17-77e378c9-de27-4962-a3e6-ae73ff65f37b-ps1920-029",
+        "title": "SCR Modern Methods of Construction (MMC) Audit - Eco System &amp; Opportunity",
+        "description": "Sheffield City Region Mayoral Combined Authority (SCRMCA) is seeking proposals for a Modern Methods of Construction (MMC) Audit. Sheffield City Region (SCR) has the ambition to be the national centre of excellence and to become the &#039;go to place&#039; for MMC. SCRMCA require support to understand the scale of the opportunity, its assets and the action required to support this ambition. The intention behind this piece of work is to define the opportunity that MMC could present for the 4 South Yorkshire authorities in the SCR (Barnsley, Rotherham, Doncaster and Sheffield), define the eco-system that already exists within the region and set out the steps SCRMCA could take to nurture and support this emerging market.\r\n\r\nFor more details and to apply, please visit:\r\nhttps://sheffieldcityregion.org.uk/explore/funding-opportunities/\r\n",
         "status": "complete",
         "items": [
           {
@@ -126,35 +126,35 @@
             "description": "See description of related tender.",
             "classification": {
               "scheme": "CPV",
-              "id": "66510000",
-              "description": "Insurance services",
-              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+              "id": "79400000",
+              "description": "Business and management consultancy and related services",
+              "uri": "http://cpv.data.ac.uk/code-79400000.html"
             }
           }
         ],
         "minValue": {
-          "amount": 1000000,
+          "amount": 0,
           "currency": "GBP"
         },
         "value": {
-          "amount": 2200000,
+          "amount": 40000,
           "currency": "GBP"
         },
         "procurementMethod": "open",
-        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodDetails": "Open (non-OJEU)",
         "procurementMethodRationale": "",
         "awardCriteria": null,
         "awardCriteriaDetails": null,
         "submissionMethod": null,
         "submissionMethodDetails": null,
         "tenderPeriod": {
-          "endDate": "2019-12-09T00:00:00Z"
+          "endDate": "2020-02-28T00:00:00Z"
         },
         "hasEnquiries": null,
         "eligibilityCriteria": null,
         "xClassifications": {
           "isSuitableForSme": true,
-          "isSuitableForVco": false,
+          "isSuitableForVco": true,
           "ojeuContractType": "Services"
         },
         "supplyChain": false,
@@ -163,46 +163,46 @@
         "tenderers": [
           {
             "id": "1",
-            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            "name": "ARCADIS (UK) LIMITED"
           },
           {
             "id": "2",
-            "name": "RISK MANAGEMENT PARTNERS LTD."
+            "name": "CAST CONSULT LIMITED"
           }
         ],
         "contractPeriod": {
-          "startDate": "2020-03-31T00:00:00Z",
-          "endDate": "2023-03-30T00:00:00Z"
+          "startDate": "2020-03-06T00:00:00Z",
+          "endDate": "2020-06-30T00:00:00Z"
         }
       },
       "buyer": {
-        "id": "ed2c3175f8116513d556b92363f36d6b",
-        "name": "ESSEX COUNTY COUNCIL"
+        "id": "05d385af30b5f9f0785363865bf7a6a6",
+        "name": "Barnsley, Doncaster, Rotherham and Sheffield Combined Authority"
       },
       "awards": [
         {
-          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
+          "id": "62e9e962-9a8d-41cd-a1a6-c5851432bab2",
           "title": "",
           "description": "See description of related tender",
           "status": "active",
-          "date": "2020-03-31T00:00:00Z",
+          "date": "2020-03-06T00:00:00Z",
           "value": {
-            "amount": 1000000,
+            "amount": 39500,
             "currency": "GBP"
           },
           "suppliers": [
             {
               "id": "1",
-              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+              "name": "ARCADIS (UK) LIMITED"
             },
             {
               "id": "2",
-              "name": "RISK MANAGEMENT PARTNERS LTD."
+              "name": "CAST CONSULT LIMITED"
             }
           ],
           "contractPeriod": {
-            "startDate": "2020-03-31T00:00:00Z",
-            "endDate": "2023-03-30T00:00:00Z"
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2020-11-30T00:00:00Z"
           }
         }
       ]
