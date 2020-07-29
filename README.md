@@ -190,21 +190,66 @@ The data pre-processing step creates three example datasets under `data/contract
 Of these three example datasets, bodsmatch represents an ideal dataset. This has tendering companies listed in the contract data, with fully populated accompanying unique identifiers from a canonical source of organisational identifiers, and beneficial ownership information available for each company, in a dataset that uses the same identifiers.
 
 
-### Updating the OCDS data (TODO Louise edit this update from Erin)
+### Updating the OCDS data (TODO Louise edit this update from Erin/Sim)
 
-There is a script to update the OCDS JSON data:
+There is a standalone script to download/update the OCDS JSON data:
 
-- bluetail/data/contracts_finder/processing/scripts/cf_notices_ocds_api.py
+- `bluetail/data/contracts_finder/processing/scripts/cf_notices_ocds_api.py`
 
-    This has options to overwrite the existing example files by OCID, or to search notices between dates from the Contracts Finder API.
-    
-    Further arguments can be added to create datasets where all entities have a matching BODS document, Companies House ID, or leaving all distinct entities in.
-    
-    Note existing data uses fully BODS matched suppliers.
-    
-    As tenderer information is not given in the tender phase, this uses successful suppliers in award documents and uses them to replicate tenderers in the competitive phase.
-    
+**NOTE This script uses the Elasticsearch BODS index created by `create_openownership_elasticsearch_index` and supplied Companies House matched IDs in `openopps_supplier_matches.csv` for matching.**
 
+There is a Django management command wrapper that can be called using:
+
+    script/manage get_contracts_finder_ocds_data
+    
+The script has options to overwrite the existing example files by OCID, or to search notices between dates from the Contracts Finder API.
+
+Further arguments can be added to create datasets where all entities have a matching BODS document, Companies House ID, or leaving all distinct entities in.
+
+Note existing data uses fully BODS matched suppliers.
+
+As tenderer information is not given in the tender phase, this uses successful suppliers in award documents and uses them to replicate tenderers in the competitive phase.
+
+Sample data is provided in the dirs
+
+    /bluetail/data/contracts_finder/ocds/json_1_1_bods_match
+    /bluetail/data/contracts_finder/ocds/json_1_1_supplier_ids_match
+    /bluetail/data/contracts_finder/ocds/json_1_1_raw
+
+To download the raw data again or with different arguments run these commands:
+
+    script/manage get_contracts_finder_ocds_data --dataset=raw
+
+Or for the linked data
+NOTE: This depends on there being Companies House numbers linked to the OCDS suppliers in the `openopps_supplier_matches.csv` file! 
+
+    script/manage get_contracts_finder_ocds_data --dataset=suppliermatch
+    script/manage get_contracts_finder_ocds_data --dataset=bodsmatch
+    
+To update just any existing files append `--update`
+
+    script/manage get_contracts_finder_ocds_data --dataset=raw --update
+    
+To clear the existing data first append `--clear`
+
+    script/manage get_contracts_finder_ocds_data --dataset=raw --clear
+    
+After updating the local OCDS files, we need to insert it and rerun the BODS data script to download the BODS statements from the Elasticsearch index
+
+    script/manage insert_data bluetail/data/contracts_finder --anonymise
+    script/manage get_bods_statements_from_ocds
+    
+We then insert the data again with the BODS data
+
+    script/manage insert_data bluetail/data/contracts_finder --anonymise
+
+And run `scan_contracts` to update the flags.
+
+    script/manage scan_contracts
+    
+Or run the full setup instead to rebuild the database using all the latest files
+
+    script/setup 
 
 ##### Beneficial ownership data
 

@@ -12,6 +12,8 @@ https://www.contractsfinder.service.gov.uk/Published/Notice/releases/450280ac-b3
 https://www.contractsfinder.service.gov.uk/Published/Notice/releases/5fecfc86-007a-4966-94e2-c695018ec2dd.json
 """
 import argparse
+import shutil
+
 from urllib3.util import Retry
 import json
 from datetime import datetime, timedelta, date
@@ -38,8 +40,6 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
 ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL")
-DATABASE_URL = os.environ.get('DATABASE_URL')
-OPENOPPS_DB_URL = os.environ.get('OPENOPPS_DB_URL')
 OCDS_OUTPUT_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data", "contracts_finder", "ocds")
 PROCESSING_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data", "contracts_finder", "processing")
 SUPPLIER_DF_PATH = os.path.join(settings.BLUETAIL_APP_DIR, "data", "contracts_finder", "processing", 'openopps_supplier_matches.csv')
@@ -347,9 +347,25 @@ def clean_and_dump_1_1_tenders(notice_json, datasetinfo):
 
 def run(**kwargs):
 
-    downloader = CFDownload(**kwargs)
     dataset = kwargs.get('dataset')
+    clear = kwargs.get('clear')
+    downloader = CFDownload(**kwargs)
+    global supplier_df
+    supplier_df = pd.read_csv(
+        SUPPLIER_DF_PATH,
+        index_col='legal_name'
+    )
 
+    # Clear existing files if --clear
+    dataset_path = os.path.join(OCDS_OUTPUT_DIR, downloader.dataset_dir)
+
+    if clear and os.path.exists(dataset_path):
+        shutil.rmtree(dataset_path)
+
+    if not os.path.exists(dataset_path):
+        os.makedirs(dataset_path)
+
+    i = 0
     for i, notice_ocds_json in enumerate(downloader.get_notices()):
         try:
             uri = notice_ocds_json["uri"]
@@ -374,7 +390,7 @@ def run(**kwargs):
 
             downloader.saved += 1
             if downloader.saved >= downloader.rows:
-                logger.info(f'Inserted {downloader.saved} notices')
+                logger.info(f'Saved {downloader.saved} notices')
                 break
 
         except KeyboardInterrupt:
@@ -388,10 +404,10 @@ def run(**kwargs):
     logger.info('Skipped {0} notices.'.format(downloader.too_few_suppliers_skipped + downloader.too_few_matched_suppliers_skipped))
 
 
-def create_parser():
-    parser = argparse.ArgumentParser()
+def add_arguments(parser):
     parser.add_argument("-s", "--dataset", type=str, help="Options of 'bodsmatch', 'suppliermatch' or 'raw'", default='bodsmatch')
     parser.add_argument("-u", "--update", action='store_true', default=False, help="Update notices already outputted by uri of saved files.")
+    parser.add_argument("-c", "--clear", action='store_true', default=False, help="Clear existing files before downloading.")
     parser.add_argument("-d", "--days", type=int, help="Import the last x days of notices.")
     parser.add_argument("-r", "--rows", type=int, help="Import x notices in total.", default=100)
     parser.add_argument("-f", "--fromdate", help="Import from date. YYYY-MM-DD", default='2020-01-01')
@@ -404,12 +420,10 @@ def kwargs_from_parsed_args(args):
 
 
 if __name__ == '__main__':
-    parser = create_parser()
+    parser = argparse.ArgumentParser()
+    parser = add_arguments(parser)
     parser.print_help()
     args = parser.parse_args()
-    supplier_df = pd.read_csv(
-        SUPPLIER_DF_PATH,
-        index_col='legal_name')
 
     try:
         run(**kwargs_from_parsed_args(args))
