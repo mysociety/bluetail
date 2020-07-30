@@ -317,30 +317,62 @@ or without prompt (username: admin, password: admin)
 
 ## Tradeoffs between postgres views and tables for OCDS data
 
-The way bluetail currently works is the OCDS JSON is loaded into PostgreSQL in
-its raw form. Postgres views are used to query this JSON and convert it to a
-tabular format.
+The way bluetail currently works with the OCDS and BODS data is to store 
+each JSON document in it's raw form, and Postgres views are used to 
+query parts of the JSON and convert it to a tabular format for Django models.
+The Postgres views are embedded and managed from the models using the python package `django-pgviews-redux`.
+
+https://pypi.org/project/django-pgviews-redux/
 
 Pros
 
 - Simple to load the data in, just add JSON
 - Don't have to define the schema up-front
 - Can do ad-hoc queries on the full data
+- Easy to update the models during development
 
 Cons
 
 - Makes it harder to join between OCDS data and BODS entities
 - Need to have a deep understanding of OCDS/BODS to query the database effectively
 
-Contrast this to using foreign keys. This would require defining a schema
-up-front and then parsing the JSON and storing it in the appropriate table(s).
+
+An alternative approach would be defining a schema up-front and then parsing the JSON 
+and storing it in the appropriate table(s) with ForeignKeys. 
 
 Pros
 
 - Don't need to have a deep understanding of OCDS/BODS to query the data
-- Makes joining between tables easier
+- Makes joining between tables easier, exploiting Django ORM 
 
 Cons
 
 - Time consuming and potentially error-prone defining a schema up-front
 - Quite a bit of data processing required to load JSON into separate tables
+- Difficult to update the schema  
+
+
+ForeignKey fields could also have been used with `django-pgviews` but require careful thought as both OCDS and BODS
+have various many-to-many and one-to-many relationships in the identifiers used, and many OCDS identifiers are only 
+unique within an OCDS release and not global.
+Linking the datasets proved tricky with the various identifier schemas in each dataset and duplicated identifiers
+in the BODS data.
+
+https://standard.open-contracting.org/latest/en/schema/identifiers/#identifiers
+http://standard.openownership.org/en/0.2.0/schema/guidance/identifiers.html
+
+A workaround was used to build "helper" functions to abstract the queries needed to retrieve linked
+data without needing to hardcode the relationships into the models using ForeignKey or ManyToMany fields. 
+
+Other Alternatives
+
+There are some existing OCDS tools that create flat relational tables in Postgres and could potentially
+be incorporated into this project, but they are very comprehensive and use the entire OCDS schema.
+It was decided the added dependency and knowledge of these tools more effort than needed for an Alpha,
+but mentioned here for possible future development. 
+
+OCDS Kingfisher Process
+https://kingfisher-process.readthedocs.io/en/latest/
+
+OCDS Kit - Tabulate command
+https://ocdskit.readthedocs.io/en/latest/cli/ocds.html#tabulate
