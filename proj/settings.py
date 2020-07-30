@@ -55,7 +55,6 @@ INSTALLED_APPS = [
     # "cove_ocds",
 
     'bluetail',
-    'silvereye',
     'django_pgviews',
 ]
 
