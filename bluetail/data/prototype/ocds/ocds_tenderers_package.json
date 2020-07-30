@@ -14,30 +14,15 @@
         {
           "identifier": {
             "scheme": "GB-LAC",
-            "id": "E09000003",
-            "legalName": "London Borough of Toupee",
-            "uri": "http://www.barnet.gov.uk/"
+            "id": "E12345678",
+            "legalName": "London Borough of Toupee"
           },
           "name": "London Borough of Toupee",
-          "address": {
-            "streetAddress": "4, North London Business Park, Oakleigh Rd S",
-            "locality": "London",
-            "region": "London",
-            "postalCode": "N11 1NP",
-            "countryName": "United Kingdom"
-          },
-          "contactPoint": {
-            "name": "Procurement Team",
-            "email": "procurement-team@example.com",
-            "telephone": "01234 345 346",
-            "faxNumber": "01234 345 345",
-            "url": "http://example.com/contact/"
-          },
           "roles": [
             "procuringEntity",
             "buyer"
           ],
-          "id": "GB-LAC-E09000003"
+          "id": "GB-LAC-E12345678"
         },
         {
           "identifier": {
@@ -148,7 +133,7 @@
         }
       ],
       "buyer": {
-        "id": "GB-LAC-E09000003",
+        "id": "GB-LAC-E12345678",
         "name": "London Borough of Toupee"
       },
       "tender": {
@@ -178,7 +163,7 @@
           "endDate": "2021-06-01T23:59:59Z"
         },
         "procuringEntity": {
-          "id": "GB-LAC-E09000003",
+          "id": "GB-LAC-E12345678",
           "name": "London Borough of Toupee"
         },
         "numberOfTenderers": 5,
