@@ -1,0 +1,31 @@
+.figure-box {
+  svg {
+    margin-top: $spacer/2
+  }
+}
+
+.figure-box__change {
+  font-weight: bold;
+}
+
+.figure-box__main-figure {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.figure-box__compare-figure {
+  font-weight: bold;
+}
+
+.figure-box--up {
+  color: $green;
+}
+
+.figure-box--down {
+  color: $red;
+}
+
+.figures-dropdown {
+  font-size: 14px;
+}
