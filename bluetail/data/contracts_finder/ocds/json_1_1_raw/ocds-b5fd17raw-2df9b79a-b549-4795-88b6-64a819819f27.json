@@ -1,0 +1,331 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d5b84613-c1b3-4a82-bf7b-d11defe79594.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-27T11:18:25Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-2df9b79a-b549-4795-88b6-64a819819f27",
+      "id": "ocds-b5fd17-2df9b79a-b549-4795-88b6-64a819819f27-360864-ncl001-dn477514-05362649",
+      "date": "2020-02-28T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "763d2063e7800f9ed0a5da06faa5d8ec",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Newcastle University",
+          "address": {
+            "streetAddress": "Newcastle University King&#039;s Gate",
+            "locality": "Newcastle upon Tyne",
+            "region": null,
+            "postalCode": "NE1 7RU",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Helen Gayton",
+            "email": "helen.gayton@ncl.ac.uk",
+            "telephone": "+44 1912086220",
+            "faxNumber": null,
+            "uri": "https://www.ncl.ac.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Emanuela D&#039;Ignazio",
+          "address": {
+            "streetAddress": "Via Marino Laziale, 19\nRome\nItaly\n00179",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Geostudi Astier srl",
+          "address": {
+            "streetAddress": "Via Edda Fagni 31\nLivorno\nItaly\n57123",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Gianfranco Morelli",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Jon Allison",
+          "address": {
+            "streetAddress": "Sunnyholme\nLow Cotehill\nCarlisle\nCumbria\nUnited Kingdom\nCA4 0EJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "New Visions Heritage Ltd",
+          "address": {
+            "streetAddress": "15 Windsor Gardens\nWhitley Bay\nTyne and Wear\nUnited Kingdom\nNE26 3BG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "David Heslop",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "University of Siena",
+          "address": {
+            "streetAddress": "Department of History and Cultural Heritage\nvia Roma, 47\nPalazzo San Galgano\nSiena\nItaly\n53100",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Stefano Campana",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-2df9b79a-b549-4795-88b6-64a819819f27-ncl001-dn477514-05362649",
+        "title": "NU/1585 The Provision of Consultancy to the RomeTrans-ERC Project",
+        "description": "Newcastle University is using an ERC Advanced Grant to fund the Rome Trans Project.\r\nThis project revolutionises our understanding of Rome and its place in cultural change across the Mediterranean World by mapping political, military and religious changes to the Eastern Caelian from the first to eighth centuries.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "73210000",
+              "description": "Research consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-73210000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 70000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 70000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-05-15T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Emanuela D&#039;Ignazio"
+          },
+          {
+            "id": "2",
+            "name": "Geostudi Astier srl"
+          },
+          {
+            "id": "3",
+            "name": "Jon Allison"
+          },
+          {
+            "id": "4",
+            "name": "New Visions Heritage Ltd"
+          },
+          {
+            "id": "5",
+            "name": "University of Siena"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-19T00:00:00Z",
+          "endDate": "2021-05-18T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "763d2063e7800f9ed0a5da06faa5d8ec",
+        "name": "Newcastle University"
+      },
+      "awards": [
+        {
+          "id": "b126a9ce-e088-44f7-b4cc-46b231243b06",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-18T00:00:00Z",
+          "value": {
+            "amount": 62150,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Emanuela D&#039;Ignazio"
+            },
+            {
+              "id": "2",
+              "name": "Geostudi Astier srl"
+            },
+            {
+              "id": "3",
+              "name": "Jon Allison"
+            },
+            {
+              "id": "4",
+              "name": "New Visions Heritage Ltd"
+            },
+            {
+              "id": "5",
+              "name": "University of Siena"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-19T00:00:00Z",
+            "endDate": "2021-05-18T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

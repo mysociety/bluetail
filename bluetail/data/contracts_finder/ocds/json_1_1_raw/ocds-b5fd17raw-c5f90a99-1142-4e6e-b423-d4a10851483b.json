@@ -1,0 +1,207 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ffebfc31-55d7-4d63-a76d-782020b75905.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-12T09:05:15Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-c5f90a99-1142-4e6e-b423-d4a10851483b",
+      "id": "ocds-b5fd17-c5f90a99-1142-4e6e-b423-d4a10851483b-358089-bip86510977",
+      "date": "2019-12-25T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "ad401b38437915fb1979064de8c65333",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Ministry of Defence, C&amp;C, C&amp;C",
+          "address": {
+            "streetAddress": "Commercial Branch C Block",
+            "locality": "Angliskos Stratos, Epskopi",
+            "region": null,
+            "postalCode": "BF1 2AS",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "UKStratCom-ComrclC1-10@mod.gov.uk",
+            "telephone": "+35725962120",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SSAFA",
+          "address": {
+            "streetAddress": "Queen Elizabeth House\n        4 St Dunstan&#039;s Hill\n        London\n        EC3 8AD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Core Assets Group Ltd",
+          "address": {
+            "streetAddress": "Malvern View\n        Saxon Business Park\n        Hanbury Road, Stoke Prior\n        Bromsgrove\n        B60 4AD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-c5f90a99-1142-4e6e-b423-d4a10851483b-bip86510977",
+        "title": "Provision of Community Healthcare (CHC) and Social Work Services (SWS) to British Forces Cyprus (BFC)",
+        "description": "The provision of (or access to) effective, safe, efficient CHC to the entitled and eligible population. Statutory responsibilities are to be discharged in full; other services must meet acceptable clinical standards when benchmarked against UK NHS and the National Institute for Health and Clinical Excellence (NICE) guidelines and practices. Additionally, the provision of fully integrated and managed SW service structured to replicate the statutory services normally provided in the UK by a local authority. The Service needs to be consistent with UK best practice, evidence-based, and in accordance with extant MOD and NHS policy. UK legislation (such as the Children Act 1989 and the Children Act 2004) does not apply outside the UK, however BFC is mandated to replicate the spirit of UK legislation, where it is practicable to do so.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 15000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-08T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "SSAFA"
+          },
+          {
+            "id": "2",
+            "name": "Core Assets Group Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-07-01T00:00:00Z",
+          "endDate": "2024-06-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "ad401b38437915fb1979064de8c65333",
+        "name": "Ministry of Defence, C&amp;C, C&amp;C"
+      },
+      "awards": [
+        {
+          "id": "68d23540-3dea-407a-9ebe-5b04d4b01019",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-06T00:00:00Z",
+          "value": {
+            "amount": 15000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "SSAFA"
+            },
+            {
+              "id": "2",
+              "name": "Core Assets Group Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-07-01T00:00:00Z",
+            "endDate": "2024-06-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

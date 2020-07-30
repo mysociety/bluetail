@@ -1,0 +1,741 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/31709fa6-3db0-4c85-ae9e-791d6bbadcc8.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-19T10:49:41Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-008e7376-6d53-4e59-892b-8abf09a0470e",
+      "id": "ocds-b5fd17-008e7376-6d53-4e59-892b-8abf09a0470e-359725-dcc001-dn449623-99139294",
+      "date": "2019-10-24T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "f56445f47005c667f83e94bbc5c5d6f1",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Durham County Council",
+          "address": {
+            "streetAddress": "County Hall ",
+            "locality": "Durham",
+            "region": null,
+            "postalCode": "DH1 5UG",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Donna Iley",
+            "email": "donna.iley@durham.gov.uk",
+            "telephone": "+44 3000268235",
+            "faxNumber": null,
+            "uri": "http://www.durham.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Eden Training Academy Limited",
+          "address": {
+            "streetAddress": "TS23 4AZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Dawn Skerritt",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Education Development Trust",
+          "address": {
+            "streetAddress": "RG1 4RU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Sophie Shellam",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ALD Hairdressing Training Academy",
+          "address": {
+            "streetAddress": "DH3 1DW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Julie Doulglas",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Finchale Training College",
+          "address": {
+            "streetAddress": "DH1 1TH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Vikkie Wilkinson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "First Point Training",
+          "address": {
+            "streetAddress": "DH1 5ER",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Mandy English-Jones",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Groundwork North East",
+          "address": {
+            "streetAddress": "DL5 6ZE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Beverley Logan",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Optimum Skills Limited",
+          "address": {
+            "streetAddress": "DL5 6DX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Diane Shakespeare",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": true,
+          "name": "The Oaklea Trust",
+          "address": {
+            "streetAddress": "LA9 6SA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Alex Wolfenden",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SMARTT North East Ltd",
+          "address": {
+            "streetAddress": "dh9 6bg",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "mr Barry Joyce",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "The Cornforth Partnership",
+          "address": {
+            "streetAddress": "DL17 9HS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Tony Cutmore",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Thirteen Housing Group Limited",
+          "address": {
+            "streetAddress": "TS18 2NB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Emily Hodgson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "RAW DIGITAL TRAINING",
+          "address": {
+            "streetAddress": "TS18 1LL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms JOANNA WAKE",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Orangebox Training Solutions Ltd",
+          "address": {
+            "streetAddress": "TS25 5TG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Glen Hughes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Learning Curve Group",
+          "address": {
+            "streetAddress": "DL16 6FS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Brenda Mcleish",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Lokman Training Ltd",
+          "address": {
+            "streetAddress": "SR8 2QJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Business Development",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-008e7376-6d53-4e59-892b-8abf09a0470e-dcc001-dn449623-99139294",
+        "title": "DurhamWorks Provider Panel for Employment Routeways (2020-2021)",
+        "description": "DurhamWorks is looking to develop a Provider Panel which can deliver tailored bespoke support to 16-24 year old participants who are Not in Education, Employment or Training (NEET)/unemployed with a specific focus of progressing participants into paid employment. Other outcomes may be fundable, these will be defined in each competed call-off.\r\nProviders may be organisations registered outside County Durham and the opportunities for progression can be outside of County Durham with suitable transport links. This initial opening of the Provider Panel is for Providers to gain membership to the Provider Panel only. This Provider Panel offers no form of exclusivity or guaranteed work. Competed Call-Offs will be released to the successful Panel Members. DurhamWorks has been created as the vehicle to deliver the learning, training, employment, support, and development activities which are funded under European Social Fund (ESF) and Youth Employment Initiative (YEI) funding. \r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "80000000",
+              "description": "Education and training services",
+              "uri": "http://cpv.data.ac.uk/code-80000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 100000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 700000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-02T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 15,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Eden Training Academy Limited"
+          },
+          {
+            "id": "2",
+            "name": "Education Development Trust"
+          },
+          {
+            "id": "3",
+            "name": "ALD Hairdressing Training Academy"
+          },
+          {
+            "id": "4",
+            "name": "Finchale Training College"
+          },
+          {
+            "id": "5",
+            "name": "First Point Training"
+          },
+          {
+            "id": "6",
+            "name": "Groundwork North East"
+          },
+          {
+            "id": "7",
+            "name": "Optimum Skills Limited"
+          },
+          {
+            "id": "8",
+            "name": "The Oaklea Trust"
+          },
+          {
+            "id": "9",
+            "name": "SMARTT North East Ltd"
+          },
+          {
+            "id": "10",
+            "name": "The Cornforth Partnership"
+          },
+          {
+            "id": "11",
+            "name": "Thirteen Housing Group Limited"
+          },
+          {
+            "id": "12",
+            "name": "RAW DIGITAL TRAINING"
+          },
+          {
+            "id": "13",
+            "name": "Orangebox Training Solutions Ltd"
+          },
+          {
+            "id": "14",
+            "name": "Learning Curve Group"
+          },
+          {
+            "id": "15",
+            "name": "Lokman Training Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-09T00:00:00Z",
+          "endDate": "2020-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "f56445f47005c667f83e94bbc5c5d6f1",
+        "name": "Durham County Council"
+      },
+      "awards": [
+        {
+          "id": "42aa8d2e-f6e8-480e-b71a-13fa7f5925cf",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-21T00:00:00Z",
+          "value": {
+            "amount": 700000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Eden Training Academy Limited"
+            },
+            {
+              "id": "2",
+              "name": "Education Development Trust"
+            },
+            {
+              "id": "3",
+              "name": "ALD Hairdressing Training Academy"
+            },
+            {
+              "id": "4",
+              "name": "Finchale Training College"
+            },
+            {
+              "id": "5",
+              "name": "First Point Training"
+            },
+            {
+              "id": "6",
+              "name": "Groundwork North East"
+            },
+            {
+              "id": "7",
+              "name": "Optimum Skills Limited"
+            },
+            {
+              "id": "8",
+              "name": "The Oaklea Trust"
+            },
+            {
+              "id": "9",
+              "name": "SMARTT North East Ltd"
+            },
+            {
+              "id": "10",
+              "name": "The Cornforth Partnership"
+            },
+            {
+              "id": "11",
+              "name": "Thirteen Housing Group Limited"
+            },
+            {
+              "id": "12",
+              "name": "RAW DIGITAL TRAINING"
+            },
+            {
+              "id": "13",
+              "name": "Orangebox Training Solutions Ltd"
+            },
+            {
+              "id": "14",
+              "name": "Learning Curve Group"
+            },
+            {
+              "id": "15",
+              "name": "Lokman Training Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-09T00:00:00Z",
+            "endDate": "2020-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/237c1182-7770-405b-8af1-f6b4dc65c6b2.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-27T10:08:20Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-09e6e811-41bd-4218-b9d3-15d8f6509291",
+      "id": "ocds-b5fd17-09e6e811-41bd-4218-b9d3-15d8f6509291-360840-leedscity001-dn429171-89626730",
+      "date": "2019-11-27T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "4658f5851054dfbebe25bafc06228e4a",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Leeds City Council",
+          "address": {
+            "streetAddress": "Seacroft Ringroad Depot ",
+            "locality": "Leeds",
+            "region": null,
+            "postalCode": "LS14 1NZ",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Matthew Lombard",
+            "email": "Matthew.Lombard@leeds.gov.uk",
+            "telephone": "+44 113",
+            "faxNumber": null,
+            "uri": "http://www.leeds.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "A Connolly Ltd",
+          "address": {
+            "streetAddress": "wn3 4bw",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "mr simon harrison",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "DLP Services (Northern) Ltd",
+          "address": {
+            "streetAddress": "M6 6WF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Jodie Hookway",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-09e6e811-41bd-4218-b9d3-15d8f6509291-leedscity001-dn429171-89626730",
+        "title": "2020/21 Re-roofing and Associated Works - Year 3 call Off",
+        "description": "Year 3 call off from Re-Roofing and Associated Framework agreement.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45260000",
+              "description": "Roof works and other special trade construction works",
+              "uri": "http://cpv.data.ac.uk/code-45260000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45261211",
+              "description": "Roof-tiling work",
+              "uri": "http://cpv.data.ac.uk/code-45261211.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45261212",
+              "description": "Roof-slating work",
+              "uri": "http://cpv.data.ac.uk/code-45261212.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45261900",
+              "description": "Roof repair and maintenance work",
+              "uri": "http://cpv.data.ac.uk/code-45261900.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45261910",
+              "description": "Roof repair",
+              "uri": "http://cpv.data.ac.uk/code-45261910.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45261920",
+              "description": "Roof maintenance work",
+              "uri": "http://cpv.data.ac.uk/code-45261920.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2250000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 2250000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Restricted procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-22T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "A Connolly Ltd"
+          },
+          {
+            "id": "2",
+            "name": "DLP Services (Northern) Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-26T00:00:00Z",
+          "endDate": "2021-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "4658f5851054dfbebe25bafc06228e4a",
+        "name": "Leeds City Council"
+      },
+      "awards": [
+        {
+          "id": "0ebb48ca-9811-455b-bed8-e00511c54a11",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-25T00:00:00Z",
+          "value": {
+            "amount": 2250000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "A Connolly Ltd"
+            },
+            {
+              "id": "2",
+              "name": "DLP Services (Northern) Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-26T00:00:00Z",
+            "endDate": "2021-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

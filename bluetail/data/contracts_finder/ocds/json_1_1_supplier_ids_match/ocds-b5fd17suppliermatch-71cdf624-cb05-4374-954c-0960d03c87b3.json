@@ -1,0 +1,205 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/b0f3ae78-a511-48d3-970a-29181ee1b588.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-18T14:52:09Z",
+  "publisher": {
+    "name": "Thurrock Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-71cdf624-cb05-4374-954c-0960d03c87b3",
+      "id": "ocds-b5fd17-71cdf624-cb05-4374-954c-0960d03c87b3-350568-ps-2019-285",
+      "date": "2019-11-01T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "5041ec1aa7382458ee5e85bbb9dd2ea6",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Thurrock Borough Council",
+          "address": {
+            "streetAddress": "Civic Offices,New Road ",
+            "locality": "GRAYS",
+            "region": null,
+            "postalCode": "RM176SL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Kiri Mason",
+            "email": "KMason@thurrock.gov.uk",
+            "telephone": "+44 (0) 1375 652243 ext 63299",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "11696513",
+            "scheme": "GB-COH",
+            "legalName": "ALLIED HEALTH-SERVICES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ALLIED HEALTH-SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Staffordshire Technology Park\nSTAFFORD\nStaffordshire\nST18 0FX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02650043",
+            "scheme": "GB-COH",
+            "legalName": "HAMELIN TRUST"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HAMELIN TRUST",
+          "address": {
+            "streetAddress": "19 Radford Crescent\nBILLERICAY\nEssex\nCM12 0DU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-71cdf624-cb05-4374-954c-0960d03c87b3-ps-2019-285",
+        "title": "Short Breaks for Disabled Children",
+        "description": "Thurrock Council is seeking to commission a multiple provider Select List to deliver a range of statutory Short Breaks services for some of the most vulnerable Children and Young People in Thurrock.\r\n\r\nThe Select List will supply direct services across two lots, listed below:\r\n\r\nLot 1 - Individual Support Services\r\nLot 2 - Residential Short Breaks\r\n\r\nPlease note this contract (Select List) started in 2019. The Select List has the option to open for new applications on an annual basis. This exercise is the first re-opening of the Select List.\r\n\r\nThe value provided in section 1 of this notice is the full four year value (the original contract is for 3 years with the option to extend for a further  1 year). There will be 2 + 1 years remaining from 1st April 2020.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85300000",
+              "description": "Social work and related services",
+              "uri": "http://cpv.data.ac.uk/code-85300000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1600000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-17T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ALLIED HEALTH-SERVICES LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "HAMELIN TRUST"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2022-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "5041ec1aa7382458ee5e85bbb9dd2ea6",
+        "name": "Thurrock Borough Council"
+      },
+      "awards": [
+        {
+          "id": "3af55777-d2c5-4301-989f-85188d4761fd",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-17T00:00:00Z",
+          "value": {
+            "amount": 1600000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ALLIED HEALTH-SERVICES LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "HAMELIN TRUST"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2022-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/43ee767e-bc2c-475d-8012-a986322cbf61.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-29T16:59:33Z",
+  "publisher": {
+    "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-f8c8b712-7870-4506-926b-c87948b2d32d",
+      "id": "ocds-b5fd17-f8c8b712-7870-4506-926b-c87948b2d32d-361386-magpc1-award",
+      "date": "2020-01-17T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "0135a3814dde09c5149c02b6f4769d5a",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/f7wS2FgF",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Partnership House Hamilton Street",
+            "locality": "Birkenhead",
+            "region": null,
+            "postalCode": "CH41 5AA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "etenders@rand-associates.co.uk",
+            "telephone": null,
+            "faxNumber": null,
+            "uri": "www.magentaliving.org.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "AB Building &amp; Electrical Limited",
+          "address": {
+            "streetAddress": "Widnes",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bell Group",
+          "address": {
+            "streetAddress": "Knowsley",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Citrus Electrical Ltd",
+          "address": {
+            "streetAddress": "Prescot",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CLP Electrical Contractors",
+          "address": {
+            "streetAddress": "Widnes",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Cullen Building Co Ltd",
+          "address": {
+            "streetAddress": "Birkenhead",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DLP Services (Northern) Limited",
+          "address": {
+            "streetAddress": "Salford",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fieldway Supplies Limited",
+          "address": {
+            "streetAddress": "Liverpool",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "George Jones &amp; Son (Contractors) Limited",
+          "address": {
+            "streetAddress": "Liverpool",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Whittle Programmed Maintenance Ltd (T/A Hanksinon Whittle)",
+          "address": {
+            "streetAddress": "Birkenhead",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Mitie Property Services",
+          "address": {
+            "streetAddress": "Chorley",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Novus Property Solutions",
+          "address": {
+            "streetAddress": "Stoke on Trent",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Sovini Property Services",
+          "address": {
+            "streetAddress": "Liverpool",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "WRPS Group Ltd",
+          "address": {
+            "streetAddress": "Bolton",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-f8c8b712-7870-4506-926b-c87948b2d32d-magpc1-award",
+        "title": "Magenta Living - Framework Contracts for Planned and Cyclical Works",
+        "description": "The contracting authority is seeking to enter into a 4-year framework agreement arrangement in respect of 8 lots dealing with planned and cyclical maintenance in support of its direct labour operations and directly awarded contracts. The framework will require a minimum of 5 providers to be appointed to each lot. Bidders may submit for multiple lots and works to be undertaken during the duration of the framework will be ordered by means of mini-competition or direct award at the sole discretion of the contracting authority. The ethos of the contracting authority is to encourage SME contractors on the Wirral and in the Merseyside area to become collaborative partners in the on-going development of the services that the contracting authority provides its customers.\r\nTenderers will be required to complete a financial and technical capacity and capability questionnaire, this will establish those that will be selected to have a financial and quality evaluation of their tender.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50000000",
+              "description": "Repair and maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 11660000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 13,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "AB Building &amp; Electrical Limited"
+          },
+          {
+            "id": "2",
+            "name": "Bell Group"
+          },
+          {
+            "id": "3",
+            "name": "Citrus Electrical Ltd"
+          },
+          {
+            "id": "4",
+            "name": "CLP Electrical Contractors"
+          },
+          {
+            "id": "5",
+            "name": "Cullen Building Co Ltd"
+          },
+          {
+            "id": "6",
+            "name": "DLP Services (Northern) Limited"
+          },
+          {
+            "id": "7",
+            "name": "Fieldway Supplies Limited"
+          },
+          {
+            "id": "8",
+            "name": "George Jones &amp; Son (Contractors) Limited"
+          },
+          {
+            "id": "9",
+            "name": "Whittle Programmed Maintenance Ltd (T/A Hanksinon Whittle)"
+          },
+          {
+            "id": "10",
+            "name": "Mitie Property Services"
+          },
+          {
+            "id": "11",
+            "name": "Novus Property Solutions"
+          },
+          {
+            "id": "12",
+            "name": "Sovini Property Services"
+          },
+          {
+            "id": "13",
+            "name": "WRPS Group Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "0135a3814dde09c5149c02b6f4769d5a",
+        "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED"
+      },
+      "awards": [
+        {
+          "id": "83f4044d-1582-4901-a86e-8ae326555883",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-28T00:00:00Z",
+          "value": {
+            "amount": 11660000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "AB Building &amp; Electrical Limited"
+            },
+            {
+              "id": "2",
+              "name": "Bell Group"
+            },
+            {
+              "id": "3",
+              "name": "Citrus Electrical Ltd"
+            },
+            {
+              "id": "4",
+              "name": "CLP Electrical Contractors"
+            },
+            {
+              "id": "5",
+              "name": "Cullen Building Co Ltd"
+            },
+            {
+              "id": "6",
+              "name": "DLP Services (Northern) Limited"
+            },
+            {
+              "id": "7",
+              "name": "Fieldway Supplies Limited"
+            },
+            {
+              "id": "8",
+              "name": "George Jones &amp; Son (Contractors) Limited"
+            },
+            {
+              "id": "9",
+              "name": "Whittle Programmed Maintenance Ltd (T/A Hanksinon Whittle)"
+            },
+            {
+              "id": "10",
+              "name": "Mitie Property Services"
+            },
+            {
+              "id": "11",
+              "name": "Novus Property Solutions"
+            },
+            {
+              "id": "12",
+              "name": "Sovini Property Services"
+            },
+            {
+              "id": "13",
+              "name": "WRPS Group Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2024-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

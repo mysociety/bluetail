@@ -1,0 +1,775 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9bc48d7d-ac6b-49f4-9540-7f761a484bb0.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-12T16:47:10Z",
+  "publisher": {
+    "name": "EU SUPPLY LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-aca9c9b8-db96-4937-879a-c351e9c7e1fe",
+      "id": "ocds-b5fd17-aca9c9b8-db96-4937-879a-c351e9c7e1fe-358600-20200512164704-72814",
+      "date": "2020-02-21T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "d5953d272ea1af7d9fb1380780d67bb0",
+          "roles": [
+            "buyer"
+          ],
+          "name": "United Kingdom Atomic Energy Authority",
+          "address": {
+            "streetAddress": "Culham Science Centre ",
+            "locality": "Abingdon",
+            "region": null,
+            "postalCode": "OX14 3DB",
+            "countryName": "ENG"
+          },
+          "contactPoint": {
+            "name": "Umit Hannam",
+            "email": "umit.hannam@ukaea.uk",
+            "telephone": "+44 1235468035",
+            "faxNumber": null,
+            "uri": "www.gov.uk/government/organisations/uk-atomic-energy-authority"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Assystem Energy &amp; Infrastructure Limited",
+          "address": {
+            "streetAddress": "Innovation Centre, 1\nEvolution Park, Haslingden Road, Blackburn, Lancashire, BB1 2FD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Atkins Limited",
+          "address": {
+            "streetAddress": "Woodcote Grove, Ashley Road, Epsom, Surrey, KT185BW UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DBD Limited",
+          "address": {
+            "streetAddress": "401 Faraday Street, Birchwood Park, Warrington, Cheshire WA3\n6GA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Frazer-Nash Consultancy Limited",
+          "address": {
+            "streetAddress": "Devonport Royal Dockyard, Devonport,\nPlymouth, PL1 4SG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "IDOM UK Limited",
+          "address": {
+            "streetAddress": "Unit 17g, The Leather market, 106a Weston Street London\nSE1 3QB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Jacobs U.K Ltd",
+          "address": {
+            "streetAddress": "1180 Eskdale Road, Winnersh, Wokingham, Berkshire,\nRG41 5TU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "M5Tec Limited",
+          "address": {
+            "streetAddress": "Unit 7, Hurworth Road Aycliffe Business Park Newton Aycliffe\nCounty Durham DL5 6UD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Mott McDonald Limited",
+          "address": {
+            "streetAddress": "Mott MacDonald House, 8-10 Sydenham Road,\nCroydon, CR0 2EE, United Kingdom)",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Rolls-Royce Power Engineering Plc",
+          "address": {
+            "streetAddress": "More Lane, Derby, DE24 8BJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-aca9c9b8-db96-4937-879a-c351e9c7e1fe-20200512164704-72814",
+        "title": "UKAEA Engineering Design Services Framework",
+        "description": "The UKAEA Engineering Design Services Framework (EDS) will help UKAEA access a broad range of engineering and technical skills in multiple technology and study fields. The EDS seeks to support the creation of a culture that is more open to innovation by helping to identify the barriers to creative thinking.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71242000",
+              "description": "Project and design preparation, estimation of costs",
+              "uri": "http://cpv.data.ac.uk/code-71242000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71300000",
+              "description": "Engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71300000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71310000",
+              "description": "Consultative engineering and construction services",
+              "uri": "http://cpv.data.ac.uk/code-71310000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71311000",
+              "description": "Civil engineering consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71311000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71312000",
+              "description": "Structural engineering consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71312000.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313000",
+              "description": "Environmental engineering consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71313000.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71314310",
+              "description": "Heating engineering services for buildings",
+              "uri": "http://cpv.data.ac.uk/code-71314310.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71318000",
+              "description": "Advisory and consultative engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71318000.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71320000",
+              "description": "Engineering design services",
+              "uri": "http://cpv.data.ac.uk/code-71320000.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71321000",
+              "description": "Engineering design services for mechanical and electrical installations for buildings",
+              "uri": "http://cpv.data.ac.uk/code-71321000.html"
+            }
+          },
+          {
+            "id": 11,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71321200",
+              "description": "Heating-system design services",
+              "uri": "http://cpv.data.ac.uk/code-71321200.html"
+            }
+          },
+          {
+            "id": 12,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71322000",
+              "description": "Engineering design services for the construction of civil engineering works",
+              "uri": "http://cpv.data.ac.uk/code-71322000.html"
+            }
+          },
+          {
+            "id": 13,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71322200",
+              "description": "Pipeline-design services",
+              "uri": "http://cpv.data.ac.uk/code-71322200.html"
+            }
+          },
+          {
+            "id": 14,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71323000",
+              "description": "Engineering-design services for industrial process and production",
+              "uri": "http://cpv.data.ac.uk/code-71323000.html"
+            }
+          },
+          {
+            "id": 15,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71323100",
+              "description": "Electrical power systems design services",
+              "uri": "http://cpv.data.ac.uk/code-71323100.html"
+            }
+          },
+          {
+            "id": 16,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71323200",
+              "description": "Plant engineering design services",
+              "uri": "http://cpv.data.ac.uk/code-71323200.html"
+            }
+          },
+          {
+            "id": 17,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71325000",
+              "description": "Foundation-design services",
+              "uri": "http://cpv.data.ac.uk/code-71325000.html"
+            }
+          },
+          {
+            "id": 18,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71327000",
+              "description": "Load-bearing structure design services",
+              "uri": "http://cpv.data.ac.uk/code-71327000.html"
+            }
+          },
+          {
+            "id": 19,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71328000",
+              "description": "Verification of load-bearing structure design services",
+              "uri": "http://cpv.data.ac.uk/code-71328000.html"
+            }
+          },
+          {
+            "id": 20,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71333000",
+              "description": "Mechanical engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71333000.html"
+            }
+          },
+          {
+            "id": 21,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71334000",
+              "description": "Mechanical and electrical engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71334000.html"
+            }
+          },
+          {
+            "id": 22,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71335000",
+              "description": "Engineering studies",
+              "uri": "http://cpv.data.ac.uk/code-71335000.html"
+            }
+          },
+          {
+            "id": 23,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71340000",
+              "description": "Integrated engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71340000.html"
+            }
+          },
+          {
+            "id": 24,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71350000",
+              "description": "Engineering-related scientific and technical services",
+              "uri": "http://cpv.data.ac.uk/code-71350000.html"
+            }
+          },
+          {
+            "id": 25,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72242000",
+              "description": "Design-modelling services",
+              "uri": "http://cpv.data.ac.uk/code-72242000.html"
+            }
+          },
+          {
+            "id": 26,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "73300000",
+              "description": "Design and execution of research and development",
+              "uri": "http://cpv.data.ac.uk/code-73300000.html"
+            }
+          },
+          {
+            "id": 27,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79415200",
+              "description": "Design consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79415200.html"
+            }
+          },
+          {
+            "id": 28,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79421200",
+              "description": "Project-design services other than for construction work",
+              "uri": "http://cpv.data.ac.uk/code-79421200.html"
+            }
+          },
+          {
+            "id": 29,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79930000",
+              "description": "Specialty design services",
+              "uri": "http://cpv.data.ac.uk/code-79930000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 9999000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-13T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 9,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Assystem Energy &amp; Infrastructure Limited"
+          },
+          {
+            "id": "2",
+            "name": "Atkins Limited"
+          },
+          {
+            "id": "3",
+            "name": "DBD Limited"
+          },
+          {
+            "id": "4",
+            "name": "Frazer-Nash Consultancy Limited"
+          },
+          {
+            "id": "5",
+            "name": "IDOM UK Limited"
+          },
+          {
+            "id": "6",
+            "name": "Jacobs U.K Ltd"
+          },
+          {
+            "id": "7",
+            "name": "M5Tec Limited"
+          },
+          {
+            "id": "8",
+            "name": "Mott McDonald Limited"
+          },
+          {
+            "id": "9",
+            "name": "Rolls-Royce Power Engineering Plc"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-14T00:00:00Z",
+          "endDate": "2020-03-15T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "d5953d272ea1af7d9fb1380780d67bb0",
+        "name": "United Kingdom Atomic Energy Authority"
+      },
+      "awards": [
+        {
+          "id": "2badcdbd-fb07-49e6-a07f-f05b6a68e3ca",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-17T00:00:00Z",
+          "value": {
+            "amount": 9999000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Assystem Energy &amp; Infrastructure Limited"
+            },
+            {
+              "id": "2",
+              "name": "Atkins Limited"
+            },
+            {
+              "id": "3",
+              "name": "DBD Limited"
+            },
+            {
+              "id": "4",
+              "name": "Frazer-Nash Consultancy Limited"
+            },
+            {
+              "id": "5",
+              "name": "IDOM UK Limited"
+            },
+            {
+              "id": "6",
+              "name": "Jacobs U.K Ltd"
+            },
+            {
+              "id": "7",
+              "name": "M5Tec Limited"
+            },
+            {
+              "id": "8",
+              "name": "Mott McDonald Limited"
+            },
+            {
+              "id": "9",
+              "name": "Rolls-Royce Power Engineering Plc"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-21T00:00:00Z",
+            "endDate": "2024-04-20T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

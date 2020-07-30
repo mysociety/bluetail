@@ -1,0 +1,268 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a77e51de-66c1-4e8a-b38a-1290c08cca3e.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-12T13:28:34Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-472e2071-a059-441e-bd2d-87c9f8b22b02",
+      "id": "ocds-b5fd17-472e2071-a059-441e-bd2d-87c9f8b22b02-358508-msdc---030575---award",
+      "date": "2020-02-04T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "2800496071afed5e9eb21ad961be3ce9",
+          "roles": [
+            "buyer"
+          ],
+          "name": "SE Shared Services",
+          "address": {
+            "streetAddress": "Haywards Heath West Sussex",
+            "locality": "West Sussex",
+            "region": null,
+            "postalCode": "RH16 1SS",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Proc Urement (HMDC)",
+            "email": "procurement@horsham.gov.uk",
+            "telephone": "01403 215299",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Mr Mot",
+          "address": {
+            "streetAddress": "unit 7 teknol house, VICTORIA ROAD, Burgess Hill, United Kingdom, RH15 9LH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lisa Driscoll",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "supreme clutch service",
+          "address": {
+            "streetAddress": "the forge, London road, Felbridge,East grinstead, West Sussex, United Kingdom, RH19 2RQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Norman Shrigley",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "V&amp;A AUTOMOTIVE LTD T/A CMW",
+          "address": {
+            "streetAddress": "CUCKFIELD ROAD, ANSTY CROSS, HAYWARDS HEATH, WEST SUSSEX, United Kingdom, RH17 5AG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "JOHN  DUNNE",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-472e2071-a059-441e-bd2d-87c9f8b22b02-msdc---030575---award",
+        "title": "Mid Sussex District Council - Hackney Carriage &amp; Private Hire Vehicle Fitness Inspection - AWARD",
+        "description": "Mid Sussex District Council is inviting tenders for the provision of Hackney Carriage and Private Hire Vehicle Fitness Inspection services under a concenssions contract. It is a legislative requirement that MOT testing facilities for Hackney Carriages and Private Hire Vehicles must be situated within the Mid-Sussex District boundaries.\r\n      \r\n      The Council will set the fee for a fitness test at &pound;48 for the duration of the initial 5 year contract.  \r\n      \r\n      The Commencement Date for the delivery of the services is scheduled to be on Saturday 01 August 2020.  The Contract will be awarded for a period of 5 years until Thursday 31 July 2025 with an option to extend for a further 2-year period at the discretion of the Council. \r\n      \r\n      \r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "60120000",
+              "description": "Taxi services",
+              "uri": "http://cpv.data.ac.uk/code-60120000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71631200",
+              "description": "Technical automobile inspection services",
+              "uri": "http://cpv.data.ac.uk/code-71631200.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71630000",
+              "description": "Technical inspection and testing services",
+              "uri": "http://cpv.data.ac.uk/code-71630000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-14T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Mr Mot"
+          },
+          {
+            "id": "2",
+            "name": "supreme clutch service"
+          },
+          {
+            "id": "3",
+            "name": "V&amp;A AUTOMOTIVE LTD T/A CMW"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-08-01T00:00:00Z",
+          "endDate": "2025-07-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "2800496071afed5e9eb21ad961be3ce9",
+        "name": "SE Shared Services"
+      },
+      "awards": [
+        {
+          "id": "bd878117-b750-48a1-a9de-c2555c329aec",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-11T00:00:00Z",
+          "value": {
+            "amount": 56000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Mr Mot"
+            },
+            {
+              "id": "2",
+              "name": "supreme clutch service"
+            },
+            {
+              "id": "3",
+              "name": "V&amp;A AUTOMOTIVE LTD T/A CMW"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-08-01T00:00:00Z",
+            "endDate": "2025-07-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -255,7 +255,7 @@ def update_parties(ocdsjson, dataset='bodsmatch'):
             supplier_names.append(supplier)
             supplier_matched_id = match_supplier_info(supplier)
 
-            if dataset in ('bodsmatch', 'suppliers'):
+            if dataset in ('bodsmatch', 'suppliermatch'):
                 # Skips adding supplier if a match isn't found in Companies House
                 if not supplier_matched_id:
                     continue

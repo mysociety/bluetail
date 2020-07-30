@@ -1,0 +1,464 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f1399473-54dd-4b96-aff5-bccc86154231.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-20T10:33:29Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-f9d455d2-5585-4471-bcd5-1ddb3d557830",
+      "id": "ocds-b5fd17-f9d455d2-5585-4471-bcd5-1ddb3d557830-359916-eastriding1-dn424295-53224383",
+      "date": "2019-07-22T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "5333a7cdb76a95608878842bab71ad7b",
+          "roles": [
+            "buyer"
+          ],
+          "name": "East Riding of Yorkshire",
+          "address": {
+            "streetAddress": "County Hall Cross Street",
+            "locality": "Beverley",
+            "region": null,
+            "postalCode": "HU17 9BA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Fergus Aitken",
+            "email": "fergus.aitken@eastriding.gov.uk",
+            "telephone": "+44 1482395667",
+            "faxNumber": null,
+            "uri": "http://www.eastriding.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BAM Construction Ltd",
+          "address": {
+            "streetAddress": "Hemel Hempstead, HP2 4FL, UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bowmer &amp; Kirland Ltd",
+          "address": {
+            "streetAddress": "Belper, DE56 2BW, UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Galliford Try Building Ltd",
+          "address": {
+            "streetAddress": "Uxbridge, UB8 2AL, UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Interserve Construction Ltd",
+          "address": {
+            "streetAddress": "Birmingham, B37 7HQ, UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Kier Construction Ltd",
+          "address": {
+            "streetAddress": "Sandy, SG19 2BD, UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Morgan Sindall Construction &amp; Infrastructure Ltd",
+          "address": {
+            "streetAddress": "Hunslet, LS10 1DR, UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Wates Construction Ltd",
+          "address": {
+            "streetAddress": "Leatherhead, KT22 7SW,UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Willmott Dixon Construction Ltd",
+          "address": {
+            "streetAddress": "Letchworth Garden City, SG6 4GY, UK",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-f9d455d2-5585-4471-bcd5-1ddb3d557830-eastriding1-dn424295-53224383",
+        "title": "CM128 - YORbuild Major Works Contractors Framework Agreement",
+        "description": "A framework agreement to serve all Public Sector bodies (and their statutory successors) and third sector organisations in the Yorkshire and Humber region, Sheffield Local Enterprise Partnership region, Lincolnshire, North East England, Nottinghamshire, Derbyshire and areas of Leicestershire (UKC, UKE, UKF1, UKF21, UKF22, UK3) as detailed in the procurement documents. The works involved are principally general building works, including contractors design when required. In addition some new building housing and civil engineering works may also be included. The full list of accessing bodies is detailed within VI.3. Principles of collaborative working and partnering will be key to the relationships under the framework.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71000000",
+              "description": "Architectural, construction, engineering and inspection services",
+              "uri": "http://cpv.data.ac.uk/code-71000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1500000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 1500000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-09T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 8,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "BAM Construction Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Bowmer &amp; Kirland Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Galliford Try Building Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Interserve Construction Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Kier Construction Ltd"
+          },
+          {
+            "id": "6",
+            "name": "Morgan Sindall Construction &amp; Infrastructure Ltd"
+          },
+          {
+            "id": "7",
+            "name": "Wates Construction Ltd"
+          },
+          {
+            "id": "8",
+            "name": "Willmott Dixon Construction Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-29T00:00:00Z",
+          "endDate": "2024-04-28T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "5333a7cdb76a95608878842bab71ad7b",
+        "name": "East Riding of Yorkshire"
+      },
+      "awards": [
+        {
+          "id": "28aff69a-2f12-4a95-9ebf-9419849b7c3e",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-29T00:00:00Z",
+          "value": {
+            "amount": 1500000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "BAM Construction Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Bowmer &amp; Kirland Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Galliford Try Building Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Interserve Construction Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Kier Construction Ltd"
+            },
+            {
+              "id": "6",
+              "name": "Morgan Sindall Construction &amp; Infrastructure Ltd"
+            },
+            {
+              "id": "7",
+              "name": "Wates Construction Ltd"
+            },
+            {
+              "id": "8",
+              "name": "Willmott Dixon Construction Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-30T00:00:00Z",
+            "endDate": "2026-04-29T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

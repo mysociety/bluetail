@@ -1,0 +1,217 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4220ac1f-e28d-4be2-82b4-7ade826eac6d.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-19T15:10:48Z",
+  "publisher": {
+    "name": "BRAVOSOLUTION UK LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-7858b596-6c82-4407-b517-f64fd195b721",
+      "id": "ocds-b5fd17-7858b596-6c82-4407-b517-f64fd195b721-359806-tender_215786-856520",
+      "date": "2019-08-19T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "7684748fb68b74859b9ad55a682417d4",
+          "roles": [
+            "buyer"
+          ],
+          "name": "London Borough of Hillingdon",
+          "address": {
+            "streetAddress": "Civic Centre ",
+            "locality": "Uxbridge",
+            "region": null,
+            "postalCode": "UB8 1UW",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "mbreen@hillingdon.gov.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "1181590",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Greyline Builders Ltd",
+          "address": {
+            "streetAddress": "UNIT 2-3, 29 FOURTH WAY, WEMBLEY, HA9 0LH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "5175644",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PILON LTD",
+          "address": {
+            "streetAddress": "THE COLUMBIA CENTRE, STATION ROAD, BRACKNELL, RG12 1LP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7858b596-6c82-4407-b517-f64fd195b721-tender_215786",
+        "title": "Void Property Repair Service Contract 2019",
+        "description": "The London Borough of Hillingdon (Hillingdon) invites expressions of interest from suitably qualified and experienced contractors in relation to entering into an agreement (the Contract) to provide a Void Property Repairs Service (the Service / Works) to enable the London Borough of Hillingdon to appoint two (2) Contractors to enter into a comprehensive Void Property Repairs Contract for a three (3) year period with the option to extend for a further one (1) plus one (1) years. \r\n\r\nThe contract will be split into 2 Lots with Lot 1 being the North of the borough and Lot 2 being the South. See map in Appendix A - London Borough of Hillingdon North &amp; South Split). \r\n\r\nThe shortlisted Applicants (maximum of seven (7)) will be asked at the ITT stage to submit a response for both Lot 1 (Hillingdon North) and Lot 2 (Hillingdon South). \r\n\r\nThe London Borough of Hillingdon retains the right not to award both Lot 1 and Lot 2 to one single contractor. If the same Contractor is ranked 1st in both Lot 1 and Lot 2, they will be given the option to select which Lot is their preference with the other Lot being awarded to the 2nd ranked Contractor in that Lot.    \r\n\r\nThe London Borough of Hillingdon retains the right to award some, all or none of the two Lots available.\r\n\r\nThe Contract is predominantly for general building fabric repairs in all trades to Hillingdon&amp;apos;s properties and dwellings including outbuildings.\r\nThe Service is to be provided to Council properties with an estimated volume of circa 600 voids per year but the Council does not provide any guarantee or assurance in respect of the annual value or volumes of work generated / procured under this contract or geographically where these voids will occur. Each property is within the boundary of the London Borough of Hillingdon and will vary in size. \r\n\r\n\tThe types of works ordered will generally include but not limited to the following:\r\n-\tGeneral building fabric repairs in all trades\r\n-\tWorks to electrical installations and fittings\r\nRepairs of the following types are generally excluded:\r\n-\tWork to gas boilers, central heating and hot water systems\r\n-\tWork to children&amp;apos;s play areas\r\n-\tGraffiti removal\r\n-\tWork on asbestos-based materials.\r\nHillingdon Council may from time to time add to the type of work to be executed or may remove certain types of work completely for inclusion in separate specialist contracts.  Such action will not be taken without consultation.  \r\n\r\nThe Conditions of Contract and Preliminaries will be in accordance with the NHF Form of Contract 2011 (Rev4:2016).",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50000000",
+              "description": "Repair and maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 7500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-02T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Greyline Builders Ltd"
+          },
+          {
+            "id": "2",
+            "name": "PILON LTD"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-03T00:00:00Z",
+          "endDate": "2025-04-02T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "7684748fb68b74859b9ad55a682417d4",
+        "name": "London Borough of Hillingdon"
+      },
+      "awards": [
+        {
+          "id": "ff88e657-8594-48ee-9ccf-8ee4dc16a383",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-03T00:00:00Z",
+          "value": {
+            "amount": 7900000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Greyline Builders Ltd"
+            },
+            {
+              "id": "2",
+              "name": "PILON LTD"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-03T00:00:00Z",
+            "endDate": "2025-04-02T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

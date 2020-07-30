@@ -1,0 +1,279 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2f19954f-0129-49b7-aa4b-0412b24aeefb.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-15T13:05:59Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-775354f4-dd2e-41ee-ac99-0ac35ecafabc",
+      "id": "ocds-b5fd17-775354f4-dd2e-41ee-ac99-0ac35ecafabc-359223-leedscity001-dn476941-84784693",
+      "date": "2018-02-27T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "a5d9f0da4ff97e383e044f044c03975b",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Leeds City Council",
+          "address": {
+            "streetAddress": "St George House, 4th Floor, 40 Great George Street",
+            "locality": "Leeds",
+            "region": null,
+            "postalCode": "LS1 1UR",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Mandi Kaushal",
+            "email": "Mandeep.Kaushal@leeds.gov.uk",
+            "telephone": "+44 1133785260",
+            "faxNumber": null,
+            "uri": "http://www.leeds.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Garfitts International Ltd",
+          "address": {
+            "streetAddress": "Cross Sythes Works New Street\nHolbrook Trading Estate Half Way \nSheffield\nS20 3GH\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Balmers",
+          "address": {
+            "streetAddress": "Manchester Road\nDunnockshaw\nBurnley\nBB11 5PF\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Binson Bearings",
+          "address": {
+            "streetAddress": "2 Grant Avenue\nLeeds\nLS7 1RQ\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-775354f4-dd2e-41ee-ac99-0ac35ecafabc-leedscity001-dn476941-84784693",
+        "title": "Replacement parts and machinery plant and equipment",
+        "description": "The procurement of various equipment which is specialist to Horticulture, Agriculture and Arboriculture including ancillary equipment.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03000000",
+              "description": "Agricultural, farming, fishing, forestry and related products",
+              "uri": "http://cpv.data.ac.uk/code-03000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "16000000",
+              "description": "Agricultural machinery",
+              "uri": "http://cpv.data.ac.uk/code-16000000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "77000000",
+              "description": "Agricultural, forestry, horticultural, aquacultural and apicultural services",
+              "uri": "http://cpv.data.ac.uk/code-77000000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "16600000",
+              "description": "Specialist agricultural or forestry machinery",
+              "uri": "http://cpv.data.ac.uk/code-16600000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 225000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 225000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Other - ",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2018-05-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Garfitts International Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Balmers"
+          },
+          {
+            "id": "3",
+            "name": "Binson Bearings"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2018-05-14T00:00:00Z",
+          "endDate": "2021-05-13T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "a5d9f0da4ff97e383e044f044c03975b",
+        "name": "Leeds City Council"
+      },
+      "awards": [
+        {
+          "id": "9e28e69b-5535-4157-9ab8-d0942736cc77",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2018-05-05T00:00:00Z",
+          "value": {
+            "amount": 225000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Garfitts International Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Balmers"
+            },
+            {
+              "id": "3",
+              "name": "Binson Bearings"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2018-05-14T00:00:00Z",
+            "endDate": "2021-05-13T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/f99de554-306f-418d-9dbf-f1456ad7928f.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-19T10:51:53Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-25507e93-36bb-417e-b874-2430d9e50566",
+      "id": "ocds-b5fd17-25507e93-36bb-417e-b874-2430d9e50566-359728-manc001-dn448822-49608599",
+      "date": "2019-12-06T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "2a1e7f588a3d26d17b24653c371049b5",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Manchester City Council",
+          "address": {
+            "streetAddress": "Level 3 Town Hall Extension",
+            "locality": "Manchester",
+            "region": null,
+            "postalCode": "M60 2LA",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Damayanti Tailor",
+            "email": "d.tailor@manchester.gov.uk",
+            "telephone": "+44 1612344106",
+            "faxNumber": null,
+            "uri": "http://www.manchester.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Mantax Radio Taxis Ltd",
+          "address": {
+            "streetAddress": "M11 4BD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Street Cars Manchester Ltd",
+          "address": {
+            "streetAddress": "M1 3LZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-25507e93-36bb-417e-b874-2430d9e50566-manc001-dn448822-49608599",
+        "title": "TC067 - Provision of Transportation for Officers and Members",
+        "description": "TC067 - Provision of Transportation for Officers and Members",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "60120000",
+              "description": "Taxi services",
+              "uri": "http://cpv.data.ac.uk/code-60120000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1200000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 1200000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-20T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Mantax Radio Taxis Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Street Cars Manchester Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-03T00:00:00Z",
+          "endDate": "2021-02-28T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "2a1e7f588a3d26d17b24653c371049b5",
+        "name": "Manchester City Council"
+      },
+      "awards": [
+        {
+          "id": "36cc0979-024f-4a35-bf01-57e86a37a297",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-11T00:00:00Z",
+          "value": {
+            "amount": 120000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Mantax Radio Taxis Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Street Cars Manchester Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-19T00:00:00Z",
+            "endDate": "2021-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

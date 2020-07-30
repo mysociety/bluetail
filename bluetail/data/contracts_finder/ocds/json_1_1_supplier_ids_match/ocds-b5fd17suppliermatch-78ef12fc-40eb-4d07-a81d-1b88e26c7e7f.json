@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8530ccbd-ec42-4784-b143-d7d9c7f28fef.json",
+  "version": "1.1",
+  "publishedDate": "2020-07-25T12:39:35Z",
+  "publisher": {
+    "name": "Clapham Parish Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-78ef12fc-40eb-4d07-a81d-1b88e26c7e7f",
+      "id": "ocds-b5fd17-78ef12fc-40eb-4d07-a81d-1b88e26c7e7f-372463-rfo-sel",
+      "date": "2019-12-05T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "c3136930c2c2ccaccee84135fbcbe99b",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Clapham Parish Council",
+          "address": {
+            "streetAddress": "C/o Westward Cottage ",
+            "locality": "PULBOROUGH",
+            "region": null,
+            "postalCode": "RH202PA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Sarah Linfield",
+            "email": "claphamclerk@gmail.com",
+            "telephone": null,
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07105762",
+            "scheme": "GB-COH",
+            "legalName": "INFINITE EDGE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "INFINITE EDGE LIMITED",
+          "address": {
+            "streetAddress": "Waldron\nHEATHFIELD\nEast Sussex\nTN21 0RS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 16800
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02642028",
+            "scheme": "GB-COH",
+            "legalName": "EIBEPLAY LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "EIBEPLAY LIMITED",
+          "address": {
+            "streetAddress": "A3 By-pass Road\nGU8 6AD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 22465
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-78ef12fc-40eb-4d07-a81d-1b88e26c7e7f-rfo/sel",
+        "title": "Clapham Parish Council - Playground Installation",
+        "description": "Contract awarded - playground installation",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "37535200",
+              "description": "Playground equipment",
+              "uri": "http://cpv.data.ac.uk/code-37535200.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 39000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Other - Not advertised, by invitation only",
+        "procurementMethodRationale": null,
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-27T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "INFINITE EDGE LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "EIBEPLAY LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-02-28T00:00:00Z",
+          "endDate": "2020-06-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "c3136930c2c2ccaccee84135fbcbe99b",
+        "name": "Clapham Parish Council"
+      },
+      "awards": [
+        {
+          "id": "ec4bc0d7-bbdc-448a-a544-cd8dacd1f979",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-27T00:00:00Z",
+          "value": {
+            "amount": 39265,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "INFINITE EDGE LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "EIBEPLAY LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-02-28T00:00:00Z",
+            "endDate": "2020-06-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

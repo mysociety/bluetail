@@ -1,0 +1,238 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/bb16f3cf-afc8-43be-aeb2-42ca168cf739.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-26T11:21:50Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-7054159f-6a18-4663-b3f0-95c7c77f6cab",
+      "id": "ocds-b5fd17-7054159f-6a18-4663-b3f0-95c7c77f6cab-360692-acc001-dn458092-62871411",
+      "date": "2019-11-27T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "823f5ffca9488df3d89e5b47a817f9bd",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Accent Housing",
+          "address": {
+            "streetAddress": "Charlestown House, Acorn Park Industrial Estate Charlestown",
+            "locality": "Shipley",
+            "region": null,
+            "postalCode": "BD17 7SW",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Julie Jenkins",
+            "email": "julie.jenkins@accentgroup.org",
+            "telephone": "+44 1274065540",
+            "faxNumber": null,
+            "uri": "http://www.accentgroup.org/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Vital Element (UK) Limited",
+          "address": {
+            "streetAddress": "The Nurseries Hey Lane, Lowerhouse, Huddersfield, West Yorkshire, HD5 8JY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Idverde Limited",
+          "address": {
+            "streetAddress": "3 Rye Hill Office Park, Birmingham Road, Allesley, Coventry, CV5 9AB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7054159f-6a18-4663-b3f0-95c7c77f6cab-acc001-dn458092-62871411",
+        "title": "Grounds Maintenance Yorkshire (AWARDED)",
+        "description": "2020/S013-026280 Awarded Opportunity:  This means the that the contract has been awarded to a supplier.  Industry:  77000000 - Agricultural, forestry, horticultural, aquacultural and apicultural services\r\n77300000 - Horticultural services\r\n77310000 - Planting and maintenance services of green areas\r\n77314000 - Grounds maintenance services\r\nLOT 1:  Total Contract Value over 5 years &#xA3;338,810   Supplier:  The Vital Element (UK) Limited                                                           LOT 2:  Total Contract Value over 5 years &#xA3;321,1290  Supplier:  Idverde Ltd \r\nContract Start Date:  27th April 2020  Contract End Date:  26 April 2025  :  Please note: the initial contract term is 36 months",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "77000000",
+              "description": "Agricultural, forestry, horticultural, aquacultural and apicultural services",
+              "uri": "http://cpv.data.ac.uk/code-77000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "77300000",
+              "description": "Horticultural services",
+              "uri": "http://cpv.data.ac.uk/code-77300000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "77310000",
+              "description": "Planting and maintenance services of green areas",
+              "uri": "http://cpv.data.ac.uk/code-77310000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "77314000",
+              "description": "Grounds maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-77314000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 660100,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-19T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "The Vital Element (UK) Limited"
+          },
+          {
+            "id": "2",
+            "name": "Idverde Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-27T00:00:00Z",
+          "endDate": "2025-04-26T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "823f5ffca9488df3d89e5b47a817f9bd",
+        "name": "Accent Housing"
+      },
+      "awards": [
+        {
+          "id": "72903c88-c948-42fa-95a8-85505976f93b",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-26T00:00:00Z",
+          "value": {
+            "amount": 660100,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "The Vital Element (UK) Limited"
+            },
+            {
+              "id": "2",
+              "name": "Idverde Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-27T00:00:00Z",
+            "endDate": "2025-04-26T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

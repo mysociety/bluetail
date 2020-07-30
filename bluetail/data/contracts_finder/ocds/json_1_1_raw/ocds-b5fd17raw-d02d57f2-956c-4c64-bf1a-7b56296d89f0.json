@@ -1,0 +1,371 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e8be6a64-5777-472c-a6b8-e9c3a4f5eca6.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-22T15:19:13Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-d02d57f2-956c-4c64-bf1a-7b56296d89f0",
+      "id": "ocds-b5fd17-d02d57f2-956c-4c64-bf1a-7b56296d89f0-360484-purcon846---award",
+      "date": "2019-12-18T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "3daa4ef8669e65ffa8957f3ff8df2da2",
+          "roles": [
+            "buyer"
+          ],
+          "name": "University of East Anglia",
+          "address": {
+            "streetAddress": "Norwich Research Park Norwich",
+            "locality": "Norwich",
+            "region": null,
+            "postalCode": "NR4 7TJ",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Claire Woodcroft",
+            "email": "c.woodcroft@uea.ac.uk",
+            "telephone": "01603 592728",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Biffa Waste Services Ltd",
+          "address": {
+            "streetAddress": "Coronation Road, Cressex, High Wycombe, Bucks, United Kingdom, HP12 3TZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Biffa Bid Management",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Norse Commercial Services Ltd",
+          "address": {
+            "streetAddress": "280 Fifers Lane, Norwich, United Kingdom, NR6 6EQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Andrew Cogman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Pure Planet Recycling Limited",
+          "address": {
+            "streetAddress": "Home Farm, Cople Road, Cardington, Bedfordshire, United Kingdom, MK44 3SN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Simon Ockenden",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Shred Station Ltd",
+          "address": {
+            "streetAddress": "Osborne House, Wendover Road, Norwich, United Kingdom, NR13 6LH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Chris  Pearson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Veolia Environmental Services (UK) Ltd",
+          "address": {
+            "streetAddress": "210, Pentonville Road, London, Greater London, United Kingdom, N1 9JY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "ves bidteam",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Viridor Waste Management Limited",
+          "address": {
+            "streetAddress": "1st Floor Riverside House, Medway City Estate, United Kingdom, ME2 4FN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Tracy Barnard",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-d02d57f2-956c-4c64-bf1a-7b56296d89f0-purcon846---award",
+        "title": "PURCON846 University of East Anglia Waste Disposal and Recycling Services - AWARD",
+        "description": "The University is seeking to establish a Waste Disposal and Recycling Services Framework, no expenditure is guaranteed. \r\n      \r\n      The framework will be split into the following Lots:\r\n      1) General, recycling, glass, food wastes\r\n      2) Confidential Waste\r\n      3) Chemical Waste\r\n      4) Waste Electrical &amp; Electronic Equipment (WEEE)\r\n      5) Construction and Demolition (skips)\r\n      6) Animal by products and derived products, human tissue and animal bedding\r\n      There are no restrictions on the number of Lots that bidders can apply for or win, however Suppliers shall be the primary service provider for collections and shall not sub-contract collections at any time. \r\n      \r\n      The following contracting bodies may utilise the framework:\r\n      (a) Anglia Innovation Partnership LLP - Company Number OC373078 - of Centrum, Norwich Research Park, NR4 7UG;\r\n      (b) John Innes Centre - Registered Charity Number 223852 - Company Number 00511709 of Norwich Research Park, Norwich NR4 7UH;\r\n      (c) Earlham Institute - Registered Charity Number 1136213 - Company Number 6855533 of Norwich Research Park, Colney Lane, Norwich NR4 7UZ;\r\n      (d) The Sainsbury Laboratory - Registered Charity Number 1065510 - Company Number 3346853 of John Innes Centre, Norwich Research Park, Norwich NR4 7UH; and \r\n      (e) Norwich BioScience Institute - Company Number 03076575 of John Innes Centre Norwich, Research Park Colney, Norwich NR4 7UH.\r\n      (f) Colney Innovations Ltd - Company Number 06542106 of Innovation Centre, Norwich Research Park, Norwich. NR4 7GJ\r\n      \r\n      It is anticipated that there will be three (3) suppliers on each Lot.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "80300000",
+              "description": "Higher education services",
+              "uri": "http://cpv.data.ac.uk/code-80300000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Restricted procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-08T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Biffa Waste Services Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Norse Commercial Services Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Pure Planet Recycling Limited"
+          },
+          {
+            "id": "4",
+            "name": "Shred Station Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Veolia Environmental Services (UK) Ltd"
+          },
+          {
+            "id": "6",
+            "name": "Viridor Waste Management Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-08-01T00:00:00Z",
+          "endDate": "2023-07-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "3daa4ef8669e65ffa8957f3ff8df2da2",
+        "name": "University of East Anglia"
+      },
+      "awards": [
+        {
+          "id": "2dcedaa2-56c4-4ce7-b418-03ec9110af31",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-22T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Biffa Waste Services Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Norse Commercial Services Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Pure Planet Recycling Limited"
+            },
+            {
+              "id": "4",
+              "name": "Shred Station Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Veolia Environmental Services (UK) Ltd"
+            },
+            {
+              "id": "6",
+              "name": "Viridor Waste Management Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-08-01T00:00:00Z",
+            "endDate": "2023-07-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

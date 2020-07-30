@@ -1,0 +1,215 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/bcf97c88-1fce-44a8-a1e3-d97ccd6b8e29.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-24T13:46:52Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-d0a568e4-c4b4-41f8-b6d6-c06c8eee4400",
+      "id": "ocds-b5fd17-d0a568e4-c4b4-41f8-b6d6-c06c8eee4400-355633-yas-02813---award",
+      "date": "2019-06-03T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "b2aecc52da06a7e03e410c413a0e4f2d",
+          "roles": [
+            "buyer"
+          ],
+          "name": "NOE-CPC",
+          "address": {
+            "streetAddress": "Brindley Way Wakefield 41 Industrial Estate",
+            "locality": "Wakefield",
+            "region": null,
+            "postalCode": "WF2 0XQ",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Andrew Wood",
+            "email": "andrew.wood17@nhs.net",
+            "telephone": "0113 2971030",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2224933352",
+            "scheme": "GB-CQC",
+            "legalName": "first4care"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "first4care",
+          "address": {
+            "streetAddress": "The Old Station,  High Street, Edwinstowe, United Kingdom, NG21 9HS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Chris Lightbody",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "26",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3853998836",
+            "scheme": "GB-CQC",
+            "legalName": "Response Services Group UK Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Response Services Group UK Ltd",
+          "address": {
+            "streetAddress": "Unit 7 Acorn Phase 3, High Street, Grimethorpe, South Yorkshire, United Kingdom, S72 7BD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "John McGill",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-d0a568e4-c4b4-41f8-b6d6-c06c8eee4400-yas-02813---award",
+        "title": "YAS 38 2017_18 Non-Emergency Patient Transport Framework Agreement - AWARD",
+        "description": "Yorkshire Ambulance Service NHS Trust (YAS) seeks to establish a Framework Agreement consisting of a range of patient focused suitably qualified Transport Providers to convey eligible Patients with a medical need for transport and of varying levels of mobility.\r\n      \r\n      This procurement exercise is divided into Lots; these being based upon levels of patient mobility.\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "34114122",
+              "description": "Patient-transport vehicles",
+              "uri": "http://cpv.data.ac.uk/code-34114122.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85143000",
+              "description": "Ambulance services",
+              "uri": "http://cpv.data.ac.uk/code-85143000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-08T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "15",
+            "name": "first4care"
+          },
+          {
+            "id": "26",
+            "name": "Response Services Group UK Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-10-01T00:00:00Z",
+          "endDate": "2021-09-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "b2aecc52da06a7e03e410c413a0e4f2d",
+        "name": "NOE-CPC"
+      },
+      "awards": [
+        {
+          "id": "ea4ca62f-82f1-4b47-a655-5c0b431ed6b5",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-24T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "15",
+              "name": "first4care"
+            },
+            {
+              "id": "26",
+              "name": "Response Services Group UK Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-10-01T00:00:00Z",
+            "endDate": "2021-09-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

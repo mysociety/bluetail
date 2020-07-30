@@ -1,0 +1,246 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6d931dcb-783a-42a5-b2bb-aca2333c6835.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-18T15:24:22Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-dfa0f8b0-d050-4af0-a657-6f004de6017b",
+      "id": "ocds-b5fd17-dfa0f8b0-d050-4af0-a657-6f004de6017b-344670-lgss001-dn311905-24180207",
+      "date": "2019-08-21T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "8054e4e92b017f68b474a37cf656dd33",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Cambridgeshire County Council",
+          "address": {
+            "streetAddress": "Shire Hall ",
+            "locality": "Cambridge",
+            "region": null,
+            "postalCode": "CB3 0AP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "sarah.fuller@cambridgeshire.gov.uk",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "https://www.lgss.co.uk/about/"
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2724372222",
+            "scheme": "GB-CQC",
+            "legalName": "Clearwater Care"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Clearwater Care",
+          "address": {
+            "streetAddress": "CM16 6LP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Angela Wright",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3839303260",
+            "scheme": "GB-CQC",
+            "legalName": "Kinder Home Care Services"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Kinder Home Care Services",
+          "address": {
+            "streetAddress": "NN16 8JX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Maslin Kanukamwe",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-4580167588",
+            "scheme": "GB-CQC",
+            "legalName": "Supported Steps"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Supported Steps",
+          "address": {
+            "streetAddress": "PE28 3AS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-dfa0f8b0-d050-4af0-a657-6f004de6017b-lgss001-dn311905-24180207",
+        "title": "Cambridgeshire County Council Supported Living Services for Adults with a Learning Disability",
+        "description": "Cambridgeshire County Council is commissioning Supported Living Services for Adults with a Learning Disability, setting up an Open Framework for a period of 10 years. This means that the Framework will re-open at intervals to allow for new and previously unsuccessful providers to apply to join. There are two Lots - 1) Standard, and 2) Complex Needs. Providers must recognise the role they play in ensuring that people with learning disabilities experience the good health and wellbeing necessary to live a meaningful life. Providers should be aware that there are higher incidences of long term conditions, and other health problems, experienced by people with learning disabilities and prioritises preventative and palliative services and support to minimise potential impacts to service users. As such staff must have sufficient and appropriate training and skills to effectively engage people with learning disabilities in health promotion. The Council is trying to move towards a model that helps people to live as independently as possible at all levels of need, so the focus is on progression. Peterborough City Council may call-off this Framework for service users they have assessed as eligible using their own criteria.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 226000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 226000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-04T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "Clearwater Care"
+          },
+          {
+            "id": "13",
+            "name": "Kinder Home Care Services"
+          },
+          {
+            "id": "21",
+            "name": "Supported Steps"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-11-13T00:00:00Z",
+          "endDate": "2028-04-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "8054e4e92b017f68b474a37cf656dd33",
+        "name": "Cambridgeshire County Council"
+      },
+      "awards": [
+        {
+          "id": "c2dfe76f-4fa4-49bb-b6a9-7f007ea782c5",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-11-12T00:00:00Z",
+          "value": {
+            "amount": 226000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "Clearwater Care"
+            },
+            {
+              "id": "13",
+              "name": "Kinder Home Care Services"
+            },
+            {
+              "id": "21",
+              "name": "Supported Steps"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-11-13T00:00:00Z",
+            "endDate": "2028-04-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

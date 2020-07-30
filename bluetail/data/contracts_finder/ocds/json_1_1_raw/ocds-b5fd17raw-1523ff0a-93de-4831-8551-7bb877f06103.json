@@ -1,0 +1,331 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3910472f-df91-4d8e-8dff-2a15d8c5b462.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-11T17:45:06Z",
+  "publisher": {
+    "name": "MILLSTREAM ASSOCIATES LTD",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-1523ff0a-93de-4831-8551-7bb877f06103",
+      "id": "ocds-b5fd17-1523ff0a-93de-4831-8551-7bb877f06103-358349-mt217001",
+      "date": "2018-09-03T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "847e830f4bb12c28c70d231ced92fbca",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Water Services Regulation Authority (Ofwat)",
+          "address": {
+            "streetAddress": "Centre City Tower, 7 Hill Street ",
+            "locality": "Birmingham",
+            "region": null,
+            "postalCode": "B5 4UA",
+            "countryName": "\n              England\n"
+          },
+          "contactPoint": {
+            "name": "Lena Cluxton",
+            "email": "procurement@ofwat.gov.uk",
+            "telephone": "+44 1216447534",
+            "faxNumber": null,
+            "uri": "http://www.ofwat.gov.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Shepherd and Wedderburn LLP",
+          "address": {
+            "streetAddress": "1 Exchange Crescent, Conference Square, Edinburgh",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ashurst LLP",
+          "address": {
+            "streetAddress": "London Fruit &amp; Wool Exchange, 1 Duval Square, London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Dentons UKMEA LLP",
+          "address": {
+            "streetAddress": "1 Fleet Place, London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Sharpe Pritchard LLP",
+          "address": {
+            "streetAddress": "Elm Yard, 10-16 Elm Street, London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Gowling WLG (UK) LLP",
+          "address": {
+            "streetAddress": "4 More London Riverside, London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-1523ff0a-93de-4831-8551-7bb877f06103-mt217001",
+        "title": "Legal Panel",
+        "description": "Legal Panel in relation to the Thames Tideway Tunnel and Ofwat&#039;s Direct Procurement for Customers initiativeThe procurement involves the establishment of a framework agreement for use by Ofwat only. It is anticipated that one (1)panel agreement will be awarded for Lot 1 - Thames Tideway Tunnel and up to 4 for Lot 2 - Ofwat&#039;s Direct Procurement for Customers initiative.This procurement relates to the legal services which are listed in Schedule 3 of the Public Contracts Regulations 2015 (PCR) 2015 as a specific service. This procurement is being conducted under the Light Touch Regime (&#039;LTR&#039;) is therefore subject to limited regulation and will be conducted in accordance with regulations 74 to 76 PCR 2015.Any Agreement will be for a period of four (4) years  in total.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79100000",
+              "description": "Legal services",
+              "uri": "http://cpv.data.ac.uk/code-79100000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2018-09-10T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Shepherd and Wedderburn LLP"
+          },
+          {
+            "id": "2",
+            "name": "Ashurst LLP"
+          },
+          {
+            "id": "3",
+            "name": "Dentons UKMEA LLP"
+          },
+          {
+            "id": "4",
+            "name": "Sharpe Pritchard LLP"
+          },
+          {
+            "id": "5",
+            "name": "Gowling WLG (UK) LLP"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-02-13T00:00:00Z",
+          "endDate": "2023-02-12T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "847e830f4bb12c28c70d231ced92fbca",
+        "name": "Water Services Regulation Authority (Ofwat)"
+      },
+      "awards": [
+        {
+          "id": "a25b4919-aac9-47cb-952f-c5b2ca1eb2ec",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-02-25T00:00:00Z",
+          "value": {
+            "amount": 500000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Shepherd and Wedderburn LLP"
+            },
+            {
+              "id": "2",
+              "name": "Ashurst LLP"
+            },
+            {
+              "id": "3",
+              "name": "Dentons UKMEA LLP"
+            },
+            {
+              "id": "4",
+              "name": "Sharpe Pritchard LLP"
+            },
+            {
+              "id": "5",
+              "name": "Gowling WLG (UK) LLP"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-02-13T00:00:00Z",
+            "endDate": "2023-02-12T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

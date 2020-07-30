@@ -1,0 +1,846 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/27a95f24-9f69-4fd0-a017-7ccbc4892f12.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-19T09:27:20Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-c787b0e3-5201-4eb9-8c96-51ddd573b820",
+      "id": "ocds-b5fd17-c787b0e3-5201-4eb9-8c96-51ddd573b820-344758-lgss001-dn436222-10605467",
+      "date": "2019-10-21T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "7952f95edef45d22d5532859f0a7b3e4",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Northamptonshire County Council",
+          "address": {
+            "streetAddress": "One Angel Square Angel Street",
+            "locality": "Northampton",
+            "region": null,
+            "postalCode": "NN1 1ED",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "Contracts@Milton-keynes.gov.uk",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "https://www.lgss.co.uk/about/"
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2731684789",
+            "scheme": "GB-CQC",
+            "legalName": "4 Futures"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "4 Futures",
+          "address": {
+            "streetAddress": "NN10 9QA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Charlotte Pow",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-120590481",
+            "scheme": "GB-CQC",
+            "legalName": "Affinity Trust"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Affinity Trust",
+          "address": {
+            "streetAddress": "OX9 3WT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Karen Kynaston",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2584412931",
+            "scheme": "GB-CQC",
+            "legalName": "Cherry Care Services Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Cherry Care Services Ltd",
+          "address": {
+            "streetAddress": "NN3 6AQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "MRS LORRAINE KOUNAPTE",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2810191665",
+            "scheme": "GB-CQC",
+            "legalName": "Consummate Care Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Consummate Care Ltd",
+          "address": {
+            "streetAddress": "NN14 1FG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "MR Ian Considine",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "36",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3566617271",
+            "scheme": "GB-CQC",
+            "legalName": "Elmich Care"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Elmich Care",
+          "address": {
+            "streetAddress": "N9 0TL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Henry Okafor",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "41",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-685458107",
+            "scheme": "GB-CQC",
+            "legalName": "Friendly Support Services Limited"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Friendly Support Services Limited",
+          "address": {
+            "streetAddress": "NN2 6EZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Justin Manning",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "47",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-741052733",
+            "scheme": "GB-CQC",
+            "legalName": "Home Group"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Home Group",
+          "address": {
+            "streetAddress": "NE12 8ET",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr John Anderson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "49",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-4377302990",
+            "scheme": "GB-CQC",
+            "legalName": "JAAN Services"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JAAN Services",
+          "address": {
+            "streetAddress": "NN17 1QB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Lawrence Mushayahembe",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "54",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3839303260",
+            "scheme": "GB-CQC",
+            "legalName": "Kinder Home Care Services"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Kinder Home Care Services",
+          "address": {
+            "streetAddress": "NN16 8JX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Maslin Kanukamwe",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "55",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06559858",
+            "scheme": "GB-COH",
+            "legalName": "LOVINGANGELS CARE LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "LOVINGANGELS CARE LTD",
+          "address": {
+            "streetAddress": "RG12 8GF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr David Matsekeza",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "62",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2245347431",
+            "scheme": "GB-CQC",
+            "legalName": "Mentaur Community Support Limited"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Mentaur Community Support Limited",
+          "address": {
+            "streetAddress": "NN3 6AQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Herculano Castro",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "68",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-174003279",
+            "scheme": "GB-CQC",
+            "legalName": "Next Steps Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Next Steps Ltd",
+          "address": {
+            "streetAddress": "NN15 7HP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Marwan Warda",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "73",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-121881478",
+            "scheme": "GB-CQC",
+            "legalName": "Oakfield (Easton Maudit) Limited"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Oakfield (Easton Maudit) Limited",
+          "address": {
+            "streetAddress": "NN29 7NR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr John Payne",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "94",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2503147041",
+            "scheme": "GB-CQC",
+            "legalName": "Steppn-Stone Limited"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Steppn-Stone Limited",
+          "address": {
+            "streetAddress": "NN4 7PA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Jane Granvaud",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "97",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-114180802",
+            "scheme": "GB-CQC",
+            "legalName": "Tabs@42"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Tabs@42",
+          "address": {
+            "streetAddress": "nn14lp",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Brendan Bate",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "102",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-6001394000",
+            "scheme": "GB-CQC",
+            "legalName": "The Woodbridge Family Centre"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "The Woodbridge Family Centre",
+          "address": {
+            "streetAddress": "NN5 4WN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Lucy Mwape",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "104",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-5083539635",
+            "scheme": "GB-CQC",
+            "legalName": "Total Care Options Ltd"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Total Care Options Ltd",
+          "address": {
+            "streetAddress": "PE4 7EJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Kiliana Chibanda",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "115",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3057071262",
+            "scheme": "GB-CQC",
+            "legalName": "Active Support Service Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Active Support Service Ltd",
+          "address": {
+            "streetAddress": "NN16 0SX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Tammy Winson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-c787b0e3-5201-4eb9-8c96-51ddd573b820-lgss001-dn436222-10605467",
+        "title": "Northamptonshire County Council Commissioning Framework for People with a Learning Disability",
+        "description": "Northamptonshire County Council&#039;s Commissioning Framework being procured encompasses overarching outcomes that matter to people with a learning disability and their carers in Northamptonshire namely: &bull; People get the help they need when they need it &bull; People have, and hold on to, relationships that have meaning to them &bull; People feel in control &bull; People have equal access to healthcare, training and occupation &bull; People feel safe and are supported to take risks &bull; People have somewhere to live they call home &bull; People live longer &bull; Carers are able to continue caring. The Clinical Commissioning Groups (CCG&#039;s) are a contractual party to the Framework and intend to call off packages of care from this Framework as required. The light touch regime (LTR) applies to the Services under this Framework Agreement, as per Public Contracts Regulations 2015. The Framework will be opened on an annual basis or at the discretion of the Authority, based on need. The Commissioning Framework is broken down into 8 Lots: -Forensic Support -Living and Learning Opportunities -Residential Living -Short Breaks - Short Term Crisis Support -Supported Accommodation -Supported Living -Supporting People at Home",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 980000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 980000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-11T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 18,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "4 Futures"
+          },
+          {
+            "id": "7",
+            "name": "Affinity Trust"
+          },
+          {
+            "id": "18",
+            "name": "Cherry Care Services Ltd"
+          },
+          {
+            "id": "20",
+            "name": "Consummate Care Ltd"
+          },
+          {
+            "id": "36",
+            "name": "Elmich Care"
+          },
+          {
+            "id": "41",
+            "name": "Friendly Support Services Limited"
+          },
+          {
+            "id": "47",
+            "name": "Home Group"
+          },
+          {
+            "id": "49",
+            "name": "JAAN Services"
+          },
+          {
+            "id": "54",
+            "name": "Kinder Home Care Services"
+          },
+          {
+            "id": "55",
+            "name": "LOVINGANGELS CARE LTD"
+          },
+          {
+            "id": "62",
+            "name": "Mentaur Community Support Limited"
+          },
+          {
+            "id": "68",
+            "name": "Next Steps Ltd"
+          },
+          {
+            "id": "73",
+            "name": "Oakfield (Easton Maudit) Limited"
+          },
+          {
+            "id": "94",
+            "name": "Steppn-Stone Limited"
+          },
+          {
+            "id": "97",
+            "name": "Tabs@42"
+          },
+          {
+            "id": "102",
+            "name": "The Woodbridge Family Centre"
+          },
+          {
+            "id": "104",
+            "name": "Total Care Options Ltd"
+          },
+          {
+            "id": "115",
+            "name": "Active Support Service Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-10T00:00:00Z",
+          "endDate": "2029-09-01T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "7952f95edef45d22d5532859f0a7b3e4",
+        "name": "Northamptonshire County Council"
+      },
+      "awards": [
+        {
+          "id": "aeda6a58-d678-46a8-84c9-af3b2da8473f",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-31T00:00:00Z",
+          "value": {
+            "amount": 980000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "4 Futures"
+            },
+            {
+              "id": "7",
+              "name": "Affinity Trust"
+            },
+            {
+              "id": "18",
+              "name": "Cherry Care Services Ltd"
+            },
+            {
+              "id": "20",
+              "name": "Consummate Care Ltd"
+            },
+            {
+              "id": "36",
+              "name": "Elmich Care"
+            },
+            {
+              "id": "41",
+              "name": "Friendly Support Services Limited"
+            },
+            {
+              "id": "47",
+              "name": "Home Group"
+            },
+            {
+              "id": "49",
+              "name": "JAAN Services"
+            },
+            {
+              "id": "54",
+              "name": "Kinder Home Care Services"
+            },
+            {
+              "id": "55",
+              "name": "LOVINGANGELS CARE LTD"
+            },
+            {
+              "id": "62",
+              "name": "Mentaur Community Support Limited"
+            },
+            {
+              "id": "68",
+              "name": "Next Steps Ltd"
+            },
+            {
+              "id": "73",
+              "name": "Oakfield (Easton Maudit) Limited"
+            },
+            {
+              "id": "94",
+              "name": "Steppn-Stone Limited"
+            },
+            {
+              "id": "97",
+              "name": "Tabs@42"
+            },
+            {
+              "id": "102",
+              "name": "The Woodbridge Family Centre"
+            },
+            {
+              "id": "104",
+              "name": "Total Care Options Ltd"
+            },
+            {
+              "id": "115",
+              "name": "Active Support Service Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-10T00:00:00Z",
+            "endDate": "2030-01-09T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

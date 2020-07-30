@@ -1,0 +1,371 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/207d7d0c-6b0c-4450-a04d-35c258560832.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-08T14:40:03Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-5056009e-6431-4851-a8e3-21a590cc8572",
+      "id": "ocds-b5fd17-5056009e-6431-4851-a8e3-21a590cc8572-358052-bip492216332",
+      "date": "2020-04-21T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "791abcfe504fdee59169b4dc650d2988",
+          "roles": [
+            "buyer"
+          ],
+          "name": "NEUPC Ltd",
+          "address": {
+            "streetAddress": "http://www.neupc.ac.uk 3 South Parade",
+            "locality": "Leeds",
+            "region": null,
+            "postalCode": "LS1 5QX",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "m.mcgill@neupc.ac.uk",
+            "telephone": "+447775339236",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Esh Construction Limited",
+          "address": {
+            "streetAddress": "Bowburn North Ind Est.\n        Bowburn\n        Durham\n        DH6 5PF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Key Property Solutions Ltd.",
+          "address": {
+            "streetAddress": "KPS House\n        Lumley Court\n        Chester le Street\n        County Durham\n        DH2 1AN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "LIVECO Limited T/A VEST Construction",
+          "address": {
+            "streetAddress": "2 Henson Close\n        South Church Enterprise Park\n        Bishop Auckland\n        County Durham\n        DL14 6WA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "M.J. Phoenix &amp; Son Ltd.",
+          "address": {
+            "streetAddress": "2 Wrekenton Row\n        Wrekenton\n        Gateshead\n        NE9 7JD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Sendrig Construction Limited",
+          "address": {
+            "streetAddress": "Andrew House\n        4 Benton Terrace\n        Jesmond\n        Newcastle Upon Tyne\n        NE2 1QU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Interserve Construction Limited",
+          "address": {
+            "streetAddress": "Ouseburn Point\n        34-38 Shields Road\n        Newcastle upon Tyne\n        NE6 1DR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-5056009e-6431-4851-a8e3-21a590cc8572-bip492216332",
+        "title": "Minor Works, Lot 1A Framework Agreement",
+        "description": "This award by North Eastern Universities Purchasing Consortium (&quot;NEUPC&quot;) is for the establishment of a framework agreement for the procurement of minor building works, comprising of small building installations, refurbishments, repairs, maintenance and improvements on university premises.  The Framework Agreement has been tendered on behalf of select members of NEUPC only (the &quot;Participating Consortia&quot;).  Those &quot;Members&quot; are: Durham University, Newcastle University, Northumbria University, Teesside University \r\n       and University of Sunderland.   In addition to the above institutions, this agreement will be made available to Affiliate member, INTO Newcastle University LLP (a joint venture between Newcastle University and INTO University Partnerships Ltd), who may have an occasional, minor need for the agreement.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 100000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-28T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Esh Construction Limited"
+          },
+          {
+            "id": "2",
+            "name": "Key Property Solutions Ltd."
+          },
+          {
+            "id": "3",
+            "name": "LIVECO Limited T/A VEST Construction"
+          },
+          {
+            "id": "4",
+            "name": "M.J. Phoenix &amp; Son Ltd."
+          },
+          {
+            "id": "5",
+            "name": "Sendrig Construction Limited"
+          },
+          {
+            "id": "6",
+            "name": "Interserve Construction Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-15T00:00:00Z",
+          "endDate": "2024-05-14T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "791abcfe504fdee59169b4dc650d2988",
+        "name": "NEUPC Ltd"
+      },
+      "awards": [
+        {
+          "id": "7e2b53f0-77a2-489c-9f10-8d56fbe4198e",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-28T00:00:00Z",
+          "value": {
+            "amount": 100000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Esh Construction Limited"
+            },
+            {
+              "id": "2",
+              "name": "Key Property Solutions Ltd."
+            },
+            {
+              "id": "3",
+              "name": "LIVECO Limited T/A VEST Construction"
+            },
+            {
+              "id": "4",
+              "name": "M.J. Phoenix &amp; Son Ltd."
+            },
+            {
+              "id": "5",
+              "name": "Sendrig Construction Limited"
+            },
+            {
+              "id": "6",
+              "name": "Interserve Construction Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-15T00:00:00Z",
+            "endDate": "2024-05-14T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

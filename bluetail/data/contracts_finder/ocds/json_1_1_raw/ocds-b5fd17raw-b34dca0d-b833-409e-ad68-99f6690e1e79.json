@@ -1,0 +1,1064 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a52147e9-723d-4e1b-b4fc-a4a092ce4226.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-14T17:42:26Z",
+  "publisher": {
+    "name": "EU SUPPLY LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-b34dca0d-b833-409e-ad68-99f6690e1e79",
+      "id": "ocds-b5fd17-b34dca0d-b833-409e-ad68-99f6690e1e79-359107-20200514174218-39",
+      "date": "2019-12-18T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "a4823e40c59f2b5f777cf37cb0a7d376",
+          "roles": [
+            "buyer"
+          ],
+          "name": "NHS Shared Business Services Ltd (NHS SBS)",
+          "address": {
+            "streetAddress": "Halyard Court, 31 Broadway, The Quays ",
+            "locality": "Salford",
+            "region": null,
+            "postalCode": "M50 2UW",
+            "countryName": "ENG"
+          },
+          "contactPoint": {
+            "name": "Sakir Mahmud",
+            "email": "sakir.mahmud@nhs.net",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "https://www.sbs.nhs.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Aprobrium Limited",
+          "address": {
+            "streetAddress": "Hardwick Business Park, Noral Way, Banbury OX16 2AF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BigHand Limited",
+          "address": {
+            "streetAddress": "27 Union Street, London, SE1 1SD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bluewire-Technologies Limited",
+          "address": {
+            "streetAddress": "23 Berkeley Square, Bristol, BS8 1HP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Crescendo Systems Ltd",
+          "address": {
+            "streetAddress": "7 Brackenwood, Sunbury-on-Thames, Surrey. TW16 6SQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DICT8 Limited",
+          "address": {
+            "streetAddress": "Palladium House, 1/4 Argyll Street, London W1F 7LD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Dictate IT Ltd",
+          "address": {
+            "streetAddress": "96a Clifton Hill, London, NW8 0JT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DScribe Limited",
+          "address": {
+            "streetAddress": "Bowden House, 36 Northampton Road, Market Harborough LE16 9HE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "G2 Speech UK Ltd",
+          "address": {
+            "streetAddress": "4th Floor, Solar House, 1-9 Romford Road, Stratford, London E15 4LJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "InventAsia Limited",
+          "address": {
+            "streetAddress": "10 The Southend, Ledbury, Herefordshire, England, HR8 2EY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "3M United Kingdom Plc",
+          "address": {
+            "streetAddress": "3M Centre, \nCain Road, \nBracknell, \nBerkshire, \nRG12 8HT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Nuance Communications Ireland Limited",
+          "address": {
+            "streetAddress": "20 Merrion Road, Ballsbridge, Dublin 4, Ireland",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "OKS International Limited",
+          "address": {
+            "streetAddress": "45 Pall Mall, London, SW1Y 5JG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Scribetech (UK) Ltd",
+          "address": {
+            "streetAddress": "24 Bedford Row, London, WC1R 4TQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Norty Ltd T/A T-Pro",
+          "address": {
+            "streetAddress": "32 Fitzwilliam Place, Dublin 2  D02 Y985",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Transcription Agency LLP",
+          "address": {
+            "streetAddress": "24-28 High Street, Hythe, Kent, CT21 5AT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Voice Technologies Ltd",
+          "address": {
+            "streetAddress": "10 Shuttle Street, Paisley, PA1 1YD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Xanadutec Limited",
+          "address": {
+            "streetAddress": "91 Delamere Road, London, W53JP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Xstek Limited",
+          "address": {
+            "streetAddress": "Falcon House, 257 Burlington Road, New Malden, Surrey, KT3 4NE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b34dca0d-b833-409e-ad68-99f6690e1e79-20200514174218-39",
+        "title": "Digital Dictation, Speech Recognition and Outsourced Transcription",
+        "description": "NHS SBS are looking to create a Framework Agreement to support Approved Organisations with regard to their Digital Dictation, Speech Recognition and Outsourced Transcription requirements.  The Framework Agreement will be divided into Lots specific to Digital Dictation (Fixed and SaaS), Speech Recognition (Fixed and SaaS),Outsourced Transcription services, and also a Lot employing a combination of these services (Combined Solutions).  \r\n\r\nThe Framework Agreement will provide Approved Organisations with the flexibility to either invest in a capital purchase of hardware and software solutions or alternatively purchase the services on a subscription model where hosting options can be discussed or through a price per line basis (i.e. Software as a Service SaaS).",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "32332100",
+              "description": "Dictating machines",
+              "uri": "http://cpv.data.ac.uk/code-32332100.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "32342450",
+              "description": "Voice recorders",
+              "uri": "http://cpv.data.ac.uk/code-32342450.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "32344110",
+              "description": "Voice-logging system",
+              "uri": "http://cpv.data.ac.uk/code-32344110.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "32582000",
+              "description": "Data carriers",
+              "uri": "http://cpv.data.ac.uk/code-32582000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48180000",
+              "description": "Medical software package",
+              "uri": "http://cpv.data.ac.uk/code-48180000.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48311000",
+              "description": "Document management software package",
+              "uri": "http://cpv.data.ac.uk/code-48311000.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48311100",
+              "description": "Document management system",
+              "uri": "http://cpv.data.ac.uk/code-48311100.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48314000",
+              "description": "Voice recognition software package",
+              "uri": "http://cpv.data.ac.uk/code-48314000.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48317000",
+              "description": "Word-processing software package",
+              "uri": "http://cpv.data.ac.uk/code-48317000.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48517000",
+              "description": "IT software package",
+              "uri": "http://cpv.data.ac.uk/code-48517000.html"
+            }
+          },
+          {
+            "id": 11,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "48900000",
+              "description": "Miscellaneous software package and computer systems",
+              "uri": "http://cpv.data.ac.uk/code-48900000.html"
+            }
+          },
+          {
+            "id": 12,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72000000",
+              "description": "IT services: consulting, software development, Internet and support",
+              "uri": "http://cpv.data.ac.uk/code-72000000.html"
+            }
+          },
+          {
+            "id": 13,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72212218",
+              "description": "License management software development services",
+              "uri": "http://cpv.data.ac.uk/code-72212218.html"
+            }
+          },
+          {
+            "id": 14,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72212314",
+              "description": "Voice recognition software development services",
+              "uri": "http://cpv.data.ac.uk/code-72212314.html"
+            }
+          },
+          {
+            "id": 15,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72250000",
+              "description": "System and support services",
+              "uri": "http://cpv.data.ac.uk/code-72250000.html"
+            }
+          },
+          {
+            "id": 16,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72253000",
+              "description": "Helpdesk and support services",
+              "uri": "http://cpv.data.ac.uk/code-72253000.html"
+            }
+          },
+          {
+            "id": 17,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72253200",
+              "description": "Systems support services",
+              "uri": "http://cpv.data.ac.uk/code-72253200.html"
+            }
+          },
+          {
+            "id": 18,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72261000",
+              "description": "Software support services",
+              "uri": "http://cpv.data.ac.uk/code-72261000.html"
+            }
+          },
+          {
+            "id": 19,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72500000",
+              "description": "Computer-related services",
+              "uri": "http://cpv.data.ac.uk/code-72500000.html"
+            }
+          },
+          {
+            "id": 20,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79550000",
+              "description": "Typing, word-processing and desktop publishing services",
+              "uri": "http://cpv.data.ac.uk/code-79550000.html"
+            }
+          },
+          {
+            "id": 21,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79551000",
+              "description": "Typing services",
+              "uri": "http://cpv.data.ac.uk/code-79551000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 3000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 60000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-08T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 18,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Aprobrium Limited"
+          },
+          {
+            "id": "2",
+            "name": "BigHand Limited"
+          },
+          {
+            "id": "3",
+            "name": "Bluewire-Technologies Limited"
+          },
+          {
+            "id": "4",
+            "name": "Crescendo Systems Ltd"
+          },
+          {
+            "id": "5",
+            "name": "DICT8 Limited"
+          },
+          {
+            "id": "6",
+            "name": "Dictate IT Ltd"
+          },
+          {
+            "id": "7",
+            "name": "DScribe Limited"
+          },
+          {
+            "id": "8",
+            "name": "G2 Speech UK Ltd"
+          },
+          {
+            "id": "9",
+            "name": "InventAsia Limited"
+          },
+          {
+            "id": "10",
+            "name": "3M United Kingdom Plc"
+          },
+          {
+            "id": "11",
+            "name": "Nuance Communications Ireland Limited"
+          },
+          {
+            "id": "12",
+            "name": "OKS International Limited"
+          },
+          {
+            "id": "13",
+            "name": "Scribetech (UK) Ltd"
+          },
+          {
+            "id": "14",
+            "name": "Norty Ltd T/A T-Pro"
+          },
+          {
+            "id": "15",
+            "name": "The Transcription Agency LLP"
+          },
+          {
+            "id": "16",
+            "name": "Voice Technologies Ltd"
+          },
+          {
+            "id": "17",
+            "name": "Xanadutec Limited"
+          },
+          {
+            "id": "18",
+            "name": "Xstek Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-16T00:00:00Z",
+          "endDate": "2024-03-15T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "a4823e40c59f2b5f777cf37cb0a7d376",
+        "name": "NHS Shared Business Services Ltd (NHS SBS)"
+      },
+      "awards": [
+        {
+          "id": "0b2757e3-c56f-487b-a26c-f690302b7cdd",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-04T00:00:00Z",
+          "value": {
+            "amount": 60000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Aprobrium Limited"
+            },
+            {
+              "id": "2",
+              "name": "BigHand Limited"
+            },
+            {
+              "id": "3",
+              "name": "Bluewire-Technologies Limited"
+            },
+            {
+              "id": "4",
+              "name": "Crescendo Systems Ltd"
+            },
+            {
+              "id": "5",
+              "name": "DICT8 Limited"
+            },
+            {
+              "id": "6",
+              "name": "Dictate IT Ltd"
+            },
+            {
+              "id": "7",
+              "name": "DScribe Limited"
+            },
+            {
+              "id": "8",
+              "name": "G2 Speech UK Ltd"
+            },
+            {
+              "id": "9",
+              "name": "InventAsia Limited"
+            },
+            {
+              "id": "10",
+              "name": "3M United Kingdom Plc"
+            },
+            {
+              "id": "11",
+              "name": "Nuance Communications Ireland Limited"
+            },
+            {
+              "id": "12",
+              "name": "OKS International Limited"
+            },
+            {
+              "id": "13",
+              "name": "Scribetech (UK) Ltd"
+            },
+            {
+              "id": "14",
+              "name": "Norty Ltd T/A T-Pro"
+            },
+            {
+              "id": "15",
+              "name": "The Transcription Agency LLP"
+            },
+            {
+              "id": "16",
+              "name": "Voice Technologies Ltd"
+            },
+            {
+              "id": "17",
+              "name": "Xanadutec Limited"
+            },
+            {
+              "id": "18",
+              "name": "Xstek Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-16T00:00:00Z",
+            "endDate": "2022-06-15T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

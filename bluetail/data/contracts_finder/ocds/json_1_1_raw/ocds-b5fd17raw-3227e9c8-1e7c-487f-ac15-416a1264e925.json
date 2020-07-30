@@ -1,0 +1,3015 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/cd272e2a-a844-4b71-820e-cab2976f69c8.json",
+  "version": "1.1",
+  "publishedDate": "2020-06-01T16:53:30Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-3227e9c8-1e7c-487f-ac15-416a1264e925",
+      "id": "ocds-b5fd17-3227e9c8-1e7c-487f-ac15-416a1264e925-361638-bfdmdc001-dn446630-99623679",
+      "date": "2019-10-30T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "be5902530620f6d70b53ad510e331897",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Bradford Metropolitan District Council",
+          "address": {
+            "streetAddress": "Britannia House Hall Ings",
+            "locality": "Bradford",
+            "region": null,
+            "postalCode": "BD1 1HX",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Emma Darby",
+            "email": "emma.darby@bradford.gov.uk",
+            "telephone": "+44 1274434611",
+            "faxNumber": null,
+            "uri": "http://www.bradford.gov.uk/bmdc"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Alfred Bagnall &amp; Sons (North) Limited",
+          "address": {
+            "streetAddress": "BD18 3RD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Jonathan Walker",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BLS Asbestos Ltd",
+          "address": {
+            "streetAddress": "WF15 6JY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Stefan Osina",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Advance Carpet Tiles Ltd",
+          "address": {
+            "streetAddress": "BD12 9LJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Martin Doran",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Abraham Shaw Ltd",
+          "address": {
+            "streetAddress": "BD13 3QZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr David Stell",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "C &amp; M Roofing Ltd",
+          "address": {
+            "streetAddress": "BD6 1RS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr colin THOMPSON",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Aspect Contracts Limited",
+          "address": {
+            "streetAddress": "SS14 3DS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Alan Mitton",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Aastec Ltd",
+          "address": {
+            "streetAddress": "BD6 3EW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Neil Sutcliffe",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Abrahams &amp; Carlisle Ltd",
+          "address": {
+            "streetAddress": "BD4 9NT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Jonatha Hemingway",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bell Decorating Group Ltd",
+          "address": {
+            "streetAddress": "ML6 9BG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Siobhan Bell",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CPM Building Response Ltd",
+          "address": {
+            "streetAddress": "WF94TD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Martyn Gorton",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Comec Mechanical &amp; Electrical Limited",
+          "address": {
+            "streetAddress": "BD6 3EW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Gavin McHale",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Elite Managed Services",
+          "address": {
+            "streetAddress": "BD17 6BY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Daniel Bowman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Enhanced Energy Solutions",
+          "address": {
+            "streetAddress": "S20 1XD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Philip Finchett",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "em1 Ltd",
+          "address": {
+            "streetAddress": "DL6 2HL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Gillian Elstob",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CPM Contracts Ltd",
+          "address": {
+            "streetAddress": "LS10 1SL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "MR Ian Carter",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Charlestown Ltd",
+          "address": {
+            "streetAddress": "BD2 2DU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Robert Chapman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Cromwell Property Services",
+          "address": {
+            "streetAddress": "BD3 9BD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Mohammed Imran",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Elecktec Ltd",
+          "address": {
+            "streetAddress": "BD7 1JZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Darren Holdsworth",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Ellison Construction Ltd",
+          "address": {
+            "streetAddress": "BD15 0DR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Nathan Drake",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Evora Construction Limited",
+          "address": {
+            "streetAddress": "YO30 4WQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Ruth Cook",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "h &amp; h decorators limited",
+          "address": {
+            "streetAddress": "bd21 1sx",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Mostyn Hockey",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FSH Group Ltd",
+          "address": {
+            "streetAddress": "WF10 5NP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Ian Wood",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Evolve Construction Services (Yorkshire) Ltd",
+          "address": {
+            "streetAddress": "LS12 4JW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Martin Waud",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Gasmech (uk) Ltd",
+          "address": {
+            "streetAddress": "BD13 2JA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Gavin Watmough",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "HEC Contracting Ltd",
+          "address": {
+            "streetAddress": "HX7 5PZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr David Booth",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "26",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "GME Painting Contractors Ltd",
+          "address": {
+            "streetAddress": "WF5 9QS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Gavin Esberger",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Greens Decorating Contractors Ltd",
+          "address": {
+            "streetAddress": "LS27 8BW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Geoff Parker",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Harmony Contract Flooring Ltd",
+          "address": {
+            "streetAddress": "BD12 0NB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr John King",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Hart &amp; Sumpner Limited",
+          "address": {
+            "streetAddress": "LS11 8HA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Dylan Sumpner",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "30",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "LANDSCAPE ENGINEERING LTD",
+          "address": {
+            "streetAddress": "BB12 8ED",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "MR GARY BIRTWELL",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "31",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Hurricane Roofing",
+          "address": {
+            "streetAddress": "HD1 3ER",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Fabrizio Fois",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "32",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Jennings Roofing Limited",
+          "address": {
+            "streetAddress": "LS12 1AT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Alison Stead",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "33",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "IAG Developments Limited",
+          "address": {
+            "streetAddress": "BD13 1QA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Julian Chancellor",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "34",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Kaberry Construction",
+          "address": {
+            "streetAddress": "OL10 3JY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr James Gray",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "35",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JC Plastering",
+          "address": {
+            "streetAddress": "bd22 7qd",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "mr James Corbet",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "36",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ian Williams Limited",
+          "address": {
+            "streetAddress": "BS37 6JL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Bev Lane",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "37",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Hurst Stores &amp; Interiors Ltd",
+          "address": {
+            "streetAddress": "BD12 0UF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Steve Hird",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "38",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "John Rodriguez Plastering Ltd",
+          "address": {
+            "streetAddress": "LS6 4PR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "MRS SAMANTHA RODRIGUEZ",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "39",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Jupiter Construction LTD",
+          "address": {
+            "streetAddress": "LS15 8ZA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Mark Cody",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "40",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Mark Paynter Contracts Ltd",
+          "address": {
+            "streetAddress": "BD17 7EX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr David Loud",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "41",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "M &amp; J Group (Construction &amp; Roofing) Ltd",
+          "address": {
+            "streetAddress": "MK41 0UD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Richard James",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "42",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": true,
+          "name": "Novus Property Solutions Limited",
+          "address": {
+            "streetAddress": "ST1 5SH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Laura Fairbairn",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "43",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Mac Roofing and Contracting Ltd",
+          "address": {
+            "streetAddress": "CH62 3PT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Deborah Greenwood",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "44",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "McHale Contracts &amp; Plant Environmental LLP",
+          "address": {
+            "streetAddress": "BD12 ORY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Rachel Swaby",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "45",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Mitie Property Services (UK) Ltd - Painting",
+          "address": {
+            "streetAddress": "G73 1AU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Pamela Dyet",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "46",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Mark Houlston (Yorkshire Decorators) LTD",
+          "address": {
+            "streetAddress": "LS28 5PD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Mark Houlston",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "47",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Marshall Electrical Services (Yorkshire) Limited",
+          "address": {
+            "streetAddress": "BD22 7PW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr James Marshall",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "48",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Midgley &amp; Palmer Civil Engineering Ltd",
+          "address": {
+            "streetAddress": "BD17 7AP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr James Hadfield",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "49",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Neo Property Solutions Limited",
+          "address": {
+            "streetAddress": "LS9 0PF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Alistair Hodgson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "50",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Pacy &amp; Wheatley Ltd",
+          "address": {
+            "streetAddress": "DN4 8QG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "miss charlotte wheatley",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "51",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Rhodar Ltd",
+          "address": {
+            "streetAddress": "LS11 5SZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Darren Payne",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "52",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "S.G.Ellis (Electrical Contractors) Ltd",
+          "address": {
+            "streetAddress": "BD2 3BS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Brian Ellis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "53",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Sayes Service Limited",
+          "address": {
+            "streetAddress": "LS28 6BR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Stephen Tatler",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "54",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Shackleton Plumbing Limited",
+          "address": {
+            "streetAddress": "BD21 1SX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Sam Shackleton",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "55",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Ploughcroft Ltd",
+          "address": {
+            "streetAddress": "HX3 8EN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Fouzia Rashid",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "56",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Priera Ltd",
+          "address": {
+            "streetAddress": "S35 9YR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Martyn Gregory",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "57",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "R N Wooler",
+          "address": {
+            "streetAddress": "BD21 3LA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Andrew Wooler",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "58",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Pitts Wilson Electrical",
+          "address": {
+            "streetAddress": "BD4 7LU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr David Hooley",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "59",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Smart Security UK Ltd",
+          "address": {
+            "streetAddress": "WF12 9AQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Wendy Milnes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "60",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Stocksfield Construction Limited",
+          "address": {
+            "streetAddress": "BD4 8ST",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Michael Dunn",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "61",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Tucker &amp; Tunstalls Ltd",
+          "address": {
+            "streetAddress": "LS12 5JB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Jamie Sewell",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "62",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "VWG Mechanical Ltd",
+          "address": {
+            "streetAddress": "BD16 1HX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Chris Dooling",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "63",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Tricon Services Ltd",
+          "address": {
+            "streetAddress": "WF5 9TP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Sharron Oldroyd",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "64",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SSE Enterprise Contracting",
+          "address": {
+            "streetAddress": "RG19 4AZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Chris Moss",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "65",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Vallectric Limited",
+          "address": {
+            "streetAddress": "LS12 4PL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Tremayne Vare",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "66",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Tordoff &amp; Wilkinson",
+          "address": {
+            "streetAddress": "BD4 7BT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Steven Tordoff",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "67",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Whittle Programmed Maintenance",
+          "address": {
+            "streetAddress": "CH41 5EF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Elizabeth Hankinson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "68",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Suspended Ceilings Ltd",
+          "address": {
+            "streetAddress": "WF15 6JY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr neil colling",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "69",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Aspect Building Solutions Ltd",
+          "address": {
+            "streetAddress": "LS27 7RZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Stuart Wood",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-3227e9c8-1e7c-487f-ac15-416a1264e925-bfdmdc001-dn446630-99623679",
+        "title": "Construction Contractors Framework (4)",
+        "description": "Construction Contractors Framework for the following trades only: Asbestos Removal, Building &amp; Construction, Carpentry &amp; Joinery, Electrical, External &amp; Groundworks, masonry &amp; bricklaying, Mechanical &amp; Heating, Painting &amp; Decorating, Plastering, Plumbing, Roofing, Suspended Ceilings",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45300000",
+              "description": "Building installation work",
+              "uri": "http://cpv.data.ac.uk/code-45300000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45420000",
+              "description": "Joinery and carpentry installation work",
+              "uri": "http://cpv.data.ac.uk/code-45420000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45430000",
+              "description": "Floor and wall covering work",
+              "uri": "http://cpv.data.ac.uk/code-45430000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45262660",
+              "description": "Asbestos-removal work",
+              "uri": "http://cpv.data.ac.uk/code-45262660.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45262500",
+              "description": "Masonry and bricklaying work",
+              "uri": "http://cpv.data.ac.uk/code-45262500.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45262522",
+              "description": "Masonry work",
+              "uri": "http://cpv.data.ac.uk/code-45262522.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 20000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 20000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-18T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 69,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Alfred Bagnall &amp; Sons (North) Limited"
+          },
+          {
+            "id": "2",
+            "name": "BLS Asbestos Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Advance Carpet Tiles Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Abraham Shaw Ltd"
+          },
+          {
+            "id": "5",
+            "name": "C &amp; M Roofing Ltd"
+          },
+          {
+            "id": "6",
+            "name": "Aspect Contracts Limited"
+          },
+          {
+            "id": "7",
+            "name": "Aastec Ltd"
+          },
+          {
+            "id": "8",
+            "name": "Abrahams &amp; Carlisle Ltd"
+          },
+          {
+            "id": "9",
+            "name": "Bell Decorating Group Ltd"
+          },
+          {
+            "id": "10",
+            "name": "CPM Building Response Ltd"
+          },
+          {
+            "id": "11",
+            "name": "Comec Mechanical &amp; Electrical Limited"
+          },
+          {
+            "id": "12",
+            "name": "Elite Managed Services"
+          },
+          {
+            "id": "13",
+            "name": "Enhanced Energy Solutions"
+          },
+          {
+            "id": "14",
+            "name": "em1 Ltd"
+          },
+          {
+            "id": "15",
+            "name": "CPM Contracts Ltd"
+          },
+          {
+            "id": "16",
+            "name": "Charlestown Ltd"
+          },
+          {
+            "id": "17",
+            "name": "Cromwell Property Services"
+          },
+          {
+            "id": "18",
+            "name": "Elecktec Ltd"
+          },
+          {
+            "id": "19",
+            "name": "Ellison Construction Ltd"
+          },
+          {
+            "id": "20",
+            "name": "Evora Construction Limited"
+          },
+          {
+            "id": "21",
+            "name": "h &amp; h decorators limited"
+          },
+          {
+            "id": "22",
+            "name": "FSH Group Ltd"
+          },
+          {
+            "id": "23",
+            "name": "Evolve Construction Services (Yorkshire) Ltd"
+          },
+          {
+            "id": "24",
+            "name": "Gasmech (uk) Ltd"
+          },
+          {
+            "id": "25",
+            "name": "HEC Contracting Ltd"
+          },
+          {
+            "id": "26",
+            "name": "GME Painting Contractors Ltd"
+          },
+          {
+            "id": "27",
+            "name": "Greens Decorating Contractors Ltd"
+          },
+          {
+            "id": "28",
+            "name": "Harmony Contract Flooring Ltd"
+          },
+          {
+            "id": "29",
+            "name": "Hart &amp; Sumpner Limited"
+          },
+          {
+            "id": "30",
+            "name": "LANDSCAPE ENGINEERING LTD"
+          },
+          {
+            "id": "31",
+            "name": "Hurricane Roofing"
+          },
+          {
+            "id": "32",
+            "name": "Jennings Roofing Limited"
+          },
+          {
+            "id": "33",
+            "name": "IAG Developments Limited"
+          },
+          {
+            "id": "34",
+            "name": "Kaberry Construction"
+          },
+          {
+            "id": "35",
+            "name": "JC Plastering"
+          },
+          {
+            "id": "36",
+            "name": "Ian Williams Limited"
+          },
+          {
+            "id": "37",
+            "name": "Hurst Stores &amp; Interiors Ltd"
+          },
+          {
+            "id": "38",
+            "name": "John Rodriguez Plastering Ltd"
+          },
+          {
+            "id": "39",
+            "name": "Jupiter Construction LTD"
+          },
+          {
+            "id": "40",
+            "name": "Mark Paynter Contracts Ltd"
+          },
+          {
+            "id": "41",
+            "name": "M &amp; J Group (Construction &amp; Roofing) Ltd"
+          },
+          {
+            "id": "42",
+            "name": "Novus Property Solutions Limited"
+          },
+          {
+            "id": "43",
+            "name": "Mac Roofing and Contracting Ltd"
+          },
+          {
+            "id": "44",
+            "name": "McHale Contracts &amp; Plant Environmental LLP"
+          },
+          {
+            "id": "45",
+            "name": "Mitie Property Services (UK) Ltd - Painting"
+          },
+          {
+            "id": "46",
+            "name": "Mark Houlston (Yorkshire Decorators) LTD"
+          },
+          {
+            "id": "47",
+            "name": "Marshall Electrical Services (Yorkshire) Limited"
+          },
+          {
+            "id": "48",
+            "name": "Midgley &amp; Palmer Civil Engineering Ltd"
+          },
+          {
+            "id": "49",
+            "name": "Neo Property Solutions Limited"
+          },
+          {
+            "id": "50",
+            "name": "Pacy &amp; Wheatley Ltd"
+          },
+          {
+            "id": "51",
+            "name": "Rhodar Ltd"
+          },
+          {
+            "id": "52",
+            "name": "S.G.Ellis (Electrical Contractors) Ltd"
+          },
+          {
+            "id": "53",
+            "name": "Sayes Service Limited"
+          },
+          {
+            "id": "54",
+            "name": "Shackleton Plumbing Limited"
+          },
+          {
+            "id": "55",
+            "name": "Ploughcroft Ltd"
+          },
+          {
+            "id": "56",
+            "name": "Priera Ltd"
+          },
+          {
+            "id": "57",
+            "name": "R N Wooler"
+          },
+          {
+            "id": "58",
+            "name": "Pitts Wilson Electrical"
+          },
+          {
+            "id": "59",
+            "name": "Smart Security UK Ltd"
+          },
+          {
+            "id": "60",
+            "name": "Stocksfield Construction Limited"
+          },
+          {
+            "id": "61",
+            "name": "Tucker &amp; Tunstalls Ltd"
+          },
+          {
+            "id": "62",
+            "name": "VWG Mechanical Ltd"
+          },
+          {
+            "id": "63",
+            "name": "Tricon Services Ltd"
+          },
+          {
+            "id": "64",
+            "name": "SSE Enterprise Contracting"
+          },
+          {
+            "id": "65",
+            "name": "Vallectric Limited"
+          },
+          {
+            "id": "66",
+            "name": "Tordoff &amp; Wilkinson"
+          },
+          {
+            "id": "67",
+            "name": "Whittle Programmed Maintenance"
+          },
+          {
+            "id": "68",
+            "name": "Suspended Ceilings Ltd"
+          },
+          {
+            "id": "69",
+            "name": "Aspect Building Solutions Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-02-10T00:00:00Z",
+          "endDate": "2024-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "be5902530620f6d70b53ad510e331897",
+        "name": "Bradford Metropolitan District Council"
+      },
+      "awards": [
+        {
+          "id": "20d8d9dc-8f40-46b9-9037-c65c311899d3",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-27T00:00:00Z",
+          "value": {
+            "amount": 20000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Alfred Bagnall &amp; Sons (North) Limited"
+            },
+            {
+              "id": "2",
+              "name": "BLS Asbestos Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Advance Carpet Tiles Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Abraham Shaw Ltd"
+            },
+            {
+              "id": "5",
+              "name": "C &amp; M Roofing Ltd"
+            },
+            {
+              "id": "6",
+              "name": "Aspect Contracts Limited"
+            },
+            {
+              "id": "7",
+              "name": "Aastec Ltd"
+            },
+            {
+              "id": "8",
+              "name": "Abrahams &amp; Carlisle Ltd"
+            },
+            {
+              "id": "9",
+              "name": "Bell Decorating Group Ltd"
+            },
+            {
+              "id": "10",
+              "name": "CPM Building Response Ltd"
+            },
+            {
+              "id": "11",
+              "name": "Comec Mechanical &amp; Electrical Limited"
+            },
+            {
+              "id": "12",
+              "name": "Elite Managed Services"
+            },
+            {
+              "id": "13",
+              "name": "Enhanced Energy Solutions"
+            },
+            {
+              "id": "14",
+              "name": "em1 Ltd"
+            },
+            {
+              "id": "15",
+              "name": "CPM Contracts Ltd"
+            },
+            {
+              "id": "16",
+              "name": "Charlestown Ltd"
+            },
+            {
+              "id": "17",
+              "name": "Cromwell Property Services"
+            },
+            {
+              "id": "18",
+              "name": "Elecktec Ltd"
+            },
+            {
+              "id": "19",
+              "name": "Ellison Construction Ltd"
+            },
+            {
+              "id": "20",
+              "name": "Evora Construction Limited"
+            },
+            {
+              "id": "21",
+              "name": "h &amp; h decorators limited"
+            },
+            {
+              "id": "22",
+              "name": "FSH Group Ltd"
+            },
+            {
+              "id": "23",
+              "name": "Evolve Construction Services (Yorkshire) Ltd"
+            },
+            {
+              "id": "24",
+              "name": "Gasmech (uk) Ltd"
+            },
+            {
+              "id": "25",
+              "name": "HEC Contracting Ltd"
+            },
+            {
+              "id": "26",
+              "name": "GME Painting Contractors Ltd"
+            },
+            {
+              "id": "27",
+              "name": "Greens Decorating Contractors Ltd"
+            },
+            {
+              "id": "28",
+              "name": "Harmony Contract Flooring Ltd"
+            },
+            {
+              "id": "29",
+              "name": "Hart &amp; Sumpner Limited"
+            },
+            {
+              "id": "30",
+              "name": "LANDSCAPE ENGINEERING LTD"
+            },
+            {
+              "id": "31",
+              "name": "Hurricane Roofing"
+            },
+            {
+              "id": "32",
+              "name": "Jennings Roofing Limited"
+            },
+            {
+              "id": "33",
+              "name": "IAG Developments Limited"
+            },
+            {
+              "id": "34",
+              "name": "Kaberry Construction"
+            },
+            {
+              "id": "35",
+              "name": "JC Plastering"
+            },
+            {
+              "id": "36",
+              "name": "Ian Williams Limited"
+            },
+            {
+              "id": "37",
+              "name": "Hurst Stores &amp; Interiors Ltd"
+            },
+            {
+              "id": "38",
+              "name": "John Rodriguez Plastering Ltd"
+            },
+            {
+              "id": "39",
+              "name": "Jupiter Construction LTD"
+            },
+            {
+              "id": "40",
+              "name": "Mark Paynter Contracts Ltd"
+            },
+            {
+              "id": "41",
+              "name": "M &amp; J Group (Construction &amp; Roofing) Ltd"
+            },
+            {
+              "id": "42",
+              "name": "Novus Property Solutions Limited"
+            },
+            {
+              "id": "43",
+              "name": "Mac Roofing and Contracting Ltd"
+            },
+            {
+              "id": "44",
+              "name": "McHale Contracts &amp; Plant Environmental LLP"
+            },
+            {
+              "id": "45",
+              "name": "Mitie Property Services (UK) Ltd - Painting"
+            },
+            {
+              "id": "46",
+              "name": "Mark Houlston (Yorkshire Decorators) LTD"
+            },
+            {
+              "id": "47",
+              "name": "Marshall Electrical Services (Yorkshire) Limited"
+            },
+            {
+              "id": "48",
+              "name": "Midgley &amp; Palmer Civil Engineering Ltd"
+            },
+            {
+              "id": "49",
+              "name": "Neo Property Solutions Limited"
+            },
+            {
+              "id": "50",
+              "name": "Pacy &amp; Wheatley Ltd"
+            },
+            {
+              "id": "51",
+              "name": "Rhodar Ltd"
+            },
+            {
+              "id": "52",
+              "name": "S.G.Ellis (Electrical Contractors) Ltd"
+            },
+            {
+              "id": "53",
+              "name": "Sayes Service Limited"
+            },
+            {
+              "id": "54",
+              "name": "Shackleton Plumbing Limited"
+            },
+            {
+              "id": "55",
+              "name": "Ploughcroft Ltd"
+            },
+            {
+              "id": "56",
+              "name": "Priera Ltd"
+            },
+            {
+              "id": "57",
+              "name": "R N Wooler"
+            },
+            {
+              "id": "58",
+              "name": "Pitts Wilson Electrical"
+            },
+            {
+              "id": "59",
+              "name": "Smart Security UK Ltd"
+            },
+            {
+              "id": "60",
+              "name": "Stocksfield Construction Limited"
+            },
+            {
+              "id": "61",
+              "name": "Tucker &amp; Tunstalls Ltd"
+            },
+            {
+              "id": "62",
+              "name": "VWG Mechanical Ltd"
+            },
+            {
+              "id": "63",
+              "name": "Tricon Services Ltd"
+            },
+            {
+              "id": "64",
+              "name": "SSE Enterprise Contracting"
+            },
+            {
+              "id": "65",
+              "name": "Vallectric Limited"
+            },
+            {
+              "id": "66",
+              "name": "Tordoff &amp; Wilkinson"
+            },
+            {
+              "id": "67",
+              "name": "Whittle Programmed Maintenance"
+            },
+            {
+              "id": "68",
+              "name": "Suspended Ceilings Ltd"
+            },
+            {
+              "id": "69",
+              "name": "Aspect Building Solutions Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2024-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

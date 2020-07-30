@@ -1,0 +1,406 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3e73049b-ba69-47cf-bcba-78e400b371cd.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-03T15:22:03Z",
+  "publisher": {
+    "name": "Suffolk County Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-9adc7eb3-ed1f-4196-97de-ffd9350beee4",
+      "id": "ocds-b5fd17-9adc7eb3-ed1f-4196-97de-ffd9350beee4-341344-cd1276---#1---award",
+      "date": "2019-05-29T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "333f3e62ffcc0874b49e7a83bdfb4a6f",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Suffolk Sourcing",
+          "address": {
+            "streetAddress": "Russell Road Ipswich",
+            "locality": "Suffolk",
+            "region": null,
+            "postalCode": "IP1 2BX",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Marie Grace",
+            "email": "marie.grace@suffolk.gov.uk",
+            "telephone": "+44 1473260672",
+            "faxNumber": null,
+            "uri": "https://www.suffolk.gov.uk/business-jobs-and-careers/tenders-and-supplying-us/"
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1991104526",
+            "scheme": "GB-CQC",
+            "legalName": "Christies Care Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Christies Care Ltd",
+          "address": {
+            "streetAddress": "Rose House, Street Farm Road, Saxmundham, Suffolk, United Kingdom, IP17 1AL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lin Barnes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "09532996",
+            "scheme": "GB-COH",
+            "legalName": "DEBEN WILLOW CARE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DEBEN WILLOW CARE LIMITED",
+          "address": {
+            "streetAddress": "UNIT 14, WILFORD BRIDGE SPUR, MELTON, SUFFOLK, United Kingdom, IP12 1RJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "KARL DOUBLE",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2579916184",
+            "scheme": "GB-CQC",
+            "legalName": "First Choice Home Care"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "First Choice Home Care",
+          "address": {
+            "streetAddress": "1st Floor , 2 Church Street , Harleton, Norfolk , United Kingdom, IP20 9BB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Emily Baldwin",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1828294251",
+            "scheme": "GB-CQC",
+            "legalName": "First Prime Care Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "First Prime Care Ltd",
+          "address": {
+            "streetAddress": "UNIT 1 FORGE BUSINESS CENTRE, UPPER ROSE LANE, Diss, Norfolk, United Kingdom, IP22 1AP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "JEFFREY ASENSO",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1684581242",
+            "scheme": "GB-CQC",
+            "legalName": "Forget Me Not Home Services Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Forget Me Not Home Services Ltd",
+          "address": {
+            "streetAddress": "Victoria House, Hadleigh, Hadleigh, Suffolk, United Kingdom, IP7 5DL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Stevie Hambling",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1235269548",
+            "scheme": "GB-CQC",
+            "legalName": "Sygmacare"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Sygmacare",
+          "address": {
+            "streetAddress": "302 Nacton Road, Ipswich, Suffolk, United Kingdom, IP3 9JH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Emma Scrivener",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-5780424534",
+            "scheme": "GB-CQC",
+            "legalName": "We Simply Care Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "We Simply Care Ltd",
+          "address": {
+            "streetAddress": "Unit 1 , Hythe Quay, Colchester, Essex, United Kingdom, CO2 8JB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jinienei Welham",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-9adc7eb3-ed1f-4196-97de-ffd9350beee4-cd1276---#1---award",
+        "title": "Locality Home Care &amp; Support Service Framework. - AWARD",
+        "description": "Provision of the Locality Based Home Care and Support Services for people aged 18 and over who are eligible for Adult Care Services living in Suffolk and NHS Continuing Healthcare (CHC) who are registered with a GP Practice in the Ipswich and East Suffolk Clinical Commissioning Group (IESCCG) and West Suffolk Clinical Commissioning Group (WSCCG) and the Great Yarmouth &amp; Waveney Clinical Commissioning Group. (referred to as the CCG&#039;s).",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 360000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-24T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 7,
+        "tenderers": [
+          {
+            "id": "10",
+            "name": "Christies Care Ltd"
+          },
+          {
+            "id": "12",
+            "name": "DEBEN WILLOW CARE LIMITED"
+          },
+          {
+            "id": "13",
+            "name": "First Choice Home Care"
+          },
+          {
+            "id": "14",
+            "name": "First Prime Care Ltd"
+          },
+          {
+            "id": "15",
+            "name": "Forget Me Not Home Services Ltd"
+          },
+          {
+            "id": "20",
+            "name": "Sygmacare"
+          },
+          {
+            "id": "23",
+            "name": "We Simply Care Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-11-05T00:00:00Z",
+          "endDate": "2029-09-14T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "333f3e62ffcc0874b49e7a83bdfb4a6f",
+        "name": "Suffolk Sourcing"
+      },
+      "awards": [
+        {
+          "id": "c5501e71-c21c-4bc9-881c-a7bbe1b45c35",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-08T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "10",
+              "name": "Christies Care Ltd"
+            },
+            {
+              "id": "12",
+              "name": "DEBEN WILLOW CARE LIMITED"
+            },
+            {
+              "id": "13",
+              "name": "First Choice Home Care"
+            },
+            {
+              "id": "14",
+              "name": "First Prime Care Ltd"
+            },
+            {
+              "id": "15",
+              "name": "Forget Me Not Home Services Ltd"
+            },
+            {
+              "id": "20",
+              "name": "Sygmacare"
+            },
+            {
+              "id": "23",
+              "name": "We Simply Care Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-11-05T00:00:00Z",
+            "endDate": "2029-09-14T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

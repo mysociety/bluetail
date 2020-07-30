@@ -1,0 +1,309 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1f230dcc-9688-4310-ac6b-4e23723376d8.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-21T12:37:11Z",
+  "publisher": {
+    "name": "EU SUPPLY LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-b1064c59-4875-4d83-81ba-a3ccf1405156",
+      "id": "ocds-b5fd17-b1064c59-4875-4d83-81ba-a3ccf1405156-360188-20200521123705-68205",
+      "date": "2019-05-27T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "4168292db3b37e76506b9e4f061173c4",
+          "roles": [
+            "buyer"
+          ],
+          "name": "NHS Arden and Greater East Midlands Commissioning Support Unit",
+          "address": {
+            "streetAddress": "Fosse House, 6 Smith Way, Grove Park ",
+            "locality": "Enderby",
+            "region": null,
+            "postalCode": "LE19 1SX",
+            "countryName": "ENG"
+          },
+          "contactPoint": {
+            "name": "Claire Pickard",
+            "email": "Claire.Pickard@nhs.net",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "www.england.nhs.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PK Patel Quality Services Ltd",
+          "address": {
+            "streetAddress": "223 East Park Road\nLeicester\nLE5 5HJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2372023164",
+            "scheme": "GB-CQC",
+            "legalName": "Burton Dental Lodge"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Burton Dental Lodge",
+          "address": {
+            "streetAddress": "156 Spilsby Road\nBoston\nPE21 9QP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "JDSP Dental Limited",
+          "address": {
+            "streetAddress": "13 Main Street\nKeyworth\nNottingham\nNG12 5AA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Smile Centre (Boston) Limited",
+          "address": {
+            "streetAddress": "PO Box 10553\nLeicester \nLE8 9WR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b1064c59-4875-4d83-81ba-a3ccf1405156-20200521123705-68205",
+        "title": "Provision of General Dental Services for NHS England and NHS Improvement (Midlands)",
+        "description": "NHS Arden and Greater East Midlands Commissioning Support Unit (NHS Arden and GEM CSU) on behalf of NHS England and NHS Improvement - Midlands invited suitably qualified providers who were capable of delivering General Dental Services (8 Lots).\r\n\r\nLot 1 - Leicester - Extended Access\r\nLot 2 - Melton Mowbray (Extended Access)\r\nLot 3 - Mablethorpe (Extended Access)\r\nLot 4 - Boston - Extended Access\r\nLot 5 - Spalding (Extended Access)\r\nLot 6 - Spalding - 8 to 8\r\nLot 7 - Louth - Extended Access\r\nLot 8 - Skegness/Spilsby (Extended Access)\r\n\r\nAs a result of this procurement exercise an agreement has been established with the successful bidders for a period of 7 years [with the commissioner having the option to extend the contract for up to a further 3 years].\r\n\r\nInformation on non-award: Lots 2, 3, 5 and 8 were not awarded as no tenders or requests were received or all were rejected.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85100000",
+              "description": "Health services",
+              "uri": "http://cpv.data.ac.uk/code-85100000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85130000",
+              "description": "Dental practice and related services",
+              "uri": "http://cpv.data.ac.uk/code-85130000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85131000",
+              "description": "Dental-practice services",
+              "uri": "http://cpv.data.ac.uk/code-85131000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 1,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-06-24T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "PK Patel Quality Services Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Burton Dental Lodge"
+          },
+          {
+            "id": "3",
+            "name": "JDSP Dental Limited"
+          },
+          {
+            "id": "4",
+            "name": "Smile Centre (Boston) Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-01T00:00:00Z",
+          "endDate": "2030-02-28T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "4168292db3b37e76506b9e4f061173c4",
+        "name": "NHS Arden and Greater East Midlands Commissioning Support Unit"
+      },
+      "awards": [
+        {
+          "id": "43da6134-6d01-4a1a-95ff-d41343b3ecde",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-28T00:00:00Z",
+          "value": {
+            "amount": 23846750,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "PK Patel Quality Services Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Burton Dental Lodge"
+            },
+            {
+              "id": "3",
+              "name": "JDSP Dental Limited"
+            },
+            {
+              "id": "4",
+              "name": "Smile Centre (Boston) Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-01T00:00:00Z",
+            "endDate": "2030-02-28T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

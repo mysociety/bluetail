@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/98c9e119-e6b1-4031-a5f2-f33c449065f5.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-12T11:52:13Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-7d22056e-5657-4d03-b836-3a867b6c171a",
+      "id": "ocds-b5fd17-7d22056e-5657-4d03-b836-3a867b6c171a-358452-herefcc-dn463096-75363451",
+      "date": "2020-01-27T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "4aade703887e1f2d7832591f0669551a",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Herefordshire Council",
+          "address": {
+            "streetAddress": "Council Offices Plough Lane",
+            "locality": "Hereford",
+            "region": null,
+            "postalCode": "HR4 0LE",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Claire Bennett",
+            "email": "Claire.Bennett@herefordshire.gov.uk",
+            "telephone": "+44 1432261994",
+            "faxNumber": null,
+            "uri": "https://www.herefordshire.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "GSR HEATING",
+          "address": {
+            "streetAddress": "HR4 9NH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Andy Tyler",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Kensa Engineering",
+          "address": {
+            "streetAddress": "TR4 8RJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Simon Lomax",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7d22056e-5657-4d03-b836-3a867b6c171a-herefcc-dn463096-75363451",
+        "title": "First Time Central Heating Supply and Installation Works",
+        "description": "An estimated further 130 households that are private owner occupied and privately rented in rural areas of Herefordshire and Shropshire are set to benefit from the Rural Warm Homes Fund project to install efficient affordable first time heating. The funding established by National Grid and being administered by Community Interest Company, Affordable Warmth Solutions, is designed to support councils, registered social landlords and relevant partner organisations to address some of the issues affecting fuel poor households. There is no defined list of properties as these will emerge through the project facilitated by the contract administrators. Installers will also be able to inform the Contract Administrator of qualifying properties. Funding will be combined with other non-council funding streams (principally ECO3) to provide &pound;0.96 million of capital works to an estimated 150 eligible households across Herefordshire and Shropshire. This funding refers to Category 2: Rural (Renewables including Biomass, Heat pumps and LPG installs) with targets of 150.\r\nContractors can bid to deliver against just the LPG installs, Biomass installs, or just the heat pump installs, or all. \r\n\r\nLot 1: LPG (estimated installation of 110)\r\n\r\nLot 2: Air Source Heat Pumps (estimated installation of 10 - 20)\r\n\r\nLot 3: Ground Source Heat Pumps (estimated installation of 10 - 20)\r\n\r\nLot 4: Biomass (estimated installation of 10 - 20)\r\n                                                                                                                                                                                          Herefordshire Council has published this opportunity on the &#039;Supplying the Southwest Portal&#039;. To view the tender documentation related to this opportunity you will need to register on the portal, if you are not already register with Procontract, and express an interest in the opportunity.\r\n\r\nTo Register with Procontract on the Supplying the Southwest Portal click on the link below or copy and paste the link into your browser address bar; https://www.supplyingthesouthwest.org.uk \r\n\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45232141",
+              "description": "Heating works",
+              "uri": "http://cpv.data.ac.uk/code-45232141.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 600000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 600000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-16T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "GSR HEATING"
+          },
+          {
+            "id": "2",
+            "name": "Kensa Engineering"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-01T00:00:00Z",
+          "endDate": "2021-04-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "4aade703887e1f2d7832591f0669551a",
+        "name": "Herefordshire Council"
+      },
+      "awards": [
+        {
+          "id": "bb2ecc7b-cff1-4b50-98e3-19a2c1fabc76",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-30T00:00:00Z",
+          "value": {
+            "amount": 600000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "GSR HEATING"
+            },
+            {
+              "id": "2",
+              "name": "Kensa Engineering"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-01T00:00:00Z",
+            "endDate": "2021-04-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

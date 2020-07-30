@@ -1,0 +1,411 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3cec32d4-1686-4163-aa8d-390a5af502c3.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-13T12:28:50Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-3828b737-a6e8-4d29-a230-493c53f22a71",
+      "id": "ocds-b5fd17-3828b737-a6e8-4d29-a230-493c53f22a71-358707-hc13413---award",
+      "date": "2019-10-24T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "908deaf98dbc0a8ed683db89fff1fdda",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Hampshire County Council",
+          "address": {
+            "streetAddress": "Romsey Road Winchester",
+            "locality": "Hampshire",
+            "region": null,
+            "postalCode": "SO22 5DB",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "PST Procurement Support Procurement",
+            "email": "procurement.support@hants.gov.uk",
+            "telephone": "01962 832323",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BP Rolls Ltd",
+          "address": {
+            "streetAddress": "27-30 Hopkinson Way, West Portway Industrial Estate, Andover, Hampshire, United Kingdom, SP3 6HJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Samantha Frost",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Cambridge Accident Repair Centres",
+          "address": {
+            "streetAddress": "17 18 Standard Way , Wallington Industrial Park, Fareham , Hants , United Kingdom, PO16 8XB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jon  Stephens",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Deepcut Garage Ltd",
+          "address": {
+            "streetAddress": "85-93 Deepcut Bridge Road, Deepcut , Camberley , Surrey, United Kingdom, GU166QP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Steve  Knight",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MB (HANTS) LTD",
+          "address": {
+            "streetAddress": "LAUNDRY LANE, MILFORD ON SEA , LYMINGTON, HANTS , United Kingdom, SO410WJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "SARAH WILKINSON",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Nationwide Accident Repair Services Ltd",
+          "address": {
+            "streetAddress": "17a Thorney Leys Park, Wtney, Oxford, Oxfordshire, United Kingdom, OX28 4GE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sarah  Dowen",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Partridge of Hampshire Ltd",
+          "address": {
+            "streetAddress": "1 Stoney Croft Rise, Chesnut Avenue, Chandlers Ford, Hampshire, United Kingdom, SO53 3YU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Bruce Charman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-3828b737-a6e8-4d29-a230-493c53f22a71-hc13413---award",
+        "title": "Vehicle Accident Repair Services Framework - AWARD",
+        "description": "Chief Constable of Hampshire Constabulary invites applications from suitably experienced organisations who wish to be considered for selection to tender for the Supply of Accident and Repair Services for Vehicles.\r\n      \r\n      A multi-lot framework agreement to provide an effective procurement route for accident and repair services for Hampshire Constabulary, Hampshire Fire and Rescue Service and Hampshire Transport Management. The Framework will commence on 27th January 2020 and will be for a period of four years.\r\n      \r\n      The Chief Constable of Hampshire Constabulary is the lead authority for the set up of this framework.\r\n      \r\n      The overriding objectives of the framework agreement are:\r\n      \r\n      - to provide value for money,\r\n      \r\n      - to provide a consistent quality of service and workmanship,\r\n      \r\n      - to streamline the processes.\r\n      \r\n      The framework will be divided into the following lots by vehicle type and the repair required.\r\n      Lot 1 - Repair of Cars and Light Commercial Vehicles\r\n      Lot 2 - Repair of HGV Vehicles over 7,5 Tonne\r\n      Lot 3 - Mobile Small to Medium area Repair Techniques (SMART)\r\n      This framework will operate under differing requirements by lot.\r\n      Potential suppliers will be allowed to bid for individual or all lots and will be awarded based on their capability\r\n      \r\n      \r\n      Interested parties should register their interest in the project via the In-Tend website https://in-tendhost.co.uk/hampshire, and complete and submit the tender return document together with any supporting information requested by 14.00 hrs on Thursday 28th November 2019.  \r\n      \r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50100000",
+              "description": "Repair, maintenance and associated services of vehicles and related equipment",
+              "uri": "http://cpv.data.ac.uk/code-50100000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50114000",
+              "description": "Repair and maintenance services of trucks",
+              "uri": "http://cpv.data.ac.uk/code-50114000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50112000",
+              "description": "Repair and maintenance services of cars",
+              "uri": "http://cpv.data.ac.uk/code-50112000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50110000",
+              "description": "Repair and maintenance services of motor vehicles and associated equipment",
+              "uri": "http://cpv.data.ac.uk/code-50110000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50111000",
+              "description": "Fleet management, repair and maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50111000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 1100000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-28T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "BP Rolls Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Cambridge Accident Repair Centres"
+          },
+          {
+            "id": "3",
+            "name": "Deepcut Garage Ltd"
+          },
+          {
+            "id": "4",
+            "name": "MB (HANTS) LTD"
+          },
+          {
+            "id": "5",
+            "name": "Nationwide Accident Repair Services Ltd"
+          },
+          {
+            "id": "6",
+            "name": "Partridge of Hampshire Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-27T00:00:00Z",
+          "endDate": "2024-01-26T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "908deaf98dbc0a8ed683db89fff1fdda",
+        "name": "Hampshire County Council"
+      },
+      "awards": [
+        {
+          "id": "efa0d5eb-f57d-4806-a401-75b5a1cc3503",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-20T00:00:00Z",
+          "value": {
+            "amount": 200000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "BP Rolls Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Cambridge Accident Repair Centres"
+            },
+            {
+              "id": "3",
+              "name": "Deepcut Garage Ltd"
+            },
+            {
+              "id": "4",
+              "name": "MB (HANTS) LTD"
+            },
+            {
+              "id": "5",
+              "name": "Nationwide Accident Repair Services Ltd"
+            },
+            {
+              "id": "6",
+              "name": "Partridge of Hampshire Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-27T00:00:00Z",
+            "endDate": "2024-01-26T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

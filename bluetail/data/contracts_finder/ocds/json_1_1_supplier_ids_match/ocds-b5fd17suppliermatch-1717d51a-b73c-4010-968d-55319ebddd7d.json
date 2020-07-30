@@ -1,0 +1,412 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/bbef0432-5511-4954-993b-fbfdddd4abf3.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-28T16:14:17Z",
+  "publisher": {
+    "name": "Crown Commercial Service",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-1717d51a-b73c-4010-968d-55319ebddd7d",
+      "id": "ocds-b5fd17-1717d51a-b73c-4010-968d-55319ebddd7d-353757-rm6143",
+      "date": "2019-11-11T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "8322a84a8c6750aac7bde6e3fb457dc6",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Crown Commercial Service",
+          "address": {
+            "streetAddress": "9th Floor, The Capital, Old Hall Street ",
+            "locality": "Liverpool",
+            "region": null,
+            "postalCode": "L3 9PP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Crown Commercial Service",
+            "email": "supplier@crowncommercial.gov.uk",
+            "telephone": "+443450103503",
+            "faxNumber": null,
+            "uri": "https://www.gov.uk/government/organisations/crown-commercial-service"
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07848318",
+            "scheme": "GB-COH",
+            "legalName": "MASTERNAUT LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MASTERNAUT LIMITED",
+          "address": {
+            "streetAddress": "Great North Road, Aberford\nLS25 3DF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "10158811",
+            "scheme": "GB-COH",
+            "legalName": "NTT DATA SERVICES UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "NTT DATA SERVICES UK LIMITED",
+          "address": {
+            "streetAddress": "180 Oxford Street\nLONDON\nW1D 1NN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jon Marsh",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02292714",
+            "scheme": "GB-COH",
+            "legalName": "TELETRAC NAVMAN (UK) LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TELETRAC NAVMAN (UK) LTD",
+          "address": {
+            "streetAddress": "Kents Hill\nMILTON KEYNES\nBuckinghamshire\nMK7 6BZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01650825",
+            "scheme": "GB-COH",
+            "legalName": "TERRAFIX LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "TERRAFIX LIMITED",
+          "address": {
+            "streetAddress": "High Street\nST6 5PD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Carol Rosson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03842666",
+            "scheme": "GB-COH",
+            "legalName": "THE BARCODE WAREHOUSE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "THE BARCODE WAREHOUSE LIMITED",
+          "address": {
+            "streetAddress": "Telford Drive\nNG24 2DX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ross Lee",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07968005",
+            "scheme": "GB-COH",
+            "legalName": "THE FLOOW LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "THE FLOOW LIMITED",
+          "address": {
+            "streetAddress": "Wicker Lane\nSHEFFIELD\nSouth Yorkshire\nS3 8HQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04415597",
+            "scheme": "GB-COH",
+            "legalName": "TRAKM8 LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "TRAKM8 LIMITED",
+          "address": {
+            "streetAddress": "Unit 4 Roman Way\nBIRMINGHAM\nWest Midlands\nB46 1HG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-1717d51a-b73c-4010-968d-55319ebddd7d-rm6143",
+        "title": "Vehicle Telematics: Hardware and Software Solutions",
+        "description": "Crown Commercial Service has established a framework agreement for the provision of Vehicle Telematics for Crown Bodies and other buyers.\r\n\r\nThis agreement replaces the previous RM3754 framework agreement. This new agreement offers Vehicle Telematics products and services to help fleet managers improve the safety and efficiency of fleet operations.\r\n\r\nThe scope of the framework covers the United Kingdom of Great Britain and Northern Ireland.\r\n\r\nSuppliers appointed to the framework are responsible for the provision of:\r\n\r\na) Vehicle Telematics hardware, software and associated products;\r\n\r\nb) data analysis and risk management solutions.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "64226000",
+              "description": "Telematics services",
+              "uri": "http://cpv.data.ac.uk/code-64226000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 23000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-06T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 7,
+        "tenderers": [
+          {
+            "id": "8",
+            "name": "MASTERNAUT LIMITED"
+          },
+          {
+            "id": "9",
+            "name": "NTT DATA SERVICES UK LIMITED"
+          },
+          {
+            "id": "12",
+            "name": "TELETRAC NAVMAN (UK) LTD"
+          },
+          {
+            "id": "13",
+            "name": "TERRAFIX LIMITED"
+          },
+          {
+            "id": "14",
+            "name": "THE BARCODE WAREHOUSE LIMITED"
+          },
+          {
+            "id": "15",
+            "name": "THE FLOOW LIMITED"
+          },
+          {
+            "id": "17",
+            "name": "TRAKM8 LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-24T00:00:00Z",
+          "endDate": "2024-04-23T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "8322a84a8c6750aac7bde6e3fb457dc6",
+        "name": "Crown Commercial Service"
+      },
+      "awards": [
+        {
+          "id": "9027983d-f51d-467a-a8d4-3cb1847b5b43",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-24T00:00:00Z",
+          "value": {
+            "amount": 23000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "8",
+              "name": "MASTERNAUT LIMITED"
+            },
+            {
+              "id": "9",
+              "name": "NTT DATA SERVICES UK LIMITED"
+            },
+            {
+              "id": "12",
+              "name": "TELETRAC NAVMAN (UK) LTD"
+            },
+            {
+              "id": "13",
+              "name": "TERRAFIX LIMITED"
+            },
+            {
+              "id": "14",
+              "name": "THE BARCODE WAREHOUSE LIMITED"
+            },
+            {
+              "id": "15",
+              "name": "THE FLOOW LIMITED"
+            },
+            {
+              "id": "17",
+              "name": "TRAKM8 LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-24T00:00:00Z",
+            "endDate": "2024-03-23T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

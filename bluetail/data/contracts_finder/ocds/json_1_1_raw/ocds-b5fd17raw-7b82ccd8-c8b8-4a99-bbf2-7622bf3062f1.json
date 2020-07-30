@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c2ac3017-280d-4ce5-a16b-1859d3137b66.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-27T16:01:17Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-7b82ccd8-c8b8-4a99-bbf2-7622bf3062f1",
+      "id": "ocds-b5fd17-7b82ccd8-c8b8-4a99-bbf2-7622bf3062f1-360961-lpp001-dn462626-91195009",
+      "date": "2020-01-15T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "91ba7b4d95b51ff7c39e883f31bb73c8",
+          "roles": [
+            "buyer"
+          ],
+          "name": "NHS London Procurement Partnership as hosted by Guy&#039;s and St Thomas&#039; NHS Foundation Trust",
+          "address": {
+            "streetAddress": "Ground Floor 200 Great Dover Street",
+            "locality": "London",
+            "region": null,
+            "postalCode": "SE1 4YB",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Joel Rocha",
+            "email": "LPPProcurement@lpp.nhs.uk",
+            "telephone": "+44 2071886680",
+            "faxNumber": null,
+            "uri": "http://www.lpp.nhs.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BOC Ltd",
+          "address": {
+            "streetAddress": "Guildford - Surrey",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BTG Gases",
+          "address": {
+            "streetAddress": "Sittingbourne",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7b82ccd8-c8b8-4a99-bbf2-7622bf3062f1-lpp001-dn462626-91195009",
+        "title": "National Framework Agreement for Nitric Oxide Therapy",
+        "description": "NHS London Procurement Partnership (hosted by Guy&#039;s and St Thomas&#039; NHS Foundation Trust) has established an unranked national framework agreement for Nitric Oxide Therapy. The products and services included in the national framework agreement for nitric oxide therapy are described as nitric oxide therapy and this includes the gas, nitric oxide, which is supplied in cylinders, delivery devices, maintenance and some disposables and calibration gases.\r\nThe framework agreement for nitric oxide therapy is proposed to be for twenty four (24) months with the option to extend for twelve (12) months and an additional extension of up to another twelve (12) months. The total framework term including two extensions will be up to four (4) years.\r\nMain site or place of performance: England\r\nFramework agreement can be access via agreement by NHS LPP and shall include the following organisations in England and their respective successors and organisations created as a result of structural re-organisations or organisational changes:\r\n- central government departments and their executive agencies (a list of such departments and executive agencies can be found at http://www.cabinetoffice.gov.uk/government-business/government-ministers-responsibilities.aspx)\r\n- National Health Service (NHS) bodies (all acute - secondary and tertiary, as well as mental health trusts, including Clinical Commissioning Groups, NHS trusts, NHS Foundation trusts, GP Practices, Ambulance, CSUsa Special Health Authority and a Local Health Board in England- lists of all of such NHS bodies can be found at:\r\n- http://www.nhs.uk/Servicedirectories/pages/nhstrustlisting.aspx\r\n- all local authorities from England, a list of such authorities being available at:\r\nhttp://www.direct.gov.uk/en/Dl1/Directories/Localcouncils/AToZOfLocalCouncils/DG_A-Z_LG                                                         \r\n                                                                                                                                                                                                            \r\nLot No: 1 - Lot 1 A complete system to deliver nitric oxide therapy that includes nitric oxide in cylinders,delivery and monitoring devices and all ancillary equipment and consumables.\r\nLot 1 (one) has been awarded as an unranked multi supplier framework - Estimated value: GBP 13000000\r\nA contract/lot is awarded: YES\r\n                                                                                                                                                                                                            \r\nLot No: 2 - Lot 2 Monitoring and delivery devices for use in aircraft and ambulances (transferring patients) only.\r\nLot 2 (two) has not been awarded as no bids were received \r\nA contract/lot is awarded: NO\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "24111500",
+              "description": "Medical gases",
+              "uri": "http://cpv.data.ac.uk/code-24111500.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 8000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 20000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-11T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "BOC Ltd"
+          },
+          {
+            "id": "2",
+            "name": "BTG Gases"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-06T00:00:00Z",
+          "endDate": "2024-05-05T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "91ba7b4d95b51ff7c39e883f31bb73c8",
+        "name": "NHS London Procurement Partnership as hosted by Guy&#039;s and St Thomas&#039; NHS Foundation Trust"
+      },
+      "awards": [
+        {
+          "id": "df127258-b0d4-45f9-a841-2ce96e5b356c",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-20T00:00:00Z",
+          "value": {
+            "amount": 13000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "BOC Ltd"
+            },
+            {
+              "id": "2",
+              "name": "BTG Gases"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-06T00:00:00Z",
+            "endDate": "2024-05-05T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

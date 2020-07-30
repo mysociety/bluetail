@@ -1,0 +1,226 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9d76bc97-d34c-40b7-b3af-460fbbc84630.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-09T16:28:38Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-be9e6347-ab3d-4bdd-88c3-7fcb11304ab1",
+      "id": "ocds-b5fd17-be9e6347-ab3d-4bdd-88c3-7fcb11304ab1-348741-leicscc001-dn447461-01449254",
+      "date": "2019-11-29T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "000090ac6a3f822379a54db433161771",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Leicestershire County Council",
+          "address": {
+            "streetAddress": "County Hall Leicester Road, Glenfield",
+            "locality": "Leicester",
+            "region": null,
+            "postalCode": "LE3 8RA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "commissioning.support@leics.gov.uk",
+            "telephone": "+44 1163052043",
+            "faxNumber": null,
+            "uri": "https://www.eastmidstenders.org/index.html"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-548150327",
+            "scheme": "GB-CQC",
+            "legalName": "Countesthorpe Health Centre"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Countesthorpe Health Centre",
+          "address": {
+            "streetAddress": "LE8 5QJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Isobel Wells",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-548155302",
+            "scheme": "GB-CQC",
+            "legalName": "Newbold Verdon Medical Practice"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Newbold Verdon Medical Practice",
+          "address": {
+            "streetAddress": "LE9 9PZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Helen Bassnett",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-be9e6347-ab3d-4bdd-88c3-7fcb11304ab1-leicscc001-dn447461-01449254",
+        "title": "Public Health Community Based Services",
+        "description": "Leicestershire County Council and Rutland County Council wish to undertake a procurement process to identify and appoint a number of service providers to provide Public Health community-based services.These services are divided into the following four Lots:\r\nLot 1\r\nCBS20-21(01) Provision of Smoking Cessation Pharmacotherapy.\r\nLot 2\r\nCBS20-21(02) Provision of NHS Health Checks.\r\nLot 3\r\nCBS20-21(03) Provision of intrauterine device (IUD), intrauterine system (IUS) and sub-dermal implants (SDI) Fitting and Removal Service for contraceptive purposes and for gynaecological (non-contraceptive) purposes including management of menorrhagia and hormone replacement therapy (HRT).\r\nLot 4\r\nCBS20-21(04) Provision of oral Emergency Contraception (EC) to women under 25 years of age.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85120000",
+              "description": "Medical practice and related services",
+              "uri": "http://cpv.data.ac.uk/code-85120000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85142000",
+              "description": "Paramedical services",
+              "uri": "http://cpv.data.ac.uk/code-85142000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85141000",
+              "description": "Services provided by medical personnel",
+              "uri": "http://cpv.data.ac.uk/code-85141000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-20T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Countesthorpe Health Centre"
+          },
+          {
+            "id": "3",
+            "name": "Newbold Verdon Medical Practice"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2021-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "000090ac6a3f822379a54db433161771",
+        "name": "Leicestershire County Council"
+      },
+      "awards": [
+        {
+          "id": "8ab04e47-b83e-4918-af6e-dbc7f56e676e",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-07T00:00:00Z",
+          "value": {
+            "amount": 2000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Countesthorpe Health Centre"
+            },
+            {
+              "id": "3",
+              "name": "Newbold Verdon Medical Practice"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2021-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

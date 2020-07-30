@@ -1,0 +1,406 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8354ce33-163e-4c36-a54d-90eb60595f44.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-03T14:33:14Z",
+  "publisher": {
+    "name": "EU SUPPLY LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-3b14e0b4-a25c-44a8-b530-0b655dc7a3b3",
+      "id": "ocds-b5fd17-3b14e0b4-a25c-44a8-b530-0b655dc7a3b3-357169-20200503143259-68205",
+      "date": "2019-07-19T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "b2ecfd6b7c5cef2cb054319dfd085b29",
+          "roles": [
+            "buyer"
+          ],
+          "name": "NHS Arden and Greater East Midlands Commissioning Support Unit",
+          "address": {
+            "streetAddress": "1st Floor, Cardinal Square, 10 Nottingham Road ",
+            "locality": "Derby",
+            "region": null,
+            "postalCode": "DE1 3QT",
+            "countryName": "ENG"
+          },
+          "contactPoint": {
+            "name": "Sarah Trupp",
+            "email": "sarah.trupp@nhs.net",
+            "telephone": "+44 1111111",
+            "faxNumber": null,
+            "uri": "http://www.derbyandderbyshireccg.nhs.uk/#"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2209809849",
+            "scheme": "GB-CQC",
+            "legalName": "Sensiway Care Services"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Sensiway Care Services",
+          "address": {
+            "streetAddress": "15 Vernon Street\nDE1 1FT\nDerby\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-164980364",
+            "scheme": "GB-CQC",
+            "legalName": "SentriCare East Mids Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SentriCare East Mids Ltd",
+          "address": {
+            "streetAddress": "73 Osmaston Road\nDE1 2JH\nDERBY\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-4772099983",
+            "scheme": "GB-CQC",
+            "legalName": "LifeSprings Care Services Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "LifeSprings Care Services Ltd",
+          "address": {
+            "streetAddress": "Redhouse Road \nMoulton Park Business Centre\nNN3 6AQ\nNorthampton\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2906978845",
+            "scheme": "GB-CQC",
+            "legalName": "Juventa 4 Care Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Juventa 4 Care Ltd",
+          "address": {
+            "streetAddress": "26 Halsall Drive \nS9 4JD\nSheffield\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3988355204",
+            "scheme": "GB-CQC",
+            "legalName": "A2L Care Services"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "A2L Care Services",
+          "address": {
+            "streetAddress": "Suite 6, 5th Floor, Humberstone House\nLE1 1WB\nLeicester\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2153735561",
+            "scheme": "GB-CQC",
+            "legalName": "Complete Nursing Services Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Complete Nursing Services Ltd",
+          "address": {
+            "streetAddress": "67 Boulton Lane\nDE24 0FF\nDerby\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3236490831",
+            "scheme": "GB-CQC",
+            "legalName": "Clarity Homecare Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Clarity Homecare Ltd",
+          "address": {
+            "streetAddress": "Fairdale House\nEnterprise Close\nBlidworth\nNG21 0RS\nMansfield\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-3b14e0b4-a25c-44a8-b530-0b655dc7a3b3-20200503143259-68205",
+        "title": "An NHS Continuing Healthcare Domiciliary Care Service in Derbyshire - Window 2",
+        "description": "The Service covers Home Care (Domiciliary Care) in Derbyshire and will be provided for people (Service Users) who have been determined by the Commissioner as having an NHS-funded continuing care entitlement.\r\nThe Provider will ensure that the services can be provided 365 days per year, 24 hours a day and in accordance with a Service User&#039;s Care Plan.\r\nAny Qualified Provider (AQP) contracts are awarded on a zero value, zero volume basis and the contract awarded will be for a period of18 months with the option to extend for 2 years, subject to satisfactory performance.\r\nThe standard package per hour is &pound;15.94 EXCLUDING additional travel rate. Please access Schedule 3 (Payment) of &quot;Document 4 Contract Particulars.doc&quot; for full information including complex, sleep in, live in and travel rates.\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 1,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-30T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 7,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Sensiway Care Services"
+          },
+          {
+            "id": "2",
+            "name": "SentriCare East Mids Ltd"
+          },
+          {
+            "id": "4",
+            "name": "LifeSprings Care Services Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Juventa 4 Care Ltd"
+          },
+          {
+            "id": "6",
+            "name": "A2L Care Services"
+          },
+          {
+            "id": "7",
+            "name": "Complete Nursing Services Ltd"
+          },
+          {
+            "id": "12",
+            "name": "Clarity Homecare Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-12-01T00:00:00Z",
+          "endDate": "2021-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "b2ecfd6b7c5cef2cb054319dfd085b29",
+        "name": "NHS Arden and Greater East Midlands Commissioning Support Unit"
+      },
+      "awards": [
+        {
+          "id": "b57becd0-1ee8-4330-8576-9c06e6611277",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-09T00:00:00Z",
+          "value": {
+            "amount": 15.94,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Sensiway Care Services"
+            },
+            {
+              "id": "2",
+              "name": "SentriCare East Mids Ltd"
+            },
+            {
+              "id": "4",
+              "name": "LifeSprings Care Services Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Juventa 4 Care Ltd"
+            },
+            {
+              "id": "6",
+              "name": "A2L Care Services"
+            },
+            {
+              "id": "7",
+              "name": "Complete Nursing Services Ltd"
+            },
+            {
+              "id": "12",
+              "name": "Clarity Homecare Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-12-01T00:00:00Z",
+            "endDate": "2021-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

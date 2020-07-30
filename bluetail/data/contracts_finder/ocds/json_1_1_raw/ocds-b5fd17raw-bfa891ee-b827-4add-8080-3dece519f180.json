@@ -1,0 +1,310 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d40dd94d-f2f4-4a67-adf5-a8c53f74b8b3.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T13:51:20Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-bfa891ee-b827-4add-8080-3dece519f180",
+      "id": "ocds-b5fd17-bfa891ee-b827-4add-8080-3dece519f180-359575-lbowf001-dn440177-95848857",
+      "date": "2019-11-11T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "9fc8d21b57ead082ae02d24a0a67a7d3",
+          "roles": [
+            "buyer"
+          ],
+          "name": "London Borough of Waltham Forest",
+          "address": {
+            "streetAddress": "Waltham Forest Town Hall 701 Forest Road",
+            "locality": "Walthamstow",
+            "region": null,
+            "postalCode": "E17 4JF",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Nicky Petto",
+            "email": "Nicky.Petto@walthamforest.gov.uk",
+            "telephone": "+44 2084963000",
+            "faxNumber": null,
+            "uri": "http://www.walthamforest.gov.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Insight Lighting Ltd",
+          "address": {
+            "streetAddress": "Grosvenor Way, London, E5 9NE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Phillips Walmsley Ltd",
+          "address": {
+            "streetAddress": "Haldan Road, London, E4 9JJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HUT Architecture Ltd",
+          "address": {
+            "streetAddress": "18 Ravenings Parade, London, IG3 9NR\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Build Up Foundation",
+          "address": {
+            "streetAddress": "Cody Dock, 11C South Crescent, London, E16 4TL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-bfa891ee-b827-4add-8080-3dece519f180-lbowf001-dn440177-95848857",
+        "title": "Making Places: Open Call",
+        "description": "Waltham Forest is a borough in north-east London. It is a place which inspires and supports creativity, attracts artists and cultural businesses and has a long history of making. \r\n\r\nWaltham Forest is the first ever London Borough of Culture. The award from the Mayor of London will ensure arts and culture is placed at the heart of its communities. The year will explore the theme Radicals, Makers and Fellowship in a collaboration between residents, artists and creatives producing a once in a lifetime celebration of the borough. \r\n\r\nMaking Places is a &pound;1m initiative by Waltham Forest Council which will deliver a creative project in each of the twenty wards across the borough, in partnership with local councillors and communities. Projects will have a lasting impact, creating places which are brighter, safer and where residents and visitors enjoy spending time.\r\n\r\nIn 2017, residents nominated spaces in their neighbourhood that they wanted to see transformed. A lead councillor for each ward made the final decision on which site to put forward for Making Places. The list of sites includes parks, street corners, alleyways, stations and housing estates. Resident and councillor feedback has been incorporated into the Site Information document, in the &#039;suggestions for approaches&#039; section. \r\n\r\nProjects for the first 14 Making Places sites were selected following an open call in 2017. Projects completed to date include a communal table at Albert Crescent, multi-use community spaces at Aldriche Way and Attlee Terrace, a sculptural installation in Low Hall Wood, an amphitheatre in Higham Hill Park and a pavilion in Ridgeway Park. We are now seeking creative proposals for the remaining sites through a second open call.\r\n\r\nMaking Places is being managed in partnership with Create, an agency which exists to explore the ways artists can contribute to the lives of people in cities. Create helps artists to connect more closely with communities through an ambitious programme of projects and their work is primarily focused in east London.\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "92310000",
+              "description": "Artistic and literary creation and interpretation services",
+              "uri": "http://cpv.data.ac.uk/code-92310000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "92311000",
+              "description": "Works of art",
+              "uri": "http://cpv.data.ac.uk/code-92311000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "92312000",
+              "description": "Artistic services",
+              "uri": "http://cpv.data.ac.uk/code-92312000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 240000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 240000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-18T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Insight Lighting Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Phillips Walmsley Ltd"
+          },
+          {
+            "id": "3",
+            "name": "HUT Architecture Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Build Up Foundation"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-12-16T00:00:00Z",
+          "endDate": "2021-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "9fc8d21b57ead082ae02d24a0a67a7d3",
+        "name": "London Borough of Waltham Forest"
+      },
+      "awards": [
+        {
+          "id": "d5796434-e5be-4319-949b-6679e5abdbb0",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-15T00:00:00Z",
+          "value": {
+            "amount": 144000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Insight Lighting Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Phillips Walmsley Ltd"
+            },
+            {
+              "id": "3",
+              "name": "HUT Architecture Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Build Up Foundation"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-18T00:00:00Z",
+            "endDate": "2021-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

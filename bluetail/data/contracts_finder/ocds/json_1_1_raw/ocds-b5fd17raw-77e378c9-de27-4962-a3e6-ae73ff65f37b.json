@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ae189a80-dcc3-4e8b-8047-c2870ea97b9e.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T12:45:21Z",
+  "publisher": {
+    "name": "Barnsley, Doncaster, Rotherham and Sheffield Combined Authority",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-77e378c9-de27-4962-a3e6-ae73ff65f37b",
+      "id": "ocds-b5fd17-77e378c9-de27-4962-a3e6-ae73ff65f37b-359554-ps1920-029",
+      "date": "2020-01-17T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "05d385af30b5f9f0785363865bf7a6a6",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Barnsley, Doncaster, Rotherham and Sheffield Combined Authority",
+          "address": {
+            "streetAddress": "S1 2BQ ",
+            "locality": "Sheffield",
+            "region": null,
+            "postalCode": "S12BQ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Joe Gardner",
+            "email": "procurement@sheffieldcityregion.org.uk",
+            "telephone": null,
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01093549",
+            "scheme": "GB-COH",
+            "legalName": "ARCADIS (UK) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ARCADIS (UK) LIMITED",
+          "address": {
+            "streetAddress": "Arcadis House, 34 York Way\nLONDON\nN1 9AB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 39500
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "09882722",
+            "scheme": "GB-COH",
+            "legalName": "CAST CONSULT LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CAST CONSULT LIMITED",
+          "address": {
+            "streetAddress": "Charles Lake House,\r\nClaire Causeway, \r\nCrossways Business Park, \r\nDartford, \r\nUnited Kingdom, \r\nDA2 6QA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 39500
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-77e378c9-de27-4962-a3e6-ae73ff65f37b-ps1920-029",
+        "title": "SCR Modern Methods of Construction (MMC) Audit - Eco System &amp; Opportunity",
+        "description": "Sheffield City Region Mayoral Combined Authority (SCRMCA) is seeking proposals for a Modern Methods of Construction (MMC) Audit. Sheffield City Region (SCR) has the ambition to be the national centre of excellence and to become the &#039;go to place&#039; for MMC. SCRMCA require support to understand the scale of the opportunity, its assets and the action required to support this ambition. The intention behind this piece of work is to define the opportunity that MMC could present for the 4 South Yorkshire authorities in the SCR (Barnsley, Rotherham, Doncaster and Sheffield), define the eco-system that already exists within the region and set out the steps SCRMCA could take to nurture and support this emerging market.\r\n\r\nFor more details and to apply, please visit:\r\nhttps://sheffieldcityregion.org.uk/explore/funding-opportunities/\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79400000",
+              "description": "Business and management consultancy and related services",
+              "uri": "http://cpv.data.ac.uk/code-79400000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 40000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-28T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ARCADIS (UK) LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "CAST CONSULT LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-06T00:00:00Z",
+          "endDate": "2020-06-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "05d385af30b5f9f0785363865bf7a6a6",
+        "name": "Barnsley, Doncaster, Rotherham and Sheffield Combined Authority"
+      },
+      "awards": [
+        {
+          "id": "62e9e962-9a8d-41cd-a1a6-c5851432bab2",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-06T00:00:00Z",
+          "value": {
+            "amount": 39500,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ARCADIS (UK) LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "CAST CONSULT LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2020-11-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

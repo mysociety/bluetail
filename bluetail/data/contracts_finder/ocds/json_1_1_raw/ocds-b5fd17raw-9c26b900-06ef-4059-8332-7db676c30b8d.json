@@ -1,0 +1,212 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3c795945-a58c-4e5d-ba63-06a4f88163d9.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-15T14:58:26Z",
+  "publisher": {
+    "name": "NUCLEAR DECOMMISSIONING AUTHORITY",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-9c26b900-06ef-4059-8332-7db676c30b8d",
+      "id": "ocds-b5fd17-9c26b900-06ef-4059-8332-7db676c30b8d-359280-cj000279",
+      "date": "2020-04-09T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "f48f71d9ba87fc3ee25c744ef0ad3f87",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-GOR",
+            "id": "PB197",
+            "uri": "https://government-organisation.register.gov.uk/record/PB197",
+            "legalName": null
+          },
+          "name": "NUCLEAR DECOMMISSIONING AUTHORITY",
+          "address": {
+            "streetAddress": "Herdus House ",
+            "locality": "Moor Row",
+            "region": null,
+            "postalCode": "CA243HU",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Chris Jennings",
+            "email": "chris.jennings@nda.gov.uk",
+            "telephone": "01925 802056",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC303675",
+            "scheme": "GB-COH",
+            "legalName": "DELOITTE LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DELOITTE LLP",
+          "address": {
+            "streetAddress": "1 New Street Square\nLONDON\nEC4A 3HQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "OC303525",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Price Waterhouse Coopers Llp",
+          "address": {
+            "streetAddress": "1 Embankment Place\nWC2N 6RH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-9c26b900-06ef-4059-8332-7db676c30b8d-cj000279",
+        "title": "Internal Audit Support to NDA and its Subsidiary companies",
+        "description": "Internal Audit support to NDA and its Subsidiary Companies.\r\nAward following a further competition against CCS Framework RM3745 Lot 3.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79212200",
+              "description": "Internal audit services",
+              "uri": "http://cpv.data.ac.uk/code-79212200.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-30T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "DELOITTE LLP"
+          },
+          {
+            "id": "2",
+            "name": "Price Waterhouse Coopers Llp"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-01T00:00:00Z",
+          "endDate": "2024-04-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "f48f71d9ba87fc3ee25c744ef0ad3f87",
+        "name": "NUCLEAR DECOMMISSIONING AUTHORITY"
+      },
+      "awards": [
+        {
+          "id": "df55cbe8-375f-4faa-937d-7fdbe9cf39f5",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-01T00:00:00Z",
+          "value": {
+            "amount": 5000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "DELOITTE LLP"
+            },
+            {
+              "id": "2",
+              "name": "Price Waterhouse Coopers Llp"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-01T00:00:00Z",
+            "endDate": "2024-04-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/58078009-448b-4cf9-a229-9a195c5d2f3b.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-11T09:58:09Z",
+  "publisher": {
+    "name": "FOODBUY EUROPE LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-66c7eb18-d1f0-4d12-842f-82510f65723a",
+      "id": "ocds-b5fd17-66c7eb18-d1f0-4d12-842f-82510f65723a-342278-2020-s-028-065845",
+      "date": "2019-10-14T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "377a870fc8e52ca5454b073858b34412",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/wNDg246z",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "FOODBUY EUROPE LIMITED",
+          "address": {
+            "streetAddress": "Parklands Court 24 Parklands,Rubery ",
+            "locality": "BIRMINGHAM",
+            "region": null,
+            "postalCode": "B459PZ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Strategic Sourcing",
+            "email": "strategicsourcing@supplychain.nhs.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02748422",
+            "scheme": "GB-COH",
+            "legalName": "ANGLIA CROWN LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ANGLIA CROWN LIMITED",
+          "address": {
+            "streetAddress": "Gilberd Court Colchester Business Park\nCO4 9WN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00233851",
+            "scheme": "GB-COH",
+            "legalName": "APETITO LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "APETITO LIMITED",
+          "address": {
+            "streetAddress": "CANAL ROAD\nBA14 8RJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Clarence Benbow",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00239718",
+            "scheme": "GB-COH",
+            "legalName": "BFS GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BFS GROUP LIMITED",
+          "address": {
+            "streetAddress": "4 Leigh Road\nSLOUGH\nBerkshire\nSL1 4BD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02114954",
+            "scheme": "GB-COH",
+            "legalName": "COMPASS CONTRACT SERVICES (U.K.) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "COMPASS CONTRACT SERVICES (U.K.) LIMITED",
+          "address": {
+            "streetAddress": "Birmingham Great Park\nBIRMINGHAM\nWEST MIDLANDS\nB45 9PZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Suzanne Lewis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03962029",
+            "scheme": "GB-COH",
+            "legalName": "FOOD NETWORK CORPORATION LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FOOD NETWORK CORPORATION LIMITED",
+          "address": {
+            "streetAddress": "1-4 Harwood Court\nTS2 1PU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Pamela Jaffray",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02693531",
+            "scheme": "GB-COH",
+            "legalName": "MAPLE FINE FOODS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MAPLE FINE FOODS LIMITED",
+          "address": {
+            "streetAddress": "Atlas Works\nNW10 7NU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01904912",
+            "scheme": "GB-COH",
+            "legalName": "N.H. CASE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "N.H. CASE LIMITED",
+          "address": {
+            "streetAddress": "Bennetts Field Trading Estate\nBA9 9DS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jacklyn Case",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02065462",
+            "scheme": "GB-COH",
+            "legalName": "TILLERY VALLEY FOODS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TILLERY VALLEY FOODS LIMITED",
+          "address": {
+            "streetAddress": "Cwmtillery Industrial Estate\nNP13 1LZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-66c7eb18-d1f0-4d12-842f-82510f65723a-2020/s-028-065845",
+        "title": "Delivered Ready Prepared Meals 2020",
+        "description": "NHS Supply Chain: food, seeked to establish a non-exclusive Framework Agreement for supply and delivery to the NHS Supply Chain customer base via the direct/e-Direct route of chilled and/or frozen meals in 2 lots. The Framework Agreement will have an initial term of 24 months with an option to extend incrementally for up to a total period of a further 24 months (i.e. 48 months in total). It is anticipated that in the first 12 months of the Framework Agreement the value of purchases will be in the region of 14 700 000 GBP. For the full 48 month term (if extended) the anticipated value is in the region of 147 000 000 GBP. These values are approximate only\r\nand are based on the most recent historical usage information, with a forecasted level of growth. The values provided are for guidance only and are not a guarantee of business.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15891000",
+              "description": "Soups and broths",
+              "uri": "http://cpv.data.ac.uk/code-15891000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15894200",
+              "description": "Prepared meals",
+              "uri": "http://cpv.data.ac.uk/code-15894200.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15894220",
+              "description": "Hospital meals",
+              "uri": "http://cpv.data.ac.uk/code-15894220.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 14700000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 147000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-18T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 8,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ANGLIA CROWN LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "APETITO LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "BFS GROUP LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "COMPASS CONTRACT SERVICES (U.K.) LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "FOOD NETWORK CORPORATION LIMITED"
+          },
+          {
+            "id": "9",
+            "name": "MAPLE FINE FOODS LIMITED"
+          },
+          {
+            "id": "12",
+            "name": "N.H. CASE LIMITED"
+          },
+          {
+            "id": "16",
+            "name": "TILLERY VALLEY FOODS LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-09T00:00:00Z",
+          "endDate": "2022-03-08T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "377a870fc8e52ca5454b073858b34412",
+        "name": "FOODBUY EUROPE LIMITED"
+      },
+      "awards": [
+        {
+          "id": "8912f30c-9cba-4cce-a07e-dfbae5551342",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-27T00:00:00Z",
+          "value": {
+            "amount": 147000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ANGLIA CROWN LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "APETITO LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "BFS GROUP LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "COMPASS CONTRACT SERVICES (U.K.) LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "FOOD NETWORK CORPORATION LIMITED"
+            },
+            {
+              "id": "9",
+              "name": "MAPLE FINE FOODS LIMITED"
+            },
+            {
+              "id": "12",
+              "name": "N.H. CASE LIMITED"
+            },
+            {
+              "id": "16",
+              "name": "TILLERY VALLEY FOODS LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-09T00:00:00Z",
+            "endDate": "2022-03-08T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

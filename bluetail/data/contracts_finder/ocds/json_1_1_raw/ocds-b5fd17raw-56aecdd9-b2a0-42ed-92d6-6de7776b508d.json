@@ -1,0 +1,331 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/68c07595-b227-410d-83cc-8334a87f18e9.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-22T10:48:17Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-56aecdd9-b2a0-42ed-92d6-6de7776b508d",
+      "id": "ocds-b5fd17-56aecdd9-b2a0-42ed-92d6-6de7776b508d-360386-leedscity001-dn445112-24584335",
+      "date": "2020-03-24T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "86256c2812f8184529b5be0aaf0f9351",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Leeds City Council",
+          "address": {
+            "streetAddress": "St George House, 4th Floor, 40 Great George Street",
+            "locality": "Leeds",
+            "region": null,
+            "postalCode": "LS1 1UR",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Mandi Kaushal",
+            "email": "Mandeep.Kaushal@leeds.gov.uk",
+            "telephone": "+44 1133785260",
+            "faxNumber": null,
+            "uri": "http://www.leeds.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Direct Corporate Clothing PLC (DCC)",
+          "address": {
+            "streetAddress": "Direct 2 Industrial Park, Roway Lane, Oldbury West Midlands B69 3ES",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "1st Coverall Company Limited",
+          "address": {
+            "streetAddress": "19 North Street Ashford Kent TN24 8LF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Arco Limited",
+          "address": {
+            "streetAddress": "PO Box 21 Waverley Street Hull HU1 2SJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Arden Winch &amp; Co Ltd",
+          "address": {
+            "streetAddress": "9 Acres Hill Lane Sheffield S9 4LR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CMT Equipment Ltd",
+          "address": {
+            "streetAddress": "CMT Group Newland House The Point Weaver Road Lincoln LN6 3QN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-56aecdd9-b2a0-42ed-92d6-6de7776b508d-leedscity001-dn445112-24584335",
+        "title": "PROVISION OF PERSONAL PROTECTIVE EQUIPMENT AND WORKWEAR",
+        "description": "The supply of personal protection equipment (PPE) including specalist clothing and footwear. \\r\r\nThe supply of corporate branded workwear including clothing and footwear.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "18000000",
+              "description": "Clothing, footwear, luggage articles and accessories",
+              "uri": "http://cpv.data.ac.uk/code-18000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2040000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 2040000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-05-05T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Direct Corporate Clothing PLC (DCC)"
+          },
+          {
+            "id": "2",
+            "name": "1st Coverall Company Limited"
+          },
+          {
+            "id": "3",
+            "name": "Arco Limited"
+          },
+          {
+            "id": "4",
+            "name": "Arden Winch &amp; Co Ltd"
+          },
+          {
+            "id": "5",
+            "name": "CMT Equipment Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-18T00:00:00Z",
+          "endDate": "2023-05-17T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "86256c2812f8184529b5be0aaf0f9351",
+        "name": "Leeds City Council"
+      },
+      "awards": [
+        {
+          "id": "3f6e0819-4407-4c33-bfcb-ef28ab04c686",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-12T00:00:00Z",
+          "value": {
+            "amount": 2040000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Direct Corporate Clothing PLC (DCC)"
+            },
+            {
+              "id": "2",
+              "name": "1st Coverall Company Limited"
+            },
+            {
+              "id": "3",
+              "name": "Arco Limited"
+            },
+            {
+              "id": "4",
+              "name": "Arden Winch &amp; Co Ltd"
+            },
+            {
+              "id": "5",
+              "name": "CMT Equipment Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-18T00:00:00Z",
+            "endDate": "2023-05-17T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

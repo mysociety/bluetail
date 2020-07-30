@@ -1,0 +1,1028 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/caac2442-c4e9-4ebc-8e29-a941ca0c13d8.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T09:18:08Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-e2f60cb5-4d21-44d6-88d6-ed27aeaf85dc",
+      "id": "ocds-b5fd17-e2f60cb5-4d21-44d6-88d6-ed27aeaf85dc-359467-dvncc001-dn451779-40767355",
+      "date": "2019-11-08T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "3686458c8af4226cff4e7012e9eb91c1",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Devon County Council",
+          "address": {
+            "streetAddress": "County Hall Topsham Road",
+            "locality": "Exeter",
+            "region": null,
+            "postalCode": "EX2 4QD",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Iain Perkins",
+            "email": "Iain.Perkins@devon.gov.uk",
+            "telephone": "+44 1392383000",
+            "faxNumber": null,
+            "uri": "http://www.devon.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "AP Benson Limited",
+          "address": {
+            "streetAddress": "TW8 0GP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Dr Craig Livingstone",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "BAS LLP",
+          "address": {
+            "streetAddress": "TQ11 0BA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Susan Sweet",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Community Council of Devon (operating under Devon Communities To",
+          "address": {
+            "streetAddress": "EX2 8LB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Nora Corkery",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Cosmic",
+          "address": {
+            "streetAddress": "EX14 1SF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Henry Smith",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "GWE Business West Limited",
+          "address": {
+            "streetAddress": "BS8 3RA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Blue O&#039;Connor",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Iridescent Ideas CIC",
+          "address": {
+            "streetAddress": "PL2 1EE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Gareth Hart",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Minim Row Ltd",
+          "address": {
+            "streetAddress": "BA12 8JG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Matthew Young",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "North Devon+",
+          "address": {
+            "streetAddress": "EX39 3DX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Jon Vernon",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Real Ideas Trading",
+          "address": {
+            "streetAddress": "PL1 4EL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Lenna Bithell",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Qi Consulting",
+          "address": {
+            "streetAddress": "SE1 7SJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Nicola Innes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "South West Growth Service",
+          "address": {
+            "streetAddress": "EX14 3HL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Katharine Bourke",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "YTKO",
+          "address": {
+            "streetAddress": "CB6 1RA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Lee Hughes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Buckman Associates Ltd",
+          "address": {
+            "streetAddress": "TQ13 9RE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Emma Buckman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "i3Works Ltd",
+          "address": {
+            "streetAddress": "ML10 6BE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Ben Ames",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Hatch Associates Ltd",
+          "address": {
+            "streetAddress": "EC4A 3AG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Robert Boyle",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PFA Research Ltd",
+          "address": {
+            "streetAddress": "TR10 9TA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Robert Rush",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "S4W Ltd",
+          "address": {
+            "streetAddress": "DE75 7AB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Rob Wadsworth",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Wavehill Ltd",
+          "address": {
+            "streetAddress": "SA46 0DB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Tracy Newman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Transform Research Consultancy Ltd",
+          "address": {
+            "streetAddress": "EX4 6AH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Nigel Tremlett",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Marsha Miles Consultancy Ltd",
+          "address": {
+            "streetAddress": "TA19 9DG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Marsha Miles",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PeoplePlus Group Ltd",
+          "address": {
+            "streetAddress": "NG2 1AE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Michael Clark",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Richard Newton Consulting",
+          "address": {
+            "streetAddress": "CF11 9EL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Richard Newton",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-e2f60cb5-4d21-44d6-88d6-ed27aeaf85dc-dvncc001-dn451779-40767355",
+        "title": "CP1787-19 Business Support Framework 2020",
+        "description": "DCC is looking to establish a framework to deliver Business Support and Programme Impact Assessment activities for the HotSW LEP area. This framework will also be available to Somerset County Council, Members of the Heart of the South West Local Enterprise Partnership (HotSW LEP) and the Devon and Cornwall Procurement Partnership.\r\n\r\nLocal authorities across the Heart of the South West LEP area are committed to supporting businesses to prosper and grow. The authority recognises that good quality advice and support is one of the key ways to do this, encouraging people to start up, grow and be innovative in their business thinking\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79000000",
+              "description": "Business services: law, marketing, consulting, recruitment, printing and security",
+              "uri": "http://cpv.data.ac.uk/code-79000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 4000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 4000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 22,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "AP Benson Limited"
+          },
+          {
+            "id": "2",
+            "name": "BAS LLP"
+          },
+          {
+            "id": "3",
+            "name": "Community Council of Devon (operating under Devon Communities To"
+          },
+          {
+            "id": "4",
+            "name": "Cosmic"
+          },
+          {
+            "id": "5",
+            "name": "GWE Business West Limited"
+          },
+          {
+            "id": "6",
+            "name": "Iridescent Ideas CIC"
+          },
+          {
+            "id": "7",
+            "name": "Minim Row Ltd"
+          },
+          {
+            "id": "8",
+            "name": "North Devon+"
+          },
+          {
+            "id": "9",
+            "name": "Real Ideas Trading"
+          },
+          {
+            "id": "10",
+            "name": "Qi Consulting"
+          },
+          {
+            "id": "11",
+            "name": "South West Growth Service"
+          },
+          {
+            "id": "12",
+            "name": "YTKO"
+          },
+          {
+            "id": "13",
+            "name": "Buckman Associates Ltd"
+          },
+          {
+            "id": "14",
+            "name": "i3Works Ltd"
+          },
+          {
+            "id": "15",
+            "name": "Hatch Associates Ltd"
+          },
+          {
+            "id": "16",
+            "name": "PFA Research Ltd"
+          },
+          {
+            "id": "17",
+            "name": "S4W Ltd"
+          },
+          {
+            "id": "18",
+            "name": "Wavehill Ltd"
+          },
+          {
+            "id": "19",
+            "name": "Transform Research Consultancy Ltd"
+          },
+          {
+            "id": "20",
+            "name": "Marsha Miles Consultancy Ltd"
+          },
+          {
+            "id": "21",
+            "name": "PeoplePlus Group Ltd"
+          },
+          {
+            "id": "22",
+            "name": "Richard Newton Consulting"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2022-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "3686458c8af4226cff4e7012e9eb91c1",
+        "name": "Devon County Council"
+      },
+      "awards": [
+        {
+          "id": "9090f988-9192-47e1-aeb6-8bd7732f4b46",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-28T00:00:00Z",
+          "value": {
+            "amount": 4000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "AP Benson Limited"
+            },
+            {
+              "id": "2",
+              "name": "BAS LLP"
+            },
+            {
+              "id": "3",
+              "name": "Community Council of Devon (operating under Devon Communities To"
+            },
+            {
+              "id": "4",
+              "name": "Cosmic"
+            },
+            {
+              "id": "5",
+              "name": "GWE Business West Limited"
+            },
+            {
+              "id": "6",
+              "name": "Iridescent Ideas CIC"
+            },
+            {
+              "id": "7",
+              "name": "Minim Row Ltd"
+            },
+            {
+              "id": "8",
+              "name": "North Devon+"
+            },
+            {
+              "id": "9",
+              "name": "Real Ideas Trading"
+            },
+            {
+              "id": "10",
+              "name": "Qi Consulting"
+            },
+            {
+              "id": "11",
+              "name": "South West Growth Service"
+            },
+            {
+              "id": "12",
+              "name": "YTKO"
+            },
+            {
+              "id": "13",
+              "name": "Buckman Associates Ltd"
+            },
+            {
+              "id": "14",
+              "name": "i3Works Ltd"
+            },
+            {
+              "id": "15",
+              "name": "Hatch Associates Ltd"
+            },
+            {
+              "id": "16",
+              "name": "PFA Research Ltd"
+            },
+            {
+              "id": "17",
+              "name": "S4W Ltd"
+            },
+            {
+              "id": "18",
+              "name": "Wavehill Ltd"
+            },
+            {
+              "id": "19",
+              "name": "Transform Research Consultancy Ltd"
+            },
+            {
+              "id": "20",
+              "name": "Marsha Miles Consultancy Ltd"
+            },
+            {
+              "id": "21",
+              "name": "PeoplePlus Group Ltd"
+            },
+            {
+              "id": "22",
+              "name": "Richard Newton Consulting"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-01T00:00:00Z",
+            "endDate": "2022-04-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/13cd1591-c58f-4436-8d22-54663e66e12d.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-14T09:55:55Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-0054a4e6-0715-42c6-9109-e219fe9d3289",
+      "id": "ocds-b5fd17-0054a4e6-0715-42c6-9109-e219fe9d3289-358876-2019-210---award",
+      "date": "2019-07-05T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "1442613b14e3dca8309343250c4b039e",
+          "roles": [
+            "buyer"
+          ],
+          "name": "BFI",
+          "address": {
+            "streetAddress": "BFI 21 Stephen Street",
+            "locality": "London",
+            "region": null,
+            "postalCode": "W1T 1LN",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Lauren Richardson",
+            "email": "lauren.richardson@bfi.org.uk",
+            "telephone": "02071733262",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PETER DISPLAYS LTD T/A LIMELIGHT",
+          "address": {
+            "streetAddress": "107 GEORGE LANE, LONDON, United Kingdom, E181AN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Antony House",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Premier",
+          "address": {
+            "streetAddress": "2-4 Bucknall Street, London, United Kingdom, WC2H 8LA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lawrence Francis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-0054a4e6-0715-42c6-9109-e219fe9d3289-2019/210---award",
+        "title": "UK Film Presence at Cannes 2020 - AWARD",
+        "description": "The UK Film Centre has an umbrella brand &#039;UK FILM&#039; under which UK&#039;s national and regional agencies, producers and sales companies can unite to provide the latest information about UK locations, services, films and talent. Co-ordinating at the international markets makes it easier and simpler for international delegates to make contact and interact with the UK Film industry.\r\n      \r\n      The UK Film Centre is a key platform in the strategy and so there is a high reputational risk to the industry if operations were insufficient. Therefore the successful vendor needs to instill absolute confidence as a delivery partner. \r\n      \r\n      Lot 1 - Pavilion Stand Build \r\n      A pavilion site and basic structure in the International Village of the festival will be hired by the BFI for the duration of the Cannes International Film Festival. We will then require a supplier to build and fit-out the space to create an impactful and smoothly functioning UK Film Centre at the Festival for the year 2020 (with the option to extend to 2021 and 2022).\r\n      \r\n      Lot 2 - Logistical Delivery\r\n      We require a supplier to project manage the Project and lead on delivering a working UK Film Centre Pavilion (including information point, key comms, meetings areas, various events delivery, partner office, storage, tech and caf&eacute;) working closely with the BFI, stakeholders and delivery partners.\r\n      \r\n      This tender is being advertised against Schedule 3 of the Public Contracts Regulations 2015.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79952000",
+              "description": "Event services",
+              "uri": "http://cpv.data.ac.uk/code-79952000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79952100",
+              "description": "Cultural event organisation services",
+              "uri": "http://cpv.data.ac.uk/code-79952100.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 755000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-13T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "PETER DISPLAYS LTD T/A LIMELIGHT"
+          },
+          {
+            "id": "2",
+            "name": "Premier"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-12-09T00:00:00Z",
+          "endDate": "2020-12-08T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "1442613b14e3dca8309343250c4b039e",
+        "name": "BFI"
+      },
+      "awards": [
+        {
+          "id": "0b4c6bb5-f880-408f-a9bd-7c2bf26d80bd",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-18T00:00:00Z",
+          "value": {
+            "amount": 93527,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "PETER DISPLAYS LTD T/A LIMELIGHT"
+            },
+            {
+              "id": "2",
+              "name": "Premier"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-12-09T00:00:00Z",
+            "endDate": "2020-12-08T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

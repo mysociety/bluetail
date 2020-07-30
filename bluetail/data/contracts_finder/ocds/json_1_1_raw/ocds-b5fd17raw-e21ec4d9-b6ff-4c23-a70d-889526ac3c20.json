@@ -1,0 +1,336 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1a8725a1-e177-4592-93c8-b5b125030102.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-28T16:36:57Z",
+  "publisher": {
+    "name": "UK SHARED BUSINESS SERVICES LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-e21ec4d9-b6ff-4c23-a70d-889526ac3c20",
+      "id": "ocds-b5fd17-e21ec4d9-b6ff-4c23-a70d-889526ac3c20-361191-uk-sbs-cs19158",
+      "date": "2019-09-18T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "5eb4e49abd94e0c7044fbf250ff1e79f",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/dXGP288m",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "UK SHARED BUSINESS SERVICES LIMITED",
+          "address": {
+            "streetAddress": "North Star House ",
+            "locality": "SWINDON",
+            "region": null,
+            "postalCode": "SN21FF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Professional Services",
+            "email": "professionalservices@uksbs.co.uk",
+            "telephone": "01793 867005",
+            "faxNumber": null,
+            "uri": "www.uksbs.co.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06979957",
+            "scheme": "GB-COH",
+            "legalName": "GO GREEN TAXIS LTD."
+          },
+          "sme": true,
+          "vco": false,
+          "name": "GO GREEN TAXIS LTD.",
+          "address": {
+            "streetAddress": "Didcot Enterprise Centre Hawksworth\nDIDCOT\nOxfordshire\nOX11 7PH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "09025633",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FLIGHTLINK CHAUFFEURS LTD",
+          "address": {
+            "streetAddress": "Unit 23, Enterprise House,Cheney Manor\nSWINDON\nWiltshire\nSN2 2YZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "06362005",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "1ST CLASS TRAVEL U.K. LTD",
+          "address": {
+            "streetAddress": "37 Middlehurst Road\nWARRINGTON\nCheshire\nWA4 2LG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Apec Group Association",
+          "address": {
+            "streetAddress": "The Outbuilding Red Admiral Car Park\r\n2 Boston Avenue\r\nRuncorn\r\nCheshire\r\nWA7 5JQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "SC033518",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CITY CABS (EDINBURGH) LIMITED",
+          "address": {
+            "streetAddress": "1 Atholl Place\nEH3 8HP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-e21ec4d9-b6ff-4c23-a70d-889526ac3c20-uk-sbs-cs19158",
+        "title": "UK SBS CS19158 STFC Taxi Services",
+        "description": "UKRI (STFC) has a significant need for \"bought in\" taxi journeys for staff, users and visitors across all of its sites, Rutherford Appleton Laboratory, Oxfordshire (RAL), Daresbury, Cheshire (DL), Edinburgh (UKATC) and Swindon. Due to the high level of \"User\" visits to ISIS and CLF at the RAL Oxfordshire based site, that area has the highest volume requirement, approximately 5000 separate trips (although this number can vary widely depending, particularly, on the running days of the large facilities). Journeys range for local trips as low as 12miles up to longer trips, typically to airports, of 50 miles pl",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "60120000",
+              "description": "Taxi services",
+              "uri": "http://cpv.data.ac.uk/code-60120000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 1608000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-27T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "GO GREEN TAXIS LTD."
+          },
+          {
+            "id": "2",
+            "name": "FLIGHTLINK CHAUFFEURS LTD"
+          },
+          {
+            "id": "3",
+            "name": "1ST CLASS TRAVEL U.K. LTD"
+          },
+          {
+            "id": "4",
+            "name": "Apec Group Association"
+          },
+          {
+            "id": "5",
+            "name": "CITY CABS (EDINBURGH) LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-02-05T00:00:00Z",
+          "endDate": "2024-02-04T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "5eb4e49abd94e0c7044fbf250ff1e79f",
+        "name": "UK SHARED BUSINESS SERVICES LIMITED"
+      },
+      "awards": [
+        {
+          "id": "eb028b57-0efa-4537-bcfd-bfe944417525",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-18T00:00:00Z",
+          "value": {
+            "amount": 1608000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "GO GREEN TAXIS LTD."
+            },
+            {
+              "id": "2",
+              "name": "FLIGHTLINK CHAUFFEURS LTD"
+            },
+            {
+              "id": "3",
+              "name": "1ST CLASS TRAVEL U.K. LTD"
+            },
+            {
+              "id": "4",
+              "name": "Apec Group Association"
+            },
+            {
+              "id": "5",
+              "name": "CITY CABS (EDINBURGH) LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2024-02-04T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/30e3d359-d24b-46a9-bc40-97163d3dce03.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-27T09:56:21Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-a361819c-b252-4d70-8143-649143a77d61",
+      "id": "ocds-b5fd17-a361819c-b252-4d70-8143-649143a77d61-360837-warringtonlive001-dn479463-09526406",
+      "date": "2020-03-18T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "8dc46d1a905fcfdebac061736787a54b",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Warrington Borough Council",
+          "address": {
+            "streetAddress": "New Town House Buttermarket Street",
+            "locality": "Warrington",
+            "region": null,
+            "postalCode": "WA1 2NH",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Kathy Lang",
+            "email": "klang@warrington.gov.uk",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "http://www.warrington.gov.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bubble 1895 Sports",
+          "address": {
+            "streetAddress": "8 Palatine Industrial Estate, Warrington, WA4 6QQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Castle Industrial Supplies",
+          "address": {
+            "streetAddress": "Unit 6 Oakwood Way, Carnforth Business Park, Carnforth, LA5 9FD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-a361819c-b252-4d70-8143-649143a77d61-warringtonlive001-dn479463-09526406",
+        "title": "Supply &amp; Delivery Personal Protective Equipment",
+        "description": "In urgent response to the Coronavirus pandemic a need for personal protective equipment such as face masks has been identified by Warrington Borough Council to deal with the public. The provision of the personal protective equipment is deemed to be of such urgency that application of the reduced timescales for urgent procurements set in the Public Contract Regulations 2015, especially given current market disruption.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "33199000",
+              "description": "Medical clothing",
+              "uri": "http://cpv.data.ac.uk/code-33199000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 350000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 350000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Not applicable",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-05-06T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Bubble 1895 Sports"
+          },
+          {
+            "id": "2",
+            "name": "Castle Industrial Supplies"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-22T00:00:00Z",
+          "endDate": "2020-05-23T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "8dc46d1a905fcfdebac061736787a54b",
+        "name": "Warrington Borough Council"
+      },
+      "awards": [
+        {
+          "id": "3633849d-8777-4482-8352-a4d6b80164e0",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-21T00:00:00Z",
+          "value": {
+            "amount": 330730,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Bubble 1895 Sports"
+            },
+            {
+              "id": "2",
+              "name": "Castle Industrial Supplies"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-22T00:00:00Z",
+            "endDate": "2020-05-23T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

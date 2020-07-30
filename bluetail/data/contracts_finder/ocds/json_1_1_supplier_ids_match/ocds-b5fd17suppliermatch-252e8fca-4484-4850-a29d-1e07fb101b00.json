@@ -1,0 +1,366 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d7b5ebdf-1824-4a4f-9b9e-ab9078c9bbdf.json",
+  "version": "1.1",
+  "publishedDate": "2020-01-08T11:41:16Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-252e8fca-4484-4850-a29d-1e07fb101b00",
+      "id": "ocds-b5fd17-252e8fca-4484-4850-a29d-1e07fb101b00-335778-nottcity001-dn440816-22557135",
+      "date": "2019-09-06T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "735524f8df192181799c99e181bc50dc",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Nottingham City Council",
+          "address": {
+            "streetAddress": "Loxley House Station Street",
+            "locality": "Nottingham",
+            "region": null,
+            "postalCode": "NG2 3NG",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Nicola Harrison",
+            "email": "nicola.harrison@nottinghamcity.gov.uk",
+            "telephone": "+44 1158763562",
+            "faxNumber": null,
+            "uri": "http://www.nottinghamcity.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-122645992",
+            "scheme": "GB-CQC",
+            "legalName": "APT Care Limited"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "APT Care Limited",
+          "address": {
+            "streetAddress": "Sherwood Community Centre\nMansfield Road\nNottingham\nNG5 3FN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-4135107760",
+            "scheme": "GB-CQC",
+            "legalName": "Betna Agencies Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Betna Agencies Ltd",
+          "address": {
+            "streetAddress": "Unit 12, Mercury House, Shipstones Business Centre, North Gate, Nottingham NG7 7FN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3531088197",
+            "scheme": "GB-CQC",
+            "legalName": "Diverse Home Care Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Diverse Home Care Ltd",
+          "address": {
+            "streetAddress": "First Enterprise Business Agency\n6 Sherwood Rise\nNottingham\nNG7 6JF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2175084325",
+            "scheme": "GB-CQC",
+            "legalName": "Forever Independent"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Forever Independent",
+          "address": {
+            "streetAddress": "6 Musters Road\nWest Bridgford\nNottingham\nNG2 7PL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1269958903",
+            "scheme": "GB-CQC",
+            "legalName": "Heaven Scent Care Services Ltd"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Heaven Scent Care Services Ltd",
+          "address": {
+            "streetAddress": "NBV Enterprise Centre\n6 David Lane\nBasford, Nottinghamshire\nNG6 0JU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-5684637493",
+            "scheme": "GB-CQC",
+            "legalName": "Mark Time Care Limited"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Mark Time Care Limited",
+          "address": {
+            "streetAddress": "279 Hucknall Lane\nNottingham\nNG6 8AF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-252e8fca-4484-4850-a29d-1e07fb101b00-nottcity001-dn440816-22557135",
+        "title": "CPU 2157 Care at Home Services for Adults Accreditation",
+        "description": "Nottingham City Council is seeking to establish a new Accredited Provider list of experienced organisations able to deliver Care at Home for Adults. The Accreditation will form the mechanism for securing providers that are required in addition to those provided under the Lead Provider contracts for this service.\r\nThe Accreditation will operate across the City of Nottingham.  Providers will deliver end to end care, including health care tasks and will also have the opportunity to apply to deliver Continuing Health Care services.  There will be a fixed hourly payment rate, incorporating travel time and travel costs.\r\n\r\nContract duration: 3 years, possible 4 years extension\r\nTotal value: up to &pound;55,641,250 over life of whole contract across all contracted providers.\r\nThis is a procurement process for social and specific services in accordance with the Public Contract Regulations 2015 Light Touch Regime.\r\n\r\nCommencement date: 1 April 2020\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85300000",
+              "description": "Social work and related services",
+              "uri": "http://cpv.data.ac.uk/code-85300000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 55641250,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 55641250,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-08T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "APT Care Limited"
+          },
+          {
+            "id": "4",
+            "name": "Betna Agencies Ltd"
+          },
+          {
+            "id": "6",
+            "name": "Diverse Home Care Ltd"
+          },
+          {
+            "id": "8",
+            "name": "Forever Independent"
+          },
+          {
+            "id": "20",
+            "name": "Heaven Scent Care Services Ltd"
+          },
+          {
+            "id": "21",
+            "name": "Mark Time Care Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2027-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "735524f8df192181799c99e181bc50dc",
+        "name": "Nottingham City Council"
+      },
+      "awards": [
+        {
+          "id": "fea4c705-2369-4dbd-9bbd-0c247731c45d",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-16T00:00:00Z",
+          "value": {
+            "amount": 55641250,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "APT Care Limited"
+            },
+            {
+              "id": "4",
+              "name": "Betna Agencies Ltd"
+            },
+            {
+              "id": "6",
+              "name": "Diverse Home Care Ltd"
+            },
+            {
+              "id": "8",
+              "name": "Forever Independent"
+            },
+            {
+              "id": "20",
+              "name": "Heaven Scent Care Services Ltd"
+            },
+            {
+              "id": "21",
+              "name": "Mark Time Care Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2027-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

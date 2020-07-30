@@ -1,0 +1,3118 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/31b180dc-fb87-4d63-838c-3955acf84067.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-12T14:23:44Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-57d308c3-b529-460f-a359-8792732ae3a4",
+      "id": "ocds-b5fd17-57d308c3-b529-460f-a359-8792732ae3a4-358539-lgss001-dn380759-88979047",
+      "date": "2019-01-04T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "8be82a81ee4c01f589f64780c6de566d",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Cambridgeshire County Council",
+          "address": {
+            "streetAddress": "Shire Hall, Castle Hill ",
+            "locality": "Cambridge",
+            "region": null,
+            "postalCode": "CB3 0AP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "LGSS Procurement",
+            "email": "Contracts@Milton-Keynes.gov.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "4D Care Ltd",
+          "address": {
+            "streetAddress": "Unit 1h Grovemere House, Lancaster Way Business Park, Ely, Cambridgeshire, United Kingdom, CB6 3NW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Acorn Care and Education Limited",
+          "address": {
+            "streetAddress": "1 Merchants Place,\nRiver Street,\nBolton\nBL2 1BX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Alliance Foster Care",
+          "address": {
+            "streetAddress": "Frays Court, 71 Cowley Road, Uxbridge, Middlesex, UB8 2AE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Amberleigh Care",
+          "address": {
+            "streetAddress": "Golfa Hall\nWelshpool\nPowys\nSY21 9AF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Anglia Fostering Agency Ltd",
+          "address": {
+            "streetAddress": "12 Meridian Way, Meridian Business Park, Norwich NR7 0TA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Banya Family Placement Ltd",
+          "address": {
+            "streetAddress": "Units 1, 6 &amp; 7 Croxted Mews\n286a - 288 Croxted Road\nLondon\nSE24 9DA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BDP Social Care Ltd",
+          "address": {
+            "streetAddress": "The Old School House, \nDartford Road, \nMarch \nCambridgeshire\nPE15 8AE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Break",
+          "address": {
+            "streetAddress": "Schofield House\nSpar Road\nNorwich\nNR6 6BX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Brighter Futures Foster Care",
+          "address": {
+            "streetAddress": "Frays Court\n71 Cowley Road\nUxbridge, Middlesex\nUB8 2AE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bryn Melyn Care Ltd",
+          "address": {
+            "streetAddress": "Edward James House\nHadley Park East\nTelford\nTF1 6QJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "By the Bridge Limited",
+          "address": {
+            "streetAddress": "4th Floor, Waterfront, Manbre Wharf, Manbre\nRoad Hammersmith W6 9RH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Childhood First",
+          "address": {
+            "streetAddress": "210 Borough High Street\nLondon SE1 1JX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Compass Community Limited",
+          "address": {
+            "streetAddress": "Mountfields House, Off Squirrel Way, Epinal Way, Loughborough, LE11 3GE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Credo Care Ltd",
+          "address": {
+            "streetAddress": "Credo Care Limited \n12 High Street\nLydd\nRomney Marsh\nKent \nTN29 9A",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Diverse Care UK Ltd",
+          "address": {
+            "streetAddress": "399-401 High Street, London E15 4QZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "EAQ (Equine Assisted Qualifications) Ltd",
+          "address": {
+            "streetAddress": "Office 4\nThe Exchange\nOld Market Hill\nSturminster Newton\nDorset DT10 1FH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Eastern Fostering Services - Social Work",
+          "address": {
+            "streetAddress": "Unit 1E, The Gattinetts,\nHadleigh Road\nEast Bergholt\nSuffolk\nCO7 6QT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Esland",
+          "address": {
+            "streetAddress": "Suites 1 and 5, \nRiverside Business Centre,\nFoundry Lane,\nMilford, \nBelper,\nDerbyshire,\nDE56 0RN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ethelbert Childrens Services",
+          "address": {
+            "streetAddress": "17 Leigh Road\nRamsgate\nKent\nCT12 5EU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fleet Tutors",
+          "address": {
+            "streetAddress": "Fleet Education Services Ltd.\n251/253 Chiswick High Road\nLondon\nW4 4PU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Foster Care Associates",
+          "address": {
+            "streetAddress": "Malvern View, Saxon Business Park, Hanbury Road, Bromsgrove, Worcestershire, B60 4AD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fostering Innovations",
+          "address": {
+            "streetAddress": "Suite 207, 460-466 Uxbridge House, Uxbridge Road, Hayes - UB4 0SD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fostering Options",
+          "address": {
+            "streetAddress": "The College Tower and Masters House\nMaidstone\nKent\nME15 6YF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fostering People Ltd",
+          "address": {
+            "streetAddress": "Suite D, The Point,\nWelbeck Road,\nWest Bridgford,\nNottingham\nNG2 7QW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fostering Solutions Ltd",
+          "address": {
+            "streetAddress": "1 Merchants Place, River Street, Bolton, BL2 1BX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "26",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fostering UK",
+          "address": {
+            "streetAddress": "Maple House, Potters Bar, High Street, Hertfordshire, EN6 5BS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fosterplus Ltd",
+          "address": {
+            "streetAddress": "Wavendon Tower\nOrtensia Drive\nWavendon Business Park\nMilton Keynes \nMK17 8LX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Futures for Children",
+          "address": {
+            "streetAddress": "Futures for Children,\nThe Masters House,\nCollege Road,\nMaidstone,\nKent,\nME15 6YQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Gretton School",
+          "address": {
+            "streetAddress": "5th Floor, \n14 Waterloo Place, \nLondon \nSW1Y 4AR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "30",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HAVEN CARE GROUP",
+          "address": {
+            "streetAddress": "First Floor, Unit 3, Barberry Court\nCentrum one Hundred\nBurton on Trent\nDE14 2UE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "31",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Heartwood Care Group",
+          "address": {
+            "streetAddress": "Heartwood Care Group Ltd\n416 Green Lane\nIlford\nEssex\nIG3 9JX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "32",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Heath Farm Family Services Ltd",
+          "address": {
+            "streetAddress": "1 Merchants Place, River Street, Bolton BL2 1BX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "33",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Hesley Group",
+          "address": {
+            "streetAddress": "Central Services, Hesley Hall, Tickhill, Doncaster, DN11 9HH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "34",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Hexagon Care Services",
+          "address": {
+            "streetAddress": "Tustin Court Unit 1 \nRiversway\nPreston\nLancashire\nPR2 2YQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "35",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Homes 2 Inspire Ltd",
+          "address": {
+            "streetAddress": "Shaw Trust House\n19 Elmfield Road\nBromley, Kent\nBR1 1LT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "36",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Integrated Services Programme (ISP)",
+          "address": {
+            "streetAddress": "Wavendon Tower\nOrtensia Drive\nWavendon Business Park\nMilton Keynes \nMK17 8LX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "37",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Kedleston Schools",
+          "address": {
+            "streetAddress": "Office Suite 1\nAnsell Gardens\nHolloway Lane\nHarmondsworth\nMiddlesex\nUB7 0AE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "38",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Keys PCE Limited",
+          "address": {
+            "streetAddress": "2nd Floor Maybrook House\nQueensway\nHalesowen\nB63 4AH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "39",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Kisimul Group Ltd",
+          "address": {
+            "streetAddress": "The Old Vicarage\n61 High Street\nSwinderby\nLincolnshire\nLN6 9LU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "40",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Lioncare - The Lioncare Group",
+          "address": {
+            "streetAddress": "Lioncare House, \n58a Livingstone Road,\nHove,\nEast Sussex BN3 3WL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "41",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Little Acorns Fostering Ltd",
+          "address": {
+            "streetAddress": "Rook Tree Barn, Withersfield Road, Great Wratting, Suffolk, CB9 7HD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "42",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "National Teaching &amp; Advisory Service",
+          "address": {
+            "streetAddress": "The National Teaching and Advisory Service\nSummerfields Village Centre\nDean Row Court\nDean Row Road\nWilmslow\nSK9 2TB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "43",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Next Step Fostering",
+          "address": {
+            "streetAddress": "Next Step Fostering Services\nWrens Hill House\nRushett Lane\nNorton\nME13 0SH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "44",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Nexus Fostering",
+          "address": {
+            "streetAddress": "4, Jardine House, Harrovian Business Village, Bessborough Road, Harrow HA1 3EX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "45",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "North East Specialist Therapeutic Services CIC",
+          "address": {
+            "streetAddress": "34 Westbourne Road, Hartlepool, TS25 5RE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "46",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "On Track Education",
+          "address": {
+            "streetAddress": "Bedford i-Lab\nStannard Way\nPriory Business Park\nBedford\nMK44 3RZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "47",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Orange Grove Fostercare Ltd",
+          "address": {
+            "streetAddress": "Wavendon Tower, Ortensia Tower, Wavendon Business Park, Milton Keynes, MK17 8LX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "48",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Parallel Parents",
+          "address": {
+            "streetAddress": "2nd Floor Lansdowne House, 85 Buxton Road, Stockport SK2 6LF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "49",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Pathway Care Solutions Group Ltd",
+          "address": {
+            "streetAddress": "1 MERCHANTS PLACE\nRIVER STREET\nBOLTON\nBL2 1BX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "50",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PJL Healthcare",
+          "address": {
+            "streetAddress": "Mayfield House\nEast Street \nMayfield\nTN20 6TZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "51",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Plus One (South West) Ltd",
+          "address": {
+            "streetAddress": "The Mount\n21 High Street\nWellington\nTA21 8QT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "52",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Pride Fostering Service",
+          "address": {
+            "streetAddress": "Sunbeam House, 12 Waterside Drive, Langley, Slough, SL3 6EZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "53",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Progress Care Solutions",
+          "address": {
+            "streetAddress": "Progress House\n127 Millfields Road\nWolverhampton\nWV4 6JG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "54",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Quality Foster Care",
+          "address": {
+            "streetAddress": "Communication House\nFirst Floor, 134 - 146 High Road, \nBenfleet \nEssex SS7 5LD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "55",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Quality Protects Children Ltd",
+          "address": {
+            "streetAddress": "Quality Protects Children Ltd\nHill House\nArchway Road\nHuyton\nLiverpool\nL36 9XB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "56",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Randstad",
+          "address": {
+            "streetAddress": "450 Capability Green, Luton, Bedfordshire, LU1 3LU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "57",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Reflexions Care Group Limited trading as New Reflexions",
+          "address": {
+            "streetAddress": "Head Office\nBlack Birches\nHadnall\nShropshire\nSY4 3DH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "58",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Regional Foster Placements",
+          "address": {
+            "streetAddress": "Registered Company Address; Regional Foster Placements Ltd, Old Auster, The Causeway, Mark, Somerset, TA9 4QF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "59",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Semi-Independent House Ltd",
+          "address": {
+            "streetAddress": "51 Ploverly, Werrington, Cambridgeshire, PE4 6HZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "60",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Sense",
+          "address": {
+            "streetAddress": "101 Pentonville Road, London N1 9LG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "61",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "St Christopher&#039;s Fellowship",
+          "address": {
+            "streetAddress": "(Head Office)\n1 Putney High Street\nLondon\nSW15 1SZ\n\n(Registered Fostering Office)\nWaterhouse Business Centre\nCromar Way\nChelmsford\nCM1 2QE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "62",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Step-A-Side Care Ltd",
+          "address": {
+            "streetAddress": "Step-a-Side Company Ltd\n29 Market Place\nColeford\nGloucestershire\nGL16 8AA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "63",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Adolescent and Children&#039;s Trust",
+          "address": {
+            "streetAddress": "The Courtyard, 303 Hither Green Lane, Hither Green, London. SE13 6TJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "64",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Aurora Group",
+          "address": {
+            "streetAddress": "c/o The Aurora Group\n33 Holborn\nLondon EC1N 2HT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "65",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Caldecott Foundation",
+          "address": {
+            "streetAddress": "Caldecott House, Station Road, Smeeth, Ashford, Kent TN25 6SP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "66",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Foster Care Co-operative",
+          "address": {
+            "streetAddress": "Penny Hall, \nThe Haysfield\nSpring Lane North, \nMalvern\nWocs\nWR14 1GF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "67",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The National Fostering Agency Ltd",
+          "address": {
+            "streetAddress": "Frays Court\n71 Cowley Road\nUxbridge\nMiddlesex\nUB8 2AE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "68",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Ryes College Ltd",
+          "address": {
+            "streetAddress": "3 Skyview Business Centre, \n9 Churchfield Road, \nSudbury, \nSuffolk\nCO10 2YA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "69",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Time for Children Limited",
+          "address": {
+            "streetAddress": "Time for Children\nThe Masters House and College Tower\nCollege Road\nMaidstone\nKent\n\u200bME15 6YQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "70",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "To The Moon and Back Foster Care Limited",
+          "address": {
+            "streetAddress": "7 St John Street\nMansfield\nNottinghamshire\nNG18 1QH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "71",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Tree House Care Fostering",
+          "address": {
+            "streetAddress": "107 Cleethorpe Road\nGrimsby\nNE Lincolnshire DN31 3ER",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "72",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "UK Fostering",
+          "address": {
+            "streetAddress": "Bridge House\nHigh Street\nDartford\nKent\nDA1 1DJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "73",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "UNIQUE CARE HOMES",
+          "address": {
+            "streetAddress": "The White House\nGreenalls Avenue\nWilderspool Business Park\nStockton Heath\nWarrington\nWA4 6HL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-57d308c3-b529-460f-a359-8792732ae3a4-lgss001-dn380759-88979047",
+        "title": "Cambridgeshire County Council Children&#039;s External Placements Dynamic Purchasing System (DPS)",
+        "description": "Cambridgeshire County Council (CCC) (The &quot;Authority&quot;) wishes to invite Tenders for the supply of services in respect of children&#039;s external placements. The services include: \r\n&bull;\tLot 1: Provision of Independent Fostering Agencies (IFA) \r\n&bull;\tLot 2: Provision of Residential Children&#039;s homes\r\n&bull;\tLot 3: Provision of Independent Schools and Education providers (ISEP) \r\n&bull;\tLot 4: Provision of Out of School Tuition (OoST)\r\nThese services will be available to children and young people aged 0-18 (up to 19 for children and adults with Special educational needs and disability - SEND) in Cambridgeshire, neighbouring authorities and where directed by specific care plans, nationally. The successful Providers will be responsible for providing this service and liaising closely with the Contract Manager identified by the Authority.\r\nThe tender is led by Cambridgeshire County Council, however Cambridgeshire County Council and Peterborough City Council (PCC) have made strategic decision to combine roles and departments to manage services across both local authorities. Peterborough will have access to the DPS in their own right.\r\nThe DPS is open for an initial term of five (5) years commencing on 1st April 2019 and ending on 31st March 2024 with the options to extend for an initial period of two (2) years, then after further review, for another two-year-period to a final one (1) year extension (5+2+2+1), up to a maximum of ten (10) years from the date of the original contract date.\r\nThe anticipated spend across PCC and CCC for the duration of the DPS is &pound;470,184,791.00. The spend is across the two local authorities for all four lots as listed above, however it is the local authorities&#039; intention to reduce this spend through application of the new DPS, improving outcomes for individual children and the use of the mini competitions within the DPS over  its lifetime. \r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 470184791,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-02-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 73,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "4D Care Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Acorn Care and Education Limited"
+          },
+          {
+            "id": "3",
+            "name": "Alliance Foster Care"
+          },
+          {
+            "id": "4",
+            "name": "Amberleigh Care"
+          },
+          {
+            "id": "5",
+            "name": "Anglia Fostering Agency Ltd"
+          },
+          {
+            "id": "6",
+            "name": "Banya Family Placement Ltd"
+          },
+          {
+            "id": "7",
+            "name": "BDP Social Care Ltd"
+          },
+          {
+            "id": "8",
+            "name": "Break"
+          },
+          {
+            "id": "9",
+            "name": "Brighter Futures Foster Care"
+          },
+          {
+            "id": "10",
+            "name": "Bryn Melyn Care Ltd"
+          },
+          {
+            "id": "11",
+            "name": "By the Bridge Limited"
+          },
+          {
+            "id": "12",
+            "name": "Childhood First"
+          },
+          {
+            "id": "13",
+            "name": "Compass Community Limited"
+          },
+          {
+            "id": "14",
+            "name": "Credo Care Ltd"
+          },
+          {
+            "id": "15",
+            "name": "Diverse Care UK Ltd"
+          },
+          {
+            "id": "16",
+            "name": "EAQ (Equine Assisted Qualifications) Ltd"
+          },
+          {
+            "id": "17",
+            "name": "Eastern Fostering Services - Social Work"
+          },
+          {
+            "id": "18",
+            "name": "Esland"
+          },
+          {
+            "id": "19",
+            "name": "Ethelbert Childrens Services"
+          },
+          {
+            "id": "20",
+            "name": "Fleet Tutors"
+          },
+          {
+            "id": "21",
+            "name": "Foster Care Associates"
+          },
+          {
+            "id": "22",
+            "name": "Fostering Innovations"
+          },
+          {
+            "id": "23",
+            "name": "Fostering Options"
+          },
+          {
+            "id": "24",
+            "name": "Fostering People Ltd"
+          },
+          {
+            "id": "25",
+            "name": "Fostering Solutions Ltd"
+          },
+          {
+            "id": "26",
+            "name": "Fostering UK"
+          },
+          {
+            "id": "27",
+            "name": "Fosterplus Ltd"
+          },
+          {
+            "id": "28",
+            "name": "Futures for Children"
+          },
+          {
+            "id": "29",
+            "name": "Gretton School"
+          },
+          {
+            "id": "30",
+            "name": "HAVEN CARE GROUP"
+          },
+          {
+            "id": "31",
+            "name": "Heartwood Care Group"
+          },
+          {
+            "id": "32",
+            "name": "Heath Farm Family Services Ltd"
+          },
+          {
+            "id": "33",
+            "name": "Hesley Group"
+          },
+          {
+            "id": "34",
+            "name": "Hexagon Care Services"
+          },
+          {
+            "id": "35",
+            "name": "Homes 2 Inspire Ltd"
+          },
+          {
+            "id": "36",
+            "name": "Integrated Services Programme (ISP)"
+          },
+          {
+            "id": "37",
+            "name": "Kedleston Schools"
+          },
+          {
+            "id": "38",
+            "name": "Keys PCE Limited"
+          },
+          {
+            "id": "39",
+            "name": "Kisimul Group Ltd"
+          },
+          {
+            "id": "40",
+            "name": "Lioncare - The Lioncare Group"
+          },
+          {
+            "id": "41",
+            "name": "Little Acorns Fostering Ltd"
+          },
+          {
+            "id": "42",
+            "name": "National Teaching &amp; Advisory Service"
+          },
+          {
+            "id": "43",
+            "name": "Next Step Fostering"
+          },
+          {
+            "id": "44",
+            "name": "Nexus Fostering"
+          },
+          {
+            "id": "45",
+            "name": "North East Specialist Therapeutic Services CIC"
+          },
+          {
+            "id": "46",
+            "name": "On Track Education"
+          },
+          {
+            "id": "47",
+            "name": "Orange Grove Fostercare Ltd"
+          },
+          {
+            "id": "48",
+            "name": "Parallel Parents"
+          },
+          {
+            "id": "49",
+            "name": "Pathway Care Solutions Group Ltd"
+          },
+          {
+            "id": "50",
+            "name": "PJL Healthcare"
+          },
+          {
+            "id": "51",
+            "name": "Plus One (South West) Ltd"
+          },
+          {
+            "id": "52",
+            "name": "Pride Fostering Service"
+          },
+          {
+            "id": "53",
+            "name": "Progress Care Solutions"
+          },
+          {
+            "id": "54",
+            "name": "Quality Foster Care"
+          },
+          {
+            "id": "55",
+            "name": "Quality Protects Children Ltd"
+          },
+          {
+            "id": "56",
+            "name": "Randstad"
+          },
+          {
+            "id": "57",
+            "name": "Reflexions Care Group Limited trading as New Reflexions"
+          },
+          {
+            "id": "58",
+            "name": "Regional Foster Placements"
+          },
+          {
+            "id": "59",
+            "name": "Semi-Independent House Ltd"
+          },
+          {
+            "id": "60",
+            "name": "Sense"
+          },
+          {
+            "id": "61",
+            "name": "St Christopher&#039;s Fellowship"
+          },
+          {
+            "id": "62",
+            "name": "Step-A-Side Care Ltd"
+          },
+          {
+            "id": "63",
+            "name": "The Adolescent and Children&#039;s Trust"
+          },
+          {
+            "id": "64",
+            "name": "The Aurora Group"
+          },
+          {
+            "id": "65",
+            "name": "The Caldecott Foundation"
+          },
+          {
+            "id": "66",
+            "name": "The Foster Care Co-operative"
+          },
+          {
+            "id": "67",
+            "name": "The National Fostering Agency Ltd"
+          },
+          {
+            "id": "68",
+            "name": "The Ryes College Ltd"
+          },
+          {
+            "id": "69",
+            "name": "Time for Children Limited"
+          },
+          {
+            "id": "70",
+            "name": "To The Moon and Back Foster Care Limited"
+          },
+          {
+            "id": "71",
+            "name": "Tree House Care Fostering"
+          },
+          {
+            "id": "72",
+            "name": "UK Fostering"
+          },
+          {
+            "id": "73",
+            "name": "UNIQUE CARE HOMES"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "8be82a81ee4c01f589f64780c6de566d",
+        "name": "Cambridgeshire County Council"
+      },
+      "awards": [
+        {
+          "id": "de720a5d-eed3-4729-86f6-27353b1af767",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-03-21T00:00:00Z",
+          "value": {
+            "amount": 470184791,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "4D Care Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Acorn Care and Education Limited"
+            },
+            {
+              "id": "3",
+              "name": "Alliance Foster Care"
+            },
+            {
+              "id": "4",
+              "name": "Amberleigh Care"
+            },
+            {
+              "id": "5",
+              "name": "Anglia Fostering Agency Ltd"
+            },
+            {
+              "id": "6",
+              "name": "Banya Family Placement Ltd"
+            },
+            {
+              "id": "7",
+              "name": "BDP Social Care Ltd"
+            },
+            {
+              "id": "8",
+              "name": "Break"
+            },
+            {
+              "id": "9",
+              "name": "Brighter Futures Foster Care"
+            },
+            {
+              "id": "10",
+              "name": "Bryn Melyn Care Ltd"
+            },
+            {
+              "id": "11",
+              "name": "By the Bridge Limited"
+            },
+            {
+              "id": "12",
+              "name": "Childhood First"
+            },
+            {
+              "id": "13",
+              "name": "Compass Community Limited"
+            },
+            {
+              "id": "14",
+              "name": "Credo Care Ltd"
+            },
+            {
+              "id": "15",
+              "name": "Diverse Care UK Ltd"
+            },
+            {
+              "id": "16",
+              "name": "EAQ (Equine Assisted Qualifications) Ltd"
+            },
+            {
+              "id": "17",
+              "name": "Eastern Fostering Services - Social Work"
+            },
+            {
+              "id": "18",
+              "name": "Esland"
+            },
+            {
+              "id": "19",
+              "name": "Ethelbert Childrens Services"
+            },
+            {
+              "id": "20",
+              "name": "Fleet Tutors"
+            },
+            {
+              "id": "21",
+              "name": "Foster Care Associates"
+            },
+            {
+              "id": "22",
+              "name": "Fostering Innovations"
+            },
+            {
+              "id": "23",
+              "name": "Fostering Options"
+            },
+            {
+              "id": "24",
+              "name": "Fostering People Ltd"
+            },
+            {
+              "id": "25",
+              "name": "Fostering Solutions Ltd"
+            },
+            {
+              "id": "26",
+              "name": "Fostering UK"
+            },
+            {
+              "id": "27",
+              "name": "Fosterplus Ltd"
+            },
+            {
+              "id": "28",
+              "name": "Futures for Children"
+            },
+            {
+              "id": "29",
+              "name": "Gretton School"
+            },
+            {
+              "id": "30",
+              "name": "HAVEN CARE GROUP"
+            },
+            {
+              "id": "31",
+              "name": "Heartwood Care Group"
+            },
+            {
+              "id": "32",
+              "name": "Heath Farm Family Services Ltd"
+            },
+            {
+              "id": "33",
+              "name": "Hesley Group"
+            },
+            {
+              "id": "34",
+              "name": "Hexagon Care Services"
+            },
+            {
+              "id": "35",
+              "name": "Homes 2 Inspire Ltd"
+            },
+            {
+              "id": "36",
+              "name": "Integrated Services Programme (ISP)"
+            },
+            {
+              "id": "37",
+              "name": "Kedleston Schools"
+            },
+            {
+              "id": "38",
+              "name": "Keys PCE Limited"
+            },
+            {
+              "id": "39",
+              "name": "Kisimul Group Ltd"
+            },
+            {
+              "id": "40",
+              "name": "Lioncare - The Lioncare Group"
+            },
+            {
+              "id": "41",
+              "name": "Little Acorns Fostering Ltd"
+            },
+            {
+              "id": "42",
+              "name": "National Teaching &amp; Advisory Service"
+            },
+            {
+              "id": "43",
+              "name": "Next Step Fostering"
+            },
+            {
+              "id": "44",
+              "name": "Nexus Fostering"
+            },
+            {
+              "id": "45",
+              "name": "North East Specialist Therapeutic Services CIC"
+            },
+            {
+              "id": "46",
+              "name": "On Track Education"
+            },
+            {
+              "id": "47",
+              "name": "Orange Grove Fostercare Ltd"
+            },
+            {
+              "id": "48",
+              "name": "Parallel Parents"
+            },
+            {
+              "id": "49",
+              "name": "Pathway Care Solutions Group Ltd"
+            },
+            {
+              "id": "50",
+              "name": "PJL Healthcare"
+            },
+            {
+              "id": "51",
+              "name": "Plus One (South West) Ltd"
+            },
+            {
+              "id": "52",
+              "name": "Pride Fostering Service"
+            },
+            {
+              "id": "53",
+              "name": "Progress Care Solutions"
+            },
+            {
+              "id": "54",
+              "name": "Quality Foster Care"
+            },
+            {
+              "id": "55",
+              "name": "Quality Protects Children Ltd"
+            },
+            {
+              "id": "56",
+              "name": "Randstad"
+            },
+            {
+              "id": "57",
+              "name": "Reflexions Care Group Limited trading as New Reflexions"
+            },
+            {
+              "id": "58",
+              "name": "Regional Foster Placements"
+            },
+            {
+              "id": "59",
+              "name": "Semi-Independent House Ltd"
+            },
+            {
+              "id": "60",
+              "name": "Sense"
+            },
+            {
+              "id": "61",
+              "name": "St Christopher&#039;s Fellowship"
+            },
+            {
+              "id": "62",
+              "name": "Step-A-Side Care Ltd"
+            },
+            {
+              "id": "63",
+              "name": "The Adolescent and Children&#039;s Trust"
+            },
+            {
+              "id": "64",
+              "name": "The Aurora Group"
+            },
+            {
+              "id": "65",
+              "name": "The Caldecott Foundation"
+            },
+            {
+              "id": "66",
+              "name": "The Foster Care Co-operative"
+            },
+            {
+              "id": "67",
+              "name": "The National Fostering Agency Ltd"
+            },
+            {
+              "id": "68",
+              "name": "The Ryes College Ltd"
+            },
+            {
+              "id": "69",
+              "name": "Time for Children Limited"
+            },
+            {
+              "id": "70",
+              "name": "To The Moon and Back Foster Care Limited"
+            },
+            {
+              "id": "71",
+              "name": "Tree House Care Fostering"
+            },
+            {
+              "id": "72",
+              "name": "UK Fostering"
+            },
+            {
+              "id": "73",
+              "name": "UNIQUE CARE HOMES"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-04-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

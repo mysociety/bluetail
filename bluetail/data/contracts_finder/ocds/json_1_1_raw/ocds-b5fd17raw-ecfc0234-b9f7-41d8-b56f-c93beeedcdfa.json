@@ -1,0 +1,576 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/96b8a7fe-8911-4e70-a20e-834ea8ea5ace.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-12T14:31:02Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-ecfc0234-b9f7-41d8-b56f-c93beeedcdfa",
+      "id": "ocds-b5fd17-ecfc0234-b9f7-41d8-b56f-c93beeedcdfa-358545-lgss001-dn380759-60600651",
+      "date": "2018-12-12T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "8be82a81ee4c01f589f64780c6de566d",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Cambridgeshire County Council",
+          "address": {
+            "streetAddress": "Shire Hall, Castle Hill ",
+            "locality": "Cambridge",
+            "region": null,
+            "postalCode": "CB3 0AP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "LGSS Procurement",
+            "email": "Contracts@Milton-Keynes.gov.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Oracle Care Ltd",
+          "address": {
+            "streetAddress": "CW12 2AH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Margaret Lunn",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Heathcotes",
+          "address": {
+            "streetAddress": "S417Xd",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Natalia Lysiuk",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "The Chartwell Group of Homes",
+          "address": {
+            "streetAddress": "PE13 5HQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Jason Wright",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SILVER BIRCH CARE",
+          "address": {
+            "streetAddress": "N3 2LX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Graham Brown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Salutem LD BidCo IV Limited, trading as Ambito Care and Educatio",
+          "address": {
+            "streetAddress": "SL4 1EG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Angela Wright",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Park House School",
+          "address": {
+            "streetAddress": "PE6 0SA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Tim Howley",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Fresh Start in Education Ltd",
+          "address": {
+            "streetAddress": "CT20 2TQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Lewis Foreman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "1st Staff Limited",
+          "address": {
+            "streetAddress": "CM16 6BL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Richard Brown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Kip McGrath Education Centres Peterborough North",
+          "address": {
+            "streetAddress": "PE1 2TR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Gillian Terry",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Sugarman Education",
+          "address": {
+            "streetAddress": "EC3M 3BE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Sharon Mohan",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Noise Solution",
+          "address": {
+            "streetAddress": "IP33 3EE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Damien Ribbans",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-ecfc0234-b9f7-41d8-b56f-c93beeedcdfa-lgss001-dn380759-60600651",
+        "title": "Cambridgeshire County Council Children&#039;s External Placements Dynamic Purchasing System (DPS)",
+        "description": "Please note  - This advert is linked to the following previously posted advert, and has only been created to detail the new deadline.    https://www.contractsfinder.service.gov.uk/Notice/9cc64e2e-c8cb-4506-9e06-c5c23d624f4d\r\nCambridgeshire County Council (CCC) (The &quot;Authority&quot;) wishes to invite Tenders for the supply of services in respect of children&#039;s external placements. The services include: \r\n&bull; Lot 1: Provision of Independent Fostering Agencies (IFA) \r\n&bull; Lot 2: Provision of Residential Children&#039;s homes\r\n&bull; Lot 3: Provision of Independent Schools and Education providers (ISEP) \r\n&bull; Lot 4: Provision of Out of School Tuition (OoST)\r\n These services will be available to children and young people aged 0-18 (up to 19 for children and adults with Special educational needs and disability - SEND) in Cambridgeshire, neighbouring authorities and where directed by specific care plans, nationally. The successful Providers will be responsible for providing this service and liaising closely with the Contract Manager identified by the Authority.\r\n The tender is led by Cambridgeshire County Council, however Cambridgeshire County Council and Peterborough City Council (PCC) have made strategic decision to combine roles and departments to manage services across both local authorities. Peterborough will have access to the DPS in their own right.\r\n The DPS is open for an initial term of five (5) years commencing on 1st April 2019 and ending on 31st March 2024 with the options to extend for an initial period of two (2) years, then after further review, for another two-year-period to a final one (1) year extension (5+2+2+1), up to a maximum of ten (10) years from the date of the original contract date.\r\n The anticipated spend across PCC and CCC for the duration of the DPS is &pound;470,184,791.00. The spend is across the two local authorities for all four lots as listed above, however it is the local authorities&#039; intention to reduce this spend through application of the new DPS, improving outcomes for individual children and the use of the mini competitions within the DPS over its lifetime.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 470184791,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-02-06T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 11,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Oracle Care Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Heathcotes"
+          },
+          {
+            "id": "3",
+            "name": "The Chartwell Group of Homes"
+          },
+          {
+            "id": "4",
+            "name": "SILVER BIRCH CARE"
+          },
+          {
+            "id": "5",
+            "name": "Salutem LD BidCo IV Limited, trading as Ambito Care and Educatio"
+          },
+          {
+            "id": "6",
+            "name": "Park House School"
+          },
+          {
+            "id": "7",
+            "name": "Fresh Start in Education Ltd"
+          },
+          {
+            "id": "8",
+            "name": "1st Staff Limited"
+          },
+          {
+            "id": "9",
+            "name": "Kip McGrath Education Centres Peterborough North"
+          },
+          {
+            "id": "10",
+            "name": "Sugarman Education"
+          },
+          {
+            "id": "11",
+            "name": "Noise Solution"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "8be82a81ee4c01f589f64780c6de566d",
+        "name": "Cambridgeshire County Council"
+      },
+      "awards": [
+        {
+          "id": "411fa3e2-bb0c-4b19-b45a-c82affaf3221",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-03-21T00:00:00Z",
+          "value": {
+            "amount": 470184791,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Oracle Care Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Heathcotes"
+            },
+            {
+              "id": "3",
+              "name": "The Chartwell Group of Homes"
+            },
+            {
+              "id": "4",
+              "name": "SILVER BIRCH CARE"
+            },
+            {
+              "id": "5",
+              "name": "Salutem LD BidCo IV Limited, trading as Ambito Care and Educatio"
+            },
+            {
+              "id": "6",
+              "name": "Park House School"
+            },
+            {
+              "id": "7",
+              "name": "Fresh Start in Education Ltd"
+            },
+            {
+              "id": "8",
+              "name": "1st Staff Limited"
+            },
+            {
+              "id": "9",
+              "name": "Kip McGrath Education Centres Peterborough North"
+            },
+            {
+              "id": "10",
+              "name": "Sugarman Education"
+            },
+            {
+              "id": "11",
+              "name": "Noise Solution"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-04-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

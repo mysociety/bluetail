@@ -1,0 +1,372 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/b1bc4582-6223-46dd-b2c6-3e295362b601.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-27T15:02:09Z",
+  "publisher": {
+    "name": "Crown Commercial Service",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-25566a57-c42c-46fb-a6b0-68dd456039bc",
+      "id": "ocds-b5fd17-25566a57-c42c-46fb-a6b0-68dd456039bc-360056-ventilator-challenge:-provision-of-rapid-manufacture-ventilator-systems-(rmvs)",
+      "date": "2019-12-19T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "54afd4679fefbf21ed53a0aae24dae33",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Crown Commercial Service",
+          "address": {
+            "streetAddress": "9th Floor, The Capital Building, Old Hall Street ",
+            "locality": "Liverpool",
+            "region": null,
+            "postalCode": "L3 9PP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Dan Webster",
+            "email": "cco@cabinetoffice.gov.uk",
+            "telephone": "+44 08009981098",
+            "faxNumber": null,
+            "uri": "https://www.gov.uk/ccs"
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03304950",
+            "scheme": "GB-COH",
+            "legalName": "TTP PLC"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TTP PLC",
+          "address": {
+            "streetAddress": "Cambridge Road Melbourn Science Park\nSG8 6EE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 6282526.67
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04330119",
+            "scheme": "GB-COH",
+            "legalName": "UNIPART LOGISTICS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "UNIPART LOGISTICS LIMITED",
+          "address": {
+            "streetAddress": "Unipart House,Garsington Road, Cowley\nOXFORD\nOxfordshire\nOX4 2PG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 715097
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00414220",
+            "scheme": "GB-COH",
+            "legalName": "PA CONSULTING SERVICES LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PA CONSULTING SERVICES LIMITED",
+          "address": {
+            "streetAddress": "10 Bressenden Place\nSW1E 5DN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 1500000
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03228364",
+            "scheme": "GB-COH",
+            "legalName": "PENLON LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PENLON LIMITED",
+          "address": {
+            "streetAddress": "Barton Lane\nOX14 3NB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 136000000
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07190611",
+            "scheme": "GB-COH",
+            "legalName": "BREAS MEDICAL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BREAS MEDICAL LIMITED",
+          "address": {
+            "streetAddress": "TIMOTHYS BRIDGE ROAD\nSTRATFORD-UPON-AVON\nWARWICKSHIRE\nCV37 9HW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 249439
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04753818",
+            "scheme": "GB-COH",
+            "legalName": "INSPIRATION HEALTHCARE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "INSPIRATION HEALTHCARE LIMITED",
+          "address": {
+            "streetAddress": "2 Satellite Business Village\nCRAWLEY\nWest Sussex\nRH10 9NE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 600000
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-25566a57-c42c-46fb-a6b0-68dd456039bc-ventilator-challenge:-provision-of-rapid-manufacture-ventilator-systems-(rmvs)",
+        "title": "Ventilator Challenge: Provision of Rapid Manufacture Ventilator Systems (RMVS)",
+        "description": "The &#039;Ventilator Challenge&#039; was created by the UK government and delivered across several government departments (Department of Health and Social Care, Cabinet Office and Ministry of Defence) as part of the drive to increase ventilator supply and support the UK National Health Service (NHS) in its response to the Coronavirus disease global pandemic (COVID-19).\r\nIn March, the Prime Minister called on manufacturers to help the UK to step up production of ventilators to support the UK&#039;s response to the virus and save lives. This included working on new or adapted ventilator designs, as well the Government&#039;s work to buy ventilators from abroad.\r\nThe &#039;Rapid Manufacture Ventilator Systems (RMVS) programme&#039; is a workstream within the Ventilator Challenge progressing novel and modified designs for ventilator devices, manufactured on a rapid basis to ensure sufficient capacity within the NHS.\r\nCabinet Office, who are running the RMVS programme on behalf of the UK government, engaged with a wide range of suppliers, including designers, manufacturers and component suppliers, to progress a number of ventilator models (by taking forward existing designs through licencing agreements and by developing new products based on existing products and based on new original designs) resulting in the manufacturer of ventilators to meet the identified need.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "33157000",
+              "description": "Gas-therapy and respiratory devices",
+              "uri": "http://cpv.data.ac.uk/code-33157000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 193051688,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Other - Award of a contract without prior publication of a call for competition in the Official Journal of the European Union in the cases listed below (please complete Annex D1)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-12T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "4",
+            "name": "TTP PLC"
+          },
+          {
+            "id": "5",
+            "name": "UNIPART LOGISTICS LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "PA CONSULTING SERVICES LIMITED"
+          },
+          {
+            "id": "9",
+            "name": "PENLON LIMITED"
+          },
+          {
+            "id": "10",
+            "name": "BREAS MEDICAL LIMITED"
+          },
+          {
+            "id": "12",
+            "name": "INSPIRATION HEALTHCARE LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-13T00:00:00Z",
+          "endDate": "2021-04-03T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "54afd4679fefbf21ed53a0aae24dae33",
+        "name": "Crown Commercial Service"
+      },
+      "awards": [
+        {
+          "id": "578099fe-1720-43f4-892f-ea5daf39feb2",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-13T00:00:00Z",
+          "value": {
+            "amount": 193051688,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "4",
+              "name": "TTP PLC"
+            },
+            {
+              "id": "5",
+              "name": "UNIPART LOGISTICS LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "PA CONSULTING SERVICES LIMITED"
+            },
+            {
+              "id": "9",
+              "name": "PENLON LIMITED"
+            },
+            {
+              "id": "10",
+              "name": "BREAS MEDICAL LIMITED"
+            },
+            {
+              "id": "12",
+              "name": "INSPIRATION HEALTHCARE LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-13T00:00:00Z",
+            "endDate": "2021-04-03T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

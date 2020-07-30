@@ -1,0 +1,235 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/2e186ce7-f6a9-4e3a-9f4d-0999b6ef0934.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-11T09:58:55Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-ecf901c1-da82-4a65-84dc-3e3cb6ec4c86",
+      "id": "ocds-b5fd17-ecf901c1-da82-4a65-84dc-3e3cb6ec4c86-342991-cwscc---028834---award",
+      "date": "2019-10-14T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "d46e2d01244aa9c028822fe1325f4b1a",
+          "roles": [
+            "buyer"
+          ],
+          "name": "SE Shared Services",
+          "address": {
+            "streetAddress": "West Street Chicester",
+            "locality": "West Sussex",
+            "region": null,
+            "postalCode": "PO19 1RQ",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Shara Benson (WSCC)",
+            "email": "shara.benson@westsussex.gov.uk",
+            "telephone": "03302225938",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1843413915",
+            "scheme": "GB-CQC",
+            "legalName": "FirstCol Services Limited"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "FirstCol Services Limited",
+          "address": {
+            "streetAddress": "Suite G1-3 International Business Centre, Spindle Way, Crawley, United Kingdom, United Kingdom, RH10 1TG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Milton Sakutukwa",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-996720132",
+            "scheme": "GB-CQC",
+            "legalName": "Independent Lives (Disability)"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Independent Lives (Disability)",
+          "address": {
+            "streetAddress": "Southfield House, 11 Liverpool Gardens, Worthing, West Sussex, United Kingdom, BN11 1RY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sam Pegg",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-ecf901c1-da82-4a65-84dc-3e3cb6ec4c86-cwscc---028834---award",
+        "title": "WSCC Hospital Discharge Care Service - AWARD",
+        "description": "A Contract for the provision of a Hospital Discharge Care Service is being tendered by West Sussex County Council. Full details of the services can be found in Document 02 the Service Specification.\r\n      \r\n      The Council has scheduled a Bidders&#039; Briefing session as detailed below. \r\n      \r\n      All Bidders are recommended to attend; however, attendance is optional. The presentation and any questions and responses provided on the day will be uploaded to the e-Sourcing portal once the session is complete.\r\n      \r\n      BIDDER&#039;S BRIEFING\r\n      Date: Wednesday 6th November 2019\r\n      Time: Please note that the event will start promptly at 2pm\r\n      Location: Committee Room 3, County Hall.\r\n      Bidders are asked to report to Main Reception, County Hall, West Street, Chichester, PO19 1RG where they will be met by a member of the team.\r\n      Please note there is no on-site parking available. Local parking information can be found at https://www.chichester.gov.uk/parking\r\n      Content: \r\n      o Overview of the requirements\r\n      o Explanation of the process\r\n      o Q &amp; A\r\n      o Using the WSCC e-Sourcing Portal\r\n      RSVP: Please send a message on the e-Sourcing Portal by Tuesday 5th November 2019 and advise who from your organisation will be attending. \r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85100000",
+              "description": "Health services",
+              "uri": "http://cpv.data.ac.uk/code-85100000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85110000",
+              "description": "Hospital and related services",
+              "uri": "http://cpv.data.ac.uk/code-85110000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85300000",
+              "description": "Social work and related services",
+              "uri": "http://cpv.data.ac.uk/code-85300000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 6500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 7500000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-09T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "FirstCol Services Limited"
+          },
+          {
+            "id": "2",
+            "name": "Independent Lives (Disability)"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-06T00:00:00Z",
+          "endDate": "2023-04-02T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "d46e2d01244aa9c028822fe1325f4b1a",
+        "name": "SE Shared Services"
+      },
+      "awards": [
+        {
+          "id": "578e41f3-eb91-4511-8829-b6dcd8822707",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-07T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "FirstCol Services Limited"
+            },
+            {
+              "id": "2",
+              "name": "Independent Lives (Disability)"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-06T00:00:00Z",
+            "endDate": "2023-04-02T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7a186baf-b763-4cd4-9403-f35d8cf70a73.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-21T13:56:52Z",
+  "publisher": {
+    "name": "West Suffolk Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-6a1a5224-f2ec-4b42-ae64-4148374ad38e",
+      "id": "ocds-b5fd17-6a1a5224-f2ec-4b42-ae64-4148374ad38e-360208-wsc-2898-2020---award",
+      "date": "2020-04-20T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "ebc20fc3abfd73e41d8e2c0d873dcc64",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Suffolk Sourcing",
+          "address": {
+            "streetAddress": "Western Way Bury St Edmunds",
+            "locality": "Suffolk",
+            "region": null,
+            "postalCode": "IP33 3YU",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Zia Quader",
+            "email": "zia.quader@westsuffolk.gov.uk",
+            "telephone": "+44 1284757310",
+            "faxNumber": null,
+            "uri": "https://www.westsuffolk.gov.uk/Council/single_council/index.cfm"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Greenscape Energy Ltd",
+          "address": {
+            "streetAddress": "544 Woodbridge Road, Ipswich, Suffolk, United Kingdom, IP4 4PN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Josh Young",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 36620
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Roofsoleil Ltd",
+          "address": {
+            "streetAddress": "27 Sleaford Green, Norwich, Norfolk, United Kingdom, NR3 3JR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Steve Taylor",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 146300
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-6a1a5224-f2ec-4b42-ae64-4148374ad38e-wsc/2898/2020---award",
+        "title": "INVITATION TO TENDER - for the Provision of a Solar PV installation for West Suffolk Council- 3 Lots - AWARD",
+        "description": "West Suffolk Council is seeking quotations for the provision of  Solar PV installation for West Suffolk Council- 3 Lots\r\n      \r\n      Further details can be found in the &#039;My Tenders&#039; area of this website, by selecting the &#039;View Details&#039; button for this project.\r\n      \r\n      The deadline for quotation submissions is 1500 hours on 08 May 2020. Please note late returns will NOT be permitted.\r\n      \r\n      The deadline for clarification questions is 1700 hours on 06 May 2020, which must be generated via the correspondence option on the website",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "09000000",
+              "description": "Petroleum products, fuel, electricity and other sources of energy",
+              "uri": "http://cpv.data.ac.uk/code-09000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 200000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 220000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "limited",
+        "procurementMethodDetails": "Competitive quotation (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-05-18T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Greenscape Energy Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Roofsoleil Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-21T00:00:00Z",
+          "endDate": "2020-06-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "ebc20fc3abfd73e41d8e2c0d873dcc64",
+        "name": "Suffolk Sourcing"
+      },
+      "awards": [
+        {
+          "id": "b3f062fa-b8b2-4c72-967e-59b30f27279b",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-21T00:00:00Z",
+          "value": {
+            "amount": 182920,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Greenscape Energy Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Roofsoleil Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-21T00:00:00Z",
+            "endDate": "2020-06-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

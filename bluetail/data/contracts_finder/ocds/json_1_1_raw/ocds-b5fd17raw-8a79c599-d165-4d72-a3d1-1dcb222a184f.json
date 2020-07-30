@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e3c97948-ef9a-45fe-8207-97702645d4fa.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T15:18:42Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-8a79c599-d165-4d72-a3d1-1dcb222a184f",
+      "id": "ocds-b5fd17-8a79c599-d165-4d72-a3d1-1dcb222a184f-359608-sun001-dn449503-69207879",
+      "date": "2019-11-25T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "c1e74167e2ee2db140e1216b61b7e334",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Sunderland City Council",
+          "address": {
+            "streetAddress": "Civic Centre Burdon Road",
+            "locality": "Sunderland",
+            "region": null,
+            "postalCode": "SR2 7DN",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Chris Cummings",
+            "email": "chris.cummings@sunderland.gov.uk",
+            "telephone": "+44 1915612377",
+            "faxNumber": null,
+            "uri": "http://www.sunderland.gov.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Citizens Advice Sunderland",
+          "address": {
+            "streetAddress": "13-14 Arndale House, Victoria Road, Washington, Tyne and Wear, NE37 2SW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "ShARP",
+          "address": {
+            "streetAddress": "17 Beatrice Terrace, Houghton le Spring, Tyne and Wear, DH4 4QW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-8a79c599-d165-4d72-a3d1-1dcb222a184f-sun001-dn449503-69207879",
+        "title": "First Tier Welfare Rights Advice Service",
+        "description": "Service under social and specific services in accordance with Directive 2014/24/EU of the European Parliament and of the Council Article 74 under Schedule 3 - Social and other specific services (Health, social and related services), and is subsequently exempt from the rules on the procedures for procurement by contracting authorities with respect to public contracts and design contests\r\n\r\nThe Locality Based First Tier Welfare Rights Advice Service provides first tier welfare rights information, advice and guidance in each of the 5 Sunderland localities on Welfare Benefits, Debt &amp; Money Advice, Housing Rights, Employment Rights, the challenge of Council Tax &amp; Housing Benefit decisions, including up to Unified Appeal Tribunals and general housing need advice, that supports the prevention of homelessness. The framework is split into lots each covering a locality within the City with a sole provider placed on each lot. The call off contract for the provision of the main locality advice provision will be awarded to the appointed provider on each lot simultaneously with the framework award.\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85312310",
+              "description": "Guidance services",
+              "uri": "http://cpv.data.ac.uk/code-85312310.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 600000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 600000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-17T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Citizens Advice Sunderland"
+          },
+          {
+            "id": "2",
+            "name": "ShARP"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-01T00:00:00Z",
+          "endDate": "2023-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "c1e74167e2ee2db140e1216b61b7e334",
+        "name": "Sunderland City Council"
+      },
+      "awards": [
+        {
+          "id": "cc88474b-b0b9-49d4-96dd-e67270c18fe5",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-24T00:00:00Z",
+          "value": {
+            "amount": 860000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Citizens Advice Sunderland"
+            },
+            {
+              "id": "2",
+              "name": "ShARP"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-08-01T00:00:00Z",
+            "endDate": "2024-07-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

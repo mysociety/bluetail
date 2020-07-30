@@ -1,0 +1,253 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e08faf8a-fa24-4739-9414-5d1b4e37ea3b.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-27T13:08:50Z",
+  "publisher": {
+    "name": ".East Riding Of Yorkshire Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-b3bb5dab-7bd5-4ae2-a0be-55e2a45164a0",
+      "id": "ocds-b5fd17-b3bb5dab-7bd5-4ae2-a0be-55e2a45164a0-360897-dr178518922",
+      "date": "2019-11-24T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "811bddbd0f01460ed5f98ca7cfd0031a",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/AB9Ap52c",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": ".East Riding Of Yorkshire Council",
+          "address": {
+            "streetAddress": "Cross Street ",
+            "locality": "BEVERLEY",
+            "region": null,
+            "postalCode": "HU179BA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "John Hunter",
+            "email": "john.hunter@eastriding.gov.uk",
+            "telephone": "01482 396495",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "KS Associates",
+          "address": {
+            "streetAddress": "99D Brixton Road, London, SW9 6EE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 12000
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06598971",
+            "scheme": "GB-COH",
+            "legalName": "ENHANCE EHC LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ENHANCE EHC LTD",
+          "address": {
+            "streetAddress": "Black Notley\nBRAINTREE\nEssex\nCM77 8JT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Natasha Hassan Baz",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 11000
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "EHC 123",
+          "address": {
+            "streetAddress": "2 Bretton Hall Office, Chester Road, Bretton, Chester, England, CH4 0DF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 3510
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b3bb5dab-7bd5-4ae2-a0be-55e2a45164a0-dr178518922",
+        "title": "Plan Writing years 11, 12, 13, 14",
+        "description": "The SEN Team identified an urgent need to complete Education, Health, and Care Plans (EHCP&#039;s) amendments following the annual review process.  This requirement is in line with the statutory deadline of 31/03/20 for pupils&#039; years 11, 12, 13, 14 who will transfer to further education in the 2020/21 academic year.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "80000000",
+              "description": "Education and training services",
+              "uri": "http://cpv.data.ac.uk/code-80000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 28477,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "limited",
+        "procurementMethodDetails": "Competitive quotation (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "KS Associates"
+          },
+          {
+            "id": "2",
+            "name": "ENHANCE EHC LTD"
+          },
+          {
+            "id": "3",
+            "name": "EHC 123"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-01T00:00:00Z",
+          "endDate": "2020-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "811bddbd0f01460ed5f98ca7cfd0031a",
+        "name": ".East Riding Of Yorkshire Council"
+      },
+      "awards": [
+        {
+          "id": "c16ce66c-2425-400a-9b3b-7cafcdbdeebc",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-20T00:00:00Z",
+          "value": {
+            "amount": 28477,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "KS Associates"
+            },
+            {
+              "id": "2",
+              "name": "ENHANCE EHC LTD"
+            },
+            {
+              "id": "3",
+              "name": "EHC 123"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-01T00:00:00Z",
+            "endDate": "2020-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

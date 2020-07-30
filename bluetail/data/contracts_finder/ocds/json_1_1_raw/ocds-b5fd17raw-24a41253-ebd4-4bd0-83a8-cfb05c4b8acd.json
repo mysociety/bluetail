@@ -1,0 +1,367 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d272787e-c519-469a-8247-5a901399d82b.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-14T14:33:04Z",
+  "publisher": {
+    "name": "Crown Commercial Service",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-24a41253-ebd4-4bd0-83a8-cfb05c4b8acd",
+      "id": "ocds-b5fd17-24a41253-ebd4-4bd0-83a8-cfb05c4b8acd-358681-478",
+      "date": "2020-01-23T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "99fe750764b485b8fd0469be0ac6b405",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Crown Commercial Service",
+          "address": {
+            "streetAddress": "9th Floor, The Capital, Old Hall Street ",
+            "locality": "Liverpool",
+            "region": null,
+            "postalCode": "L39PP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "The minister for the cabinet office acting through Crown Commercial Service",
+            "email": "Supplier@crowncommercial.gov.uk",
+            "telephone": "+443450103503",
+            "faxNumber": null,
+            "uri": "https://www.gov.uk/government/organisations/crown-commercial-service"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "874637",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Cision Group Ltd",
+          "address": {
+            "streetAddress": "5 Churchill Place, London, E14 5HU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "2587564",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Media Measurement",
+          "address": {
+            "streetAddress": "2 Water End Barns, Eversholt, Milton Keynes, Bedfordshire, MK17 9EA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "3247942",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Precise Media Monitoring TA Kantar Media UK Ltd",
+          "address": {
+            "streetAddress": "1 Broadgate, London, EC2M 2QS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "SC177530",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Press Data",
+          "address": {
+            "streetAddress": "9-10 St Andrew Square, Edinburgh, EH2 2AF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "2746621",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Relx (UK) Ltd TA LexisNexis",
+          "address": {
+            "streetAddress": "30 Farringdon Street, London, EC4A 4HH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-24a41253-ebd4-4bd0-83a8-cfb05c4b8acd-478",
+        "title": "RM6134 Media Monitoring and Associated Services",
+        "description": "Crown Commercial Service (CCS), as the authority, intends to put in place an agreement for the provision of media monitoring and associated services to be utilised by central government departments, all other UK public sector bodies, including local authorities, health, police, fire and rescue, education and devolved administrations. It is intended that this commercial agreement will be the recommended vehicle for all media\r\nmonitoring and associated services.\r\nThis agreement will be for the monitoring and analysis of media coverage to enable the evaluation of communications campaigns. Associated additional services will also be included.\r\nThis is the replacement commercial agreement for RM3708.\r\nThis framework will provide buyers with services for the monitoring of specified keywords and topics across multiple media types (including press, online, social and/or broadcast media), along with human-driven evaluation and analysis of the monitored media, as specified by individual buyers.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "22200000",
+              "description": "Newspapers, journals, periodicals and magazines",
+              "uri": "http://cpv.data.ac.uk/code-22200000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72310000",
+              "description": "Data-processing services",
+              "uri": "http://cpv.data.ac.uk/code-72310000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79300000",
+              "description": "Market and economic research; polling and statistics",
+              "uri": "http://cpv.data.ac.uk/code-79300000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "92400000",
+              "description": "News-agency services",
+              "uri": "http://cpv.data.ac.uk/code-92400000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 10000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-27T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Cision Group Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Media Measurement"
+          },
+          {
+            "id": "3",
+            "name": "Precise Media Monitoring TA Kantar Media UK Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Press Data"
+          },
+          {
+            "id": "5",
+            "name": "Relx (UK) Ltd TA LexisNexis"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2022-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "99fe750764b485b8fd0469be0ac6b405",
+        "name": "Crown Commercial Service"
+      },
+      "awards": [
+        {
+          "id": "397bf137-9b2d-48c1-b81c-7d8c3a7c6ff6",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-06-01T00:00:00Z",
+          "value": {
+            "amount": 10000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Cision Group Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Media Measurement"
+            },
+            {
+              "id": "3",
+              "name": "Precise Media Monitoring TA Kantar Media UK Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Press Data"
+            },
+            {
+              "id": "5",
+              "name": "Relx (UK) Ltd TA LexisNexis"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2022-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/573b4f23-3271-40bd-94af-5dfefeb330a6.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-15T09:20:03Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-afa9333d-69a7-4548-ae0f-84d5c9c81a40",
+      "id": "ocds-b5fd17-afa9333d-69a7-4548-ae0f-84d5c9c81a40-359150-bip476789701",
+      "date": "2019-12-12T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "10b889c97c8d391116d3f6eafe07f607",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Trinity House",
+          "address": {
+            "streetAddress": "TRINITY HOUSE ",
+            "locality": "LONDON",
+            "region": null,
+            "postalCode": "EC3N 4DH",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "etender@trinityhouse.co.uk",
+            "telephone": "+441255245005",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Beco Energy Ltd",
+          "address": {
+            "streetAddress": "The Sustainability Hub\n        Exeter\n        EX6 7BE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Solar Capture Technologies Ltd",
+          "address": {
+            "streetAddress": "PV Technology Centre\n        Albert Street\n        Blyth\n        NE241LZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "GB-Sol Ltd",
+          "address": {
+            "streetAddress": "Renewable Energy Works\n        Building B2, Taffs Fall Road\n        Treforest Industrial Estate\n        Pontypridd\n        CF37 5YB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-afa9333d-69a7-4548-ae0f-84d5c9c81a40-bip476789701",
+        "title": "T0415 - Framework Agreement for the supply of Photovoltaic Modules (Solar Panels)",
+        "description": "Trinity House are approaching the market with a multi-lot tender for the supply of photovoltaic modules (solar panels).\r\n      The aim is to establish two or more Framework Agreements, for an initial two year period with an option to extend for a further two years, that primarily for use by Trinity House, but also provide the option for the Northern Lighthouse Board and the Commissioners of Irish Lights to procure solar modules from the successful tenderers against the terms of this agreement. Should a minimum of two not be achievable as a result of this tender process, Trinity House reserve the right to amend this figure by a tolerance of one.\r\n      There are 8 available lots and tenderers can bid for any applicable lot/s.\r\n      The access code for this requirement is Q77P6PUD63 and the tenderbox will close at 12:00 on Friday 9th August 2019.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "09331200",
+              "description": "Solar photovoltaic modules",
+              "uri": "http://cpv.data.ac.uk/code-09331200.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 650000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-16T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Beco Energy Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Solar Capture Technologies Ltd"
+          },
+          {
+            "id": "3",
+            "name": "GB-Sol Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-13T00:00:00Z",
+          "endDate": "2022-04-01T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "10b889c97c8d391116d3f6eafe07f607",
+        "name": "Trinity House"
+      },
+      "awards": [
+        {
+          "id": "45d2b26a-97fd-418a-ad0e-6406e6846cbb",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-16T00:00:00Z",
+          "value": {
+            "amount": 650000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Beco Energy Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Solar Capture Technologies Ltd"
+            },
+            {
+              "id": "3",
+              "name": "GB-Sol Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-13T00:00:00Z",
+            "endDate": "2022-04-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

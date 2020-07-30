@@ -1,0 +1,254 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7982ff0a-6e85-491f-9f62-071abe5298d6.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-26T11:56:14Z",
+  "publisher": {
+    "name": "Association Of North East Councils",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-2c04fd94-41c1-4679-aa1a-95d7e84acedb",
+      "id": "ocds-b5fd17-2c04fd94-41c1-4679-aa1a-95d7e84acedb-360690-nepo201",
+      "date": "2020-02-05T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "5cfaaa4201fa8667da0af349d7d27ee6",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/cy4R326D",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Association Of North East Councils",
+          "address": {
+            "streetAddress": "The Guildhall, Sandhill ",
+            "locality": "Newcastle Upon Tyne",
+            "region": null,
+            "postalCode": "NE13AF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Michelle Armstrong",
+            "email": "michelle.armstrong@nepo.org",
+            "telephone": "0191 638 0040",
+            "faxNumber": null,
+            "uri": "www.nepo.org"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "5133177",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Direct Tyre Management",
+          "address": {
+            "streetAddress": "Oasis Business Park\r\nParkside Place\r\nSkelmersdale\r\nLancashire\r\nWN8 9RD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "SC062229",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MCCONECHY&#039;S TYRE SERVICE LIMITED",
+          "address": {
+            "streetAddress": "13 Miller Road\nAYR\nAyrshire\nKA7 2AY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03999449",
+            "scheme": "GB-COH",
+            "legalName": "TRUCTYRE FLEET MANAGEMENT LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TRUCTYRE FLEET MANAGEMENT LIMITED",
+          "address": {
+            "streetAddress": "Chandler&#039;s Ford\nEASTLEIGH\nHampshire\nSO53 3LU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-2c04fd94-41c1-4679-aa1a-95d7e84acedb-nepo201",
+        "title": "NEPO201 Tyres &amp; Associated Services",
+        "description": "The Association of North East Councils trading as NEPO have established a Framework Agreement for the provision of tyres and associated services. The Framework Agreement will provide for the national supply and fitting of a range of tyre requirements from cars and light commercial vehicles, heavy goods vehicles and specialist tyres for mobile construction and agricultural equipment. NEPO201 is to be a multiple supplier solution operated on a none-ranked basis which will replace the existing Framework Agreement for Tyres and Associated Services expiring 31/05/2020.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "34350000",
+              "description": "Tyres for heavy/light-duty vehicles",
+              "uri": "http://cpv.data.ac.uk/code-34350000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 2000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-12T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Direct Tyre Management"
+          },
+          {
+            "id": "2",
+            "name": "MCCONECHY&#039;S TYRE SERVICE LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "TRUCTYRE FLEET MANAGEMENT LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2022-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "5cfaaa4201fa8667da0af349d7d27ee6",
+        "name": "Association Of North East Councils"
+      },
+      "awards": [
+        {
+          "id": "c7a69128-ee7a-4713-b20e-fe3c18b5a9bd",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-18T00:00:00Z",
+          "value": {
+            "amount": 2000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Direct Tyre Management"
+            },
+            {
+              "id": "2",
+              "name": "MCCONECHY&#039;S TYRE SERVICE LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "TRUCTYRE FLEET MANAGEMENT LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2022-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

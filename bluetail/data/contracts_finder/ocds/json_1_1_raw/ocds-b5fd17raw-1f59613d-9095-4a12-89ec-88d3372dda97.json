@@ -1,0 +1,253 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c0d98969-6074-449d-83a5-c30e5444e357.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-26T08:49:28Z",
+  "publisher": {
+    "name": "UNIVERSITY OF SHEFFIELD",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-1f59613d-9095-4a12-89ec-88d3372dda97",
+      "id": "ocds-b5fd17-1f59613d-9095-4a12-89ec-88d3372dda97-360634-2511-mh",
+      "date": "2020-03-11T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "d9043ea55a091d95f93e2efe1e5983b3",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/JYFy743W",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "UNIVERSITY OF SHEFFIELD",
+          "address": {
+            "streetAddress": "Western Bank ",
+            "locality": "SHEFFIELD",
+            "region": null,
+            "postalCode": "S102TN",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Mark Hardy",
+            "email": "m.hardy@sheffield.ac.uk",
+            "telephone": "0114 222 4979",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "07003896",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "RAZOR LTD",
+          "address": {
+            "streetAddress": "The Workstation,15 Paternoster Row\nSHEFFIELD\nSouth Yorkshire\nS1 2BX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "03681297",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MMT Limited",
+          "address": {
+            "streetAddress": "1a Uppingham Gate\r\nAyston Road\r\nUppingham\r\nOakham\r\nRutland\r\nLE15 9NY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02777575",
+            "scheme": "GB-COH",
+            "legalName": "BJSS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BJSS LIMITED",
+          "address": {
+            "streetAddress": "Coronet House,Queen Street\nLEEDS\nWest Yorkshire\nLS1 2TW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Susheel Dodeja",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-1f59613d-9095-4a12-89ec-88d3372dda97-2511/mh",
+        "title": "2511/MH Software Development as a Service (SDaaS) Framework Agreement",
+        "description": "The University of Sheffield is out to tender on behalf of the Advanced Manufacturing Research Centre for the creation of a framework agreement of Software Development as a Service (SDaaS) providers.\r\n\r\nThe full technical specification can be found in the tender documentation which will be sent to you once you have expressed your interest. \r\n\r\nTender Process and Documentation:  This is an Open E.U. exercise. The ITT can be downloaded by registering and expressing your interest on the University`s e-tendering system https://in-tendhost.co.uk/Sheffield.\r\nIf you have any questions or comments in relation to this tender they must be submitted via the In-tend System, this can be accessed at https://in-tendhost.co.uk/Sheffield\r\n\r\nCompleted tenders must be returned through the same e-tendering system.  Closing date for receipt of tenders: Wednesday 22nd April  2020 at 12 noon (UK time).",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72262000",
+              "description": "Software development services",
+              "uri": "http://cpv.data.ac.uk/code-72262000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-22T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "RAZOR LTD"
+          },
+          {
+            "id": "2",
+            "name": "MMT Limited"
+          },
+          {
+            "id": "3",
+            "name": "BJSS LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-18T00:00:00Z",
+          "endDate": "2024-05-17T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "d9043ea55a091d95f93e2efe1e5983b3",
+        "name": "UNIVERSITY OF SHEFFIELD"
+      },
+      "awards": [
+        {
+          "id": "4319c280-c74d-4444-ba9b-5f34813d98bb",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-20T00:00:00Z",
+          "value": {
+            "amount": 1000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "RAZOR LTD"
+            },
+            {
+              "id": "2",
+              "name": "MMT Limited"
+            },
+            {
+              "id": "3",
+              "name": "BJSS LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-21T00:00:00Z",
+            "endDate": "2024-05-20T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

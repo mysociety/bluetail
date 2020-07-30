@@ -1,0 +1,605 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4d26ba65-d226-4b40-9297-041f8360b966.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-21T16:45:20Z",
+  "publisher": {
+    "name": "EASTERN PROCUREMENT LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-b76e1c97-8e65-4312-94ac-ef72eae7d7d2",
+      "id": "ocds-b5fd17-b76e1c97-8e65-4312-94ac-ef72eae7d7d2-359578-epheat19",
+      "date": "2020-01-10T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "f199d01c3ea0ce7c9c0bd13bf24c6f44",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/5BCA5yty",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "EASTERN PROCUREMENT LIMITED",
+          "address": {
+            "streetAddress": "THE OLD GRANARY GRANGE FARM ",
+            "locality": "NORWICH",
+            "region": null,
+            "postalCode": "NR161ET",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Leigh-Anne Franklin",
+            "email": "Leigh-anne@eastern-procurement.co.uk",
+            "telephone": "01508488244",
+            "faxNumber": null,
+            "uri": "https://in-tendhost.co.uk/epl/aspx/Home"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "03193203",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Aaron Services",
+          "address": {
+            "streetAddress": "Unit 1 Yardley Business Park, Luckyn Lane, Basildon, Essex, England, SS14 3BZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01026007",
+            "scheme": "GB-COH",
+            "legalName": "BRITISH GAS SOCIAL HOUSING LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BRITISH GAS SOCIAL HOUSING LIMITED",
+          "address": {
+            "streetAddress": "Manor Park Avenue, Manor Park,\nRUNCORN\nCheshire\nWA7 1TN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Amy Holbrook",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02842232",
+            "scheme": "GB-COH",
+            "legalName": "DODD GROUP (EASTERN) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DODD GROUP (EASTERN) LIMITED",
+          "address": {
+            "streetAddress": "20 Quarry Park Close\nNORTHAMPTON\nNorthamptonshire\nNN3 6QB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "04158628",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Gasway Services Limited",
+          "address": {
+            "streetAddress": "31 King Street, Norwich, Norfolk, England, NR1 1PD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01830283",
+            "scheme": "GB-COH",
+            "legalName": "PURDY CONTRACTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PURDY CONTRACTS LIMITED",
+          "address": {
+            "streetAddress": "Brooklyn Lodge, Mott Street, Chingford\nLONDON\nE4 7RW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Hilary Clark",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01076034",
+            "scheme": "GB-COH",
+            "legalName": "SWALE HEATING LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SWALE HEATING LIMITED",
+          "address": {
+            "streetAddress": "Heard Way\nME10 3SA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "03908728",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "T.S.G Building Services PLC",
+          "address": {
+            "streetAddress": "TSG House Cranborne Industrial Estate, Cranborne Road, Potters Bar, Hertfordshire, EN6 3JN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b76e1c97-8e65-4312-94ac-ef72eae7d7d2-epheat19",
+        "title": "Heating Installation, Servicing and Maintenance Framework",
+        "description": "Heating Servicing, Maintenance and Installations including but not limited to; a. Servicing, of domestic and commercial heating systems of all fuel types; b. Responsive repair and maintenance to domestic and commercial heating systems of all fuel types; systems and appliances including out of hours; c. Responsive and planned replacement of domestic and commercial heating systems (including the entire system, plant room, individual dwellings and boosted cold water pumps) including but not limited to the following fuel types: Gas, Oil, Solid Fuel, Biomass, Heat Pumps, Electric Wet and Dry Systems, Renewable Technologies, District Heating and Heat Meters",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "09323000",
+              "description": "District heating",
+              "uri": "http://cpv.data.ac.uk/code-09323000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "09331000",
+              "description": "Solar panels",
+              "uri": "http://cpv.data.ac.uk/code-09331000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "09332000",
+              "description": "Solar installation",
+              "uri": "http://cpv.data.ac.uk/code-09332000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "38431100",
+              "description": "Gas-detection apparatus",
+              "uri": "http://cpv.data.ac.uk/code-38431100.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39715000",
+              "description": "Water heaters and heating for buildings; plumbing equipment",
+              "uri": "http://cpv.data.ac.uk/code-39715000.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39721000",
+              "description": "Domestic cooking or heating equipment",
+              "uri": "http://cpv.data.ac.uk/code-39721000.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39722000",
+              "description": "Parts of stoves, cookers, plate warmers and domestic appliances",
+              "uri": "http://cpv.data.ac.uk/code-39722000.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "42160000",
+              "description": "Boiler installations",
+              "uri": "http://cpv.data.ac.uk/code-42160000.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "42510000",
+              "description": "Heat-exchange units, air-conditioning and refrigerating equipment, and filtering machinery",
+              "uri": "http://cpv.data.ac.uk/code-42510000.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44163121",
+              "description": "Heating pipes",
+              "uri": "http://cpv.data.ac.uk/code-44163121.html"
+            }
+          },
+          {
+            "id": 11,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44600000",
+              "description": "Tanks, reservoirs and containers; central-heating radiators and boilers",
+              "uri": "http://cpv.data.ac.uk/code-44600000.html"
+            }
+          },
+          {
+            "id": 12,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 13,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50411200",
+              "description": "Repair and maintenance services of gas meters",
+              "uri": "http://cpv.data.ac.uk/code-50411200.html"
+            }
+          },
+          {
+            "id": 14,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50413100",
+              "description": "Repair and maintenance services of gas-detection equipment",
+              "uri": "http://cpv.data.ac.uk/code-50413100.html"
+            }
+          },
+          {
+            "id": 15,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50511200",
+              "description": "Repair and maintenance services of gas pumps",
+              "uri": "http://cpv.data.ac.uk/code-50511200.html"
+            }
+          },
+          {
+            "id": 16,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50531100",
+              "description": "Repair and maintenance services of boilers",
+              "uri": "http://cpv.data.ac.uk/code-50531100.html"
+            }
+          },
+          {
+            "id": 17,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50531200",
+              "description": "Gas appliance maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50531200.html"
+            }
+          },
+          {
+            "id": 18,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50700000",
+              "description": "Repair and maintenance services of building installations",
+              "uri": "http://cpv.data.ac.uk/code-50700000.html"
+            }
+          },
+          {
+            "id": 19,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "51100000",
+              "description": "Installation services of electrical and mechanical equipment",
+              "uri": "http://cpv.data.ac.uk/code-51100000.html"
+            }
+          },
+          {
+            "id": 20,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71321200",
+              "description": "Heating-system design services",
+              "uri": "http://cpv.data.ac.uk/code-71321200.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 58270000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-07T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 7,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Aaron Services"
+          },
+          {
+            "id": "2",
+            "name": "BRITISH GAS SOCIAL HOUSING LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "DODD GROUP (EASTERN) LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "Gasway Services Limited"
+          },
+          {
+            "id": "5",
+            "name": "PURDY CONTRACTS LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "SWALE HEATING LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "T.S.G Building Services PLC"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-01T00:00:00Z",
+          "endDate": "2024-04-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "f199d01c3ea0ce7c9c0bd13bf24c6f44",
+        "name": "EASTERN PROCUREMENT LIMITED"
+      },
+      "awards": [
+        {
+          "id": "f9bd4f8b-d753-4928-93b5-a2ab203ec29b",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-12T00:00:00Z",
+          "value": {
+            "amount": 58270000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Aaron Services"
+            },
+            {
+              "id": "2",
+              "name": "BRITISH GAS SOCIAL HOUSING LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "DODD GROUP (EASTERN) LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "Gasway Services Limited"
+            },
+            {
+              "id": "5",
+              "name": "PURDY CONTRACTS LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "SWALE HEATING LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "T.S.G Building Services PLC"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-15T00:00:00Z",
+            "endDate": "2024-05-14T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

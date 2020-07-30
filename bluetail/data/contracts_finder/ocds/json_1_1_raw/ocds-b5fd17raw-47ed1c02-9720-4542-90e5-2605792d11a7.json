@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/649ba135-c9cb-493e-a4b4-80eb306935a5.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-15T08:35:21Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-47ed1c02-9720-4542-90e5-2605792d11a7",
+      "id": "ocds-b5fd17-47ed1c02-9720-4542-90e5-2605792d11a7-359139-leicscc001-dn450972-13720078",
+      "date": "2019-11-11T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "0c225fde9a381f6bad20b4e4266041a3",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Leicestershire County Council",
+          "address": {
+            "streetAddress": "County Hall Leicester Road Glenfield",
+            "locality": "Leicester",
+            "region": null,
+            "postalCode": "LE3 8RA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Fiona Walker",
+            "email": "fiona.walker@leics.gov.uk",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "https://www.eastmidstenders.org/index.html"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Letterbox Distribution",
+          "address": {
+            "streetAddress": "EN4 8AS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Maddie Phillips",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "The Letterbox Consultancy Ltd.",
+          "address": {
+            "streetAddress": "EN8 9HU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Neal Dodd",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-47ed1c02-9720-4542-90e5-2605792d11a7-leicscc001-dn450972-13720078",
+        "title": "Distribution of Leicestershire Matters",
+        "description": "Tender bids are invited for the provision of distribution of Leicestershire Matters \r\n\r\nLeicestershire County Council is seeking to enter into a contractual arrangement with a suitable organisation for the distribution of its magazine-style journal &#039;Leicestershire Matters,&#039; which is to be delivered to all homes (280 000+ households) in Leicestershire. \r\n\r\nThe initial requirement is to distribute up to six issues over two years, with the potential to extend the contract for up to a further three deliveries.\r\n\r\nAll Documents relating to the opportunity can be located on our tendering portal - www.eastmidstenders.org. Questions/Enquiries/Submissions should all come via the portal and not direct to the contact.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79824000",
+              "description": "Printing and distribution services",
+              "uri": "http://cpv.data.ac.uk/code-79824000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 120000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-16T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Letterbox Distribution"
+          },
+          {
+            "id": "2",
+            "name": "The Letterbox Consultancy Ltd."
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-18T00:00:00Z",
+          "endDate": "2022-01-17T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "0c225fde9a381f6bad20b4e4266041a3",
+        "name": "Leicestershire County Council"
+      },
+      "awards": [
+        {
+          "id": "dfe90b71-0378-42ed-bcb9-e3788d896a3d",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-06T00:00:00Z",
+          "value": {
+            "amount": 129000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Letterbox Distribution"
+            },
+            {
+              "id": "2",
+              "name": "The Letterbox Consultancy Ltd."
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-02-07T00:00:00Z",
+            "endDate": "2022-02-06T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

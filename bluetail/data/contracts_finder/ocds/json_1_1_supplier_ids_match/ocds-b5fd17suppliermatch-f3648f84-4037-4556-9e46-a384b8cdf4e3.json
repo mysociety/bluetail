@@ -1,0 +1,366 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6f19cb46-4f66-4a02-a0cf-b17f65655b24.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-17T10:48:17Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-f3648f84-4037-4556-9e46-a384b8cdf4e3",
+      "id": "ocds-b5fd17-f3648f84-4037-4556-9e46-a384b8cdf4e3-350272-wolvcity001-dn441002-64908222",
+      "date": "2019-10-23T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "447099124d99990a48fe1a6533823972",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Wolverhampton City Council",
+          "address": {
+            "streetAddress": "Civic Centre St Peters Square",
+            "locality": "Wolverhampton",
+            "region": null,
+            "postalCode": "WV1 1RL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Alastair Jewson",
+            "email": "Alastair.jewson@wolverhampton.gov.uk",
+            "telephone": "+44 1902556556",
+            "faxNumber": null,
+            "uri": "http://www.wolverhampton.gov.uk"
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2244221725",
+            "scheme": "GB-CQC",
+            "legalName": "Aroma Care People Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Aroma Care People Ltd",
+          "address": {
+            "streetAddress": "CV1 3JQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Luxson Mbizi",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3209561032",
+            "scheme": "GB-CQC",
+            "legalName": "Caring Care Limited"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Caring Care Limited",
+          "address": {
+            "streetAddress": "WS42BX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Manjinder Joshi",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07838793",
+            "scheme": "GB-COH",
+            "legalName": "GRACE LIVE IN CARERS LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "GRACE LIVE IN CARERS LTD",
+          "address": {
+            "streetAddress": "M35 9BG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Alice Mhizha",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2306622038",
+            "scheme": "GB-CQC",
+            "legalName": "Monarch Care Services UK Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Monarch Care Services UK Ltd",
+          "address": {
+            "streetAddress": "B64 6JE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr U Kaushesh",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2598268613",
+            "scheme": "GB-CQC",
+            "legalName": "Healthcare 1st Choice Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Healthcare 1st Choice Ltd",
+          "address": {
+            "streetAddress": "WV16 4BB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs priscilla makopa",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "09595963",
+            "scheme": "GB-COH",
+            "legalName": "ULTICARE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ULTICARE LIMITED",
+          "address": {
+            "streetAddress": "WV4 6JX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Edmund Azu",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-f3648f84-4037-4556-9e46-a384b8cdf4e3-wolvcity001-dn441002-64908222",
+        "title": "CWC19112 - Home Care Wolverhampton",
+        "description": "The City of Wolverhampton Council is seeking to contract with a number of providers for the provision of new domiciliary care services for older people and adults with disabilities. The specification has three main service elements; domicilary care, rapid response, and home-based respite for carers. Providers are expected to be able to deliver all these elements, however, where this is not possible providers will still be able to join the framework on a limited basis. The Council will operate a flexible framework with three tiers of Provider, and a mix of area based &#039;Lead&#039; provider and city wide coverage. Inclusion on the framework will also provide occasional access to related special projects, pilots, and help Commissioners reduce &#039;spot&#039; purchases. The framework is dynamic and will periodically open to allow new providers to join, and for existing providers to amend their service offer. Providers will have the potential of moving between the three tiers. Minimum selection criteria will apply and this will include a CQC overall rating higher than &#039;Inadequate&#039;. Please refer to the tender documents for further information. The intention is to award this contract for a period of 3 years plus upto two further 3 year extensions, up to a total of 9 years (to May 2028). This tender is not a DPS or Dynamic Purchasing System opportunity, where the portal makes such reference, please note this is a Flexible Framework. Light Touch Regime: The subject matter of this procurement process relates to the delivery of services which are listed to in Chapter 3, Section 7 to the PCR 2015 regulations. As such the full regime set out in the regulations will not apply to the award of the framework contracts. Consequently, the procurement process adopted by the Commissioners has been developed in accordance with Regulation 76 of the regulations and in particular in accordance with the fundamental public procurement principles of transparency and equal treatment. For the avoidance of doubt this means that the Commissioners have not adopted an open procedure, framework or DPS (as defined in the regulations) for the undertaking of this procurement process.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85312000",
+              "description": "Social work services without accommodation",
+              "uri": "http://cpv.data.ac.uk/code-85312000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 101000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 101000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-27T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "6",
+            "name": "Aroma Care People Ltd"
+          },
+          {
+            "id": "9",
+            "name": "Caring Care Limited"
+          },
+          {
+            "id": "10",
+            "name": "GRACE LIVE IN CARERS LTD"
+          },
+          {
+            "id": "15",
+            "name": "Monarch Care Services UK Ltd"
+          },
+          {
+            "id": "19",
+            "name": "Healthcare 1st Choice Ltd"
+          },
+          {
+            "id": "29",
+            "name": "ULTICARE LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-16T00:00:00Z",
+          "endDate": "2028-05-15T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "447099124d99990a48fe1a6533823972",
+        "name": "Wolverhampton City Council"
+      },
+      "awards": [
+        {
+          "id": "6088e3c9-9332-4379-86ff-9a1e7fb88254",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-11T00:00:00Z",
+          "value": {
+            "amount": 101000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "6",
+              "name": "Aroma Care People Ltd"
+            },
+            {
+              "id": "9",
+              "name": "Caring Care Limited"
+            },
+            {
+              "id": "10",
+              "name": "GRACE LIVE IN CARERS LTD"
+            },
+            {
+              "id": "15",
+              "name": "Monarch Care Services UK Ltd"
+            },
+            {
+              "id": "19",
+              "name": "Healthcare 1st Choice Ltd"
+            },
+            {
+              "id": "29",
+              "name": "ULTICARE LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-16T00:00:00Z",
+            "endDate": "2028-05-12T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

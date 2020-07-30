@@ -1,0 +1,254 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d978f058-f662-4804-851a-eb0e324088ee.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-20T17:37:22Z",
+  "publisher": {
+    "name": "Lancashire County Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-de149438-be34-427c-b23c-f0ff1e0ac781",
+      "id": "ocds-b5fd17-de149438-be34-427c-b23c-f0ff1e0ac781-360069-ks-acs-lcc-19-723-award",
+      "date": "2020-02-03T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "e9848b9f2d48cdb1b146618241e300b2",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/v2gr32H4",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Lancashire County Council",
+          "address": {
+            "streetAddress": "Bow Lane ",
+            "locality": "PRESTON",
+            "region": null,
+            "postalCode": "PR18RL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Katie Snape",
+            "email": "Katie.Snape@lancashire.gov.uk",
+            "telephone": "01772534320",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Preston Care &amp; Repair Ltd",
+          "address": {
+            "streetAddress": "Suite 4, Hamilton House\r\nLeyland Business Park\r\nCenturion Way\r\nLeyland\r\nLancashire\r\nPR25 3GR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "HOMEWISE SOCIETY",
+          "address": {
+            "streetAddress": "2/4 WHALLEY ROAD\r\nACCRINGTON  BB5 1AA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Partnering in Property Management (PPM) Limited",
+          "address": {
+            "streetAddress": "Atlantic House, Fletcher Way, Parkhouse Business Park, Carlisle, Cumbria, CA3 0LJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-de149438-be34-427c-b23c-f0ff1e0ac781-ks/acs/lcc/19/723-award",
+        "title": "Minor Aids and Adaptations Service in Lancashire",
+        "description": "Minor Aids and Adaptations Service in Lancashire",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 4437100,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-30T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Preston Care &amp; Repair Ltd"
+          },
+          {
+            "id": "2",
+            "name": "HOMEWISE SOCIETY"
+          },
+          {
+            "id": "3",
+            "name": "Partnering in Property Management (PPM) Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2025-05-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "e9848b9f2d48cdb1b146618241e300b2",
+        "name": "Lancashire County Council"
+      },
+      "awards": [
+        {
+          "id": "5b97c440-608f-4238-b1f5-d94d6b0abf63",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-30T00:00:00Z",
+          "value": {
+            "amount": 4437100,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Preston Care &amp; Repair Ltd"
+            },
+            {
+              "id": "2",
+              "name": "HOMEWISE SOCIETY"
+            },
+            {
+              "id": "3",
+              "name": "Partnering in Property Management (PPM) Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-07-01T00:00:00Z",
+            "endDate": "2025-06-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

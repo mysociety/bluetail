@@ -1,0 +1,331 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c160a638-1f6a-41a6-a152-3de2dd665de1.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-05T14:15:27Z",
+  "publisher": {
+    "name": "NHS ENGLAND",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-e72a9f25-8982-4198-a5de-50eddd536ae9",
+      "id": "ocds-b5fd17-e72a9f25-8982-4198-a5de-50eddd536ae9-357507-cm-msr-17-5541-1",
+      "date": "2019-06-10T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "bc4dcfc1e1a02625545ffbaaef056a96",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/EJhd237t",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "NHS ENGLAND",
+          "address": {
+            "streetAddress": "PREMIER HOUSE 60 CAVERSHAM ROAD",
+            "locality": "READING",
+            "region": null,
+            "postalCode": "RG1 7EB",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Lynne Newell",
+            "email": "lynne.newell@nhs.net",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02945457",
+            "scheme": "GB-COH",
+            "legalName": "ALCURA UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ALCURA UK LIMITED",
+          "address": {
+            "streetAddress": "Compass Business Park,Caswell Road\nNORTHAMPTON\nNorthamptonshire\nNN4 7PU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Trevor Jones",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02506615",
+            "scheme": "GB-COH",
+            "legalName": "CALEA UK LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CALEA UK LIMITED",
+          "address": {
+            "streetAddress": "Cestrian Court,Eastgate Way Manor Park\nRUNCORN\nCheshire\nWA7 1NT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sharon Brown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02759609",
+            "scheme": "GB-COH",
+            "legalName": "HEALTHCARE AT HOME LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HEALTHCARE AT HOME LTD",
+          "address": {
+            "streetAddress": "107 Station Street\nBURTON-ON-TRENT\nStaffordshire\nDE14 1SZ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Anthony Brookes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02764914",
+            "scheme": "GB-COH",
+            "legalName": "LLOYDS PHARMACY CLINICAL HOMECARE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "LLOYDS PHARMACY CLINICAL HOMECARE LIMITED",
+          "address": {
+            "streetAddress": "Scimitar Park Roydon Road\nHARLOW\nEssex\nCM19 5GU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Graham Saunders",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02678247",
+            "scheme": "GB-COH",
+            "legalName": "BAXTER HEALTHCARE (HOLDINGS) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BAXTER HEALTHCARE (HOLDINGS) LIMITED",
+          "address": {
+            "streetAddress": "CAXTON WAY\nTHETFORD\nNORFOLK\nIP24 3SE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-e72a9f25-8982-4198-a5de-50eddd536ae9-cm/msr/17/5541",
+        "title": "NHS National framework agreement for the supply of home parenteral nutrition (HPN)",
+        "description": "NHS National framework agreement for the supply of the home parenteral nutrition &amp; intravenous fluid for patients with severe intestinal failure\r\n1 April 2020 to 31 March 2022 with option(s) to extend for up to a total period of 24 months\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85141210",
+              "description": "Home medical treatment services",
+              "uri": "http://cpv.data.ac.uk/code-85141210.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 240000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-19T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ALCURA UK LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "CALEA UK LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "HEALTHCARE AT HOME LTD"
+          },
+          {
+            "id": "5",
+            "name": "LLOYDS PHARMACY CLINICAL HOMECARE LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "BAXTER HEALTHCARE (HOLDINGS) LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2022-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "bc4dcfc1e1a02625545ffbaaef056a96",
+        "name": "NHS ENGLAND"
+      },
+      "awards": [
+        {
+          "id": "903d5f96-68ad-45d9-b254-04c70a8968bd",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-13T00:00:00Z",
+          "value": {
+            "amount": 240000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ALCURA UK LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "CALEA UK LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "HEALTHCARE AT HOME LTD"
+            },
+            {
+              "id": "5",
+              "name": "LLOYDS PHARMACY CLINICAL HOMECARE LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "BAXTER HEALTHCARE (HOLDINGS) LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2022-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

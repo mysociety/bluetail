@@ -1,0 +1,1397 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/689e8a18-030e-453a-a031-5d37f1b8e6f3.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-22T09:18:42Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-a4e7375e-d7be-4fd7-ae79-9801682a7acd",
+      "id": "ocds-b5fd17-a4e7375e-d7be-4fd7-ae79-9801682a7acd-360354-croyd001-dn411767-73302873",
+      "date": "2019-09-24T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "aa8e47fe1d31140c4f934ab676489e36",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Croydon Council",
+          "address": {
+            "streetAddress": "3RD FLOOR Bernard Weatherill House",
+            "locality": "CROYDON",
+            "region": null,
+            "postalCode": "CR0 1EA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "The Community Fund",
+            "email": "CommunityFund@croydon.gov.uk",
+            "telephone": "020 8760 5584",
+            "faxNumber": null,
+            "uri": "http://www.valuecroydon.com/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Addiscombe Neighbourhood Care Association",
+          "address": {
+            "streetAddress": "CR0 7EB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr. Norman TILL",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Age UK Croydon",
+          "address": {
+            "streetAddress": "CR7 7JH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Susan Underhill",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Asian Resource Centre of Croydon Ltd",
+          "address": {
+            "streetAddress": "CR0 2TB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Ima Miah",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Bromley &amp; Croydon Women&#039;s Aid",
+          "address": {
+            "streetAddress": "SE20 8QT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Constanze Sen",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CAYSH",
+          "address": {
+            "streetAddress": "CR0 1QG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "CAYSH Sonia Seevaratnam",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Contact: Selsdon Churches Neighbourhood Care",
+          "address": {
+            "streetAddress": "CR2 8LA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Christine Waring",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": true,
+          "name": "Crisis",
+          "address": {
+            "streetAddress": "E1 6LT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Michelle Furne",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Croydon African Caribbean Family Organisation - UK",
+          "address": {
+            "streetAddress": "CR7 8HQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Callton Young",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Croydon BME Forum",
+          "address": {
+            "streetAddress": "CR0 3RG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Andrew brown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Croydon Drop In",
+          "address": {
+            "streetAddress": "CR0 1RF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Gordon Knott",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Croydon Mencap",
+          "address": {
+            "streetAddress": "CR7 7HU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Alan Avis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Croydon Neighbourhood Care",
+          "address": {
+            "streetAddress": "CR0 6PD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Susan McVicker",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Croydon Vision",
+          "address": {
+            "streetAddress": "CR0 2AR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Susanette Mansour",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Duffus Cancer Foundation",
+          "address": {
+            "streetAddress": "CR0 2TB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Brian Duffus",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Generating Genius",
+          "address": {
+            "streetAddress": "CR0 1LH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Patricia Shalet",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JAGS Foundation",
+          "address": {
+            "streetAddress": "CR0 1PF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Tracey Ford",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Metro",
+          "address": {
+            "streetAddress": "SE18 6FH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Andrew Evans",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Mind in Croydon",
+          "address": {
+            "streetAddress": "CR8 2NE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Salwa Bowyer",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "New Addington Good Samaritans",
+          "address": {
+            "streetAddress": "CR0 0JG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Diane Garside",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Parchmore Methodist Church and Community Centre",
+          "address": {
+            "streetAddress": "CR7 8LY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Selina Rice",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PLay Place",
+          "address": {
+            "streetAddress": "CR0 9DX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Chris Hennis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Purley and Coulsdon Clubs for the Elderly",
+          "address": {
+            "streetAddress": "CR8 2PE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Patricia Painting",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Purley Cross Community Information Centre",
+          "address": {
+            "streetAddress": "CR8 3EA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Leonora Cardow",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Rape &amp; Sexual Abuse Support Centre",
+          "address": {
+            "streetAddress": "CR9 2AW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Yvonne Traynor",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Reaching Higher",
+          "address": {
+            "streetAddress": "SE25 6ES",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Mark Hobbs",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "26",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Shirley Neighbourhood Care Scheme",
+          "address": {
+            "streetAddress": "CR0 8SD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Suzy Stoyel",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "South Norwood &amp; Woodside Community Assoc.",
+          "address": {
+            "streetAddress": "SE25 5NX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Robert Elliott",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "The Family Centre",
+          "address": {
+            "streetAddress": "CR0 9AZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Julia Weller",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Upper Norwood Association for Community Care",
+          "address": {
+            "streetAddress": "SE25 4DX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Miss Natalie Fernandez",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "30",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Westbury Community Project",
+          "address": {
+            "streetAddress": "CR0 3LF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Marie Cyrus",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "31",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Whitgift Foundation Carers&#039; Information Service",
+          "address": {
+            "streetAddress": "CR0 1PB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Helen Thompson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-a4e7375e-d7be-4fd7-ae79-9801682a7acd-croyd001-dn411767-73302873",
+        "title": "Community Fund: Outcomes Programme",
+        "description": "This procurement falls within the &quot;light touch regime&quot; applicable to the procurement of contracts for social and other specific services, as set out in Regulations 74 to 76 of the Public Cntracts Regulations 2015 (&#039;Regulations&#039;).  The Council is orientating this procurement towards the open procedure as described in Regulations but using a &quot;light touch&quot; approach. The Council does not hold itself bound by the Regulations except to the extent that they apply to the light touch regime as set out in Regulations 74 to 76 of the Regulations.\r\n \r\nIn Croydon we are lucky enough to have one of the largest VCS in London. The sector here is strong, vibrant and diverse and is a key player in delivering services and support to some of Croydon&#039;s most vulnerable residents. VCS groups and organisations are able to reach places and people that statutory agencies often cannot and have a greater ability to adapt to the evolving needs of the community. To ensure the sector is able to continue playing this role, the Council has committed to investing &#xA3;2.6m per annum for up to 3 years through the Community Fund. \r\n\r\nThrough the Outcomes Programme, the Council are looking to fund bids which demonstrate the following commissioning principles:-\r\n\r\n\u2022\tDoes the bid involve collaboration with other VCS groups?\r\n\u2022\tIs it tackling a particular need in a locality?\r\n\u2022\tDoes it focus on prevention, early identification and intervention?\r\n\u2022\tDoes it support one or more of the priority outcomes?\r\n\u2022\tIs it evidence based?\r\n\u2022\tIs it innovative?\r\n\r\nThis Outcomes Prospectus provides information on the key outcome themes which the Council wants to commission, as well as a guide on how to apply and how bids will be evaluated. Croydon Council welcomes bids from Voluntary and Community Sector organisations who can deliver projects and services in the borough, which will contribute to one of Croydon&#039;s 5 outcome priorities. We are looking to support projects which will deliver positive change and benefits for individuals or communities within Croydon. The 5 outcome priorities include:\r\n\r\nOutcome 1: People live long, healthy, happy and independent lives\r\nOutcome 2: Our children and young people thrive and reach their full potential\r\nOutcome 3: Access to homes and prevention of homelessness\r\nOutcome 4: Everyone feels safer in their street, neighbourhood and home\r\nOutcome 5: Everybody has the opportunity to work and build their career\r\n\r\nTender Applications are for bids over &#xA3;15,000 per annum. A guide maximum bid value is &#xA3;40,000 per annum however the Council reserves the right to award Contracts above this sum if they pass the minimum evaluation criteria",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98133100",
+              "description": "Civic betterment and community facility support services",
+              "uri": "http://cpv.data.ac.uk/code-98133100.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 4515000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-10-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 31,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Addiscombe Neighbourhood Care Association"
+          },
+          {
+            "id": "2",
+            "name": "Age UK Croydon"
+          },
+          {
+            "id": "3",
+            "name": "Asian Resource Centre of Croydon Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Bromley &amp; Croydon Women&#039;s Aid"
+          },
+          {
+            "id": "5",
+            "name": "CAYSH"
+          },
+          {
+            "id": "6",
+            "name": "Contact: Selsdon Churches Neighbourhood Care"
+          },
+          {
+            "id": "7",
+            "name": "Crisis"
+          },
+          {
+            "id": "8",
+            "name": "Croydon African Caribbean Family Organisation - UK"
+          },
+          {
+            "id": "9",
+            "name": "Croydon BME Forum"
+          },
+          {
+            "id": "10",
+            "name": "Croydon Drop In"
+          },
+          {
+            "id": "11",
+            "name": "Croydon Mencap"
+          },
+          {
+            "id": "12",
+            "name": "Croydon Neighbourhood Care"
+          },
+          {
+            "id": "13",
+            "name": "Croydon Vision"
+          },
+          {
+            "id": "14",
+            "name": "Duffus Cancer Foundation"
+          },
+          {
+            "id": "15",
+            "name": "Generating Genius"
+          },
+          {
+            "id": "16",
+            "name": "JAGS Foundation"
+          },
+          {
+            "id": "17",
+            "name": "Metro"
+          },
+          {
+            "id": "18",
+            "name": "Mind in Croydon"
+          },
+          {
+            "id": "19",
+            "name": "New Addington Good Samaritans"
+          },
+          {
+            "id": "20",
+            "name": "Parchmore Methodist Church and Community Centre"
+          },
+          {
+            "id": "21",
+            "name": "PLay Place"
+          },
+          {
+            "id": "22",
+            "name": "Purley and Coulsdon Clubs for the Elderly"
+          },
+          {
+            "id": "23",
+            "name": "Purley Cross Community Information Centre"
+          },
+          {
+            "id": "24",
+            "name": "Rape &amp; Sexual Abuse Support Centre"
+          },
+          {
+            "id": "25",
+            "name": "Reaching Higher"
+          },
+          {
+            "id": "26",
+            "name": "Shirley Neighbourhood Care Scheme"
+          },
+          {
+            "id": "27",
+            "name": "South Norwood &amp; Woodside Community Assoc."
+          },
+          {
+            "id": "28",
+            "name": "The Family Centre"
+          },
+          {
+            "id": "29",
+            "name": "Upper Norwood Association for Community Care"
+          },
+          {
+            "id": "30",
+            "name": "Westbury Community Project"
+          },
+          {
+            "id": "31",
+            "name": "Whitgift Foundation Carers&#039; Information Service"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2023-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "aa8e47fe1d31140c4f934ab676489e36",
+        "name": "Croydon Council"
+      },
+      "awards": [
+        {
+          "id": "5ffd0900-344c-4c2e-bd87-1ef86eeedac9",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-18T00:00:00Z",
+          "value": {
+            "amount": 4515000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Addiscombe Neighbourhood Care Association"
+            },
+            {
+              "id": "2",
+              "name": "Age UK Croydon"
+            },
+            {
+              "id": "3",
+              "name": "Asian Resource Centre of Croydon Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Bromley &amp; Croydon Women&#039;s Aid"
+            },
+            {
+              "id": "5",
+              "name": "CAYSH"
+            },
+            {
+              "id": "6",
+              "name": "Contact: Selsdon Churches Neighbourhood Care"
+            },
+            {
+              "id": "7",
+              "name": "Crisis"
+            },
+            {
+              "id": "8",
+              "name": "Croydon African Caribbean Family Organisation - UK"
+            },
+            {
+              "id": "9",
+              "name": "Croydon BME Forum"
+            },
+            {
+              "id": "10",
+              "name": "Croydon Drop In"
+            },
+            {
+              "id": "11",
+              "name": "Croydon Mencap"
+            },
+            {
+              "id": "12",
+              "name": "Croydon Neighbourhood Care"
+            },
+            {
+              "id": "13",
+              "name": "Croydon Vision"
+            },
+            {
+              "id": "14",
+              "name": "Duffus Cancer Foundation"
+            },
+            {
+              "id": "15",
+              "name": "Generating Genius"
+            },
+            {
+              "id": "16",
+              "name": "JAGS Foundation"
+            },
+            {
+              "id": "17",
+              "name": "Metro"
+            },
+            {
+              "id": "18",
+              "name": "Mind in Croydon"
+            },
+            {
+              "id": "19",
+              "name": "New Addington Good Samaritans"
+            },
+            {
+              "id": "20",
+              "name": "Parchmore Methodist Church and Community Centre"
+            },
+            {
+              "id": "21",
+              "name": "PLay Place"
+            },
+            {
+              "id": "22",
+              "name": "Purley and Coulsdon Clubs for the Elderly"
+            },
+            {
+              "id": "23",
+              "name": "Purley Cross Community Information Centre"
+            },
+            {
+              "id": "24",
+              "name": "Rape &amp; Sexual Abuse Support Centre"
+            },
+            {
+              "id": "25",
+              "name": "Reaching Higher"
+            },
+            {
+              "id": "26",
+              "name": "Shirley Neighbourhood Care Scheme"
+            },
+            {
+              "id": "27",
+              "name": "South Norwood &amp; Woodside Community Assoc."
+            },
+            {
+              "id": "28",
+              "name": "The Family Centre"
+            },
+            {
+              "id": "29",
+              "name": "Upper Norwood Association for Community Care"
+            },
+            {
+              "id": "30",
+              "name": "Westbury Community Project"
+            },
+            {
+              "id": "31",
+              "name": "Whitgift Foundation Carers&#039; Information Service"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2023-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/764bf9ad-c206-4518-b76d-0c462a1c670d.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-19T11:08:51Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-97fd8822-6aee-4447-b6de-6ed250c449dc",
+      "id": "ocds-b5fd17-97fd8822-6aee-4447-b6de-6ed250c449dc-344815-wolvcity001-dn410528-48547354",
+      "date": "2019-04-15T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "7fb4cfa74e4a93590eca32be0173821f",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Wolverhampton City Council",
+          "address": {
+            "streetAddress": "Civic Centre St Peters Square",
+            "locality": "Wolverhampton",
+            "region": null,
+            "postalCode": "WV1 1RL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Parvinder Uppal",
+            "email": "parvinder.uppal@wolverhampton.gov.uk",
+            "telephone": "+44 1902554029",
+            "faxNumber": null,
+            "uri": "http://www.wolverhamptontenders.com"
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-120590481",
+            "scheme": "GB-CQC",
+            "legalName": "Affinity Trust"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Affinity Trust",
+          "address": {
+            "streetAddress": "1 St Andrew&#039;s Court, Wellington Street, Thame, Oxfordshire, OX9 9WT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3471305731",
+            "scheme": "GB-CQC",
+            "legalName": "Honeydew Healthcare Limited"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Honeydew Healthcare Limited",
+          "address": {
+            "streetAddress": "Regus Building, 5th Floor, St Georges House, 6 St Georges Way, Leicester. LE1 1SH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2110699995",
+            "scheme": "GB-CQC",
+            "legalName": "Prayngel Healthcare Limited"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Prayngel Healthcare Limited",
+          "address": {
+            "streetAddress": "Derwent House, 42-46 Waterloo Road, Wolverhampton, West Midlands WV1 4XB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-97fd8822-6aee-4447-b6de-6ed250c449dc-wolvcity001-dn410528-48547354",
+        "title": "CWC19045 - Supported Living for Adults with Disabilities",
+        "description": "This Supported Living Framework has been developed for eligible Service Users with Disabilities, inclusive of:\r\no\t Learning Disabilities,\r\no\t Autism, \r\no\tAcquired Brain Injury,\r\no\tSensory Impairment,\r\no\t Physical Disabilities\r\no\t and Mental Health,\r\no\tAnd all other eligible Service Users as stated in the specification\r\n\tThe Framework will be used to provide twenty-four-hour care and support for service users who live in or wish to live in supported living services. Service Users may already be living in the community of the City of Wolverhampton, in either existing supported living services or residential services, outside of City of Wolverhampton but wish to return to Wolverhampton, from long stay Health establishments, or may be transitioning from children&#039;s services to adult social care services.  It is anticipated service users shall require an element of personal care. \r\nThis service is procured under the Light Touch Regime set out in the Public Contracts Regulations 2015",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 60000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-06-24T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "Affinity Trust"
+          },
+          {
+            "id": "13",
+            "name": "Honeydew Healthcare Limited"
+          },
+          {
+            "id": "20",
+            "name": "Prayngel Healthcare Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-09-01T00:00:00Z",
+          "endDate": "2024-08-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "7fb4cfa74e4a93590eca32be0173821f",
+        "name": "Wolverhampton City Council"
+      },
+      "awards": [
+        {
+          "id": "53f76a1e-e973-470d-ace3-a796cfdfc5f8",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-08-31T00:00:00Z",
+          "value": {
+            "amount": 60000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "Affinity Trust"
+            },
+            {
+              "id": "13",
+              "name": "Honeydew Healthcare Limited"
+            },
+            {
+              "id": "20",
+              "name": "Prayngel Healthcare Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-09-01T00:00:00Z",
+            "endDate": "2024-08-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

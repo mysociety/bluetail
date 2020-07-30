@@ -1,0 +1,207 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a66bfb7a-8347-4829-8de9-a95727a6e01c.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-21T13:30:37Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-dcd59fb3-0087-4b1f-9472-63fd3634b176",
+      "id": "ocds-b5fd17-dcd59fb3-0087-4b1f-9472-63fd3634b176-360202-bip494824607",
+      "date": "2020-02-26T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "8d956bc0445684845404a0974141ab0a",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Barnet Homes Ltd",
+          "address": {
+            "streetAddress": "3rd Floor 2 Bristol Avenue",
+            "locality": "London",
+            "region": null,
+            "postalCode": "NW9 4EW",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "procurement team",
+            "email": "procurement@barnethomes.org",
+            "telephone": "+442083594783",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "AJS",
+          "address": {
+            "streetAddress": "22-42 Freshwater road\n        Dagenham\n        RM8 1RY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MDP communicaiton services",
+          "address": {
+            "streetAddress": "39 old station road\n        Newmarket\n        CB8 8QE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-dcd59fb3-0087-4b1f-9472-63fd3634b176-bip494824607",
+        "title": "Door Entry contractor to work alongside the inhouse Repairs Service.",
+        "description": "Door entry contractor for the inhouse repairs service DPS, mini tenders to be run annually based on NAT FED +/- rates. Note may appoint 1 to 3 contractors to operate this service",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44521110",
+              "description": "Door locks",
+              "uri": "http://cpv.data.ac.uk/code-44521110.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 110000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Restricted procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "AJS"
+          },
+          {
+            "id": "2",
+            "name": "MDP communicaiton services"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-07-01T00:00:00Z",
+          "endDate": "2021-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "8d956bc0445684845404a0974141ab0a",
+        "name": "Barnet Homes Ltd"
+      },
+      "awards": [
+        {
+          "id": "591102cb-b147-4497-9773-556648ae14e0",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-01T00:00:00Z",
+          "value": {
+            "amount": 110000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "AJS"
+            },
+            {
+              "id": "2",
+              "name": "MDP communicaiton services"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-07-01T00:00:00Z",
+            "endDate": "2021-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

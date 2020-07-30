@@ -1,0 +1,207 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1fe93e2b-9ebd-44bd-8ada-23bac8b288fb.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-15T13:25:55Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-86bc974a-8ac9-4612-ac21-549e630e6c79",
+      "id": "ocds-b5fd17-86bc974a-8ac9-4612-ac21-549e630e6c79-359231-cbc-1092-t-ce----award",
+      "date": "2019-10-31T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "2b40f1f87c3daf8dfb09fe81c61bbdd4",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Central Bedfordshire Council",
+          "address": {
+            "streetAddress": "Priory House Chicksands",
+            "locality": "Shefford",
+            "region": null,
+            "postalCode": "SG17 5TQ",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "ADMINISTRATOR ADMINISTRATOR",
+            "email": "procurement@centralbedfordshire.gov.uk",
+            "telephone": "03003008000",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Biogen (UK) Limited",
+          "address": {
+            "streetAddress": "Milton Parc, Milton Ernest, Bedfordshire, United Kingdom, MK44 1YU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Business Development",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Severn Trent Green Power",
+          "address": {
+            "streetAddress": "The Stables, Radford, Chipping Norton, Oxfordshire, United Kingdom, OX7 4EB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Commercial Commercial",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-86bc974a-8ac9-4612-ac21-549e630e6c79-cbc-1092-t-ce----award",
+        "title": "CBC-1092-T-CE Food Waste Treatment and Disposal (including Grass Cuttings Disposal) - AWARD",
+        "description": "Central Bedfordshire Council is a unitary authority with responsibility for collecting and disposing of municipal waste, including Food Waste. This is currently collected separately from properties in the north of the area, comprising approximately 63,736 households.\r\n      \r\n      As part of the Councils new Waste Collection Contract, it is anticipated Food Waste Collections will be rolled out to residents in the south of the area, compromising approximately 55,550 households. \r\n      \r\n      Central Bedfordshire Council invites tenders for the treatment and disposal of separately collected food waste. The food waste is of good quality and there have been no incidents of rejected loads from the current contract provider. \r\n      \r\n      Lot 1 - Food Waste Disposal - North of Authority Area (please see map in Appendix 2a). Approximately 5,000t a year. Contract start date April 2020. Contract term 3 years + possible 3 year extension \r\n      \r\n      Lot 2 - Food Waste Disposal - South of Authority Area (please see map in Appendix 2b). As this is a new service no tonnage data is available but the Council anticipate similar yearly . Anticipated contract start date Summer 2020. Contract term 3 years + possible 3 year extension.\r\n      \r\n      Lot 3 - Highways Grass Cuttings Disposal - To treat approximately 1000 tonnes of highways grass cuttings, as this is a new service no historical tonnage data is available. Anticipated contract start date April 2020. Contract term 3 years + possible 3 year extension.\r\n      \r\n      Please note you may bid Lots 1, 2 or 3 individually or combined. Please complete a separate ITT document for each lot.\r\n      \r\n      Tender process - OJEU Open\r\n      \r\n      Help and Support - The Council will provide as much support and information as it can to help guide you through the Tender process.  Questions asked together with the response, will be made available to all tenderers to ensure a fair and consistent approach to all. If there is anything you are not sure of or need clarification on, please send a correspondence using the &#039;In-Tend&#039; Portal tendering system.\r\n      \r\n      Deadline for receipt of Tenders - 12 noon, 3rd January 2020\r\n      \r\n      Return of Tender - Completed Tenders and attachments should be submitted electronically, by the due date via our &quot;In-Tend&quot; electronic tendering system. Tenders must be uploaded via the &quot;My Return&quot; section of the system. Tenders submitted through the correspondence facility will not be considered. \r\n      \r\n      Your Tender must be submitted via the In-Tend system by no later than 12:00 noon on 2nd January 2020. Tenders received after that time will be excluded.\r\n                                      \r\n      Target contract commencement date or delivery date - 1st April 2020 (Lot 1), 1st October 2020 (Lot 2 &amp; 3)\r\n      \r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90500000",
+              "description": "Refuse and waste related services",
+              "uri": "http://cpv.data.ac.uk/code-90500000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-16T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Biogen (UK) Limited"
+          },
+          {
+            "id": "2",
+            "name": "Severn Trent Green Power"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-11-01T00:00:00Z",
+          "endDate": "2023-10-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "2b40f1f87c3daf8dfb09fe81c61bbdd4",
+        "name": "Central Bedfordshire Council"
+      },
+      "awards": [
+        {
+          "id": "b082e936-5c48-4983-86f6-7bb2f3d8bc7d",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-03T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Biogen (UK) Limited"
+            },
+            {
+              "id": "2",
+              "name": "Severn Trent Green Power"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-11-01T00:00:00Z",
+            "endDate": "2023-10-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}
