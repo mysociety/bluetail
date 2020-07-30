@@ -8,6 +8,13 @@
   * [Running](#running)
     + [Assets](#assets)
     + [Data loading](#data-loading)
+        + [UK data preprocessing](#uk-data-pre-processing)
+          + [Contract process data](#contract-process-data)
+          + [Beneficial ownership data](#beneficial-ownership-data)
+          + [Updating the contract process and beneficial ownership data](#updating-the-contract-proccess-and-beneficial-ownership-data)
+        + [Data ingest](#data-ingest)
+          + [Contracting process and beneficial ownership data](#contracting-process-and-beneficial-ownership-data)
+          + [Additional data sources](#additional-data-sources)
     + [Flags](#flags)
 
 # Bluetail
