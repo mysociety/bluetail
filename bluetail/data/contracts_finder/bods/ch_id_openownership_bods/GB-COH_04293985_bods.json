@@ -1,0 +1,256 @@
+[
+    {
+        "statementID": "openownership-register-11479252072976792133",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DMA SIGNS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04293985"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04293985",
+                "uri": "https://opencorporates.com/companies/gb/04293985"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94bdf67e4ebf340ad91f6",
+                "uri": "http://register.openownership.org/entities/59b94bdf67e4ebf340ad91f6"
+            }
+        ],
+        "foundingDate": "2001-09-26",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 6 Bridge Works, Kingston Road, Leatherhead, Surrey, KT22 7SU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7514150196590074109",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-28",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11479252072976792133"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-18118581389457317615"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-28"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14094443736963401380",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11479252072976792133"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6776745747938460014"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2016-11-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9076909303871547766",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11479252072976792133"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4411954169803988997"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2016-11-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-18118581389457317615",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DMA SIGNS (HOLDINGS) LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09340520"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09340520"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09340520",
+                "uri": "https://opencorporates.com/companies/gb/09340520"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab9732e9dfc3fae18d48a89",
+                "uri": "http://register.openownership.org/entities/5ab9732e9dfc3fae18d48a89"
+            }
+        ],
+        "foundingDate": "2014-12-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 6 Bridge Works, Kingston Road, Leatherhead, Surrey, KT22 7SU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6776745747938460014",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sally Anne Matthews"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04293985/persons-with-significant-control/individual/S1JpilTglaOC-50etHfgptnwSNs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94bdf67e4ebf340ad9207",
+                "uri": "http://register.openownership.org/entities/59b94bdf67e4ebf340ad9207"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-01-01",
+        "addresses": [
+            {
+                "address": "3 Burrows Cross House, Jesses Lane, Peaslake, Surrey, GU5 9RT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4411954169803988997",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Timothy Alan Matthews"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04266432/persons-with-significant-control/individual/_ikXQtwVX5rZDCuMuWRBrsOAC4Y"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94a1167e4ebf340a6bab2",
+                "uri": "http://register.openownership.org/entities/59b94a1167e4ebf340a6bab2"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-01-01",
+        "addresses": [
+            {
+                "address": "3 Burrows Cross House, Jesses Lane, Peaslake, Surrey, GU5 9RT",
+                "country": "GB"
+            }
+        ]
+    }
+]

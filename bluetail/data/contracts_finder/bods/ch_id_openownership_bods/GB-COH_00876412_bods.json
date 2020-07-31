@@ -1,0 +1,129 @@
+[
+    {
+        "statementID": "openownership-register-5643026636791804353",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PREMIER FARNELL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00876412"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00876412"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00876412"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00876412"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00876412",
+                "uri": "https://opencorporates.com/companies/gb/00876412"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00876412"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d2eb67e4ebf340e09fdc",
+                "uri": "http://register.openownership.org/entities/59b9d2eb67e4ebf340e09fdc"
+            }
+        ],
+        "foundingDate": "1966-04-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Farnell House, Forge Lane, Leeds, LS12 2NE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-933270634200212564",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-10-17",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5643026636791804353"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-11253629450949387564"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-10-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11253629450949387564",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AVNET BIDCO LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10323613"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10323613",
+                "uri": "https://opencorporates.com/companies/gb/10323613"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10323613"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e2367e4ebf340259e25",
+                "uri": "http://register.openownership.org/entities/59b92e2367e4ebf340259e25"
+            }
+        ],
+        "foundingDate": "2016-08-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Avnet House, Rutherford Close, Stevenage, SG1 2EF",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "statementID": "openownership-register-2224532910854117939",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PENLON LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03228364"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03228364"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03228364",
+                "uri": "https://opencorporates.com/companies/gb/03228364"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b926e667e4ebf340040e64",
+                "uri": "http://register.openownership.org/entities/59b926e667e4ebf340040e64"
+            }
+        ],
+        "foundingDate": "1996-07-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1-5 Barton Lane, Abingdon Science Park, Abingdon, Oxfordshire, OX14 3NB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11099024417038677130",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2224532910854117939"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-7430622786703794794"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7430622786703794794",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "INTERMED LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06249681"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06249681"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06249681",
+                "uri": "https://opencorporates.com/companies/gb/06249681"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b926e767e4ebf340041256",
+                "uri": "http://register.openownership.org/entities/59b926e767e4ebf340041256"
+            }
+        ],
+        "foundingDate": "2007-05-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1-5 Barton Lane, Abingdon Science Park, Abingdon, Oxfordshire, OX14 3NB",
+                "country": "GB"
+            }
+        ]
+    }
+]

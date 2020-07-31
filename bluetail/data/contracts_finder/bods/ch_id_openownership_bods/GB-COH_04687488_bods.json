@@ -1,0 +1,238 @@
+[
+    {
+        "statementID": "openownership-register-1892110279395936113",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FOSTER PROPERTY MAINTENANCE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04687488"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04687488",
+                "uri": "https://opencorporates.com/companies/gb/04687488"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b994bc67e4ebf340f843a9",
+                "uri": "http://register.openownership.org/entities/59b994bc67e4ebf340f843a9"
+            }
+        ],
+        "foundingDate": "2003-03-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Kings Avenue, London, N21 3NA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5515572963311054737",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-12-12",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1892110279395936113"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-10576223841213966112"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-12-12"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-12-12"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2018-12-12"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15772365420003439422",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1892110279395936113"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-3896474680200624331"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30",
+                "endDate": "2018-12-12"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3896474680200624331",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LAKEHOUSE CONTRACTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02603357"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02603357",
+                "uri": "https://opencorporates.com/companies/gb/02603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2603357"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2603357"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9519267e4ebf340c767b3",
+                "uri": "http://register.openownership.org/entities/59b9519267e4ebf340c767b3"
+            }
+        ],
+        "foundingDate": "1991-04-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Craftwork Studios, 1.3 Dufferin Street, London, EC1Y 8NA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10576223841213966112",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "KAMACOCO LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07554950"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07554950",
+                "uri": "https://opencorporates.com/companies/gb/07554950"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07554950"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9978c67e4ebf340021e2b",
+                "uri": "http://register.openownership.org/entities/59b9978c67e4ebf340021e2b"
+            }
+        ],
+        "foundingDate": "2011-03-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Kings Avenue, London, N21 3NA",
+                "country": "GB"
+            }
+        ]
+    }
+]

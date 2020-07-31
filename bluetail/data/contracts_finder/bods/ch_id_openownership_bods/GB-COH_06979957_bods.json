@@ -1,0 +1,155 @@
+[
+    {
+        "statementID": "openownership-register-13644448902065458640",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GO GREEN TAXIS LTD.",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06979957"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06979957",
+                "uri": "https://opencorporates.com/companies/gb/06979957"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9412867e4ebf3407e8d36",
+                "uri": "http://register.openownership.org/entities/59b9412867e4ebf3407e8d36"
+            }
+        ],
+        "foundingDate": "2009-08-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "C24 Hawksworth, Didcot, OX11 7PH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16205143837057612562",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13644448902065458640"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16397738497745325567"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-195915296054573310",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13644448902065458640"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11568146964568002525"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16397738497745325567",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark Charles Parham"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06979957/persons-with-significant-control/individual/B47RO7uNYmeDgMLqnf6GtR0mgzo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9412867e4ebf3407e8db2",
+                "uri": "http://register.openownership.org/entities/59b9412867e4ebf3407e8db2"
+            }
+        ],
+        "birthDate": "1983-07-01",
+        "addresses": [
+            {
+                "address": "C24, Hawksworth, Didcot, OX11 7PH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11568146964568002525",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark Christopher John"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06979957/persons-with-significant-control/individual/mFK65-2Ynu9wXvVsODlVdQZciSM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9412867e4ebf3407e8d3e",
+                "uri": "http://register.openownership.org/entities/59b9412867e4ebf3407e8d3e"
+            }
+        ],
+        "birthDate": "1982-12-01",
+        "addresses": [
+            {
+                "address": "C24, Hawksworth, Didcot, OX11 7PH"
+            }
+        ]
+    }
+]

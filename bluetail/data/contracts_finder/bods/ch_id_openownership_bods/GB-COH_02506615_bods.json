@@ -1,0 +1,124 @@
+[
+    {
+        "statementID": "openownership-register-5883587008459096628",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CALEA UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02506615"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02506615",
+                "uri": "https://opencorporates.com/companies/gb/02506615"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9748067e4ebf3406f873b",
+                "uri": "http://register.openownership.org/entities/59b9748067e4ebf3406f873b"
+            }
+        ],
+        "foundingDate": "1990-05-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Cestrian Court, Eastgate Way Manor Park, Runcorn, Cheshire, WA7 1NT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9899776402454414220",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5883587008459096628"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1263430556139501143"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1263430556139501143",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FHC (HOLDINGS) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00886829"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00886829"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00886829"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00886829",
+                "uri": "https://opencorporates.com/companies/gb/00886829"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "886829"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "886829"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9748167e4ebf3406f8cb6",
+                "uri": "http://register.openownership.org/entities/59b9748167e4ebf3406f8cb6"
+            }
+        ],
+        "foundingDate": "1966-09-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Cestrian Court, Eastgate Way Manor Park, Runcorn, Cheshire, WA7 1NT",
+                "country": "GB"
+            }
+        ]
+    }
+]

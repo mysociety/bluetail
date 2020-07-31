@@ -1,0 +1,119 @@
+[
+    {
+        "statementID": "openownership-register-7485015242779060425",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "INTERCLASS PUBLIC LIMITED COMPANY",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02317072"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02317072",
+                "uri": "https://opencorporates.com/companies/gb/02317072"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b961da67e4ebf34013371f",
+                "uri": "http://register.openownership.org/entities/59b961da67e4ebf34013371f"
+            }
+        ],
+        "foundingDate": "1988-11-14",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Heathmill Road, Wombourne, Wolverhampton, West Midlands, WV5 8AP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12163181846624725856",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7485015242779060425"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-202446225386065565"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-202446225386065565",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "INTERCLASS HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01259584"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01259584"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01259584"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01259584"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01259584",
+                "uri": "https://opencorporates.com/companies/gb/01259584"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92b4f67e4ebf34017622d",
+                "uri": "http://register.openownership.org/entities/59b92b4f67e4ebf34017622d"
+            }
+        ],
+        "foundingDate": "1976-05-20",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Interclass Plc, Heath Mill Road, Wombourne, Wolverhampton, West Midlands, WV5 8AP",
+                "country": "GB"
+            }
+        ]
+    }
+]

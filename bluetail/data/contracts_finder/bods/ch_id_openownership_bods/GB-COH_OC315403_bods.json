@@ -1,0 +1,100 @@
+[
+    {
+        "statementID": "openownership-register-16739583532962587134",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MUCKLE LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC315403"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC315403"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC315403"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC315403"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC315403"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC315403",
+                "uri": "https://opencorporates.com/companies/gb/OC315403"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc315403"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc315403"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc315403"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc315403"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92a6967e4ebf34013271f",
+                "uri": "http://register.openownership.org/entities/59b92a6967e4ebf34013271f"
+            }
+        ],
+        "foundingDate": "2005-09-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "C/O Muckle Llp Time Central, 32 Gallowgate, Newcastle Upon Tyne, Tyne And Wear, NE1 4BF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11605066732737245753",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-09-28",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16739583532962587134"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

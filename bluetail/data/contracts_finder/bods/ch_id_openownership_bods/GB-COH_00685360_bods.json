@@ -1,0 +1,122 @@
+[
+    {
+        "statementID": "openownership-register-5524053428250729693",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "W.MCCLURE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00685360"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00685360"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00685360"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00685360",
+                "uri": "https://opencorporates.com/companies/gb/00685360"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00685360"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92c0867e4ebf3401aab05",
+                "uri": "http://register.openownership.org/entities/59b92c0867e4ebf3401aab05"
+            }
+        ],
+        "foundingDate": "1961-03-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "College Road, Windermere, Cumbria, LA23 1BX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8867755499487971893",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5524053428250729693"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15501938399806455172"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15501938399806455172",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "William Keith Mcclure"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00685360/persons-with-significant-control/individual/yywkHq6NX6BvTBEgW2-pI823rHU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9856e67e4ebf340c28125",
+                "uri": "http://register.openownership.org/entities/59b9856e67e4ebf340c28125"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1944-09-01",
+        "addresses": [
+            {
+                "address": "W Mcclure Ltd, College Road, Windermere, LA23 1BX"
+            }
+        ]
+    }
+]

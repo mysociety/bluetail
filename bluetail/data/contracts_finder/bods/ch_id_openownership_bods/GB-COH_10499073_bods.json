@@ -1,0 +1,119 @@
+[
+    {
+        "statementID": "openownership-register-2813021861825682602",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AEGIS CARE SOLUTIONS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10499073"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10499073",
+                "uri": "https://opencorporates.com/companies/gb/10499073"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9630067e4ebf340190782",
+                "uri": "http://register.openownership.org/entities/59b9630067e4ebf340190782"
+            }
+        ],
+        "foundingDate": "2016-11-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Suite 2 Diamond House, Whitelock Street, Leeds, LS7 1AL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17302006803515803472",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-28",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2813021861825682602"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-17036589559458928212"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-28"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-11-28"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-11-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17036589559458928212",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Gerald Johnson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/10499073/persons-with-significant-control/individual/jGBPQs0Ut5hfh0G2cWMcKQRH0zk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9630067e4ebf340190796",
+                "uri": "http://register.openownership.org/entities/59b9630067e4ebf340190796"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-12-01",
+        "addresses": [
+            {
+                "address": "15 Carr Maror Place, Leeds, West Yorkshire, LS17 5DL"
+            }
+        ]
+    }
+]

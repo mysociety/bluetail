@@ -1,0 +1,168 @@
+[
+    {
+        "statementID": "openownership-register-11689762159133186456",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GRACE LIVE IN CARERS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07838793"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07838793",
+                "uri": "https://opencorporates.com/companies/gb/07838793"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9609367e4ebf3400d2ca3",
+                "uri": "http://register.openownership.org/entities/59b9609367e4ebf3400d2ca3"
+            }
+        ],
+        "foundingDate": "2011-11-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Ivy Business Centre Crown Street, Failsworth, Manchester, M35 9BG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9592271322336401608",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-08",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11689762159133186456"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1678056503372223469"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-11-08"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-11-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4815560521482719670",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-07",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11689762159133186456"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16977800564789912073"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-11-07"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-11-07"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1678056503372223469",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Alice Princess Mhizha"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07838793/persons-with-significant-control/individual/R9dWq_nfg1pd20zk9SUVxNt7BCk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9609367e4ebf3400d2cac",
+                "uri": "http://register.openownership.org/entities/59b9609367e4ebf3400d2cac"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-08-01",
+        "addresses": [
+            {
+                "address": "20 Gloucester Ave, Gloucester Avenue, Whitefield, Manchester, M45 6BX"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16977800564789912073",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Reginah Chidemo"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07838793/persons-with-significant-control/individual/vAP-GKcxZlzdUg_tgbcdAvr42tU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9609367e4ebf3400d2cb9",
+                "uri": "http://register.openownership.org/entities/59b9609367e4ebf3400d2cb9"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-07-01",
+        "addresses": [
+            {
+                "address": "12 Chisholm St, Chisholm Street, Openshaw, Manchester, Lancashire, M11 2LE",
+                "country": "GB"
+            }
+        ]
+    }
+]

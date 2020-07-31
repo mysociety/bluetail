@@ -1,0 +1,159 @@
+[
+    {
+        "statementID": "openownership-register-16481127517775027741",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VWR INTERNATIONAL LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01932827"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01932827"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01932827"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01932827"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01932827",
+                "uri": "https://opencorporates.com/companies/gb/01932827"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94bbe67e4ebf340acde82",
+                "uri": "http://register.openownership.org/entities/59b94bbe67e4ebf340acde82"
+            }
+        ],
+        "foundingDate": "1985-07-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Hunter Boulevard, Magna Park, Lutterworth, Leicestershire, LE17 4XN",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14035280139603093130",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16481127517775027741"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-13653957003299453684"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13653957003299453684",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VWR HOLDCO LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06532862"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06532862",
+                "uri": "https://opencorporates.com/companies/gb/06532862"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94bbe67e4ebf340acdfd0",
+                "uri": "http://register.openownership.org/entities/59b94bbe67e4ebf340acdfd0"
+            }
+        ],
+        "foundingDate": "2008-03-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Vwr Holdco Limited Hunter Boulevard, Magna Park, Lutterworth, Leicestershire, LE17 4XN",
+                "country": "GB"
+            }
+        ]
+    }
+]

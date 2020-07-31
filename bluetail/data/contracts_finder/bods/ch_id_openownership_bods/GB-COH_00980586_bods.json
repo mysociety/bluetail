@@ -1,0 +1,170 @@
+[
+    {
+        "statementID": "openownership-register-15522977860297736169",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WESTCOUNTRY FRUIT SALES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00980586"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00980586",
+                "uri": "https://opencorporates.com/companies/gb/00980586"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94df467e4ebf340b785f9",
+                "uri": "http://register.openownership.org/entities/59b94df467e4ebf340b785f9"
+            }
+        ],
+        "foundingDate": "1970-05-27",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Fresh Produce Distribution Centr, Higher Argal Budock, Falmouth, Cornwall, TR11 5PE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15688495995081424295",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15522977860297736169"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2963209102761951657"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11525705184508391783",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15522977860297736169"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2639196040996918301"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2963209102761951657",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sean Harcourt Williams"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00980586/persons-with-significant-control/individual/9q--sIlMIBIV8oZcDO2c2vlkTrU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94df467e4ebf340b78607",
+                "uri": "http://register.openownership.org/entities/59b94df467e4ebf340b78607"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-05-01",
+        "addresses": [
+            {
+                "address": "The Old Rectory, Albany Road, Falmouth, Cornwall, TR11 3RP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2639196040996918301",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sally Elizabeth Williams"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00980586/persons-with-significant-control/individual/zy4zjtl0UovXY7FXTBohbAeyi_k"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94df467e4ebf340b7862d",
+                "uri": "http://register.openownership.org/entities/59b94df467e4ebf340b7862d"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-12-01",
+        "addresses": [
+            {
+                "address": "The Old Rectory, Albany Road, Falmouth, Cornwall, TR11 3RP",
+                "country": "GB"
+            }
+        ]
+    }
+]

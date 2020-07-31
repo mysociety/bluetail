@@ -1,0 +1,174 @@
+[
+    {
+        "statementID": "openownership-register-7392144822929079855",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TRAKM8 LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04415597"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04415597"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04415597",
+                "uri": "https://opencorporates.com/companies/gb/04415597"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99fec67e4ebf340202d0f",
+                "uri": "http://register.openownership.org/entities/59b99fec67e4ebf340202d0f"
+            }
+        ],
+        "foundingDate": "2002-04-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "4 Roman Park Roman Way, Coleshill, West Midlands, Birmingham, B46 1HG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16159323746123146941",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7392144822929079855"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-9995352915018958319"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-12-10T10:45:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9995352915018958319",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TRAKM8 HOLDINGS PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05452547"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05452547",
+                "uri": "https://opencorporates.com/companies/gb/05452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "5452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "5452547"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05452547"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92db567e4ebf340236ab8",
+                "uri": "http://register.openownership.org/entities/59b92db567e4ebf340236ab8"
+            }
+        ],
+        "foundingDate": "2005-05-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "4 Roman Park Roman Way, Coleshill, Birmingham, West Midlands, B46 1HG",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "statementID": "openownership-register-11374796674183386772",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FINANCIAL DATA MANAGEMENT PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02827644"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02827644",
+                "uri": "https://opencorporates.com/companies/gb/02827644"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d59567e4ebf340eaabe1",
+                "uri": "http://register.openownership.org/entities/59b9d59567e4ebf340eaabe1"
+            }
+        ],
+        "foundingDate": "1993-06-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "7 Electra Business Park, Bidder Street, London, E16 4ES",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6608758897613037075",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11374796674183386772"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14292712322961641661"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8974763810461343634",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11374796674183386772"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-493647506221964549"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14292712322961641661",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Janet Christine Stewart"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02827644/persons-with-significant-control/individual/E5i5zvdsvSvhkGl5yPym9_FqvdI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d59667e4ebf340eaae6e",
+                "uri": "http://register.openownership.org/entities/59b9d59667e4ebf340eaae6e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1953-12-01",
+        "addresses": [
+            {
+                "address": "6 Pageant Crescent, Pageant Steps, Rotherhithe Street, London, London, SE16 5FZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-493647506221964549",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "James Laughlin Fletcher"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02827644/persons-with-significant-control/individual/brjL36A3GIDJERPnfIjr4dqBSvw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d59567e4ebf340eaabea",
+                "uri": "http://register.openownership.org/entities/59b9d59567e4ebf340eaabea"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1949-01-01",
+        "addresses": [
+            {
+                "address": "6 Pageant Crescent, Rotherhithe Street, London, SE16 5FZ",
+                "country": "GB"
+            }
+        ]
+    }
+]

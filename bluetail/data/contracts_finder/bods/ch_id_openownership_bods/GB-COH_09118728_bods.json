@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-16025948187737994670",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SCHOOLS AND EARLY EDUCATION DEVELOPMENT SERVICES LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09118728"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09118728",
+                "uri": "https://opencorporates.com/companies/gb/09118728"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4f08767e4ebf3403e6464",
+                "uri": "http://register.openownership.org/entities/59c4f08767e4ebf3403e6464"
+            }
+        ],
+        "foundingDate": "2014-07-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "41 Pineridge Drive, Kidderminster, Worcestershire, DY11 6BQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6316795425681784390",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-07",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16025948187737994670"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16238506817196841345"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-07"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16238506817196841345",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Suzanne Dunn"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09118728/persons-with-significant-control/individual/lw5J2Rb-QCXprz7eOX-I5rqVGqo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bbb9e2a9dfc3fae18a94ff0",
+                "uri": "http://register.openownership.org/entities/5bbb9e2a9dfc3fae18a94ff0"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-02-01",
+        "addresses": [
+            {
+                "address": "41, Pineridge Drive, Kidderminster, Worcestershire, DY11 6BQ"
+            }
+        ]
+    }
+]

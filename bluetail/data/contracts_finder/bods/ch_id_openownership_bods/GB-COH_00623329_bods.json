@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-6947726883143974698",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "JAMES BURROWS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00623329"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00623329",
+                "uri": "https://opencorporates.com/companies/gb/00623329"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b981b667e4ebf340b0f268",
+                "uri": "http://register.openownership.org/entities/59b981b667e4ebf340b0f268"
+            }
+        ],
+        "foundingDate": "1959-03-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "323 Katherine Street, Ashton-Under-Lyne, Lancashire, OL6 7AE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8340531819523458550",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6947726883143974698"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11535507024918287803"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7984931253475602746",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6947726883143974698"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7628327461387385888"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11535507024918287803",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "James Alexander Burrows"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00623329/persons-with-significant-control/individual/V90_UmYA3GiT1_IH459RYG4OCmg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b981b667e4ebf340b0f274",
+                "uri": "http://register.openownership.org/entities/59b981b667e4ebf340b0f274"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1951-10-01",
+        "addresses": [
+            {
+                "address": "323, Katherine Street, Ashton-Under-Lyne, Lancashire, OL6 7AE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7628327461387385888",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Phillip John Burrows"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00623329/persons-with-significant-control/individual/ux3CNY1AmFsi1FoeiJ-6Ir-XDhU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b981b667e4ebf340b0f270",
+                "uri": "http://register.openownership.org/entities/59b981b667e4ebf340b0f270"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1953-02-01",
+        "addresses": [
+            {
+                "address": "323, Katherine Street, Ashton-Under-Lyne, Lancashire, OL6 7AE"
+            }
+        ]
+    }
+]

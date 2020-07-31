@@ -1,0 +1,190 @@
+[
+    {
+        "statementID": "openownership-register-17585872579724451345",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MEDINA CAPITAL DAIRY COMPANY LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06935889"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06935889",
+                "uri": "https://opencorporates.com/companies/gb/06935889"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d26f67e4ebf340debbc8",
+                "uri": "http://register.openownership.org/entities/59b9d26f67e4ebf340debbc8"
+            }
+        ],
+        "foundingDate": "2009-06-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "42-44 Leppings Lane, Hillsborough, Sheffield, S6 1ST",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13933823099614846250",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-18",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17585872579724451345"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2385682816793379847"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-18"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16465287647775210764",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-18",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17585872579724451345"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1792049604594612956"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-18"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2385682816793379847",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Arfaiz Hussain"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06935889/persons-with-significant-control/individual/kZZZO998v7gvoI7qBVJNiicHlM8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d26f67e4ebf340debc5f",
+                "uri": "http://register.openownership.org/entities/59b9d26f67e4ebf340debc5f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1983-06-01",
+        "addresses": [
+            {
+                "address": "52 Illingworth, St Leonards Hill, Windsor, Berkshire, SL4 4UP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1792049604594612956",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ASH PROPERTIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06853606"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06853606"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06853606"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06853606",
+                "uri": "https://opencorporates.com/companies/gb/06853606"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06853606"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06853606"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99e2e67e4ebf3401a1740",
+                "uri": "http://register.openownership.org/entities/59b99e2e67e4ebf3401a1740"
+            }
+        ],
+        "foundingDate": "2009-03-20",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "38 The Drive, Ickenham, Middlesex, UB10 8AG",
+                "country": "GB"
+            }
+        ]
+    }
+]

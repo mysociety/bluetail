@@ -1,0 +1,109 @@
+[
+    {
+        "statementID": "openownership-register-2536150686271446168",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AARON SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03193203"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03193203",
+                "uri": "https://opencorporates.com/companies/gb/03193203"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9be3e67e4ebf340938eea",
+                "uri": "http://register.openownership.org/entities/59b9be3e67e4ebf340938eea"
+            }
+        ],
+        "foundingDate": "1996-05-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 1 Yardley Business Park, Luckyn Lane, Basildon, Essex, SS14 3BZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5655382823468379055",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2536150686271446168"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-9884704909219733160"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9884704909219733160",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AARON HEATING SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07220432"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07220432"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07220432",
+                "uri": "https://opencorporates.com/companies/gb/07220432"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9af8067e4ebf3405a3f2f",
+                "uri": "http://register.openownership.org/entities/59b9af8067e4ebf3405a3f2f"
+            }
+        ],
+        "foundingDate": "2010-04-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 1 Yardley Business Park, Luckyn Lane, Basildon, Essex, SS14 3BZ",
+                "country": "GB"
+            }
+        ]
+    }
+]

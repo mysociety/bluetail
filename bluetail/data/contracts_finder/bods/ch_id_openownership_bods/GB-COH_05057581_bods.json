@@ -1,0 +1,506 @@
+[
+    {
+        "statementID": "openownership-register-8606477380393946468",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AT MEDICS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05057581"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05057581",
+                "uri": "https://opencorporates.com/companies/gb/05057581"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9992167e4ebf340075f48",
+                "uri": "http://register.openownership.org/entities/59b9992167e4ebf340075f48"
+            }
+        ],
+        "foundingDate": "2004-02-27",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Streatham Place Surgery, 26-28 Streatham Place, London, SW2 4QY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14442943261054490917",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-09-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8606477380393946468"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-14308897561987376829"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-09-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-09-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-25T14:19:31Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14433514789715534343",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-27",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8606477380393946468"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-18231731232750180862"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2017-02-27",
+                "endDate": "2019-09-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3733551503723296702",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-27",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8606477380393946468"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-18437687581711487420"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2017-02-27",
+                "endDate": "2019-09-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4258877767465713255",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-27",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8606477380393946468"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1167094286417532083"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2017-02-27",
+                "endDate": "2019-09-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7381469559995260440",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-27",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8606477380393946468"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14529049488874670600"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2017-02-27",
+                "endDate": "2019-09-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-18220679031540636173",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-27",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8606477380393946468"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12936960606272848999"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2017-02-27",
+                "endDate": "2019-09-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17308607870218006667",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-27",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8606477380393946468"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11424880420667194045"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2017-02-27",
+                "endDate": "2019-09-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14308897561987376829",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "AT MEDICS HOLDINGS LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC428198"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC428198",
+                "uri": "https://opencorporates.com/companies/gb/OC428198"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc428198"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc428198"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc428198"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc428198"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc428198"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5d397f2e9dfc3fae18fc1380",
+                "uri": "http://register.openownership.org/entities/5d397f2e9dfc3fae18fc1380"
+            }
+        ],
+        "foundingDate": "2019-07-24",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "26-28 Streatham Place, London, SW2 4QY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18231731232750180862",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Hasnain Ali Abbasi"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05057581/persons-with-significant-control/individual/3vm1u-AH6_cNrXVBoI39MQJewEE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9992167e4ebf340075f6f",
+                "uri": "http://register.openownership.org/entities/59b9992167e4ebf340075f6f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-04-01",
+        "addresses": [
+            {
+                "address": "Streatham Place Surgery, 26-28 Streatham Place, London, SW2 4QY"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18437687581711487420",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Muneeb Saleem Choudhry"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05057581/persons-with-significant-control/individual/4goTqzdL23EAkdz45DiDKcHHO_0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9992167e4ebf340075f84",
+                "uri": "http://register.openownership.org/entities/59b9992167e4ebf340075f84"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-01-01",
+        "addresses": [
+            {
+                "address": "Streatham Place Surgery, 26-28 Streatham Place, London, SW2 4QY"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1167094286417532083",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Tarek Radwan"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05057581/persons-with-significant-control/individual/DIlgzRMbx089ZP4EvVyQ89bJnjQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9992167e4ebf340075f81",
+                "uri": "http://register.openownership.org/entities/59b9992167e4ebf340075f81"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-02-01",
+        "addresses": [
+            {
+                "address": "Streatham Place Surgery, 26-28 Streatham Place, London, SW2 4QY"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14529049488874670600",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Muhammad Usman Quraishi"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05057581/persons-with-significant-control/individual/h65Q-tHMQhzJC0Fr-MQ_cc4HSkc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9992167e4ebf340075f56",
+                "uri": "http://register.openownership.org/entities/59b9992167e4ebf340075f56"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-08-01",
+        "addresses": [
+            {
+                "address": "Streatham Place Surgery, 26-28 Streatham Place, London, SW2 4QY"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12936960606272848999",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mohammad Aumran Tahir"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05057581/persons-with-significant-control/individual/optpNmR43FVCkMeYn_mIPKqIbPE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9992167e4ebf340075f62",
+                "uri": "http://register.openownership.org/entities/59b9992167e4ebf340075f62"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-03-01",
+        "addresses": [
+            {
+                "address": "Streatham Place Surgery, 26-28 Streatham Place, London, SW2 4QY"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11424880420667194045",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Fiyaz Lebbe"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05057581/persons-with-significant-control/individual/pf4tlkZq1Y9r5sUFyEXcnceH4V0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9992167e4ebf340075f7a",
+                "uri": "http://register.openownership.org/entities/59b9992167e4ebf340075f7a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1973-08-01",
+        "addresses": [
+            {
+                "address": "Streatham Place Surgery, 26-28 Streatham Place, London, SW2 4QY"
+            }
+        ]
+    }
+]

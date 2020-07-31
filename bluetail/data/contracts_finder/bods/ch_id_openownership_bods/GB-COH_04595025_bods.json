@@ -1,0 +1,235 @@
+[
+    {
+        "statementID": "openownership-register-11279164443631403901",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "INTERPLAN SIGN SYSTEMS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04595025"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04595025",
+                "uri": "https://opencorporates.com/companies/gb/04595025"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95fbf67e4ebf3400997b5",
+                "uri": "http://register.openownership.org/entities/59b95fbf67e4ebf3400997b5"
+            }
+        ],
+        "foundingDate": "2002-11-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 2 Taylors Business Centre, Hownsgill Drive, Consett, County Durham, DH8 9HU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17396660233882746383",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11279164443631403901"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16446960508272542941"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-11-19"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12878334196211690801",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11279164443631403901"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14048582356543344089"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-19"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1314722078766284854",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11279164443631403901"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7175034877570969341"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-11-19"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16446960508272542941",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "John Duncan Turnbull"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04595025/persons-with-significant-control/individual/S4agMNBVIegQ_RmBLxDTtKWM4Jc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95fbf67e4ebf3400997c5",
+                "uri": "http://register.openownership.org/entities/59b95fbf67e4ebf3400997c5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1976-12-01",
+        "addresses": [
+            {
+                "address": "Unit 6-7, Abbey Road Industrial Estate, Durham, County Durham, DH1 5HB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14048582356543344089",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Ronald Johnstone"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04595025/persons-with-significant-control/individual/ezfYlDxPPChGeslwXFmfuO0Rt_g"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95fbf67e4ebf3400997fe",
+                "uri": "http://register.openownership.org/entities/59b95fbf67e4ebf3400997fe"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1946-11-01",
+        "addresses": [
+            {
+                "address": "Unit 6-7, Abbey Road Industrial Estate, Durham, County Durham, DH1 5HB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7175034877570969341",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Pauline Johnstone"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04595025/persons-with-significant-control/individual/mKjwlywDHGYKOlTft5q7nFYw-TY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95fbf67e4ebf3400997fc",
+                "uri": "http://register.openownership.org/entities/59b95fbf67e4ebf3400997fc"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1947-02-01",
+        "addresses": [
+            {
+                "address": "Unit 6-7, Abbey Road Industrial Estate, Durham, County Durham, DH1 5HB"
+            }
+        ]
+    }
+]

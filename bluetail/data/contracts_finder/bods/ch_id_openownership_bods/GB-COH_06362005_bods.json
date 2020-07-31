@@ -1,0 +1,97 @@
+[
+    {
+        "statementID": "openownership-register-7114623078272951639",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "1ST CLASS TRAVEL U.K. LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06362005"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06362005",
+                "uri": "https://opencorporates.com/companies/gb/06362005"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93aee67e4ebf34062553f",
+                "uri": "http://register.openownership.org/entities/59b93aee67e4ebf34062553f"
+            }
+        ],
+        "foundingDate": "2007-09-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "37 Middlehurst Road Grappenhall, Warrington, Cheshire, WA4 2LG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18023339302866564630",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-09-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7114623078272951639"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15718511106537044047"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-09-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15718511106537044047",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Susan Carol Mcevoy"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06362005/persons-with-significant-control/individual/xQjLvdsykqeVDjYbS7mAavXHKa8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93aee67e4ebf340625545",
+                "uri": "http://register.openownership.org/entities/59b93aee67e4ebf340625545"
+            }
+        ],
+        "birthDate": "1958-10-01",
+        "addresses": [
+            {
+                "address": "37 Middlehurst Road, Grappenhall, Warrington, Cheshire, WA4 2LG"
+            }
+        ]
+    }
+]

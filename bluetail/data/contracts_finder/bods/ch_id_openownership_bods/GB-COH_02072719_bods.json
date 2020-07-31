@@ -1,0 +1,138 @@
+[
+    {
+        "statementID": "openownership-register-13158163081644647545",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TEAM CONSULTING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02072719"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02072719",
+                "uri": "https://opencorporates.com/companies/gb/02072719"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c1a267e4ebf340a06b04",
+                "uri": "http://register.openownership.org/entities/59b9c1a267e4ebf340a06b04"
+            }
+        ],
+        "foundingDate": "1986-11-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Abbey Barns, Duxford Road, Ickleton, Cambridgeshire, CB10 1SX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11958801498719414804",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13158163081644647545"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-3259065130492238013"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3259065130492238013",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TEAM MEDICAL DEVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08767466"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08767466"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08767466"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08767466",
+                "uri": "https://opencorporates.com/companies/gb/08767466"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b0f667e4ebf3405fbe38",
+                "uri": "http://register.openownership.org/entities/59b9b0f667e4ebf3405fbe38"
+            }
+        ],
+        "foundingDate": "2013-11-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Abbey Barns, Duxford Road, Ickleton, Cambridgeshire, CB10 1SX",
+                "country": "GB"
+            }
+        ]
+    }
+]

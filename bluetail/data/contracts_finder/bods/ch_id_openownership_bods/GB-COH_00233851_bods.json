@@ -1,0 +1,107 @@
+[
+    {
+        "statementID": "openownership-register-3855891494061752956",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "APETITO LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233851"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233851"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00233851"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00233851",
+                "uri": "https://opencorporates.com/companies/gb/00233851"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b990f167e4ebf340eb61f2",
+                "uri": "http://register.openownership.org/entities/59b990f167e4ebf340eb61f2"
+            }
+        ],
+        "foundingDate": "1928-10-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Canal Road, Trowbridge, Wiltshire, BA14 8RJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15449381526282442049",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-26",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3855891494061752956"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13313633781544420823"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2017-02-26"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13313633781544420823",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Richard Peter Ring"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03123406/persons-with-significant-control/individual/dptLaP6Rxa4QOvzjhBD3ixHwSyw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95ee667e4ebf340059d6f",
+                "uri": "http://register.openownership.org/entities/59b95ee667e4ebf340059d6f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1971-06-01",
+        "addresses": [
+            {
+                "address": "Canal Road, Trowbridge, Wiltshire, BA14 8RJ"
+            }
+        ]
+    }
+]

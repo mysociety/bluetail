@@ -1,0 +1,114 @@
+[
+    {
+        "statementID": "openownership-register-3840655768547213619",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ALLSIGNS INTERNATIONAL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03794781"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03794781"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03794781",
+                "uri": "https://opencorporates.com/companies/gb/03794781"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3794781"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9651e67e4ebf3402346b7",
+                "uri": "http://register.openownership.org/entities/59b9651e67e4ebf3402346b7"
+            }
+        ],
+        "foundingDate": "1999-06-24",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Brunel Industrial Estate, Blyth Road, Harworth, Doncaster, South Yorkshire, DN11 8LA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14385407365143723468",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3840655768547213619"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8032640366515700077"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8032640366515700077",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Stuart David Turner"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03794781/persons-with-significant-control/individual/3EJu-xxhhkLrEwODqV3Gr3QTwRs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d63667e4ebf340ec9331",
+                "uri": "http://register.openownership.org/entities/59b9d63667e4ebf340ec9331"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-08-01",
+        "addresses": [
+            {
+                "address": "Brunel Industrial Estate, Blyth Road, Harworth, Doncaster, South Yorkshire, DN11 8LA",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "statementID": "openownership-register-13293148522361346319",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "J.W. YOUNG (BUTCHERS) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01348637"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01348637",
+                "uri": "https://opencorporates.com/companies/gb/01348637"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9855e67e4ebf340c2448c",
+                "uri": "http://register.openownership.org/entities/59b9855e67e4ebf340c2448c"
+            }
+        ],
+        "foundingDate": "1978-01-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "10 Baker Street, Attercliffe, Sheffield, S9 3WG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4962085556214478582",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-13293148522361346319"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-476933352463931436"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-476933352463931436",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "John William Young"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01348637/persons-with-significant-control/individual/JQEcK-_VN4f_lsluuytRabbBcM4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9855e67e4ebf340c2449e",
+                "uri": "http://register.openownership.org/entities/59b9855e67e4ebf340c2449e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1950-10-01",
+        "addresses": [
+            {
+                "address": "10 Baker Street, Attercliffe, Sheffield, S9 3WG"
+            }
+        ]
+    }
+]

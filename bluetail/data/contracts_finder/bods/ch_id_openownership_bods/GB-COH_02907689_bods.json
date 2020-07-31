@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-6535867762253733985",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TANBRY CONSTRUCTION LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02907689"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02907689",
+                "uri": "https://opencorporates.com/companies/gb/02907689"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99af867e4ebf3400e3638",
+                "uri": "http://register.openownership.org/entities/59b99af867e4ebf3400e3638"
+            }
+        ],
+        "foundingDate": "1994-03-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Tanbry House The Broadway, Great Central Road, Mansfield, Nottinghamshire, NG18 2RL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-944401803970008615",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6535867762253733985"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9594782332843229631"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-09-06T08:35:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9594782332843229631",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Robert Charles Bryant"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02907689/persons-with-significant-control/individual/E9d-11DaDucHXjOoFjlCR6v3upg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99af867e4ebf3400e363d",
+                "uri": "http://register.openownership.org/entities/59b99af867e4ebf3400e363d"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-02-01",
+        "addresses": [
+            {
+                "address": "Tanbry House The Broadway, Great Central Road, Mansfield, Nottinghamshire, NG18 2RL"
+            }
+        ]
+    }
+]

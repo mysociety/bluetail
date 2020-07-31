@@ -1,0 +1,135 @@
+[
+    {
+        "statementID": "openownership-register-3623045469458581604",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ACE OFFICE ENVIRONMENTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00781883"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00781883"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00781883"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00781883",
+                "uri": "https://opencorporates.com/companies/gb/00781883"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "781883"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "781883"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92fa867e4ebf3402d68fc",
+                "uri": "http://register.openownership.org/entities/59b92fa867e4ebf3402d68fc"
+            }
+        ],
+        "foundingDate": "1963-11-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Emberton House, Yeomans Way, Bournemouth, Dorset, BH8 0BP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5177284125166688786",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3623045469458581604"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1601868399216847960"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1601868399216847960",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Angela Carole Carter"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00781883/persons-with-significant-control/individual/GrBWg4kSLRkFx3u-TEkZ0JZy324"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d7b367e4ebf340f14a5f",
+                "uri": "http://register.openownership.org/entities/59b9d7b367e4ebf340f14a5f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1943-11-01",
+        "addresses": [
+            {
+                "address": "Emberton House, Yeomans Way, Bournemouth, Dorset, BH8 0BP",
+                "country": "GB"
+            }
+        ]
+    }
+]

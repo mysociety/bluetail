@@ -1,0 +1,97 @@
+[
+    {
+        "statementID": "openownership-register-12610553208542954610",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VYGON (U.K.) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01131530"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01131530",
+                "uri": "https://opencorporates.com/companies/gb/01131530"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c9aa67e4ebf340be31df",
+                "uri": "http://register.openownership.org/entities/59b9c9aa67e4ebf340be31df"
+            }
+        ],
+        "foundingDate": "1973-08-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Pierre Simonet Building V Park, Gateway North, Latham Road, Swindon, Wiltshire, SN25 4DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18321627677624945632",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12610553208542954610"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-4776356091169016421"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4776356091169016421",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Vygon Sa",
+        "incorporatedInJurisdiction": {
+            "name": "France",
+            "code": "FR"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01131530/persons-with-significant-control/corporate-entity/flW-4FT1noIQhIB2fROq_qIH2vA"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c9ab67e4ebf340be358d",
+                "uri": "http://register.openownership.org/entities/59b9c9ab67e4ebf340be358d"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Bp 7, 5-11 Rue Adeline, Ecouen",
+                "country": "FR"
+            }
+        ]
+    }
+]

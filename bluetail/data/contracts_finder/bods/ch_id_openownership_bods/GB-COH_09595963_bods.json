@@ -1,0 +1,124 @@
+[
+    {
+        "statementID": "openownership-register-9230050192092553058",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ULTICARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09595963"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09595963",
+                "uri": "https://opencorporates.com/companies/gb/09595963"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c55c67e4ebf340af50e1",
+                "uri": "http://register.openownership.org/entities/59b9c55c67e4ebf340af50e1"
+            }
+        ],
+        "foundingDate": "2015-05-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Saturn Center Suite 10, 2nd Floor, Spring Road, Ettingshall, Wolverhampton, WV4 6JX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12386461100364862323",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-07",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9230050192092553058"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12244287981432473733"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-07"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-07"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-07"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-04-07"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-11-06T11:44:23Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12244287981432473733",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Edmund Osom Azu"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09595963/persons-with-significant-control/individual/ob4CZOD5Qx7xh6XnPYfQgSFQGcw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c55c67e4ebf340af50eb",
+                "uri": "http://register.openownership.org/entities/59b9c55c67e4ebf340af50eb"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-09-01",
+        "addresses": [
+            {
+                "address": "The Saturn Center, Suite 10, 2nd Floor, Spring Road, Ettingshall, Wolverhampton, WV4 6JX"
+            }
+        ]
+    }
+]

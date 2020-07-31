@@ -1,0 +1,60 @@
+[
+    {
+        "statementID": "openownership-register-3292947659296301555",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TEAM PREVENT UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05770728"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05770728",
+                "uri": "https://opencorporates.com/companies/gb/05770728"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c504ea67e4ebf3406615aa",
+                "uri": "http://register.openownership.org/entities/59c504ea67e4ebf3406615aa"
+            }
+        ],
+        "foundingDate": "2006-04-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "First Floor Rickyard Barn Pury Hill Business Park, Alderton Road, Paulerspury, Towcester, Northants, NN12 7LS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2278736696968938036",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-04-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3292947659296301555"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

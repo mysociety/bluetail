@@ -1,0 +1,222 @@
+[
+    {
+        "statementID": "openownership-register-7610221257551543742",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BERTRAM TRADING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06849888"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06849888"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06849888"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06849888",
+                "uri": "https://opencorporates.com/companies/gb/06849888"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6849888"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b925d367e4ebf340ff93b9",
+                "uri": "http://register.openownership.org/entities/59b925d367e4ebf340ff93b9"
+            }
+        ],
+        "foundingDate": "2009-03-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Broadland Business Park, Norwich, Norfolk, NR7 0WF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16326468657485151997",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7610221257551543742"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2189202291540262449"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-02-14"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-02-14"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2018-02-14"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8987955916043646441",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-02-14",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7610221257551543742"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1103648215620008408"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-02-14"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-02-14"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2189202291540262449",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SMITHS NEWS INVESTMENTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06831284"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06831284"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06831284",
+                "uri": "https://opencorporates.com/companies/gb/06831284"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6831284"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9e06b67e4ebf3401295ee",
+                "uri": "http://register.openownership.org/entities/59b9e06b67e4ebf3401295ee"
+            }
+        ],
+        "foundingDate": "2009-02-26",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Rowan House Cherry Orchard North, Kembrey Park, Swindon, SN2 8UH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1103648215620008408",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Bertram Group Limited",
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06849888/persons-with-significant-control/corporate-entity/KKJZ15YHPEn4KkBxJwUVCv4zYSc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab944d29dfc3fae1864fe1e",
+                "uri": "http://register.openownership.org/entities/5ab944d29dfc3fae1864fe1e"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "66, Glasshouse Street, London, W1B 5DG"
+            }
+        ]
+    }
+]

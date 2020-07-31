@@ -1,0 +1,119 @@
+[
+    {
+        "statementID": "openownership-register-17252015509703878707",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SARTORIUS STEDIM UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06026124"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06026124",
+                "uri": "https://opencorporates.com/companies/gb/06026124"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9abe167e4ebf3404cfbed",
+                "uri": "http://register.openownership.org/entities/59b9abe167e4ebf3404cfbed"
+            }
+        ],
+        "foundingDate": "2006-12-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Longmead Business Centre, Blenheim Road, Epsom, Surrey, KT19 9QQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17879309331080708148",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17252015509703878707"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1372127032432766284"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1372127032432766284",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SARTORIUS STEDIM BIOTECH",
+        "incorporatedInJurisdiction": {
+            "name": "France",
+            "code": "FR"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06026124/persons-with-significant-control/corporate-entity/O8a16xNIMw8CNmZ8t4XtVvxzZiU"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02732279/persons-with-significant-control/corporate-entity/FW4yj-EigcD3dkxiMQPnSiu_jyc"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03596119/persons-with-significant-control/corporate-entity/VNYMOy0-dHzdJzHgu3wTYSk7DAY"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/fr/314093352",
+                "uri": "https://opencorporates.com/companies/fr/314093352"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC319460/persons-with-significant-control/corporate-entity/wuGW_HAPvAHY2T7Oi4IHrflLjBM"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/12340838/persons-with-significant-control/corporate-entity/0APTRjBW8_QgkTBdPM1uTUTIDtk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9abe267e4ebf3404cffb4",
+                "uri": "http://register.openownership.org/entities/59b9abe267e4ebf3404cffb4"
+            }
+        ],
+        "foundingDate": "1978-01-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "ZONE INDUSTRIELLE LES PALUDS AVENUE DE JOUQUES, AUBAGNE, BOUCHES-DU-RHONE, 13400",
+                "country": "FR"
+            }
+        ]
+    }
+]

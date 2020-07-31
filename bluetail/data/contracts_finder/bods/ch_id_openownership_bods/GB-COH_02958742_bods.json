@@ -1,0 +1,339 @@
+[
+    {
+        "statementID": "openownership-register-14506868161900944671",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MIDLAND FOODS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02958742"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02958742",
+                "uri": "https://opencorporates.com/companies/gb/02958742"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e9167e4ebf34027ce0f",
+                "uri": "http://register.openownership.org/entities/59b92e9167e4ebf34027ce0f"
+            }
+        ],
+        "foundingDate": "1994-08-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "4 & 6 Harris Business Park Hanbury Road, Stoke Prior, Bromsgrove, Worcestershire, B60 4FG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1376571661809554199",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14506868161900944671"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-5980360305929946266"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-08-08"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-08-08"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2018-08-08"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-08-16T09:24:39Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6262103209825930549",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14506868161900944671"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-5980360305929946266"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-04-24T09:24:16Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-893082864776009749",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14506868161900944671"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-5046574818787734190"
+        },
+        "interests": [
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-11-06T11:44:23Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-937222053142909705",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14506868161900944671"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-14513140799966029592"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-04-24T09:24:16Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5980360305929946266",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HEPTINSTALL HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06534546"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06534546"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06534546"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06534546"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06534546"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06534546"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06534546",
+                "uri": "https://opencorporates.com/companies/gb/06534546"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6534546"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e9167e4ebf34027d1f6",
+                "uri": "http://register.openownership.org/entities/59b92e9167e4ebf34027d1f6"
+            }
+        ],
+        "foundingDate": "2008-03-14",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 4 & 6 Harris Bus Park Hanbury Road, Stoke Prior, Bromsgrove, Worcestershire, B60 4FG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5046574818787734190",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Russell Heptinstall"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02958742/persons-with-significant-control/individual/c_cRp5nWzGIis0XUzGdeAFTOHr8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e9167e4ebf34027cef5",
+                "uri": "http://register.openownership.org/entities/59b92e9167e4ebf34027cef5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-11-01",
+        "addresses": [
+            {
+                "address": "Cattespool House, The Cattespool Estate, Stoney Lane, Tardebigge, Nr Bromsgrove, Worcestershire, B60 1LZ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14513140799966029592",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "OL HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11552063"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11552063",
+                "uri": "https://opencorporates.com/companies/gb/11552063"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11552063"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bbb7caf9dfc3fae18469b38",
+                "uri": "http://register.openownership.org/entities/5bbb7caf9dfc3fae18469b38"
+            }
+        ],
+        "foundingDate": "2018-09-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 4 & 6 Harris Business Park Hanbury Road, Stoke Prior, Bromsgrove, Worcestershire, B60 4FG",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "statementID": "openownership-register-17547115173755880452",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NTT DATA SERVICES UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10158811"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10158811",
+                "uri": "https://opencorporates.com/companies/gb/10158811"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bf3d67e4ebf340974f94",
+                "uri": "http://register.openownership.org/entities/59b9bf3d67e4ebf340974f94"
+            }
+        ],
+        "foundingDate": "2016-05-03",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "United Kingdom House 180 Oxford Street, Sixth Floor, London, W1D 1NN",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5386304217133855873",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-03",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17547115173755880452"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2338872498023885842"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-03"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-03"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-05-03"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2338872498023885842",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Ntt Data Corporation",
+        "incorporatedInJurisdiction": {
+            "name": "Japan",
+            "code": "JP"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/10158811/persons-with-significant-control/corporate-entity/ldCtxxZlK2OmWGKJ2-rn4UHQ0cw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bf3e67e4ebf34097535d",
+                "uri": "http://register.openownership.org/entities/59b9bf3e67e4ebf34097535d"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Toyosu Center Building, 3-3, Toyosu 3-Chome, Koto-Ku, Tokyo 135-6033",
+                "country": "JP"
+            }
+        ]
+    }
+]

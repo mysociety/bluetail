@@ -1,0 +1,187 @@
+[
+    {
+        "statementID": "openownership-register-18233870227823715274",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SAYES SERVICE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05928200"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05928200",
+                "uri": "https://opencorporates.com/companies/gb/05928200"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93fe167e4ebf34078e91b",
+                "uri": "http://register.openownership.org/entities/59b93fe167e4ebf34078e91b"
+            }
+        ],
+        "foundingDate": "2006-09-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "St Pauls Works, Richardshaw Lane, Stanningley Pudsey, West Yorkshire, LS28 6BR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2409075535482558784",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-02-28",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18233870227823715274"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8572916485727269050"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-02-28"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-02-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3933277592865597614",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18233870227823715274"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-854714991984110692"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-02-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8572916485727269050",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Sayes Service Holdings Limited",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11169101"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11169101",
+                "uri": "https://opencorporates.com/companies/gb/11169101"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba74e19dfc3fae18fd00f4",
+                "uri": "http://register.openownership.org/entities/5aba74e19dfc3fae18fd00f4"
+            }
+        ],
+        "foundingDate": "2018-01-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "St Paul's Works, Richardshaw Lane, Stanningley, Pudsey, West Yorkshire, LS28 6BR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-854714991984110692",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Nicholas William Jackson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05928200/persons-with-significant-control/individual/Rfky-KOb3qzumREmvA7SIjkfYX8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93fe167e4ebf34078e936",
+                "uri": "http://register.openownership.org/entities/59b93fe167e4ebf34078e936"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1971-05-01",
+        "addresses": [
+            {
+                "address": "St Pauls Works, Richardshaw Lane, Stanningley Pudsey, West Yorkshire, LS28 6BR",
+                "country": "GB"
+            }
+        ]
+    }
+]

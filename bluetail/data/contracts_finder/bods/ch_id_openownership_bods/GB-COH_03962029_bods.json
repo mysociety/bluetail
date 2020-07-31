@@ -1,0 +1,157 @@
+[
+    {
+        "statementID": "openownership-register-4996243076514910257",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FOOD NETWORK CORPORATION LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03962029"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03962029",
+                "uri": "https://opencorporates.com/companies/gb/03962029"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a75167e4ebf3403bc850",
+                "uri": "http://register.openownership.org/entities/59b9a75167e4ebf3403bc850"
+            }
+        ],
+        "foundingDate": "2000-03-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "4 Harwood Court, Riverside Park Industria, Middlesbrough, Cleveland, TS2 1PU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4678961239698735691",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4996243076514910257"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10182347664999088061"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10045953664556204108",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4996243076514910257"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2223052519423532404"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10182347664999088061",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Paul Monks"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03962029/persons-with-significant-control/individual/4a9aMrGfwsPlO3n1PQgdiXfmxs0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a75167e4ebf3403bc85f",
+                "uri": "http://register.openownership.org/entities/59b9a75167e4ebf3403bc85f"
+            }
+        ],
+        "birthDate": "1950-10-01",
+        "addresses": [
+            {
+                "address": "12, South Park Avenue, Middlesbrough, TS6 0NS"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2223052519423532404",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Pamela Marion Jaffray"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03962029/persons-with-significant-control/individual/mqYEu9J8w_Qzm0bQcYeiFj4_VhM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a75167e4ebf3403bc873",
+                "uri": "http://register.openownership.org/entities/59b9a75167e4ebf3403bc873"
+            }
+        ],
+        "birthDate": "1956-02-01",
+        "addresses": [
+            {
+                "address": "4 Harwood Court, Riverside Park Industria, Middlesbrough, Cleveland, TS2 1PU"
+            }
+        ]
+    }
+]

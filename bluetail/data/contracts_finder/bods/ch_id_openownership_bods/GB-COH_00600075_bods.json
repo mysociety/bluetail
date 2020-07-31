@@ -1,0 +1,60 @@
+[
+    {
+        "statementID": "openownership-register-15040088083046386260",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PRESCOTT-THOMAS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00600075"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00600075",
+                "uri": "https://opencorporates.com/companies/gb/00600075"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4ff5367e4ebf3405a2cf7",
+                "uri": "http://register.openownership.org/entities/59c4ff5367e4ebf3405a2cf7"
+            }
+        ],
+        "foundingDate": "1958-03-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 1 Horner House 21 Sherrin Road, Leyton, London, E10 5SQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6210124401475773532",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-01-22",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15040088083046386260"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

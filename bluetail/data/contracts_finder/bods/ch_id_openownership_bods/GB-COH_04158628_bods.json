@@ -1,0 +1,125 @@
+[
+    {
+        "statementID": "openownership-register-4951365633784824465",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GASWAY SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04158628"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04158628"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04158628",
+                "uri": "https://opencorporates.com/companies/gb/04158628"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04158628"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04158628"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9747f67e4ebf3406f7afa",
+                "uri": "http://register.openownership.org/entities/59b9747f67e4ebf3406f7afa"
+            }
+        ],
+        "foundingDate": "2001-02-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "31 King Street, Norwich, Norfolk, NR1 1PD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-108342638757801650",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-12-09",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4951365633784824465"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-11248794310047472518"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-12-09",
+                "endDate": "2019-05-15"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11248794310047472518",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FLAGSHIP HOUSING GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "IP031211"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/IP031211",
+                "uri": "https://opencorporates.com/companies/gb/IP031211"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Ip031211"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9833467e4ebf340b7c1b2",
+                "uri": "http://register.openownership.org/entities/59b9833467e4ebf340b7c1b2"
+            }
+        ]
+    }
+]

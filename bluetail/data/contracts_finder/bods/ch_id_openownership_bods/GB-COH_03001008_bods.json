@@ -1,0 +1,119 @@
+[
+    {
+        "statementID": "openownership-register-14708795642533190243",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MERIT MEDICAL UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03001008"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03001008",
+                "uri": "https://opencorporates.com/companies/gb/03001008"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93b5767e4ebf340642f57",
+                "uri": "http://register.openownership.org/entities/59b93b5767e4ebf340642f57"
+            }
+        ],
+        "foundingDate": "1994-12-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 27 Suttons Business Park Sutton Park Avenue, Earley, Reading, Berkshire, RG6 1AZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1975094320644963386",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14708795642533190243"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1145273986672840523"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1145273986672840523",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MERIT MEDICAL SYSTEMS, INC.",
+        "incorporatedInJurisdiction": {
+            "name": "United States of America",
+            "code": "US"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03001008/persons-with-significant-control/corporate-entity/QEbPwJVZ7-Q0Pt-KIXmxfUHc9Is"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/us_ut/973252-0142",
+                "uri": "https://opencorporates.com/companies/us_ut/973252-0142"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93b5767e4ebf34064303a",
+                "uri": "http://register.openownership.org/entities/59b93b5767e4ebf34064303a"
+            }
+        ],
+        "foundingDate": "1987-07-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1600 W MERIT PARKWAY SOUTH JORDAN, UT 84095",
+                "country": "US"
+            }
+        ]
+    }
+]

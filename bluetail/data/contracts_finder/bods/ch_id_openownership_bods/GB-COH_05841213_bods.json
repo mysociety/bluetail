@@ -1,0 +1,395 @@
+[
+    {
+        "statementID": "openownership-register-14748450377498107049",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CAPITAL LAW LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05841213"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05841213",
+                "uri": "https://opencorporates.com/companies/gb/05841213"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05841213"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05841213"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05841213"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cf9e67e4ebf340d46cc2",
+                "uri": "http://register.openownership.org/entities/59b9cf9e67e4ebf340d46cc2"
+            }
+        ],
+        "foundingDate": "2006-06-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Capital Building, Tyndall Street, Cardiff, Cardiff, CF10 4AZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6955493018886366055",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14748450377498107049"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6491392965691942931"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-04-11"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-04-11"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2447077490670948562",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-04-11",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14748450377498107049"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10563767249785029681"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-04-11"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-04-11"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6893831494572688147",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-04-11",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14748450377498107049"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16889550466445773753"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-04-11"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-04-11"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-18056571534836549407",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-04-11",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14748450377498107049"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11592740129534798834"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-04-11"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-04-11"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10563767249785029681",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Elin Mari Pinnell"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01892658/persons-with-significant-control/individual/3G63jD6asaSdyEaf--TiNwKsRq4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97b7267e4ebf340921b8e",
+                "uri": "http://register.openownership.org/entities/59b97b7267e4ebf340921b8e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1969-04-01",
+        "addresses": [
+            {
+                "address": "Capital Building, Tyndall Street, Cardiff, Cardiff, CF10 4AZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11592740129534798834",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Christopher Perry Nott"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01892658/persons-with-significant-control/individual/3rWTgnTL__7xLWmaOq4xt7MNk78"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97b7267e4ebf340921b96",
+                "uri": "http://register.openownership.org/entities/59b97b7267e4ebf340921b96"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-08-01",
+        "addresses": [
+            {
+                "address": "Capital Building, Tyndall Street, Cardiff, Cardiff, CF10 4AZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16889550466445773753",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Duncan John Gillies Macintosh"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01892658/persons-with-significant-control/individual/_nQ54lAX4sRMTCSgtUKhmR4IAYA"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97b7267e4ebf340921bb0",
+                "uri": "http://register.openownership.org/entities/59b97b7267e4ebf340921bb0"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1957-10-01",
+        "addresses": [
+            {
+                "address": "Capital Building, Tyndall Street, Cardiff, Cardiff, CF10 4AZ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6491392965691942931",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CAPITAL LAW LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC317296"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC317296"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC317296"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC317296"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC317296",
+                "uri": "https://opencorporates.com/companies/gb/OC317296"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc317296"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc317296"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc317296"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab950c99dfc3fae1881902a",
+                "uri": "http://register.openownership.org/entities/5ab950c99dfc3fae1881902a"
+            }
+        ],
+        "foundingDate": "2006-01-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Capital Building, Tyndall Street, Cardiff, CF10 4AZ",
+                "country": "GB"
+            }
+        ]
+    }
+]

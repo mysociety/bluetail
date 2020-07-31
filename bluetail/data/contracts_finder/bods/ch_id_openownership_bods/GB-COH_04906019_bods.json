@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-1114150853728167483",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "JOHN PALIN (WHOLESALE) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04906019"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04906019",
+                "uri": "https://opencorporates.com/companies/gb/04906019"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b945b967e4ebf340910e9c",
+                "uri": "http://register.openownership.org/entities/59b945b967e4ebf340910e9c"
+            }
+        ],
+        "foundingDate": "2003-09-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Brookfield Industrial Estate, Old Coach Road Tansley, Matlock, Derbyshire, DE4 5ND",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12733711139178423691",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1114150853728167483"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8530184136731462156"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3769172356968089862",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-1114150853728167483"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13527221774130042353"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8530184136731462156",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Andrew David Newton"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04906019/persons-with-significant-control/individual/UNZsLpmzkU3OfMAGYWOj5RNAbxE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b945ba67e4ebf340911022",
+                "uri": "http://register.openownership.org/entities/59b945ba67e4ebf340911022"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-11-01",
+        "addresses": [
+            {
+                "address": "Brookfield Industrial Estate, Old Coach Road Tansley, Matlock, Derbyshire, DE4 5ND"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13527221774130042353",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Neil Geoffrey Norman"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04906019/persons-with-significant-control/individual/qT95brHuYEuU4YN1rwhNpp_YId0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b945b967e4ebf340910ebf",
+                "uri": "http://register.openownership.org/entities/59b945b967e4ebf340910ebf"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-07-01",
+        "addresses": [
+            {
+                "address": "Brookfield Industrial Estate, Old Coach Road Tansley, Matlock, Derbyshire, DE4 5ND"
+            }
+        ]
+    }
+]

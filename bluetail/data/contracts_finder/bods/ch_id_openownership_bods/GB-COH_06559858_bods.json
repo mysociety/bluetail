@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-4126714651548600032",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LOVINGANGELS CARE LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06559858"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06559858",
+                "uri": "https://opencorporates.com/companies/gb/06559858"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b5e267e4ebf3407319d0",
+                "uri": "http://register.openownership.org/entities/59b9b5e267e4ebf3407319d0"
+            }
+        ],
+        "foundingDate": "2008-04-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "11 Eddington Road, Bracknell, Berks, RG12 8GF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3274674760539256259",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-07",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4126714651548600032"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-989341101843915180"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-07"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-989341101843915180",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sylviah Nunudzai Matsekeza"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06559858/persons-with-significant-control/individual/f9FOT5kG48RjtQ91SkxpigfLMgo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b5e267e4ebf3407319df",
+                "uri": "http://register.openownership.org/entities/59b9b5e267e4ebf3407319df"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "2016-03-01",
+        "addresses": [
+            {
+                "address": "11, Eddington Road, Bracknell, Berks, RG12 8GF"
+            }
+        ]
+    }
+]

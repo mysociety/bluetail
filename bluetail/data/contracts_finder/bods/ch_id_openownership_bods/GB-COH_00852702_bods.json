@@ -1,0 +1,227 @@
+[
+    {
+        "statementID": "openownership-register-15153240100059940492",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BECTON, DICKINSON U.K. LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00852702"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00852702"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00852702"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00852702"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00852702",
+                "uri": "https://opencorporates.com/companies/gb/00852702"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab95f459dfc3fae18a400ba",
+                "uri": "http://register.openownership.org/entities/5ab95f459dfc3fae18a400ba"
+            }
+        ],
+        "foundingDate": "1965-06-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1030 Eskdale Road, Winnersh Triangle, Wokingham, Berkshire, RG41 5TS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17832869049115348099",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15153240100059940492"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-644586490732683824"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-09-11"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14805861589383296015",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-09-11",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15153240100059940492"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2446565581643407397"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-09-11"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-09-11"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2017-09-11"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-644586490732683824",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MARINE AND GENERAL MUTUAL LIFE ASSURANCE SOCIETY",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00000006"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00000006"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00000006"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00000006",
+                "uri": "https://opencorporates.com/companies/gb/00000006"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6k925n"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06th April 2016"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b930ae67e4ebf3403224c4",
+                "uri": "http://register.openownership.org/entities/59b930ae67e4ebf3403224c4"
+            }
+        ],
+        "foundingDate": "1862-10-25",
+        "dissolutionDate": "2018-07-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Cms Cameron Mckenna Llp Cannon Place, 78 Cannon Street, London, EC4N 6AF",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2446565581643407397",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Becton Dickinson And Company",
+        "incorporatedInJurisdiction": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00852702/persons-with-significant-control/corporate-entity/ruCbCNGQvsRApshcE4O0QD58KHg"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/au/086828686",
+                "uri": "https://opencorporates.com/companies/au/086828686"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b1716289dfc3fae18176276",
+                "uri": "http://register.openownership.org/entities/5b1716289dfc3fae18176276"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Becton Drive, Franklin Lakes, New Jersey 074171880",
+                "country": "AU"
+            }
+        ]
+    }
+]

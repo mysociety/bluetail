@@ -4,9 +4,8 @@ import os
 from django.conf import settings
 from django.test import TestCase
 
-from bluetail import models
-from bluetail.helpers import FlagHelperFunctions, UpsertDataHelpers
-from bluetail.models import BODSPersonStatement
+from bluetail.helpers import FlagHelperFunctions, UpsertDataHelpers, ContextHelperFunctions, BodsHelperFunctions
+from bluetail.models import BODSPersonStatement, OCDSTenderer
 from bluetail.tests.fixtures import insert_flags, insert_flag_attachments
 
 
@@ -81,3 +80,22 @@ class TestFlagHelperFunctions(TestCase):
         flags = self.flag_helper.get_flags_for_bods_identifier(identifier)
         assert not any(flag.flag_name == "person_in_multiple_applications_to_tender" for flag in flags)
         assert any(flag.flag_name == "person_id_matches_cabinet_minister" for flag in flags)
+
+
+class TestContextHelperFunctions(TestCase):
+    context_helper = ContextHelperFunctions()
+
+    def setUp(self):
+        ocds_test_file_path = os.path.join(TEST_DATA_PATH, "ocds-b5fd17suppliermatch-b3f725cb-5a11-4a33-9a37-e068bd48b3e0.json")
+        bods_test_file_path = os.path.join(TEST_DATA_PATH, "GB-COH_SC115530_bods.json")
+        self.upsert_helper.upsert_bods_data(bods_test_file_path)
+        self.upsert_helper.upsert_ocds_data(ocds_test_file_path)
+
+
+    def test_get_tenderer_context(self):
+        t = OCDSTenderer.objects.get(
+            ocid="ocds-b5fd17suppliermatch-b3f725cb-5a11-4a33-9a37-e068bd48b3e0",
+            party_id='4'
+        )
+        a = self.bods_helper.get_related_bods_data_for_tenderer(t)
+        assert a

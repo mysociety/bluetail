@@ -1,0 +1,170 @@
+[
+    {
+        "statementID": "openownership-register-4236641468110177598",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BJSS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02777575"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02777575",
+                "uri": "https://opencorporates.com/companies/gb/02777575"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9813967e4ebf340aeb73d",
+                "uri": "http://register.openownership.org/entities/59b9813967e4ebf340aeb73d"
+            }
+        ],
+        "foundingDate": "1993-01-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Whitehall Quay, Leeds, LS1 4HR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12381822155397649116",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4236641468110177598"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7865599054221901950"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7637402147582762971",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4236641468110177598"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15411095297086024705"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7865599054221901950",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Mark Hunter"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02777575/persons-with-significant-control/individual/DMe306oPaK0hwiZjd8rDhh-_o2A"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9813a67e4ebf340aeb8fb",
+                "uri": "http://register.openownership.org/entities/59b9813a67e4ebf340aeb8fb"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1962-04-01",
+        "addresses": [
+            {
+                "address": "1, Whitehall Quay, Leeds, LS1 4HR"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15411095297086024705",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Andrew Vincent"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02777575/persons-with-significant-control/individual/_FFKfV4gdfiNkBOQ_ic1pJGu5OU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9813967e4ebf340aeb74f",
+                "uri": "http://register.openownership.org/entities/59b9813967e4ebf340aeb74f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-03-01",
+        "addresses": [
+            {
+                "address": "1, Whitehall Quay, Leeds, LS1 4HR",
+                "country": "GB"
+            }
+        ]
+    }
+]

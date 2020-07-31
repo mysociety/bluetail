@@ -1,0 +1,158 @@
+[
+    {
+        "statementID": "openownership-register-16738117659362253182",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THE BARCODE WAREHOUSE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03842666"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03842666",
+                "uri": "https://opencorporates.com/companies/gb/03842666"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94ca467e4ebf340b14c4d",
+                "uri": "http://register.openownership.org/entities/59b94ca467e4ebf340b14c4d"
+            }
+        ],
+        "foundingDate": "1999-09-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Telford Drive, Newark, Nottinghamshire, NG24 2DX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10897865190049683694",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16738117659362253182"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-5046953679248535177"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-trust",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15049534357488137665",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16738117659362253182"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-13221720045410458844"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-trust",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13221720045410458844",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Maureen Anne Lee"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05553009/persons-with-significant-control/individual/rWCIhAtm3AYwhszZZLtX-Cf_TPM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94ca267e4ebf340b14765",
+                "uri": "http://register.openownership.org/entities/59b94ca267e4ebf340b14765"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1948-04-01",
+        "addresses": [
+            {
+                "address": "Telford Drive, Newark, Nottinghamshire, NG24 2DX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5046953679248535177",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Ross Andrew Lee"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05553009/persons-with-significant-control/individual/sISdOhUUo5zQy0uYX8scG-f-tkc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94ca267e4ebf340b14769",
+                "uri": "http://register.openownership.org/entities/59b94ca267e4ebf340b14769"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1948-04-01",
+        "addresses": [
+            {
+                "address": "Telford Drive, Newark, Nottinghamshire, NG24 2DX"
+            }
+        ]
+    }
+]

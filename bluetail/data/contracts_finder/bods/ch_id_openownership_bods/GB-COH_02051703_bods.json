@@ -1,0 +1,108 @@
+[
+    {
+        "statementID": "openownership-register-3974209908549848558",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "XMA LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02051703"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02051703",
+                "uri": "https://opencorporates.com/companies/gb/02051703"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95c7267e4ebf340fa293e",
+                "uri": "http://register.openownership.org/entities/59b95c7267e4ebf340fa293e"
+            }
+        ],
+        "foundingDate": "1986-09-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Wilford Industrial Estate, Ruddington Lane Wilford, Nottingham, Notts, NG11 7EP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9476691872868977700",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3974209908549848558"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-12836163347669957515"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12836163347669957515",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Viglen Limited",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01208441"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01208441",
+                "uri": "https://opencorporates.com/companies/gb/01208441"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9dc8567e4ebf3400412c7",
+                "uri": "http://register.openownership.org/entities/59b9dc8567e4ebf3400412c7"
+            }
+        ],
+        "foundingDate": "1975-04-21",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "7 Handley Page Way, Handley Page Way, Colney Street, St. Albans, AL2 2DQ",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "statementID": "openownership-register-7450787329789817779",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DUNSTERS FARM LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00786115"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00786115",
+                "uri": "https://opencorporates.com/companies/gb/00786115"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9452467e4ebf3408e421f",
+                "uri": "http://register.openownership.org/entities/59b9452467e4ebf3408e421f"
+            }
+        ],
+        "foundingDate": "1963-12-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Waterfold Business Park, Bury, Lancs, BL9 7BR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-780420525050228118",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7450787329789817779"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2025219257263697939"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors-as-firm",
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2025219257263697939",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DUNSTERS FARM (HOLDINGS) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02627984"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02627984"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02627984",
+                "uri": "https://opencorporates.com/companies/gb/02627984"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92c1267e4ebf3401adc69",
+                "uri": "http://register.openownership.org/entities/59b92c1267e4ebf3401adc69"
+            }
+        ],
+        "foundingDate": "1991-07-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Waterfold Business Park, Bury, Lancs, BL9 7BR",
+                "country": "GB"
+            }
+        ]
+    }
+]

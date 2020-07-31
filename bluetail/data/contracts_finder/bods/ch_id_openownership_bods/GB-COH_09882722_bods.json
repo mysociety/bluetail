@@ -1,0 +1,481 @@
+[
+    {
+        "statementID": "openownership-register-11930698568170289496",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CAST CONSULT LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09882722"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09882722",
+                "uri": "https://opencorporates.com/companies/gb/09882722"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9625667e4ebf34015c176",
+                "uri": "http://register.openownership.org/entities/59b9625667e4ebf34015c176"
+            }
+        ],
+        "foundingDate": "2015-11-20",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Charles Lake House Claire Causeway, Crossways Business Park, Dartford, DA2 6QA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15894022547908224746",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11930698568170289496"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9826581639093500123"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17631308796952196848",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11930698568170289496"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6597754814804950922"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-11-20"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8791335325530566193",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11930698568170289496"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9724759226449429010"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17848311936555550508",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11930698568170289496"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4120366453556087226"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-11-20"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7655183398674920361",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11930698568170289496"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-845932856781045411"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-11-20"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4876067776234674049",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11930698568170289496"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14454921691860022584"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11560851072899361892",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11930698568170289496"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8877900403086066483"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9826581639093500123",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Laurence Neil Brearley"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09882722/persons-with-significant-control/individual/2w6LwYBBml106l6M8kSkCc3Oiv8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5c11d8ef9dfc3fae18e0fb58",
+                "uri": "http://register.openownership.org/entities/5c11d8ef9dfc3fae18e0fb58"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1980-04-01",
+        "addresses": [
+            {
+                "address": "Charles Lake House, Claire Causeway, Crossways Business Park, Dartford, DA2 6QA"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6597754814804950922",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Joseph John Thornton"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09882722/persons-with-significant-control/individual/3G4abBeLUpuJuvyvVFOYQWPw9aU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9625667e4ebf34015c180",
+                "uri": "http://register.openownership.org/entities/59b9625667e4ebf34015c180"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1978-11-01",
+        "addresses": [
+            {
+                "address": "Charles Lake House Claire Causeway, Crossways Business Park, Dartford, Kent, DA2 6QA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9724759226449429010",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Keith Lawrence Brooks"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09882722/persons-with-significant-control/individual/8lqODf7O6oi6OKJMdRyGW-yP9kw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9df7067e4ebf3400eebab",
+                "uri": "http://register.openownership.org/entities/59b9df7067e4ebf3400eebab"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-01-01",
+        "addresses": [
+            {
+                "address": "Charles Lake House, Claire Causeway, Crossways Business Park, Dartford, DA2 6QA"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4120366453556087226",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Laurence Neil Brearley"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09882722/persons-with-significant-control/individual/9_VycINVcRYiGSms_GNZd5wzjFA"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9625667e4ebf34015c196",
+                "uri": "http://register.openownership.org/entities/59b9625667e4ebf34015c196"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1980-04-01",
+        "addresses": [
+            {
+                "address": "Charles Lake House Claire Causeway, Crossways Business Park, Dartford, Kent, DA2 6QA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-845932856781045411",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark John Farmer"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09882722/persons-with-significant-control/individual/OkbpRk3cMJTa0cAz6xjcztGTXLE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9625667e4ebf34015c192",
+                "uri": "http://register.openownership.org/entities/59b9625667e4ebf34015c192"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1969-05-01",
+        "addresses": [
+            {
+                "address": "Charles Lake House Claire Causeway Crossways Park, Business, Dartford, DA2 6QA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14454921691860022584",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Joseph John Thornton"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09882722/persons-with-significant-control/individual/ce32Ze_oAYFv0hH6W1iHVMDvkB4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba35669dfc3fae18b97fc8",
+                "uri": "http://register.openownership.org/entities/5aba35669dfc3fae18b97fc8"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1978-11-01",
+        "addresses": [
+            {
+                "address": "Charles Lake House, Claire Causeway, Crossways Business Park, Dartford, DA2 6QA"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8877900403086066483",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark John Farmer"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09882722/persons-with-significant-control/individual/hthsg9ykRMBORm8huM_O_TqNEEo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5c11d8f49dfc3fae18e108a2",
+                "uri": "http://register.openownership.org/entities/5c11d8f49dfc3fae18e108a2"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1969-05-01",
+        "addresses": [
+            {
+                "address": "Charles Lake House, Claire Causeway, Crossways Business Park, Dartford, DA2 6QA"
+            }
+        ]
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "statementID": "openownership-register-5276643773528559240",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TERRAFIX LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01650825"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01650825",
+                "uri": "https://opencorporates.com/companies/gb/01650825"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9caa367e4ebf340c1bc76",
+                "uri": "http://register.openownership.org/entities/59b9caa367e4ebf340c1bc76"
+            }
+        ],
+        "foundingDate": "1982-07-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Bladon House Festival Way, Festival Park, Stoke-On-Trent, Staffordhire, ST1 5SH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16766241888685679938",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-28",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5276643773528559240"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8699138540864372769"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-28"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8699138540864372769",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "LAND NAVIGATION SYSTEMS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02910798"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02910798"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02910798",
+                "uri": "https://opencorporates.com/companies/gb/02910798"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b988a967e4ebf340ce7ef2",
+                "uri": "http://register.openownership.org/entities/59b988a967e4ebf340ce7ef2"
+            }
+        ],
+        "foundingDate": "1994-03-21",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Bladon House Festival Way, Festival Park, Stoke-On-Trent, Staffordshire, ST1 5SH",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "statementID": "openownership-register-5692857503492110666",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ONE STEP CARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10157134"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10157134",
+                "uri": "https://opencorporates.com/companies/gb/10157134"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bd6467e4ebf340903c28",
+                "uri": "http://register.openownership.org/entities/59b9bd6467e4ebf340903c28"
+            }
+        ],
+        "foundingDate": "2016-04-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "43 Bewicke View, Birtley, Chester Le Street, DH3 1RU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2906683875664441254",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-04-29",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5692857503492110666"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12085693908167735336"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-04-29"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-04-29"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7668876298643568139",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5692857503492110666"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10808401338583520394"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12085693908167735336",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Donna Marie Delaney"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/10157134/persons-with-significant-control/individual/XE3stLR_wYRJDtEeSrp7O9HDgQM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b6136ff9dfc3fae187dcd2d",
+                "uri": "http://register.openownership.org/entities/5b6136ff9dfc3fae187dcd2d"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1978-10-01",
+        "addresses": [
+            {
+                "address": "43, Bewicke View, Birtley, Chester Le Street, DH3 1RU"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10808401338583520394",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Gary Ord"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/10157134/persons-with-significant-control/individual/_Dc_ONBXC1MqzN3essmKN-M7pNI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bd6467e4ebf340903c39",
+                "uri": "http://register.openownership.org/entities/59b9bd6467e4ebf340903c39"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1986-07-01",
+        "addresses": [
+            {
+                "address": "43, Bewicke View, Birtley, Chester Le Street, DH3 1RU"
+            }
+        ]
+    }
+]

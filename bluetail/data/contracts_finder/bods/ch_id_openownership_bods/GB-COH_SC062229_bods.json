@@ -1,0 +1,501 @@
+[
+    {
+        "statementID": "openownership-register-17499078981041629928",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MCCONECHY'S TYRE SERVICE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC062229"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC062229"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC062229"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC062229"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC062229"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/SC062229",
+                "uri": "https://opencorporates.com/companies/gb/SC062229"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc062229"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc 062229"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc 062229"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc 062229"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9475867e4ebf340991dd8",
+                "uri": "http://register.openownership.org/entities/59b9475867e4ebf340991dd8"
+            }
+        ],
+        "foundingDate": "1977-04-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "C/O Harper Macleod Llp The Ca'D'Oro, 45 Gordon Street, Glasgow, G1 3PE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7651296697637677677",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-10-31",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17499078981041629928"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-3900371379725935343"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-10-31",
+                "endDate": "2019-11-05"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-10-31",
+                "endDate": "2019-11-05"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2019-10-31",
+                "endDate": "2019-11-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-108836233591927928",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17499078981041629928"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-7334813111792639893"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-10-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-11-06T11:44:23Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10386543919640102593",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-11-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17499078981041629928"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10078227035077310128"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2019-11-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11444308277251559020",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-11-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17499078981041629928"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7910372675952395146"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2019-11-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9593998815050261133",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-11-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17499078981041629928"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9014319164420602065"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2019-11-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17353635835266222969",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-11-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17499078981041629928"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6807674062447392530"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2019-11-05"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10078227035077310128",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Alexander Robertson Adams"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC644806/persons-with-significant-control/individual/o5KY6AV3dMLUEcqxOu4wfqd9yhc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5e26ed26c02958cf6680dbda",
+                "uri": "http://register.openownership.org/entities/5e26ed26c02958cf6680dbda"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1954-11-01",
+        "addresses": [
+            {
+                "address": "C/O Harper Macleod Llp, The Ca'D'Oro, 45 Gordon Street, Glasgow, G1 3PE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9014319164420602065",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Jill Caseberry"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC644806/persons-with-significant-control/individual/hgLSW504GNOvI6QWTJHfpsf8KqQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5e26ed2ec02958cf66810bdc",
+                "uri": "http://register.openownership.org/entities/5e26ed2ec02958cf66810bdc"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1965-04-01",
+        "addresses": [
+            {
+                "address": "C/O Harper Macleod Llp, The Ca'D'Oro, 45 Gordon Street, Glasgow, G1 3PE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6807674062447392530",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Helen Victoria Jones"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC644806/persons-with-significant-control/individual/7EoOoqvoPIU17JtBU2k-EpsRQn8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5e26ed46c02958cf6681c757",
+                "uri": "http://register.openownership.org/entities/5e26ed46c02958cf6681c757"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1958-09-01",
+        "addresses": [
+            {
+                "address": "C/O Harper Macleod Llp, The Ca'D'Oro, 45 Gordon Street, Glasgow, G1 3PE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7910372675952395146",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Keith Williams"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC062229/persons-with-significant-control/individual/PTqnbYNTy1xRcwYev9zz1EIDTUs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5e26ed42c02958cf6681aa81",
+                "uri": "http://register.openownership.org/entities/5e26ed42c02958cf6681aa81"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-05-01",
+        "addresses": [
+            {
+                "address": "C/O Harper Macleod Llp, The Ca'D'Oro, 45 Gordon Street, Glasgow, G1 3PE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7334813111792639893",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CROWSTEP HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC184946"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC184946"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC184946"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/SC184946",
+                "uri": "https://opencorporates.com/companies/gb/SC184946"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc184946"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc184946"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94bf067e4ebf340add53e",
+                "uri": "http://register.openownership.org/entities/59b94bf067e4ebf340add53e"
+            }
+        ],
+        "foundingDate": "1998-04-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "113 Randolph Road, Glasgow, G11 7DS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3900371379725935343",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MCCONECHY'S TYRES SERVICES HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC644806"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/SC644806",
+                "uri": "https://opencorporates.com/companies/gb/SC644806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc644806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc644806"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5dc2c0569dfc3fae18bfcc4e",
+                "uri": "http://register.openownership.org/entities/5dc2c0569dfc3fae18bfcc4e"
+            }
+        ],
+        "foundingDate": "2019-10-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "C/O Harper Macleod Llp The Ca'D'Oro, 45 Gordon Street, Glasgow, G1 3PE",
+                "country": "GB"
+            }
+        ]
+    }
+]

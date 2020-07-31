@@ -1,0 +1,191 @@
+[
+    {
+        "statementID": "openownership-register-6178542911204910516",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FRESH N FRUITY (UK) LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05422252"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05422252",
+                "uri": "https://opencorporates.com/companies/gb/05422252"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cd0867e4ebf340cac61f",
+                "uri": "http://register.openownership.org/entities/59b9cd0867e4ebf340cac61f"
+            }
+        ],
+        "foundingDate": "2005-04-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "6 Broxbourne Avenue, London, E18 1QG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2362130417785292215",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6178542911204910516"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2367913051058862927"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2626202604069589468",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6178542911204910516"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12366470443338827818"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2367913051058862927",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Karen Edney"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05422252/persons-with-significant-control/individual/g15girj6co1TFjYutdCKiYHkook"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cd0967e4ebf340cac726",
+                "uri": "http://register.openownership.org/entities/59b9cd0967e4ebf340cac726"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-05-01",
+        "addresses": [
+            {
+                "address": "Briar Mount, Tysea Hill, Stapleford Abbotts, Romford, RM4 1JP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12366470443338827818",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Wayne Brian Marrs"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05422252/persons-with-significant-control/individual/iVArX34knNV-J-CX7UfazQ0y56I"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cd0867e4ebf340cac626",
+                "uri": "http://register.openownership.org/entities/59b9cd0867e4ebf340cac626"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-05-01",
+        "addresses": [
+            {
+                "address": "Briar Mount, Tysea Hill, Stapleford Abbotts, Romford, RM4 1JP"
+            }
+        ]
+    }
+]

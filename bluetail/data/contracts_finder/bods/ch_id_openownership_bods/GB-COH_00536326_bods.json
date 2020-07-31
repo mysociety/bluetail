@@ -1,0 +1,194 @@
+[
+    {
+        "statementID": "openownership-register-4822733010092829699",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "POTTS PRINT (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00536326"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00536326"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00536326",
+                "uri": "https://opencorporates.com/companies/gb/00536326"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "536326"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9255267e4ebf340fd7bd9",
+                "uri": "http://register.openownership.org/entities/59b9255267e4ebf340fd7bd9"
+            }
+        ],
+        "foundingDate": "1954-07-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Atlas House, Nelson Park, Cramlington, Northumberland, NE23 1WG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17667619617181666186",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4822733010092829699"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2763200274671656257"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-19"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-19"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-07-19"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-538762226258634162",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4822733010092829699"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3914100062391461011"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-19"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-19"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2763200274671656257",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Michael Sanford-Couch"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00536326/persons-with-significant-control/individual/TeCWr0rvegJXCsRMRZrMFyVeE4g"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9255267e4ebf340fd7c26",
+                "uri": "http://register.openownership.org/entities/59b9255267e4ebf340fd7c26"
+            }
+        ],
+        "birthDate": "1965-06-01",
+        "addresses": [
+            {
+                "address": "Atlas House, Nelson Park, Cramlington, Northumberland, NE23 1WG"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3914100062391461011",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Clare Sandford-Couch"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00536326/persons-with-significant-control/individual/Ueb45NpYUNMIjoDXxreL4DFpGtg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9255267e4ebf340fd7c02",
+                "uri": "http://register.openownership.org/entities/59b9255267e4ebf340fd7c02"
+            }
+        ],
+        "birthDate": "1966-03-01",
+        "addresses": [
+            {
+                "address": "6, Bath Terrace, North Shields, Tyne And Wear, NE30 4BL"
+            }
+        ]
+    }
+]

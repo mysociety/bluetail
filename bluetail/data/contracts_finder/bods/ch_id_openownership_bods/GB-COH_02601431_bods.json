@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-6608480481435216390",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "OXFORD OPTRONIX LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02601431"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02601431",
+                "uri": "https://opencorporates.com/companies/gb/02601431"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b01567e4ebf3405c435b",
+                "uri": "http://register.openownership.org/entities/59b9b01567e4ebf3405c435b"
+            }
+        ],
+        "foundingDate": "1991-04-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "19 & 21 Olympic Avenue, Milton Park, Milton, Abingdon, Oxfordshire, OX14 4SA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1536407055097805758",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6608480481435216390"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-488153377422337070"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-488153377422337070",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Andrew Nadeem Obeid"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09174535/persons-with-significant-control/individual/BVzJ7PoLOWkXgb9KE6unWUKxu-8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9317267e4ebf340350c8f",
+                "uri": "http://register.openownership.org/entities/59b9317267e4ebf340350c8f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-11-01",
+        "addresses": [
+            {
+                "address": "21, Central 127, Milton Park, Abingdon, Oxfordshire, OX14 4SA"
+            }
+        ]
+    }
+]

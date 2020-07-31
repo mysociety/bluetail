@@ -1,0 +1,256 @@
+[
+    {
+        "statementID": "openownership-register-5191963777806633211",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WOLF LABORATORIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03011929"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03011929"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03011929",
+                "uri": "https://opencorporates.com/companies/gb/03011929"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3011929"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97ced67e4ebf3409943c9",
+                "uri": "http://register.openownership.org/entities/59b97ced67e4ebf3409943c9"
+            }
+        ],
+        "foundingDate": "1995-01-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Colenso House, 1 Deans Lane, Pocklington East, Riding Of Yorkshire, YO42 2PX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13775883321119476120",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-05-17",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5191963777806633211"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-12197492073592870357"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-05-17"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-05-17"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2019-05-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13523389958800577836",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5191963777806633211"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2689759077310443491"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-05-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4403068326928691368",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5191963777806633211"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14623908499519658356"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-05-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12197492073592870357",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MICRO-PLASTIC MOULDERS (WATFORD) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1186393"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01186393",
+                "uri": "https://opencorporates.com/companies/gb/01186393"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5d009ae69dfc3fae182e0bde",
+                "uri": "http://register.openownership.org/entities/5d009ae69dfc3fae182e0bde"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2689759077310443491",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David John Child"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03011929/persons-with-significant-control/individual/CHfHRJ6-1OwJ9e5tQar4_b6aRr0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97ced67e4ebf3409943fa",
+                "uri": "http://register.openownership.org/entities/59b97ced67e4ebf3409943fa"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1973-04-01",
+        "addresses": [
+            {
+                "address": "Colenso House, 1 Deans Lane, Pocklington East, Riding Of Yorkshire, YO42 2PX"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14623908499519658356",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sean Anthony Woodward"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03011929/persons-with-significant-control/individual/TI2WVBXcAm6F-NQD9jFZOYta_x4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97ced67e4ebf3409943e0",
+                "uri": "http://register.openownership.org/entities/59b97ced67e4ebf3409943e0"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-08-01",
+        "addresses": [
+            {
+                "address": "Colenso House, 1 Deans Lane, Pocklington East, Riding Of Yorkshire, YO42 2PX"
+            }
+        ]
+    }
+]
