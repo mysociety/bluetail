@@ -130,6 +130,10 @@ class BodsHelperFunctions():
                 # For each entity, get the ownership statements where the entity is the subject of ownership
                 ownership_statements = BODSOwnershipStatement.objects.filter(subject_entity_statement=entity_statment.statement_id)
                 if ownership_statements:
+                    # BODS data can sometimes have multiple ownership statements pointing to the same entity..
+                    # Lets just get distinct parent companies:
+                    ownership_statements = ownership_statements.distinct('interested_entity_statement_id')
+
                     for ownership_statement in ownership_statements:
                         # For each ownership statement get the interested entity or person
                         interested_person_statement_id = ownership_statement.interested_person_statement_id
