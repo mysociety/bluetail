@@ -1,0 +1,699 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d2e1ed46-511e-4f73-80a2-66fb1d32b71b.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T14:18:47Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-a58e338a-2e9e-4e8a-beb3-59b4702bac8a",
+      "id": "ocds-b5fd17-a58e338a-2e9e-4e8a-beb3-59b4702bac8a-359587-ncl001-dn402102-28934358",
+      "date": "2020-02-10T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "cf3d1cedf5a4adea2b2f8c653371bb9e",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Newcastle University",
+          "address": {
+            "streetAddress": "Newcastle University 1 Park Tce",
+            "locality": "Newcastle upon Tyne",
+            "region": null,
+            "postalCode": "NE1 7RU",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Leigh Anderson",
+            "email": "leigh.anderson@ncl.ac.uk",
+            "telephone": "+44 1912088618",
+            "faxNumber": null,
+            "uri": "https://www.ncl.ac.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Andrew Scott Training Consultant",
+          "address": {
+            "streetAddress": "Prospect House, Helton, Penrith, Cumbria CA10 2QA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Melissa Roberts Ltd",
+          "address": {
+            "streetAddress": "82 Moorside North, Fenham, Newcastle upon Tyne, NE4 9DY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Emily Sweetman Ltd",
+          "address": {
+            "streetAddress": "48 Cherryburn Gardens, Fenham, Newcastle upon Tyne, NE4 9UQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Momentum Associates",
+          "address": {
+            "streetAddress": "Oxford Road, Radcliffe on Trent, Nottingham, NG12 1AF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Inspired Lives",
+          "address": {
+            "streetAddress": "113 Vancouver Quay, Salford Quays, Salford, Lancashire, M50 3TX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Brightspace Thinking Limited",
+          "address": {
+            "streetAddress": "35 Old Elvet, Durham, County Durham, DH1 3HN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2172179316",
+            "scheme": "GB-CQC",
+            "legalName": "Options"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Options",
+          "address": {
+            "streetAddress": "29 Kirk Laned, Livingston village, West Lothian, EH54 7HY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Christina Gates Ltd",
+          "address": {
+            "streetAddress": "2 Windsor avenue, Whitley Bay, Tyne and Wear, NE26 2NU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Touchstone Associates Ltd",
+          "address": {
+            "streetAddress": "First floor, 6 Feranti Court, Staffordshire Technology Park, Beaconside, Stafford, Staffordshire, ST18 0LQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "The Goalgetter Organisation Ltd",
+          "address": {
+            "streetAddress": "Meadow View Farm, Moorcock Lane, Darley, North Yorkshire, HG3 2QL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Anne Painter Consulting",
+          "address": {
+            "streetAddress": "Eltringham Farm House, Mickley, Northumberland, NE43 7DF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Mark Stephen Crabtree Consulting",
+          "address": {
+            "streetAddress": "94 Wansford Way, Newcastle upon Tyne, Tyne and Wear, NE16 5TF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Sandra Morson &amp; Associates Ltd",
+          "address": {
+            "streetAddress": "47 - 49 The Square, Kelso, Roxburghshire, TD5 7HW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Presence Ltd,",
+          "address": {
+            "streetAddress": "44 Chester Street, Oxford, Oxfordshire, OX4 1SN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-a58e338a-2e9e-4e8a-beb3-59b4702bac8a-ncl001-dn402102-28934358",
+        "title": "NU/1481 Coaching Services",
+        "description": "The scope of this contract is for the provision of coaching services to University colleagues that can deliver enhanced knowledge, improved performance and insight, and lasting change. It may be a one-to-one interaction to help a leader develop a new functional competence, or more typically transformational coaching, where the coach helps the individual to find workable outcomes to new or challenging situations.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "80570000",
+              "description": "Personal development training services",
+              "uri": "http://cpv.data.ac.uk/code-80570000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 560000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-09T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 14,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Andrew Scott Training Consultant"
+          },
+          {
+            "id": "2",
+            "name": "Melissa Roberts Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Emily Sweetman Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Momentum Associates"
+          },
+          {
+            "id": "5",
+            "name": "Inspired Lives"
+          },
+          {
+            "id": "6",
+            "name": "Brightspace Thinking Limited"
+          },
+          {
+            "id": "7",
+            "name": "Options"
+          },
+          {
+            "id": "8",
+            "name": "Christina Gates Ltd"
+          },
+          {
+            "id": "9",
+            "name": "Touchstone Associates Ltd"
+          },
+          {
+            "id": "10",
+            "name": "The Goalgetter Organisation Ltd"
+          },
+          {
+            "id": "11",
+            "name": "Anne Painter Consulting"
+          },
+          {
+            "id": "12",
+            "name": "Mark Stephen Crabtree Consulting"
+          },
+          {
+            "id": "13",
+            "name": "Sandra Morson &amp; Associates Ltd"
+          },
+          {
+            "id": "14",
+            "name": "Presence Ltd,"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2022-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "cf3d1cedf5a4adea2b2f8c653371bb9e",
+        "name": "Newcastle University"
+      },
+      "awards": [
+        {
+          "id": "99423748-7456-47db-ae16-1bf5aef84d84",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-05T00:00:00Z",
+          "value": {
+            "amount": 560000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Andrew Scott Training Consultant"
+            },
+            {
+              "id": "2",
+              "name": "Melissa Roberts Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Emily Sweetman Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Momentum Associates"
+            },
+            {
+              "id": "5",
+              "name": "Inspired Lives"
+            },
+            {
+              "id": "6",
+              "name": "Brightspace Thinking Limited"
+            },
+            {
+              "id": "7",
+              "name": "Options"
+            },
+            {
+              "id": "8",
+              "name": "Christina Gates Ltd"
+            },
+            {
+              "id": "9",
+              "name": "Touchstone Associates Ltd"
+            },
+            {
+              "id": "10",
+              "name": "The Goalgetter Organisation Ltd"
+            },
+            {
+              "id": "11",
+              "name": "Anne Painter Consulting"
+            },
+            {
+              "id": "12",
+              "name": "Mark Stephen Crabtree Consulting"
+            },
+            {
+              "id": "13",
+              "name": "Sandra Morson &amp; Associates Ltd"
+            },
+            {
+              "id": "14",
+              "name": "Presence Ltd,"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2022-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

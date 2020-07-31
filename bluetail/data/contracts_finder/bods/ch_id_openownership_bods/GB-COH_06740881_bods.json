@@ -1,0 +1,237 @@
+[
+    {
+        "statementID": "openownership-register-8811917821346698607",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SPELLER METCALFE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06740881"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06740881",
+                "uri": "https://opencorporates.com/companies/gb/06740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6740881"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6740881"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b957a267e4ebf340e3c8c0",
+                "uri": "http://register.openownership.org/entities/59b957a267e4ebf340e3c8c0"
+            }
+        ],
+        "foundingDate": "2008-11-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Maple Road, Enigma Business Park, Malvern, Worcestershire, WR14 1GQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2399407600990041125",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8811917821346698607"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9389435136191716647"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4588880480816723681",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8811917821346698607"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4872595040689882403"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9389435136191716647",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Stephen Robert Speller"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06740881/persons-with-significant-control/individual/caOQ9hFwvK-xpSnW6TWBJoKeDzg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b957ac67e4ebf340e3f959",
+                "uri": "http://register.openownership.org/entities/59b957ac67e4ebf340e3f959"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-08-01",
+        "addresses": [
+            {
+                "address": "Maple Road, Enigma Business Park, Malvern, Worcestershire, WR14 1GQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4872595040689882403",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Andrew John Metcalfe"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06740881/persons-with-significant-control/individual/njHhD9A-3qouZMYAgU6cJzfswuo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b957ac67e4ebf340e3f8f5",
+                "uri": "http://register.openownership.org/entities/59b957ac67e4ebf340e3f8f5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-10-01",
+        "addresses": [
+            {
+                "address": "Maple Road, Enigma Business Park, Malvern, Worcestershire, WR14 1GQ"
+            }
+        ]
+    }
+]

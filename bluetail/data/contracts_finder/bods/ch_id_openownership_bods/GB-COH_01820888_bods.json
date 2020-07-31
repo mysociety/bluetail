@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-9583093640265731247",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "B M S CRITICAL CARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01820888"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01820888",
+                "uri": "https://opencorporates.com/companies/gb/01820888"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94f9267e4ebf340bededf",
+                "uri": "http://register.openownership.org/entities/59b94f9267e4ebf340bededf"
+            }
+        ],
+        "foundingDate": "1984-05-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit B Hurstwood Court, Mercer, Way, Shadsworth Business Park, Blackburn, Lancashire, BB1 2QU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5729844040713558502",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9583093640265731247"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2895095567847623311"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2895095567847623311",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Paul Joseph Richards"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01820888/persons-with-significant-control/individual/C351xdUZ6TlSwxDpw6SM2er_nDM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94f9267e4ebf340bedeea",
+                "uri": "http://register.openownership.org/entities/59b94f9267e4ebf340bedeea"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1949-05-01",
+        "addresses": [
+            {
+                "address": "Unit B Hurstwood Court, Mercer, Way, Shadsworth Business Park, Blackburn, Lancashire, BB1 2QU"
+            }
+        ]
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "statementID": "openownership-register-6420814326316411098",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THE ENDEAVOUR PARTNERSHIP LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC302638"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC302638",
+                "uri": "https://opencorporates.com/companies/gb/OC302638"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc302638"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4f75067e4ebf3404a0306",
+                "uri": "http://register.openownership.org/entities/59c4f75067e4ebf3404a0306"
+            }
+        ],
+        "foundingDate": "2002-07-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Tobias House, St Mark's Court, Teesdale Business Park, Teesside, TS17 6QW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1384251940253988374",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-19",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6420814326316411098"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

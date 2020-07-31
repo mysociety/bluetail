@@ -1,0 +1,120 @@
+[
+    {
+        "statementID": "openownership-register-3471061967788415898",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BREAS MEDICAL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07190611"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07190611",
+                "uri": "https://opencorporates.com/companies/gb/07190611"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a38e67e4ebf3402e2ff3",
+                "uri": "http://register.openownership.org/entities/59b9a38e67e4ebf3402e2ff3"
+            }
+        ],
+        "foundingDate": "2010-03-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Barclays Bank Chambers, Bridge Street, Stratford-Upon-Avon, Warwickshire, CV37 6AH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7227198987134420072",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3471061967788415898"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-13185486372188240645"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13185486372188240645",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BREAS TECHNOLOGIES (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09199666"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09199666"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09199666",
+                "uri": "https://opencorporates.com/companies/gb/09199666"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b943a467e4ebf340884e1a",
+                "uri": "http://register.openownership.org/entities/59b943a467e4ebf340884e1a"
+            }
+        ],
+        "foundingDate": "2014-09-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Barclays Bank Chambers, Bridge Street, Stratford-Upon-Avon, Warwickshire, CV37 6AH",
+                "country": "GB"
+            }
+        ]
+    }
+]

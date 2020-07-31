@@ -1,0 +1,340 @@
+[
+    {
+        "statementID": "openownership-register-17233019912909409910",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "EXCEL CIVIL ENFORCEMENT LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03266042"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03266042",
+                "uri": "https://opencorporates.com/companies/gb/03266042"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9505c67e4ebf340c1da79",
+                "uri": "http://register.openownership.org/entities/59b9505c67e4ebf340c1da79"
+            }
+        ],
+        "foundingDate": "1996-10-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Marine House, 2 Marine Road, Colwyn Bay, Conwy, LL29 8PH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1700243163979377103",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17233019912909409910"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15417106790244572303"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9194731792901154462",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17233019912909409910"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3941610645864392231"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7543805538646913722",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17233019912909409910"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-729274158015788257"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4134154000315084956",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17233019912909409910"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-320163303580352282"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12305328794981609246",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17233019912909409910"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16506535718951199074"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15417106790244572303",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Michael Robert Anderson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03266042/persons-with-significant-control/individual/Ecstn-K2GYKo--oRhFoj0VESW9M"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9505c67e4ebf340c1db91",
+                "uri": "http://register.openownership.org/entities/59b9505c67e4ebf340c1db91"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1965-03-01",
+        "addresses": [
+            {
+                "address": "Marine House, 2 Marine Road, Colwyn Bay, Conwy, LL29 8PH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3941610645864392231",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Bryan Lewis Jones"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03266042/persons-with-significant-control/individual/Vy4Ppt3Xtofm75snN0tZyf-yjrk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9505c67e4ebf340c1da99",
+                "uri": "http://register.openownership.org/entities/59b9505c67e4ebf340c1da99"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-03-01",
+        "addresses": [
+            {
+                "address": "Marine House, 2 Marine Road, Colwyn Bay, Conwy, LL29 8PH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-729274158015788257",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Martin Leyshon"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03266042/persons-with-significant-control/individual/Zta6y-XTjDjL3YzrjtrAf3dhHs0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9505c67e4ebf340c1da88",
+                "uri": "http://register.openownership.org/entities/59b9505c67e4ebf340c1da88"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-10-01",
+        "addresses": [
+            {
+                "address": "Marine House, 2 Marine Road, Colwyn Bay, Conwy, LL29 8PH",
+                "country": "ES"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-320163303580352282",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Gordon Peter Dean"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03266042/persons-with-significant-control/individual/kHjuP_VArrFvvUt9L0bojae0x7Y"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9505c67e4ebf340c1db64",
+                "uri": "http://register.openownership.org/entities/59b9505c67e4ebf340c1db64"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-10-01",
+        "addresses": [
+            {
+                "address": "Marine House, 2 Marine Road, Colwyn Bay, Conwy, LL29 8PH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16506535718951199074",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Michael Gwynfor Patrick Garland"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03266042/persons-with-significant-control/individual/z18LRVmuU7uD_DncqkyfNLNAZ7A"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9505c67e4ebf340c1dbd4",
+                "uri": "http://register.openownership.org/entities/59b9505c67e4ebf340c1dbd4"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1954-11-01",
+        "addresses": [
+            {
+                "address": "Marine House, 2 Marine Road, Colwyn Bay, Conwy, LL29 8PH"
+            }
+        ]
+    }
+]

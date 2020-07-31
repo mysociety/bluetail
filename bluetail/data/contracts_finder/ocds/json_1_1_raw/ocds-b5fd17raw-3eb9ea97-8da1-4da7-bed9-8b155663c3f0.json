@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/63d5ef25-3b4a-4105-9aed-290f88db517e.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-25T20:34:39Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-3eb9ea97-8da1-4da7-bed9-8b155663c3f0",
+      "id": "ocds-b5fd17-3eb9ea97-8da1-4da7-bed9-8b155663c3f0-360617-tfl001-dn433675-15274699",
+      "date": "2019-09-26T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "fa2a16fbde076ab820fcfe52f8242ee5",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Mayors Office for Policing and Crime (MOPAC)",
+          "address": {
+            "streetAddress": "City Hall, The Queens Walk ",
+            "locality": "LONDON",
+            "region": null,
+            "postalCode": "SE12AA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Larna Smith",
+            "email": "tenders@mopac.london.gov.uk",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "https://www.london.gov.uk/what-we-do/mayors-office-policing-and-crime-mopac/about-mayors-office-policing-and-crime-mopac/current-mopac-bidding-opportunities"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Redthread Youth Ltd",
+          "address": {
+            "streetAddress": "158 Buckingham Palace Road, London SW1W 9TR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "St Giles Trust",
+          "address": {
+            "streetAddress": "64 - 68 Camberwell Church Street, London, SE5 8JB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-3eb9ea97-8da1-4da7-bed9-8b155663c3f0-tfl001-dn433675-15274699",
+        "title": "GLA81404 For Embedded Youth Work Hospital Accident &amp; Emergency (A&amp;E) Service",
+        "description": "MOPAC is commissioning a Hospital-based Embedded Youth Work Service at 5 London hospital A&amp;E sites. This is a 2 year contract with the option to extend for 1 year. The Service is being procured as four Lots, aligned with the NHS Trust structures, in order to promote collaboration and partnership working between A&amp;Es that fall under a single trust as set out below. Bidder can bid for one or more Lots :\r\n\r\nLot 1 - Croydon University Hospital A&amp;E (Croydon Health Services NHS Trust)\r\nLot 2 - University Hospital Lewisham A&amp;E and The Queen Elizabeth Hospital A&amp;E (Lewisham and Greenwich NHS Trust)\r\nLot 3 - Newham University Hospital A&amp;E (Barts Health Trust)\r\nLot 4 - The Whittington A&amp;E (Whittington Health NHS Trust)\r\n\r\nThere is a brief description of each of the five A&amp;E Departments within the specification. It is important to note that all the A&amp;Es serve a population wider than the borough within which they are located. There is therefore an expectation that the Service supports young people attending the A&amp;E regardless of where they live.\r\n\r\nThe Service is aimed at vulnerable 12 to 25 year-olds who attend the adult or paediatric A&amp;E departments or Urgent Care Centres at the five hospitals listed above. The Service must work alongside the team in the A&amp;E to proactively identify vulnerable young people and help them to access and engage the support they need to prevent any potential escalation of violence and reduce the risk of repeat victimisation or exploitation.\r\n\r\nThe Service will provide brief interventions - including safety-planning, practical and emotional support tailored to children and young people - following treatment at the A&amp;E department.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98000000",
+              "description": "Other community, social and personal services",
+              "uri": "http://cpv.data.ac.uk/code-98000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 2500000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-10-24T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Redthread Youth Ltd"
+          },
+          {
+            "id": "2",
+            "name": "St Giles Trust"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-02T00:00:00Z",
+          "endDate": "2022-04-01T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "fa2a16fbde076ab820fcfe52f8242ee5",
+        "name": "Mayors Office for Policing and Crime (MOPAC)"
+      },
+      "awards": [
+        {
+          "id": "f1cc0505-fd5c-4199-a7da-fbb62dc90c03",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-09T00:00:00Z",
+          "value": {
+            "amount": 2494844,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Redthread Youth Ltd"
+            },
+            {
+              "id": "2",
+              "name": "St Giles Trust"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2022-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+[
+    {
+        "statementID": "openownership-register-15825190718832279834",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MMT LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03681297"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03681297",
+                "uri": "https://opencorporates.com/companies/gb/03681297"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9648667e4ebf340209b72",
+                "uri": "http://register.openownership.org/entities/59b9648667e4ebf340209b72"
+            }
+        ],
+        "foundingDate": "1998-12-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1a Uppingham Gate Ayston Road, Uppingham, Oakham, Rutland, LE15 9NY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-788388421408443375",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-10",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15825190718832279834"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-686470472598038272"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-10"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-10"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-05-10"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-686470472598038272",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BE HEARD GROUP PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09223440"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09223440"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09223440"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09223440"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09223440"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09223440",
+                "uri": "https://opencorporates.com/companies/gb/09223440"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "9223440"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09223440"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09223440"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b933df67e4ebf340415e03",
+                "uri": "http://register.openownership.org/entities/59b933df67e4ebf340415e03"
+            }
+        ],
+        "foundingDate": "2014-09-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "53 Frith Street, London, W1D 4SN",
+                "country": "GB"
+            }
+        ]
+    }
+]

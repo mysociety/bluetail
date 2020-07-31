@@ -1,0 +1,254 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6d094f2d-ab60-42f9-ad98-c4262e15691f.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-13T12:28:57Z",
+  "publisher": {
+    "name": "Yorkshire Purchasing Organisation",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-2a971fec-bc5d-40a7-b61f-7d338794056a",
+      "id": "ocds-b5fd17-2a971fec-bc5d-40a7-b61f-7d338794056a-358700-000978",
+      "date": "2019-12-18T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "66b3165015add03eb7a4aff86be5da86",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/8PQu5m2e",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Yorkshire Purchasing Organisation",
+          "address": {
+            "streetAddress": "Harlington Way ",
+            "locality": "Fleet",
+            "region": null,
+            "postalCode": "GU51 4AE",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Joanne Rayne",
+            "email": "joanne.rayne@hart.gov.uk",
+            "telephone": "07711771774",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "00376989",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Zurich Municipal",
+          "address": {
+            "streetAddress": "The Zurich Centre, \r\n3000 Parkway, \r\nWhiteley, \r\nFareham, \r\nHampshire, \r\nPO15 7JZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "2989025",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Risk Management Partners Ltd",
+          "address": {
+            "streetAddress": "The Walbrook Building, \r\n25 Walbrook, \r\nLondon, \r\nEC3N 8AW.",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "210725",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Aon Underwriting Managers",
+          "address": {
+            "streetAddress": "The Leadenhall Building, \r\n122 Leadenhall Street, \r\nLondon, \r\nEC3V 4AN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-2a971fec-bc5d-40a7-b61f-7d338794056a-000978",
+        "title": "Hart District Council&#039;s Further Competition - Insurance Placement Services DPS 978",
+        "description": "Hart District Council&#039;s Further Competition for the following Lots of insurance services has been awarded via YPO&#039;s Insurance Placement DPS - 978.\r\nLot 1 - Property\r\nLot 2 - Crime/FG\r\nLot 3 - Liability\r\nLot 4 - Motor\r\nLot 5 - Engineering\r\nLot 6 - PA &amp; Travel\r\nLot 7 - Terrorism\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "66510000",
+              "description": "Insurance services",
+              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 90000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 90000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Other - Further Competition via YPO&#039;s Insurance Placement DPS",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-11T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Zurich Municipal"
+          },
+          {
+            "id": "2",
+            "name": "Risk Management Partners Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Aon Underwriting Managers"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2025-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "66b3165015add03eb7a4aff86be5da86",
+        "name": "Yorkshire Purchasing Organisation"
+      },
+      "awards": [
+        {
+          "id": "bc158b71-4a18-4d17-8e67-1364061b8388",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-11T00:00:00Z",
+          "value": {
+            "amount": 90000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Zurich Municipal"
+            },
+            {
+              "id": "2",
+              "name": "Risk Management Partners Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Aon Underwriting Managers"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2025-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

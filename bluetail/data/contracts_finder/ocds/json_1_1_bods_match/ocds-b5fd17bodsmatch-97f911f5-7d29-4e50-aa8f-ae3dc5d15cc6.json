@@ -1,0 +1,251 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/b4020e76-57a6-4f39-9a15-cae33ae29655.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-23T15:45:37Z",
+  "publisher": {
+    "name": "Staffordshire County Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-97f911f5-7d29-4e50-aa8f-ae3dc5d15cc6",
+      "id": "ocds-b5fd17-97f911f5-7d29-4e50-aa8f-ae3dc5d15cc6-351286-ia1617.",
+      "date": "2019-10-30T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "5f4e28b94f09cfdfe0a63b30f5cfe71f",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/2JAv6sFy",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Staffordshire County Council",
+          "address": {
+            "streetAddress": "Tipping Street ",
+            "locality": "STAFFORD",
+            "region": null,
+            "postalCode": "ST162DH",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Caroline Clarke",
+            "email": "commercial.team@staffordshire.gov.uk",
+            "telephone": "01785 854653",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03864620",
+            "scheme": "GB-COH",
+            "legalName": "CAUDWELL CHILDREN"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CAUDWELL CHILDREN",
+          "address": {
+            "streetAddress": "Shelton Old Road\nSTOKE-ON-TRENT\nSTAFFORDSHIRE\nST4 7RY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Debra Nixon",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02944546",
+            "scheme": "GB-COH",
+            "legalName": "CROSSROADS CARE STAFFORDSHIRE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CROSSROADS CARE STAFFORDSHIRE LIMITED",
+          "address": {
+            "streetAddress": "22-24 Cemetery Road Clive Villas\nSTOKE-ON-TRENT\nStaffordshire\nST4 2DL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00959609",
+            "scheme": "GB-COH",
+            "legalName": "STAFFORDSHIRE WILDLIFE TRUST LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "STAFFORDSHIRE WILDLIFE TRUST LIMITED",
+          "address": {
+            "streetAddress": "The Wolseley Centre\nST17 0WT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-97f911f5-7d29-4e50-aa8f-ae3dc5d15cc6-ia1617.",
+        "title": "Framework for the Provision of Children&#039;s Short Break Activities and Support Services (Aiming High)",
+        "description": "The Council is seeking to secure suitable Providers to provide Children&#039;s Short Break Activities and Support Services for Children and Young People with Special Educational Needs and Disabilities \r\nProviders are required who can offer Children&#039;s Short Break Activities and Support Services which are safe and enjoyable and promote independence and meet the varied needs of Children and Young People within Staffordshire.\r\nComprises of 3 lots:\r\nLot 1. Activities Family Attendance (Age 0-17 years)\r\nFamily Attendance can be accessed by Children and Young People with SEND aged 0-17 years old, as in accordance with the specified Eligibility Criteria, and their Families.  This may include parents / Carers, siblings and extended family members. \r\n Activities - Family Attendance may include, but are not limited to: \r\n &bull;\tFamily Fun / Information Days;\r\n&bull;\tLeisure and Recreational Activities and Trips; \r\n Providers may facilitate activities specifically for Children and Young people with SEND and their Families to participate in or may seek to provide additional support / resources to enable Children and Young People with SEND and their Families to participate in &#039;existing universal&#039; activities. \r\n The provision of Activities - Family Attendance may: \r\n &bull;\tEnable the &#039;whole family unit&#039; to spend &#039;quality time&#039; participating in a fun and interesting activity; \r\n&bull;\tEnable Children and Young People with SEND and their Families and Carers to connect / socialise with their local community; \r\n&bull;\tEquip Families and Carers of Children and Young people with SEND with the skills and confidence to participate in further community based opportunities.\r\nLot 2. Activities For Children / Young People Individual Attendance (Age 0-17 years)\r\nActivities for Children/Young People Individual Attendance can be accessed by Children and Young People with SEND aged 0-17 years old, as in accordance with the specified Eligibility Criteria, independently of their Families and Carers \r\nActivities for Children/Young People Individual Attendance may include, but are not limited to: \r\n &bull;\tPreparing for independence; \r\n&bull;\tLeisure and Recreational Activities and Trips; \r\n Providers may facilitate activities specifically for Children and Young People with SEND to participate in or may seek to provide additional support to enable Children and Young People with SEND to participate in &#039;existing universal&#039; activities.\r\nLot 3. Life / Independence Skills (Age 11-25 years)\r\nLifeskills and Independence can be accessed by Children and Young People with SEND aged 11-25 years old, as in accordance with the specified Eligibility Criteria, independently of their Families and Carers. \r\n Providers will require skills in working with Children and Young People with SEND and their Families or Carers to identify and agree Individualised Person Centred Outcomes, to be achieved through this time limited provision, in advance of the physical provision of support commencing.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85312120",
+              "description": "Daycare services for handicapped children and young people",
+              "uri": "http://cpv.data.ac.uk/code-85312120.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 700000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 800000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-04T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "CAUDWELL CHILDREN"
+          },
+          {
+            "id": "5",
+            "name": "CROSSROADS CARE STAFFORDSHIRE LIMITED"
+          },
+          {
+            "id": "11",
+            "name": "STAFFORDSHIRE WILDLIFE TRUST LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2022-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "5f4e28b94f09cfdfe0a63b30f5cfe71f",
+        "name": "Staffordshire County Council"
+      },
+      "awards": [
+        {
+          "id": "0a756f59-0c35-45b2-aa84-661122b9a30a",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-09T00:00:00Z",
+          "value": {
+            "amount": 800000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "CAUDWELL CHILDREN"
+            },
+            {
+              "id": "5",
+              "name": "CROSSROADS CARE STAFFORDSHIRE LIMITED"
+            },
+            {
+              "id": "11",
+              "name": "STAFFORDSHIRE WILDLIFE TRUST LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2022-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

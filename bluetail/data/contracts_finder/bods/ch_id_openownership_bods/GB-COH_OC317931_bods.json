@@ -1,0 +1,252 @@
+[
+    {
+        "statementID": "openownership-register-10668636528148589004",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FLINT BISHOP LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC317931"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC317931",
+                "uri": "https://opencorporates.com/companies/gb/OC317931"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98eb967e4ebf340e3cdc8",
+                "uri": "http://register.openownership.org/entities/59b98eb967e4ebf340e3cdc8"
+            }
+        ],
+        "foundingDate": "2006-02-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "St Michael's Court, St Michael's Lane, Derby, Derbyshire, DE1 3HQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4579610667278466939",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-22",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10668636528148589004"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10734058370592050852"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent-limited-liability-partnership",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-02-22",
+                "endDate": "2018-01-25"
+            },
+            {
+                "type": "rights-to-surplus-assets",
+                "details": "right-to-share-surplus-assets-25-to-50-percent-limited-liability-partnership",
+                "startDate": "2017-02-22",
+                "endDate": "2018-01-25"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11009457228176464917",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-22",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10668636528148589004"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-7165613848648454012"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent-limited-liability-partnership",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-02-22"
+            },
+            {
+                "type": "rights-to-surplus-assets",
+                "details": "right-to-share-surplus-assets-25-to-50-percent-limited-liability-partnership",
+                "startDate": "2017-02-22"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16806511915910033827",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-22",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10668636528148589004"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1255073421464192621"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent-limited-liability-partnership",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-02-22"
+            },
+            {
+                "type": "rights-to-surplus-assets",
+                "details": "right-to-share-surplus-assets-25-to-50-percent-limited-liability-partnership",
+                "startDate": "2017-02-22"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10734058370592050852",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Ian David Beardmore"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC317931/persons-with-significant-control/individual/4R3NvUSwNlxU803tVlrr353Up0w"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98eb967e4ebf340e3cde0",
+                "uri": "http://register.openownership.org/entities/59b98eb967e4ebf340e3cde0"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-01-01",
+        "addresses": [
+            {
+                "address": "St Michael's Court, St Michael's Lane, Derby, Derbyshire, DE1 3HQ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7165613848648454012",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Qamer Raza Ghafoor"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC317931/persons-with-significant-control/individual/NmIf5c_KvV4mbyk0tKRcFOlYIE0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98eb967e4ebf340e3ce3c",
+                "uri": "http://register.openownership.org/entities/59b98eb967e4ebf340e3ce3c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-03-01",
+        "addresses": [
+            {
+                "address": "St Michael's Court, St Michael's Lane, Derby, Derbyshire, DE1 3HQ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1255073421464192621",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Andrew Cochrane"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/OC317931/persons-with-significant-control/individual/Z1HnFvcvyjShE2BPuRLCEXm_dmE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98eb967e4ebf340e3ce2c",
+                "uri": "http://register.openownership.org/entities/59b98eb967e4ebf340e3ce2c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1966-06-01",
+        "addresses": [
+            {
+                "address": "St Michael's Court, St Michael's Lane, Derby, Derbyshire, DE1 3HQ"
+            }
+        ]
+    }
+]

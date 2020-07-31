@@ -1,0 +1,330 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/dcbbf06e-4106-45e9-9500-9677c29a4c85.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-07T12:10:02Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-7e84a00d-78a5-4921-a779-9a1deb2153a8",
+      "id": "ocds-b5fd17-7e84a00d-78a5-4921-a779-9a1deb2153a8-357906-bip492741089",
+      "date": "2019-08-10T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "99144cd9e8dbf31d307cae01e96a361f",
+          "roles": [
+            "buyer"
+          ],
+          "name": "The Corporation of Trinity House",
+          "address": {
+            "streetAddress": "Tower Hill Trinity Square",
+            "locality": "London",
+            "region": null,
+            "postalCode": "EC3N 4DH",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "Procurement",
+            "email": "etender@trinityhouse.co.uk",
+            "telephone": "+441255245005",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Frank Armitt and Son Ltd",
+          "address": {
+            "streetAddress": "24-30 South Road\n        Weston Point\n        Runcom\n        WA7 4EZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ocean Connect Marine Ltd",
+          "address": {
+            "streetAddress": "The Old Trading House\n        3rd Floor, 15 Northburgh Street, London, EC1 0JR\n        15 Northburgh Street\n        London\n        EC1 0JR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ASCO Fuel and Lubricants",
+          "address": {
+            "streetAddress": "11 Harvest Avenue\n        D2 Business Park\n        Dyce\n        Aberdeen\n        AB21 0BQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "WP Group",
+          "address": {
+            "streetAddress": "Suite 1\n        Second Floor\n        Grosvenor House,  Grosvenor Square\n        Southampton\n        SO15 2BE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Propeller Fuels",
+          "address": {
+            "streetAddress": "Baltic Street\n        Hartlepool\n        TS25 1PW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7e84a00d-78a5-4921-a779-9a1deb2153a8-bip492741089",
+        "title": "GB-London: Marine Gas Oil Quarterly Spend Oct-Dec 2019",
+        "description": "Published Quarterly Spend for the Purchase of Marine Gas Oil for Trinity House Vessels Oct-Dec 2019",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "09130000",
+              "description": "Petroleum and distillates",
+              "uri": "http://cpv.data.ac.uk/code-09130000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 69108,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Not specified",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Frank Armitt and Son Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Ocean Connect Marine Ltd"
+          },
+          {
+            "id": "3",
+            "name": "ASCO Fuel and Lubricants"
+          },
+          {
+            "id": "4",
+            "name": "WP Group"
+          },
+          {
+            "id": "5",
+            "name": "Propeller Fuels"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-09-01T00:00:00Z",
+          "endDate": "2019-12-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "99144cd9e8dbf31d307cae01e96a361f",
+        "name": "The Corporation of Trinity House"
+      },
+      "awards": [
+        {
+          "id": "9fadc806-ffe5-40f0-9d2b-1c450320233d",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-08-31T00:00:00Z",
+          "value": {
+            "amount": 69108.4,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Frank Armitt and Son Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Ocean Connect Marine Ltd"
+            },
+            {
+              "id": "3",
+              "name": "ASCO Fuel and Lubricants"
+            },
+            {
+              "id": "4",
+              "name": "WP Group"
+            },
+            {
+              "id": "5",
+              "name": "Propeller Fuels"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-09-01T00:00:00Z",
+            "endDate": "2019-12-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

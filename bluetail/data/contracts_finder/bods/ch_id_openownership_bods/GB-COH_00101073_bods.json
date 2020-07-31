@@ -1,0 +1,892 @@
+[
+    {
+        "statementID": "openownership-register-3028848208482319447",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BALFOUR BEATTY GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00101073",
+                "uri": "https://opencorporates.com/companies/gb/00101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "101073"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00101073"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92b2a67e4ebf34016a62d",
+                "uri": "http://register.openownership.org/entities/59b92b2a67e4ebf34016a62d"
+            }
+        ],
+        "foundingDate": "1909-01-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "5 Churchill Place, Canary Wharf, London, E14 5HU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4773865191244401262",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3028848208482319447"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-10562563335477141794"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10562563335477141794",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BALFOUR BEATTY INVESTMENT HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01198315"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01198315",
+                "uri": "https://opencorporates.com/companies/gb/01198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1198315"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "1198315"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab935319dfc3fae184087b4",
+                "uri": "http://register.openownership.org/entities/5ab935319dfc3fae184087b4"
+            }
+        ],
+        "foundingDate": "1975-01-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "5 Churchill Place, Canary Wharf, London, England, E14 5HU",
+                "country": "GB"
+            }
+        ]
+    }
+]

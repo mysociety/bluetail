@@ -1,0 +1,97 @@
+[
+    {
+        "statementID": "openownership-register-4730560872412249120",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "RIDGEWAY COMPONENTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02433322"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02433322",
+                "uri": "https://opencorporates.com/companies/gb/02433322"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95e5167e4ebf34002d287",
+                "uri": "http://register.openownership.org/entities/59b95e5167e4ebf34002d287"
+            }
+        ],
+        "foundingDate": "1989-10-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 5, Prosperity Way, Middlewich, Cheshire, CW10 0GD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8317390514696297118",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4730560872412249120"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-77371689431222859"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-77371689431222859",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Matthew John Ikin"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02433322/persons-with-significant-control/individual/hMUlRIZ2TunXhimZ5JBmGTJ62bU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95e5167e4ebf34002d295",
+                "uri": "http://register.openownership.org/entities/59b95e5167e4ebf34002d295"
+            }
+        ],
+        "birthDate": "1966-02-01",
+        "addresses": [
+            {
+                "address": "Unit 5, Prosperity Way, Middlewich, Cheshire, CW10 0GD"
+            }
+        ]
+    }
+]

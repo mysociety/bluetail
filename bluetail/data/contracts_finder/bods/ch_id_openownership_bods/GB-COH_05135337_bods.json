@@ -1,0 +1,139 @@
+[
+    {
+        "statementID": "openownership-register-18096843063964877364",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GBUK LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05135337"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05135337"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05135337"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05135337",
+                "uri": "https://opencorporates.com/companies/gb/05135337"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93af567e4ebf3406282e9",
+                "uri": "http://register.openownership.org/entities/59b93af567e4ebf3406282e9"
+            }
+        ],
+        "foundingDate": "2004-05-24",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Woodland House Blackwood Hall Business Park, North Duffield, Selby, North Yorkshire, YO8 5DD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5870249448108363720",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18096843063964877364"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-14783788458064760058"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14783788458064760058",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GBUK GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09458917"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09458917"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09458917"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09458917"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09458917"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09458917",
+                "uri": "https://opencorporates.com/companies/gb/09458917"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09458917"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9477167e4ebf34099955a",
+                "uri": "http://register.openownership.org/entities/59b9477167e4ebf34099955a"
+            }
+        ],
+        "foundingDate": "2015-02-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Woodland House, Blackwood Hall Business Park, Selby, North Yorkshire, YO8 5DD",
+                "country": "GB"
+            }
+        ]
+    }
+]

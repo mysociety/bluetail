@@ -1,0 +1,104 @@
+[
+    {
+        "statementID": "openownership-register-6101817246835837512",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ARTHUR BRETT CATERING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00523477"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00523477",
+                "uri": "https://opencorporates.com/companies/gb/00523477"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bb7c67e4ebf340892a4a",
+                "uri": "http://register.openownership.org/entities/59b9bb7c67e4ebf340892a4a"
+            }
+        ],
+        "foundingDate": "1953-09-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Arches, Allison Street, Digbeth, Birmingham, B5 5TH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17738838903410031656",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6101817246835837512"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10596299865844169738"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10596299865844169738",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Norman Leslie Stevens"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00523477/persons-with-significant-control/individual/Ki5kDJpufQT_m-uLXdhVCLgGaoU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bb7c67e4ebf340892a6a",
+                "uri": "http://register.openownership.org/entities/59b9bb7c67e4ebf340892a6a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1932-03-01",
+        "addresses": [
+            {
+                "address": "The Arches, Allison Street, Birmingham, West Midlands, B5 5TH",
+                "country": "GB"
+            }
+        ]
+    }
+]

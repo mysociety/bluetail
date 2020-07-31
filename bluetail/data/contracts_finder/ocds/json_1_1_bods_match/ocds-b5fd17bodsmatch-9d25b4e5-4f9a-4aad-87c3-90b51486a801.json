@@ -1,0 +1,1211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/aa5ae206-2ed1-479e-9ad5-b91b73485eec.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-11T09:53:49Z",
+  "publisher": {
+    "name": "FOODBUY EUROPE LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-9d25b4e5-4f9a-4aad-87c3-90b51486a801",
+      "id": "ocds-b5fd17-9d25b4e5-4f9a-4aad-87c3-90b51486a801-342018-2020-s-027-063367",
+      "date": "2019-08-09T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "377a870fc8e52ca5454b073858b34412",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/wNDg246z",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "FOODBUY EUROPE LIMITED",
+          "address": {
+            "streetAddress": "Parklands Court 24 Parklands,Rubery ",
+            "locality": "BIRMINGHAM",
+            "region": null,
+            "postalCode": "B459PZ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Strategic Sourcing",
+            "email": "strategicsourcing@supplychain.nhs.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00523477",
+            "scheme": "GB-COH",
+            "legalName": "ARTHUR BRETT CATERING LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ARTHUR BRETT CATERING LIMITED",
+          "address": {
+            "streetAddress": "Allison Street The Arches\nB5 5TH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00239718",
+            "scheme": "GB-COH",
+            "legalName": "BFS GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BFS GROUP LIMITED",
+          "address": {
+            "streetAddress": "4 Leigh Road\nSLOUGH\nBerkshire\nSL1 4BD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02035315",
+            "scheme": "GB-COH",
+            "legalName": "BRAKE BROS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BRAKE BROS LIMITED",
+          "address": {
+            "streetAddress": "EUREKA BUSINESS PARK\nASHFORD\nKENT\nTN25 4AG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Bid Team",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00447327",
+            "scheme": "GB-COH",
+            "legalName": "COTTESWOLD DAIRY LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "COTTESWOLD DAIRY LIMITED",
+          "address": {
+            "streetAddress": "Northway Lane\nGL20 8JE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06946519",
+            "scheme": "GB-COH",
+            "legalName": "DAIRYLINK UK LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "DAIRYLINK UK LTD",
+          "address": {
+            "streetAddress": "64 High Street\nST15 8AU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00786115",
+            "scheme": "GB-COH",
+            "legalName": "DUNSTERS FARM LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "DUNSTERS FARM LIMITED",
+          "address": {
+            "streetAddress": "Waterfold Park\nBL9 7BR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Hannah Barlow",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01820846",
+            "scheme": "GB-COH",
+            "legalName": "EMBLETON HALL DAIRIES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "EMBLETON HALL DAIRIES LIMITED",
+          "address": {
+            "streetAddress": "Murton Hall Farm\nTS28 5NU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03053702",
+            "scheme": "GB-COH",
+            "legalName": "FRESH DIRECT (UK) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "FRESH DIRECT (UK) LIMITED",
+          "address": {
+            "streetAddress": "Enterprise House, Eureka Business Park, Ashford, Kent, United Kingdom, TN25 4AG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00580195",
+            "scheme": "GB-COH",
+            "legalName": "G.W.PRICE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "G.W.PRICE LIMITED",
+          "address": {
+            "streetAddress": "13 High Street\nS21 4DH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Debra Willoughby",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02408230",
+            "scheme": "GB-COH",
+            "legalName": "HALLAM COUNTRY FRESH FOODS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "HALLAM COUNTRY FRESH FOODS LIMITED",
+          "address": {
+            "streetAddress": "Holbrook Business Centre, Holbrook\nS20 3GH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04300308",
+            "scheme": "GB-COH",
+            "legalName": "ISLAND FOODS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ISLAND FOODS LIMITED",
+          "address": {
+            "streetAddress": "Unit 6 &amp; 8 Cothey Way, Ryde, England, PO33 1QT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01348637",
+            "scheme": "GB-COH",
+            "legalName": "J.W. YOUNG (BUTCHERS) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "J.W. YOUNG (BUTCHERS) LIMITED",
+          "address": {
+            "streetAddress": "10 Baker Street\nS9 3WG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00623329",
+            "scheme": "GB-COH",
+            "legalName": "JAMES BURROWS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JAMES BURROWS LIMITED",
+          "address": {
+            "streetAddress": "323 Katherine Street\nOL6 7AE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04906019",
+            "scheme": "GB-COH",
+            "legalName": "JOHN PALIN (WHOLESALE) LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JOHN PALIN (WHOLESALE) LIMITED",
+          "address": {
+            "streetAddress": "Brookfield Industrial Estate\nDE4 5ND\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02727662",
+            "scheme": "GB-COH",
+            "legalName": "JOHN SHEPPARD BUTCHERS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JOHN SHEPPARD BUTCHERS LIMITED",
+          "address": {
+            "streetAddress": "Ashley Parade Ashley Trading Estate\nBS2 9XS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Steven McDaid",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "26",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06935889",
+            "scheme": "GB-COH",
+            "legalName": "MEDINA CAPITAL DAIRY COMPANY LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MEDINA CAPITAL DAIRY COMPANY LIMITED",
+          "address": {
+            "streetAddress": "42-44 Leppings Lane, Hillsborough, Sheffield, S6 1ST",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02807474",
+            "scheme": "GB-COH",
+            "legalName": "MEDINA DAIRY LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MEDINA DAIRY LIMITED",
+          "address": {
+            "streetAddress": "Vale Road\nWINDSOR\nBERKSHIRE\nSL4 5JL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Elliott Simpson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02958742",
+            "scheme": "GB-COH",
+            "legalName": "MIDLAND FOODS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MIDLAND FOODS LIMITED",
+          "address": {
+            "streetAddress": "Stoke Prior\nB60 4FG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "32",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01237354",
+            "scheme": "GB-COH",
+            "legalName": "OWEN TAYLOR AND SONS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "OWEN TAYLOR AND SONS LIMITED",
+          "address": {
+            "streetAddress": "27 Main Road\nDE55 1LA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "33",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00557210",
+            "scheme": "GB-COH",
+            "legalName": "P.F.D.(CARLISLE)LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "P.F.D.(CARLISLE)LIMITED",
+          "address": {
+            "streetAddress": "Montgomery Way\nCA1 2RR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "35",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00166886",
+            "scheme": "GB-COH",
+            "legalName": "RALPH LIVESEY LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "RALPH LIVESEY LIMITED",
+          "address": {
+            "streetAddress": "Unit 1 Fresh Food Distribution Centre\nPR2 9ZB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Tom Catherall",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "37",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03976584",
+            "scheme": "GB-COH",
+            "legalName": "SCORSE FOODS LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SCORSE FOODS LTD",
+          "address": {
+            "streetAddress": "Water-Ma-Trout Industrial Estate\nTR13 0LW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "39",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00685360",
+            "scheme": "GB-COH",
+            "legalName": "W.MCCLURE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "W.MCCLURE LIMITED",
+          "address": {
+            "streetAddress": "College Road\nLA23 1BX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "40",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04859976",
+            "scheme": "GB-COH",
+            "legalName": "WELLS FARM DAIRY LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "WELLS FARM DAIRY LIMITED",
+          "address": {
+            "streetAddress": "Bradley\nSTAFFORD\nStaffordshire\nST18 9EE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "DIANE SIMPSON",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-9d25b4e5-4f9a-4aad-87c3-90b51486a801-2020/s-027-063367",
+        "title": "Fresh Food",
+        "description": "NHS Supply Chain:Food seeked to establish a Non-exclusive Framework Agreement for the supply to trusts within the NHS (the Customer(s))via the Direct Route of the supply supply of Fresh Food covering products from the following categories:\r\nThe Framework will cover but not limited to milk, milk alternative, shell and liquid eggs, cream and yoghurt, bread loaves sliced, rolls, baguettes, bakery items, meat and poultry including the most common cuts of beef, pork, lamb, chicken and turkey species, bacon, sausages and all other varieties in the additional lines.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "03142500",
+              "description": "Eggs",
+              "uri": "http://cpv.data.ac.uk/code-03142500.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15111100",
+              "description": "Beef",
+              "uri": "http://cpv.data.ac.uk/code-15111100.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15112120",
+              "description": "Turkeys",
+              "uri": "http://cpv.data.ac.uk/code-15112120.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15112130",
+              "description": "Chickens",
+              "uri": "http://cpv.data.ac.uk/code-15112130.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15113000",
+              "description": "Pork",
+              "uri": "http://cpv.data.ac.uk/code-15113000.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15115100",
+              "description": "Lamb",
+              "uri": "http://cpv.data.ac.uk/code-15115100.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15310000",
+              "description": "Potatoes and potato products",
+              "uri": "http://cpv.data.ac.uk/code-15310000.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15330000",
+              "description": "Processed fruit and vegetables",
+              "uri": "http://cpv.data.ac.uk/code-15330000.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15511000",
+              "description": "Milk",
+              "uri": "http://cpv.data.ac.uk/code-15511000.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15512000",
+              "description": "Cream",
+              "uri": "http://cpv.data.ac.uk/code-15512000.html"
+            }
+          },
+          {
+            "id": 11,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15551000",
+              "description": "Yoghurt and other fermented milk products",
+              "uri": "http://cpv.data.ac.uk/code-15551000.html"
+            }
+          },
+          {
+            "id": 12,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15811100",
+              "description": "Bread",
+              "uri": "http://cpv.data.ac.uk/code-15811100.html"
+            }
+          },
+          {
+            "id": 13,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "15811200",
+              "description": "Rolls",
+              "uri": "http://cpv.data.ac.uk/code-15811200.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 12307137,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 49228548,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-13T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 24,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ARTHUR BRETT CATERING LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "BFS GROUP LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "BRAKE BROS LIMITED"
+          },
+          {
+            "id": "7",
+            "name": "COTTESWOLD DAIRY LIMITED"
+          },
+          {
+            "id": "11",
+            "name": "DAIRYLINK UK LTD"
+          },
+          {
+            "id": "12",
+            "name": "DUNSTERS FARM LIMITED"
+          },
+          {
+            "id": "13",
+            "name": "EMBLETON HALL DAIRIES LIMITED"
+          },
+          {
+            "id": "16",
+            "name": "FRESH DIRECT (UK) LIMITED"
+          },
+          {
+            "id": "18",
+            "name": "G.W.PRICE LIMITED"
+          },
+          {
+            "id": "19",
+            "name": "HALLAM COUNTRY FRESH FOODS LIMITED"
+          },
+          {
+            "id": "20",
+            "name": "ISLAND FOODS LIMITED"
+          },
+          {
+            "id": "22",
+            "name": "J.W. YOUNG (BUTCHERS) LIMITED"
+          },
+          {
+            "id": "23",
+            "name": "JAMES BURROWS LIMITED"
+          },
+          {
+            "id": "24",
+            "name": "JOHN PALIN (WHOLESALE) LIMITED"
+          },
+          {
+            "id": "25",
+            "name": "JOHN SHEPPARD BUTCHERS LIMITED"
+          },
+          {
+            "id": "26",
+            "name": "MEDINA CAPITAL DAIRY COMPANY LIMITED"
+          },
+          {
+            "id": "27",
+            "name": "MEDINA DAIRY LIMITED"
+          },
+          {
+            "id": "29",
+            "name": "MIDLAND FOODS LIMITED"
+          },
+          {
+            "id": "32",
+            "name": "OWEN TAYLOR AND SONS LIMITED"
+          },
+          {
+            "id": "33",
+            "name": "P.F.D.(CARLISLE)LIMITED"
+          },
+          {
+            "id": "35",
+            "name": "RALPH LIVESEY LIMITED"
+          },
+          {
+            "id": "37",
+            "name": "SCORSE FOODS LTD"
+          },
+          {
+            "id": "39",
+            "name": "W.MCCLURE LIMITED"
+          },
+          {
+            "id": "40",
+            "name": "WELLS FARM DAIRY LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-30T00:00:00Z",
+          "endDate": "2022-03-29T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "377a870fc8e52ca5454b073858b34412",
+        "name": "FOODBUY EUROPE LIMITED"
+      },
+      "awards": [
+        {
+          "id": "c8556969-8b3a-45a6-8af8-1eaa3b927f60",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-13T00:00:00Z",
+          "value": {
+            "amount": 49228548,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ARTHUR BRETT CATERING LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "BFS GROUP LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "BRAKE BROS LIMITED"
+            },
+            {
+              "id": "7",
+              "name": "COTTESWOLD DAIRY LIMITED"
+            },
+            {
+              "id": "11",
+              "name": "DAIRYLINK UK LTD"
+            },
+            {
+              "id": "12",
+              "name": "DUNSTERS FARM LIMITED"
+            },
+            {
+              "id": "13",
+              "name": "EMBLETON HALL DAIRIES LIMITED"
+            },
+            {
+              "id": "16",
+              "name": "FRESH DIRECT (UK) LIMITED"
+            },
+            {
+              "id": "18",
+              "name": "G.W.PRICE LIMITED"
+            },
+            {
+              "id": "19",
+              "name": "HALLAM COUNTRY FRESH FOODS LIMITED"
+            },
+            {
+              "id": "20",
+              "name": "ISLAND FOODS LIMITED"
+            },
+            {
+              "id": "22",
+              "name": "J.W. YOUNG (BUTCHERS) LIMITED"
+            },
+            {
+              "id": "23",
+              "name": "JAMES BURROWS LIMITED"
+            },
+            {
+              "id": "24",
+              "name": "JOHN PALIN (WHOLESALE) LIMITED"
+            },
+            {
+              "id": "25",
+              "name": "JOHN SHEPPARD BUTCHERS LIMITED"
+            },
+            {
+              "id": "26",
+              "name": "MEDINA CAPITAL DAIRY COMPANY LIMITED"
+            },
+            {
+              "id": "27",
+              "name": "MEDINA DAIRY LIMITED"
+            },
+            {
+              "id": "29",
+              "name": "MIDLAND FOODS LIMITED"
+            },
+            {
+              "id": "32",
+              "name": "OWEN TAYLOR AND SONS LIMITED"
+            },
+            {
+              "id": "33",
+              "name": "P.F.D.(CARLISLE)LIMITED"
+            },
+            {
+              "id": "35",
+              "name": "RALPH LIVESEY LIMITED"
+            },
+            {
+              "id": "37",
+              "name": "SCORSE FOODS LTD"
+            },
+            {
+              "id": "39",
+              "name": "W.MCCLURE LIMITED"
+            },
+            {
+              "id": "40",
+              "name": "WELLS FARM DAIRY LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-30T00:00:00Z",
+            "endDate": "2022-03-29T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

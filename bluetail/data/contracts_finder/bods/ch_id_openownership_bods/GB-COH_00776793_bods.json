@@ -1,0 +1,147 @@
+[
+    {
+        "statementID": "openownership-register-17715955188073300198",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MINOR,WEIR AND WILLIS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00776793"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00776793"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00776793"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00776793"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00776793"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00776793"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00776793",
+                "uri": "https://opencorporates.com/companies/gb/00776793"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "0776793"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00776793"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9795d67e4ebf34087cba3",
+                "uri": "http://register.openownership.org/entities/59b9795d67e4ebf34087cba3"
+            }
+        ],
+        "foundingDate": "1963-10-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Altitude 206 Deykin Avenue, Witton, Birmingham, West Midland, B6 7BH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1641046564850150415",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-10",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17715955188073300198"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17636714005306761213"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-10",
+                "endDate": "2018-04-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17636714005306761213",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FVT HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "Guernsey",
+            "code": "GG"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00776793/persons-with-significant-control/corporate-entity/oXMtTXYcz1EHNu2C3O6SuZxzxJI"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gg/1-53331",
+                "uri": "https://opencorporates.com/companies/gg/1-53331"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00776793/persons-with-significant-control/corporate-entity/oXMtTXYcz1EHNu2C3O6SuZxzxJI"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03799612/persons-with-significant-control/corporate-entity/RC8FNpVyIy_ppBojbLy6af6RjNw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d47867e4ebf340e6ad70",
+                "uri": "http://register.openownership.org/entities/59b9d47867e4ebf340e6ad70"
+            }
+        ],
+        "foundingDate": "2011-04-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Avenue House St Julian's Avenue St Peter Port GUERNSEY GY1 1WA",
+                "country": "GG"
+            }
+        ]
+    }
+]

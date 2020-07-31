@@ -1,0 +1,290 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ef4e2c21-d8b5-47bc-9643-ccdb7588335b.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-22T08:58:46Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-61c38955-77fb-4a29-b3af-8465bd1107de",
+      "id": "ocds-b5fd17-61c38955-77fb-4a29-b3af-8465bd1107de-360344-croyd001-dn412418-75457339",
+      "date": "2019-07-26T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "1bad082aff653260c00b51864962f12e",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Croydon Council",
+          "address": {
+            "streetAddress": "3F Bernard Weatherill House 8 Mint Walk",
+            "locality": "Croydon",
+            "region": null,
+            "postalCode": "CR0 1EA",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Croydon Council",
+            "email": "communityfund@croydon.gov.uk",
+            "telephone": "020 8760 5584",
+            "faxNumber": null,
+            "uri": "http://www.croydon.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Asian Resource Centre of Croydon Ltd",
+          "address": {
+            "streetAddress": "CR0 2TB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Ima Miah",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Croydon Neighbourhood Care",
+          "address": {
+            "streetAddress": "CR0 6PD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Susan McVicker",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Croydon Voluntary Action",
+          "address": {
+            "streetAddress": "CR0 2TB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Steve Phaure",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Croydon BME Forum",
+          "address": {
+            "streetAddress": "CR0 3RG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Andrew brown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-61c38955-77fb-4a29-b3af-8465bd1107de-croyd001-dn412418-75457339",
+        "title": "Community Fund: Infrastructure Support Service",
+        "description": "The Infrastructure Support Service will :-\r\n\r\n\u2022 Support growth and investment in the VCS and provide a support offer which is responsive to the needs of the sector \r\n\u2022 Facilitate VCS organisations and groups to build networks and connections in communities, to work with others and to prioritise prevention and early intervention. \r\n\u2022 Enable VCS organisations to contribute to the delivery of place-based, integrated offers that help residents find the information and support they need within their local community \r\n\u2022 Provide the voice of the sector and act as an advocate for the VCS in Croydon at a Regional and National Level.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98133100",
+              "description": "Civic betterment and community facility support services",
+              "uri": "http://cpv.data.ac.uk/code-98133100.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 750000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 750000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-09-20T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Asian Resource Centre of Croydon Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Croydon Neighbourhood Care"
+          },
+          {
+            "id": "3",
+            "name": "Croydon Voluntary Action"
+          },
+          {
+            "id": "4",
+            "name": "Croydon BME Forum"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-15T00:00:00Z",
+          "endDate": "2023-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "1bad082aff653260c00b51864962f12e",
+        "name": "Croydon Council"
+      },
+      "awards": [
+        {
+          "id": "8129c3e8-81da-4e96-82d6-4a83090095e1",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-18T00:00:00Z",
+          "value": {
+            "amount": 750000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Asian Resource Centre of Croydon Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Croydon Neighbourhood Care"
+            },
+            {
+              "id": "3",
+              "name": "Croydon Voluntary Action"
+            },
+            {
+              "id": "4",
+              "name": "Croydon BME Forum"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2023-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

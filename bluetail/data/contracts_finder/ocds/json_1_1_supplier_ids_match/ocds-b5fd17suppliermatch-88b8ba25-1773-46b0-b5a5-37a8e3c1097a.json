@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/32e6d33e-a9e8-4b6d-b00e-8a00f18a8b3a.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-13T11:27:51Z",
+  "publisher": {
+    "name": "Countess Of Chester Hospital",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-88b8ba25-1773-46b0-b5a5-37a8e3c1097a",
+      "id": "ocds-b5fd17-88b8ba25-1773-46b0-b5a5-37a8e3c1097a-358667-dps03-oh-19-jf",
+      "date": "2019-09-23T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "23c8f2dbba84c76fa36ccca85f4e0e17",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/3B55jxc4",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Countess Of Chester Hospital",
+          "address": {
+            "streetAddress": "Liverpool Road ",
+            "locality": "CHESTER",
+            "region": null,
+            "postalCode": "CH21UL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "James Flood",
+            "email": "james.flood1@nhs.net",
+            "telephone": "01244362552",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04925014",
+            "scheme": "GB-COH",
+            "legalName": "HEALTHWORK LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "HEALTHWORK LIMITED",
+          "address": {
+            "streetAddress": "16 St. John Street\nM3 4EA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Tok Hussain",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05770728",
+            "scheme": "GB-COH",
+            "legalName": "TEAM PREVENT UK LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "TEAM PREVENT UK LIMITED",
+          "address": {
+            "streetAddress": "First Floor Steadings Barn\nTOWCESTER\nNorthamptonshire\nNN12 7LS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Nicola Bailey",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-88b8ba25-1773-46b0-b5a5-37a8e3c1097a-dps03/oh/19/jf",
+        "title": "Provision of Occupational Health Services National Dynamic Purchasing System",
+        "description": "The Countess of Chester Hospital NHS Foundation Trust&#039;s commercial procurement service has established a dynamic purchasing system agreement which will allow clients to seek providers of a cost effective,responsive occupational health service (OHS) for staff.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85100000",
+              "description": "Health services",
+              "uri": "http://cpv.data.ac.uk/code-85100000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 50000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-02T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "HEALTHWORK LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "TEAM PREVENT UK LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-21T00:00:00Z",
+          "endDate": "2024-04-20T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "23c8f2dbba84c76fa36ccca85f4e0e17",
+        "name": "Countess Of Chester Hospital"
+      },
+      "awards": [
+        {
+          "id": "db9d05e8-7c7d-40a1-9c94-f9d532f03290",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-21T00:00:00Z",
+          "value": {
+            "amount": 50000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "HEALTHWORK LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "TEAM PREVENT UK LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-21T00:00:00Z",
+            "endDate": "2024-04-20T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

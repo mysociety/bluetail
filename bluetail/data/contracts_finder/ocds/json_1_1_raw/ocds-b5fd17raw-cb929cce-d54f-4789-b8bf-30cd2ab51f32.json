@@ -1,0 +1,292 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/406c30b3-0a47-4cbd-b8af-48d17707785b.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-06T16:31:19Z",
+  "publisher": {
+    "name": "Yorkshire Purchasing Organisation",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-cb929cce-d54f-4789-b8bf-30cd2ab51f32",
+      "id": "ocds-b5fd17-cb929cce-d54f-4789-b8bf-30cd2ab51f32-357771-dn456222---000953",
+      "date": "2019-12-23T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "9121100f5d2f388282a2172c83e0a421",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/8PQu5m2e",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Yorkshire Purchasing Organisation",
+          "address": {
+            "streetAddress": "Waltham Forest Town Hall, 701 Forest Road ",
+            "locality": "London",
+            "region": null,
+            "postalCode": "E17 4JF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Kamilla Krajniak",
+            "email": "procurement@walthamforest.gov.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03266042",
+            "scheme": "GB-COH",
+            "legalName": "EXCEL CIVIL ENFORCEMENT LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "EXCEL CIVIL ENFORCEMENT LIMITED",
+          "address": {
+            "streetAddress": "2 Marine Road\nLL29 8PH\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Alison Todd",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04305487",
+            "scheme": "GB-COH",
+            "legalName": "MARSTON (HOLDINGS) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MARSTON (HOLDINGS) LIMITED",
+          "address": {
+            "streetAddress": "8th Floor, Rutland House,148 Edmund Street\nBIRMINGHAM\nWest Midlands\nB3 2JR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jennette Piekuta",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03770985",
+            "scheme": "GB-COH",
+            "legalName": "NEWLYN PLC"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "NEWLYN PLC",
+          "address": {
+            "streetAddress": "180-188 Northolt Road\nHARROW\nMiddlesex\nHA2 0LT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "4714602",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Reventus Limited",
+          "address": {
+            "streetAddress": "Suite 63-67, \r\nAthenaeum Place, \r\nMuswell Hill,\r\nLondon,\r\nN10 3HL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-cb929cce-d54f-4789-b8bf-30cd2ab51f32-dn456222-/-000953",
+        "title": "Waltham forest Council&#039;s Further Competition - Enforcement Agency Services DPS 953",
+        "description": "Waltham Forest Council has conducted a Further Competition via YPO&#039;s Enforcement Agency Services DPS - 953 and has appointed four Enforcement Agents for Bailiff services across the following Lots-\r\n\r\n- Lot1- Current year Council Tax, National Non-Domestic Rates (NNDR)including Business Improvement District (BID), Housing Benefit Overpayment and Former Tenant Arrears.\r\n- Lot2- Council Tax and Business rates arrears, re-cycled debt including tracing returned from Lot 1.\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "75242110",
+              "description": "Bailiff services",
+              "uri": "http://cpv.data.ac.uk/code-75242110.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0.1,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0.1,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Other - Further Competition via YPO&#039;s Enforcement Agency Services DPS 953",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-16T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "EXCEL CIVIL ENFORCEMENT LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "MARSTON (HOLDINGS) LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "NEWLYN PLC"
+          },
+          {
+            "id": "4",
+            "name": "Reventus Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "9121100f5d2f388282a2172c83e0a421",
+        "name": "Yorkshire Purchasing Organisation"
+      },
+      "awards": [
+        {
+          "id": "9bba56fb-9369-40a1-a936-e121844d86fb",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-16T00:00:00Z",
+          "value": {
+            "amount": 0.1,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "EXCEL CIVIL ENFORCEMENT LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "MARSTON (HOLDINGS) LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "NEWLYN PLC"
+            },
+            {
+              "id": "4",
+              "name": "Reventus Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

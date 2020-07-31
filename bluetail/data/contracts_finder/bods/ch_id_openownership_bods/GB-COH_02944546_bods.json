@@ -1,0 +1,60 @@
+[
+    {
+        "statementID": "openownership-register-4369780706821407351",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CROSSROADS CARE STAFFORDSHIRE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02944546"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02944546",
+                "uri": "https://opencorporates.com/companies/gb/02944546"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4f03167e4ebf3403de867",
+                "uri": "http://register.openownership.org/entities/59c4f03167e4ebf3403de867"
+            }
+        ],
+        "foundingDate": "1994-07-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Clive Villas 22 Cemetery Road, Shelton, Stoke On Trent, Staffordshire, ST4 2DL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9848934278739151441",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4369780706821407351"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "statementID": "openownership-register-8610416159549258260",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "DEBEN WILLOW CARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09532996"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09532996",
+                "uri": "https://opencorporates.com/companies/gb/09532996"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9abc567e4ebf3404c8231",
+                "uri": "http://register.openownership.org/entities/59b9abc567e4ebf3404c8231"
+            }
+        ],
+        "foundingDate": "2015-04-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 14 Wilford Bridge Spur, Melton, Woodbridge, IP12 1RJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-699474530182288531",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8610416159549258260"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6316600716617661092"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-04-24T09:24:16Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2901759269553554207",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8610416159549258260"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9959531465091842390"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-04-24T09:24:16Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6316600716617661092",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Karl David Double"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09532996/persons-with-significant-control/individual/kJn_Damyb7Kv8LWbxm0jlvpP-go"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9abc567e4ebf3404c8247",
+                "uri": "http://register.openownership.org/entities/59b9abc567e4ebf3404c8247"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-06-01",
+        "addresses": [
+            {
+                "address": "Unit 14, Wilford Bridge Spur, Melton, Woodbridge, IP12 1RJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9959531465091842390",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Joyce Harris"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09532996/persons-with-significant-control/individual/nYTf3M0uU5mjvUsmZH3r4OnFEf0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9abc567e4ebf3404c8259",
+                "uri": "http://register.openownership.org/entities/59b9abc567e4ebf3404c8259"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-05-01",
+        "addresses": [
+            {
+                "address": "Unit 14, Wilford Bridge Spur, Melton, Woodbridge, IP12 1RJ",
+                "country": "GB"
+            }
+        ]
+    }
+]

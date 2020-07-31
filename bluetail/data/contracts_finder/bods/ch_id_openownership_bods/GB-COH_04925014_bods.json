@@ -1,0 +1,269 @@
+[
+    {
+        "statementID": "openownership-register-2460430973931301867",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HEALTHWORK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04925014"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04925014",
+                "uri": "https://opencorporates.com/companies/gb/04925014"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96c2b67e4ebf340466c92",
+                "uri": "http://register.openownership.org/entities/59b96c2b67e4ebf340466c92"
+            }
+        ],
+        "foundingDate": "2003-10-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "16 St. John Street, Manchester, M3 4EA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1394066704115280824",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2460430973931301867"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-16359513833647919885"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3066122917658676301",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2460430973931301867"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-198058186305004586"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30",
+                "endDate": "2019-12-17"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30",
+                "endDate": "2019-12-17"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-06-30",
+                "endDate": "2019-12-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15693245670407072214",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2460430973931301867"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8449619554234039266"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-06-30",
+                "endDate": "2019-12-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16359513833647919885",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Shaun Austin"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04925014/persons-with-significant-control/individual/5uUt0IiyCahc0kk4qTDp3mkBKBw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96c2b67e4ebf340466c9f",
+                "uri": "http://register.openownership.org/entities/59b96c2b67e4ebf340466c9f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1962-04-01",
+        "addresses": [
+            {
+                "address": "Apartment 2, Zion Baptist Chapel, Osborne Street, Hebden Bridge, HX7 8DT"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-198058186305004586",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Shahed Latif Khan"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04925014/persons-with-significant-control/individual/8_LmpSTOtizzfB-qdm6EwyPr4XE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b96c2b67e4ebf340466c9a",
+                "uri": "http://register.openownership.org/entities/59b96c2b67e4ebf340466c9a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-12-01",
+        "addresses": [
+            {
+                "address": "Cornerstone House, 14 Ling Lane, Scarcroft, Leeds, LS14 3HX"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8449619554234039266",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Tokeer Hussain"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/08842488/persons-with-significant-control/individual/aG_SNih7avwkDNHUBDXmGBlFrqc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9774567e4ebf3407d29b9",
+                "uri": "http://register.openownership.org/entities/59b9774567e4ebf3407d29b9"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-09-01",
+        "addresses": [
+            {
+                "address": "Broadway, Dean Row Road, Wilmslow, SK9 2BY"
+            }
+        ]
+    }
+]

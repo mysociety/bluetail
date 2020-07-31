@@ -1,0 +1,290 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7ae6c669-45f4-44f3-a794-3d996502402f.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-11T14:49:41Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-a03f2a80-8ffe-4936-854b-6b8a187bfc74",
+      "id": "ocds-b5fd17-a03f2a80-8ffe-4936-854b-6b8a187bfc74-358241-ypo001-dn462879-16212752",
+      "date": "2020-01-03T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "ad96f694e656fae799b58c74ed8f15ed",
+          "roles": [
+            "buyer"
+          ],
+          "name": "YPO",
+          "address": {
+            "streetAddress": "41 Industrial Park ",
+            "locality": "Wakefield",
+            "region": null,
+            "postalCode": "WF2 0XE",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Contracts Team",
+            "email": "contracts@ypo.co.uk",
+            "telephone": "+44 01924664685",
+            "faxNumber": null,
+            "uri": "http://www.ypo.co.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Parts Alliance Group Limited T/A Allparts Automotive",
+          "address": {
+            "streetAddress": "15th Floor 6 Bevis Marks, Bury Court, London, EC3A 7BA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Trojan Garage Equipment Services Limited",
+          "address": {
+            "streetAddress": "Unit B2 Ashville Park Short Way, Thornbury, Bristol, BS35 3UU\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "J.H.M.Butt &amp; Co.Limited",
+          "address": {
+            "streetAddress": "Station Yard, Station Rd,\nBawtry, Doncaster,\nDN10 6QD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Briggs Equipment UK Limited",
+          "address": {
+            "streetAddress": "Orbital 7, Orbital Way, Cannock, Staffordshire WS11 8XW\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Joe Westley",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-a03f2a80-8ffe-4936-854b-6b8a187bfc74-ypo001-dn462879-16212752",
+        "title": "YPO - 001012 Provision of Garage and Workshop Equipment &amp; Replacement Vehicle Parts (Supply Only)",
+        "description": "YPO are looking for Providers to be appointed onto a Framework Agreement for the supply of Garage And Workshop Equipment &amp; Replacement Vehicle Parts (supply only) for use in the education market and local authority sectors. This Framework is designed to meet the needs of YPO and Other Contracting Authorities by establishing an agreement where the end customer will place the order with the Provider and the Provider delivered direct to the end customer.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50000000",
+              "description": "Repair and maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 10000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-20T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Parts Alliance Group Limited T/A Allparts Automotive"
+          },
+          {
+            "id": "2",
+            "name": "Trojan Garage Equipment Services Limited"
+          },
+          {
+            "id": "3",
+            "name": "J.H.M.Butt &amp; Co.Limited"
+          },
+          {
+            "id": "4",
+            "name": "Briggs Equipment UK Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2024-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "ad96f694e656fae799b58c74ed8f15ed",
+        "name": "YPO"
+      },
+      "awards": [
+        {
+          "id": "da4057fd-2534-4081-917a-c16ff6cafd96",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-16T00:00:00Z",
+          "value": {
+            "amount": 10000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Parts Alliance Group Limited T/A Allparts Automotive"
+            },
+            {
+              "id": "2",
+              "name": "Trojan Garage Equipment Services Limited"
+            },
+            {
+              "id": "3",
+              "name": "J.H.M.Butt &amp; Co.Limited"
+            },
+            {
+              "id": "4",
+              "name": "Briggs Equipment UK Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2024-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

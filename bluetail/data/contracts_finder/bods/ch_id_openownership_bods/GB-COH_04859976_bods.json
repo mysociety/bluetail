@@ -1,0 +1,191 @@
+[
+    {
+        "statementID": "openownership-register-8716874226687439976",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WELLS FARM DAIRY LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04859976"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04859976",
+                "uri": "https://opencorporates.com/companies/gb/04859976"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92db067e4ebf340235490",
+                "uri": "http://register.openownership.org/entities/59b92db067e4ebf340235490"
+            }
+        ],
+        "foundingDate": "2003-08-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Wells Farm, Bradley, Stafford, Staffs, ST18 9EE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11717461904427686044",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8716874226687439976"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-207056799535432584"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-796654920699248333",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8716874226687439976"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1858097388080879634"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-207056799535432584",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Paul Anthony Holt"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04859976/persons-with-significant-control/individual/MMwJkyF8OUwfg8Hb3TFuI7yYOxI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92db067e4ebf34023549c",
+                "uri": "http://register.openownership.org/entities/59b92db067e4ebf34023549c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-02-01",
+        "addresses": [
+            {
+                "address": "The Wells Farm, Bradley, Stafford, Staffordshire, ST18 9EE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1858097388080879634",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Mark Christopher Holt"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04859976/persons-with-significant-control/individual/qxcsSAcIn5lSDZtgrhcI5FxrzUQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92db067e4ebf3402354e5",
+                "uri": "http://register.openownership.org/entities/59b92db067e4ebf3402354e5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-01-01",
+        "addresses": [
+            {
+                "address": "The Wells Farm, Bradley, Stafford, Staffordshire, ST19 9EE"
+            }
+        ]
+    }
+]

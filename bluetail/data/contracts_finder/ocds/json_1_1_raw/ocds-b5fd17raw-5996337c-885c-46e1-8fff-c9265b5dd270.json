@@ -1,0 +1,454 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/326d11f2-a64f-4f96-a23d-3a26286ac96e.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T10:13:10Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-5996337c-885c-46e1-8fff-c9265b5dd270",
+      "id": "ocds-b5fd17-5996337c-885c-46e1-8fff-c9265b5dd270-359486-nycc001-dn440218-91154506",
+      "date": "2019-10-28T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "e9e3fcc423bcdf06121d98cce11bef7f",
+          "roles": [
+            "buyer"
+          ],
+          "name": "North Yorkshire County Council",
+          "address": {
+            "streetAddress": "North Yorkshire County Council County Hall",
+            "locality": "Northallerton",
+            "region": null,
+            "postalCode": "DL7 8AD",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "procurement@northyorks.gov.uk",
+            "telephone": "+44 1609533450",
+            "faxNumber": null,
+            "uri": "http://www.northyorks.gov.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CEMEX UK Operations Ltd",
+          "address": {
+            "streetAddress": "CEMEX House, Coldharbor Lane, Thorpe,Egham, Surrey, TW20 8TD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Galliford Try Infrastructure Ltd",
+          "address": {
+            "streetAddress": "The White House, Leicester Road, Wolvey, Hinckley, Leicestershire, LE10 3JH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Hanson Quarry Products Europe Ltd T/A Hanson Contracting",
+          "address": {
+            "streetAddress": "The Ridge, Chipping Sodbury, Bristol, Avon, BS37 6AY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Lane Rental Services Ltd",
+          "address": {
+            "streetAddress": "Pocklington Industrial Estate, Pocklington, York, North Yorkshire, YO42 1NR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Tarmac Trading Limited",
+          "address": {
+            "streetAddress": "Portland House, Bickenhill Lane, Solihull, West Midlands, B37 7BQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Thomas Bow Limited",
+          "address": {
+            "streetAddress": "Ashbow Court, 4 - 12 Middleton Street, Nottingham, Nottinghamshire, NG7 2AL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Colas Ltd",
+          "address": {
+            "streetAddress": "Wallage Lane, Rowfant, Crawley, West Sussex, RH10 4NF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "DSD Construction Ltd",
+          "address": {
+            "streetAddress": "DSD House, Duke Road, Carlisle, Cumbria, CA6 4SH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-5996337c-885c-46e1-8fff-c9265b5dd270-nycc001-dn440218-91154506",
+        "title": "Carriageway Planing and Surfacing Contractor Framework 2020",
+        "description": "North Yorkshire County Council wishes to award a Framework Contract for the provision of carriageway planing and surfacing works, to be carried out on behalf of NYCC and others.  The geographical scope of this Framework Contract covers locations associated with the Yorkshire Highways Alliance (YHA): North Yorkshire County Council, City of Bradford Metropolitan District Council; Leeds City Council; Wakefield Council; Kirklees Council; City of York Council; and the Borough of Calderdale Council. Other Contracting Authorities may also wish to access the services of the Suppliers on the Framework. The works awarded under this Framework Contract will vary in scale and be appropriate to the Lot value, but predominantly relate to carriageways and will include, but not be limited to, resurfacing, reconstruction, patching, overlays, road markings and any other related activity such as minor drainage and iron works, kerbing and verge works. There may also be a requirement for proprietary surfacing (e.g. anti-skid) and Highways Act Section 38 or Section 278 works on behalf of developers. Works could take place on any roads maintained by the relevant Client e.g. single lane carriageways, cul-de-sacs etc. and off the public highway.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45233000",
+              "description": "Construction, foundation and surface works for highways, roads",
+              "uri": "http://cpv.data.ac.uk/code-45233000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 300000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-09T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 8,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "CEMEX UK Operations Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Galliford Try Infrastructure Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Hanson Quarry Products Europe Ltd T/A Hanson Contracting"
+          },
+          {
+            "id": "4",
+            "name": "Lane Rental Services Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Tarmac Trading Limited"
+          },
+          {
+            "id": "6",
+            "name": "Thomas Bow Limited"
+          },
+          {
+            "id": "7",
+            "name": "Colas Ltd"
+          },
+          {
+            "id": "8",
+            "name": "DSD Construction Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "e9e3fcc423bcdf06121d98cce11bef7f",
+        "name": "North Yorkshire County Council"
+      },
+      "awards": [
+        {
+          "id": "cfba2937-8f9e-4bf1-bce4-e118adf67b15",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-22T00:00:00Z",
+          "value": {
+            "amount": 300000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "CEMEX UK Operations Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Galliford Try Infrastructure Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Hanson Quarry Products Europe Ltd T/A Hanson Contracting"
+            },
+            {
+              "id": "4",
+              "name": "Lane Rental Services Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Tarmac Trading Limited"
+            },
+            {
+              "id": "6",
+              "name": "Thomas Bow Limited"
+            },
+            {
+              "id": "7",
+              "name": "Colas Ltd"
+            },
+            {
+              "id": "8",
+              "name": "DSD Construction Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-05T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

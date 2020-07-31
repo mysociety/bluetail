@@ -1,0 +1,207 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d0bbb8f0-4ad7-4811-ab20-986474ad7366.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-14T14:20:03Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-4a8056bb-a2ef-4ef3-8255-0a757439b3aa",
+      "id": "ocds-b5fd17-4a8056bb-a2ef-4ef3-8255-0a757439b3aa-359005-bip493236539",
+      "date": "2020-02-04T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "b96d9516167b46b9aaeafb1e05670a59",
+          "roles": [
+            "buyer"
+          ],
+          "name": "CLARION HOUSING GROUP",
+          "address": {
+            "streetAddress": "6 More London Place ",
+            "locality": "London",
+            "region": null,
+            "postalCode": "SE1 2DA",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "David Rosbotham",
+            "email": "procurement@clarionhg.com",
+            "telephone": "+447976009606",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Jackson Lift Services",
+          "address": {
+            "streetAddress": "Units 3-19\n        Ropery Business Park\n        Anchor and Hope Lane\n        London\n        SE77RX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Prism UK Medical",
+          "address": {
+            "streetAddress": "Unit 4 Jubilee Way\n        Jubliee Business Park\n        Grange Moor\n        Wakefield\n        WF44TD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-4a8056bb-a2ef-4ef3-8255-0a757439b3aa-bip493236539",
+        "title": "Domestic Lifts (Disabled Access Equipment) - Service &amp; Maintenance",
+        "description": "The service and maintenance of Domestic Lifts (Disabled Access Equipment) across the Clarion portfolio.\r\n      Includes stair lifts/hoists and platform or through floor lifts - the latter take between one passenger wheelchair - five passengers, and are used in buildings of 2-4 storeys.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50750000",
+              "description": "Lift-maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50750000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 6641142,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Jackson Lift Services"
+          },
+          {
+            "id": "2",
+            "name": "Prism UK Medical"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2030-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "b96d9516167b46b9aaeafb1e05670a59",
+        "name": "CLARION HOUSING GROUP"
+      },
+      "awards": [
+        {
+          "id": "acf1f4dc-4f27-4fba-99a1-66baf8e14391",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-31T00:00:00Z",
+          "value": {
+            "amount": 6641142,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Jackson Lift Services"
+            },
+            {
+              "id": "2",
+              "name": "Prism UK Medical"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2030-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

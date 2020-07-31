@@ -1,0 +1,296 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/bb0367ff-7d0e-4904-84ed-acd02130abdf.json",
+  "version": "1.1",
+  "publishedDate": "2020-01-23T13:25:28Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-7344743b-96d3-4ca4-b231-e5bcf39fd468",
+      "id": "ocds-b5fd17-7344743b-96d3-4ca4-b231-e5bcf39fd468-339092-redbr001-dn411931-70463415",
+      "date": "2019-05-27T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "cf23a810bde2e8685388101f4f696b6d",
+          "roles": [
+            "buyer"
+          ],
+          "name": "London Borough of Redbridge",
+          "address": {
+            "streetAddress": "Lynton House 255-259 High Road",
+            "locality": "Ilford,",
+            "region": null,
+            "postalCode": "IG1 1NY",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Rita Emesim",
+            "email": "Rita.Emesim@psprocure.co.uk",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "http://www.redbridge.gov.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-667550840",
+            "scheme": "GB-CQC",
+            "legalName": "Chosen Care Group Limited"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Chosen Care Group Limited",
+          "address": {
+            "streetAddress": "Cranbrook House\n61 Cranbrook Road\nIlford\nIG1 4PG\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2001163039",
+            "scheme": "GB-CQC",
+            "legalName": "Diversity Health and Social Care Limited"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Diversity Health and Social Care Limited",
+          "address": {
+            "streetAddress": "Suite 216-217, Estuary House, \n196 Ballards Road, \nDagenham, \nEssex, RM10 9AB\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-116958396",
+            "scheme": "GB-CQC",
+            "legalName": "Immaculate Healthcare Services Limited"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Immaculate Healthcare Services Limited",
+          "address": {
+            "streetAddress": "Immaculate Healthcare Services Limited\nUnit 1, 295 Eastern Avenue, \nGants Hill, \nIlford Essex\nIG2 6NT\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2333826230",
+            "scheme": "GB-CQC",
+            "legalName": "Kare Plus Redbridge"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Kare Plus Redbridge",
+          "address": {
+            "streetAddress": "Kare Plus Redbridge\n2nd Floor, \n1, Caxton Place, \nRoden St, \nIlford IG1 2AH\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7344743b-96d3-4ca4-b231-e5bcf39fd468-redbr001-dn411931-70463415",
+        "title": "FRAMEWORK AGREEMENT FOR THE PROVISION OF DOMICILIARY HOME CARE FOR CHILDREN AND ADULT SERVICE IN THE LONDON BOROUGH OF REDBRIDGE",
+        "description": "FRAMEWORK AGREEMENT FOR THE PROVISION OF DOMICILIARY HOME CARE FOR CHILDREN AND ADULT SERVICE IN THE LONDON BOROUGH OF REDBRIDGE\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98000000",
+              "description": "Other community, social and personal services",
+              "uri": "http://cpv.data.ac.uk/code-98000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85300000",
+              "description": "Social work and related services",
+              "uri": "http://cpv.data.ac.uk/code-85300000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 41200000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 41200000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Restricted procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Chosen Care Group Limited"
+          },
+          {
+            "id": "3",
+            "name": "Diversity Health and Social Care Limited"
+          },
+          {
+            "id": "6",
+            "name": "Immaculate Healthcare Services Limited"
+          },
+          {
+            "id": "7",
+            "name": "Kare Plus Redbridge"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-12-02T00:00:00Z",
+          "endDate": "2023-11-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "cf23a810bde2e8685388101f4f696b6d",
+        "name": "London Borough of Redbridge"
+      },
+      "awards": [
+        {
+          "id": "096a0f11-dab7-490a-9c9e-fea16c862726",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-18T00:00:00Z",
+          "value": {
+            "amount": 41200000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Chosen Care Group Limited"
+            },
+            {
+              "id": "3",
+              "name": "Diversity Health and Social Care Limited"
+            },
+            {
+              "id": "6",
+              "name": "Immaculate Healthcare Services Limited"
+            },
+            {
+              "id": "7",
+              "name": "Kare Plus Redbridge"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-06T00:00:00Z",
+            "endDate": "2024-01-05T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

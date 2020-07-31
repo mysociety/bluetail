@@ -1,0 +1,135 @@
+[
+    {
+        "statementID": "openownership-register-10970075321036438523",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BRITISH GAS SOCIAL HOUSING LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01026007"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01026007",
+                "uri": "https://opencorporates.com/companies/gb/01026007"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cb9a67e4ebf340c57676",
+                "uri": "http://register.openownership.org/entities/59b9cb9a67e4ebf340c57676"
+            }
+        ],
+        "foundingDate": "1971-10-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Millstream, Maidenhead Road, Windsor, Berkshire, SL4 5GD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16891102294429305166",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10970075321036438523"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-11583393809107077038"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11583393809107077038",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "P.H JONES GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06474145"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06474145"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06474145"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06474145"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06474145",
+                "uri": "https://opencorporates.com/companies/gb/06474145"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94bdb67e4ebf340ad79ca",
+                "uri": "http://register.openownership.org/entities/59b94bdb67e4ebf340ad79ca"
+            }
+        ],
+        "foundingDate": "2008-01-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Millstream, Maidenhead Road, Windsor, Berkshire, SL4 5GD",
+                "country": "GB"
+            }
+        ]
+    }
+]

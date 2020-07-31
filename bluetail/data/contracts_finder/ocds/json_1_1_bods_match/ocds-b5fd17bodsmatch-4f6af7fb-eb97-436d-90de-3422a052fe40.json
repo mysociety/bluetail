@@ -1,0 +1,292 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/8a96de86-f91a-411a-8e65-40fc388ca4e4.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-30T16:05:50Z",
+  "publisher": {
+    "name": "NORTH WESTERN UNIVERSITIES PURCHASING CONSORTIUM LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-4f6af7fb-eb97-436d-90de-3422a052fe40",
+      "id": "ocds-b5fd17-4f6af7fb-eb97-436d-90de-3422a052fe40-352231-avi3084-nw",
+      "date": "2019-09-02T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "3fa61d42ffed849f77d864ac4b0f6e43",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/uUw27ADV",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "NORTH WESTERN UNIVERSITIES PURCHASING CONSORTIUM LIMITED",
+          "address": {
+            "streetAddress": "Albert House,17 Bloom Street ",
+            "locality": "MANCHESTER",
+            "region": null,
+            "postalCode": "M13HZ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Helen Dodd-Williams",
+            "email": "nwupc@manchester.ac.uk",
+            "telephone": "0161 234 8003",
+            "faxNumber": null,
+            "uri": "https://in-tendhost.co.uk/nwupc/aspx/Home"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04141235",
+            "scheme": "GB-COH",
+            "legalName": "GV MULTI-MEDIA LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "GV MULTI-MEDIA LIMITED",
+          "address": {
+            "streetAddress": "Unit 1 Inwood Business Centre Whitton Road\nHounslow\nMiddlesex\nTW3 2EB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02248449",
+            "scheme": "GB-COH",
+            "legalName": "INFORMATION AND DATA NETWORKS SUPPLIES LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "INFORMATION AND DATA NETWORKS SUPPLIES LIMITED",
+          "address": {
+            "streetAddress": "Springfield Court Summerfield Road\nBL3 2NT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02170847",
+            "scheme": "GB-COH",
+            "legalName": "THE SAVILLE GROUP LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "THE SAVILLE GROUP LIMITED",
+          "address": {
+            "streetAddress": "UNIT 5,MILLFIELD LANE\nYORK\nNORTH YORKSHIRE\nYO26 6PQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02051703",
+            "scheme": "GB-COH",
+            "legalName": "XMA LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "XMA LIMITED",
+          "address": {
+            "streetAddress": "Wilford Industrial Estate,Ruddington Lane, Wilford\nNOTTINGHAM\nNottinghamshire\nNG11 7EP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-4f6af7fb-eb97-436d-90de-3422a052fe40-avi3084-nw",
+        "title": "Audio Visual Equipment and Installation Services",
+        "description": "The NWUPC is seeking to establish a multi-provider Framework Agreement on behalf of the members of NWUPC and CPC for Audio Visual Equipment and Installation Services.\r\nThe following members of NWUPC and CPC have committed to this procurement and intend to utilise the Framework Agreement as soon as possible after award:\r\n\t\r\nNWUPC and CPC. Please see further descriptions for details of members.\r\n\r\nThe Framework Agreement will be split into 2 lots as follows:\r\nLot 1 - Audio Visual  - Supply of Equipment\r\nLot 2 - Audio Visual - Supply of Equipment and Installation Services",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "32000000",
+              "description": "Radio, television, communication, telecommunication and related equipment",
+              "uri": "http://cpv.data.ac.uk/code-32000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 48000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-25T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "GV MULTI-MEDIA LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "INFORMATION AND DATA NETWORKS SUPPLIES LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "THE SAVILLE GROUP LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "XMA LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-01T00:00:00Z",
+          "endDate": "2022-02-28T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "3fa61d42ffed849f77d864ac4b0f6e43",
+        "name": "NORTH WESTERN UNIVERSITIES PURCHASING CONSORTIUM LIMITED"
+      },
+      "awards": [
+        {
+          "id": "51c8da63-8420-4daa-b690-c849954fc902",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-28T00:00:00Z",
+          "value": {
+            "amount": 52000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "GV MULTI-MEDIA LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "INFORMATION AND DATA NETWORKS SUPPLIES LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "THE SAVILLE GROUP LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "XMA LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-01T00:00:00Z",
+            "endDate": "2022-02-28T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

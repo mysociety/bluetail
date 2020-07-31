@@ -1,0 +1,494 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/493a52b8-4554-420b-a641-d316b42203ca.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-21T11:50:04Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-598246e0-8510-4b65-9f27-e27706f3a57a",
+      "id": "ocds-b5fd17-598246e0-8510-4b65-9f27-e27706f3a57a-360172-bip494348353",
+      "date": "2019-12-25T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "72a8004e19d0a79d87cbb3587dee49bb",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Telford &amp; Wrekin Council",
+          "address": {
+            "streetAddress": "Darby House Lawn Central",
+            "locality": "Telford",
+            "region": null,
+            "postalCode": "TF3 4JA",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "martin.davies@telford.gov.uk",
+            "telephone": "+441952384523",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "OFR Consultants Limited",
+          "address": {
+            "streetAddress": "Sevendale House\n        3rd Floor\n        Lever Street\n        Manchester\n        M1 1JA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ridge and Partners",
+          "address": {
+            "streetAddress": "2 Cranbrook Way\n        Shirley\n        Solihull\n        B90 4GT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Texo DSI Ltd",
+          "address": {
+            "streetAddress": "8 Stepfield\n        Witham\n        Essex\n        CM8 3TH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Waterman Infrastructure &amp; Environment Ltd",
+          "address": {
+            "streetAddress": "5th Floor\n        One Cornwall Street\n        Birmingham\n        B3 2DX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Wardell Armstrong LLP",
+          "address": {
+            "streetAddress": "41-50 Futura Park\n        Aspinall Way\n        Middlebrook\n        Bolton\n        BL6 6SU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Caulmert Ltd",
+          "address": {
+            "streetAddress": "Unit 14\n        St Asaph Business Park\n        St Asaph\n        Denbighshire\n        LL17 0LJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Environment Partnership (TEP) Limited",
+          "address": {
+            "streetAddress": "Genesis Centre\n        Birchwood Science Park\n        Warrington\n        WA3 7BH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Hydrock Consultants Ltd",
+          "address": {
+            "streetAddress": "OVER COURT BARNS\n        OVER LANE\n        ALMONDSBURY\n        Bristol\n        BS32 4DF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "RSK Environment Ltd",
+          "address": {
+            "streetAddress": "Abbey Park\n        Humber Road\n        Coventry\n        CV3 4AQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-598246e0-8510-4b65-9f27-e27706f3a57a-bip494348353",
+        "title": "Professional Consultancy Services",
+        "description": "The Dynamic Purchasing System (DPS) will provide a database of Approved suppliers considered capable of carrying out professional consultancy services to a satisfactory standard. The nature and types of services that may be required may include, but are not limited to, those services identified by the CPV code and summarised in section II.2.\r\n      \r\n      The specific services cannot be clearly defined at this stage, however the nature and types of services that may be required may include, but are not limited to, buildings and civils professional consultancy services\r\n      The DPS is a 2-stage process:\r\n      Stage 1 - All providers who meet the selection criteria within the online Questionnaire and are not excluded will be admitted to the DPS. New providers can also apply to join the DPS at any point during its lifetime. \r\n      Stage 2 - Contracts are awarded during the second stage. A Call-Off competition will be put out inviting each approved provider on the DPS list relating to the particular Lot.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71530000",
+              "description": "Construction consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71530000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 139500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Restricted procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-18T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 9,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "OFR Consultants Limited"
+          },
+          {
+            "id": "2",
+            "name": "Ridge and Partners"
+          },
+          {
+            "id": "3",
+            "name": "Texo DSI Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Waterman Infrastructure &amp; Environment Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Wardell Armstrong LLP"
+          },
+          {
+            "id": "6",
+            "name": "Caulmert Ltd"
+          },
+          {
+            "id": "7",
+            "name": "The Environment Partnership (TEP) Limited"
+          },
+          {
+            "id": "8",
+            "name": "Hydrock Consultants Ltd"
+          },
+          {
+            "id": "9",
+            "name": "RSK Environment Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-19T00:00:00Z",
+          "endDate": "2023-04-15T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "72a8004e19d0a79d87cbb3587dee49bb",
+        "name": "Telford &amp; Wrekin Council"
+      },
+      "awards": [
+        {
+          "id": "0febaa3b-3c89-4fd8-8e3d-3b0c5ea66d36",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-21T00:00:00Z",
+          "value": {
+            "amount": 139500000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "OFR Consultants Limited"
+            },
+            {
+              "id": "2",
+              "name": "Ridge and Partners"
+            },
+            {
+              "id": "3",
+              "name": "Texo DSI Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Waterman Infrastructure &amp; Environment Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Wardell Armstrong LLP"
+            },
+            {
+              "id": "6",
+              "name": "Caulmert Ltd"
+            },
+            {
+              "id": "7",
+              "name": "The Environment Partnership (TEP) Limited"
+            },
+            {
+              "id": "8",
+              "name": "Hydrock Consultants Ltd"
+            },
+            {
+              "id": "9",
+              "name": "RSK Environment Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-19T00:00:00Z",
+            "endDate": "2023-04-15T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

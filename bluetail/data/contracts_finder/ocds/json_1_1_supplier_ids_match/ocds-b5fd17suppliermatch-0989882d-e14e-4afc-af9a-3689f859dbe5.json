@@ -1,0 +1,331 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/bdd7f20c-9930-4592-abb7-0baa472c3a31.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-05T10:43:54Z",
+  "publisher": {
+    "name": "N E L Commissioning Support Unit",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-0989882d-e14e-4afc-af9a-3689f859dbe5",
+      "id": "ocds-b5fd17-0989882d-e14e-4afc-af9a-3689f859dbe5-338503-prj736",
+      "date": "2019-05-10T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "1c3f0370d17f9f6c0fc60211043f797d",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/m4hc8Tk6",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "N E L Commissioning Support Unit",
+          "address": {
+            "streetAddress": "1 Lower Marsh Waterloo",
+            "locality": "LONDON",
+            "region": null,
+            "postalCode": "SE1 7NT",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Natalie Polyblank",
+            "email": "natalie.polyblank1@nhs.net",
+            "telephone": "07748 622849",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "05057581",
+            "scheme": "GB-COH",
+            "legalName": "AT MEDICS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "AT MEDICS LIMITED",
+          "address": {
+            "streetAddress": "26-28 STREATHAM PLACE\nSW2 4QY\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 0
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-525871933",
+            "scheme": "GB-CQC",
+            "legalName": "Kelsey Healthcare Limited"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Kelsey Healthcare Limited",
+          "address": {
+            "streetAddress": "Beckenham Beacon, 379 Croydon Road, Beckenham, BR3 3FD\r\n\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 0
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-510954802",
+            "scheme": "GB-CQC",
+            "legalName": "Evergreen Surgery Limited"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Evergreen Surgery Limited",
+          "address": {
+            "streetAddress": "Ramsay House\r\n18 Vera Avenue\r\nGrange Park\r\nLondon\r\nN21 1RA\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-589456906",
+            "scheme": "GB-CQC",
+            "legalName": "Belmont Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Belmont Medical Centre",
+          "address": {
+            "streetAddress": "Belmont Medical Centre - Dr Jagjeet S Sandhu\r\n18-20 Western Road, \r\nSouthall \r\nUB2 5DU\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 0
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-537835057",
+            "scheme": "GB-CQC",
+            "legalName": "Hounslow Medical Centre"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Hounslow Medical Centre",
+          "address": {
+            "streetAddress": "Hounslow Medical Centre\r\nSecond Reception\r\n134 Bath Road\r\nHounslow\r\nMiddlesex\r\nTW3 3ET\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 0
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-0989882d-e14e-4afc-af9a-3689f859dbe5-prj736",
+        "title": "London APMS GP Contract (T7)",
+        "description": "NHS NEL CSU on behalf of NHS England London Region (hereafter referred to as \"The Authority\") invites suitably qualified and experienced providers to deliver APMS Services for a number of GP practices in London. This procurement process relates to the contracts for the provision of primary medical GP services (the Services) to be delivered through an Alternative Provider of Medical Services (APMS) contract.  The Commissioners of these services include the following Clinical Commissioning Groups (CCGs) acting under delegated authority from NHS England; NHS Bexley CCG; NHS Southwark CCG; NHS Bromley CCG; NHS Camden CCG; NHS Enfield CCG; NHS Newham CCG; NHS City &amp; Hackney CCG; NHS Tower Hamlets CCG; NHS Waltham Forest CCG; NHS Ealing CCG; NHS Hounslow CCG and NHS West London CCG.  Tranche 7 (T7) of the London APMS Programme includes 15 (fifteen) individual APMS contracts in different parts of London.  The practices/lots are: Lot 1 - Bursted Wood Surgery (DA7), Bexley, Lot 2:  Queens Road Surgery (SE15) Southwark; Lot 3:  Silverlock Medical Centre (SE16) Southwark; Lot 4:  Cator Medical Centre (BR3) Bromley; Lot 5: Brunswick Medical Centre UHPC (WC1N) Camden; Lot 6: Camden Health Improvement Practice (CHIP) (NW1) Camden; Lot 7: Ordnance Unity Centre for Health (EN3) Enfield; Lot 8: Newham Transitional Practice (E12) Newham; Lot 9: Allerton Road Medical Centre (N16) City &amp; Hackney; Lot 10: Carpenters Practice (E15) Newham; Lot 11: Goodman&#039;s Field (formerly known as Whitechapel Health Centre &amp; East 1 Health) (E1) Tower Hamlets; Lot 12: Abbotts Park Health Centre (formerly known as S M A) (E10) Waltham Forest; Lot 13:  Waterside Medical Centre (UB2) Ealing; Lot 14: Heston Great West Practice (TW4) Hounslow; Lot 15: Earls Court Health &amp; Wellbeing Centre (SW5) West London. NELCSU is managing this Procurement in accordance with the Public Contracts Regulations 2015 (the \"Regulations\"). As a result of this procurement exercise an agreement will be established with the successful Bidder for each Lot for a period of 5 years, with the Commissioner having the option to extend for up to a further 5 + 5 years, (subject to NHS England internal approval). The contract extension will be subject to a review of the delivery and performance of the contract.  All completed bids must be submitted by 12.00 (noon) on 19th July 2019. The ITT reference for this tender is PRJ736.  The Procurement process is facilitated entirely online via the stated e-procurement portal ProContract (the Portal). \r\nThis procurement is split into Lots. Bidders may bid for one, all or any combination of the Lots as set out in tender documentation however commissioners do not intend to award more than 7 contracts to any single provider. Please refer to the associated published documentation published with the tender for further information. The ITT can be accessed at the following link: https://procontract.due-north.com/Advert?advertId=ddb93538-2d94-e911-80f8-005056b64545&amp;p=ad706dc1-5684-e511-80f3",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85121100",
+              "description": "General-practitioner services",
+              "uri": "http://cpv.data.ac.uk/code-85121100.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 226185114,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Other - Light Touch Regime Procurement",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-26T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "AT MEDICS LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "Kelsey Healthcare Limited"
+          },
+          {
+            "id": "4",
+            "name": "Evergreen Surgery Limited"
+          },
+          {
+            "id": "7",
+            "name": "Belmont Medical Centre"
+          },
+          {
+            "id": "8",
+            "name": "Hounslow Medical Centre"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "1c3f0370d17f9f6c0fc60211043f797d",
+        "name": "N E L Commissioning Support Unit"
+      },
+      "awards": [
+        {
+          "id": "26cf3497-62d5-473d-9005-373e51cbe004",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-01-31T00:00:00Z",
+          "value": {
+            "amount": 226185114,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "AT MEDICS LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "Kelsey Healthcare Limited"
+            },
+            {
+              "id": "4",
+              "name": "Evergreen Surgery Limited"
+            },
+            {
+              "id": "7",
+              "name": "Belmont Medical Centre"
+            },
+            {
+              "id": "8",
+              "name": "Hounslow Medical Centre"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

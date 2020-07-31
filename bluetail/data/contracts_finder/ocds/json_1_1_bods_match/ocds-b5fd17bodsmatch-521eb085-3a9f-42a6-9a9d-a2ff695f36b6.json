@@ -1,0 +1,292 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7a776775-f6b4-496f-bd15-fd66ac53c51c.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-07T16:30:16Z",
+  "publisher": {
+    "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-521eb085-3a9f-42a6-9a9d-a2ff695f36b6",
+      "id": "ocds-b5fd17-521eb085-3a9f-42a6-9a9d-a2ff695f36b6-352870-1460",
+      "date": "2019-11-15T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "e0390ac5e521831e44fde32085317afd",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/au8q6EUc",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+          "address": {
+            "streetAddress": "Wilton ",
+            "locality": "REDCAR",
+            "region": null,
+            "postalCode": "TS104RF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "CPI Procurement",
+            "email": "e-tendering@uk-cpi.com",
+            "telephone": "01740 625716",
+            "faxNumber": null,
+            "uri": "www.uk-cpi.com"
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC302638",
+            "scheme": "GB-COH",
+            "legalName": "THE ENDEAVOUR PARTNERSHIP LLP"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "THE ENDEAVOUR PARTNERSHIP LLP",
+          "address": {
+            "streetAddress": "Of St. Marks Court Teesdale Business Park\nSTOCKTON-ON-TEES\nCleveland\nTS17 6QW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Paul Bury",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC314079",
+            "scheme": "GB-COH",
+            "legalName": "HILL DICKINSON LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "HILL DICKINSON LLP",
+          "address": {
+            "streetAddress": "1 St Pauls Square\nLIVERPOOL\nMERSEYSIDE\nL3 9SJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Julia Spurrett",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC315403",
+            "scheme": "GB-COH",
+            "legalName": "MUCKLE LLP"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MUCKLE LLP",
+          "address": {
+            "streetAddress": "Time Central,32 Gallowgate\nNEWCASTLE-UPON-TYNE\nTYNE AND WEAR\nNE1 4BF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC317661",
+            "scheme": "GB-COH",
+            "legalName": "WOMBLE BOND DICKINSON (UK) LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "WOMBLE BOND DICKINSON (UK) LLP",
+          "address": {
+            "streetAddress": "4 More London Riverside\nLONDON\nSE1 2AU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Clarissa Etienne",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-521eb085-3a9f-42a6-9a9d-a2ff695f36b6-1460",
+        "title": "1460 - Legal Advice Framework",
+        "description": "CPI has a requirement for an external legal panel to assist in giving advice across the organisation on various matters when they arise.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79100000",
+              "description": "Legal services",
+              "uri": "http://cpv.data.ac.uk/code-79100000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 189330,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "THE ENDEAVOUR PARTNERSHIP LLP"
+          },
+          {
+            "id": "3",
+            "name": "HILL DICKINSON LLP"
+          },
+          {
+            "id": "4",
+            "name": "MUCKLE LLP"
+          },
+          {
+            "id": "7",
+            "name": "WOMBLE BOND DICKINSON (UK) LLP"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-06T00:00:00Z",
+          "endDate": "2024-04-05T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "e0390ac5e521831e44fde32085317afd",
+        "name": "CENTRE FOR PROCESS INNOVATION LIMITED"
+      },
+      "awards": [
+        {
+          "id": "06fe9396-9173-44a8-8b15-e45b6c0333e6",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-02T00:00:00Z",
+          "value": {
+            "amount": 189330,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "THE ENDEAVOUR PARTNERSHIP LLP"
+            },
+            {
+              "id": "3",
+              "name": "HILL DICKINSON LLP"
+            },
+            {
+              "id": "4",
+              "name": "MUCKLE LLP"
+            },
+            {
+              "id": "7",
+              "name": "WOMBLE BOND DICKINSON (UK) LLP"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-06T00:00:00Z",
+            "endDate": "2024-04-05T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

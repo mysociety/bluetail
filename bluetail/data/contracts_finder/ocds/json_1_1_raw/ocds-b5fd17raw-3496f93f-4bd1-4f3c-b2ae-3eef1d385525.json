@@ -1,0 +1,264 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/58f469ed-361b-4c1b-ae5e-1fe9f5f11969.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-13T13:37:48Z",
+  "publisher": {
+    "name": "STAFFORDSHIRE COUNTY COUNCIL",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-3496f93f-4bd1-4f3c-b2ae-3eef1d385525",
+      "id": "ocds-b5fd17-3496f93f-4bd1-4f3c-b2ae-3eef1d385525-358740-ia1834_award",
+      "date": "2019-12-23T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "66d053ea293ab140376a2a6446e373f3",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/gAt5NMW9",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "STAFFORDSHIRE COUNTY COUNCIL",
+          "address": {
+            "streetAddress": "2 Staffordshire Place ",
+            "locality": "STAFFORD",
+            "region": null,
+            "postalCode": "ST162LP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Paul Timmins",
+            "email": "paul.timmins@staffordshire.gov.uk",
+            "telephone": "01785854646",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "02115830",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Goliath Home World Limited",
+          "address": {
+            "streetAddress": "Kings Chambers\r\nHigh Street\r\nDudley\r\nWest Midlands\r\nDY1 1QT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "2016493",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Strata (Double Glazing &amp; Joinery Centre) Ltd",
+          "address": {
+            "streetAddress": "Forge Lane\r\nFestival Park\r\nStoke on Trent\r\nStaffordshire\r\nST1 5NP\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "03737054",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Window and Door Maintenance Services Ltd",
+          "address": {
+            "streetAddress": "Unit T Riverside Industrial Estate\r\nAtherstone Street\r\nFazeley\r\nTamworth\r\nStaffordshire\r\nB78 3RW\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-3496f93f-4bd1-4f3c-b2ae-3eef1d385525-ia1834_award",
+        "title": "For the Provision and Installation of PVC-U Windows, Aluminium Doors and Ancillary Work - Non-Domestic(Framework Agreement)",
+        "description": "THIS IS AN AWARD NOTICE - NOT A CALL FOR COMPETITION.\r\nTo provide Staffordshire County Council or partner with a comprehensive service to provide, install, renew, replace windows, doors, storey height frames and curtain walling systems to what will be predominately single storey buildings with there being occasional two and three storey buildings. These works will have been identified through condition surveys and asset management plans. Individual projects will include all labours and associated works, perimeter protection, full scaffolding, site compounds, welfare facilities and waste management. The value of each project will usually range between &pound;10,000 and &pound;50,000 with some projects reaching values outside of this. There is no cap on project size. Refer to the Framework Terms for full specification.\r\nProperties will include Customer-owned properties, public sector estate and infrastructure, schools (maintained or otherwise), Academies, Free schools, libraries, community buildings, general offices, education/higher education property, health &amp; social care buildings, emergency services buildings, occasional nursery facilities, sports facilities, and light commercial industrial units.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "44220000",
+              "description": "Builders' joinery",
+              "uri": "http://cpv.data.ac.uk/code-44220000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45421100",
+              "description": "Installation of doors and windows and related components",
+              "uri": "http://cpv.data.ac.uk/code-45421100.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 3000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-20T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Goliath Home World Limited"
+          },
+          {
+            "id": "2",
+            "name": "Strata (Double Glazing &amp; Joinery Centre) Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Window and Door Maintenance Services Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-12T00:00:00Z",
+          "endDate": "2024-05-11T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "66d053ea293ab140376a2a6446e373f3",
+        "name": "STAFFORDSHIRE COUNTY COUNCIL"
+      },
+      "awards": [
+        {
+          "id": "c5cf71bf-b0f7-43a0-881b-0af5f5245265",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-12T00:00:00Z",
+          "value": {
+            "amount": 3000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Goliath Home World Limited"
+            },
+            {
+              "id": "2",
+              "name": "Strata (Double Glazing &amp; Joinery Centre) Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Window and Door Maintenance Services Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-12T00:00:00Z",
+            "endDate": "2024-05-11T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

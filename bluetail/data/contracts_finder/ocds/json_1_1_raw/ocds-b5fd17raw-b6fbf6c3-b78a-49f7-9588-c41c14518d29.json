@@ -1,0 +1,382 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c0f5930d-c1a7-4c45-839d-cc393ac72c1e.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-22T08:57:27Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-b6fbf6c3-b78a-49f7-9588-c41c14518d29",
+      "id": "ocds-b5fd17-b6fbf6c3-b78a-49f7-9588-c41c14518d29-360343-ypo001-dn460741-90391973",
+      "date": "2020-03-20T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "ad96f694e656fae799b58c74ed8f15ed",
+          "roles": [
+            "buyer"
+          ],
+          "name": "YPO",
+          "address": {
+            "streetAddress": "41 Industrial Park ",
+            "locality": "Wakefield",
+            "region": null,
+            "postalCode": "WF2 0XE",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Contracts Team",
+            "email": "contracts@ypo.co.uk",
+            "telephone": "+44 01924664685",
+            "faxNumber": null,
+            "uri": "http://www.ypo.co.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Ridley Recycling Limited",
+          "address": {
+            "streetAddress": "Cardinal House 46 St Nicholas Street, Ipswich, Suffolk, IP1 1TT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Peter Ridley",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Imperial Polythene Products Ltd",
+          "address": {
+            "streetAddress": "Units 3 &amp; 4\nLakeside Industrial Estate\nColnbrook\nSlough\nSL3 0ED",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Samual Marsh",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "JPK TRADE SUPPLIES LTD",
+          "address": {
+            "streetAddress": "Unit 1\nAshmead Road\nKeynsham\nBristol\nBS31 1SX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Ian Macleod",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "The Compost Bag Company Ltd",
+          "address": {
+            "streetAddress": "Comet Road\nMoss Side Industrial Estate\nLeyland\nPreston\nPR26 7PF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Harold Naylor",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Cromwell Polythene Ltd",
+          "address": {
+            "streetAddress": "1 Glentrool Avenue\nSherburn-in-Elmet\nLeeds\nLS25 6PL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "James Lee",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "British Polythene Ltd t/a BPI Recycled Products - Plaswood",
+          "address": {
+            "streetAddress": "Sapphire House\nCrown Way, Rushden\nNorthamptonshire\nNN10 6FB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lorcan Mekitarian",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b6fbf6c3-b78a-49f7-9588-c41c14518d29-ypo001-dn460741-90391973",
+        "title": "YPO - 001013 Supply of Compostable Liners",
+        "description": "YPO are looking for providers to be appointed onto a Framework Agreement for the provision of Compostable Liners, primarily for Local Authorities undertaking the collection of waste.  This Framework is designed to allow YPO to meet the needs of all public sector organisations by establishing an agreement where the end customer will place orders directly with the provider on a &quot;contract&quot; basis and the  provider will deliver direct to the end customer on an agreed basis",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "19640000",
+              "description": "Polythene waste and refuse sacks and bags",
+              "uri": "http://cpv.data.ac.uk/code-19640000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "77120000",
+              "description": "Composting services",
+              "uri": "http://cpv.data.ac.uk/code-77120000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 5000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 5000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-27T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Ridley Recycling Limited"
+          },
+          {
+            "id": "2",
+            "name": "Imperial Polythene Products Ltd"
+          },
+          {
+            "id": "3",
+            "name": "JPK TRADE SUPPLIES LTD"
+          },
+          {
+            "id": "4",
+            "name": "The Compost Bag Company Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Cromwell Polythene Ltd"
+          },
+          {
+            "id": "6",
+            "name": "British Polythene Ltd t/a BPI Recycled Products - Plaswood"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2024-05-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "ad96f694e656fae799b58c74ed8f15ed",
+        "name": "YPO"
+      },
+      "awards": [
+        {
+          "id": "bf66a699-a7b5-4024-a49d-381a8b081691",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-27T00:00:00Z",
+          "value": {
+            "amount": 5000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Ridley Recycling Limited"
+            },
+            {
+              "id": "2",
+              "name": "Imperial Polythene Products Ltd"
+            },
+            {
+              "id": "3",
+              "name": "JPK TRADE SUPPLIES LTD"
+            },
+            {
+              "id": "4",
+              "name": "The Compost Bag Company Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Cromwell Polythene Ltd"
+            },
+            {
+              "id": "6",
+              "name": "British Polythene Ltd t/a BPI Recycled Products - Plaswood"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2024-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

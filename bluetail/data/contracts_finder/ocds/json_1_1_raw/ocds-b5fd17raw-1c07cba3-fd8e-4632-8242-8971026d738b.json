@@ -1,0 +1,289 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/59f6b830-dec0-4f67-87c6-0c29abc6c7c8.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-07T12:20:03Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-1c07cba3-fd8e-4632-8242-8971026d738b",
+      "id": "ocds-b5fd17-1c07cba3-fd8e-4632-8242-8971026d738b-357911-bip492755095",
+      "date": "2019-11-12T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "99144cd9e8dbf31d307cae01e96a361f",
+          "roles": [
+            "buyer"
+          ],
+          "name": "The Corporation of Trinity House",
+          "address": {
+            "streetAddress": "Tower Hill Trinity Square",
+            "locality": "London",
+            "region": null,
+            "postalCode": "EC3N 4DH",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "Procurement",
+            "email": "etender@trinityhouse.co.uk",
+            "telephone": "+441255245005",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ASCO Fuel and Lubricants",
+          "address": {
+            "streetAddress": "11 Harvest Avenue\n        D2 Business Park\n        Dyce\n        Aberdeen\n        AB21 0BQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Frank Armitt and Son Ltd",
+          "address": {
+            "streetAddress": "24-30 South Road\n        Weston Point\n        Runcom\n        WA7 4EZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Certas Energy UK Ltd",
+          "address": {
+            "streetAddress": "302 Bridgewater Place\n        Birchwood\n        Warrington\n        WA3 6XG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ocean Connect Marine Ltd",
+          "address": {
+            "streetAddress": "The Old Trading House\n        3rd Floor, 15 Northburgh Street, London, EC1 0JR\n        15 Northburgh Street\n        London\n        EC1 0JR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Unknown",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-1c07cba3-fd8e-4632-8242-8971026d738b-bip492755095",
+        "title": "GB-London: Marine Gas Oil Quarterly Spend Jan-Mar 2020",
+        "description": "Published Quarterly Spend for the Purchase of Marine Gas Oil for Trinity House Vessels Jan-Mar 2020",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "09130000",
+              "description": "Petroleum and distillates",
+              "uri": "http://cpv.data.ac.uk/code-09130000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 111629,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Not specified",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "ASCO Fuel and Lubricants"
+          },
+          {
+            "id": "2",
+            "name": "Frank Armitt and Son Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Certas Energy UK Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Ocean Connect Marine Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-01T00:00:00Z",
+          "endDate": "2020-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "99144cd9e8dbf31d307cae01e96a361f",
+        "name": "The Corporation of Trinity House"
+      },
+      "awards": [
+        {
+          "id": "06fa371b-847b-4b49-962c-b320f1cba63c",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-31T00:00:00Z",
+          "value": {
+            "amount": 111629,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "ASCO Fuel and Lubricants"
+            },
+            {
+              "id": "2",
+              "name": "Frank Armitt and Son Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Certas Energy UK Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Ocean Connect Marine Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-01T00:00:00Z",
+            "endDate": "2020-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

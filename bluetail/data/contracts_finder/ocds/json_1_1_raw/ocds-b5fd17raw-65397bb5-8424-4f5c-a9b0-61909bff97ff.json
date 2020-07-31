@@ -1,0 +1,454 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4521ba33-208d-46f0-88d9-5452a6316988.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T10:40:37Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-65397bb5-8424-4f5c-a9b0-61909bff97ff",
+      "id": "ocds-b5fd17-65397bb5-8424-4f5c-a9b0-61909bff97ff-359496-pd-573-lo---award",
+      "date": "2020-02-19T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "2daf97e73980b8d821ca92e12b38b36f",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Coventry University",
+          "address": {
+            "streetAddress": "Coventry University Coventry",
+            "locality": "England",
+            "region": null,
+            "postalCode": "CV1 5FB",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "ADMINISTRATOR",
+            "email": "Procurement@coventry.ac.uk",
+            "telephone": "024 77659326",
+            "faxNumber": null,
+            "uri": "www.coventry.ac.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Aer8 Marketing",
+          "address": {
+            "streetAddress": "2 Mill Lane, Stillington, YORK, North Yorkshire, United Kingdom, Yo61 1NG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Deborah Goodall",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Askew Brook",
+          "address": {
+            "streetAddress": "Woodend, The Crescent, Scarborough, North Yorkshire, United Kingdom, YO11 2PW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Richard Askew",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Catch Design Management",
+          "address": {
+            "streetAddress": "Office 19, Unit 2 Roseberry Court, Stokesley Business Park, United Kingdom, TS9 5QT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sue Thompson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Client Marketing Ltd",
+          "address": {
+            "streetAddress": "Croftway, Sherburn in Elmet, United Kingdom, LS256BW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Simon Shepherd",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Hot Toddi",
+          "address": {
+            "streetAddress": "34 Chapel Garth , Dalton , Thirsk , Yorkshire , United Kingdom, YO7 3HU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Caroline  Todd",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Lloyd International Communications Ltd",
+          "address": {
+            "streetAddress": "Everton Road, Sheffield, United Kingdom, s118ry",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mary Cousins",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Purple Creative Services Limited",
+          "address": {
+            "streetAddress": "Aske Stables, Richmond, North Yorkshire, United Kingdom, DL10 5HG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Phil Upton",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Vantage 360",
+          "address": {
+            "streetAddress": "The Power House, Thornton in Craven, North Yorkshire, United Kingdom, BD23 3TQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Debbie Bissett",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-65397bb5-8424-4f5c-a9b0-61909bff97ff-pd-573-lo---award",
+        "title": "Digital Advantage (ERDF) - AWARD",
+        "description": "Digital Advantage is a project co-financed by European Regional Development Fund (ERDF) and Coventry University Enterprises Ltd (CUE Ltd). The Project will benefit the small and medium sized enterprises (SME) and start-ups based in North Yorkshire, working in a range of sectors, excluding retail. \r\n      \r\n      CUE Ltd requires consultants and business advisers to help deliver the Digital Advantage Project who have an in depth knowledge and experience of digital technologies and a good understanding of how they can help businesses grow and become more competitive.\r\n      \r\n      Project outputs\r\n      The Project&#039;s key outputs are giving North Yorkshire SME&#039;s assistance (interventions) to ensure they are maximising the potential of their operation through adopting and exploiting digital technology.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72600000",
+              "description": "Computer support and consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-72600000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 70000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 70000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-05-06T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 8,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Aer8 Marketing"
+          },
+          {
+            "id": "2",
+            "name": "Askew Brook"
+          },
+          {
+            "id": "3",
+            "name": "Catch Design Management"
+          },
+          {
+            "id": "4",
+            "name": "Client Marketing Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Hot Toddi"
+          },
+          {
+            "id": "6",
+            "name": "Lloyd International Communications Ltd"
+          },
+          {
+            "id": "7",
+            "name": "Purple Creative Services Limited"
+          },
+          {
+            "id": "8",
+            "name": "Vantage 360"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-19T00:00:00Z",
+          "endDate": "2021-03-15T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "2daf97e73980b8d821ca92e12b38b36f",
+        "name": "Coventry University"
+      },
+      "awards": [
+        {
+          "id": "858f781a-f3b5-4b2f-a1e0-85ae01a208d8",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-18T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Aer8 Marketing"
+            },
+            {
+              "id": "2",
+              "name": "Askew Brook"
+            },
+            {
+              "id": "3",
+              "name": "Catch Design Management"
+            },
+            {
+              "id": "4",
+              "name": "Client Marketing Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Hot Toddi"
+            },
+            {
+              "id": "6",
+              "name": "Lloyd International Communications Ltd"
+            },
+            {
+              "id": "7",
+              "name": "Purple Creative Services Limited"
+            },
+            {
+              "id": "8",
+              "name": "Vantage 360"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-19T00:00:00Z",
+            "endDate": "2021-03-15T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

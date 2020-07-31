@@ -1,0 +1,149 @@
+[
+    {
+        "statementID": "openownership-register-16621656772023794335",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PURDY CONTRACTS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01830283"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01830283",
+                "uri": "https://opencorporates.com/companies/gb/01830283"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bb3e67e4ebf340884365",
+                "uri": "http://register.openownership.org/entities/59b9bb3e67e4ebf340884365"
+            }
+        ],
+        "foundingDate": "1984-07-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Brooklyn Lodge, Mott Street, London, E4 7RW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3054323219615772128",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-24",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16621656772023794335"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17814003587544794561"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-24"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-24"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-05-24"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-12-10T10:45:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17814003587544794561",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BILBY PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09095860"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09095860"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09095860"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09095860"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09095860"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09095860",
+                "uri": "https://opencorporates.com/companies/gb/09095860"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09095860"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9632567e4ebf34019bd92",
+                "uri": "http://register.openownership.org/entities/59b9632567e4ebf34019bd92"
+            }
+        ],
+        "foundingDate": "2014-06-20",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "201 Temple Chambers, 3-7 Temple Avenue, London, EC4Y 0DT",
+                "country": "GB"
+            }
+        ]
+    }
+]

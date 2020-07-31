@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-5708418849206767599",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FLIGHTLINK CHAUFFEURS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09025633"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09025633",
+                "uri": "https://opencorporates.com/companies/gb/09025633"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bea167e4ebf3409513fb",
+                "uri": "http://register.openownership.org/entities/59b9bea167e4ebf3409513fb"
+            }
+        ],
+        "foundingDate": "2014-05-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 23, Enterprise House, Cheney Manor, Swindon, Wiltshire, SN2 2YZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15577865484977217614",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-10",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5708418849206767599"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6192133212479418033"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-10"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6192133212479418033",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Cecilia Van Zyl"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/09025633/persons-with-significant-control/individual/jnvFdrLpGuD9FXVkzpoFXQMKU2A"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9bea167e4ebf340951408",
+                "uri": "http://register.openownership.org/entities/59b9bea167e4ebf340951408"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-02-01",
+        "addresses": [
+            {
+                "address": "Unit 23, Enterprise House, Cheney Manor, Swindon, Wiltshire, SN2 2YZ"
+            }
+        ]
+    }
+]

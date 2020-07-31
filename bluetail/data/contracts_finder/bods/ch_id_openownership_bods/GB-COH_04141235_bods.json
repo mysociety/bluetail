@@ -1,0 +1,288 @@
+[
+    {
+        "statementID": "openownership-register-2255141837468956410",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GV MULTI-MEDIA LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04141235"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04141235",
+                "uri": "https://opencorporates.com/companies/gb/04141235"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97d9367e4ebf3409c7187",
+                "uri": "http://register.openownership.org/entities/59b97d9367e4ebf3409c7187"
+            }
+        ],
+        "foundingDate": "2001-01-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 1 Inwood Business Park, Whitton Road, Hounslow, Middlesex, TW3 2EB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10525747841458747339",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2255141837468956410"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8934360194019772370"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-09-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-09-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-02-24T11:31:42Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12460025327254373260",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2255141837468956410"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1680948337604327366"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-09-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-09-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-02-24T11:31:42Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-18059804105223361935",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-09-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-2255141837468956410"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-2532710524848103484"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-09-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-09-30"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2019-09-30"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2019-09-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-02-24T11:31:42Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8934360194019772370",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Brian Abrahams"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04141235/persons-with-significant-control/individual/kPSqg2zComDNd7aItADnC8vTRlI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97d9367e4ebf3409c7193",
+                "uri": "http://register.openownership.org/entities/59b97d9367e4ebf3409c7193"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1946-10-01",
+        "addresses": [
+            {
+                "address": "16, The Avenue, Ickenham, Uxbridge, UB10 8NP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1680948337604327366",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Lilian Margaret Cutting"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04141235/persons-with-significant-control/individual/tnD_lsizf2aW_cnUD1MUOjRLrXw"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b97d9367e4ebf3409c718f",
+                "uri": "http://register.openownership.org/entities/59b97d9367e4ebf3409c718f"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1948-11-01",
+        "addresses": [
+            {
+                "address": "10, Park Close, Hounslow, TW3 2HW"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2532710524848103484",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "GVMM GROUP LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11778167"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11778167",
+                "uri": "https://opencorporates.com/companies/gb/11778167"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11778167"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5c5bc2789dfc3fae18fd76b0",
+                "uri": "http://register.openownership.org/entities/5c5bc2789dfc3fae18fd76b0"
+            }
+        ],
+        "foundingDate": "2019-01-21",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 1 Inwood Business Park, Whitton Road, Hounslow, Middlesex, TW3 2EB",
+                "country": "GB"
+            }
+        ]
+    }
+]

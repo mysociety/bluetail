@@ -1,0 +1,623 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7e27d8d4-02f4-4ffe-95b9-9117ed7def10.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T15:34:42Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-e15aeca8-e49f-4ec6-82f0-d1392da45bec",
+      "id": "ocds-b5fd17-e15aeca8-e49f-4ec6-82f0-d1392da45bec-359618-qu328---award",
+      "date": "2020-04-09T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "58383440b16b92e56287d16945f4bbd8",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Birmingham City Council",
+          "address": {
+            "streetAddress": "10 Woodcock Street Birmingham",
+            "locality": "West Midlands",
+            "region": null,
+            "postalCode": "B4 7WB",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Manjit Samrai",
+            "email": "manjit.samrai@birmingham.gov.uk",
+            "telephone": "0121 303 0349",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BID Services",
+          "address": {
+            "streetAddress": "Deaf Cultural Centre, Ladywood Road, Birmingham, United Kingdom, B16 8SZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Bids Funding",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "birmingham LGBT",
+          "address": {
+            "streetAddress": "Birmingham LGBT center, 38-40 holloway circus, Birmingham, United Kingdom, B1 9EQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "steph  keeble",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Chinese Community Centre-Birmingham",
+          "address": {
+            "streetAddress": "99 Bradford Street, Digbeth, Birmingham, West Midlands , United Kingdom, B12 0NS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Kate Gordon",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Citizens UK",
+          "address": {
+            "streetAddress": "c/o St Mary&#039;s Convent, 98 Hunters Road, Birmingham, West Midlands, United Kingdom, B19 1EB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "SAIDUL HAQUE SAEED",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Disability Resource Centre",
+          "address": {
+            "streetAddress": "Edgbaston House, 11th Floor, 3 Duchess Place, Birmingham, United Kingdom, B16 8Nh",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Katie Webb",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "First Class Legacy",
+          "address": {
+            "streetAddress": "14 Ragstone Close, United Kingdom, WS2 8TH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Nathan Dennis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Polish Expats Association CIC",
+          "address": {
+            "streetAddress": "Unit 4 Minerva Works, 158 Fazeley Street, Birmingham, West Midlands, United Kingdom, B5 5RT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Alicja  Kaczmarek",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Refugee Migrant Centre Ltd",
+          "address": {
+            "streetAddress": "1st Floor Roma Parva, 9 Waterloo Road, Wolverhamtpon , United Kingdom, wv1 4nb",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Abbas Baig",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-e15aeca8-e49f-4ec6-82f0-d1392da45bec-qu328---award",
+        "title": "QU328 - Wellbeing of Black &amp; Minority Ethnic (BAME), Disabled and Lesbian, Gay, Bisexual and Transsexual (LGBT) Communities - Covid-19 Campaign - AWARD",
+        "description": "Birmingham is a hugely diverse city. Birmingham City Council recognises that different black and minority ethnic (BAME), disabled and Lesbian, Gay, Bisexual and Transsexual (LGBT) communities may have specific concerns or issues resulting from the Covid-19 pandemic coupled with a limited access to the relevant official information and guidance. We are keen to support all our local citizens to protect their health \r\n      using national Government guidance (see https://www.gov.uk/coronavirus ) and maintain their wellbeing during this challenging period.\r\n      \r\n      Public Health Division are inviting local grass roots organisations (separately, or as part of a consortium/ consortia) that work with BAME, disabled and LGBT communities to develop a communication and engagement campaign which seeks to:\r\n      \r\n      - Further understand specific issues around Covid 19 faced by particular BAME, disabled and LGBT communities \r\n      - Work with Public Health to develop appropriate messages to tackle the spread of Covid 19 and provide       the most appropriate wellbeing advice \r\n      - Use effective and appropriate culturally sensitive methods, which do not rely on face to face engagement, to get these messages out into these communities.\r\n      \r\n      The communities we would like you to work with are:\r\n      \r\n      Community 1: BAME communities \r\n      \r\n      We would like organisations to focus on:\r\n      \r\n      1.       Pakistani and Kashmiri communities\r\n      2.       Other South-Asian communities\r\n      3.       Eastern European, including Polish community \r\n      4.       Roma Gypsy communities\r\n      5.       Migrant, asylum seekers and refugee communities\r\n      6.       Black Afro-Caribbean community\r\n      \r\n      Community 2: Disabled communities \r\n      \r\n      We would like organisations to focus on:\r\n      \r\n      1.       Deaf and hard of hearing community\r\n      2.       Blind and sight impaired community\r\n      3.       People with learning disabilities. \r\n      \r\n      Community 3: LGBT communities \r\n      \r\n      We would like organisations to focus on all four groups within the LGBT community. \r\n      \r\n      The Council will be using its free to use e-tendering system (in-tend) for the administration of this procurement process and potential suppliers must register with the system to be able to express an interest. If you wish to express an interest in this opportunity please click on the following link to access https://in-tendhost.co.uk/birminghamcc/ and submit your details to register. You will then be sent details on how to log on which will enable you to download all relevant quotation documentation.  \r\n       \r\n      If you are unable to register with In-tend or have any questions or problems on how to use this web site please either email us at: cps@birmingham.gov.uk\r\n       \r\n      Your completed quotation submission should be returned by noon on 23rd April 2020  via the &#039;in-tend&#039; system https://in-tendhost.co.uk/birminghamcc",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "80561000",
+              "description": "Health training services",
+              "uri": "http://cpv.data.ac.uk/code-80561000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85312310",
+              "description": "Guidance services",
+              "uri": "http://cpv.data.ac.uk/code-85312310.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79416100",
+              "description": "Public relations management services",
+              "uri": "http://cpv.data.ac.uk/code-79416100.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "75110000",
+              "description": "General public services",
+              "uri": "http://cpv.data.ac.uk/code-75110000.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98000000",
+              "description": "Other community, social and personal services",
+              "uri": "http://cpv.data.ac.uk/code-98000000.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79342000",
+              "description": "Marketing services",
+              "uri": "http://cpv.data.ac.uk/code-79342000.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79416200",
+              "description": "Public relations consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79416200.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79342100",
+              "description": "Direct marketing services",
+              "uri": "http://cpv.data.ac.uk/code-79342100.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "75200000",
+              "description": "Provision of services to the community",
+              "uri": "http://cpv.data.ac.uk/code-75200000.html"
+            }
+          },
+          {
+            "id": 11,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79413000",
+              "description": "Marketing management consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-79413000.html"
+            }
+          },
+          {
+            "id": 12,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85140000",
+              "description": "Miscellaneous health services",
+              "uri": "http://cpv.data.ac.uk/code-85140000.html"
+            }
+          },
+          {
+            "id": 13,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85312300",
+              "description": "Guidance and counselling services",
+              "uri": "http://cpv.data.ac.uk/code-85312300.html"
+            }
+          },
+          {
+            "id": 14,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85322000",
+              "description": "Community action programme",
+              "uri": "http://cpv.data.ac.uk/code-85322000.html"
+            }
+          },
+          {
+            "id": 15,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98133100",
+              "description": "Civic betterment and community facility support services",
+              "uri": "http://cpv.data.ac.uk/code-98133100.html"
+            }
+          },
+          {
+            "id": 16,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79416000",
+              "description": "Public relations services",
+              "uri": "http://cpv.data.ac.uk/code-79416000.html"
+            }
+          },
+          {
+            "id": 17,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85100000",
+              "description": "Health services",
+              "uri": "http://cpv.data.ac.uk/code-85100000.html"
+            }
+          },
+          {
+            "id": 18,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85323000",
+              "description": "Community health services",
+              "uri": "http://cpv.data.ac.uk/code-85323000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-23T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 8,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "BID Services"
+          },
+          {
+            "id": "2",
+            "name": "birmingham LGBT"
+          },
+          {
+            "id": "3",
+            "name": "Chinese Community Centre-Birmingham"
+          },
+          {
+            "id": "4",
+            "name": "Citizens UK"
+          },
+          {
+            "id": "5",
+            "name": "Disability Resource Centre"
+          },
+          {
+            "id": "6",
+            "name": "First Class Legacy"
+          },
+          {
+            "id": "7",
+            "name": "Polish Expats Association CIC"
+          },
+          {
+            "id": "8",
+            "name": "The Refugee Migrant Centre Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2020-11-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "58383440b16b92e56287d16945f4bbd8",
+        "name": "Birmingham City Council"
+      },
+      "awards": [
+        {
+          "id": "b58c256d-cbda-4e07-8e18-bf0cba680fbc",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-11T00:00:00Z",
+          "value": {
+            "amount": 104553,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "BID Services"
+            },
+            {
+              "id": "2",
+              "name": "birmingham LGBT"
+            },
+            {
+              "id": "3",
+              "name": "Chinese Community Centre-Birmingham"
+            },
+            {
+              "id": "4",
+              "name": "Citizens UK"
+            },
+            {
+              "id": "5",
+              "name": "Disability Resource Centre"
+            },
+            {
+              "id": "6",
+              "name": "First Class Legacy"
+            },
+            {
+              "id": "7",
+              "name": "Polish Expats Association CIC"
+            },
+            {
+              "id": "8",
+              "name": "The Refugee Migrant Centre Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2020-11-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+[
+    {
+        "statementID": "openownership-register-16044519724658476370",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TELETRAC NAVMAN (UK) LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02292714"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02292714",
+                "uri": "https://opencorporates.com/companies/gb/02292714"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d18b67e4ebf340db4bec",
+                "uri": "http://register.openownership.org/entities/59b9d18b67e4ebf340db4bec"
+            }
+        ],
+        "foundingDate": "1988-09-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "K1 First Floor, Kents Hill Business Park, Milton Keynes, Buckinghamshire, MK7 6BZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18163685426794546787",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-12-31",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16044519724658476370"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-12025493542878608237"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-12-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12025493542878608237",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "TGA INDUSTRIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06020956"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06020956",
+                "uri": "https://opencorporates.com/companies/gb/06020956"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92f2167e4ebf3402ab277",
+                "uri": "http://register.openownership.org/entities/59b92f2167e4ebf3402ab277"
+            }
+        ],
+        "foundingDate": "2006-12-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Gilbarco Veeder-Root, Crompton Close, Basildon, Essex, SS14 3BA",
+                "country": "GB"
+            }
+        ]
+    }
+]

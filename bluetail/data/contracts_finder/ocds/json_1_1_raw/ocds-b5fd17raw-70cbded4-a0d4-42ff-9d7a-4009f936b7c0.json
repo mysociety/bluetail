@@ -1,0 +1,290 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e39b58a4-547a-4ce8-ae18-5be5a19d7a74.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T15:21:01Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-70cbded4-a0d4-42ff-9d7a-4009f936b7c0",
+      "id": "ocds-b5fd17-70cbded4-a0d4-42ff-9d7a-4009f936b7c0-359610-dcc001-dn364430-44676604",
+      "date": "2018-11-22T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "f56445f47005c667f83e94bbc5c5d6f1",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Durham County Council",
+          "address": {
+            "streetAddress": "County Hall ",
+            "locality": "Durham",
+            "region": null,
+            "postalCode": "DH1 5UG",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Donna Iley",
+            "email": "donna.iley@durham.gov.uk",
+            "telephone": "+44 3000268235",
+            "faxNumber": null,
+            "uri": "http://www.durham.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Broadreach House",
+          "address": {
+            "streetAddress": "465 Tavistock Road,\nPlymouth,\nDevon,\nPL6 7HE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": true,
+          "name": "Turning Point Ltd",
+          "address": {
+            "streetAddress": "Standon House,\n21 Mansell Street,\nLondon,\nE1 8AA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Western Counselling Services Ltd",
+          "address": {
+            "streetAddress": "18 Whitecross Rd\nWeston-Super-Mare\nNorth Somerset\nBS23 1EW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CAIS",
+          "address": {
+            "streetAddress": "12 Trinity Square, Llandudno, Conwy, LL30 2RA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-70cbded4-a0d4-42ff-9d7a-4009f936b7c0-dcc001-dn364430-44676604",
+        "title": "Tier 4 In-Patient Detoxification Residential Services Framework",
+        "description": "The overarching aim of tier 4 in-patient assisted withdrawal is to ensure planned detoxification is appropriate and timely.  Interventions should support individuals to choose recovery as an achievable way out of dependency and to contribute to reductions in the harm which drug and alcohol misuse causes for individuals, communities and their families. \r\n\r\nIn-patient assisted withdrawal from drugs and alcohol involves admission into the unit, where 24-hour medical cover, specialist assessment and a wide range of interventions are delivered by a multi-agency team.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 43945,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 43945,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-01-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Broadreach House"
+          },
+          {
+            "id": "2",
+            "name": "Turning Point Ltd"
+          },
+          {
+            "id": "3",
+            "name": "Western Counselling Services Ltd"
+          },
+          {
+            "id": "4",
+            "name": "CAIS"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-04-01T00:00:00Z",
+          "endDate": "2021-06-11T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "f56445f47005c667f83e94bbc5c5d6f1",
+        "name": "Durham County Council"
+      },
+      "awards": [
+        {
+          "id": "d9e4ccc3-b1f7-4a71-b21e-5e7f72334990",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-02-01T00:00:00Z",
+          "value": {
+            "amount": 43945,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Broadreach House"
+            },
+            {
+              "id": "2",
+              "name": "Turning Point Ltd"
+            },
+            {
+              "id": "3",
+              "name": "Western Counselling Services Ltd"
+            },
+            {
+              "id": "4",
+              "name": "CAIS"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-04-01T00:00:00Z",
+            "endDate": "2020-06-11T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

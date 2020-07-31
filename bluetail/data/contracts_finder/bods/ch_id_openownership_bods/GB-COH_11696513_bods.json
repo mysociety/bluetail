@@ -1,0 +1,203 @@
+[
+    {
+        "statementID": "openownership-register-17998666785504381634",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ALLIED HEALTH-SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11696513"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11696513",
+                "uri": "https://opencorporates.com/companies/gb/11696513"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5c11d5af9dfc3fae18d83857",
+                "uri": "http://register.openownership.org/entities/5c11d5af9dfc3fae18d83857"
+            }
+        ],
+        "foundingDate": "2018-11-26",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Cavendish House Lakhpur Court, Staffordshire Technology Park, Stafford, ST18 0FX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17799718496103868678",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-11-26",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-17998666785504381634"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6243476176781360328"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-11-26"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6243476176781360328",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HEALTH CARE RESOURCING GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06357982",
+                "uri": "https://opencorporates.com/companies/gb/06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6357982"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06357982"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93a7b67e4ebf3406031bb",
+                "uri": "http://register.openownership.org/entities/59b93a7b67e4ebf3406031bb"
+            }
+        ],
+        "foundingDate": "2007-08-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "8 Tiger Court Kings Drive, Kings Business Park, Prescot, Merseyside, L34 1BH",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,220 @@
+[
+    {
+        "statementID": "openownership-register-11940514235038645634",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "B. BRAUN MEDICAL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02296559"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02296559",
+                "uri": "https://opencorporates.com/companies/gb/02296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2296559"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b980f767e4ebf340ad842b",
+                "uri": "http://register.openownership.org/entities/59b980f767e4ebf340ad842b"
+            }
+        ],
+        "foundingDate": "1988-09-14",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Brookdale Road, Thorncliffe Park Estate, Chapeltown, Sheffield, S35 2PW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10664515674845220544",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11940514235038645634"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-17787859665972102595"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-13334362495161347950",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11940514235038645634"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-5371115711246121820"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17787859665972102595",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Ludwig Georg Braun"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02296559/persons-with-significant-control/individual/XxHlJ1YEop1GWgVgEiV8xHCX7vQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b980f767e4ebf340ad843a",
+                "uri": "http://register.openownership.org/entities/59b980f767e4ebf340ad843a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "Germany",
+                "code": "DE"
+            }
+        ],
+        "birthDate": "1943-09-01",
+        "addresses": [
+            {
+                "address": "Brookdale Road, Thorncliffe Park Estate, Chapeltown, Sheffield, S35 2PW",
+                "country": "DE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5371115711246121820",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Barbara Braun-Ludicke"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02296559/persons-with-significant-control/individual/ogn32yFqf2x_G0nM14AQW3sXpok"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b980f867e4ebf340ad8601",
+                "uri": "http://register.openownership.org/entities/59b980f867e4ebf340ad8601"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "Germany",
+                "code": "DE"
+            }
+        ],
+        "birthDate": "1956-04-01",
+        "addresses": [
+            {
+                "address": "Brookdale Road, Thorncliffe Park Estate, Chapeltown, Sheffield, S35 2PW",
+                "country": "DE"
+            }
+        ]
+    }
+]

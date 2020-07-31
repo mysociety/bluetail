@@ -1,0 +1,191 @@
+[
+    {
+        "statementID": "openownership-register-15470595444861760988",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BELMONT PRESS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00504862"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00504862",
+                "uri": "https://opencorporates.com/companies/gb/00504862"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cab867e4ebf340c2161e",
+                "uri": "http://register.openownership.org/entities/59b9cab867e4ebf340c2161e"
+            }
+        ],
+        "foundingDate": "1952-02-27",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Sheaf Close, Lodge Farm Indl. Estate, Northampton, NN5 7UZ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16343549487038603279",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15470595444861760988"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-704346612383343694"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4731540974701665886",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-05-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15470595444861760988"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-5248782480168811262"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-30"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-05-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-704346612383343694",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Trevor James Thomas"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00504862/persons-with-significant-control/individual/45mCgwwdbTn5sYpY3s1f9xZxX3I"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cab867e4ebf340c21632",
+                "uri": "http://register.openownership.org/entities/59b9cab867e4ebf340c21632"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1943-01-01",
+        "addresses": [
+            {
+                "address": "Sheaf Close, Lodge Farm Indl. Estate, Northampton, NN5 7UZ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5248782480168811262",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Qwen James Thomas"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00504862/persons-with-significant-control/individual/Nw23rhXcOi9kpSSs_JszYQAlt-Q"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9cab867e4ebf340c2162e",
+                "uri": "http://register.openownership.org/entities/59b9cab867e4ebf340c2162e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-09-01",
+        "addresses": [
+            {
+                "address": "Sheaf Close, Lodge Farm Indl. Estate, Northampton, NN5 7UZ"
+            }
+        ]
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "statementID": "openownership-register-12226813483396605923",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NICHE CARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08985149"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08985149",
+                "uri": "https://opencorporates.com/companies/gb/08985149"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b53367e4ebf340709518",
+                "uri": "http://register.openownership.org/entities/59b9b53367e4ebf340709518"
+            }
+        ],
+        "foundingDate": "2014-04-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Phoenix Riverside, Sheffield Road, Rotherham, South Yorkshire, S60 1FL",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15782302515988614241",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12226813483396605923"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4015988583786078325"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4015988583786078325",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Michael Stewart Goodwin"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/08985149/persons-with-significant-control/individual/KqB_1l1iN6879GcXcM8MZsvRA_4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b53367e4ebf34070951d",
+                "uri": "http://register.openownership.org/entities/59b9b53367e4ebf34070951d"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1987-04-01",
+        "addresses": [
+            {
+                "address": "1, Phoenix Riverside, Sheffield Road, Rotherham, South Yorkshire, S60 1FL"
+            }
+        ]
+    }
+]

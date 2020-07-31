@@ -1,0 +1,179 @@
+[
+    {
+        "statementID": "openownership-register-7045678888432138372",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "INSPIRATION HEALTHCARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04753818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04753818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04753818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04753818"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04753818",
+                "uri": "https://opencorporates.com/companies/gb/04753818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "4753818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "4753818"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "4753818"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b22367e4ebf3406477f7",
+                "uri": "http://register.openownership.org/entities/59b9b22367e4ebf3406477f7"
+            }
+        ],
+        "foundingDate": "2003-05-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "2 Satellite Business Village, Crawley, RH10 9NE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13882547260009355837",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7045678888432138372"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-9991529513477480343"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9991529513477480343",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "INSPIRATION HEALTHCARE GROUP PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03587944"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03587944",
+                "uri": "https://opencorporates.com/companies/gb/03587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3587944"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03587944"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c0e367e4ebf3409d9d34",
+                "uri": "http://register.openownership.org/entities/59b9c0e367e4ebf3409d9d34"
+            }
+        ],
+        "foundingDate": "1998-06-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 2 Satellite Business Village, Crawley, West Sussex, RH10 9NE",
+                "country": "GB"
+            }
+        ]
+    }
+]

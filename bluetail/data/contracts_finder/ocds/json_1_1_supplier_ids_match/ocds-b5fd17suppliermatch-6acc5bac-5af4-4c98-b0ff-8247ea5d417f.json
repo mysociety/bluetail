@@ -1,0 +1,212 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fe869438-9840-4380-af79-58281355079d.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-06T16:04:55Z",
+  "publisher": {
+    "name": "THE FINANCIAL REPORTING COUNCIL LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-6acc5bac-5af4-4c98-b0ff-8247ea5d417f",
+      "id": "ocds-b5fd17-6acc5bac-5af4-4c98-b0ff-8247ea5d417f-357757-frc-08-19",
+      "date": "2019-11-06T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "9762205299083c46c1ebeaffe4a06eaa",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/Z4T88dvU",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "THE FINANCIAL REPORTING COUNCIL LIMITED",
+          "address": {
+            "streetAddress": "8th Floor 125 London Wall ",
+            "locality": "LONDON",
+            "region": null,
+            "postalCode": "EC2Y5AS",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Head of Procurement",
+            "email": "contractsfinder@frc.org.uk",
+            "telephone": "020 7492 2300",
+            "faxNumber": null,
+            "uri": "https://www.frc.org.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01701564",
+            "scheme": "GB-COH",
+            "legalName": "SQW LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SQW LIMITED",
+          "address": {
+            "streetAddress": "Second Floor,14-15 Mandela Street\nLONDON\nNW1 0DU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 28000
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "RC000721",
+            "scheme": "GB-COH",
+            "legalName": "LONDON BUSINESS SCHOOL"
+          },
+          "sme": false,
+          "vco": true,
+          "name": "LONDON BUSINESS SCHOOL",
+          "address": {
+            "streetAddress": "1-26 Sussex Place Regents Park\nNW1 4SA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 41000
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-6acc5bac-5af4-4c98-b0ff-8247ea5d417f-frc-08-19",
+        "title": "Research Project: How has board effectiveness been impacted by diversity of board membership?",
+        "description": "++++ The Financial Reporting Council has made some small but significant changes to this project tender. All changes are coloured in blue in the full PDF downloadable further below.\r\n\r\nWe have extended the scope of Part B of the project to now include socioeconomic diversity. We have also increased the budget for Part B; this is a small increase because we do not envisage the extended scope changing the project processes (e.g. interviews and similar) but we appreciate that some extra analysis will be required. \r\n\r\nPart A of the project remains unchanged.\r\n\r\nThe overall project timeline has been lengthened by one month, and the deadline for submitting your proposal is now Wednesday 11 December 2019.\r\n++++\r\n\r\nOne of the principles of good governance is that boards should be diverse in their composition. In the context of governance, diversity is a broad concept, encompassing diversity of skills, experience, social background, personal strengths and mindset as well as those protected characteristics of diversity for example, gender, ethnicity and disability.\r\n \r\nThis research project aims to gather and analyse recent evidence to answer these questions:\r\n\r\n1a) How has board effectiveness been impacted by the gender and ethnic diversity of board membership?\r\n1b) How have board effectiveness and dynamics been impacted by the gender, socioeconomic, and ethnic diversity of board membership? \r\n2)\tWhat attributes, skills and experience do today&#039;s board members expect to be needed in boardrooms of the future?\r\n3)\tHow can nomination committees be helped to take a more objective and diversity-friendly approach to board recruitment?\r\n \r\nThe customer for the work is the FRC. We would like to receive proposals to investigate these issues effectively using both \r\nPart A - a quantitative design (question 1a) and \r\nPart B - a qualitative design (questions 1b, 2 and 3). \r\n\r\nSuppliers are welcome to bid for either part, or both parts, of the project; the FRC has split the project into two parts because there may be some suppliers who are specialised in one approach but not the other.\r\n\r\n&bull;\tBids for one or both parts will be assessed equally against the evaluation criteria (there is no inherent disadvantage to bidding for one part only). \r\n&bull;\tCombined bids for Part A and Part B should be discrete (i.e. so that they can be evaluated separately even if the background information about your company or team is the same.\r\n&bull;\tBy bidding, you indicate your willingness to undertake either part separately even if you had bid for both parts.\r\n\r\nThe project is expected to take place between January 2020 and June 2020.\r\n\r\n+++ This is only a summary. Please refer to the PDF attachment for the full Invitation to Tender and instructions on how to submit a bid +++",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "73000000",
+              "description": "Research and development services and related consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-73000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 67500,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-11T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "NotApplicable"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "SQW LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "LONDON BUSINESS SCHOOL"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-02T00:00:00Z",
+          "endDate": "2020-06-26T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "9762205299083c46c1ebeaffe4a06eaa",
+        "name": "THE FINANCIAL REPORTING COUNCIL LIMITED"
+      },
+      "awards": [
+        {
+          "id": "23a7565e-e0b4-4cc7-be12-ae17f1868bfb",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-07T00:00:00Z",
+          "value": {
+            "amount": 69000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "SQW LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "LONDON BUSINESS SCHOOL"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-07T00:00:00Z",
+            "endDate": "2020-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

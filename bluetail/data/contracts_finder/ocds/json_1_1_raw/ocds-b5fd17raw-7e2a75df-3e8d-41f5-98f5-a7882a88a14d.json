@@ -1,1 +1,740 @@
-{"uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/024d0c60-559d-4f26-b637-b1d793b83ac0.json", "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/", "version": "1.1", "releases": [{"id": "ocds-b5fd17-7e2a75df-3e8d-41f5-98f5-a7882a88a14d-358105-bip491818616", "tag": ["tender"], "date": "2020-01-29T00:00:00Z", "ocid": "ocds-b5fd17raw-7e2a75df-3e8d-41f5-98f5-a7882a88a14d", "buyer": {"id": "e05d683e75b138b6d789f4a5376a94d9", "name": "Braintree District Council"}, "awards": [{"id": "0eea1ce5-1bbc-40a3-9962-a05164cc9994", "date": "2020-04-15T00:00:00Z", "title": "", "value": {"amount": 5000000, "currency": "GBP"}, "status": "active", "suppliers": [{"id": "1", "name": "Stock Sweepers Ltd"}, {"id": "2", "name": "Scarab Sweepers"}, {"id": "3", "name": "Johnston Sweepers Ltd"}, {"id": "4", "name": "Aebi Schmidt UK Ltd"}, {"id": "5", "name": "Euromec Contracts Ltd"}, {"id": "6", "name": "MuniHire Ltd"}, {"id": "7", "name": "Green Machines Sweepers Ltd"}, {"id": "8", "name": "Riverside Truck Rental Ltd"}, {"id": "9", "name": "Endurance Vehicle Solutions Ltd"}, {"id": "10", "name": "Specialist Fleet Services Ltd"}, {"id": "11", "name": "Scarab Sweepers Ltd"}, {"id": "12", "name": "Hako Machines Ltd"}, {"id": "13", "name": "Dawson Group sweepers Ltd"}, {"id": "14", "name": "Specialist Fleet Services Ltd"}, {"id": "15", "name": "Green Machines Sweepers Ltd"}, {"id": "16", "name": "Aebi Schmidt UK Ltd"}, {"id": "17", "name": "Dawson Group sweepers Ltd"}, {"id": "18", "name": "Scarab Sweepers Ltd"}, {"id": "19", "name": "Euromec Contracts Ltd"}, {"id": "20", "name": "Hako Machines Ltd"}, {"id": "21", "name": "Green Machines Sweepers Ltd"}, {"id": "22", "name": "Aebi Schmidt UK Ltd"}, {"id": "23", "name": "Johnston Sweepers Ltd"}, {"id": "24", "name": "Euromec Contracts Ltd"}, {"id": "25", "name": "Karcher UK Ltd"}, {"id": "26", "name": "Scarab Sweepers Ltd"}, {"id": "27", "name": "Green Machines UK Ltd"}], "description": "See description of related tender", "contractPeriod": {"endDate": "2024-04-19T00:00:00Z", "startDate": "2020-04-20T00:00:00Z"}}], "tender": {"id": "ocds-b5fd17-7e2a75df-3e8d-41f5-98f5-a7882a88a14d-bip491818616", "items": [{"id": 1, "description": "See description of related tender.", "classification": {"id": "34921100", "uri": "http://cpv.data.ac.uk/code-34921100.html", "scheme": "CPV", "description": "Road sweepers"}}], "title": "Road Sweepers", "value": {"amount": 10000000, "currency": "GBP"}, "status": "complete", "minValue": {"amount": 2500000, "currency": "GBP"}, "documents": [], "description": "National Framework Agreement for the supply of pedestrian mechanical compact suction andtruck mounted sweepers, supply to be either outright purchase, lease, contract hire with or without maintenance,or by any other appropriate means. This framework will be open to all UK public sector bodies. This includes Local Authorities, Educational Establishments, Registered Providers and Emergency Services, NHS Bodies,Central Government Departments and their Agencies and also registered charities.", "supplyChain": false, "hasEnquiries": null, "tenderPeriod": {"endDate": "2020-04-15T00:00:00Z"}, "awardCriteria": null, "submissionMethod": null, "xClassifications": {"isSuitableForSme": true, "isSuitableForVco": false, "ojeuContractType": "Products"}, "procurementMethod": null, "eligibilityCriteria": null, "awardCriteriaDetails": null, "submissionMethodDetails": null, "procurementMethodDetails": "Open procedure", "procurementMethodRationale": "", "numberOfTenderers": 27, "tenderers": [{"id": "1", "name": "Stock Sweepers Ltd"}, {"id": "2", "name": "Scarab Sweepers"}, {"id": "3", "name": "Johnston Sweepers Ltd"}, {"id": "4", "name": "Aebi Schmidt UK Ltd"}, {"id": "5", "name": "Euromec Contracts Ltd"}, {"id": "6", "name": "MuniHire Ltd"}, {"id": "7", "name": "Green Machines Sweepers Ltd"}, {"id": "8", "name": "Riverside Truck Rental Ltd"}, {"id": "9", "name": "Endurance Vehicle Solutions Ltd"}, {"id": "10", "name": "Specialist Fleet Services Ltd"}, {"id": "11", "name": "Scarab Sweepers Ltd"}, {"id": "12", "name": "Hako Machines Ltd"}, {"id": "13", "name": "Dawson Group sweepers Ltd"}, {"id": "14", "name": "Specialist Fleet Services Ltd"}, {"id": "15", "name": "Green Machines Sweepers Ltd"}, {"id": "16", "name": "Aebi Schmidt UK Ltd"}, {"id": "17", "name": "Dawson Group sweepers Ltd"}, {"id": "18", "name": "Scarab Sweepers Ltd"}, {"id": "19", "name": "Euromec Contracts Ltd"}, {"id": "20", "name": "Hako Machines Ltd"}, {"id": "21", "name": "Green Machines Sweepers Ltd"}, {"id": "22", "name": "Aebi Schmidt UK Ltd"}, {"id": "23", "name": "Johnston Sweepers Ltd"}, {"id": "24", "name": "Euromec Contracts Ltd"}, {"id": "25", "name": "Karcher UK Ltd"}, {"id": "26", "name": "Scarab Sweepers Ltd"}, {"id": "27", "name": "Green Machines UK Ltd"}], "contractPeriod": {"startDate": "2020-04-20T00:00:00Z", "endDate": "2024-04-19T00:00:00Z"}}, "parties": [{"id": "e05d683e75b138b6d789f4a5376a94d9", "name": "Braintree District Council", "roles": ["buyer"], "address": {"region": null, "locality": "Braintree", "postalCode": "CM7 9HB", "countryName": "UK", "streetAddress": "Causeway House Bocking End"}, "contactPoint": {"name": "Will Baxter", "email": "procurement@braintree.gov.uk", "faxNumber": null, "telephone": "+441376551414"}}, {"id": "1", "sme": false, "vco": false, "name": "Stock Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Innovation House\n        Speculation Road\n        Cinderford,\n        GL14 2YD"}, "identifier": {"id": "", "uri": null, "scheme": "", "legalName": null}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "2", "sme": false, "vco": false, "name": "Scarab Sweepers", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Pattenden Lane\n        Marden\n        Tonbridge\n        TN12 9QD"}, "identifier": {"id": "01823459", "scheme": "GB-COH", "legalName": "SCARAB SWEEPERS LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "3", "sme": false, "vco": false, "name": "Johnston Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Curtis Road\n        Dorking\n        RH4 1XF"}, "identifier": {"id": "00199841", "scheme": "GB-COH", "legalName": "JOHNSTON SWEEPERS LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "4", "sme": false, "vco": false, "name": "Aebi Schmidt UK Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Southgate Way\n        Orton Southgate\n        Peterborough\n        PE2 6GP"}, "identifier": {"id": "00557725", "scheme": "GB-COH", "legalName": "AEBI SCHMIDT UK LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "5", "sme": false, "vco": false, "name": "Euromec Contracts Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "2 MERUS COURT,\n        MERIDIAN BUSINESS PARK\n        LEICESTER\n        LE19 1RJ"}, "identifier": {"id": "", "uri": null, "scheme": "", "legalName": null}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "6", "sme": false, "vco": false, "name": "MuniHire Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Brush House,\n        Star Road\n        Partridge Green,\n        Horsham\n        RH13 8RA"}, "identifier": {"id": "07199558", "scheme": "GB-COH", "legalName": "MUNIHIRE LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "7", "sme": false, "vco": false, "name": "Green Machines Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "East Gateway Business Park\n        Beancross Road\n        Grangemouth\n        FK3 8WH"}, "identifier": {"id": "SC520664", "scheme": "GB-COH", "legalName": "GREEN MACHINES SWEEPERS UK LTD."}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "8", "sme": false, "vco": false, "name": "Riverside Truck Rental Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Oasis Business Park Skelmersdale WN8 9RD\n        Parkside Place\n        Prescott Road\n        Skelmersdale\n        WN8 9RD"}, "identifier": {"id": "03190863", "scheme": "GB-COH", "legalName": "RIVERSIDE TRUCK RENTAL LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "9", "sme": false, "vco": false, "name": "Endurance Vehicle Solutions Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Unit 6\n        Newhouse Farm Industrial Estate\n        Chepstow\n        NP16 6UP"}, "identifier": {"id": "", "uri": null, "scheme": "", "legalName": null}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "10", "sme": false, "vco": false, "name": "Specialist Fleet Services Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "51 Homer Road\n        Solihull\n        B91 3QJ"}, "identifier": {"id": "02843547", "scheme": "GB-COH", "legalName": "SPECIALIST FLEET SERVICES LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "11", "sme": false, "vco": false, "name": "Scarab Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Pattenden Lane\n        Marden\n        Tonbridge\n        TN12 9QD"}, "identifier": {"id": "01823459", "scheme": "GB-COH", "legalName": "SCARAB SWEEPERS LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "12", "sme": false, "vco": false, "name": "Hako Machines Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Eldon Close,\n        Crick\n        NN6 7UD"}, "identifier": {"id": "01414225", "scheme": "GB-COH", "legalName": "HAKO MACHINES LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "13", "sme": false, "vco": false, "name": "Dawson Group sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Delaware Drive\n        Tongwell\n        Milton Keynes\n        MK15 8JH"}, "identifier": {"id": "", "uri": null, "scheme": "", "legalName": null}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "14", "sme": false, "vco": false, "name": "Specialist Fleet Services Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "51 Homer Road\n        Solihull,\n        B91 3QJ"}, "identifier": {"id": "02843547", "scheme": "GB-COH", "legalName": "SPECIALIST FLEET SERVICES LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "15", "sme": false, "vco": false, "name": "Green Machines Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "East Gateway Business Park\n        Beancross Road\n        Grangemouth\n        FK3 8WH"}, "identifier": {"id": "SC520664", "scheme": "GB-COH", "legalName": "GREEN MACHINES SWEEPERS UK LTD."}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "16", "sme": false, "vco": false, "name": "Aebi Schmidt UK Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Southgate Way\n        Orton Southgate\n        Peterborough\n        PE2 6GP"}, "identifier": {"id": "00557725", "scheme": "GB-COH", "legalName": "AEBI SCHMIDT UK LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "17", "sme": false, "vco": false, "name": "Dawson Group sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Delaware Drive\n        Tongwell\n        Milton Keynes\n        MK15 8JH"}, "identifier": {"id": "", "uri": null, "scheme": "", "legalName": null}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "18", "sme": false, "vco": false, "name": "Scarab Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Pattenden Lane\n        Marden\n        Tonbridge\n        TN12 9QD"}, "identifier": {"id": "01823459", "scheme": "GB-COH", "legalName": "SCARAB SWEEPERS LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "19", "sme": false, "vco": false, "name": "Euromec Contracts Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "2 MERUS COURT,\n        MERIDIAN BUSINESS PARK\n        LEICESTER\n        LE19 1RJ"}, "identifier": {"id": "", "uri": null, "scheme": "", "legalName": null}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "20", "sme": false, "vco": false, "name": "Hako Machines Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Eldon Close\n        Crick\n        NN6 7UD"}, "identifier": {"id": "01414225", "scheme": "GB-COH", "legalName": "HAKO MACHINES LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "21", "sme": false, "vco": false, "name": "Green Machines Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "East Gateway Business Park\n        Beancross Road\n        Grangemouth,\n        FK3 8WH"}, "identifier": {"id": "SC520664", "scheme": "GB-COH", "legalName": "GREEN MACHINES SWEEPERS UK LTD."}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "22", "sme": false, "vco": false, "name": "Aebi Schmidt UK Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Southgate Way\n        Orton\n        Southgate\n        Peterborough\n        PE2 6GP"}, "identifier": {"id": "00557725", "scheme": "GB-COH", "legalName": "AEBI SCHMIDT UK LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "23", "sme": false, "vco": false, "name": "Johnston Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Curtis Road\n        Dorking\n        RH4 1XF"}, "identifier": {"id": "00199841", "scheme": "GB-COH", "legalName": "JOHNSTON SWEEPERS LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "24", "sme": false, "vco": false, "name": "Euromec Contracts Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "2 MERUS COURT,\n        MERIDIAN BUSINESS PARK\n        LEICESTER\n        LE19 1RJ"}, "identifier": {"id": "", "uri": null, "scheme": "", "legalName": null}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "25", "sme": false, "vco": false, "name": "Karcher UK Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Brookhill Way\n        Banbury\n        OX16 3ED"}, "identifier": {"id": "01350233", "scheme": "GB-COH", "legalName": "KARCHER (U.K.) LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "26", "sme": false, "vco": false, "name": "Scarab Sweepers Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Pattenden Lane\n        Marden\n        Tonbridge\n        TN12 9QD"}, "identifier": {"id": "01823459", "scheme": "GB-COH", "legalName": "SCARAB SWEEPERS LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}, {"id": "27", "sme": false, "vco": false, "name": "Green Machines UK Ltd", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "East Gateway Business Park\n        Beancross Road\n        Grangemouth\n        FK3 8WH"}, "identifier": {"id": "", "uri": null, "scheme": "", "legalName": null}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": null, "currency": "GBP"}}], "language": "en-GB", "initiationType": "tender"}], "publisher": {"uid": null, "uri": "https://www.contractsfinder.service.gov.uk", "name": "BIP SOLUTIONS LIMITED", "scheme": "GB-GOVUK-crown_comercial_service"}, "extensions": ["https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"], "publishedDate": "2020-05-10T21:20:07Z", "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting"}
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/024d0c60-559d-4f26-b637-b1d793b83ac0.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-10T21:20:07Z",
+  "publisher": {
+    "name": "BIP SOLUTIONS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-7e2a75df-3e8d-41f5-98f5-a7882a88a14d",
+      "id": "ocds-b5fd17-7e2a75df-3e8d-41f5-98f5-a7882a88a14d-358105-bip491818616",
+      "date": "2020-03-11T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "e05d683e75b138b6d789f4a5376a94d9",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Braintree District Council",
+          "address": {
+            "streetAddress": "Causeway House Bocking End",
+            "locality": "Braintree",
+            "region": null,
+            "postalCode": "CM7 9HB",
+            "countryName": "UK"
+          },
+          "contactPoint": {
+            "name": "Will Baxter",
+            "email": "procurement@braintree.gov.uk",
+            "telephone": "+441376551414",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Stock Sweepers Ltd",
+          "address": {
+            "streetAddress": "Innovation House\n        Speculation Road\n        Cinderford,\n        GL14 2YD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Scarab Sweepers",
+          "address": {
+            "streetAddress": "Pattenden Lane\n        Marden\n        Tonbridge\n        TN12 9QD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Johnston Sweepers Ltd",
+          "address": {
+            "streetAddress": "Curtis Road\n        Dorking\n        RH4 1XF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Aebi Schmidt UK Ltd",
+          "address": {
+            "streetAddress": "Southgate Way\n        Orton Southgate\n        Peterborough\n        PE2 6GP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Euromec Contracts Ltd",
+          "address": {
+            "streetAddress": "2 MERUS COURT,\n        MERIDIAN BUSINESS PARK\n        LEICESTER\n        LE19 1RJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MuniHire Ltd",
+          "address": {
+            "streetAddress": "Brush House,\n        Star Road\n        Partridge Green,\n        Horsham\n        RH13 8RA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Green Machines Sweepers Ltd",
+          "address": {
+            "streetAddress": "East Gateway Business Park\n        Beancross Road\n        Grangemouth\n        FK3 8WH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Riverside Truck Rental Ltd",
+          "address": {
+            "streetAddress": "Oasis Business Park Skelmersdale WN8 9RD\n        Parkside Place\n        Prescott Road\n        Skelmersdale\n        WN8 9RD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Endurance Vehicle Solutions Ltd",
+          "address": {
+            "streetAddress": "Unit 6\n        Newhouse Farm Industrial Estate\n        Chepstow\n        NP16 6UP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Specialist Fleet Services Ltd",
+          "address": {
+            "streetAddress": "51 Homer Road\n        Solihull\n        B91 3QJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Scarab Sweepers Ltd",
+          "address": {
+            "streetAddress": "Pattenden Lane\n        Marden\n        Tonbridge\n        TN12 9QD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Hako Machines Ltd",
+          "address": {
+            "streetAddress": "Eldon Close,\n        Crick\n        NN6 7UD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Dawson Group sweepers Ltd",
+          "address": {
+            "streetAddress": "Delaware Drive\n        Tongwell\n        Milton Keynes\n        MK15 8JH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Karcher UK Ltd",
+          "address": {
+            "streetAddress": "Brookhill Way\n        Banbury\n        OX16 3ED",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Green Machines UK Ltd",
+          "address": {
+            "streetAddress": "East Gateway Business Park\n        Beancross Road\n        Grangemouth\n        FK3 8WH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7e2a75df-3e8d-41f5-98f5-a7882a88a14d-bip491818616",
+        "title": "Road Sweepers",
+        "description": "National Framework Agreement for the supply of pedestrian mechanical compact suction andtruck mounted sweepers, supply to be either outright purchase, lease, contract hire with or without maintenance,or by any other appropriate means. This framework will be open to all UK public sector bodies. This includes Local Authorities, Educational Establishments, Registered Providers and Emergency Services, NHS Bodies,Central Government Departments and their Agencies and also registered charities.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "34921100",
+              "description": "Road sweepers",
+              "uri": "http://cpv.data.ac.uk/code-34921100.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 10000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-15T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 15,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Stock Sweepers Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Scarab Sweepers"
+          },
+          {
+            "id": "3",
+            "name": "Johnston Sweepers Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Aebi Schmidt UK Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Euromec Contracts Ltd"
+          },
+          {
+            "id": "6",
+            "name": "MuniHire Ltd"
+          },
+          {
+            "id": "7",
+            "name": "Green Machines Sweepers Ltd"
+          },
+          {
+            "id": "8",
+            "name": "Riverside Truck Rental Ltd"
+          },
+          {
+            "id": "9",
+            "name": "Endurance Vehicle Solutions Ltd"
+          },
+          {
+            "id": "10",
+            "name": "Specialist Fleet Services Ltd"
+          },
+          {
+            "id": "11",
+            "name": "Scarab Sweepers Ltd"
+          },
+          {
+            "id": "12",
+            "name": "Hako Machines Ltd"
+          },
+          {
+            "id": "13",
+            "name": "Dawson Group sweepers Ltd"
+          },
+          {
+            "id": "25",
+            "name": "Karcher UK Ltd"
+          },
+          {
+            "id": "27",
+            "name": "Green Machines UK Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-20T00:00:00Z",
+          "endDate": "2024-04-19T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "e05d683e75b138b6d789f4a5376a94d9",
+        "name": "Braintree District Council"
+      },
+      "awards": [
+        {
+          "id": "0eea1ce5-1bbc-40a3-9962-a05164cc9994",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-15T00:00:00Z",
+          "value": {
+            "amount": 5000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Stock Sweepers Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Scarab Sweepers"
+            },
+            {
+              "id": "3",
+              "name": "Johnston Sweepers Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Aebi Schmidt UK Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Euromec Contracts Ltd"
+            },
+            {
+              "id": "6",
+              "name": "MuniHire Ltd"
+            },
+            {
+              "id": "7",
+              "name": "Green Machines Sweepers Ltd"
+            },
+            {
+              "id": "8",
+              "name": "Riverside Truck Rental Ltd"
+            },
+            {
+              "id": "9",
+              "name": "Endurance Vehicle Solutions Ltd"
+            },
+            {
+              "id": "10",
+              "name": "Specialist Fleet Services Ltd"
+            },
+            {
+              "id": "11",
+              "name": "Scarab Sweepers Ltd"
+            },
+            {
+              "id": "12",
+              "name": "Hako Machines Ltd"
+            },
+            {
+              "id": "13",
+              "name": "Dawson Group sweepers Ltd"
+            },
+            {
+              "id": "25",
+              "name": "Karcher UK Ltd"
+            },
+            {
+              "id": "27",
+              "name": "Green Machines UK Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-20T00:00:00Z",
+            "endDate": "2024-04-19T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

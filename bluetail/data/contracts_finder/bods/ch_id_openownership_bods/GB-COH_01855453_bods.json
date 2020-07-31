@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-5808696115347531543",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "COGENT TECHNOLOGY LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01855453"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01855453",
+                "uri": "https://opencorporates.com/companies/gb/01855453"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9aa0d67e4ebf34045fcb6",
+                "uri": "http://register.openownership.org/entities/59b9aa0d67e4ebf34045fcb6"
+            }
+        ],
+        "foundingDate": "1984-10-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Dock Lane, Melton, Woodbridge, Suffolk, IP12 1PE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14476033108385759359",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5808696115347531543"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12767712393095476821"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4730210352672008347",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-5808696115347531543"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10147292508050609872"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12767712393095476821",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Deborah Jane Pratt"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01855453/persons-with-significant-control/individual/VH-eAEZOFhgUy_YoKusDymb0k0E"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9aa0d67e4ebf34045fce6",
+                "uri": "http://register.openownership.org/entities/59b9aa0d67e4ebf34045fce6"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1952-08-01",
+        "addresses": [
+            {
+                "address": "Dock Lane, Melton, Woodbridge, Suffolk, IP12 1PE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10147292508050609872",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "John David Pratt"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01855453/persons-with-significant-control/individual/jypcHAUAWQzyk03QWrkNkZAJBPs"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9aa0d67e4ebf34045fccb",
+                "uri": "http://register.openownership.org/entities/59b9aa0d67e4ebf34045fccb"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1942-06-01",
+        "addresses": [
+            {
+                "address": "Dock Lane, Melton, Woodbridge, Suffolk, IP12 1PE"
+            }
+        ]
+    }
+]

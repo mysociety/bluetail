@@ -1,0 +1,104 @@
+[
+    {
+        "statementID": "openownership-register-4618422897150606989",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "M.A. FORSHAW LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01543362"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01543362",
+                "uri": "https://opencorporates.com/companies/gb/01543362"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9516f67e4ebf340c6baab",
+                "uri": "http://register.openownership.org/entities/59b9516f67e4ebf340c6baab"
+            }
+        ],
+        "foundingDate": "1981-02-04",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Heatons Bridge Farm, Heaton Bridge Road, Scarisbrick, West Lancashire, L40 8JG",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8918396375039239191",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-10-17",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4618422897150606989"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14638198887094367448"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-10-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14638198887094367448",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Matthew Shutt"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01543362/persons-with-significant-control/individual/XjRXLZ9_ld0J2SULImK_-62LDBQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9516f67e4ebf340c6babd",
+                "uri": "http://register.openownership.org/entities/59b9516f67e4ebf340c6babd"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1970-01-01",
+        "addresses": [
+            {
+                "address": "Heatons Bridge Farm, Heaton Bridge Road, Scarisbrick, West Lancashire, L40 8JG",
+                "country": "GB"
+            }
+        ]
+    }
+]

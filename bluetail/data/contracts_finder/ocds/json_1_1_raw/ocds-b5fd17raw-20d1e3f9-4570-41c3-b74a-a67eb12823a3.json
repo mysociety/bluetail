@@ -1,0 +1,536 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fd13ab36-21bf-49be-9df2-ed1389a12905.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-26T10:55:29Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-20d1e3f9-4570-41c3-b74a-a67eb12823a3",
+      "id": "ocds-b5fd17-20d1e3f9-4570-41c3-b74a-a67eb12823a3-360679-head-office-00000281---award",
+      "date": "2020-02-11T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "48af65ebf5df9bdccc4ddb39131c5117",
+          "roles": [
+            "buyer"
+          ],
+          "name": "L&amp;Q Construction",
+          "address": {
+            "streetAddress": "West Ham Lane Stratford",
+            "locality": "London",
+            "region": null,
+            "postalCode": "E15 4PH",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Musa Kabiri",
+            "email": "MKabiri@lqgroup.org.uk",
+            "telephone": "0300 456 9998",
+            "faxNumber": null,
+            "uri": "www.quadrant-construction.co.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Accurate Roofing Ltd",
+          "address": {
+            "streetAddress": "Norfolk Road Industrial Estate, Norfolk Road, Gravesend, Kent, United Kingdom, DA12 2PS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Adrian  Humphries",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Boaz Concepts Limited",
+          "address": {
+            "streetAddress": "85 Great Portland Street , London, United Kingdom, W1W 7LT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Rickie Lameks",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "C Watkins Plumbing",
+          "address": {
+            "streetAddress": "C Watkins, Haine Ind Est, Leigh Road, Ramsgate, Kent, United Kingdom, CT125EU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Marc Harris",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "GBS Fire Protection LTD",
+          "address": {
+            "streetAddress": "GBS unit 16 manor way business centre, Great Britain, RM13 8UG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Phil Ratcliffe",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Knightsbridge Property Services Ltd",
+          "address": {
+            "streetAddress": "Airport House, purley way, croydon, surrey, United Kingdom, cr0 0xz",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Michelle Millward",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Linbec Multi Services Limited",
+          "address": {
+            "streetAddress": "17 Hanover Square, London, United Kingdom, W1S 1BN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Colin Macmillan",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Maybrick Property MaintenanceLtd",
+          "address": {
+            "streetAddress": "185 South Street, Romford, Essex, United Kingdom, RM1 1QA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Peter Connor",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "NC Range Site Ltd",
+          "address": {
+            "streetAddress": "Suite 14, Park Mews, 15B Park Lane, Hornchurch , Essex, United Kingdom, RM11 1BB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Billy  Richardson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Surebuild Property Services Limited",
+          "address": {
+            "streetAddress": "8 The Holme, 21 Post Street, Godmanchester, Cambridgeshire, United Kingdom, PE29 2BA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Terry Hale",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Wrightway Construction Ltd",
+          "address": {
+            "streetAddress": "17 Pippin Road, Ongar, United Kingdom, CM50FS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Joe Wright",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-20d1e3f9-4570-41c3-b74a-a67eb12823a3-head-office-00000281---award",
+        "title": "London and Quadrant Housing Trust - Aftercare Small Subcontractors Framework  2020 - 2024 - AWARD",
+        "description": "London and Quadrant Housing Trust and its subsidiary Quadrant Construction Services are one of the largest providers of affordable housing in the UK, housing over 250,000 people in more than 95,000 homes, primarily across London and the South East of England. London and Quadrant Housing Trust are tendering for the provision of Subcontractors for London and Quadrant&#039;s Self Delivered New Build Projects to comply with the Public Contracts regulations 2015. The objective of this tender process is to establish a Framework Agreement with the tenderers and London and Quadrant Housing Trust. The dates and contract value are estimates and could be subject to change. This is tender is for Subcontractors only. \r\n      \r\n      This is a two stage tender and both stages adhere to the time-scales as prescribed within the Public Contracts Regulations 2015 for Restricted OJEU Tenders.\r\n      \r\n      Stage 1: Selection Stage\r\n      \r\n      Click on the &#039;Express Interest&#039; Button at the bottom\r\n      \r\n      Click on the &#039;Selection Stage&#039; Tab at the top\r\n      - Scroll to the bottom of the screen and you will be able to view the Tender Documents and access the Standard Selection Questionnaire\r\n      - For the Selection Stage you will only need to submit the Standard Selection Questionnaire\r\n      - We will score your questionnaire and will advise you as to whether you are successful or not\r\n      - Pricing Documents will only be available to those who have passed the Selection Stage\r\n      \r\n      \r\n      ONLY IF YOU HAVE PASSED THE SELECTION STAGE \r\n      \r\n      Stage 2: ITT Stage\r\n      \r\n      - Click on the &#039;ITT&#039; Tab \r\n      - Scroll to the bottom and you will be able to access the Tender Documents\r\n      - Tenderers will be briefed as to what they will need to submit for this tender\r\n      \r\n      Please allow sufficient time to submit your return by the specified dates as late returns will not be permitted. \r\n      \r\n      \r\n      Under the Framework Agreement L&amp;Q and all companies within the L&amp;Q Group (including, without limitation, Quadrant Construction Services) will have the option to call-off contracts with individual framework contractors as and when required. In addition, other Social Housing Providers in the UK (both those that are in existence now and those that may be in existence in the future) will also be entitled to call-off contracts under the Framework Agreement. &quot;Social Housing Provider&quot; for this purpose means any provider of social housing and includes, without limitation, Registered Providers, Local Authorities and ALMOs. Such Social Housing Providers will only be entitled to call off under the Framework Agreement if L&amp;Q consents.\r\n      \r\n      For information regarding this tender please contact the Framework Team via the tender portal. This tender is managed by the Framework Buying department. Please do not contact any other department within the London and Quadrant Group. Please do not contact Group Procurement for information as this Tender has been created by the Framework Buying Department.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45262600",
+              "description": "Miscellaneous special-trade construction work",
+              "uri": "http://cpv.data.ac.uk/code-45262600.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 189000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Restricted procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-28T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 10,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Accurate Roofing Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Boaz Concepts Limited"
+          },
+          {
+            "id": "3",
+            "name": "C Watkins Plumbing"
+          },
+          {
+            "id": "4",
+            "name": "GBS Fire Protection LTD"
+          },
+          {
+            "id": "5",
+            "name": "Knightsbridge Property Services Ltd"
+          },
+          {
+            "id": "6",
+            "name": "Linbec Multi Services Limited"
+          },
+          {
+            "id": "7",
+            "name": "Maybrick Property MaintenanceLtd"
+          },
+          {
+            "id": "8",
+            "name": "NC Range Site Ltd"
+          },
+          {
+            "id": "9",
+            "name": "Surebuild Property Services Limited"
+          },
+          {
+            "id": "10",
+            "name": "Wrightway Construction Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-16T00:00:00Z",
+          "endDate": "2024-05-16T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "48af65ebf5df9bdccc4ddb39131c5117",
+        "name": "L&amp;Q Construction"
+      },
+      "awards": [
+        {
+          "id": "c998b9a3-076e-4fa0-9d6f-010cc04d8bcf",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-12T00:00:00Z",
+          "value": {
+            "amount": 189000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Accurate Roofing Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Boaz Concepts Limited"
+            },
+            {
+              "id": "3",
+              "name": "C Watkins Plumbing"
+            },
+            {
+              "id": "4",
+              "name": "GBS Fire Protection LTD"
+            },
+            {
+              "id": "5",
+              "name": "Knightsbridge Property Services Ltd"
+            },
+            {
+              "id": "6",
+              "name": "Linbec Multi Services Limited"
+            },
+            {
+              "id": "7",
+              "name": "Maybrick Property MaintenanceLtd"
+            },
+            {
+              "id": "8",
+              "name": "NC Range Site Ltd"
+            },
+            {
+              "id": "9",
+              "name": "Surebuild Property Services Limited"
+            },
+            {
+              "id": "10",
+              "name": "Wrightway Construction Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-16T00:00:00Z",
+            "endDate": "2024-05-16T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

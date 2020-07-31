@@ -1,0 +1,191 @@
+[
+    {
+        "statementID": "openownership-register-11949750899732376848",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ISLAND FOODS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04300308"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04300308",
+                "uri": "https://opencorporates.com/companies/gb/04300308"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94aa267e4ebf340a91f52",
+                "uri": "http://register.openownership.org/entities/59b94aa267e4ebf340a91f52"
+            }
+        ],
+        "foundingDate": "2001-10-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 6 & 8 Cothey Way, Ryde, PO33 1QT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4675211918046448737",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11949750899732376848"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6552602143239980434"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1666563528250563870",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11949750899732376848"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-5915856037354835499"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6552602143239980434",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Miranda Doe"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04300308/persons-with-significant-control/individual/5NGGZsZmPMpmO3B-k_7XPsIXcDU"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94aa267e4ebf340a91f60",
+                "uri": "http://register.openownership.org/entities/59b94aa267e4ebf340a91f60"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1963-01-01",
+        "addresses": [
+            {
+                "address": "Unit 6 & 8, Cothey Way, Ryde, PO33 1QT"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5915856037354835499",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Steven Doe"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04300308/persons-with-significant-control/individual/6Z6AFpC4xjFO9X3D02H27epVJi4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b94aa267e4ebf340a91f5e",
+                "uri": "http://register.openownership.org/entities/59b94aa267e4ebf340a91f5e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-11-01",
+        "addresses": [
+            {
+                "address": "Unit 6 & 8, Cothey Way, Ryde, PO33 1QT"
+            }
+        ]
+    }
+]

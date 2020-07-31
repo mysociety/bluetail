@@ -1,0 +1,295 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/456ece80-d6b3-4674-8de4-1ab140460cee.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T12:21:37Z",
+  "publisher": {
+    "name": "Lancashire County Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-7b8f13f5-2b2e-40e8-86a8-3ae3f75ca04d",
+      "id": "ocds-b5fd17-7b8f13f5-2b2e-40e8-86a8-3ae3f75ca04d-359542-lm-cas-lcc-19-936-award",
+      "date": "2020-03-13T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "143eb0990ac48f3db2a49e5ba241a7e1",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/v2gr32H4",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Lancashire County Council",
+          "address": {
+            "streetAddress": "Bow Lane ",
+            "locality": "PRESTON",
+            "region": null,
+            "postalCode": "PR18RL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Louis Mengella",
+            "email": "Louis.Mengella@lancashire.gov.uk",
+            "telephone": "01772538438",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Archway Roadmaster UK Ltd",
+          "address": {
+            "streetAddress": "53 Fountain Street, Manchester, M2 2AN\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Eurovia Infrastructure Ltd",
+          "address": {
+            "streetAddress": "Albion House, Springfield Road, Horsham, West Sussex, RH12 2RW\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "NuPhalt Contracting Ltd",
+          "address": {
+            "streetAddress": "11 Caputhall Road, Deans Industrial Estate, Livingston, West Lothian, EH54 8AS\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Velocity UK Ltd",
+          "address": {
+            "streetAddress": "10 A Woodbine Street, Sunderland Tyne and Wear, SR1 2NL\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-7b8f13f5-2b2e-40e8-86a8-3ae3f75ca04d-lm/cas/lcc/19/936-award",
+        "title": "Spray Injection Patching &amp; Heated &quot;In Situ&quot; Road Repairs",
+        "description": "Spray Injection Patching &amp; Heated &quot;In Situ&quot; Road Repairs\r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45233000",
+              "description": "Construction, foundation and surface works for highways, roads",
+              "uri": "http://cpv.data.ac.uk/code-45233000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-03-20T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Archway Roadmaster UK Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Eurovia Infrastructure Ltd"
+          },
+          {
+            "id": "3",
+            "name": "NuPhalt Contracting Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Velocity UK Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "143eb0990ac48f3db2a49e5ba241a7e1",
+        "name": "Lancashire County Council"
+      },
+      "awards": [
+        {
+          "id": "b6ab4d07-fb7a-40ec-b0bf-572940ee494f",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-20T00:00:00Z",
+          "value": {
+            "amount": 2000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Archway Roadmaster UK Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Eurovia Infrastructure Ltd"
+            },
+            {
+              "id": "3",
+              "name": "NuPhalt Contracting Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Velocity UK Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+[
+    {
+        "statementID": "openownership-register-9367078044340426999",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CITY CABS (EDINBURGH) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC033518"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "SC033518"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/SC033518",
+                "uri": "https://opencorporates.com/companies/gb/SC033518"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc33518"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Sc033518"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b1b367e4ebf34062bad7",
+                "uri": "http://register.openownership.org/entities/59b9b1b367e4ebf34062bad7"
+            }
+        ],
+        "foundingDate": "1958-12-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Atholl Place, Edinburgh, EH3 8HP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18417783441781128856",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-05-17",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9367078044340426999"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15662536052952065608"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-05-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14843443761558538507",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-05-17",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9367078044340426999"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15679434617597072079"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-05-17"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15662536052952065608",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Leslie Mcvay"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC627202/persons-with-significant-control/individual/bgmeA58I910JKvx2r8aAphh98ho"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5cb54ccd9dfc3fae18579d93",
+                "uri": "http://register.openownership.org/entities/5cb54ccd9dfc3fae18579d93"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1955-02-01",
+        "addresses": [
+            {
+                "address": "1, Atholl Place, Edinburgh, EH3 8HP"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15679434617597072079",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "George Fernie Aird"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/SC368386/persons-with-significant-control/individual/GFjBC_RzWUBlVPzg_kKnKY-x-x0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95b3f67e4ebf340f413ea",
+                "uri": "http://register.openownership.org/entities/59b95b3f67e4ebf340f413ea"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-11-01",
+        "addresses": [
+            {
+                "address": "1, Atholl Place, Edinburgh, EH3 8HP"
+            }
+        ]
+    }
+]

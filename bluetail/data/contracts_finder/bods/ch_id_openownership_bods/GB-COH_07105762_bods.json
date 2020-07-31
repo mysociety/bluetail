@@ -1,0 +1,201 @@
+[
+    {
+        "statementID": "openownership-register-6436013257611153767",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "INFINITE EDGE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07105762"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07105762",
+                "uri": "https://opencorporates.com/companies/gb/07105762"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9701867e4ebf340599abc",
+                "uri": "http://register.openownership.org/entities/59b9701867e4ebf340599abc"
+            }
+        ],
+        "foundingDate": "2009-12-15",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 21 Silveroaks Farm, Waldron, Heathfield, East Sussex, TN21 0RS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16398328992676458801",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6436013257611153767"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-399155295396091118"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-11-06T11:44:23Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12930563172793610519",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6436013257611153767"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1017828504550659976"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-11-06T11:44:23Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-399155295396091118",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Samuel Mcgeever"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07105762/persons-with-significant-control/individual/NRH8plgpOPXbdltw5R-v-cFagtk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9701867e4ebf340599ad0",
+                "uri": "http://register.openownership.org/entities/59b9701867e4ebf340599ad0"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-10-01",
+        "addresses": [
+            {
+                "address": "Unit 21, Silveroaks Farm, Waldron, Heathfield, East Sussex, TN21 0RS"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1017828504550659976",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Helen Law"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07105762/persons-with-significant-control/individual/rBFl8WaMIZ5-ty398bG_891pZEI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9701867e4ebf340599b5a",
+                "uri": "http://register.openownership.org/entities/59b9701867e4ebf340599b5a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-10-01",
+        "addresses": [
+            {
+                "address": "Unit 21, Silveroaks Farm, Waldron, Heathfield, East Sussex, TN21 0RS"
+            }
+        ]
+    }
+]

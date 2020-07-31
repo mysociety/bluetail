@@ -1,0 +1,64 @@
+[
+    {
+        "statementID": "openownership-register-10568244289545560778",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Staffordshire Wildlife Trust Limited",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00959609"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00959609",
+                "uri": "https://opencorporates.com/companies/gb/00959609"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c4f7c967e4ebf3404ae633",
+                "uri": "http://register.openownership.org/entities/59c4f7c967e4ebf3404ae633"
+            }
+        ],
+        "foundingDate": "1969-08-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Wolseley Centre, Wolseley Bridge, Stafford, ST17 0WT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-17879243709691185978",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-09-29",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10568244289545560778"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

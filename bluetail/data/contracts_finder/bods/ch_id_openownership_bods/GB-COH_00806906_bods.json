@@ -1,0 +1,463 @@
+[
+    {
+        "statementID": "openownership-register-18302407233260953490",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "OLDHAM SEALS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00806906"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00806906"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00806906"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00806906",
+                "uri": "https://opencorporates.com/companies/gb/00806906"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9407567e4ebf3407b9247",
+                "uri": "http://register.openownership.org/entities/59b9407567e4ebf3407b9247"
+            }
+        ],
+        "foundingDate": "1964-05-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "City Gates 2-4 Southgate, Chichester, West Sussex, PO19 8DJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-412081369368571383",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-12-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18302407233260953490"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-18263355074455493617"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-12-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-12-10T10:45:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12070871502022713445",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18302407233260953490"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11409260955396214432"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent-as-trust",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-06-13"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent-as-trust",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-06-13"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3168356020324301365",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-06-13",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18302407233260953490"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-8946529830419722717"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-06-13",
+                "endDate": "2019-12-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-06-13",
+                "endDate": "2019-12-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-12-10T10:45:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10661429778189237489",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18302407233260953490"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3440470304655798124"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-04-19"
+            },
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent-as-trust",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-04-19"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-04-19"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent-as-trust",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-04-19"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2736022070702675445",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-06-13",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18302407233260953490"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10905218972082947723"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-06-13",
+                "endDate": "2019-12-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-06-13",
+                "endDate": "2019-12-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-12-10T10:45:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-18263355074455493617",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "OLDHAM SEALS GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12012631"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/12012631",
+                "uri": "https://opencorporates.com/companies/gb/12012631"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12012631"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12012631"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5d007d2a9dfc3fae18f14ac2",
+                "uri": "http://register.openownership.org/entities/5d007d2a9dfc3fae18f14ac2"
+            }
+        ],
+        "foundingDate": "2019-05-22",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "City Gates, 2-4 Southgate, Chichester, West Sussex, PO19 8DJ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11409260955396214432",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Anita Margaretha Oldham"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00806906/persons-with-significant-control/individual/-6QlIrDnhv3ahQZxIMrnZv4yCks"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b90867e4ebf3407fa13a",
+                "uri": "http://register.openownership.org/entities/59b9b90867e4ebf3407fa13a"
+            }
+        ],
+        "birthDate": "1939-09-01",
+        "addresses": [
+            {
+                "address": "City Gates 2-4, Southgate, Chichester, West Sussex, PO19 8DJ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8946529830419722717",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Christopher Gordon Richard Oldham"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00806906/persons-with-significant-control/individual/-L1FE7lyhm5BmmNx-F4Sig1pPuk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b16d0c79dfc3fae18602a60",
+                "uri": "http://register.openownership.org/entities/5b16d0c79dfc3fae18602a60"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1962-05-01",
+        "addresses": [
+            {
+                "address": "City Gates 2-4, Southgate, Chichester, West Sussex, PO19 8DJ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-3440470304655798124",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Anthony Gordon Oldham"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00806906/persons-with-significant-control/individual/9rREZzNBuBhdPwi91BjgvtP_1EM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9b90867e4ebf3407fa11b",
+                "uri": "http://register.openownership.org/entities/59b9b90867e4ebf3407fa11b"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1931-03-01",
+        "addresses": [
+            {
+                "address": "City Gates 2-4, Southgate, Chichester, West Sussex, PO19 8DJ"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10905218972082947723",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Nicholas Per Oldham"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00806906/persons-with-significant-control/individual/Y7RV8tSLAWBMB45BlPUZcrLnDa0"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b16d0879dfc3fae185f881e",
+                "uri": "http://register.openownership.org/entities/5b16d0879dfc3fae185f881e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-02-01",
+        "addresses": [
+            {
+                "address": "City Gates 2-4, Southgate, Chichester, West Sussex, PO19 8DJ",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fb3c8c3b-2e58-41d3-b54f-3916775fee06.json",
+  "version": "1.1",
+  "publishedDate": "2020-03-24T14:51:54Z",
+  "publisher": {
+    "name": "BURNLEY BOROUGH COUNCIL",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-5ebb8e9c-7ae4-457c-98a9-b530b4df9d7d",
+      "id": "ocds-b5fd17-5ebb8e9c-7ae4-457c-98a9-b530b4df9d7d-351458-ins01",
+      "date": "2019-09-16T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "150e39924bc7fc82c99f85e33d5293e9",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-LAE",
+            "id": "BUN",
+            "uri": "https://local-authority-eng.register.gov.uk/record/BUN",
+            "legalName": null
+          },
+          "name": "BURNLEY BOROUGH COUNCIL",
+          "address": {
+            "streetAddress": "Town Hall, Manchester Rd, Burnley, Lancashire ",
+            "locality": "BURNLEY",
+            "region": null,
+            "postalCode": "BB11 9SA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Chris Gay",
+            "email": "cgay@burnley.gov.uk",
+            "telephone": "01282477163",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01184193",
+            "scheme": "GB-COH",
+            "legalName": "ASPEN INSURANCE UK LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ASPEN INSURANCE UK LIMITED",
+          "address": {
+            "streetAddress": "Plantation Place,30 Fenchurch Street\nLONDON\nEC3M 3BD\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jack Coombes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 161250
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06013500",
+            "scheme": "GB-COH",
+            "legalName": "ASHDALE ENGINEERING UK LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ASHDALE ENGINEERING UK LTD",
+          "address": {
+            "streetAddress": "Stoke Bishop\nBRISTOL\nAvon\nBS9 2DR\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Simon Baldock",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 36120
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-5ebb8e9c-7ae4-457c-98a9-b530b4df9d7d-ins01",
+        "title": "Insurance Services",
+        "description": "The Council&#039;s requirement is for the provision of insurance cover and insurance services  (including claims handling)  for its current insurance portfolio and new covers as identified within the ITT document. This requirement will be let in 8 Lots as follows; Lot 1 Property and Pecuniary Insurances (including Contract Works, Business Interruption, Money and All Risks); Lot 2 Property Owners; Lot 3 Casualty Section; Lot 4 Fidelity Guarantee; Lot 5 Motor Fleet; Lot 6 Personal Accident &amp; Travel; Lot 7 Combined Engineering; Lot 8 Towneley Hall Fine Arts Museum.\r\n\r\nTenderers may submit a tender response for a single Lot or a combination of Lots. The Council reserves the right to award a single Lot or a combination of Lots by applying, to the tender response to each Lot submitted, the evaluation methodology set out in Appendix 2 of the ITT document. Awarded lots will be for 3 years from 1st April 2020 with the option of two annual extensions of 1 year each to 31st March 2025.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "66510000",
+              "description": "Insurance services",
+              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 829000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-18T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "ASPEN INSURANCE UK LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "ASHDALE ENGINEERING UK LTD"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2023-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "150e39924bc7fc82c99f85e33d5293e9",
+        "name": "BURNLEY BOROUGH COUNCIL"
+      },
+      "awards": [
+        {
+          "id": "9fd30912-7161-4919-b362-17f759323e3d",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-10T00:00:00Z",
+          "value": {
+            "amount": 507061,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "ASPEN INSURANCE UK LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "ASHDALE ENGINEERING UK LTD"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2023-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

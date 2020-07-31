@@ -1,0 +1,331 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/a8545b0b-3a20-42f2-b4b4-6eba5e66923e.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-01T17:07:12Z",
+  "publisher": {
+    "name": "UNIVERSITY OF WOLVERHAMPTON ENTERPRISE LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-a9b73d52-4982-4be8-b4bf-570e127d1d3a",
+      "id": "ocds-b5fd17-a9b73d52-4982-4be8-b4bf-570e127d1d3a-352680-19-20-(award---lot-3)",
+      "date": "2019-08-28T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "28b79c726f3cc0aef88e77bf879e6b71",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/5rVw2ET6",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "UNIVERSITY OF WOLVERHAMPTON ENTERPRISE LIMITED",
+          "address": {
+            "streetAddress": "Wulfruna Street ",
+            "locality": "WOLVERHAMPTON",
+            "region": null,
+            "postalCode": "WV11LY",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "procurement@wlv.ac.uk",
+            "telephone": "01902 321643",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02317072",
+            "scheme": "GB-COH",
+            "legalName": "INTERCLASS PUBLIC LIMITED COMPANY"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "INTERCLASS PUBLIC LIMITED COMPANY",
+          "address": {
+            "streetAddress": "Heath Mill Road,Wombourne\nWOLVERHAMPTON\nWEST MIDLANDS\nWV5 8AP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06740881",
+            "scheme": "GB-COH",
+            "legalName": "SPELLER METCALFE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SPELLER METCALFE LIMITED",
+          "address": {
+            "streetAddress": "Maple Road\nMALVERN\nWorcestershire\nWR14 1GQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03578140",
+            "scheme": "GB-COH",
+            "legalName": "SEDDON CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SEDDON CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Plodder Lane,Farnworth\nBOLTON\nLancashire\nBL4 0NN\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00836946",
+            "scheme": "GB-COH",
+            "legalName": "OVERBURY PLC"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "OVERBURY PLC",
+          "address": {
+            "streetAddress": "26 Spring Gardens\nMANCHESTER\nM2 1AB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00570282",
+            "scheme": "GB-COH",
+            "legalName": "E.MANTON LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "E.MANTON LIMITED",
+          "address": {
+            "streetAddress": "The Crescent\nB37 7YE\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-a9b73d52-4982-4be8-b4bf-570e127d1d3a-19-20-(award---lot-3)",
+        "title": "Building Works",
+        "description": "The University is seeking experienced Contractors to carry out Building Works across the University.\r\n\r\nIn order to allow this Contract to be used for potential Funded projects we are notifying all tenderers that some works might be subject to part funding by, for example, the European Structural and Investment Funds Growth Programme for England (ESIF), European Regional Development Fund. (ERDF) or any other European Union Funded Programme, or other Funding Body e.g. Local Enterprise Partnerships (LEP). \r\n\r\nThe opportunity will also be available for use by other Public Bodies in Wolverhampton and Partner Authorities in the West Midlands Combined Authority, including but not limited to, City of Wolverhampton Council and Royal Wolverhampton Hospital Trust.\r\n\r\nIt is envisaged that Contract(s) and Framework Agreement will be let for a period of 3 years (with an option to extend for up to a further 12 months subject to satisfactory performance and agreement by both parties). The Contract(s) and Framework Agreement is expected to commence 01st February 2020.\r\n\r\nLot 1 covers individual jobs &pound;150k - &pound;1.2m (inc. VAT) in value.  Lot 3 will form a Framework Agreement comprised of four (4) Contractors.  Each call-off for the works required under Lot 3 will be conducted via further-competition.  However, the University reserves the right to directly award a call-off contract to the first placed Contractor on the Framework where a direct award can be justified.  Tenderers can apply for a single Lot or multiple Lots (up to a maximum of two Lots).  Where Tenderers would like to apply for multiple Lots please note that you can apply for Lot 1 &amp; Lot 2 OR Lot 2 &amp; Lot 3.  Tenderers CANNOT apply for ALL three Lots or both Lot 1 &amp; Lot 3.\r\n\r\nThe Qualification section will be assessed on a pass/fail basis in accordance with the standard qualification questions implemented by PAS91.  Mandatory Requirements are stipulated in the PQQ documentation.\r\n\r\nTo respond to this opportunity follow this link https://wlv.bravosolution.co.uk",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45214400",
+              "description": "Construction work for university buildings",
+              "uri": "http://cpv.data.ac.uk/code-45214400.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-10-09T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "INTERCLASS PUBLIC LIMITED COMPANY"
+          },
+          {
+            "id": "2",
+            "name": "SPELLER METCALFE LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "SEDDON CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "OVERBURY PLC"
+          },
+          {
+            "id": "5",
+            "name": "E.MANTON LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-02-01T00:00:00Z",
+          "endDate": "2022-01-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "28b79c726f3cc0aef88e77bf879e6b71",
+        "name": "UNIVERSITY OF WOLVERHAMPTON ENTERPRISE LIMITED"
+      },
+      "awards": [
+        {
+          "id": "91e9152d-deed-4ada-9074-800b0d0f88e2",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-28T00:00:00Z",
+          "value": {
+            "amount": 2000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "INTERCLASS PUBLIC LIMITED COMPANY"
+            },
+            {
+              "id": "2",
+              "name": "SPELLER METCALFE LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "SEDDON CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "OVERBURY PLC"
+            },
+            {
+              "id": "5",
+              "name": "E.MANTON LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-02T00:00:00Z",
+            "endDate": "2023-01-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

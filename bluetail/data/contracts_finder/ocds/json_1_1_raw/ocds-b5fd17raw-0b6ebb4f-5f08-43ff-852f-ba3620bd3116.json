@@ -1,0 +1,269 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/ca1b1267-8c05-43ed-b3a8-ba47910c2d5c.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T09:24:20Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-0b6ebb4f-5f08-43ff-852f-ba3620bd3116",
+      "id": "ocds-b5fd17-0b6ebb4f-5f08-43ff-852f-ba3620bd3116-359471-dcc001-dn444391-38295101",
+      "date": "2019-11-08T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "31df2eec62e7637271478735ad9e04d4",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Durham County Council",
+          "address": {
+            "streetAddress": "County Hall Durham",
+            "locality": "Durham",
+            "region": null,
+            "postalCode": "DH1 5UQ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Steven Saville",
+            "email": "steven.saville@durham.gov.uk",
+            "telephone": "+44 3000265736",
+            "faxNumber": null,
+            "uri": "http://www.durham.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Solmek Ltd",
+          "address": {
+            "streetAddress": "12 Yarm Road, Stockton-on-Tees, TS18 3NA\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Ian Farmer Associates (1998) Limited",
+          "address": {
+            "streetAddress": "Unit 4, Faraday Close, Pattinson North Industrial Estate, Washington, NE38 8QJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Dunelm Geotechnical and Environmental Limited",
+          "address": {
+            "streetAddress": "Foundation House, St John&#039;s Road, Meadowfield, Durham \nDH7 8TZ\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-0b6ebb4f-5f08-43ff-852f-ba3620bd3116-dcc001-dn444391-38295101",
+        "title": "Framework Contract for Provision of Civil and Geotechnical Engineering Investigation and Material Testing",
+        "description": "This is a framework contract to provide Civil and Geotechnical Engineering Investigation and Material Testing. DOcuments can be downloaded from the nepo portal at www.nepo.org using reference number DN444391",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45200000",
+              "description": "Works for complete or part construction and civil engineering work",
+              "uri": "http://cpv.data.ac.uk/code-45200000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71000000",
+              "description": "Architectural, construction, engineering and inspection services",
+              "uri": "http://cpv.data.ac.uk/code-71000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 10000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 10000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-29T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 3,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Solmek Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Ian Farmer Associates (1998) Limited"
+          },
+          {
+            "id": "3",
+            "name": "Dunelm Geotechnical and Environmental Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-02-06T00:00:00Z",
+          "endDate": "2022-02-23T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "31df2eec62e7637271478735ad9e04d4",
+        "name": "Durham County Council"
+      },
+      "awards": [
+        {
+          "id": "fa75ed83-5e34-4523-afdf-a161bfa38398",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-18T00:00:00Z",
+          "value": {
+            "amount": 10000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Solmek Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Ian Farmer Associates (1998) Limited"
+            },
+            {
+              "id": "3",
+              "name": "Dunelm Geotechnical and Environmental Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-19T00:00:00Z",
+            "endDate": "2022-05-18T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

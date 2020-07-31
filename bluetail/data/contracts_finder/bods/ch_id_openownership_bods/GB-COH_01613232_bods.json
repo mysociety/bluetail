@@ -1,0 +1,211 @@
+[
+    {
+        "statementID": "openownership-register-9805900066299876082",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WARRENS OFFICE LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01613232"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01613232"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01613232",
+                "uri": "https://opencorporates.com/companies/gb/01613232"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01613232"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9837667e4ebf340b90d4c",
+                "uri": "http://register.openownership.org/entities/59b9837667e4ebf340b90d4c"
+            }
+        ],
+        "foundingDate": "1982-02-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "1 Moorside Point, Moorside Road Winnall, Winchester, Hampshire, SO23 7RX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1644447789949497794",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9805900066299876082"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12443036819703791279"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14177013166386456484",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9805900066299876082"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-12199121976118489166"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12443036819703791279",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Paul Dominic Talbot Morgan"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01613232/persons-with-significant-control/individual/2NdWsrVpxs8JLIzK1qksSNLS21U"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9837667e4ebf340b90d5a",
+                "uri": "http://register.openownership.org/entities/59b9837667e4ebf340b90d5a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1967-02-01",
+        "addresses": [
+            {
+                "address": "1 Moorside Point, Moorside Road Winnall, Winchester, Hampshire, SO23 7RX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12199121976118489166",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Melanie Jane Churchill"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01613232/persons-with-significant-control/individual/qq2jV757V7eU2j5Q-LEbVyDEAOY"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9837667e4ebf340b90df5",
+                "uri": "http://register.openownership.org/entities/59b9837667e4ebf340b90df5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1975-06-01",
+        "addresses": [
+            {
+                "address": "1 Moorside Point, Moorside Road Winnall, Winchester, Hampshire, SO23 7RX"
+            }
+        ]
+    }
+]

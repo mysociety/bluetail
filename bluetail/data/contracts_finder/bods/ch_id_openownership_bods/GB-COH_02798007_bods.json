@@ -1,0 +1,214 @@
+[
+    {
+        "statementID": "openownership-register-3421481839283519495",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "COUNTRYWIDE GROUNDS MAINTENANCE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02798007"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02798007",
+                "uri": "https://opencorporates.com/companies/gb/02798007"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9982a67e4ebf34004345b",
+                "uri": "http://register.openownership.org/entities/59b9982a67e4ebf34004345b"
+            }
+        ],
+        "foundingDate": "1993-03-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "12 New Fetter Lane, London, EC4A 1JP",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-7682749877602200689",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3421481839283519495"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-17557210439047493792"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-05-02"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3986278379100191516",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-05-02",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-3421481839283519495"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-9961566165250975554"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-05-02"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-05-02"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2017-05-02"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-17557210439047493792",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CCL REALISATIONS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02443352"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02443352"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02443352"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02443352",
+                "uri": "https://opencorporates.com/companies/gb/02443352"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2443352"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9666267e4ebf34028c889",
+                "uri": "http://register.openownership.org/entities/59b9666267e4ebf34028c889"
+            }
+        ],
+        "foundingDate": "1989-11-16",
+        "dissolutionDate": "2019-09-20",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "4th Floor Abbey House, Booth Street, Manchester, M2 4AB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9961566165250975554",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NEIGHBOURLY BRANDS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09806483"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09806483"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "09806483"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/09806483",
+                "uri": "https://opencorporates.com/companies/gb/09806483"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9256d67e4ebf340fde448",
+                "uri": "http://register.openownership.org/entities/59b9256d67e4ebf340fde448"
+            }
+        ],
+        "foundingDate": "2015-10-02",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "12 New Fetter Lane, London, EC4A 1JP",
+                "country": "GB"
+            }
+        ]
+    }
+]

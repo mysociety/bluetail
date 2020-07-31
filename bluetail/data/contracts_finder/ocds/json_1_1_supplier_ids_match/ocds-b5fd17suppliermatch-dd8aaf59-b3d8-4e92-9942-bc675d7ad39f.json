@@ -1,0 +1,302 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/85583f9d-d95c-4da6-a352-b0cdf866c8c4.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-06T10:14:54Z",
+  "publisher": {
+    "name": "Sheffield City Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-dd8aaf59-b3d8-4e92-9942-bc675d7ad39f",
+      "id": "ocds-b5fd17-dd8aaf59-b3d8-4e92-9942-bc675d7ad39f-337664-cm127a",
+      "date": "2019-04-08T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "c0aa6a23202af90a3bbb717ea53a2a03",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/9G5HgHzZ",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Sheffield City Council",
+          "address": {
+            "streetAddress": "1 Moorfoot ",
+            "locality": "SHEFFIELD",
+            "region": null,
+            "postalCode": "S14PL",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Christopher Jackson",
+            "email": "chris.jackson@sheffield.gov.uk",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "www.yorhub.com"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00101073",
+            "scheme": "GB-COH",
+            "legalName": "BALFOUR BEATTY GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BALFOUR BEATTY GROUP LIMITED",
+          "address": {
+            "streetAddress": "5 Churchill Place\nE14 5HU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00303359",
+            "scheme": "GB-COH",
+            "legalName": "INTERSERVE CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "INTERSERVE CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Elmdon Trading Estate, Bickenhill Lane\nB37 7HQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "SC055775",
+            "scheme": "GB-COH",
+            "legalName": "GALLIFORD TRY INFRASTRUCTURE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "GALLIFORD TRY INFRASTRUCTURE LIMITED",
+          "address": {
+            "streetAddress": "51 Melville Street\nEH2 7HL\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "NI003503",
+            "scheme": "GB-COH",
+            "legalName": "JOHN GRAHAM CONSTRUCTION LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "JOHN GRAHAM CONSTRUCTION LIMITED",
+          "address": {
+            "streetAddress": "Unit 3 Ballygowan Road\nHILLSBOROUGH\nCO DOWN\nBT26 6HX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-dd8aaf59-b3d8-4e92-9942-bc675d7ad39f-cm127a",
+        "title": "YORcivil Major Works Contractors Framework Agreement",
+        "description": "A framework agreement to serve all public sector bodies (and their statutory successors) and third sector organisations in the Yorkshire and Humber region and the extended Sheffield Local Enterprise Partnership (LEP) area as detailed in the procurement documents. It is for construction works, civil engineering works, bridges/structure works, highway surfacing works and flood alleviation works, services ancillary to construction work and includes contractors design when required. In addition some building works may also be included. The full list of accessing bodies is detailed within the OJEU notice section VI.3. Principles of collaborative working and partnering will be key to the relationships under the framework.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45000000",
+              "description": "Construction work",
+              "uri": "http://cpv.data.ac.uk/code-45000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71000000",
+              "description": "Architectural, construction, engineering and inspection services",
+              "uri": "http://cpv.data.ac.uk/code-71000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2000000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-06-03T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "BALFOUR BEATTY GROUP LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "INTERSERVE CONSTRUCTION LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "GALLIFORD TRY INFRASTRUCTURE LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "JOHN GRAHAM CONSTRUCTION LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-12-13T00:00:00Z",
+          "endDate": "2023-12-12T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "c0aa6a23202af90a3bbb717ea53a2a03",
+        "name": "Sheffield City Council"
+      },
+      "awards": [
+        {
+          "id": "aa5dcf8b-b431-424b-9d6a-e3d1cf960929",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-13T00:00:00Z",
+          "value": {
+            "amount": 2000000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "BALFOUR BEATTY GROUP LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "INTERSERVE CONSTRUCTION LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "GALLIFORD TRY INFRASTRUCTURE LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "JOHN GRAHAM CONSTRUCTION LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-12-16T00:00:00Z",
+            "endDate": "2023-12-12T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

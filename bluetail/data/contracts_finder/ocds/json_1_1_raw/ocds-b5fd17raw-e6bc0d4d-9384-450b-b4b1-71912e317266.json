@@ -1,0 +1,213 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/15c4fc10-c5bf-4819-9c6f-a9a5c972cea5.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-06T15:28:06Z",
+  "publisher": {
+    "name": "Yorkshire Purchasing Organisation",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-e6bc0d4d-9384-450b-b4b1-71912e317266",
+      "id": "ocds-b5fd17-e6bc0d4d-9384-450b-b4b1-71912e317266-357741-dn447247---000953",
+      "date": "2020-01-10T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "32072788db285310ef251175854c5f06",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/8PQu5m2e",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Yorkshire Purchasing Organisation",
+          "address": {
+            "streetAddress": "County Hall, New Road ",
+            "locality": "Oxford",
+            "region": null,
+            "postalCode": "OX1 1ND",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Kay Appleby",
+            "email": "kay.appleby@oxfordshire.gov.uk",
+            "telephone": "07775407553",
+            "faxNumber": null,
+            "uri": "https://www.oxfordshire.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "1431688",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bristow &amp; Sutor",
+          "address": {
+            "streetAddress": "Bartlett Road, \r\nWashford, \r\nRedditch, \r\nWorcestershire, \r\nB98 0FL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 0.1
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "03770985",
+            "scheme": "GB-COH",
+            "legalName": "NEWLYN PLC"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "NEWLYN PLC",
+          "address": {
+            "streetAddress": "180-188 Northolt Road\nHARROW\nMiddlesex\nHA2 0LT\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 0.1
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-e6bc0d4d-9384-450b-b4b1-71912e317266-dn447247-/-000953",
+        "title": "Oxfordshire County Council Further Competition - Enforcement Agency Services DPS 953",
+        "description": "Oxfordshire County Council has conducted a Further Competition via YPO&#039;s Enforcement Agency Services DPS - 953 and appointed two Enforcement Agents for Bailiff services.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "75242110",
+              "description": "Bailiff services",
+              "uri": "http://cpv.data.ac.uk/code-75242110.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0.1,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0.1,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Other - Further Competition via YPO&#039;s Enforcement Agency services DPS - 953",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-02-07T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Bristow &amp; Sutor"
+          },
+          {
+            "id": "2",
+            "name": "NEWLYN PLC"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "32072788db285310ef251175854c5f06",
+        "name": "Yorkshire Purchasing Organisation"
+      },
+      "awards": [
+        {
+          "id": "0ba72726-84d3-4a5a-9fcd-08ba4df2a194",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-07T00:00:00Z",
+          "value": {
+            "amount": 0.1,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Bristow &amp; Sutor"
+            },
+            {
+              "id": "2",
+              "name": "NEWLYN PLC"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+[
+    {
+        "statementID": "openownership-register-16388194579308728398",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PEACHEYS CATERING SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02848051"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02848051",
+                "uri": "https://opencorporates.com/companies/gb/02848051"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b934f767e4ebf340468c44",
+                "uri": "http://register.openownership.org/entities/59b934f767e4ebf340468c44"
+            }
+        ],
+        "foundingDate": "1993-08-26",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 7 Bentalls Business Park, Bentalls, Basildon, Essex, SS14 3BN",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10502236938771265788",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16388194579308728398"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-18345202039383701694"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-18345202039383701694",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PEACHEY BASILDON GROUP LIMITED (THE)",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00963603"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00963603"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00963603"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00963603"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00963603"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00963603"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00963603",
+                "uri": "https://opencorporates.com/companies/gb/00963603"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b934f867e4ebf340469082",
+                "uri": "http://register.openownership.org/entities/59b934f867e4ebf340469082"
+            }
+        ],
+        "foundingDate": "1969-10-09",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 7 Bentalls Business Park, Bentalls, Basildon, Essex, SS14 3BN",
+                "country": "GB"
+            }
+        ]
+    }
+]

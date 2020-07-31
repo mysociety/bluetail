@@ -1,0 +1,326 @@
+[
+    {
+        "statementID": "openownership-register-7995906356283216985",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NEWLYN PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03770985"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03770985",
+                "uri": "https://opencorporates.com/companies/gb/03770985"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d88d67e4ebf340f45edf",
+                "uri": "http://register.openownership.org/entities/59b9d88d67e4ebf340f45edf"
+            }
+        ],
+        "foundingDate": "1999-05-14",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3 Acorn Business Centre, Northarbour Road, Portsmouth, PO6 3TH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16592841220935800878",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-04-10",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7995906356283216985"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8622867882399201932"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-04-10"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-04-10"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10159476867175846371",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7995906356283216985"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9240400832554648170"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-04-10"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-04-10"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8649457068823563385",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7995906356283216985"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-18306839653530642752"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-08-16T09:24:39Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14337822454305582579",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7995906356283216985"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6344879765511918956"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06",
+                "endDate": "2019-11-14"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-12-10T10:45:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9240400832554648170",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Justin Mccarthy"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03770985/persons-with-significant-control/individual/9Vy8RyLmv6TREbFiuOyfFU17Sno"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d88d67e4ebf340f45f2c",
+                "uri": "http://register.openownership.org/entities/59b9d88d67e4ebf340f45f2c"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1983-03-01",
+        "addresses": [
+            {
+                "address": "Batchworth House, Batchworth Place Church Street, Rickmansworth, Hertfordshire, WD3 1JE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8622867882399201932",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "NEWLYN GROUP HOLDING LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11145797"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11145797"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11145797"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11145797",
+                "uri": "https://opencorporates.com/companies/gb/11145797"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba67d09dfc3fae18f3c0cb",
+                "uri": "http://register.openownership.org/entities/5aba67d09dfc3fae18f3c0cb"
+            }
+        ],
+        "foundingDate": "2018-01-11",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Batchworth House Batchworth Place, Church Street, Rickmansworth, Hertfordshire, WD3 1JE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18306839653530642752",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "David Robert Smith"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03703703/persons-with-significant-control/individual/HgXplsUKv2cAAhZXcI_tlX8g_6g"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b99a1067e4ebf3400b12bb",
+                "uri": "http://register.openownership.org/entities/59b99a1067e4ebf3400b12bb"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1960-03-01",
+        "addresses": [
+            {
+                "address": "3 Acorn Business Centre, Northarbour Road, Portsmouth, PO6 3TH"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6344879765511918956",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Kevin Charles Mccarthy"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07809078/persons-with-significant-control/individual/mk_8e5AjTLRFU4jDfjICZvf_3Y4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9577567e4ebf340e2d8d5",
+                "uri": "http://register.openownership.org/entities/59b9577567e4ebf340e2d8d5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1953-06-01",
+        "addresses": [
+            {
+                "address": "3 Acorn Business Centre, Northarbour Road, Portsmouth, PO6 3TH",
+                "country": "GB"
+            }
+        ]
+    }
+]

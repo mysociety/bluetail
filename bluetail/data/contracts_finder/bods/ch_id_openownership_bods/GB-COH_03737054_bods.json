@@ -1,0 +1,198 @@
+[
+    {
+        "statementID": "openownership-register-8753168303858546874",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "WINDOW & DOOR MAINTENANCE SERVICES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03737054"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03737054",
+                "uri": "https://opencorporates.com/companies/gb/03737054"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a13e67e4ebf34025851e",
+                "uri": "http://register.openownership.org/entities/59b9a13e67e4ebf34025851e"
+            }
+        ],
+        "foundingDate": "1999-03-19",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit T Riverside Industrial Estate, Atherstone Street, Tamworth, Staffordshire, B78 3RW",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16989860887395024470",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8753168303858546874"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4497519459485899828"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8219551974522778591",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8753168303858546874"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-11820957928042278538"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-06-15"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-06-15"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11820957928042278538",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Edward Bruce Richards"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/03737054/persons-with-significant-control/individual/9A3LPtKWUfxviRH6iKfd3J6ab-4"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a13e67e4ebf34025860a",
+                "uri": "http://register.openownership.org/entities/59b9a13e67e4ebf34025860a"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1936-08-01",
+        "addresses": [
+            {
+                "address": "Pegasus House, Solihull Business Park, Solihull, West Midlands, B90 4GT"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4497519459485899828",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Angus Bruce Richards"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/05440994/persons-with-significant-control/individual/WiiaqYj_dGO_CtymJQxJV8wjavQ"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b967ab67e4ebf3402f1ac5",
+                "uri": "http://register.openownership.org/entities/59b967ab67e4ebf3402f1ac5"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-06-01",
+        "addresses": [
+            {
+                "address": "2 Highlands Court, Cranmore Avenue, Solihull, West Midlands, B90 4LE"
+            }
+        ]
+    }
+]

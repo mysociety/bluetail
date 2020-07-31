@@ -1,0 +1,255 @@
+[
+    {
+        "statementID": "openownership-register-8413796095382501071",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PARAGON GROUP UK LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00551336"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00551336"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00551336"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00551336"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00551336"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00551336",
+                "uri": "https://opencorporates.com/companies/gb/00551336"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00551336"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00551336"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba01f99dfc3fae183eeeaa",
+                "uri": "http://register.openownership.org/entities/5aba01f99dfc3fae183eeeaa"
+            }
+        ],
+        "foundingDate": "1955-06-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Paragon Group Uk Ltd Pallion Trading Estate, Sunderland, Tyne And Wear, SR4 6ST",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12451638491747404048",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8413796095382501071"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1951008290942006029"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-05-31"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2019-05-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-08-16T09:24:39Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4849983041810482108",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2019-05-31",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-8413796095382501071"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-1422819217204222508"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-05-31"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2019-05-31"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2019-05-31"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-08-16T09:24:39Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1951008290942006029",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PARAGON TRANSACTION (U.K.) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05258186"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05258186"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "05258186"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/05258186",
+                "uri": "https://opencorporates.com/companies/gb/05258186"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e1167e4ebf3402542b4",
+                "uri": "http://register.openownership.org/entities/59b92e1167e4ebf3402542b4"
+            }
+        ],
+        "foundingDate": "2004-10-13",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Paragon Group Uk Ltd Pallion Trading Estate, Sunderland, Tyne & Wear, SR4 6ST",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1422819217204222508",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PARAGON GRAPHICS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11990466"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11990466",
+                "uri": "https://opencorporates.com/companies/gb/11990466"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11990466"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11990466"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11990466"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ce6f7729dfc3fae180a5195",
+                "uri": "http://register.openownership.org/entities/5ce6f7729dfc3fae180a5195"
+            }
+        ],
+        "foundingDate": "2019-05-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "3 Old Estate Yard North Stoke Lane, Upton Cheyney, Bristol, BS30 6ND",
+                "country": "GB"
+            }
+        ]
+    }
+]

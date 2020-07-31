@@ -1,0 +1,139 @@
+[
+    {
+        "statementID": "openownership-register-6608547018167521006",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "THE SAVILLE GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02170847"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02170847",
+                "uri": "https://opencorporates.com/companies/gb/02170847"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b927a867e4ebf3400705ce",
+                "uri": "http://register.openownership.org/entities/59b927a867e4ebf3400705ce"
+            }
+        ],
+        "foundingDate": "1987-09-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 5 Millfield Lane, Nether Poppleton, York, YO26 6PQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4080618485087555210",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-20",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6608547018167521006"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6237790442958289865"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-20"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6237790442958289865",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SEA HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03222660"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03222660"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03222660"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03222660"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03222660"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03222660"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03222660"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03222660",
+                "uri": "https://opencorporates.com/companies/gb/03222660"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03222660"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b927a867e4ebf340070784",
+                "uri": "http://register.openownership.org/entities/59b927a867e4ebf340070784"
+            }
+        ],
+        "foundingDate": "1996-07-10",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The Saville Group Ltd, Millfield Lane, Nether Poppleton, York, North Yorkshire, YO26 6PQ",
+                "country": "GB"
+            }
+        ]
+    }
+]

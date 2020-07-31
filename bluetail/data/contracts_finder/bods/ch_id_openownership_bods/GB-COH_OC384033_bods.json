@@ -1,0 +1,81 @@
+[
+    {
+        "statementID": "openownership-register-14907529431921922703",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "VEALE WASBROUGH VIZARDS LLP",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "OC384033"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/OC384033",
+                "uri": "https://opencorporates.com/companies/gb/OC384033"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "Oc384033"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59c5057867e4ebf340673f8e",
+                "uri": "http://register.openownership.org/entities/59c5057867e4ebf340673f8e"
+            }
+        ],
+        "foundingDate": "2013-04-05",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Narrow Quay House, Narrow Quay, Bristol, BS1 4QA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18020411597024640455",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-04-05",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14907529431921922703"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

@@ -1,0 +1,214 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/9a6297cd-fc4f-453a-b286-51c198a43419.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-07T11:12:02Z",
+  "publisher": {
+    "name": "The University Of Plymouth",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-099688de-2418-4cae-beed-a02ebf00fe53",
+      "id": "ocds-b5fd17-099688de-2418-4cae-beed-a02ebf00fe53-357884-award---hg-uop-audit_services-024-019",
+      "date": "2019-07-22T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "cc2084089326401cc838e97613bb55be",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/wBAP5Awf",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "The University Of Plymouth",
+          "address": {
+            "streetAddress": "Drake Circus ",
+            "locality": "PLYMOUTH",
+            "region": null,
+            "postalCode": "PL48AA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "procurement@plymouth.ac.uk",
+            "telephone": "01752582057",
+            "faxNumber": null,
+            "uri": "https://www.plymouth.ac.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "UNIAC",
+          "address": {
+            "streetAddress": "4th Floor, St James&#039; Building, Oxford Street",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 385000
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Mazars LLP",
+          "address": {
+            "streetAddress": "Tower Bridge House, St Katherine&#039;s Way",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 320000
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-099688de-2418-4cae-beed-a02ebf00fe53-award---hg/uop/audit_services/024",
+        "title": "Financial Audit Services 2019",
+        "description": "The University of Plymouth intends to procure Audit Services under a Contract with a duration of 3 years with extension options 1+1 years (maximum of 5 years in total)\r\n\r\nContract award will be by a process of competitive tender following the Restricted Procedure structured across two LOTs;\r\nLOT1 - External Audit Services\r\nLOT2 - Internal Audit Services\r\n\r\nFor full access to the documents please register an interest in the project at: https://in-tendhost.co.uk/plymouthuni",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79212000",
+              "description": "Auditing services",
+              "uri": "http://cpv.data.ac.uk/code-79212000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 685000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-29T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "UNIAC"
+          },
+          {
+            "id": "2",
+            "name": "Mazars LLP"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-10-28T00:00:00Z",
+          "endDate": "2024-10-27T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "cc2084089326401cc838e97613bb55be",
+        "name": "The University Of Plymouth"
+      },
+      "awards": [
+        {
+          "id": "0bbd9371-896a-4399-bbf9-e5887fd39476",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-11-01T00:00:00Z",
+          "value": {
+            "amount": 705000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "UNIAC"
+            },
+            {
+              "id": "2",
+              "name": "Mazars LLP"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-11-28T00:00:00Z",
+            "endDate": "2024-10-27T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

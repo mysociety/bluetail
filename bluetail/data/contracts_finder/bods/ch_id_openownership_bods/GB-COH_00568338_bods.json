@@ -1,0 +1,98 @@
+[
+    {
+        "statementID": "openownership-register-9018875659612550166",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PERFORMANCE CHEMICALS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00568338"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00568338",
+                "uri": "https://opencorporates.com/companies/gb/00568338"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9a41167e4ebf3403028c3",
+                "uri": "http://register.openownership.org/entities/59b9a41167e4ebf3403028c3"
+            }
+        ],
+        "foundingDate": "1956-06-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Moorgate House, 7b, Station Road West, Oxted, Surrey, RH8 9EE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-10694925643278884309",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9018875659612550166"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1030820504699728998"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-03-24T16:58:02Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1030820504699728998",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sarah Louise Puplett"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07171822/persons-with-significant-control/individual/4AMrq5PEMVZJPTnE_0r_WzhsfZE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b998eb67e4ebf340068961",
+                "uri": "http://register.openownership.org/entities/59b998eb67e4ebf340068961"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1964-12-01",
+        "addresses": [
+            {
+                "address": "47, Heathfield Road, Keston, Kent, BR2 6BG",
+                "country": "GB"
+            }
+        ]
+    }
+]

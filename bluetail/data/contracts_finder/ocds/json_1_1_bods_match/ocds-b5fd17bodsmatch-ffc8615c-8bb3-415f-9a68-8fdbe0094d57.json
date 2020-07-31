@@ -1,0 +1,211 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/711a82e0-6732-4cb3-91fa-d46ee9fd0475.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-20T12:42:50Z",
+  "publisher": {
+    "name": "LANCASHIRE CONSTABULARY",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-ffc8615c-8bb3-415f-9a68-8fdbe0094d57",
+      "id": "ocds-b5fd17-ffc8615c-8bb3-415f-9a68-8fdbe0094d57-354853-blpd-43816",
+      "date": "2019-09-13T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "9eaaa9716f639a8e9e1a901390baff62",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/zbKz776r",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "LANCASHIRE CONSTABULARY",
+          "address": {
+            "streetAddress": "SAUNDERS LANE ",
+            "locality": "Preston",
+            "region": null,
+            "postalCode": "PR45SB",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "PAUL EASTHAM",
+            "email": "paul.eastham@lancashire.pnn.police.uk",
+            "telephone": "01772 412322",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02989025",
+            "scheme": "GB-COH",
+            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+          },
+          "sme": false,
+          "vco": false,
+          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "address": {
+            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jenna Amos",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01193013",
+            "scheme": "GB-COH",
+            "legalName": "ARTHUR J. GALLAGHER (UK) LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "ARTHUR J. GALLAGHER (UK) LIMITED",
+          "address": {
+            "streetAddress": "25 Walbrook\nLONDON\nEC4N 8AW\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Tim Devine",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-ffc8615c-8bb3-415f-9a68-8fdbe0094d57-blpd-43816",
+        "title": "INSURANCE SERVICES",
+        "description": "Award of Various Insurance Services, Property, Crime/Fidelity Guarantee, Personal Accident and Travel, Engineering Services, Combined Liablity &amp; Motor Insurance, motor uninsured lost recovery, Airside Liability, and Terrorism awarded to different companies following a consortium tender of a number of police forces",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "66510000",
+              "description": "Insurance services",
+              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 5423960,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-22T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "4",
+            "name": "RISK MANAGEMENT PARTNERS LTD."
+          },
+          {
+            "id": "5",
+            "name": "ARTHUR J. GALLAGHER (UK) LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2025-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "9eaaa9716f639a8e9e1a901390baff62",
+        "name": "LANCASHIRE CONSTABULARY"
+      },
+      "awards": [
+        {
+          "id": "fa54b5c2-d510-45e3-a4eb-2e959a50ea39",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-23T00:00:00Z",
+          "value": {
+            "amount": 5219710,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "4",
+              "name": "RISK MANAGEMENT PARTNERS LTD."
+            },
+            {
+              "id": "5",
+              "name": "ARTHUR J. GALLAGHER (UK) LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2025-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

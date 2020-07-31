@@ -1,0 +1,200 @@
+[
+    {
+        "statementID": "openownership-register-15902703819195109705",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "SCIQUIP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04253055"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04253055",
+                "uri": "https://opencorporates.com/companies/gb/04253055"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9dd0567e4ebf34005fedb",
+                "uri": "http://register.openownership.org/entities/59b9dd0567e4ebf34005fedb"
+            }
+        ],
+        "foundingDate": "2001-07-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "14 Phoenix Park, Telford Way, Coalville, Leicestershire, LE67 3HB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15480134940358258132",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-05-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15902703819195109705"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-8047973779006301387"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-05-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-05-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-2275327057739594987",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15902703819195109705"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-18405652806127481614"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-05-01"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2017-05-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8047973779006301387",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BB3 HOLDINGS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10657906"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "10657906"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/10657906",
+                "uri": "https://opencorporates.com/companies/gb/10657906"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9dd0667e4ebf3400600b2",
+                "uri": "http://register.openownership.org/entities/59b9dd0667e4ebf3400600b2"
+            }
+        ],
+        "foundingDate": "2017-03-08",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "14 Phoenix Park Telford Way, Coalville, Leicestershire, LE67 3HB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-18405652806127481614",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Matthew Allen Brooksbank"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06656301/persons-with-significant-control/individual/OEkDcCK8ulvCHJnMYhnP0jWJiLg"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9289167e4ebf3400aad23",
+                "uri": "http://register.openownership.org/entities/59b9289167e4ebf3400aad23"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1971-07-01",
+        "addresses": [
+            {
+                "address": "14 Phoenix Park, Telford Way, Coalville, Leicestershire, LE67 3HB",
+                "country": "GB"
+            }
+        ]
+    }
+]

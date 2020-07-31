@@ -1,0 +1,231 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d9ebf584-7ce1-4570-91ab-90a1d397eaab.json",
+  "version": "1.1",
+  "publishedDate": "2020-01-21T09:51:19Z",
+  "publisher": {
+    "name": "Derby City Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-2f6efa86-6afd-43f6-bb97-cb297a63b358",
+      "id": "ocds-b5fd17-2f6efa86-6afd-43f6-bb97-cb297a63b358-338472-td1475",
+      "date": "2019-06-28T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "f50e619e1f5718ded38c65883c89f2c8",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-LAE",
+            "id": "DER",
+            "uri": "https://local-authority-eng.register.gov.uk/record/DER",
+            "legalName": null
+          },
+          "name": "Derby City Council",
+          "address": {
+            "streetAddress": "Corporation Street ",
+            "locality": "Derby",
+            "region": null,
+            "postalCode": "DE12FS",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Samina Rashid",
+            "email": "procurement@derby.gov.uk",
+            "telephone": "01332640768",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02827644",
+            "scheme": "GB-COH",
+            "legalName": "FINANCIAL DATA MANAGEMENT PLC"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "FINANCIAL DATA MANAGEMENT PLC",
+          "address": {
+            "streetAddress": "UNIT 7 ELECTRA BUSINESS PARK\nE16 4ES\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Alan Warner",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04009079",
+            "scheme": "GB-COH",
+            "legalName": "PRINT IMAGE NETWORK LTD"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PRINT IMAGE NETWORK LTD",
+          "address": {
+            "streetAddress": "10 Heaton Lane Acorn Business Park\nSK4 1AS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Pauline Selfe",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-2f6efa86-6afd-43f6-bb97-cb297a63b358-td1475",
+        "title": "The Supply of Bulk Mailing and Printing Services",
+        "description": "The tender is split in to two Lots, and Service Providers can bid for both or just one Lot.\r\n\r\nLot 1 is for the supply of Bulk Mailing and Printing Services in respect of the production and dispatch of a range of documents.\r\n\r\nLot 2 is for the supply of Elections and Electoral Bulk Mailing and Printing Services. The specification details various election and print scenarios that could occur in the first two years of the Initial Term.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "22821000",
+              "description": "Electoral forms",
+              "uri": "http://cpv.data.ac.uk/code-22821000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "22822000",
+              "description": "Business forms",
+              "uri": "http://cpv.data.ac.uk/code-22822000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "64112000",
+              "description": "Postal services related to letters",
+              "uri": "http://cpv.data.ac.uk/code-64112000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 12500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-30T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "FINANCIAL DATA MANAGEMENT PLC"
+          },
+          {
+            "id": "2",
+            "name": "PRINT IMAGE NETWORK LTD"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-10-01T00:00:00Z",
+          "endDate": "2022-09-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "f50e619e1f5718ded38c65883c89f2c8",
+        "name": "Derby City Council"
+      },
+      "awards": [
+        {
+          "id": "1da002cc-2237-4960-bf4e-a0199bca4045",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-09-23T00:00:00Z",
+          "value": {
+            "amount": 1250000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "FINANCIAL DATA MANAGEMENT PLC"
+            },
+            {
+              "id": "2",
+              "name": "PRINT IMAGE NETWORK LTD"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-10-01T00:00:00Z",
+            "endDate": "2022-09-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

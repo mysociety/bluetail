@@ -1,0 +1,291 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/541aee38-575c-49cb-9734-efc5941c19c1.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-19T10:05:51Z",
+  "publisher": {
+    "name": "EFFICIENCY EAST MIDLANDS LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-b44bb106-b355-4837-a7db-f3f4afb2c425",
+      "id": "ocds-b5fd17-b44bb106-b355-4837-a7db-f3f4afb2c425-344751-eem0064",
+      "date": "2019-04-26T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "6e0ea5452de3492e48fb37f6f0b0ce3e",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/nByR87H8",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "EFFICIENCY EAST MIDLANDS LIMITED",
+          "address": {
+            "streetAddress": "Unit 3 Maisies Way ",
+            "locality": "Alfreton",
+            "region": null,
+            "postalCode": "DE55 2DS",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Alex Branson",
+            "email": "alex@eem.org.uk",
+            "telephone": "01246395611",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04657875",
+            "scheme": "GB-COH",
+            "legalName": "CRYSTAL ELECTRONICS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CRYSTAL ELECTRONICS LIMITED",
+          "address": {
+            "streetAddress": "4-4a Titley Bawk Avenue\nNORTHAMPTON\nNorthamptonshire\nNN6 0LA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02562870",
+            "scheme": "GB-COH",
+            "legalName": "FRAZER-NASH CONSULTANCY LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "FRAZER-NASH CONSULTANCY LIMITED",
+          "address": {
+            "streetAddress": "Devonport Park\nPLYMOUTH\nDevon\nPL1 4SG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00267023",
+            "scheme": "GB-COH",
+            "legalName": "SMITH BROS.(CAERCONAN)WHOLESALE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SMITH BROS.(CAERCONAN)WHOLESALE LIMITED",
+          "address": {
+            "streetAddress": "Greyfriars House\nDN4 5NU\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00638559",
+            "scheme": "GB-COH",
+            "legalName": "VOLKERHIGHWAYS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "VOLKERHIGHWAYS LIMITED",
+          "address": {
+            "streetAddress": "HERTFORD ROAD\nHODDESDON\nHERTFORDSHIRE\nEN11 9BX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b44bb106-b355-4837-a7db-f3f4afb2c425-eem0064",
+        "title": "Vehicle Charging Infrastructure",
+        "description": "Efficiency East Midlands Limited (EEM) is a procurement consortium which establishes and manages a range of Framework Agreements and Dynamic Purchasing Systems. Our Members include organisations providing services to the whole public sector including social housing providers, local authorities, blue light services and education and health related organisations.\r\n\r\nEEM on behalf of its Members, has procured and entered into a framework with multiple contractors, for the provision of an ultra-low emission vehicle charging infrastructure, including the supply and installation of electric vehicle charging points and other related technologies.\r\n\r\nThe Framework has been split into the following workstreams:\r\nLot 1 Consultancy\r\nLot 2 Supply Only\r\nLot 3 Supply, Install and Maintenance\r\nLot 4 Back Office Solution\r\nLot 5 Full Solution (Consultation, Supply, Install, Maintenance and Back Office)\r\n\r\nEEM Members have a mix of users that require electric vehicle charging points. This includes, but is not limited to, staff commuting to work, visitors to sites, business vehicles (i.e. van fleets), members of the public (i.e. using car parks or on-street parking), and tenants.\r\n\r\nEEM has conducted this tender exercise on behalf of its Members to:\r\na) establish a framework for electric vehicle charging infrastructure, including the supply and installation and maintenance of electric vehicle charging points and &#039;back office&#039; support;\r\nb) appoint appropriately registered and fully independent specialists;\r\nc) help increase the charging infrastructure across the EEM Membership;\r\nd) support the growth of a comprehensive and reliable public charging network, which is considered a vital prerequisite to increase the uptake of Electric Vehicles (EV);\r\ne) allow for a strategic approach to the procurement of the charging units across EEM Membership and deliver best value in terms of price, quality and service;\r\nf) provide sufficient scope and flexibility to meet all current and future needs and technological development;\r\n\r\nThe call-off contract&#039;s to be awarded pursuant to the Framework Agreements to be entered at conclusion of the procurement exercise begun by publication of the Contract Notice may extend for a duration of up to four years beyond expiry of the four-year term of the Framework Agreement.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "31158000",
+              "description": "Chargers",
+              "uri": "http://cpv.data.ac.uk/code-31158000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 100000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-19T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "6",
+            "name": "CRYSTAL ELECTRONICS LIMITED"
+          },
+          {
+            "id": "9",
+            "name": "FRAZER-NASH CONSULTANCY LIMITED"
+          },
+          {
+            "id": "16",
+            "name": "SMITH BROS.(CAERCONAN)WHOLESALE LIMITED"
+          },
+          {
+            "id": "18",
+            "name": "VOLKERHIGHWAYS LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-09-02T00:00:00Z",
+          "endDate": "2023-09-01T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "6e0ea5452de3492e48fb37f6f0b0ce3e",
+        "name": "EFFICIENCY EAST MIDLANDS LIMITED"
+      },
+      "awards": [
+        {
+          "id": "76dc5a36-4ba5-4e44-bf6f-b5dc48196049",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-12-16T00:00:00Z",
+          "value": {
+            "amount": 100000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "6",
+              "name": "CRYSTAL ELECTRONICS LIMITED"
+            },
+            {
+              "id": "9",
+              "name": "FRAZER-NASH CONSULTANCY LIMITED"
+            },
+            {
+              "id": "16",
+              "name": "SMITH BROS.(CAERCONAN)WHOLESALE LIMITED"
+            },
+            {
+              "id": "18",
+              "name": "VOLKERHIGHWAYS LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-13T00:00:00Z",
+            "endDate": "2024-01-12T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -27,7 +27,7 @@ dj-database-url==0.5.0
 # Using updated fork of django-pgviews https://github.com/mikicz/django-pgviews
 django-pgviews-redux==0.6.0
 -e git+https://github.com/OpenDataServices/lib-cove-web.git@v0.14.0#egg=libcoveweb
-ocdskit==0.2.8
+ocdskit
 pandas==1.0.5
 elasticsearch==7.8.0
 elasticsearch-dsl==7.2.1

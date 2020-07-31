@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7e411c8b-df85-4250-8b9d-e5c7d2adbf21.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-25T17:45:06Z",
+  "publisher": {
+    "name": "MILLSTREAM ASSOCIATES LTD",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-4b6e8e70-4f3d-4967-9e79-226af65080b9",
+      "id": "ocds-b5fd17-4b6e8e70-4f3d-4967-9e79-226af65080b9-360610-mt219777",
+      "date": "2019-11-20T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "5647e4044e6b09e93bf622ddce4c3df3",
+          "roles": [
+            "buyer"
+          ],
+          "name": "London Borough of Barnet Council",
+          "address": {
+            "streetAddress": "2 Bristol Avenue ",
+            "locality": "Colindale London",
+            "region": null,
+            "postalCode": "NW9 4EW",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "procurement@barnet.gov.uk",
+            "telephone": "+44 2083597212",
+            "faxNumber": null,
+            "uri": "www.barnetsourcing.co.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Aidhour Ltd",
+          "address": {
+            "streetAddress": "47, Bedwin Street, Salisbury, Wiltshire SP1 3UT, Salisbury",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "K Tiplady Limited; Aidhour Ltd",
+          "address": {
+            "streetAddress": "08 Dubrae Close, St Albans, Herts, AL3 4JT, St Albans",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-4b6e8e70-4f3d-4967-9e79-226af65080b9-mt219777",
+        "title": "Approved Supplier List for Independent Reviewing Officers",
+        "description": "Approved Supplier List for the provision of Independent Reviewing Officers to London Borough of Barnet&#039;s Family Services.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85300000",
+              "description": "Social work and related services",
+              "uri": "http://cpv.data.ac.uk/code-85300000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 600000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Aidhour Ltd"
+          },
+          {
+            "id": "2",
+            "name": "K Tiplady Limited; Aidhour Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-22T00:00:00Z",
+          "endDate": "2024-01-21T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "5647e4044e6b09e93bf622ddce4c3df3",
+        "name": "London Borough of Barnet Council"
+      },
+      "awards": [
+        {
+          "id": "e11a6b2d-a91c-4155-b1aa-299becadf6de",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-22T00:00:00Z",
+          "value": {
+            "amount": 600000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Aidhour Ltd"
+            },
+            {
+              "id": "2",
+              "name": "K Tiplady Limited; Aidhour Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-22T00:00:00Z",
+            "endDate": "2024-01-21T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

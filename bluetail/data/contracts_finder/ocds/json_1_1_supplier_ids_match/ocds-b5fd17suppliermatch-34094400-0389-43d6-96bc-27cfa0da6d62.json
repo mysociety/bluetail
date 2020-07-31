@@ -1,0 +1,2235 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fe3bba90-4581-4e57-8da5-6ecc94a33022.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-26T09:44:45Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-34094400-0389-43d6-96bc-27cfa0da6d62",
+      "id": "ocds-b5fd17-34094400-0389-43d6-96bc-27cfa0da6d62-346123-cwscc---029234---award",
+      "date": "2019-12-04T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "72160eb7cc12960be78443aa0cbb2151",
+          "roles": [
+            "buyer"
+          ],
+          "name": "SE Shared Services",
+          "address": {
+            "streetAddress": "West Street Chicester",
+            "locality": "West Sussex",
+            "region": null,
+            "postalCode": "PO19 1RQ",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "David Robinson (WSCC)",
+            "email": "david.robinson@westsussex.gov.uk",
+            "telephone": "03302 226995",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-562962584",
+            "scheme": "GB-CQC",
+            "legalName": "Avisford Medical Group"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Avisford Medical Group",
+          "address": {
+            "streetAddress": "North End Road, Yapton, Arundel, West Sussex, United Kingdom, BN18 0DU",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jerry Nelson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-561711075",
+            "scheme": "GB-CQC",
+            "legalName": "Ball Tree Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ball Tree Surgery",
+          "address": {
+            "streetAddress": "Ball Tree Surgery, Western Road North , Lancing, West Sussex, United Kingdom, BN15 9UX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Maria  Howells",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-547117222",
+            "scheme": "GB-CQC",
+            "legalName": "Bersted Green Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bersted Green Surgery",
+          "address": {
+            "streetAddress": "32 Durlston Drive, United Kingdom, PO22 9TD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Alison Lenthall",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-572370608",
+            "scheme": "GB-CQC",
+            "legalName": "Bewbush Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bewbush Medical Centre",
+          "address": {
+            "streetAddress": "Bewbush Place, Bewbush, Crawley, West Sussex, United Kingdom, RH11 8XT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Tracey Roberts",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-568793607",
+            "scheme": "GB-CQC",
+            "legalName": "Bridge Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Bridge Medical Centre",
+          "address": {
+            "streetAddress": "Wassand Close, Three Bridges, Crawley, West Sussex, United Kingdom, RH10 1LL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jackie Morris",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-582189586",
+            "scheme": "GB-CQC",
+            "legalName": "Broadwater Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Broadwater Medical Centre",
+          "address": {
+            "streetAddress": "5-11 Broadwater Boulevard, Worthing, West Sussex, United Kingdom, BN14 8JE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jane Dennis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-554328297",
+            "scheme": "GB-CQC",
+            "legalName": "Cathedral Medical Group"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Cathedral Medical Group",
+          "address": {
+            "streetAddress": "Cawley Road, Chichester, United Kingdom, PO19 1XT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Steph  Punt",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-565908223",
+            "scheme": "GB-CQC",
+            "legalName": "Cornerways Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Cornerways Surgery",
+          "address": {
+            "streetAddress": "145 George V Avenue, United Kingdom, BN11 5RZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jacki Barnes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-571060913",
+            "scheme": "GB-CQC",
+            "legalName": "Crawley Down Health Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Crawley Down Health Centre",
+          "address": {
+            "streetAddress": "Bowers Place, United Kingdom, RH10 4HY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Bernadette Chipp-Smith",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-552106839",
+            "scheme": "GB-CQC",
+            "legalName": "Cuckfield Medical Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Cuckfield Medical Practice",
+          "address": {
+            "streetAddress": "Cuckfield Medical Practice, Glebe Road, Cuckfield, West Sussex, United Kingdom, RH17 5BQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jessica Yaxley",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-559739083",
+            "scheme": "GB-CQC",
+            "legalName": "Fitzalan Medical Group"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fitzalan Medical Group",
+          "address": {
+            "streetAddress": "Fitzalan Road, United Kingdom, BN17 5JR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Beverley Wallis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-544000311",
+            "scheme": "GB-CQC",
+            "legalName": "Flansham Park Health Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Flansham Park Health Centre",
+          "address": {
+            "streetAddress": "109 Flansham Park, Felpham, Bognor Regis, West Sussex, United Kingdom, PO22 6DH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Susannah Devine",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-584099843",
+            "scheme": "GB-CQC",
+            "legalName": "Furnace Green Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Furnace Green Surgery",
+          "address": {
+            "streetAddress": "50 The Glade, United Kingdom, RH10 6JN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Practice Manager",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-549811852",
+            "scheme": "GB-CQC",
+            "legalName": "Grove House Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Grove House Surgery",
+          "address": {
+            "streetAddress": "80 Pryors Lane, Bognor Regis, West Sussex, United Kingdom, PO21 4JB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Nigel Pope",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-544597092",
+            "scheme": "GB-CQC",
+            "legalName": "Harbour View Healthcare"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Harbour View Healthcare",
+          "address": {
+            "streetAddress": "The Health Centre, Pond Road, SHOREHAM BY SEA, West Sussex, United Kingdom, BN43 5US",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Wendy  Lewis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "30",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-572466622",
+            "scheme": "GB-CQC",
+            "legalName": "Holbrook Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Holbrook Surgery",
+          "address": {
+            "streetAddress": "Bartholomew Way, Horsham, W Sussex, United Kingdom, RH12 5JL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Heather  Heatley",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "32",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-546144948",
+            "scheme": "GB-CQC",
+            "legalName": "Ifield Medical Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ifield Medical Practice",
+          "address": {
+            "streetAddress": "Lady Margaret Road, Ifield, Crawley, West Sussex, United Kingdom, RH11 0BF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Judith Butler",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "33",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-572227996",
+            "scheme": "GB-CQC",
+            "legalName": "Judges Close Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Judges Close Surgery",
+          "address": {
+            "streetAddress": "High Street, United Kingdom, RH19 3AA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Christine Earwaker",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "34",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-547618883",
+            "scheme": "GB-CQC",
+            "legalName": "Langley Corner Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Langley Corner Surgery",
+          "address": {
+            "streetAddress": "Ifield Green, Crawley, West Sussex, United Kingdom, RH11 0NF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Andre Bento",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "35",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-569179442",
+            "scheme": "GB-CQC",
+            "legalName": "Langley House Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Langley House Surgery",
+          "address": {
+            "streetAddress": "Langley House Surgery, 27 West Street, CHICHESTER, West Sussex, United Kingdom, PO19 1RW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Victoria Hamer",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "36",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-552913389",
+            "scheme": "GB-CQC",
+            "legalName": "Lavant Road Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Lavant Road Surgery",
+          "address": {
+            "streetAddress": "8 Lavant Road, Chichester, West sussex, United Kingdom, PO19 5RH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lesley Kent",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "37",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-548084556",
+            "scheme": "GB-CQC",
+            "legalName": "Leacroft Medical Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Leacroft Medical Practice",
+          "address": {
+            "streetAddress": "Langley House, Langley Drive, Crawley, West Sussex, United Kingdom, RH11 7TF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Matthew Cullis",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "38",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-552394693",
+            "scheme": "GB-CQC",
+            "legalName": "Lindfield Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Lindfield Medical Centre",
+          "address": {
+            "streetAddress": "Lindfield Medical Centre, High Street, Lindfield, West Sussex, United Kingdom, RH16 2HX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Katy Edwards Edwards",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "43",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-542869767",
+            "scheme": "GB-CQC",
+            "legalName": "Mid Sussex Health Care"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Mid Sussex Health Care",
+          "address": {
+            "streetAddress": "The Health Centre, Trinity Road, Hurstpierpoint, West Sussex, United Kingdom, BN6 9UQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sarah Galbraith-Gibbons",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "46",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-542616986",
+            "scheme": "GB-CQC",
+            "legalName": "New Pond Row Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "New Pond Row Surgery",
+          "address": {
+            "streetAddress": "New Pond Row Surgery,, 35 South Street, Lancing, West Sussex, United Kingdom, BN15 8AN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Debbie Lawton",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "47",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-547385878",
+            "scheme": "GB-CQC",
+            "legalName": "Newtons Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Newtons Practice",
+          "address": {
+            "streetAddress": "Heath Road, Haywards Heath, West Sussex, United Kingdom, RH16 3BB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Julia Storr",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "48",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1314063591",
+            "scheme": "GB-CQC",
+            "legalName": "Northbourne Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Northbourne Medical Centre",
+          "address": {
+            "streetAddress": "193A Upper Shoreham Road, Shoreham by Sea, West Sussex, United Kingdom, BN43 6BT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Chloe  Deans",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "52",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-544558829",
+            "scheme": "GB-CQC",
+            "legalName": "Ouse Valley Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ouse Valley Practice",
+          "address": {
+            "streetAddress": "London Road, Handcross, West Sussex, United Kingdom, RH17 6HB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Diane Lancashire",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "53",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-537742893",
+            "scheme": "GB-CQC",
+            "legalName": "Park Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Park Surgery",
+          "address": {
+            "streetAddress": "Albion Way, Horsham, West Sussex, United Kingdom, RH12 1BG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lucy Barber",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "54",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-566849690",
+            "scheme": "GB-CQC",
+            "legalName": "Parklands Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Parklands Surgery",
+          "address": {
+            "streetAddress": "68 Kelsey Avenue, Southbourne, Emsworth, West Sussex, United Kingdom, PO10 8NQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Martin Jones",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "57",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-542119367",
+            "scheme": "GB-CQC",
+            "legalName": "Pulborough Medical Group"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Pulborough Medical Group",
+          "address": {
+            "streetAddress": "Primary Care Centre, Spiro Close, United Kingdom, RH20 1FG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Liz  Eades",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "58",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-577994104",
+            "scheme": "GB-CQC",
+            "legalName": "Riverbank Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Riverbank Medical Centre",
+          "address": {
+            "streetAddress": "Dodsley Lane, Midhurst, United Kingdom, GU29 9AW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Katharine  Miles",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "59",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-542520702",
+            "scheme": "GB-CQC",
+            "legalName": "Riverside Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Riverside Surgery",
+          "address": {
+            "streetAddress": "48 Worthing Road, Horsham, United Kingdom, RH12 1UD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Vikash Malde",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "60",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-570966147",
+            "scheme": "GB-CQC",
+            "legalName": "Saxonbrook Medical"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Saxonbrook Medical",
+          "address": {
+            "streetAddress": "Maidenbower Square, Maidenbower, Crawley, West Sussex, United Kingdom, RH10 7QH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Graham Morrison",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "62",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-544447384",
+            "scheme": "GB-CQC",
+            "legalName": "Selsey Medical Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Selsey Medical Practice",
+          "address": {
+            "streetAddress": "Selsey Medical Centre, High Street, Selsey, West Sussex, United Kingdom, PO20 0QG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Nicola  Collins",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "64",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-567721227",
+            "scheme": "GB-CQC",
+            "legalName": "Silverdale Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Silverdale Practice",
+          "address": {
+            "streetAddress": "4, Silverdale Road, United Kingdom, RH15 0EF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Kerrie Goss",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "65",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-545107147",
+            "scheme": "GB-CQC",
+            "legalName": "Southbourne Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Southbourne Surgery",
+          "address": {
+            "streetAddress": "337 main rd, emsworth, United Kingdom, po108jh",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "helen yoward",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "67",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-569555448",
+            "scheme": "GB-CQC",
+            "legalName": "St Lawrence Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "St Lawrence Surgery",
+          "address": {
+            "streetAddress": "77-79 St Lawrence Avenue, Worthing, West Sussex, United Kingdom, BN14 7JL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Aimee Holland",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "72",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2995516570",
+            "scheme": "GB-CQC",
+            "legalName": "Tangmere Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Tangmere Medical Centre",
+          "address": {
+            "streetAddress": "Malcolm Rd, Tangmere, Chichester, West Sussex, United Kingdom, PO20 2HS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Joanna Reiss",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "77",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-582348262",
+            "scheme": "GB-CQC",
+            "legalName": "The Croft Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Croft Practice",
+          "address": {
+            "streetAddress": "Barnham Road, Eastergate, Chichester, West Sussex, United Kingdom, PO20 3RP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sue West",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "78",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-596341614",
+            "scheme": "GB-CQC",
+            "legalName": "The Lime Tree Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Lime Tree Surgery",
+          "address": {
+            "streetAddress": "Lime Tree Avenue, Worthing, West Sussex, United Kingdom, BN14 0DL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "SHEILA  LIDBETTER",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "79",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-572958578",
+            "scheme": "GB-CQC",
+            "legalName": "The Manor Practice"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Manor Practice",
+          "address": {
+            "streetAddress": "Southwick Street, Southwick, Sussex, United Kingdom, BN42 4TA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Candice Cody",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "80",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-5968193310",
+            "scheme": "GB-CQC",
+            "legalName": "The Meadows Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Meadows Surgery",
+          "address": {
+            "streetAddress": "Temple Grove, United Kingdom, RH15 9XN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Bernie  James",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "81",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-543876245",
+            "scheme": "GB-CQC",
+            "legalName": "The Orchard Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Orchard Surgery",
+          "address": {
+            "streetAddress": "The Orchard Surgery, Penstone Park, Lancing, West Sussex, United Kingdom, BN15 9AG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sylvia Thomson",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "82",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-560665097",
+            "scheme": "GB-CQC",
+            "legalName": "The Park Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Park Surgery",
+          "address": {
+            "streetAddress": "St Flora&#039;s Road , Littlehampton , West Sussex , United Kingdom, BN17 6BF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Claire Deegan",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "83",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-542910747",
+            "scheme": "GB-CQC",
+            "legalName": "The Village Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "The Village Surgery",
+          "address": {
+            "streetAddress": "The Village surgery, Station Road, Southwater, West Sussex, United Kingdom, RH13 9HQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Donna Alder",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "84",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-551728434",
+            "scheme": "GB-CQC",
+            "legalName": "Victoria Road Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Victoria Road Surgery",
+          "address": {
+            "streetAddress": "50 Victoria Road, Worthing, United Kingdom, BN11 1XE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jane  De Jong",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "86",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-542228217",
+            "scheme": "GB-CQC",
+            "legalName": "West Meads Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "West Meads Surgery",
+          "address": {
+            "streetAddress": "2-8 The Precinct, West Meads, Bognor Regis, West Sussex, United Kingdom, PO21 5SB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "David Lawrence",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "87",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-537903425",
+            "scheme": "GB-CQC",
+            "legalName": "Westcourt Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Westcourt Medical Centre",
+          "address": {
+            "streetAddress": "Rustington , Littlehampton , West Sussex , United Kingdom, BN16 3NX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Lynne Scarfe",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "88",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-542976897",
+            "scheme": "GB-CQC",
+            "legalName": "Willow Green Surgery"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Willow Green Surgery",
+          "address": {
+            "streetAddress": "Station Road, East Preston, Littlehampton, West Sussex, United Kingdom, BN16 3AH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jayne Dyball",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "89",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-557506001",
+            "scheme": "GB-CQC",
+            "legalName": "Witterings Medical Centre"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Witterings Medical Centre",
+          "address": {
+            "streetAddress": "Cakeham Road, East Wittering, United Kingdom, PO20 8BH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Olivia Trusler",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "91",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-558881176",
+            "scheme": "GB-CQC",
+            "legalName": "Worthing Medical Group"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Worthing Medical Group",
+          "address": {
+            "streetAddress": "23 Shelley road, Worthing, West Sussex, United Kingdom, BN11 4BS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Sue Parton",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-34094400-0389-43d6-96bc-27cfa0da6d62-cwscc---029234---award",
+        "title": "WSCC DR - Public Health Services - AWARD",
+        "description": "A contract for the provision of Public Health Services, as described in Documents 2a - g (Service Specification) (&quot;the Contract&quot;) is being tendered by West Sussex County Council (&quot;the Council&quot;) in accordance with the Light Touch Regime (LTR) of the Public Contracts Regulations 2015 (SI 2015/102) (&quot;the 2015 Regulations&quot;). \r\n      \r\n      The aim of the procurement process is to establish an approved supplier list for Public Health Services in the County of West Sussex. As such, please note that bidders will not be competing with each other for a place on this contract. All bidders who pass the evaluation stage, as detailed in Parts 3 and 4 below will be offered a place on the approved supplier list. \r\n      \r\n      The procurement process will be undertaken using the OJEU Open Procedure and will be divided into the following six lots: \r\n      \r\n      Lot 1: NHS Health Check Services\r\n      Lot 2: Smoking Cessation Services\r\n      Lot 3: Alcohol Identification and Brief Advice Services\r\n      Lot 4: Intrauterine Device Services\r\n      Lot 5: Contraceptive Implant Services \r\n      Lot 6: Emergency Hormonal Contraception Services",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85121100",
+              "description": "General-practitioner services",
+              "uri": "http://cpv.data.ac.uk/code-85121100.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85149000",
+              "description": "Pharmacy services",
+              "uri": "http://cpv.data.ac.uk/code-85149000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85130000",
+              "description": "Dental practice and related services",
+              "uri": "http://cpv.data.ac.uk/code-85130000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 6500000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 6500000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-11T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 52,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "Avisford Medical Group"
+          },
+          {
+            "id": "3",
+            "name": "Ball Tree Surgery"
+          },
+          {
+            "id": "4",
+            "name": "Bersted Green Surgery"
+          },
+          {
+            "id": "5",
+            "name": "Bewbush Medical Centre"
+          },
+          {
+            "id": "9",
+            "name": "Bridge Medical Centre"
+          },
+          {
+            "id": "10",
+            "name": "Broadwater Medical Centre"
+          },
+          {
+            "id": "12",
+            "name": "Cathedral Medical Group"
+          },
+          {
+            "id": "15",
+            "name": "Cornerways Surgery"
+          },
+          {
+            "id": "19",
+            "name": "Crawley Down Health Centre"
+          },
+          {
+            "id": "20",
+            "name": "Cuckfield Medical Practice"
+          },
+          {
+            "id": "23",
+            "name": "Fitzalan Medical Group"
+          },
+          {
+            "id": "24",
+            "name": "Flansham Park Health Centre"
+          },
+          {
+            "id": "25",
+            "name": "Furnace Green Surgery"
+          },
+          {
+            "id": "28",
+            "name": "Grove House Surgery"
+          },
+          {
+            "id": "29",
+            "name": "Harbour View Healthcare"
+          },
+          {
+            "id": "30",
+            "name": "Holbrook Surgery"
+          },
+          {
+            "id": "32",
+            "name": "Ifield Medical Practice"
+          },
+          {
+            "id": "33",
+            "name": "Judges Close Surgery"
+          },
+          {
+            "id": "34",
+            "name": "Langley Corner Surgery"
+          },
+          {
+            "id": "35",
+            "name": "Langley House Surgery"
+          },
+          {
+            "id": "36",
+            "name": "Lavant Road Surgery"
+          },
+          {
+            "id": "37",
+            "name": "Leacroft Medical Practice"
+          },
+          {
+            "id": "38",
+            "name": "Lindfield Medical Centre"
+          },
+          {
+            "id": "43",
+            "name": "Mid Sussex Health Care"
+          },
+          {
+            "id": "46",
+            "name": "New Pond Row Surgery"
+          },
+          {
+            "id": "47",
+            "name": "Newtons Practice"
+          },
+          {
+            "id": "48",
+            "name": "Northbourne Medical Centre"
+          },
+          {
+            "id": "52",
+            "name": "Ouse Valley Practice"
+          },
+          {
+            "id": "53",
+            "name": "Park Surgery"
+          },
+          {
+            "id": "54",
+            "name": "Parklands Surgery"
+          },
+          {
+            "id": "57",
+            "name": "Pulborough Medical Group"
+          },
+          {
+            "id": "58",
+            "name": "Riverbank Medical Centre"
+          },
+          {
+            "id": "59",
+            "name": "Riverside Surgery"
+          },
+          {
+            "id": "60",
+            "name": "Saxonbrook Medical"
+          },
+          {
+            "id": "62",
+            "name": "Selsey Medical Practice"
+          },
+          {
+            "id": "64",
+            "name": "Silverdale Practice"
+          },
+          {
+            "id": "65",
+            "name": "Southbourne Surgery"
+          },
+          {
+            "id": "67",
+            "name": "St Lawrence Surgery"
+          },
+          {
+            "id": "72",
+            "name": "Tangmere Medical Centre"
+          },
+          {
+            "id": "77",
+            "name": "The Croft Practice"
+          },
+          {
+            "id": "78",
+            "name": "The Lime Tree Surgery"
+          },
+          {
+            "id": "79",
+            "name": "The Manor Practice"
+          },
+          {
+            "id": "80",
+            "name": "The Meadows Surgery"
+          },
+          {
+            "id": "81",
+            "name": "The Orchard Surgery"
+          },
+          {
+            "id": "82",
+            "name": "The Park Surgery"
+          },
+          {
+            "id": "83",
+            "name": "The Village Surgery"
+          },
+          {
+            "id": "84",
+            "name": "Victoria Road Surgery"
+          },
+          {
+            "id": "86",
+            "name": "West Meads Surgery"
+          },
+          {
+            "id": "87",
+            "name": "Westcourt Medical Centre"
+          },
+          {
+            "id": "88",
+            "name": "Willow Green Surgery"
+          },
+          {
+            "id": "89",
+            "name": "Witterings Medical Centre"
+          },
+          {
+            "id": "91",
+            "name": "Worthing Medical Group"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2023-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "72160eb7cc12960be78443aa0cbb2151",
+        "name": "SE Shared Services"
+      },
+      "awards": [
+        {
+          "id": "e1dc46b2-b8bd-4aba-b960-383e3b39a099",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-26T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "Avisford Medical Group"
+            },
+            {
+              "id": "3",
+              "name": "Ball Tree Surgery"
+            },
+            {
+              "id": "4",
+              "name": "Bersted Green Surgery"
+            },
+            {
+              "id": "5",
+              "name": "Bewbush Medical Centre"
+            },
+            {
+              "id": "9",
+              "name": "Bridge Medical Centre"
+            },
+            {
+              "id": "10",
+              "name": "Broadwater Medical Centre"
+            },
+            {
+              "id": "12",
+              "name": "Cathedral Medical Group"
+            },
+            {
+              "id": "15",
+              "name": "Cornerways Surgery"
+            },
+            {
+              "id": "19",
+              "name": "Crawley Down Health Centre"
+            },
+            {
+              "id": "20",
+              "name": "Cuckfield Medical Practice"
+            },
+            {
+              "id": "23",
+              "name": "Fitzalan Medical Group"
+            },
+            {
+              "id": "24",
+              "name": "Flansham Park Health Centre"
+            },
+            {
+              "id": "25",
+              "name": "Furnace Green Surgery"
+            },
+            {
+              "id": "28",
+              "name": "Grove House Surgery"
+            },
+            {
+              "id": "29",
+              "name": "Harbour View Healthcare"
+            },
+            {
+              "id": "30",
+              "name": "Holbrook Surgery"
+            },
+            {
+              "id": "32",
+              "name": "Ifield Medical Practice"
+            },
+            {
+              "id": "33",
+              "name": "Judges Close Surgery"
+            },
+            {
+              "id": "34",
+              "name": "Langley Corner Surgery"
+            },
+            {
+              "id": "35",
+              "name": "Langley House Surgery"
+            },
+            {
+              "id": "36",
+              "name": "Lavant Road Surgery"
+            },
+            {
+              "id": "37",
+              "name": "Leacroft Medical Practice"
+            },
+            {
+              "id": "38",
+              "name": "Lindfield Medical Centre"
+            },
+            {
+              "id": "43",
+              "name": "Mid Sussex Health Care"
+            },
+            {
+              "id": "46",
+              "name": "New Pond Row Surgery"
+            },
+            {
+              "id": "47",
+              "name": "Newtons Practice"
+            },
+            {
+              "id": "48",
+              "name": "Northbourne Medical Centre"
+            },
+            {
+              "id": "52",
+              "name": "Ouse Valley Practice"
+            },
+            {
+              "id": "53",
+              "name": "Park Surgery"
+            },
+            {
+              "id": "54",
+              "name": "Parklands Surgery"
+            },
+            {
+              "id": "57",
+              "name": "Pulborough Medical Group"
+            },
+            {
+              "id": "58",
+              "name": "Riverbank Medical Centre"
+            },
+            {
+              "id": "59",
+              "name": "Riverside Surgery"
+            },
+            {
+              "id": "60",
+              "name": "Saxonbrook Medical"
+            },
+            {
+              "id": "62",
+              "name": "Selsey Medical Practice"
+            },
+            {
+              "id": "64",
+              "name": "Silverdale Practice"
+            },
+            {
+              "id": "65",
+              "name": "Southbourne Surgery"
+            },
+            {
+              "id": "67",
+              "name": "St Lawrence Surgery"
+            },
+            {
+              "id": "72",
+              "name": "Tangmere Medical Centre"
+            },
+            {
+              "id": "77",
+              "name": "The Croft Practice"
+            },
+            {
+              "id": "78",
+              "name": "The Lime Tree Surgery"
+            },
+            {
+              "id": "79",
+              "name": "The Manor Practice"
+            },
+            {
+              "id": "80",
+              "name": "The Meadows Surgery"
+            },
+            {
+              "id": "81",
+              "name": "The Orchard Surgery"
+            },
+            {
+              "id": "82",
+              "name": "The Park Surgery"
+            },
+            {
+              "id": "83",
+              "name": "The Village Surgery"
+            },
+            {
+              "id": "84",
+              "name": "Victoria Road Surgery"
+            },
+            {
+              "id": "86",
+              "name": "West Meads Surgery"
+            },
+            {
+              "id": "87",
+              "name": "Westcourt Medical Centre"
+            },
+            {
+              "id": "88",
+              "name": "Willow Green Surgery"
+            },
+            {
+              "id": "89",
+              "name": "Witterings Medical Centre"
+            },
+            {
+              "id": "91",
+              "name": "Worthing Medical Group"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2023-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

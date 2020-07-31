@@ -1,0 +1,205 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/70432f93-c64c-4d4b-a461-337c3d19ca64.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-30T18:28:05Z",
+  "publisher": {
+    "name": "BRAVOSOLUTION UK LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-8db36c3d-c6e8-4567-980c-cf4c536183c3",
+      "id": "ocds-b5fd17-8db36c3d-c6e8-4567-980c-cf4c536183c3-356855-tender_221866-853165",
+      "date": "2019-09-20T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "67cc098ca6faa121e2448c0d607b1662",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Pension Protection Fund",
+          "address": {
+            "streetAddress": "12 Dingwall Road, ",
+            "locality": "Croydon",
+            "region": null,
+            "postalCode": "CR0 2NA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Pension Protection Fund",
+            "email": "commercialservices@ppf.co.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC303675",
+            "scheme": "GB-COH",
+            "legalName": "DELOITTE LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "DELOITTE LLP",
+          "address": {
+            "streetAddress": "1 New Street Square, London, EC4A 3HQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC301540",
+            "scheme": "GB-COH",
+            "legalName": "KPMG LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "KPMG LLP",
+          "address": {
+            "streetAddress": "15 Canada Square, London, E14 5GL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-8db36c3d-c6e8-4567-980c-cf4c536183c3-tender_221866",
+        "title": "Trustee and Support Services",
+        "description": "Services to cover situations where scheme employers are undergoing corporate restructuring, particularly where this involves insolvency proceedings. Services to support incumbent trustee boards by offering\r\nspecialist restructuring and insolvency advice, relating to the position of schemes, employers and the PPF in the context of an anticipated restructuring/insolvency event.  \r\n\r\nLot 1 Restructuring and Pre Insolvency Services\r\nLot 2 Trustee Services and Assessment Period work",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "66520000",
+              "description": "Pension services",
+              "uri": "http://cpv.data.ac.uk/code-66520000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 10000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 46000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-22T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "7",
+            "name": "DELOITTE LLP"
+          },
+          {
+            "id": "11",
+            "name": "KPMG LLP"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "67cc098ca6faa121e2448c0d607b1662",
+        "name": "Pension Protection Fund"
+      },
+      "awards": [
+        {
+          "id": "d84955a5-1348-4913-bf19-2a2e8c818b1b",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-01T00:00:00Z",
+          "value": {
+            "amount": 46000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "7",
+              "name": "DELOITTE LLP"
+            },
+            {
+              "id": "11",
+              "name": "KPMG LLP"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

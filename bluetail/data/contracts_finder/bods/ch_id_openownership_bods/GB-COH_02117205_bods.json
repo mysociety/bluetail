@@ -1,0 +1,196 @@
+[
+    {
+        "statementID": "openownership-register-10120493540645821567",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "EGTON MEDICAL INFORMATION SYSTEMS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02117205"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02117205"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02117205",
+                "uri": "https://opencorporates.com/companies/gb/02117205"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b98ad467e4ebf340d56264",
+                "uri": "http://register.openownership.org/entities/59b98ad467e4ebf340d56264"
+            }
+        ],
+        "foundingDate": "1987-03-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Fulford Grange Micklefield Lane, Rawdon, Leeds, LS19 6BA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13987579316963464203",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10120493540645821567"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-12902063732935545556"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-12-10T10:45:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12902063732935545556",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "EMIS GROUP PLC",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06553923",
+                "uri": "https://opencorporates.com/companies/gb/06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "6553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06553923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b93cd467e4ebf3406b00e8",
+                "uri": "http://register.openownership.org/entities/59b93cd467e4ebf3406b00e8"
+            }
+        ],
+        "foundingDate": "2008-04-03",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Fulford Grange Micklefield Lane, Rawdon, Leeds, LS19 6BA",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "statementID": "openownership-register-10084382938270185937",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "JOHN SHEPPARD BUTCHERS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02727662"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02727662",
+                "uri": "https://opencorporates.com/companies/gb/02727662"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92f9c67e4ebf3402d2cc6",
+                "uri": "http://register.openownership.org/entities/59b92f9c67e4ebf3402d2cc6"
+            }
+        ],
+        "foundingDate": "1992-07-01",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 5,6 & 7 Ashley Parade, Bristol, BS2 9XS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-1766336053457203560",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-08-11",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10084382938270185937"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-15725704897891910811"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-11"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-08-11"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-08-11"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-08-11"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15725704897891910811",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "JSB COMPANIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08898596"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08898596"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08898596"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "08898596"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/08898596",
+                "uri": "https://opencorporates.com/companies/gb/08898596"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92f9067e4ebf3402d0717",
+                "uri": "http://register.openownership.org/entities/59b92f9067e4ebf3402d0717"
+            }
+        ],
+        "foundingDate": "2014-02-17",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Brooks House, 1 Albion Place, Maidstone, Kent, ME14 5DY",
+                "country": "GB"
+            }
+        ]
+    }
+]

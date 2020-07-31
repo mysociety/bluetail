@@ -1,0 +1,373 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3cb30104-74fb-4bc7-9dfd-4774d4b1cf09.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T11:32:28Z",
+  "publisher": {
+    "name": "Lancashire County Council",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-65836f54-c8cd-4568-8d8b-656f49adce7f",
+      "id": "ocds-b5fd17-65836f54-c8cd-4568-8d8b-656f49adce7f-359510-lw-cas-lcc-19-937-award",
+      "date": "2019-12-20T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "443ccc8ad2fa92041cc210180dacf6f4",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/v2gr32H4",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "Lancashire County Council",
+          "address": {
+            "streetAddress": "Bow Lane ",
+            "locality": "PRESTON",
+            "region": null,
+            "postalCode": "PR1 8XJ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Lindsay Wareing",
+            "email": "lindsay.wareing@lancashire.gov.uk",
+            "telephone": "01772 531564",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00842846",
+            "scheme": "GB-COH",
+            "legalName": "SODEXO LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SODEXO LIMITED",
+          "address": {
+            "streetAddress": "UNIT 4\r\nFOXBRIDGE WAY\r\nNORMANTON\r\nWF6 1TN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "DISTINCTIVE GROUP",
+          "address": {
+            "streetAddress": "Kirklands Farm, Bleatarn Road, Lancaster, LA2 0RD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04049863",
+            "scheme": "GB-COH",
+            "legalName": "LANDSCAPE ENGINEERING LTD."
+          },
+          "sme": true,
+          "vco": false,
+          "name": "LANDSCAPE ENGINEERING LTD.",
+          "address": {
+            "streetAddress": "PARK ROAD\nBB12 8ED\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "ADJ LIMITED",
+          "address": {
+            "streetAddress": "Eacott, Devonshire Square, Cartmel, Grange Over Sands, Cumbria, LA11 6QD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02798007",
+            "scheme": "GB-COH",
+            "legalName": "COUNTRYWIDE GROUNDS MAINTENANCE LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "COUNTRYWIDE GROUNDS MAINTENANCE LIMITED",
+          "address": {
+            "streetAddress": "Countrywide House, Packington House (2nd Floor), 3-4 Horse Fair, Banbury, Oxfordshire, OX16 0AA\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07197131",
+            "scheme": "GB-COH",
+            "legalName": "RICHARD PEEL GROUNDCARE LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "RICHARD PEEL GROUNDCARE LIMITED",
+          "address": {
+            "streetAddress": "Reedymoor Farm, Reedymoor Lane, Foulridge, Lancashire, BB8 7LJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-65836f54-c8cd-4568-8d8b-656f49adce7f-lw/cas/lcc/19/937-award",
+        "title": "LPS CAS - Routine Grounds Maintenance for Schools 2020 - RFQ 15247159",
+        "description": "Routine Grounds Maintenance Service for 2020 (for various schools and other Educational Establishments)",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "77314000",
+              "description": "Grounds maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-77314000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1120000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-24T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 6,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "SODEXO LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "DISTINCTIVE GROUP"
+          },
+          {
+            "id": "3",
+            "name": "LANDSCAPE ENGINEERING LTD."
+          },
+          {
+            "id": "4",
+            "name": "ADJ LIMITED"
+          },
+          {
+            "id": "5",
+            "name": "COUNTRYWIDE GROUNDS MAINTENANCE LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "RICHARD PEEL GROUNDCARE LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "443ccc8ad2fa92041cc210180dacf6f4",
+        "name": "Lancashire County Council"
+      },
+      "awards": [
+        {
+          "id": "d2a4f0b5-f045-4357-b1f1-8e935c2adddd",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-06T00:00:00Z",
+          "value": {
+            "amount": 248652.47,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "SODEXO LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "DISTINCTIVE GROUP"
+            },
+            {
+              "id": "3",
+              "name": "LANDSCAPE ENGINEERING LTD."
+            },
+            {
+              "id": "4",
+              "name": "ADJ LIMITED"
+            },
+            {
+              "id": "5",
+              "name": "COUNTRYWIDE GROUNDS MAINTENANCE LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "RICHARD PEEL GROUNDCARE LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2024-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

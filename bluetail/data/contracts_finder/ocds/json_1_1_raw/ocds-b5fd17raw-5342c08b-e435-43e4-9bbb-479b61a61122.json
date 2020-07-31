@@ -1,0 +1,304 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/e4b47fcd-e949-4004-a2b9-f5ccfb5d91cf.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-28T13:55:37Z",
+  "publisher": {
+    "name": "MINISTRY OF DEFENCE",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-5342c08b-e435-43e4-9bbb-479b61a61122",
+      "id": "ocds-b5fd17-5342c08b-e435-43e4-9bbb-479b61a61122-361138-rfq-700121315",
+      "date": "2020-03-18T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "f1c9b22134b2742556b5ccca596447bb",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/7U7AuvS7",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "MINISTRY OF DEFENCE",
+          "address": {
+            "streetAddress": "Whitehall, ",
+            "locality": "LONDON",
+            "region": null,
+            "postalCode": "SW1A2HB",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "babajide alonge",
+            "email": "babajide.alonge101@mod.gov.uk",
+            "telephone": "07811974415",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "01788577",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "IN PRACTICE SYSTEMS LTD",
+          "address": {
+            "streetAddress": "The Bread Factory, 1a Broughton Street,\r\nBattersea, London SW8 3QJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 1
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "11498931",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MEDICALDIRECTOR LIMITED",
+          "address": {
+            "streetAddress": "C/O Hackwood Secretaries Limited, One Silk Street, London, United Kingdom, EC2Y 8HQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 1
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "05272668",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Medical Management Systems Ltd",
+          "address": {
+            "streetAddress": "140 Buckingham Palace Road, London, SW1W 9SA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 1
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02117205",
+            "scheme": "GB-COH",
+            "legalName": "EGTON MEDICAL INFORMATION SYSTEMS LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "EGTON MEDICAL INFORMATION SYSTEMS LIMITED",
+          "address": {
+            "streetAddress": "Fulford Grange,Micklefield Lane, Rawdon\nLEEDS\nWest Yorkshire\nLS19 6BA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 1
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-5342c08b-e435-43e4-9bbb-479b61a61122-rfq-700121315",
+        "title": "Defence Medical IT Futures Framework Agreement",
+        "description": "The Defence Medical IT Futures Framework will facilitate the uninterrupted delivery of clinical IT systems and related services to Defence Medical Services  Primary Care clinics across the Fixed Base (the United Kingdom and some permanent MOD locations overseas).\r\n\r\nThe DMITF Framework Agreement and related Call Off Agreements will be the contractual vehicle through which Call Off Ordering Parties will purchase Catalogue Solutions from Suppliers.\r\n\r\nSuppliers must have executed a NHS GP IT Futures Catalogue Agreement and followed the Catalogue On-Boarding Process for all Catalogue Solutions, Additional Services and Associated Services that they are seeking to make available on the DMITF Framework.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72500000",
+              "description": "Computer-related services",
+              "uri": "http://cpv.data.ac.uk/code-72500000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72600000",
+              "description": "Computer support and consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-72600000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 4,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Catalogue purchase",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-08T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": false,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "IN PRACTICE SYSTEMS LTD"
+          },
+          {
+            "id": "2",
+            "name": "MEDICALDIRECTOR LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "Medical Management Systems Ltd"
+          },
+          {
+            "id": "4",
+            "name": "EGTON MEDICAL INFORMATION SYSTEMS LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-09T00:00:00Z",
+          "endDate": "2021-10-09T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "f1c9b22134b2742556b5ccca596447bb",
+        "name": "MINISTRY OF DEFENCE"
+      },
+      "awards": [
+        {
+          "id": "f8bdd68b-b565-4be2-ab50-0f7069cf7736",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-09T00:00:00Z",
+          "value": {
+            "amount": 3,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "IN PRACTICE SYSTEMS LTD"
+            },
+            {
+              "id": "2",
+              "name": "MEDICALDIRECTOR LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "Medical Management Systems Ltd"
+            },
+            {
+              "id": "4",
+              "name": "EGTON MEDICAL INFORMATION SYSTEMS LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-09T00:00:00Z",
+            "endDate": "2021-10-09T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

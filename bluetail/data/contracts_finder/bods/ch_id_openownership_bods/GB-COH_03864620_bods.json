@@ -1,0 +1,70 @@
+[
+    {
+        "statementID": "openownership-register-6865807346631260557",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "CAUDWELL CHILDREN",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03864620"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "03864620"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/03864620",
+                "uri": "https://opencorporates.com/companies/gb/03864620"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "3864620"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9871167e4ebf340c8bd89",
+                "uri": "http://register.openownership.org/entities/59b9871167e4ebf340c8bd89"
+            }
+        ],
+        "foundingDate": "1999-10-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Caudwell International Childrens Centre Innovation Way, Keele, Newcastle, ST5 5NT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16062367946433297471",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-12-31",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-6865807346631260557"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]

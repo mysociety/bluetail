@@ -1,0 +1,208 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fc233a6a-07af-4389-8615-4759c8a524d7.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-15T16:11:37Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-f96b543a-d816-4d43-a490-937782df3f51",
+      "id": "ocds-b5fd17-f96b543a-d816-4d43-a490-937782df3f51-359311-head-office-00000277---award",
+      "date": "2020-01-20T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "03a2af858bdde293e221e4203513b00c",
+          "roles": [
+            "buyer"
+          ],
+          "name": "L&amp;Q Construction",
+          "address": {
+            "streetAddress": "West Ham Lane Stratford",
+            "locality": "London",
+            "region": null,
+            "postalCode": "E15 4PH",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Jessica Vann",
+            "email": "jvann@lqgroup.org.uk",
+            "telephone": "03004569998",
+            "faxNumber": null,
+            "uri": "www.quadrant-construction.co.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Airflow Developments Ltd",
+          "address": {
+            "streetAddress": "Aidelle House , Lancaster Road, Cressex Business Park, High Wycombe, Buckinghamshire, United Kingdom, HP12 3QP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Naimah Rahman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Vent-Axia Group Limited",
+          "address": {
+            "streetAddress": "Fleming Way, Manor Royal, Crawley, West Sussex, United Kingdom, RH10 7RB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "James Kane",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-f96b543a-d816-4d43-a490-937782df3f51-head-office-00000277---award",
+        "title": "London and Quadrant Housing Trust - MVHR Unit Manufacturers Framework 2020 - 2024 - AWARD",
+        "description": "London and Quadrant Housing Trust and its subsidiary Quadrant Construction Services are one of the largest providers of affordable housing in the UK, housing over 250,000 people in more than 95,000 homes, primarily across London and the South East of England. London and Quadrant Housing Trust are tendering for the provision of MVHR Unit Manufacturer for London and Quadrant&#039;s Self Delivered New Build Projects to comply with the Public Contracts regulations 2015. The objective of this tender process is to establish a Framework Agreement with the tenderers and London and Quadrant Housing Trust. The dates and contract value are estimates and could be subject to change. This is tender is for Manufacturer only. Rebates will be required. \r\n      \r\n      This is a two stage tender and both stages adhere to the time-scales as prescribed within the Public Contracts Regulations 2015 for Restricted OJEU Tenders.\r\n      \r\n      Stage 1: Selection Stage\r\n      \r\n      Click on the &#039;Express Interest&#039; Button at the bottom\r\n      \r\n      Click on the &#039;Selection Stage&#039; Tab at the top\r\n      - Scroll to the bottom of the screen and you will be able to view the Tender Documents and access the Standard Selection Questionnaire\r\n      - For the Selection Stage you will only need to submit the Standard Selection Questionnaire\r\n      - We will score your questionnaire and will advise you as to whether you are successful or not\r\n      - Pricing Documents will only be available to those who have passed the Selection Stage\r\n      \r\n      \r\n      ONLY IF YOU HAVE PASSED THE SELECTION STAGE \r\n      \r\n      Stage 2: ITT Stage\r\n      \r\n      - Click on the &#039;ITT&#039; Tab \r\n      - Scroll to the bottom and you will be able to access the Tender Documents\r\n      - Tenderers will be briefed as to what they will need to submit for this tender\r\n      \r\n      Please allow sufficient time to submit your return by the specified dates as late returns will not be permitted. \r\n      \r\n      \r\n      Under the Framework Agreement L&amp;Q and all companies within the L&amp;Q Group (including, without limitation, Quadrant Construction Services) will have the option to call-off contracts with individual framework contractors as and when required. In addition, other Social Housing Providers in the UK (both those that are in existence now and those that may be in existence in the future) will also be entitled to call-off contracts under the Framework Agreement. &quot;Social Housing Provider&quot; for this purpose means any provider of social housing and includes, without limitation, Registered Providers, Local Authorities and ALMOs. Such Social Housing Providers will only be entitled to call off under the Framework Agreement if L&amp;Q consents.\r\n      \r\n      For information regarding this tender please contact the Framework Team via the tender portal. This tender is managed by the Framework Buying department. Please do not contact any other department within the London and Quadrant Group. Please do not contact Group Procurement for information as this Tender has been created by the Framework Buying Department. \r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "42520000",
+              "description": "Ventilation equipment",
+              "uri": "http://cpv.data.ac.uk/code-42520000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 4000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Restricted procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-04-06T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Airflow Developments Ltd"
+          },
+          {
+            "id": "2",
+            "name": "Vent-Axia Group Limited"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-12T00:00:00Z",
+          "endDate": "2024-05-12T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "03a2af858bdde293e221e4203513b00c",
+        "name": "L&amp;Q Construction"
+      },
+      "awards": [
+        {
+          "id": "214e0450-f92f-4cd0-9896-bdc0d48cddef",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-05T00:00:00Z",
+          "value": {
+            "amount": 189000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Airflow Developments Ltd"
+            },
+            {
+              "id": "2",
+              "name": "Vent-Axia Group Limited"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-12T00:00:00Z",
+            "endDate": "2024-05-12T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

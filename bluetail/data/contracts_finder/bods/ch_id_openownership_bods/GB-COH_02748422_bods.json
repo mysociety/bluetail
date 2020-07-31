@@ -1,0 +1,366 @@
+[
+    {
+        "statementID": "openownership-register-4036509638345219323",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ANGLIA CROWN LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02748422"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02748422",
+                "uri": "https://opencorporates.com/companies/gb/02748422"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9432967e4ebf340865a2e",
+                "uri": "http://register.openownership.org/entities/59b9432967e4ebf340865a2e"
+            }
+        ],
+        "foundingDate": "1992-09-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "80 New Bond Street, London, W1S 1SB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14164388185409725824",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-07-02",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4036509638345219323"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-816240128692767107"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-07-02",
+                "endDate": "2020-01-23"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-07-02",
+                "endDate": "2020-01-23"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2018-07-02",
+                "endDate": "2020-01-23"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-05-26T09:05:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-8252343454456733082",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2020-01-23",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4036509638345219323"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-10646410762445431721"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2020-01-23"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-05-26T09:05:26Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3842692588031945923",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-4036509638345219323"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-11038444139056723297"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-07-02"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-07-02"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2018-07-02"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10646410762445431721",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ROMAN PANDA GROUP LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12288851"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/12288851",
+                "uri": "https://opencorporates.com/companies/gb/12288851"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12288851"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12288851"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "12288851"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5dc2c2ee9dfc3fae18c84b6c",
+                "uri": "http://register.openownership.org/entities/5dc2c2ee9dfc3fae18c84b6c"
+            }
+        ],
+        "foundingDate": "2019-10-30",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "80 New Bond Street, London, W1S 1SB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-816240128692767107",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ROMAN PANDA LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11275192"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11275192",
+                "uri": "https://opencorporates.com/companies/gb/11275192"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11275192"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11275192"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b16a0aa9dfc3fae18e0ea1f",
+                "uri": "http://register.openownership.org/entities/5b16a0aa9dfc3fae18e0ea1f"
+            }
+        ],
+        "foundingDate": "2018-03-26",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "80 New Bond Street, London, W1S 1SB",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11038444139056723297",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BAKKAVOR FOODS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01060806",
+                "uri": "https://opencorporates.com/companies/gb/01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01060806"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b91a3767e4ebf340d56eea",
+                "uri": "http://register.openownership.org/entities/59b91a3767e4ebf340d56eea"
+            }
+        ],
+        "foundingDate": "1972-07-07",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Fitzroy Place 5th Floor, 8 Mortimer Street, London, W1T 3JJ",
+                "country": "GB"
+            }
+        ]
+    }
+]

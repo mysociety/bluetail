@@ -1,0 +1,296 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/3a1bfd88-f6ab-4faa-8e84-424d37d1425b.json",
+  "version": "1.1",
+  "publishedDate": "2020-06-01T13:14:03Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-46f35718-d827-4699-b56e-88b2ed6a3138",
+      "id": "ocds-b5fd17-46f35718-d827-4699-b56e-88b2ed6a3138-361566-nottscc001-dn361199-68964311",
+      "date": "2019-01-14T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "43c0878b14643838104bcfcaf6bb8f9b",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Nottinghamshire County Council",
+          "address": {
+            "streetAddress": "County Hall West Bridgford",
+            "locality": "Nottingham",
+            "region": null,
+            "postalCode": "NG2 7QP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Amanda Oakley",
+            "email": "amanda.oakley@nottscc.gov.uk",
+            "telephone": "+44 1159773203",
+            "faxNumber": null,
+            "uri": "http://www.nottinghamshire.gov.uk"
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2326072185",
+            "scheme": "GB-CQC",
+            "legalName": "DKM Healthcare Limited"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "DKM Healthcare Limited",
+          "address": {
+            "streetAddress": "Office 20, Mecury House , Shipstone Business Centre, New Basford, NOTTINGHAM NG7 7FN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2175084325",
+            "scheme": "GB-CQC",
+            "legalName": "Forever Independent"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Forever Independent",
+          "address": {
+            "streetAddress": "6 Musters Road, West Bridgford, Nottingham, Nottinghamshire, NG2 7PL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-111009372",
+            "scheme": "GB-CQC",
+            "legalName": "Portland College"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Portland College",
+          "address": {
+            "streetAddress": "Nottingham Road, Mansfield, Nottinghamshire NG18 4TJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-5810981610",
+            "scheme": "GB-CQC",
+            "legalName": "Personal Touch Care Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Personal Touch Care Ltd",
+          "address": {
+            "streetAddress": "70 Woodgate Chambers, Unit 3 Woodgate Chambers, Loughborough, Leicestershire, LE11 2TZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-46f35718-d827-4699-b56e-88b2ed6a3138-nottscc001-dn361199-68964311",
+        "title": "CSE Provider Agreement for the Provision of Care Support and Enablement for Younger Adults with Disabilities and/or Complex Needs - 2018-2022",
+        "description": "Nottinghamshire County Council (The Council) is seeking tenders from Service Providers wishing to join a CSE Provider Agreement for the provision for Care, Support and Enablement Services (CSE) for Younger Adults with Disabilities and/or Complex Needs. LOT 1 - Care, Support and Enablement (accommodation based and Outreach) LOT 2 - Care, Support and Enablement as above plus guaranteed introduction of new tenancies for the CSE Service Users Nottinghamshire County Council created a CSE Provider Agreement opportunity originally under DN341119. This opportunity is a continuation of that CSE Provider Agreement. The County Council will assess new applicants to the CSE Provider Agreement quarterly. If a provider is already awarded a place on the CSE Provider Agreement they do not need to apply again under this opportunity.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98000000",
+              "description": "Other community, social and personal services",
+              "uri": "http://cpv.data.ac.uk/code-98000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 10000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 10000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-03-04T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "7",
+            "name": "DKM Healthcare Limited"
+          },
+          {
+            "id": "8",
+            "name": "Forever Independent"
+          },
+          {
+            "id": "15",
+            "name": "Portland College"
+          },
+          {
+            "id": "18",
+            "name": "Personal Touch Care Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-04-03T00:00:00Z",
+          "endDate": "2022-09-03T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "43c0878b14643838104bcfcaf6bb8f9b",
+        "name": "Nottinghamshire County Council"
+      },
+      "awards": [
+        {
+          "id": "b26e512b-a796-4869-b3ed-6ed43c3d331d",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-04-02T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "7",
+              "name": "DKM Healthcare Limited"
+            },
+            {
+              "id": "8",
+              "name": "Forever Independent"
+            },
+            {
+              "id": "15",
+              "name": "Portland College"
+            },
+            {
+              "id": "18",
+              "name": "Personal Touch Care Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-04-03T00:00:00Z",
+            "endDate": "2022-09-03T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

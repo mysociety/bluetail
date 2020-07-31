@@ -1,0 +1,169 @@
+[
+    {
+        "statementID": "openownership-register-12947569178967292210",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PRINT IMAGE NETWORK LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04009079"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04009079",
+                "uri": "https://opencorporates.com/companies/gb/04009079"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d14c67e4ebf340da55aa",
+                "uri": "http://register.openownership.org/entities/59b9d14c67e4ebf340da55aa"
+            }
+        ],
+        "foundingDate": "2000-06-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Riverside House Kings Reach Business Park, Yew Street, Stockport, Cheshire, SK4 2HD",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-13233080330483695804",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12947569178967292210"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15048394774534765717"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4101313199006041196",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-12947569178967292210"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-2292186060108998653"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-15048394774534765717",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "John Antony Foster"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04009079/persons-with-significant-control/individual/2yAmTGcPfPzerTiAK38SGpaPIxM"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d14c67e4ebf340da55bf",
+                "uri": "http://register.openownership.org/entities/59b9d14c67e4ebf340da55bf"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1959-01-01",
+        "addresses": [
+            {
+                "address": "Riverside House Kings Reach Business Park, Yew St, Stockport, SK4 2HD"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-2292186060108998653",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Stephen Power"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04009079/persons-with-significant-control/individual/wowdoRMyylg5HtlUug4xCg3CwhI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d14c67e4ebf340da55d1",
+                "uri": "http://register.openownership.org/entities/59b9d14c67e4ebf340da55d1"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1961-08-01",
+        "addresses": [
+            {
+                "address": "Riverside House Kings Reach Business Park, Yew St, Stockport, SK4 2HD"
+            }
+        ]
+    }
+]

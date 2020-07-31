@@ -1,0 +1,291 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/d55a9cbd-c38f-4c5d-8d1b-2f07f42d775b.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-25T10:55:39Z",
+  "publisher": {
+    "name": "LEIDOS SUPPLY, LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-820534ff-7dd6-41b9-9b7d-d0184785b6f1",
+      "id": "ocds-b5fd17-820534ff-7dd6-41b9-9b7d-d0184785b6f1-345900-lslgs-0031",
+      "date": "2019-07-12T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "7f21d9620a4ba10bf7dfca6b4908c7cc",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/SCcF96Ar",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "LEIDOS SUPPLY, LIMITED",
+          "address": {
+            "streetAddress": "8 Monarch Ct,Bldg 8, Emersons Green ",
+            "locality": "BRISTOL",
+            "region": null,
+            "postalCode": "BS167FH",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Adam Colbourne",
+            "email": "Adam.Colbourne104@TeamLeidos.mod.uk",
+            "telephone": "0117 332 8694",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00568338",
+            "scheme": "GB-COH",
+            "legalName": "PERFORMANCE CHEMICALS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PERFORMANCE CHEMICALS LIMITED",
+          "address": {
+            "streetAddress": "Fishers Way\nDA17 6BS\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00635803",
+            "scheme": "GB-COH",
+            "legalName": "CLEENOL GROUP LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CLEENOL GROUP LIMITED",
+          "address": {
+            "streetAddress": "Neville House,Beaumont Road\nBANBURY\nOxfordshire\nOX16 1RB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "04495331",
+            "scheme": "GB-COH",
+            "legalName": "BROWNELL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "BROWNELL LIMITED",
+          "address": {
+            "streetAddress": "Park Royal\nNW10 7XF\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "00252864",
+            "scheme": "GB-COH",
+            "legalName": "CHEMETALL LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "CHEMETALL LIMITED",
+          "address": {
+            "streetAddress": "65 Denbigh Road\nMK1 1PB\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-820534ff-7dd6-41b9-9b7d-d0184785b6f1-lslgs",
+        "title": "The Supply of Chemicals including Domestic &amp; Specialist Cleaning Products",
+        "description": "9 Contracts have been awarded as part of a multi-supplier framework agreement for the supply of Chemicals including Domestic &amp; Specialist Cleaning Products. \r\nThe requirement contains one lot and covers a variety of Chemical products including, but not limited to, items such as domestic cleaning products, specialist cleaning compounds, laboratory and water treatment, desiccants, kennel cleaning products, aircraft cleaning products and nondestructive testing products. The items detailed as part of this requirement are used by the Army, Navy and Air Force.\r\nThe framework includes: Performance Chemicals Ltd, Cleenol Group Ltd, Arrow County Supplies Ltd, Brownell Ltd, Assured Solutions Ltd, Chemetall Limited, Pexa Ltd, Reabrook Ltd, Socomore Ireland Ltd.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "24300000",
+              "description": "Basic inorganic and organic chemicals",
+              "uri": "http://cpv.data.ac.uk/code-24300000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 8000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 21600000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-02T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "PERFORMANCE CHEMICALS LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "CLEENOL GROUP LIMITED"
+          },
+          {
+            "id": "4",
+            "name": "BROWNELL LIMITED"
+          },
+          {
+            "id": "6",
+            "name": "CHEMETALL LIMITED"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-01-21T00:00:00Z",
+          "endDate": "2022-01-20T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "7f21d9620a4ba10bf7dfca6b4908c7cc",
+        "name": "LEIDOS SUPPLY, LIMITED"
+      },
+      "awards": [
+        {
+          "id": "c5fa944e-3b96-4adc-af0d-e5f0c47b3218",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-21T00:00:00Z",
+          "value": {
+            "amount": 8000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "PERFORMANCE CHEMICALS LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "CLEENOL GROUP LIMITED"
+            },
+            {
+              "id": "4",
+              "name": "BROWNELL LIMITED"
+            },
+            {
+              "id": "6",
+              "name": "CHEMETALL LIMITED"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-21T00:00:00Z",
+            "endDate": "2022-01-20T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

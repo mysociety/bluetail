@@ -1,0 +1,221 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/cc7cd465-e075-4872-a7d0-edae3ff938ef.json",
+  "version": "1.1",
+  "publishedDate": "2020-01-29T16:57:19Z",
+  "publisher": {
+    "name": "UNIVERSITY OF ESSEX",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17bodsmatch-623b6c7a-f944-4ccc-b325-e22ae4b1a54d",
+      "id": "ocds-b5fd17-623b6c7a-f944-4ccc-b325-e22ae4b1a54d-340387-t730",
+      "date": "2019-07-02T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "0dc62063f196aa567ba16f6ff2726504",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/7FXWaRZ8",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "UNIVERSITY OF ESSEX",
+          "address": {
+            "streetAddress": "University of Essex, Wivenhoe Park ",
+            "locality": "Colchester",
+            "region": null,
+            "postalCode": "CO4 3SQ",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "procure@essex.ac.uk",
+            "telephone": "01206 873013",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02530207",
+            "scheme": "GB-COH",
+            "legalName": "HUNTERS CONTRACTS LIMITED"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "HUNTERS CONTRACTS LIMITED",
+          "address": {
+            "streetAddress": "Hindmans Way\nRM9 6LP\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06437479",
+            "scheme": "GB-COH",
+            "legalName": "FMS INTERIOR SERVICES LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "FMS INTERIOR SERVICES LTD",
+          "address": {
+            "streetAddress": "Unit 14 Trident Industrial Estate,Daten Avenue, Risley\nWARRINGTON\nCheshire\nWA3 6AX\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-623b6c7a-f944-4ccc-b325-e22ae4b1a54d-t730",
+        "title": "T730 Provision of furniture and related services",
+        "description": "T730 Provision of furniture and related services framework agreement \r\n      The University of Essex is commencing this tender opportunity for the supply of different types of furniture including but not limited to office, breakout, laboratory, outdoor, reception, caf&eacute; / bistro, and integrated secure ICT desking furniture.\r\n      There will be three Lots. Lot 1 is for a Core List of Office Furniture, Lot 2 is for Design Led Furniture Projects and Lot 3 is for Specialist Ergonomic Furniture. \r\n      \r\n      Estimated framework agreement value excluding VAT between 0 GBP - 8 000 000 GBP",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "39100000",
+              "description": "Furniture",
+              "uri": "http://cpv.data.ac.uk/code-39100000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79934000",
+              "description": "Furniture design services",
+              "uri": "http://cpv.data.ac.uk/code-79934000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 8000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Restricted procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-30T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Products"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "2",
+            "name": "HUNTERS CONTRACTS LIMITED"
+          },
+          {
+            "id": "3",
+            "name": "FMS INTERIOR SERVICES LTD"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-10-21T00:00:00Z",
+          "endDate": "2023-10-20T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "0dc62063f196aa567ba16f6ff2726504",
+        "name": "UNIVERSITY OF ESSEX"
+      },
+      "awards": [
+        {
+          "id": "b800b43c-59d3-45e1-a625-a35edd45fcb9",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-07T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "2",
+              "name": "HUNTERS CONTRACTS LIMITED"
+            },
+            {
+              "id": "3",
+              "name": "FMS INTERIOR SERVICES LTD"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-01-20T00:00:00Z",
+            "endDate": "2024-01-19T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

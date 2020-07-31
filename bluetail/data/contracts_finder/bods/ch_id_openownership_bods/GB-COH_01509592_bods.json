@@ -1,0 +1,140 @@
+[
+    {
+        "statementID": "openownership-register-15259344377701584670",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "RAPID ELECTRONICS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01509592"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01509592",
+                "uri": "https://opencorporates.com/companies/gb/01509592"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9493a67e4ebf340a2cab8",
+                "uri": "http://register.openownership.org/entities/59b9493a67e4ebf340a2cab8"
+            }
+        ],
+        "foundingDate": "1980-07-28",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Severalls Hall, Severalls Lane, Colchester, Essex, CO4 5JS",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-11116507613109388303",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15259344377701584670"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-11473043433929361349"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-11473043433929361349",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "RAPID ELECTRONICS HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07398923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07398923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07398923"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07398923",
+                "uri": "https://opencorporates.com/companies/gb/07398923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "7398923"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "7398923"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9493b67e4ebf340a2cd2b",
+                "uri": "http://register.openownership.org/entities/59b9493b67e4ebf340a2cd2b"
+            }
+        ],
+        "foundingDate": "2010-10-06",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Severalls Hall, Severalls Lane, Colchester, CO4 5JS",
+                "country": "GB"
+            }
+        ]
+    }
+]

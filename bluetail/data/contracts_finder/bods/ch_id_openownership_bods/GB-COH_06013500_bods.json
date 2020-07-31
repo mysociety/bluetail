@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-14953065925436020653",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "ASHDALE ENGINEERING UK LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "06013500"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/06013500",
+                "uri": "https://opencorporates.com/companies/gb/06013500"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9682067e4ebf3403183a3",
+                "uri": "http://register.openownership.org/entities/59b9682067e4ebf3403183a3"
+            }
+        ],
+        "foundingDate": "2006-11-29",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "82-84 Shirehampton Road, Stoke Bishop, Bristol, BS9 2DR",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-16687003738984997437",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-11-29",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14953065925436020653"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-3662282639588151090"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-11-29"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-3662282639588151090",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "James David Mead"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/06013500/persons-with-significant-control/individual/uslLdgWpJ1PxWb-ywey88Cabkp8"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9682067e4ebf3403183b8",
+                "uri": "http://register.openownership.org/entities/59b9682067e4ebf3403183b8"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1944-11-01",
+        "addresses": [
+            {
+                "address": "82-84, Shirehampton Road, Stoke Bishop, Bristol, BS9 2DR"
+            }
+        ]
+    }
+]

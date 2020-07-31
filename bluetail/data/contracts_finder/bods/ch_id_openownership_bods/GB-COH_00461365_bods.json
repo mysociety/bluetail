@@ -1,0 +1,310 @@
+[
+    {
+        "statementID": "openownership-register-11841845571208829577",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BAXTER HEALTHCARE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00461365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00461365"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00461365",
+                "uri": "https://opencorporates.com/companies/gb/00461365"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9280d67e4ebf34008b720",
+                "uri": "http://register.openownership.org/entities/59b9280d67e4ebf34008b720"
+            }
+        ],
+        "foundingDate": "1948-11-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Caxton Way, Thetford, Norfolk, IP24 3SE",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-8738201169282221091",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-02-14",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11841845571208829577"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-12228258313531474143"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-02-14",
+                "endDate": "2017-10-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4294004396136677429",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-10-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11841845571208829577"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-5166659040822576132"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-10-30",
+                "endDate": "2017-10-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-7744451429839870740",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-10-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11841845571208829577"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-864308825723135918"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-10-30",
+                "endDate": "2017-10-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-16633704660601150126",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2017-10-30",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-11841845571208829577"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-4854767383011560805"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2017-10-30"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2020-01-21T11:51:17Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-12228258313531474143",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Baxter Holding B.V.",
+        "incorporatedInJurisdiction": {
+            "name": "Netherlands",
+            "code": "NL"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00461365/persons-with-significant-control/corporate-entity/EmQOUZNo85E16diz8PsP6gvpbkA"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/nl/33289665",
+                "uri": "https://opencorporates.com/companies/nl/33289665"
+            },
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04170515/persons-with-significant-control/corporate-entity/Dw0VduIca_sRfGwQ8XLs0-sromk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9885e67e4ebf340cdaccc",
+                "uri": "http://register.openownership.org/entities/59b9885e67e4ebf340cdaccc"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Kobaltweg 49, Utrecht, 3542CE",
+                "country": "NL"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5166659040822576132",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Baxter Europe Holdings Ltd",
+        "incorporatedInJurisdiction": {
+            "name": "Malta",
+            "code": "MT"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00461365/persons-with-significant-control/corporate-entity/FQEJ26NKfWSNS0Vht2LvCuTYRMk"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/mt/C83003",
+                "uri": "https://opencorporates.com/companies/mt/C83003"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b172d1b9dfc3fae18542d52",
+                "uri": "http://register.openownership.org/entities/5b172d1b9dfc3fae18542d52"
+            }
+        ],
+        "foundingDate": "2017-10-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "A47, Qasam Industrijali, Marsa, Mrs 3000",
+                "country": "MT"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-864308825723135918",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Baxter Healthcare Holding Ltd",
+        "incorporatedInJurisdiction": {
+            "name": "Malta",
+            "code": "MT"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00461365/persons-with-significant-control/corporate-entity/p9NuFTlU8PHqDLshWOVZ8Ch5TiM"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/mt/C79568",
+                "uri": "https://opencorporates.com/companies/mt/C79568"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b172d179dfc3fae1854250c",
+                "uri": "http://register.openownership.org/entities/5b172d179dfc3fae1854250c"
+            }
+        ],
+        "foundingDate": "2017-02-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "A47, Qasam Industrijali, Marsa, Mrs 3000",
+                "country": "MT"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4854767383011560805",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "Baxter International Incorporated",
+        "incorporatedInJurisdiction": {
+            "name": "United States of America",
+            "code": "US"
+        },
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00461365/persons-with-significant-control/corporate-entity/Lm2qIp7hNnTRtn8o9cKCIxOYtQo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5e26f122c02958cf669b366f",
+                "uri": "http://register.openownership.org/entities/5e26f122c02958cf669b366f"
+            }
+        ],
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "One Baxter Parkway,, One Baxter Parkway,, Deerfield, Illinois",
+                "country": "US"
+            }
+        ]
+    }
+]

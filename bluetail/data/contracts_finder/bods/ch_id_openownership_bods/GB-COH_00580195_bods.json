@@ -1,0 +1,97 @@
+[
+    {
+        "statementID": "openownership-register-16759317269344235026",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "G.W.PRICE LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "00580195"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/00580195",
+                "uri": "https://opencorporates.com/companies/gb/00580195"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c90767e4ebf340bbd96c",
+                "uri": "http://register.openownership.org/entities/59b9c90767e4ebf340bbd96c"
+            }
+        ],
+        "foundingDate": "1957-03-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "13 High Street, Eckington, Sheffield, S21 4DH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-622555631699297223",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-16759317269344235026"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-1031405503599445829"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1031405503599445829",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "John Andrew Plant"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/00580195/persons-with-significant-control/individual/oNoujX6s9JpUqWsQ-54wcliZYoI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9c90767e4ebf340bbd990",
+                "uri": "http://register.openownership.org/entities/59b9c90767e4ebf340bbd990"
+            }
+        ],
+        "birthDate": "1948-04-01",
+        "addresses": [
+            {
+                "address": "13, High Street, Eckington, Sheffield, S21 4DH"
+            }
+        ]
+    }
+]

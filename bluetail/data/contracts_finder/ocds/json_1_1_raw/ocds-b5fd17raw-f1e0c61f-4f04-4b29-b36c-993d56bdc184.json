@@ -1,0 +1,1009 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/424922eb-ac35-4ab4-bd7a-d278319324bf.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-21T11:22:50Z",
+  "publisher": {
+    "name": "IN-TEND LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-f1e0c61f-4f04-4b29-b36c-993d56bdc184",
+      "id": "ocds-b5fd17-f1e0c61f-4f04-4b29-b36c-993d56bdc184-360159-hcc1911637----award",
+      "date": "2019-09-20T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "5025ecea9850935cdec8b59119f8ed6e",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Supply Hertfordshire",
+          "address": {
+            "streetAddress": "Pegs Lane Hertford",
+            "locality": "Hertfordshire",
+            "region": null,
+            "postalCode": "SG13 8DE",
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Sarah Baldwin1 (HCC)",
+            "email": "sarah.baldwin1@hertfordshire.gov.uk",
+            "telephone": "01992 658102",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Aecom",
+          "address": {
+            "streetAddress": "Aldgate Tower, 2 Leman Street, United Kingdom, E1 8FA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "David Peters",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Project Centre Limited",
+          "address": {
+            "streetAddress": "Unit 2 , Holford Yard, London, United Kingdom, WC1X 9HD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Paul Adams",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "RPS Consulting Services Ltd",
+          "address": {
+            "streetAddress": "20 Western Avenue, Milton Park, Abingdon, Oxfordshire, United Kingdom, OX14 4SH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Letitia Stewart",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "SYSTRA",
+          "address": {
+            "streetAddress": "5 Old Bailey, London, United Kingdom, EC4M 7BA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "SYSTRA Tenders",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-f1e0c61f-4f04-4b29-b36c-993d56bdc184-hcc1911637----award",
+        "title": "HCC - 09/19 - The Provision of Transport Infrastructure and Planning Services  - AWARD",
+        "description": "This has now been awarded.\r\n      \r\n      Hertfordshire is entering a period of historic growth, with 100,000 more homes, 100,000 more jobs, and a 15% increase in traffic envisaged during the next 15 years. The Council and its partners have a responsibility to plan positively for this, addressing the challenges this creates by shaping this growth to 2031 and beyond. \r\n      \r\n      To this end, the Council has adopted a number of strategies outlining its response to these challenges, most notably the Local Transport Plan 4. Aiming to achieve a step change in travel behaviour by setting the framework for sustainable development and mode shift in Hertfordshire, its successful delivery requires a unified, collaborative approach both within the Council and with its partners.\r\n      \r\n      The services, refined through market testing, aim to provide the Council and its partners with the breadth of expertise and experience required to ensure &#039;good growth&#039; in Hertfordshire. \r\n      \r\n      Ranging from initial spatial planning work through to design and development of major infrastructure, as well as the modelling work, transport appraisals, and environmental assessments required in between, many of the outlined services will sit alongside in-house staff or existing providers.\r\n      \r\n      Following a related procurement, Hertfordshire County Council has awarded the Framework Agreement for the Provision of Transport Infrastructure Planning.\r\n      \r\n      This is an award notice and this opportunity is now closed. \r\n      The successful suppliers are:  \r\n      \r\n      AECOM Limited\r\n      SYSTRA Ltd\r\n      WSP UK Ltd\r\n      Project Centre Limited\r\n      RPS Consultancy Services Ltd\r\n      \r\n      Lot 1: Spatial Planning and Policy\r\n      Lot 2: Core Modelling Services\r\n      Lot 3: Additional Modelling Support\r\n      Lot 4: Transport Appraisal\r\n      Lot 5: Development Management Implementation\r\n      Lot 6: Environment Support\r\n      Lot 7: Major Transport Systems\r\n      Lot 8: Waste Management Design\r\n      \r\n      The estimated total value of the  is &#xA3;30,460,000.00 and is for the core Contract period of 3years and includes the approximate value for extensions.  \r\n      The initial term of this Agreement is Three (3) years with a possible extension of up to a further One (1)year at the Councils discretion. \r\n      \r\n      OJEU Contract Notice Number: 2019/S 175-426520 \r\n      \r\n      OJEU Award Notice Number: 2020/S 080-189792",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71300000",
+              "description": "Engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71300000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313410",
+              "description": "Risk or hazard assessment for construction",
+              "uri": "http://cpv.data.ac.uk/code-71313410.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71631000",
+              "description": "Technical inspection services",
+              "uri": "http://cpv.data.ac.uk/code-71631000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71340000",
+              "description": "Integrated engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71340000.html"
+            }
+          },
+          {
+            "id": 5,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90711200",
+              "description": "Environmental standards other than for construction",
+              "uri": "http://cpv.data.ac.uk/code-90711200.html"
+            }
+          },
+          {
+            "id": 6,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71311100",
+              "description": "Civil engineering support services",
+              "uri": "http://cpv.data.ac.uk/code-71311100.html"
+            }
+          },
+          {
+            "id": 7,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71311210",
+              "description": "Highways consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71311210.html"
+            }
+          },
+          {
+            "id": 8,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313400",
+              "description": "Environmental impact assessment for construction",
+              "uri": "http://cpv.data.ac.uk/code-71313400.html"
+            }
+          },
+          {
+            "id": 9,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71319000",
+              "description": "Expert witness services",
+              "uri": "http://cpv.data.ac.uk/code-71319000.html"
+            }
+          },
+          {
+            "id": 10,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71315200",
+              "description": "Building consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71315200.html"
+            }
+          },
+          {
+            "id": 11,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90711000",
+              "description": "Environmental impact assessment other than for construction",
+              "uri": "http://cpv.data.ac.uk/code-90711000.html"
+            }
+          },
+          {
+            "id": 12,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71336000",
+              "description": "Engineering support services",
+              "uri": "http://cpv.data.ac.uk/code-71336000.html"
+            }
+          },
+          {
+            "id": 13,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71320000",
+              "description": "Engineering design services",
+              "uri": "http://cpv.data.ac.uk/code-71320000.html"
+            }
+          },
+          {
+            "id": 14,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313430",
+              "description": "Environmental indicators analysis for construction",
+              "uri": "http://cpv.data.ac.uk/code-71313430.html"
+            }
+          },
+          {
+            "id": 15,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90700000",
+              "description": "Environmental services",
+              "uri": "http://cpv.data.ac.uk/code-90700000.html"
+            }
+          },
+          {
+            "id": 16,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313420",
+              "description": "Environmental standards for construction",
+              "uri": "http://cpv.data.ac.uk/code-71313420.html"
+            }
+          },
+          {
+            "id": 17,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71322200",
+              "description": "Pipeline-design services",
+              "uri": "http://cpv.data.ac.uk/code-71322200.html"
+            }
+          },
+          {
+            "id": 18,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71500000",
+              "description": "Construction-related services",
+              "uri": "http://cpv.data.ac.uk/code-71500000.html"
+            }
+          },
+          {
+            "id": 19,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71322500",
+              "description": "Engineering-design services for traffic installations",
+              "uri": "http://cpv.data.ac.uk/code-71322500.html"
+            }
+          },
+          {
+            "id": 20,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71316000",
+              "description": "Telecommunication consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71316000.html"
+            }
+          },
+          {
+            "id": 21,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71631400",
+              "description": "Technical inspection services of engineering structures",
+              "uri": "http://cpv.data.ac.uk/code-71631400.html"
+            }
+          },
+          {
+            "id": 22,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313450",
+              "description": "Environmental monitoring for construction",
+              "uri": "http://cpv.data.ac.uk/code-71313450.html"
+            }
+          },
+          {
+            "id": 23,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71326000",
+              "description": "Ancillary building services",
+              "uri": "http://cpv.data.ac.uk/code-71326000.html"
+            }
+          },
+          {
+            "id": 24,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "73220000",
+              "description": "Development consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-73220000.html"
+            }
+          },
+          {
+            "id": 25,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313440",
+              "description": "Environmental Impact Assessment (EIA) services for construction",
+              "uri": "http://cpv.data.ac.uk/code-71313440.html"
+            }
+          },
+          {
+            "id": 26,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71330000",
+              "description": "Miscellaneous engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71330000.html"
+            }
+          },
+          {
+            "id": 27,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71520000",
+              "description": "Construction supervision services",
+              "uri": "http://cpv.data.ac.uk/code-71520000.html"
+            }
+          },
+          {
+            "id": 28,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72310000",
+              "description": "Data-processing services",
+              "uri": "http://cpv.data.ac.uk/code-72310000.html"
+            }
+          },
+          {
+            "id": 29,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71322300",
+              "description": "Bridge-design services",
+              "uri": "http://cpv.data.ac.uk/code-71322300.html"
+            }
+          },
+          {
+            "id": 30,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313000",
+              "description": "Environmental engineering consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71313000.html"
+            }
+          },
+          {
+            "id": 31,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90712100",
+              "description": "Urban environmental development planning",
+              "uri": "http://cpv.data.ac.uk/code-90712100.html"
+            }
+          },
+          {
+            "id": 32,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90500000",
+              "description": "Refuse and waste related services",
+              "uri": "http://cpv.data.ac.uk/code-90500000.html"
+            }
+          },
+          {
+            "id": 33,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71311300",
+              "description": "Infrastructure works consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71311300.html"
+            }
+          },
+          {
+            "id": 34,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "73200000",
+              "description": "Research and development consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-73200000.html"
+            }
+          },
+          {
+            "id": 35,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71630000",
+              "description": "Technical inspection and testing services",
+              "uri": "http://cpv.data.ac.uk/code-71630000.html"
+            }
+          },
+          {
+            "id": 36,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72316000",
+              "description": "Data analysis services",
+              "uri": "http://cpv.data.ac.uk/code-72316000.html"
+            }
+          },
+          {
+            "id": 37,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71530000",
+              "description": "Construction consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71530000.html"
+            }
+          },
+          {
+            "id": 38,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71325000",
+              "description": "Foundation-design services",
+              "uri": "http://cpv.data.ac.uk/code-71325000.html"
+            }
+          },
+          {
+            "id": 39,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "60100000",
+              "description": "Road transport services",
+              "uri": "http://cpv.data.ac.uk/code-60100000.html"
+            }
+          },
+          {
+            "id": 40,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90711100",
+              "description": "Risk or hazard assessment other than for construction",
+              "uri": "http://cpv.data.ac.uk/code-90711100.html"
+            }
+          },
+          {
+            "id": 41,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71000000",
+              "description": "Architectural, construction, engineering and inspection services",
+              "uri": "http://cpv.data.ac.uk/code-71000000.html"
+            }
+          },
+          {
+            "id": 42,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71314100",
+              "description": "Electrical services",
+              "uri": "http://cpv.data.ac.uk/code-71314100.html"
+            }
+          },
+          {
+            "id": 43,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71323000",
+              "description": "Engineering-design services for industrial process and production",
+              "uri": "http://cpv.data.ac.uk/code-71323000.html"
+            }
+          },
+          {
+            "id": 44,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71313100",
+              "description": "Noise-control consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71313100.html"
+            }
+          },
+          {
+            "id": 45,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90710000",
+              "description": "Environmental management",
+              "uri": "http://cpv.data.ac.uk/code-90710000.html"
+            }
+          },
+          {
+            "id": 46,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90712000",
+              "description": "Environmental planning",
+              "uri": "http://cpv.data.ac.uk/code-90712000.html"
+            }
+          },
+          {
+            "id": 47,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71510000",
+              "description": "Site-investigation services",
+              "uri": "http://cpv.data.ac.uk/code-71510000.html"
+            }
+          },
+          {
+            "id": 48,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "79400000",
+              "description": "Business and management consultancy and related services",
+              "uri": "http://cpv.data.ac.uk/code-79400000.html"
+            }
+          },
+          {
+            "id": 49,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71315000",
+              "description": "Building services",
+              "uri": "http://cpv.data.ac.uk/code-71315000.html"
+            }
+          },
+          {
+            "id": 50,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71311000",
+              "description": "Civil engineering consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71311000.html"
+            }
+          },
+          {
+            "id": 51,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90711500",
+              "description": "Environmental monitoring other than for construction",
+              "uri": "http://cpv.data.ac.uk/code-90711500.html"
+            }
+          },
+          {
+            "id": 52,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71800000",
+              "description": "Consulting services for water-supply and waste consultancy",
+              "uri": "http://cpv.data.ac.uk/code-71800000.html"
+            }
+          },
+          {
+            "id": 53,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90000000",
+              "description": "Sewage, refuse, cleaning and environmental services",
+              "uri": "http://cpv.data.ac.uk/code-90000000.html"
+            }
+          },
+          {
+            "id": 54,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71327000",
+              "description": "Load-bearing structure design services",
+              "uri": "http://cpv.data.ac.uk/code-71327000.html"
+            }
+          },
+          {
+            "id": 55,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71600000",
+              "description": "Technical testing, analysis and consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71600000.html"
+            }
+          },
+          {
+            "id": 56,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "73210000",
+              "description": "Research consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-73210000.html"
+            }
+          },
+          {
+            "id": 57,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90711300",
+              "description": "Environmental indicators analysis other than for construction",
+              "uri": "http://cpv.data.ac.uk/code-90711300.html"
+            }
+          },
+          {
+            "id": 58,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71311200",
+              "description": "Transport systems consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71311200.html"
+            }
+          },
+          {
+            "id": 59,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71621000",
+              "description": "Technical analysis or consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71621000.html"
+            }
+          },
+          {
+            "id": 60,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71335000",
+              "description": "Engineering studies",
+              "uri": "http://cpv.data.ac.uk/code-71335000.html"
+            }
+          },
+          {
+            "id": 61,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71540000",
+              "description": "Construction management services",
+              "uri": "http://cpv.data.ac.uk/code-71540000.html"
+            }
+          },
+          {
+            "id": 62,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71322000",
+              "description": "Engineering design services for the construction of civil engineering works",
+              "uri": "http://cpv.data.ac.uk/code-71322000.html"
+            }
+          },
+          {
+            "id": 63,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90711400",
+              "description": "Environmental Impact Assessment (EIA) services other than for construction",
+              "uri": "http://cpv.data.ac.uk/code-90711400.html"
+            }
+          },
+          {
+            "id": 64,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72313000",
+              "description": "Data capture services",
+              "uri": "http://cpv.data.ac.uk/code-72313000.html"
+            }
+          },
+          {
+            "id": 65,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72314000",
+              "description": "Data collection and collation services",
+              "uri": "http://cpv.data.ac.uk/code-72314000.html"
+            }
+          },
+          {
+            "id": 66,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72300000",
+              "description": "Data services",
+              "uri": "http://cpv.data.ac.uk/code-72300000.html"
+            }
+          },
+          {
+            "id": 67,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71322100",
+              "description": "Quantity surveying services for civil engineering works",
+              "uri": "http://cpv.data.ac.uk/code-71322100.html"
+            }
+          },
+          {
+            "id": 68,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71328000",
+              "description": "Verification of load-bearing structure design services",
+              "uri": "http://cpv.data.ac.uk/code-71328000.html"
+            }
+          },
+          {
+            "id": 69,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71324000",
+              "description": "Quantity surveying services",
+              "uri": "http://cpv.data.ac.uk/code-71324000.html"
+            }
+          },
+          {
+            "id": 70,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71311220",
+              "description": "Highways engineering services",
+              "uri": "http://cpv.data.ac.uk/code-71311220.html"
+            }
+          },
+          {
+            "id": 71,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "60112000",
+              "description": "Public road transport services",
+              "uri": "http://cpv.data.ac.uk/code-60112000.html"
+            }
+          },
+          {
+            "id": 72,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "73000000",
+              "description": "Research and development services and related consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-73000000.html"
+            }
+          },
+          {
+            "id": 73,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71310000",
+              "description": "Consultative engineering and construction services",
+              "uri": "http://cpv.data.ac.uk/code-71310000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 22845000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 30460000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": null,
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-10-25T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 4,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Aecom"
+          },
+          {
+            "id": "2",
+            "name": "Project Centre Limited"
+          },
+          {
+            "id": "3",
+            "name": "RPS Consulting Services Ltd"
+          },
+          {
+            "id": "4",
+            "name": "SYSTRA"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2023-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "5025ecea9850935cdec8b59119f8ed6e",
+        "name": "Supply Hertfordshire"
+      },
+      "awards": [
+        {
+          "id": "ebfa8357-d9d1-4f70-9344-00fc0817739b",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-23T00:00:00Z",
+          "value": {
+            "amount": 30460000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Aecom"
+            },
+            {
+              "id": "2",
+              "name": "Project Centre Limited"
+            },
+            {
+              "id": "3",
+              "name": "RPS Consulting Services Ltd"
+            },
+            {
+              "id": "4",
+              "name": "SYSTRA"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2023-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

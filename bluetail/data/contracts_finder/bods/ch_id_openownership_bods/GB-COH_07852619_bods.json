@@ -1,0 +1,163 @@
+[
+    {
+        "statementID": "openownership-register-9974018465131695147",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "PEARTREE1 LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "07852619"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/07852619",
+                "uri": "https://opencorporates.com/companies/gb/07852619"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9709367e4ebf3405c1392",
+                "uri": "http://register.openownership.org/entities/59b9709367e4ebf3405c1392"
+            }
+        ],
+        "foundingDate": "2011-11-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "The University Of Northampton, Green Street, Northampton, NN1 1SY",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15853393143346990998",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-01-02",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9974018465131695147"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-10528680754272501427"
+        },
+        "interests": [
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2018-01-02"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6265352745695910268",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-01",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-9974018465131695147"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-4948986764510220371"
+        },
+        "interests": [
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control",
+                "startDate": "2016-07-01"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-10528680754272501427",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Sarudzai Margaret Chinaka"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07852619/persons-with-significant-control/individual/hf4rTKVeIdzPhbkDb-e5qAWgy-c"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5ab989559dfc3fae180b1080",
+                "uri": "http://register.openownership.org/entities/5ab989559dfc3fae180b1080"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1986-07-01",
+        "addresses": [
+            {
+                "address": "The University Of Northampton, Green Street, Northampton, NN1 1SY"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-4948986764510220371",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Tatenda (Billy) Chinaka"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/07852619/persons-with-significant-control/individual/ptOJrnZRvvXClhC9W_ZE0754KqE"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9709367e4ebf3405c139e",
+                "uri": "http://register.openownership.org/entities/59b9709367e4ebf3405c139e"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "Zimbabwe",
+                "code": "ZW"
+            }
+        ],
+        "birthDate": "1980-05-01",
+        "addresses": [
+            {
+                "address": "The University Of Northampton, Green Street, Northampton, NN1 1SY"
+            }
+        ]
+    }
+]

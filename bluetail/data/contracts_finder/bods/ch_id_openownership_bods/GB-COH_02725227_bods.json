@@ -1,0 +1,103 @@
+[
+    {
+        "statementID": "openownership-register-10989392715121338328",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "HODGSON SAYERS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02725227"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02725227",
+                "uri": "https://opencorporates.com/companies/gb/02725227"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d40067e4ebf340e4f7e8",
+                "uri": "http://register.openownership.org/entities/59b9d40067e4ebf340e4f7e8"
+            }
+        ],
+        "foundingDate": "1992-06-23",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Unit 15 Tanfield Lea (North), Ind Est, Tanfield Lea, Stanley, Durham, DH9 9NX",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15460813082314979780",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-10989392715121338328"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-6693488789597341070"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6693488789597341070",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "William Hodgson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/02725227/persons-with-significant-control/individual/_rpE0UHvvFbvagNFMbZaqsrPmQc"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9d40067e4ebf340e4f7fa",
+                "uri": "http://register.openownership.org/entities/59b9d40067e4ebf340e4f7fa"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1952-09-01",
+        "addresses": [
+            {
+                "address": "Unit 15 Tanfield Lea (North), Ind Est, Tanfield Lea, Stanley, Durham, DH9 9NX"
+            }
+        ]
+    }
+]

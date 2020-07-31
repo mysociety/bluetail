@@ -1,0 +1,119 @@
+[
+    {
+        "statementID": "openownership-register-18752982448891100",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "EMBLETON HALL DAIRIES LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01820846"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01820846",
+                "uri": "https://opencorporates.com/companies/gb/01820846"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9763d67e4ebf34077f6e3",
+                "uri": "http://register.openownership.org/entities/59b9763d67e4ebf34077f6e3"
+            }
+        ],
+        "foundingDate": "1984-05-31",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Murton Hall Farm, Hurworth Burn, Wingate, Co Durham, TS28 5NU",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-12809269860298198664",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-18752982448891100"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-9895667699365430370"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-9895667699365430370",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Michael Thompson"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01820846/persons-with-significant-control/individual/hp66NjV_GSjjfuONESTALI5zk10"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9763d67e4ebf34077f6f0",
+                "uri": "http://register.openownership.org/entities/59b9763d67e4ebf34077f6f0"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1938-11-01",
+        "addresses": [
+            {
+                "address": "The Cottage, Hurworth Burn, Wingate, TS28 5NU"
+            }
+        ]
+    }
+]

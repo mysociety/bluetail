@@ -1,0 +1,213 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/7b732754-1f1a-452d-a147-e8ae2de0636a.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-13T08:51:15Z",
+  "publisher": {
+    "name": "DEPARTMENT FOR EDUCATION",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-43b4ef92-c2a8-4948-ba3f-c98fffe8986e",
+      "id": "ocds-b5fd17-43b4ef92-c2a8-4948-ba3f-c98fffe8986e-358625-rd1002466",
+      "date": "2019-05-03T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "feb946bb523166dfae338a200107245a",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/QfDr2jb7",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "DEPARTMENT FOR EDUCATION",
+          "address": {
+            "streetAddress": "Cheylesmore House, Ground Floor South Building Quinton Road",
+            "locality": "Coventry",
+            "region": null,
+            "postalCode": "CV1 2WT",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Chris Davies",
+            "email": "Chris.davies@education.gov.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Cathy Renwood Consultancy",
+          "address": {
+            "streetAddress": "14 Pacific Heights, 79 Park Road, Beckenham, BR3 1QQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "09118728",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Schools and Early Education Development Services Ltd",
+          "address": {
+            "streetAddress": "41 Pineridge Drive, Kidderminster, Worcestershire, DY11 6BQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-43b4ef92-c2a8-4948-ba3f-c98fffe8986e-rd1002466",
+        "title": "Early Years Expert STA-0233",
+        "description": "The Standards and Testing Agency (STA) procured two Early Years Experts to provide independent expertise for the development of the Reception Baseline Assessment between 1 September 2019 and 31 January 2022.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "80000000",
+              "description": "Education and training services",
+              "uri": "http://cpv.data.ac.uk/code-80000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 70000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-07-19T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Cathy Renwood Consultancy"
+          },
+          {
+            "id": "2",
+            "name": "Schools and Early Education Development Services Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-09-02T00:00:00Z",
+          "endDate": "2022-01-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "feb946bb523166dfae338a200107245a",
+        "name": "DEPARTMENT FOR EDUCATION"
+      },
+      "awards": [
+        {
+          "id": "a1f33461-e030-40cb-af44-c44f092e0d91",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-08-01T00:00:00Z",
+          "value": {
+            "amount": 70000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Cathy Renwood Consultancy"
+            },
+            {
+              "id": "2",
+              "name": "Schools and Early Education Development Services Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-09-02T00:00:00Z",
+            "endDate": "2022-01-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

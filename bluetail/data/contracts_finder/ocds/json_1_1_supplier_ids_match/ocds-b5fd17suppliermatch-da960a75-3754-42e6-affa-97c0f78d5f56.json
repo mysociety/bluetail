@@ -1,0 +1,231 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/edd56631-0af5-46b1-b4ed-4367ab83fe35.json",
+  "version": "1.1",
+  "publishedDate": "2020-01-30T10:37:25Z",
+  "publisher": {
+    "name": "REDCAR &amp; CLEVELAND BOROUGH COUNCIL",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-da960a75-3754-42e6-affa-97c0f78d5f56",
+      "id": "ocds-b5fd17-da960a75-3754-42e6-affa-97c0f78d5f56-340494-dn446457",
+      "date": "2019-11-15T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "dfebe33f7175570c9c56c51bac29480c",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-LAE",
+            "id": "RCC",
+            "uri": "https://local-authority-eng.register.gov.uk/record/RCC",
+            "legalName": null
+          },
+          "name": "REDCAR &amp; CLEVELAND BOROUGH COUNCIL",
+          "address": {
+            "streetAddress": "Redcar &amp; Cleveland House,Kirkleatham Street ",
+            "locality": "REDCAR",
+            "region": null,
+            "postalCode": "TS101RT",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Nicola Walker",
+            "email": "procurement@redcar-cleveland.gov.uk",
+            "telephone": "01642 774774",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "06477162",
+            "scheme": "GB-COH",
+            "legalName": "THIRTEEN HOUSING GROUP LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "THIRTEEN HOUSING GROUP LIMITED",
+          "address": {
+            "streetAddress": "2 Hudson Quay,Windward Way\nMIDDLESBROUGH\nCleveland\nTS2 1QG\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "IP19059R",
+            "scheme": "GB-COH",
+            "legalName": "SANCTUARY HOUSING ASSOCIATION"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "SANCTUARY HOUSING ASSOCIATION",
+          "address": {
+            "streetAddress": "Chamber Court,Castle Street\nWORCESTER\nWorcestershire\nWR1 3ZQ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-da960a75-3754-42e6-affa-97c0f78d5f56-dn446457",
+        "title": "Housing Related Support Framework",
+        "description": "Framework of Providers for the Provision of a Housing Related Support Service",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "70333000",
+              "description": "Housing services",
+              "uri": "http://cpv.data.ac.uk/code-70333000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "98000000",
+              "description": "Other community, social and personal services",
+              "uri": "http://cpv.data.ac.uk/code-98000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "limited",
+        "procurementMethodDetails": "Competitive quotation (non-OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-29T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "THIRTEEN HOUSING GROUP LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "SANCTUARY HOUSING ASSOCIATION"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-02-01T00:00:00Z",
+          "endDate": "2024-01-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "dfebe33f7175570c9c56c51bac29480c",
+        "name": "REDCAR &amp; CLEVELAND BOROUGH COUNCIL"
+      },
+      "awards": [
+        {
+          "id": "008c6b1b-7bc5-403a-bcee-c35ee67264d5",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-01-21T00:00:00Z",
+          "value": {
+            "amount": 200000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "THIRTEEN HOUSING GROUP LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "SANCTUARY HOUSING ASSOCIATION"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-02-01T00:00:00Z",
+            "endDate": "2024-01-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

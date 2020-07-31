@@ -1,0 +1,525 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/36ef3821-7127-4897-98c8-96b0c4a0db1a.json",
+  "version": "1.1",
+  "publishedDate": "2020-02-28T10:13:18Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-399bfdcb-a9b0-45c3-bdc9-446b2ae95af2",
+      "id": "ocds-b5fd17-399bfdcb-a9b0-45c3-bdc9-446b2ae95af2-346676-lgss001-dn243347-77604912",
+      "date": "2019-09-04T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "be2da13b3e2ecf1edac0b68901d85135",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Cambridgeshire County Council",
+          "address": {
+            "streetAddress": "Shire Hall Castle Hill",
+            "locality": "Cambridge",
+            "region": null,
+            "postalCode": "CB3 0AP",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "Contracts@Milton-keynes.gov.uk",
+            "telephone": "",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1991104526",
+            "scheme": "GB-CQC",
+            "legalName": "Christies Care Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Christies Care Ltd",
+          "address": {
+            "streetAddress": "IP17 1AL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Lin Barnes",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2566401801",
+            "scheme": "GB-CQC",
+            "legalName": "English Rose Care Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "English Rose Care Ltd",
+          "address": {
+            "streetAddress": "LE1 1PL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Tendai Zveushe",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "35",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-2306659186",
+            "scheme": "GB-CQC",
+            "legalName": "A Class Care"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "A Class Care",
+          "address": {
+            "streetAddress": "CB25 9LY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Mercy Canning",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "52",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-4236981689",
+            "scheme": "GB-CQC",
+            "legalName": "Trinity Carestaff Solutions Limited"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Trinity Carestaff Solutions Limited",
+          "address": {
+            "streetAddress": "IP33 1HP",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Lokesh Swamy",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "56",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-108764336",
+            "scheme": "GB-CQC",
+            "legalName": "K2 Care Limited"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "K2 Care Limited",
+          "address": {
+            "streetAddress": "PE1 3HG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Saqib Rehman",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "71",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3774424565",
+            "scheme": "GB-CQC",
+            "legalName": "Dunamis Social Care"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Dunamis Social Care",
+          "address": {
+            "streetAddress": "NN8 4NL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Ms Tsitsi Mwadada",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "77",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3861653274",
+            "scheme": "GB-CQC",
+            "legalName": "Quality Home Care Anglia Ltd"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Quality Home Care Anglia Ltd",
+          "address": {
+            "streetAddress": "CB6 1RA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr ian Allan",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "78",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3132551917",
+            "scheme": "GB-CQC",
+            "legalName": "Aitop Healthcare Limited"
+          },
+          "sme": true,
+          "vco": true,
+          "name": "Aitop Healthcare Limited",
+          "address": {
+            "streetAddress": "NN18 8PY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mrs Portia Badza",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "81",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3641099988",
+            "scheme": "GB-CQC",
+            "legalName": "Better Home Care"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Better Home Care",
+          "address": {
+            "streetAddress": "CB23 7DY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr Percy Mhishi",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "85",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "07852619",
+            "scheme": "GB-COH",
+            "legalName": "PEARTREE1 LTD"
+          },
+          "sme": true,
+          "vco": false,
+          "name": "PEARTREE1 LTD",
+          "address": {
+            "streetAddress": "NN1 1SY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "MRS MARGARET Chinaka",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-399bfdcb-a9b0-45c3-bdc9-446b2ae95af2-lgss001-dn243347-77604912",
+        "title": "Cambridgeshire County Council Home and Community Support Services",
+        "description": "Cambridgeshire County Council and Cambridgeshire and Peterborough Clinical Commissioning Group (CCG) are tendered for home care and community support services for: - All residents of Cambridgeshire who are identified as having eligible social care needs, and; - All residents of Cambridgeshire and Royston in Hertfordshire where individuals are registered with a Cambridgeshire GP, and are eligible for NHS fully funded Continuing Health Care (CHC) and Joint Funded Health Care from Cambridgeshire and Peterborough CCG. The Commissioners have set up a &#039;pseudo-Dynamic Purchasing System&#039; (DPS) under the &#039;Light Touch&#039; provisions of the Public Contracts Regulations 2015. This means that all Potential Providers that meet the minimum requirements of this ITT will be accepted on to the DPS. The DPS will then re-open every three months (or at other intervals at the Commissioners&#039; discretion) for new providers to apply or previously unsuccessful providers to re-apply. The Commissioners will call off the DPS in accordance with the procedures set out in the ITT and Contract documentation.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 300000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 300000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-10-02T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 10,
+        "tenderers": [
+          {
+            "id": "12",
+            "name": "Christies Care Ltd"
+          },
+          {
+            "id": "28",
+            "name": "English Rose Care Ltd"
+          },
+          {
+            "id": "35",
+            "name": "A Class Care"
+          },
+          {
+            "id": "52",
+            "name": "Trinity Carestaff Solutions Limited"
+          },
+          {
+            "id": "56",
+            "name": "K2 Care Limited"
+          },
+          {
+            "id": "71",
+            "name": "Dunamis Social Care"
+          },
+          {
+            "id": "77",
+            "name": "Quality Home Care Anglia Ltd"
+          },
+          {
+            "id": "78",
+            "name": "Aitop Healthcare Limited"
+          },
+          {
+            "id": "81",
+            "name": "Better Home Care"
+          },
+          {
+            "id": "85",
+            "name": "PEARTREE1 LTD"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-10-03T00:00:00Z",
+          "endDate": "2027-10-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "be2da13b3e2ecf1edac0b68901d85135",
+        "name": "Cambridgeshire County Council"
+      },
+      "awards": [
+        {
+          "id": "b8547ea8-31e5-43ab-8805-053c928e580c",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-10-03T00:00:00Z",
+          "value": {
+            "amount": 300000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "12",
+              "name": "Christies Care Ltd"
+            },
+            {
+              "id": "28",
+              "name": "English Rose Care Ltd"
+            },
+            {
+              "id": "35",
+              "name": "A Class Care"
+            },
+            {
+              "id": "52",
+              "name": "Trinity Carestaff Solutions Limited"
+            },
+            {
+              "id": "56",
+              "name": "K2 Care Limited"
+            },
+            {
+              "id": "71",
+              "name": "Dunamis Social Care"
+            },
+            {
+              "id": "77",
+              "name": "Quality Home Care Anglia Ltd"
+            },
+            {
+              "id": "78",
+              "name": "Aitop Healthcare Limited"
+            },
+            {
+              "id": "81",
+              "name": "Better Home Care"
+            },
+            {
+              "id": "85",
+              "name": "PEARTREE1 LTD"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-10-04T00:00:00Z",
+            "endDate": "2027-10-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

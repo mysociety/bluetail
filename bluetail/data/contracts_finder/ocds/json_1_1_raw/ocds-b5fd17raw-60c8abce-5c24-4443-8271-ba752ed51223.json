@@ -1,0 +1,1520 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/91391271-6db7-4bbf-9fe3-094c7c790a99.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-11T17:45:07Z",
+  "publisher": {
+    "name": "MILLSTREAM ASSOCIATES LTD",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-60c8abce-5c24-4443-8271-ba752ed51223",
+      "id": "ocds-b5fd17-60c8abce-5c24-4443-8271-ba752ed51223-358350-mt219675",
+      "date": "2019-10-01T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "5cee0187cd68410476e09fa91d5686c7",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Octavia Housing (on behalf of The Connected Partnership)",
+          "address": {
+            "streetAddress": "Octavia Housing, Emily House, 202-208 Kensal Road ",
+            "locality": "London",
+            "region": null,
+            "postalCode": "W10 5BN",
+            "countryName": "\n              England\n"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "jerusha.myles@curriebrown.com",
+            "telephone": "+44 2070619000",
+            "faxNumber": null,
+            "uri": "http://www.octaviahousing.org.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PRP",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MEPK Architects",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Cartwright Pickard",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Broadway Malyan",
+          "address": {
+            "streetAddress": ", Birmingham",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Hunters",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "calfordseaden LLP",
+          "address": {
+            "streetAddress": ", Orpington",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Levitt Bernstein",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Tranter McManus Architects",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Fraser Brown MacKenna Architects",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Alan Camp Architects",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Pollard Thomas Edwards",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Rock Townsend Architects LLP",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Haworth Tompkins Ltd",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Stockwool",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Churchill Hui Ltd",
+          "address": {
+            "streetAddress": ", Sunbury",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Airey Miller Ltd",
+          "address": {
+            "streetAddress": ", Sevenoaks",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Silver",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Rund Partnership Limited",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Pulse Consult Limited",
+          "address": {
+            "streetAddress": ", Nottingham",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Baily Garner LLP",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Frankham Consultancy Group Limited",
+          "address": {
+            "streetAddress": ", Sidcup",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BPP Construction Consultants LLP",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MDA Consulting Ltd",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "26",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "rg+p",
+          "address": {
+            "streetAddress": ", Leicester",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "27",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Potter Raper Ltd",
+          "address": {
+            "streetAddress": ", Beckenham",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "28",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BPM",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "29",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Arcadis LLP",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "30",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Martin Arnold Limited",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "31",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "AECOM",
+          "address": {
+            "streetAddress": ", Peterborough",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "32",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Lambert Smith Hampton Group Limited",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "33",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Pellings LLP",
+          "address": {
+            "streetAddress": ", Bromley",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "36",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Madlins LLP",
+          "address": {
+            "streetAddress": ", Woking",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "38",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Drake &amp; Reynolds",
+          "address": {
+            "streetAddress": ", Cobham",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "39",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "John Rowan and Partners",
+          "address": {
+            "streetAddress": ", London",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-60c8abce-5c24-4443-8271-ba752ed51223-mt219675",
+        "title": "Connected Consultants Framework",
+        "description": "Connected (comprising Octavia Housing, Origin Housing &amp; Shepherd&#039;s Bush Housing Group) wish to establish a 3 Lot Consultancy Framework of Architects, Employer&#039;s Agents (inc. Project Managers &amp; Cost Consultants) and Clerk of Works to provide construction consultancy services during their c.450m GBP 4-year development programme (c.200m GBP of this value will be attributed to Connected&#039;s projects, c.150m GBP to S106 projects (for Lot 2 &amp; Lot 3 only) and c.100m GBP to additional framework users (see VI.3)).Connected focuses primarily on new build accommodation for private rent, private sale, intermediate, shared ownership and affordable rent through both Connected-led and Section 106 schemes.  They also deliver regeneration schemes.  Connected produce new homes using a variety of procurement routes including works contracts, development agreements and joint ventures.Typical project schemes range from c.4.5m GBP to c.15m GBP in value although they can also be outside of this range.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71000000",
+              "description": "Architectural, construction, engineering and inspection services",
+              "uri": "http://cpv.data.ac.uk/code-71000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1800000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Restricted procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-05T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 34,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "PRP"
+          },
+          {
+            "id": "2",
+            "name": "MEPK Architects"
+          },
+          {
+            "id": "3",
+            "name": "Cartwright Pickard"
+          },
+          {
+            "id": "4",
+            "name": "Broadway Malyan"
+          },
+          {
+            "id": "5",
+            "name": "Hunters"
+          },
+          {
+            "id": "6",
+            "name": "calfordseaden LLP"
+          },
+          {
+            "id": "7",
+            "name": "Levitt Bernstein"
+          },
+          {
+            "id": "8",
+            "name": "Tranter McManus Architects"
+          },
+          {
+            "id": "9",
+            "name": "Fraser Brown MacKenna Architects"
+          },
+          {
+            "id": "10",
+            "name": "Alan Camp Architects"
+          },
+          {
+            "id": "11",
+            "name": "Pollard Thomas Edwards"
+          },
+          {
+            "id": "12",
+            "name": "Rock Townsend Architects LLP"
+          },
+          {
+            "id": "13",
+            "name": "Haworth Tompkins Ltd"
+          },
+          {
+            "id": "14",
+            "name": "Stockwool"
+          },
+          {
+            "id": "15",
+            "name": "Churchill Hui Ltd"
+          },
+          {
+            "id": "16",
+            "name": "Airey Miller Ltd"
+          },
+          {
+            "id": "17",
+            "name": "Silver"
+          },
+          {
+            "id": "19",
+            "name": "Rund Partnership Limited"
+          },
+          {
+            "id": "20",
+            "name": "Pulse Consult Limited"
+          },
+          {
+            "id": "21",
+            "name": "Baily Garner LLP"
+          },
+          {
+            "id": "22",
+            "name": "Frankham Consultancy Group Limited"
+          },
+          {
+            "id": "24",
+            "name": "BPP Construction Consultants LLP"
+          },
+          {
+            "id": "25",
+            "name": "MDA Consulting Ltd"
+          },
+          {
+            "id": "26",
+            "name": "rg+p"
+          },
+          {
+            "id": "27",
+            "name": "Potter Raper Ltd"
+          },
+          {
+            "id": "28",
+            "name": "BPM"
+          },
+          {
+            "id": "29",
+            "name": "Arcadis LLP"
+          },
+          {
+            "id": "30",
+            "name": "Martin Arnold Limited"
+          },
+          {
+            "id": "31",
+            "name": "AECOM"
+          },
+          {
+            "id": "32",
+            "name": "Lambert Smith Hampton Group Limited"
+          },
+          {
+            "id": "33",
+            "name": "Pellings LLP"
+          },
+          {
+            "id": "36",
+            "name": "Madlins LLP"
+          },
+          {
+            "id": "38",
+            "name": "Drake &amp; Reynolds"
+          },
+          {
+            "id": "39",
+            "name": "John Rowan and Partners"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-05-04T00:00:00Z",
+          "endDate": "2024-05-03T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "5cee0187cd68410476e09fa91d5686c7",
+        "name": "Octavia Housing (on behalf of The Connected Partnership)"
+      },
+      "awards": [
+        {
+          "id": "76f9bad8-9d62-49b0-b1ab-a8a5058268f0",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-04T00:00:00Z",
+          "value": {
+            "amount": 1800000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "PRP"
+            },
+            {
+              "id": "2",
+              "name": "MEPK Architects"
+            },
+            {
+              "id": "3",
+              "name": "Cartwright Pickard"
+            },
+            {
+              "id": "4",
+              "name": "Broadway Malyan"
+            },
+            {
+              "id": "5",
+              "name": "Hunters"
+            },
+            {
+              "id": "6",
+              "name": "calfordseaden LLP"
+            },
+            {
+              "id": "7",
+              "name": "Levitt Bernstein"
+            },
+            {
+              "id": "8",
+              "name": "Tranter McManus Architects"
+            },
+            {
+              "id": "9",
+              "name": "Fraser Brown MacKenna Architects"
+            },
+            {
+              "id": "10",
+              "name": "Alan Camp Architects"
+            },
+            {
+              "id": "11",
+              "name": "Pollard Thomas Edwards"
+            },
+            {
+              "id": "12",
+              "name": "Rock Townsend Architects LLP"
+            },
+            {
+              "id": "13",
+              "name": "Haworth Tompkins Ltd"
+            },
+            {
+              "id": "14",
+              "name": "Stockwool"
+            },
+            {
+              "id": "15",
+              "name": "Churchill Hui Ltd"
+            },
+            {
+              "id": "16",
+              "name": "Airey Miller Ltd"
+            },
+            {
+              "id": "17",
+              "name": "Silver"
+            },
+            {
+              "id": "19",
+              "name": "Rund Partnership Limited"
+            },
+            {
+              "id": "20",
+              "name": "Pulse Consult Limited"
+            },
+            {
+              "id": "21",
+              "name": "Baily Garner LLP"
+            },
+            {
+              "id": "22",
+              "name": "Frankham Consultancy Group Limited"
+            },
+            {
+              "id": "24",
+              "name": "BPP Construction Consultants LLP"
+            },
+            {
+              "id": "25",
+              "name": "MDA Consulting Ltd"
+            },
+            {
+              "id": "26",
+              "name": "rg+p"
+            },
+            {
+              "id": "27",
+              "name": "Potter Raper Ltd"
+            },
+            {
+              "id": "28",
+              "name": "BPM"
+            },
+            {
+              "id": "29",
+              "name": "Arcadis LLP"
+            },
+            {
+              "id": "30",
+              "name": "Martin Arnold Limited"
+            },
+            {
+              "id": "31",
+              "name": "AECOM"
+            },
+            {
+              "id": "32",
+              "name": "Lambert Smith Hampton Group Limited"
+            },
+            {
+              "id": "33",
+              "name": "Pellings LLP"
+            },
+            {
+              "id": "36",
+              "name": "Madlins LLP"
+            },
+            {
+              "id": "38",
+              "name": "Drake &amp; Reynolds"
+            },
+            {
+              "id": "39",
+              "name": "John Rowan and Partners"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-04T00:00:00Z",
+            "endDate": "2024-05-03T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

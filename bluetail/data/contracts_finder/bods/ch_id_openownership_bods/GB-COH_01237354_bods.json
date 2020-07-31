@@ -1,0 +1,296 @@
+[
+    {
+        "statementID": "openownership-register-14154816739124865586",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "OWEN TAYLOR AND SONS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "01237354"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/01237354",
+                "uri": "https://opencorporates.com/companies/gb/01237354"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b950f867e4ebf340c4a09e",
+                "uri": "http://register.openownership.org/entities/59b950f867e4ebf340c4a09e"
+            }
+        ],
+        "foundingDate": "1975-12-12",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "27 Main Rd., Leabrooks, Derby, DE55 1LA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-560961333363104779",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-03-29",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14154816739124865586"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-6696518267348006748"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-03-29"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-03-29"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2018-03-29"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-4656235755618716887",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14154816739124865586"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15644297601069045441"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-03-29"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-50-to-75-percent",
+                "share": {
+                    "minimum": 50,
+                    "maximum": 75,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": true
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-03-29"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2018-03-29"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-5066193850216958",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-04-06",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-14154816739124865586"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-14522156533383666884"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-03-29"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-25-to-50-percent",
+                "share": {
+                    "minimum": 25,
+                    "maximum": 50,
+                    "exclusiveMinimum": true,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-04-06",
+                "endDate": "2018-03-29"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-04-06",
+                "endDate": "2018-03-29"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-6696518267348006748",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "OWEN TAYLOR AND SONS HOLDINGS LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11277483"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11277483",
+                "uri": "https://opencorporates.com/companies/gb/11277483"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11277483"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5b16a49e9dfc3fae18eb4a7f",
+                "uri": "http://register.openownership.org/entities/5b16a49e9dfc3fae18eb4a7f"
+            }
+        ],
+        "foundingDate": "2018-03-27",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "27 Main Road Leabrooks, Derby, DE55 1LA",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-14522156533383666884",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Vanessa Jane Taylor"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01237354/persons-with-significant-control/individual/fkc6I1-0S3HVvdEoStL_gVVzEBI"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b950f867e4ebf340c4a0ac",
+                "uri": "http://register.openownership.org/entities/59b950f867e4ebf340c4a0ac"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1968-02-01",
+        "addresses": [
+            {
+                "address": "Chapel Farm, Main Road, Pentrich, Ripley, Derbyshire, DE5 3RE"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15644297601069045441",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Richard John Owen Taylor"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/01237354/persons-with-significant-control/individual/BQcSDzUEOnoFCypU48MmvYrt3Dk"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b950f867e4ebf340c4a0b9",
+                "uri": "http://register.openownership.org/entities/59b950f867e4ebf340c4a0b9"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1965-04-01",
+        "addresses": [
+            {
+                "address": "Chapel Farm, Main Road, Pentrich, Ripley, Derbyshire, DE5 3RE",
+                "country": "GB"
+            }
+        ]
+    }
+]

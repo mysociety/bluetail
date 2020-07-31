@@ -1,1 +1,211 @@
-{"uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json", "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/", "version": "1.1", "releases": [{"id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795", "tag": ["tender"], "date": "2019-11-25T00:00:00Z", "ocid": "ocds-b5fd17suppliermatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54", "buyer": {"id": "ed2c3175f8116513d556b92363f36d6b", "name": "ESSEX COUNTY COUNCIL"}, "awards": [{"id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182", "date": "2020-03-31T00:00:00Z", "title": "", "value": {"amount": 1000000, "currency": "GBP"}, "status": "active", "suppliers": [{"id": "1", "name": "TRAVELERS INSURANCE COMPANY LIMITED"}, {"id": "2", "name": "RISK MANAGEMENT PARTNERS LTD."}, {"id": "3", "name": "ZURICH MUNICIPAL"}], "description": "See description of related tender", "contractPeriod": {"endDate": "2023-03-30T00:00:00Z", "startDate": "2020-03-31T00:00:00Z"}}], "tender": {"id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795", "items": [{"id": 1, "description": "See description of related tender.", "classification": {"id": "66510000", "uri": "http://cpv.data.ac.uk/code-66510000.html", "scheme": "CPV", "description": "Insurance services"}}], "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council", "value": {"amount": 2200000, "currency": "GBP"}, "status": "complete", "minValue": {"amount": 1000000, "currency": "GBP"}, "documents": [], "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n", "supplyChain": false, "hasEnquiries": null, "tenderPeriod": {"endDate": "2019-12-09T00:00:00Z"}, "awardCriteria": null, "submissionMethod": null, "xClassifications": {"isSuitableForSme": true, "isSuitableForVco": false, "ojeuContractType": "Services"}, "procurementMethod": "open", "eligibilityCriteria": null, "awardCriteriaDetails": null, "submissionMethodDetails": null, "procurementMethodDetails": "Open procedure (OJEU)", "procurementMethodRationale": "", "numberOfTenderers": 3, "tenderers": [{"id": "1", "name": "TRAVELERS INSURANCE COMPANY LIMITED"}, {"id": "2", "name": "RISK MANAGEMENT PARTNERS LTD."}, {"id": "3", "name": "ZURICH MUNICIPAL"}], "contractPeriod": {"startDate": "2020-03-31T00:00:00Z", "endDate": "2023-03-30T00:00:00Z"}}, "parties": [{"id": "ed2c3175f8116513d556b92363f36d6b", "name": "ESSEX COUNTY COUNCIL", "roles": ["buyer"], "address": {"region": null, "locality": "CHELMSFORD", "postalCode": "CM1 1LX", "countryName": "England", "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road"}, "identifier": {"id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5", "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv", "scheme": "GB-SRS", "legalName": null}, "contactPoint": {"name": "Ben Patterson / Melanie Bailey", "email": "ben.patterson@essex.gov.uk", "faxNumber": null, "telephone": "03330321542"}}, {"id": "1", "sme": false, "vco": false, "name": "TRAVELERS INSURANCE COMPANY LIMITED", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB"}, "identifier": {"id": "01034343", "scheme": "GB-COH", "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"}, "contactPoint": {"name": "Jane Glyn", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": 287807, "currency": "GBP"}}, {"id": "2", "sme": false, "vco": false, "name": "RISK MANAGEMENT PARTNERS LTD.", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB"}, "identifier": {"id": "02989025", "scheme": "GB-COH", "legalName": "RISK MANAGEMENT PARTNERS LTD."}, "contactPoint": {"name": "Jenna Amos", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": 11979, "currency": "GBP"}}, {"id": "3", "sme": false, "vco": false, "name": "ZURICH MUNICIPAL", "roles": ["supplier", "tenderer"], "address": {"region": "", "locality": "", "postalCode": "", "countryName": "", "streetAddress": "Willow Court,The Orchards\nCARDIFF\nSOUTH GLAMORGAN\nCF14 5ZD\nGB"}, "identifier": {"id": "00732430", "scheme": "GB-COH", "legalName": "ZGEE3 LIMITED"}, "contactPoint": {"name": "", "email": "", "faxNumber": "", "telephone": ""}, "x_awardValue": {"amount": 30000, "currency": "GBP"}}], "language": "en-GB", "initiationType": "tender"}], "publisher": {"uid": null, "uri": "https://www.contractsfinder.service.gov.uk", "name": "ESSEX COUNTY COUNCIL", "scheme": "GB-GOVUK-crown_comercial_service"}, "extensions": ["https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"], "publishedDate": "2020-04-27T11:59:02Z", "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting"}
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/1ada130a-b939-4fd9-a5b3-56b9cfee4e4c.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-27T11:59:02Z",
+  "publisher": {
+    "name": "ESSEX COUNTY COUNCIL",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54",
+      "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-355372-0795",
+      "date": "2019-11-18T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "ed2c3175f8116513d556b92363f36d6b",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/EQQe36T5",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "ESSEX COUNTY COUNCIL",
+          "address": {
+            "streetAddress": "Essex County Council Procurement Services, E3, Zone 4, County Hall, Market Road",
+            "locality": "CHELMSFORD",
+            "region": null,
+            "postalCode": "CM1 1LX",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Ben Patterson / Melanie Bailey",
+            "email": "ben.patterson@essex.gov.uk",
+            "telephone": "03330321542",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "01034343",
+            "scheme": "GB-COH",
+            "legalName": "TRAVELERS INSURANCE COMPANY LIMITED"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TRAVELERS INSURANCE COMPANY LIMITED",
+          "address": {
+            "streetAddress": "61-63 London Road\nREDHILL\nSurrey\nRH1 1NA\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jane Glyn",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 287807
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "02989025",
+            "scheme": "GB-COH",
+            "legalName": "RISK MANAGEMENT PARTNERS LTD."
+          },
+          "sme": false,
+          "vco": false,
+          "name": "RISK MANAGEMENT PARTNERS LTD.",
+          "address": {
+            "streetAddress": "67 Lombard Street\nLONDON\nEC3V 9LJ\nGB",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Jenna Amos",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 11979
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b7f761bd-0f2c-444a-bd8f-a1c4b5bd1d54-0795",
+        "title": "Provision of Insurance services, including Claims Handling and Risk Management Services (excluding Broking Services) for Essex County Council",
+        "description": "This notice is a contract award notice for ECC Provision of Insurance services.\r\nThe services are\r\nLOT 1 - Material Damage/Business Interruption, \r\nLOT 2 - Contractor&#039;s All Risks, \r\nLOT 3 - Hired in Plant, \r\nLOT 4 - Computer, \r\nLOT 5 - Schools&#039; Offsite Activities \r\nLOT 6 - Motor Fleet - General Vehicles. \r\n",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "66510000",
+              "description": "Insurance services",
+              "uri": "http://cpv.data.ac.uk/code-66510000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 1000000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 2200000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-09T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+          },
+          {
+            "id": "2",
+            "name": "RISK MANAGEMENT PARTNERS LTD."
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-31T00:00:00Z",
+          "endDate": "2023-03-30T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "ed2c3175f8116513d556b92363f36d6b",
+        "name": "ESSEX COUNTY COUNCIL"
+      },
+      "awards": [
+        {
+          "id": "2f18c8ce-2308-4ed9-b2c4-df622fcfc182",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-03-31T00:00:00Z",
+          "value": {
+            "amount": 1000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "TRAVELERS INSURANCE COMPANY LIMITED"
+            },
+            {
+              "id": "2",
+              "name": "RISK MANAGEMENT PARTNERS LTD."
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-03-31T00:00:00Z",
+            "endDate": "2023-03-30T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

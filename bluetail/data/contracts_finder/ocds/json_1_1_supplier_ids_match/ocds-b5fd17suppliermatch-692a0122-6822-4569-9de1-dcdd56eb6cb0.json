@@ -1,0 +1,446 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/0232b249-7827-4cbf-aaa4-58cb097643fb.json",
+  "version": "1.1",
+  "publishedDate": "2020-04-27T17:45:03Z",
+  "publisher": {
+    "name": "MILLSTREAM ASSOCIATES LTD",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17suppliermatch-692a0122-6822-4569-9de1-dcdd56eb6cb0",
+      "id": "ocds-b5fd17-692a0122-6822-4569-9de1-dcdd56eb6cb0-356003-mt219573",
+      "date": "2019-11-20T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "0fa2aec61f548e8768c9195c90a7b543",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Halton Borough Council",
+          "address": {
+            "streetAddress": "Halton Stadium , Lowerhouse Lane ",
+            "locality": "Widnes",
+            "region": null,
+            "postalCode": "WA8 7DZ",
+            "countryName": "\n              England\n"
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "procurement@halton.gov.uk",
+            "telephone": "+44 3033334300",
+            "faxNumber": null,
+            "uri": "http://www.halton.gov.uk"
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-320350471",
+            "scheme": "GB-CQC",
+            "legalName": "Ferndale Mews"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ferndale Mews",
+          "address": {
+            "streetAddress": ", Widnes",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-135650812",
+            "scheme": "GB-CQC",
+            "legalName": "Halton View Care Home"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Halton View Care Home",
+          "address": {
+            "streetAddress": ", Widnes",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-129266369",
+            "scheme": "GB-CQC",
+            "legalName": "Holmdale"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Holmdale",
+          "address": {
+            "streetAddress": ", Runcorn",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-1475546743",
+            "scheme": "GB-CQC",
+            "legalName": "Maeres House"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Maeres House",
+          "address": {
+            "streetAddress": ", Widnes",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-411390112",
+            "scheme": "GB-CQC",
+            "legalName": "Ryan Care Residential"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ryan Care Residential",
+          "address": {
+            "streetAddress": ", Runcorn",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-126035735",
+            "scheme": "GB-CQC",
+            "legalName": "Smithy Forge"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Smithy Forge",
+          "address": {
+            "streetAddress": ", Runcorn",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-126035751",
+            "scheme": "GB-CQC",
+            "legalName": "Wide Cove"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Wide Cove",
+          "address": {
+            "streetAddress": ", Runcorn",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "1-3531940789",
+            "scheme": "GB-CQC",
+            "legalName": "Widnes Hall"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Widnes Hall",
+          "address": {
+            "streetAddress": ", Widnes",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-692a0122-6822-4569-9de1-dcdd56eb6cb0-mt219573",
+        "title": "Provision of Day, Residential &amp; Nursing Home Care Contract",
+        "description": "Provision of Day, Residential &amp; Nursing Home Care Service",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "85000000",
+              "description": "Health and social work services",
+              "uri": "http://cpv.data.ac.uk/code-85000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 143038,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Award of contract without prior publication of a contract notice",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-01T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 8,
+        "tenderers": [
+          {
+            "id": "5",
+            "name": "Ferndale Mews"
+          },
+          {
+            "id": "7",
+            "name": "Halton View Care Home"
+          },
+          {
+            "id": "8",
+            "name": "Holmdale"
+          },
+          {
+            "id": "9",
+            "name": "Maeres House"
+          },
+          {
+            "id": "11",
+            "name": "Ryan Care Residential"
+          },
+          {
+            "id": "13",
+            "name": "Smithy Forge"
+          },
+          {
+            "id": "15",
+            "name": "Wide Cove"
+          },
+          {
+            "id": "16",
+            "name": "Widnes Hall"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2025-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "0fa2aec61f548e8768c9195c90a7b543",
+        "name": "Halton Borough Council"
+      },
+      "awards": [
+        {
+          "id": "5d187b88-bb2c-4776-ac27-3e0b3395ff71",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-01T00:00:00Z",
+          "value": {
+            "amount": 143038,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "5",
+              "name": "Ferndale Mews"
+            },
+            {
+              "id": "7",
+              "name": "Halton View Care Home"
+            },
+            {
+              "id": "8",
+              "name": "Holmdale"
+            },
+            {
+              "id": "9",
+              "name": "Maeres House"
+            },
+            {
+              "id": "11",
+              "name": "Ryan Care Residential"
+            },
+            {
+              "id": "13",
+              "name": "Smithy Forge"
+            },
+            {
+              "id": "15",
+              "name": "Wide Cove"
+            },
+            {
+              "id": "16",
+              "name": "Widnes Hall"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2025-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

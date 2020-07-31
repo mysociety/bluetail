@@ -1,0 +1,706 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/6b8d0834-7e79-4389-b70a-290ee11199b3.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-29T16:45:31Z",
+  "publisher": {
+    "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-0f8a3b2e-bc22-48c6-bf2d-2e8c1f5e04a8",
+      "id": "ocds-b5fd17-0f8a3b2e-bc22-48c6-bf2d-2e8c1f5e04a8-361382-magrv1-award",
+      "date": "2020-01-03T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "0135a3814dde09c5149c02b6f4769d5a",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "sid4gov.cabinetoffice.gov.uk/f7wS2FgF",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED",
+          "address": {
+            "streetAddress": "Partnership House Hamilton Street",
+            "locality": "Birkenhead",
+            "region": null,
+            "postalCode": "CH41 5AA",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": null,
+            "email": "etenders@rand-associates.co.uk",
+            "telephone": null,
+            "faxNumber": null,
+            "uri": "www.magentaliving.org.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Buxton Water Limited",
+          "address": {
+            "streetAddress": "Skelmersdale",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Citrus Electrical Ltd",
+          "address": {
+            "streetAddress": "Prescot",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CLP Electrical Contractors",
+          "address": {
+            "streetAddress": "Widnes",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Cullen Building Co Ltd",
+          "address": {
+            "streetAddress": "Birkenhead",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "David Rowell Ltd",
+          "address": {
+            "streetAddress": "Southport",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Metro Rod Ltd",
+          "address": {
+            "streetAddress": "Macclesfield",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Neil Hayes Painting &amp; Decorating Ltd",
+          "address": {
+            "streetAddress": "Birkenhead",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Structec (NW) Limited",
+          "address": {
+            "streetAddress": "Kirby",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "North Liverpool Construction Ltd",
+          "address": {
+            "streetAddress": "Liverpool",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Orbis Protect",
+          "address": {
+            "streetAddress": "Uxbridge",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Sovini Property Services",
+          "address": {
+            "streetAddress": "Liverpool",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "TA Browne Contract Services Ltd",
+          "address": {
+            "streetAddress": "Knowsley",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Universal Contract Scaffold Ltd",
+          "address": {
+            "streetAddress": "Birkenhead",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "UPS Building &amp; Maintenance",
+          "address": {
+            "streetAddress": "Skelmersdale",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-0f8a3b2e-bc22-48c6-bf2d-2e8c1f5e04a8-magrv1-award",
+        "title": "Magenta Living - Framework Contracts for Responsive and Void Property Works",
+        "description": "The contracting authority is seeking to enter into a 4-year framework agreement arrangement in respect of 13 lots dealing with responsive and void property maintenance in support of its direct labour operations and directly awarded contracts. The framework will require a minimum of 5 providers to be appointed to each lot. Bidders may submit for multiple lots and works to be undertaken during the duration of the framework will be ordered by means of mini-competition or direct award at the sole discretion of the contracting authority. The ethos of the contracting authority is to encourage SME contractors on the Wirral and in the Merseyside area to become collaborative partners in the on-going development of the services that the contracting authority provides its customers.\r\nTenderers will be required to complete a financial and technical capacity and capability questionnaire, this will establish those that will be selected to have a financial and quality evaluation of their tender.",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "50000000",
+              "description": "Repair and maintenance services",
+              "uri": "http://cpv.data.ac.uk/code-50000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 10600000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodDetails": "Open procedure (OJEU)",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2020-01-31T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": true,
+          "ojeuContractType": "Works"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 14,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Buxton Water Limited"
+          },
+          {
+            "id": "2",
+            "name": "Citrus Electrical Ltd"
+          },
+          {
+            "id": "3",
+            "name": "CLP Electrical Contractors"
+          },
+          {
+            "id": "4",
+            "name": "Cullen Building Co Ltd"
+          },
+          {
+            "id": "5",
+            "name": "David Rowell Ltd"
+          },
+          {
+            "id": "6",
+            "name": "Metro Rod Ltd"
+          },
+          {
+            "id": "7",
+            "name": "Neil Hayes Painting &amp; Decorating Ltd"
+          },
+          {
+            "id": "8",
+            "name": "Structec (NW) Limited"
+          },
+          {
+            "id": "9",
+            "name": "North Liverpool Construction Ltd"
+          },
+          {
+            "id": "10",
+            "name": "Orbis Protect"
+          },
+          {
+            "id": "11",
+            "name": "Sovini Property Services"
+          },
+          {
+            "id": "12",
+            "name": "TA Browne Contract Services Ltd"
+          },
+          {
+            "id": "13",
+            "name": "Universal Contract Scaffold Ltd"
+          },
+          {
+            "id": "14",
+            "name": "UPS Building &amp; Maintenance"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2024-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "0135a3814dde09c5149c02b6f4769d5a",
+        "name": "RAND ASSOCIATES CONSULTANCY SERVICES LIMITED"
+      },
+      "awards": [
+        {
+          "id": "e5233447-84cf-4c04-aa13-7685bd67cbff",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-04-28T00:00:00Z",
+          "value": {
+            "amount": 10600000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Buxton Water Limited"
+            },
+            {
+              "id": "2",
+              "name": "Citrus Electrical Ltd"
+            },
+            {
+              "id": "3",
+              "name": "CLP Electrical Contractors"
+            },
+            {
+              "id": "4",
+              "name": "Cullen Building Co Ltd"
+            },
+            {
+              "id": "5",
+              "name": "David Rowell Ltd"
+            },
+            {
+              "id": "6",
+              "name": "Metro Rod Ltd"
+            },
+            {
+              "id": "7",
+              "name": "Neil Hayes Painting &amp; Decorating Ltd"
+            },
+            {
+              "id": "8",
+              "name": "Structec (NW) Limited"
+            },
+            {
+              "id": "9",
+              "name": "North Liverpool Construction Ltd"
+            },
+            {
+              "id": "10",
+              "name": "Orbis Protect"
+            },
+            {
+              "id": "11",
+              "name": "Sovini Property Services"
+            },
+            {
+              "id": "12",
+              "name": "TA Browne Contract Services Ltd"
+            },
+            {
+              "id": "13",
+              "name": "Universal Contract Scaffold Ltd"
+            },
+            {
+              "id": "14",
+              "name": "UPS Building &amp; Maintenance"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-06-01T00:00:00Z",
+            "endDate": "2024-05-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

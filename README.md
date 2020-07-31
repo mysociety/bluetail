@@ -8,6 +8,13 @@
   * [Running](#running)
     + [Assets](#assets)
     + [Data loading](#data-loading)
+        + [UK data preprocessing](#uk-data-pre-processing)
+          + [Contract process data](#contract-process-data)
+          + [Beneficial ownership data](#beneficial-ownership-data)
+          + [Updating the contract process and beneficial ownership data](#updating-the-contract-proccess-and-beneficial-ownership-data)
+        + [Data ingest](#data-ingest)
+          + [Contracting process and beneficial ownership data](#contracting-process-and-beneficial-ownership-data)
+          + [Additional data sources](#additional-data-sources)
     + [Flags](#flags)
 
 # Bluetail
@@ -171,14 +178,20 @@ UK example data is included and used in Bluetail, but requires pre-processing. I
 
 ##### Contract process data
 
-The example UK raw contract data is not sufficient to support the prototype interfaces. It is pre-processed by the script `data/processing/scripts/get_fix_cf_notices.py`:
-* As raw data from Contracts Finder does not have Companies House identifiers to uniquely identify the companies associated with the contracting processes represented, data is pulled from a source (the OpenOpps database) where a manual matching process has been used to add Companies House identifiers to the OCDS from Contracts Finder.
+The example UK raw contract data is not sufficient to support the prototype interfaces. It is pre-processed using a script from `bluetail/data/contracts_finder/processing/scripts/`; either `get_fix_cf_notices.py` (in which data is pulled directly from the OpenOpps database if access is available) or the standalone script `cf_notices_ocds_api.py` (in which data is accessed more slowly from the Contracts Finder API, and from a csv file of supplier IDs in `bluetail/data/processing/openopps_supplier_matches.csv`).
+
+**NOTE Each script uses the Elasticsearch BODS index created by `create_openownership_elasticsearch_index` as described in [Beneficial ownership data](#beneficial-ownership-data).**
+
+The preprocessing handles the following issues:
+
+* As raw data from Contracts Finder does not have Companies House identifiers to uniquely identify the companies associated with the contracting processes represented,  Companies House identifiers generated from a manual matching process are added to the OCDS from Contracts Finder.
 
 * As no internal identifiers are used in the Contracts Finder OCDS to cross-reference the party from other sections of the release (these identifiers are required by the standard), IDs are generated and added.
 
 * The listed version of the OCDS released from Contracts Finder is incorrect - the preprocessing step uses ocdskit to upgrade the version of the JSON to the version listed.
 
 * Contracts Finder does not release OCDS at the point of tender, only at the point of award, and does not release information about bidders for a given process, so the OCDS is transformed to convert the awarded suppliers into tenderers to demonstrate this earlier stage of the process.
+
 
 The data pre-processing step creates three example datasets under `data/contracts_finder/ocds` with the suffixes **raw**, **supplier_ids_match** and **bodsmatch** under data/contracts_finder. These datasets represent:
 * **raw** All suppliers are included, and Companies House IDs are added where a match is found
@@ -219,6 +232,33 @@ Run the command using:
 
     script/manage get_bods_statements_from_ocds
 
+##### Updating the contract proccess and beneficial ownership data
+
+For `cf_notices_ocds_api.py`, there is a Django management command wrapper that can be called using:
+
+    script/manage get_contracts_finder_ocds_data
+
+The script has options to overwrite the existing example files by OCID, or to search notices between dates from the Contracts Finder API.
+
+To download the raw data again or with different arguments run these commands:
+
+    script/manage get_contracts_finder_ocds_data --dataset=raw
+    script/manage get_contracts_finder_ocds_data --dataset=suppliermatch
+    script/manage get_contracts_finder_ocds_data --dataset=bodsmatch
+
+To update just existing files append `--update`
+
+    script/manage get_contracts_finder_ocds_data --dataset=raw --update
+    script/manage get_contracts_finder_ocds_data --dataset=suppliermatch --update
+
+To clear the existing data first append `--clear`
+
+    script/manage get_contracts_finder_ocds_data --dataset=raw --clear
+
+After updating the local OCDS files, we need to insert it and rerun the BODS data script to download the BODS statements from the Elasticsearch index
+
+    script/manage insert_data bluetail/data/contracts_finder --anonymise
+    script/manage get_bods_statements_from_ocds
 
 #### Data ingest
 

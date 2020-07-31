@@ -1,0 +1,205 @@
+[
+    {
+        "statementID": "openownership-register-15806168904235656163",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "FANNIN (UK) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02663514"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02663514",
+                "uri": "https://opencorporates.com/companies/gb/02663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2663514"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02663514"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b9354067e4ebf34047efc5",
+                "uri": "http://register.openownership.org/entities/59b9354067e4ebf34047efc5"
+            }
+        ],
+        "foundingDate": "1991-11-18",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Dcc Vital Westminster Industrial Estate, Repton Road, Measham, Swadlincote, Derbyshire, DE12 7DT",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-9974013936425534508",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-06-04",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15806168904235656163"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-34051772619840932"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-04"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-06-04"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-06-04"
+            },
+            {
+                "type": "influence-or-control",
+                "details": "significant-influence-or-control-as-firm",
+                "startDate": "2016-06-04"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-34051772619840932",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "B.M. BROWNE (UK HOLDINGS) LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02872126"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02872126"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02872126"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "02872126"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/02872126",
+                "uri": "https://opencorporates.com/companies/gb/02872126"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2872126"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2872126"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "2872126"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b95ebb67e4ebf34004d9ff",
+                "uri": "http://register.openownership.org/entities/59b95ebb67e4ebf34004d9ff"
+            }
+        ],
+        "foundingDate": "1993-11-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Dcc Vital Westminster Industrial Estate, Repton Road, Measham, Swadlincote, Derbyshire, DE12 7DT",
+                "country": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,210 @@
+[
+    {
+        "statementID": "openownership-register-15008953859571174626",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "BROWNELL LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "04495331"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/04495331",
+                "uri": "https://opencorporates.com/companies/gb/04495331"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e1a67e4ebf340256f4c",
+                "uri": "http://register.openownership.org/entities/59b92e1a67e4ebf340256f4c"
+            }
+        ],
+        "foundingDate": "2002-07-25",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Edelman House 1238 High Road, Whetstone, London, N20 0LH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-5960325757509458681",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-08-15",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15008953859571174626"
+        },
+        "interestedParty": {
+            "describedByEntityStatement": "openownership-register-14300609667311130898"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-08-15"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2018-08-15"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2018-08-15"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-1261799291189297823",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2016-07-14",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-15008953859571174626"
+        },
+        "interestedParty": {
+            "describedByPersonStatement": "openownership-register-15190908925166779795"
+        },
+        "interests": [
+            {
+                "type": "shareholding",
+                "details": "ownership-of-shares-75-to-100-percent",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-14",
+                "endDate": "2018-08-15"
+            },
+            {
+                "type": "voting-rights",
+                "details": "voting-rights-75-to-100-percent-as-trust",
+                "share": {
+                    "minimum": 75,
+                    "maximum": 100,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false
+                },
+                "startDate": "2016-07-14",
+                "endDate": "2018-08-15"
+            },
+            {
+                "type": "appointment-of-board",
+                "details": "right-to-appoint-and-remove-directors",
+                "startDate": "2016-07-14",
+                "endDate": "2018-08-15"
+            }
+        ],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    },
+    {
+        "statementID": "openownership-register-14300609667311130898",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MCCN HOLDINGS LTD",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11067997"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11067997",
+                "uri": "https://opencorporates.com/companies/gb/11067997"
+            },
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11067997"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5aba2fa59dfc3fae18abce75",
+                "uri": "http://register.openownership.org/entities/5aba2fa59dfc3fae18abce75"
+            }
+        ],
+        "foundingDate": "2017-11-16",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "Edelman House 1238 High Road, Whetstone, London, N20 0LH",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-15190908925166779795",
+        "statementType": "personStatement",
+        "personType": "knownPerson",
+        "names": [
+            {
+                "type": "individual",
+                "fullName": "Martin Keith Partridge"
+            }
+        ],
+        "identifiers": [
+            {
+                "schemeName": "GB Persons Of Significant Control Register",
+                "id": "/company/04495331/persons-with-significant-control/individual/NR6HHxgWVaivXOgvZwjNSLqwmmo"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/59b92e1a67e4ebf340256f58",
+                "uri": "http://register.openownership.org/entities/59b92e1a67e4ebf340256f58"
+            }
+        ],
+        "nationalities": [
+            {
+                "name": "United Kingdom of Great Britain and Northern Ireland",
+                "code": "GB"
+            }
+        ],
+        "birthDate": "1956-11-01",
+        "addresses": [
+            {
+                "address": "Unit 2, Abbey Road Industrial Estate, Commercial Way, Abbey Road, London, NW10 7XF"
+            }
+        ]
+    }
+]

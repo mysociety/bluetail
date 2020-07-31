@@ -1,0 +1,771 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/4961638b-f46b-4d4e-8322-c78efca76f71.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-18T12:20:16Z",
+  "publisher": {
+    "name": "DUE NORTH LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-06e2eeae-6a8c-4abe-9d31-864dfdfe00a3",
+      "id": "ocds-b5fd17-06e2eeae-6a8c-4abe-9d31-864dfdfe00a3-359546-kirkc001-dn421917-20493693",
+      "date": "2019-11-18T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "530f3d79b1bfa6ddd79269fca0999986",
+          "roles": [
+            "buyer"
+          ],
+          "name": "Kirklees Council",
+          "address": {
+            "streetAddress": "3rd Floor Civic Centre 1 High Street",
+            "locality": "Huddersfield",
+            "region": null,
+            "postalCode": "HD1 2NF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Amanda Greaves",
+            "email": "amanda.greaves@kirklees.gov.uk",
+            "telephone": "+44 1484221000",
+            "faxNumber": null,
+            "uri": "http://www.kirklees.gov.uk"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Acorn Analytical Services Limited",
+          "address": {
+            "streetAddress": "The Old Print Works, Carr Street, Cleckheaton, BD19 5HG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Bradley Environmental Consultants Limited",
+          "address": {
+            "streetAddress": "Parkway House, Wakefield Road, Ossett, Wakefield, WF5 9JD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Inspectas Compliance Ltd",
+          "address": {
+            "streetAddress": "Suite 1.11 Woodhead House, Centre 27 Business Park, Birstall, Leeds, WF17 9TD",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Lucion Environmental",
+          "address": {
+            "streetAddress": "Unit 7, Halifax Court, Dunston, Gateshead, Tyne and Wear, NE11 9JT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Life Environmental Limited",
+          "address": {
+            "streetAddress": "Europa Business Park, Building 44, Room S8, Bird Hall Lane, Cheadle Heath, Stockport SK3 0XA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Nichol Associates",
+          "address": {
+            "streetAddress": "19 Blue Sky Way, Monkton Business Park South, Hebburn, Tyne and Wear, NE31 2EQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Pennington Choices Limited",
+          "address": {
+            "streetAddress": "Brookfield House, Grimsditch Lane (off Tarporley Road), Norcott Brook, Warrington",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Vega Environmental Consultants Ltd",
+          "address": {
+            "streetAddress": "Church Buildings, Station Road, Seaton Delaval, Tyne &amp; Wear, NE25 0PT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Airborne Environmental Consultants Ltd",
+          "address": {
+            "streetAddress": "23 Wheel Forge Way, Ashburton Point, Trafford Park, Manchester, M17 1EH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Challen Commercial Investigations",
+          "address": {
+            "streetAddress": "Suite 6, Ripponden Business Park, Oldham Road, Ripponden, HX6 4FF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Environtec Limited",
+          "address": {
+            "streetAddress": "The Old Coach House, 11 Owler Ings Road, Brighouse, HD6 1EJ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "MCP Environmental",
+          "address": {
+            "streetAddress": "Enviro House, Spartan Road, South Bradford Trading Estate, Low Moor, Bradford, BD12 0RY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Qualsurv International Limited",
+          "address": {
+            "streetAddress": "Mortec Office Park, Suite 5B, York Road, Leeds, LS15 4TA",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Tersus Consultancy Limited",
+          "address": {
+            "streetAddress": "Red Mill House, Red Mill Trading, Holloway Bank, Wednesbury, WS10 )NN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "West Yorkshire Joint Services",
+          "address": {
+            "streetAddress": "Nepshaw Lane South, Morley, LS27 7JQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-06e2eeae-6a8c-4abe-9d31-864dfdfe00a3-kirkc001-dn421917-20493693",
+        "title": "Framework Agreement for Asbestos Consultancy Services",
+        "description": "All documentation is available at www.yortender.co.uk.  Tenders are invited by the Council of the Borough of Kirklees (the &quot;Council&quot;) from Service Providers with relevant experience and ability to provide Asbestos Consultancy Services (the &quot;Services&quot;) under a Framework Agreement, as detailed more fully in the Council&#039;s Minimum Specification and the Output and General Specifications.\r\n\r\nThe Council intends to appoint up to four (4) Service Providers on Lot 1 and eight (8) Service Providers on Lot 2 and an unlimited number of Service Providers for Lot 3 under this framework to perform the Services in connection with Asbestos Containing Materials (&quot;ACM&#039;s&quot;) present within its asset management portfolio (the &quot;Portfolio&quot;).",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71600000",
+              "description": "Technical testing, analysis and consultancy services",
+              "uri": "http://cpv.data.ac.uk/code-71600000.html"
+            }
+          },
+          {
+            "id": 2,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "71900000",
+              "description": "Laboratory services",
+              "uri": "http://cpv.data.ac.uk/code-71900000.html"
+            }
+          },
+          {
+            "id": 3,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "90650000",
+              "description": "Asbestos removal services",
+              "uri": "http://cpv.data.ac.uk/code-90650000.html"
+            }
+          },
+          {
+            "id": 4,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "45262660",
+              "description": "Asbestos-removal work",
+              "uri": "http://cpv.data.ac.uk/code-45262660.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 2720000,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 2720000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-11-25T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 15,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Acorn Analytical Services Limited"
+          },
+          {
+            "id": "2",
+            "name": "Bradley Environmental Consultants Limited"
+          },
+          {
+            "id": "3",
+            "name": "Inspectas Compliance Ltd"
+          },
+          {
+            "id": "4",
+            "name": "Lucion Environmental"
+          },
+          {
+            "id": "5",
+            "name": "Life Environmental Limited"
+          },
+          {
+            "id": "6",
+            "name": "Nichol Associates"
+          },
+          {
+            "id": "7",
+            "name": "Pennington Choices Limited"
+          },
+          {
+            "id": "8",
+            "name": "Vega Environmental Consultants Ltd"
+          },
+          {
+            "id": "9",
+            "name": "Airborne Environmental Consultants Ltd"
+          },
+          {
+            "id": "10",
+            "name": "Challen Commercial Investigations"
+          },
+          {
+            "id": "11",
+            "name": "Environtec Limited"
+          },
+          {
+            "id": "12",
+            "name": "MCP Environmental"
+          },
+          {
+            "id": "13",
+            "name": "Qualsurv International Limited"
+          },
+          {
+            "id": "14",
+            "name": "Tersus Consultancy Limited"
+          },
+          {
+            "id": "15",
+            "name": "West Yorkshire Joint Services"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-04-01T00:00:00Z",
+          "endDate": "2022-03-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "530f3d79b1bfa6ddd79269fca0999986",
+        "name": "Kirklees Council"
+      },
+      "awards": [
+        {
+          "id": "1c2f2930-366e-4010-af8f-63607815f89f",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-02-29T00:00:00Z",
+          "value": {
+            "amount": 2720000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Acorn Analytical Services Limited"
+            },
+            {
+              "id": "2",
+              "name": "Bradley Environmental Consultants Limited"
+            },
+            {
+              "id": "3",
+              "name": "Inspectas Compliance Ltd"
+            },
+            {
+              "id": "4",
+              "name": "Lucion Environmental"
+            },
+            {
+              "id": "5",
+              "name": "Life Environmental Limited"
+            },
+            {
+              "id": "6",
+              "name": "Nichol Associates"
+            },
+            {
+              "id": "7",
+              "name": "Pennington Choices Limited"
+            },
+            {
+              "id": "8",
+              "name": "Vega Environmental Consultants Ltd"
+            },
+            {
+              "id": "9",
+              "name": "Airborne Environmental Consultants Ltd"
+            },
+            {
+              "id": "10",
+              "name": "Challen Commercial Investigations"
+            },
+            {
+              "id": "11",
+              "name": "Environtec Limited"
+            },
+            {
+              "id": "12",
+              "name": "MCP Environmental"
+            },
+            {
+              "id": "13",
+              "name": "Qualsurv International Limited"
+            },
+            {
+              "id": "14",
+              "name": "Tersus Consultancy Limited"
+            },
+            {
+              "id": "15",
+              "name": "West Yorkshire Joint Services"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-04-01T00:00:00Z",
+            "endDate": "2022-03-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

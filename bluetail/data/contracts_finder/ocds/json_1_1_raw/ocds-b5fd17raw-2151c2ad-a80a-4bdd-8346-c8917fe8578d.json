@@ -1,0 +1,1150 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/c3e34714-1aa0-4ac9-9bf3-12cbf6887c2b.json",
+  "version": "1.1",
+  "publishedDate": "2020-05-23T15:44:56Z",
+  "publisher": {
+    "name": "EU SUPPLY LIMITED",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-2151c2ad-a80a-4bdd-8346-c8917fe8578d",
+      "id": "ocds-b5fd17-2151c2ad-a80a-4bdd-8346-c8917fe8578d-360557-20200523154447-39",
+      "date": "2019-11-07T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "ad6d71aa6285782f07d8f7e84e88153c",
+          "roles": [
+            "buyer"
+          ],
+          "name": "NHS Shared Business Services Ltd (NHS SBS)",
+          "address": {
+            "streetAddress": "Chandlers Point, Halyard Court, 31 Broadway ",
+            "locality": "Salford",
+            "region": null,
+            "postalCode": "M50 2UW",
+            "countryName": "ENG"
+          },
+          "contactPoint": {
+            "name": "Adam Nickerson",
+            "email": "adam.nickerson@nhs.net",
+            "telephone": "",
+            "faxNumber": null,
+            "uri": "https://www.sbs.nhs.uk/"
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Accenture (UK) Limited",
+          "address": {
+            "streetAddress": "30 Fenchurch Street, London EC3M 3BD, United Kingdom",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Advent IM Limited",
+          "address": {
+            "streetAddress": "5 Coombs Wood Court, Steel Park Road, Halesowen, West Midlands, B62 8BF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "3",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Auriga Consulting Ltd",
+          "address": {
+            "streetAddress": "Venture West Greenham Business Park, Greenham, Thatcham, England, RG19 6HX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "4",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "BSI Cybersecurity and Information Resilience (UK) Ltd",
+          "address": {
+            "streetAddress": "389 Chiswick High Road, London, W4 4AL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "5",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Airbus Defence and Space Limited",
+          "address": {
+            "streetAddress": "Gunnels Wood Road, Stevenage, Hertfordshire, SG1 2AS",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "6",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CCL (Solutions) Group Ltd",
+          "address": {
+            "streetAddress": "36 Cygnet Court, Timothy&#039;s Bridge Road, Stratford-upon-Avon, CV37 9NW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "7",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CGI IT UK Limited",
+          "address": {
+            "streetAddress": "14th Floor\n20 Fenchurch Street\nLondon\nEC3M 3BY",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "8",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Commissum Associates Limited",
+          "address": {
+            "streetAddress": "Unit 3f2, 2 Darnell Road, Edinburgh, EH5 3PL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "9",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "CSC Computer Sciences Limited",
+          "address": {
+            "streetAddress": "Royal Pavilion, Wellesley Road, Aldershot, Hampshire, GU11 1PZ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "10",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Deloitte LLP",
+          "address": {
+            "streetAddress": "1, New Street Square, London, EC4A 3HQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "11",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Ernst &amp; Young LLP",
+          "address": {
+            "streetAddress": "1 More London Place\nLondon\nSE1 2AF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "12",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Evodia Limited",
+          "address": {
+            "streetAddress": "8 St. George&#039;s Yard, Castle Street, Farnham, Surrey GU9 7LW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "13",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Green Park Interim and Executive Search Limited",
+          "address": {
+            "streetAddress": "54 Brook&#039;s Mews , London W1K 4EG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "14",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "id": "OC301540",
+            "scheme": "GB-COH",
+            "legalName": "KPMG LLP"
+          },
+          "sme": false,
+          "vco": false,
+          "name": "KPMG LLP",
+          "address": {
+            "streetAddress": "KPMG LLP,  15 Canada Square, London UK E14 5GL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "15",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Leonardo MW Ltd",
+          "address": {
+            "streetAddress": "Sigma House, Christopher Martin Road, Basildon, SS14 3EL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "16",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Logicalis UK Limited",
+          "address": {
+            "streetAddress": "110 Buckingham Avenue\nSlough\nBerkshire\nSL1 4PF",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "17",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Mersey Internal Audit Agency (MIAA)",
+          "address": {
+            "streetAddress": "Regatta Place, Brunswick Business Park, Summers Rd, Liverpool, L3 4BL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "18",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "MTI Technology Ltd",
+          "address": {
+            "streetAddress": "Saltire Court, 20 Castle Terrace, Edinburgh EH1F 2EG",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "19",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "NCC Group Security Services Limited",
+          "address": {
+            "streetAddress": "XYZ Building, 2 Hardman Boulevard, Spinningfields, Manchester M3 3AQ",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "20",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Novosco Ltd",
+          "address": {
+            "streetAddress": "Concourse Building 3, Queens Road, Belfast, BT3 9DT",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "21",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PA Consulting Services Limited",
+          "address": {
+            "streetAddress": "10 Bressenden Pl, Westminster, London SW1E 5DN",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "22",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "PricewaterhouseCoopers LLP",
+          "address": {
+            "streetAddress": "1 Embankment Place, London, WC2N 6RH",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "23",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "QinetiQ Ltd",
+          "address": {
+            "streetAddress": "Cody Technology Park \nIvely Road \nFarnborough \nHampshire \nGU14 0LX",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "24",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Softcat plc",
+          "address": {
+            "streetAddress": "Solar House, Fieldhouse Lane, Marlow, Bucks, SL7 1LW",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        },
+        {
+          "id": "25",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "",
+            "id": "",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": false,
+          "vco": false,
+          "name": "Trustmarque Solutions Ltd",
+          "address": {
+            "streetAddress": "30 Berners Street, London, W1T 3LR",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-2151c2ad-a80a-4bdd-8346-c8917fe8578d-20200523154447-39",
+        "title": "Cyber Security Services",
+        "description": "NHS Shared Business Services has been working closely with NHS Digital on the development of the Cyber Security Services framework agreement, to offer an additional solution to support the existing portfolio of security solutions currently available. The aim of the new framework agreement will be to provide NHS organisations with an even greater number of cyber security service options and approved suppliers.\r\n\r\nIt is therefore envisaged that this framework agreement will be used to support services currently offered by NHS Digital to health and care organisations. The new framework will also offer services not covered by NHS Digital (lots 1 &amp; 3).",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "72000000",
+              "description": "IT services: consulting, software development, Internet and support",
+              "uri": "http://cpv.data.ac.uk/code-72000000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 250000000,
+          "currency": "GBP"
+        },
+        "procurementMethod": null,
+        "procurementMethodDetails": "Open procedure",
+        "procurementMethodRationale": "",
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-12-19T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 25,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Accenture (UK) Limited"
+          },
+          {
+            "id": "2",
+            "name": "Advent IM Limited"
+          },
+          {
+            "id": "3",
+            "name": "Auriga Consulting Ltd"
+          },
+          {
+            "id": "4",
+            "name": "BSI Cybersecurity and Information Resilience (UK) Ltd"
+          },
+          {
+            "id": "5",
+            "name": "Airbus Defence and Space Limited"
+          },
+          {
+            "id": "6",
+            "name": "CCL (Solutions) Group Ltd"
+          },
+          {
+            "id": "7",
+            "name": "CGI IT UK Limited"
+          },
+          {
+            "id": "8",
+            "name": "Commissum Associates Limited"
+          },
+          {
+            "id": "9",
+            "name": "CSC Computer Sciences Limited"
+          },
+          {
+            "id": "10",
+            "name": "Deloitte LLP"
+          },
+          {
+            "id": "11",
+            "name": "Ernst &amp; Young LLP"
+          },
+          {
+            "id": "12",
+            "name": "Evodia Limited"
+          },
+          {
+            "id": "13",
+            "name": "Green Park Interim and Executive Search Limited"
+          },
+          {
+            "id": "14",
+            "name": "KPMG LLP"
+          },
+          {
+            "id": "15",
+            "name": "Leonardo MW Ltd"
+          },
+          {
+            "id": "16",
+            "name": "Logicalis UK Limited"
+          },
+          {
+            "id": "17",
+            "name": "Mersey Internal Audit Agency (MIAA)"
+          },
+          {
+            "id": "18",
+            "name": "MTI Technology Ltd"
+          },
+          {
+            "id": "19",
+            "name": "NCC Group Security Services Limited"
+          },
+          {
+            "id": "20",
+            "name": "Novosco Ltd"
+          },
+          {
+            "id": "21",
+            "name": "PA Consulting Services Limited"
+          },
+          {
+            "id": "22",
+            "name": "PricewaterhouseCoopers LLP"
+          },
+          {
+            "id": "23",
+            "name": "QinetiQ Ltd"
+          },
+          {
+            "id": "24",
+            "name": "Softcat plc"
+          },
+          {
+            "id": "25",
+            "name": "Trustmarque Solutions Ltd"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2020-03-01T00:00:00Z",
+          "endDate": "2024-02-29T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "ad6d71aa6285782f07d8f7e84e88153c",
+        "name": "NHS Shared Business Services Ltd (NHS SBS)"
+      },
+      "awards": [
+        {
+          "id": "50562d09-9409-48db-a320-51aa386e44cb",
+          "title": "",
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2020-05-11T00:00:00Z",
+          "value": {
+            "amount": 250000000,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Accenture (UK) Limited"
+            },
+            {
+              "id": "2",
+              "name": "Advent IM Limited"
+            },
+            {
+              "id": "3",
+              "name": "Auriga Consulting Ltd"
+            },
+            {
+              "id": "4",
+              "name": "BSI Cybersecurity and Information Resilience (UK) Ltd"
+            },
+            {
+              "id": "5",
+              "name": "Airbus Defence and Space Limited"
+            },
+            {
+              "id": "6",
+              "name": "CCL (Solutions) Group Ltd"
+            },
+            {
+              "id": "7",
+              "name": "CGI IT UK Limited"
+            },
+            {
+              "id": "8",
+              "name": "Commissum Associates Limited"
+            },
+            {
+              "id": "9",
+              "name": "CSC Computer Sciences Limited"
+            },
+            {
+              "id": "10",
+              "name": "Deloitte LLP"
+            },
+            {
+              "id": "11",
+              "name": "Ernst &amp; Young LLP"
+            },
+            {
+              "id": "12",
+              "name": "Evodia Limited"
+            },
+            {
+              "id": "13",
+              "name": "Green Park Interim and Executive Search Limited"
+            },
+            {
+              "id": "14",
+              "name": "KPMG LLP"
+            },
+            {
+              "id": "15",
+              "name": "Leonardo MW Ltd"
+            },
+            {
+              "id": "16",
+              "name": "Logicalis UK Limited"
+            },
+            {
+              "id": "17",
+              "name": "Mersey Internal Audit Agency (MIAA)"
+            },
+            {
+              "id": "18",
+              "name": "MTI Technology Ltd"
+            },
+            {
+              "id": "19",
+              "name": "NCC Group Security Services Limited"
+            },
+            {
+              "id": "20",
+              "name": "Novosco Ltd"
+            },
+            {
+              "id": "21",
+              "name": "PA Consulting Services Limited"
+            },
+            {
+              "id": "22",
+              "name": "PricewaterhouseCoopers LLP"
+            },
+            {
+              "id": "23",
+              "name": "QinetiQ Ltd"
+            },
+            {
+              "id": "24",
+              "name": "Softcat plc"
+            },
+            {
+              "id": "25",
+              "name": "Trustmarque Solutions Ltd"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2020-05-12T00:00:00Z",
+            "endDate": "2022-05-11T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

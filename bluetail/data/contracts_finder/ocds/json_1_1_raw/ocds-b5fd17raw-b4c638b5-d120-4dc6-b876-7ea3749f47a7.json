@@ -1,0 +1,213 @@
+{
+  "uri": "https://www.contractsfinder.service.gov.uk/Published/Notice/releases/fc87ccff-82df-41ca-9ea6-871e0da0b8ae.json",
+  "version": "1.1",
+  "publishedDate": "2020-07-16T13:06:19Z",
+  "publisher": {
+    "name": "STAR Procurement",
+    "scheme": "GB-GOVUK-crown_comercial_service",
+    "uid": null,
+    "uri": "https://www.contractsfinder.service.gov.uk"
+  },
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/extension.json"
+  ],
+  "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+  "releases": [
+    {
+      "ocid": "ocds-b5fd17raw-b4c638b5-d120-4dc6-b876-7ea3749f47a7",
+      "id": "ocds-b5fd17-b4c638b5-d120-4dc6-b876-7ea3749f47a7-370924-uid-6421",
+      "date": "2019-07-12T00:00:00Z",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "id": "6f7556a3368c205bd02bce9d9f5e9358",
+          "roles": [
+            "buyer"
+          ],
+          "identifier": {
+            "scheme": "GB-SRS",
+            "id": "",
+            "uri": "https://supplierregistration.cabinetoffice.gov.uk/notices/buyers.csv",
+            "legalName": null
+          },
+          "name": "STAR Procurement",
+          "address": {
+            "streetAddress": "1Waterside House, Waterside Plaza ",
+            "locality": "Sale",
+            "region": null,
+            "postalCode": "M33 7ZF",
+            "countryName": "England"
+          },
+          "contactPoint": {
+            "name": "Gary Lee",
+            "email": "gary.lee@star-procurement.gov.uk",
+            "telephone": "07977867695",
+            "faxNumber": null
+          }
+        },
+        {
+          "id": "1",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "07916116",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Jacobs",
+          "address": {
+            "streetAddress": "6 Europa Boulevard\r\nBirkenhead\r\nMerseyside\r\nCH41 4PE",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Simon Jacobs",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": 0
+          }
+        },
+        {
+          "id": "2",
+          "roles": [
+            "supplier",
+            "tenderer"
+          ],
+          "identifier": {
+            "scheme": "GB-COH",
+            "id": "01431688",
+            "legalName": null,
+            "uri": null
+          },
+          "sme": true,
+          "vco": false,
+          "name": "Bristow &amp; Sutor",
+          "address": {
+            "streetAddress": "Bartleet Road\r\nWashford\r\nRedditch\r\nWorcs. B98 0FL",
+            "locality": "",
+            "region": "",
+            "postalCode": "",
+            "countryName": ""
+          },
+          "contactPoint": {
+            "name": "Mr A. Rose",
+            "email": "",
+            "telephone": "",
+            "faxNumber": ""
+          },
+          "x_awardValue": {
+            "currency": "GBP",
+            "amount": null
+          }
+        }
+      ],
+      "language": "en-GB",
+      "tender": {
+        "id": "ocds-b5fd17-b4c638b5-d120-4dc6-b876-7ea3749f47a7-uid-6421",
+        "title": "Trafford Enforcement Agency and Debt Recovery Services",
+        "description": "To appoint a primary &amp; secondary Enforcement Agent to collect the following outstanding debts owing to Trafford Council.\r\nThe Service Provider will be required to enforce Liability Orders for Council Tax and NNDR and the service of warrants of arrest, collection of Sundry Debts, Housing Benefit Overpayments, Social Care Debts and Road Traffic Arrears and the enforcement of High Court Judgments",
+        "status": "complete",
+        "items": [
+          {
+            "id": 1,
+            "description": "See description of related tender.",
+            "classification": {
+              "scheme": "CPV",
+              "id": "66600000",
+              "description": "Treasury services",
+              "uri": "http://cpv.data.ac.uk/code-66600000.html"
+            }
+          }
+        ],
+        "minValue": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "value": {
+          "amount": 0,
+          "currency": "GBP"
+        },
+        "procurementMethod": "selective",
+        "procurementMethodDetails": "Call off from a Framework Agreement",
+        "procurementMethodRationale": null,
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": {
+          "endDate": "2019-08-30T00:00:00Z"
+        },
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "xClassifications": {
+          "isSuitableForSme": true,
+          "isSuitableForVco": false,
+          "ojeuContractType": "Services"
+        },
+        "supplyChain": false,
+        "documents": [],
+        "numberOfTenderers": 2,
+        "tenderers": [
+          {
+            "id": "1",
+            "name": "Jacobs"
+          },
+          {
+            "id": "2",
+            "name": "Bristow &amp; Sutor"
+          }
+        ],
+        "contractPeriod": {
+          "startDate": "2019-11-30T00:00:00Z",
+          "endDate": "2021-10-31T00:00:00Z"
+        }
+      },
+      "buyer": {
+        "id": "6f7556a3368c205bd02bce9d9f5e9358",
+        "name": "STAR Procurement"
+      },
+      "awards": [
+        {
+          "id": "28f289a0-0db6-4c35-ba9c-8da1e218a3ca",
+          "title": null,
+          "description": "See description of related tender",
+          "status": "active",
+          "date": "2019-08-29T00:00:00Z",
+          "value": {
+            "amount": 0,
+            "currency": "GBP"
+          },
+          "suppliers": [
+            {
+              "id": "1",
+              "name": "Jacobs"
+            },
+            {
+              "id": "2",
+              "name": "Bristow &amp; Sutor"
+            }
+          ],
+          "contractPeriod": {
+            "startDate": "2019-11-30T00:00:00Z",
+            "endDate": "2021-10-31T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

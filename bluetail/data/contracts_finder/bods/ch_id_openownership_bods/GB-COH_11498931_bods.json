@@ -1,0 +1,60 @@
+[
+    {
+        "statementID": "openownership-register-7283996861929807571",
+        "statementType": "entityStatement",
+        "entityType": "registeredEntity",
+        "name": "MEDICALDIRECTOR LIMITED",
+        "incorporatedInJurisdiction": {
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "code": "GB"
+        },
+        "identifiers": [
+            {
+                "scheme": "GB-COH",
+                "schemeName": "Companies House",
+                "id": "11498931"
+            },
+            {
+                "schemeName": "OpenCorporates",
+                "id": "https://opencorporates.com/companies/gb/11498931",
+                "uri": "https://opencorporates.com/companies/gb/11498931"
+            },
+            {
+                "schemeName": "OpenOwnership Register",
+                "id": "http://register.openownership.org/entities/5bbb80c19dfc3fae185302e1",
+                "uri": "http://register.openownership.org/entities/5bbb80c19dfc3fae185302e1"
+            }
+        ],
+        "foundingDate": "2018-08-03",
+        "addresses": [
+            {
+                "type": "registered",
+                "address": "C/O Hackwood Secretaries Limited, One Silk Street, London, EC2Y 8HQ",
+                "country": "GB"
+            }
+        ]
+    },
+    {
+        "statementID": "openownership-register-6770089863447416674",
+        "statementType": "ownershipOrControlStatement",
+        "statementDate": "2018-08-03",
+        "subject": {
+            "describedByEntityStatement": "openownership-register-7283996861929807571"
+        },
+        "interestedParty": {
+            "unspecified": {
+                "reason": "no-beneficial-owners",
+                "description": "No person"
+            }
+        },
+        "interests": [],
+        "source": {
+            "type": [
+                "officialRegister"
+            ],
+            "description": "GB Persons Of Significant Control Register",
+            "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+            "retrievedAt": "2019-07-08T10:37:11Z"
+        }
+    }
+]
