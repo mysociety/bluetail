@@ -82,8 +82,9 @@ class TestFlagHelperFunctions(TestCase):
         assert any(flag.flag_name == "person_id_matches_cabinet_minister" for flag in flags)
 
 
-class TestContextHelperFunctions(TestCase):
-    context_helper = ContextHelperFunctions()
+class TestBodsHelperFunctions(TestCase):
+    upsert_helper = UpsertDataHelpers()
+    bods_helper = BodsHelperFunctions()
 
     def setUp(self):
         ocds_test_file_path = os.path.join(TEST_DATA_PATH, "ocds-b5fd17suppliermatch-b3f725cb-5a11-4a33-9a37-e068bd48b3e0.json")
