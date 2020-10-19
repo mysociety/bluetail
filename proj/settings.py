@@ -98,6 +98,7 @@ DATABASES = {
 }
 
 LANGUAGE_CODE = 'en-uk'
+LOCALE_PATHS = [ os.path.join(BASE_DIR, 'locale') ]
 
 ROOT_URLCONF = 'proj.urls'
 
