@@ -1,3 +1,4 @@
+{% load i18n %}
 <div class="card mt-4" style="max-width: 40em">
     <div class="card-body">
       {% if errors or warnings %}
@@ -14,17 +15,23 @@
         <p class="card-text">{{ publisher }}</p>
     </div>
     <div class="card-footer text-muted d-flex">
-        <div class="mr-auto">Tender Deadline: {{ end|date:'d M Y' }}</div>
-        <div>{{ tenderers|length }} tenders received</div>
+        <div class="mr-auto">{% trans 'Tender Deadline:' %} {{ end|date:'d M Y' }}</div>
+        <div>
+            {% blocktrans count counter=tenderers|length %}
+                {{ count }} tender received
+            {% plural %}
+                {{ count }} tenders received
+            {% endblocktrans %}
+        </div>
     </div>
     <div class="ml-3">
         {% if errors %}
-            
+
         {% endif %}
     </div>
     <div class="ml-3">
         {% if warnings %}
-            
+
         {% endif %}
     </div>
 </div>

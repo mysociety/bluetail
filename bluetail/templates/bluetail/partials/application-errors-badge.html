@@ -1,3 +1,11 @@
+{% load i18n %}
 {% if n > 0 %}
-    <span class="badge badge-pill badge-danger {{ classes|default:'' }}">{% include "bluetail/icons/prohibited.html" with classes="icon mr-1" %} {{ n }} error{{ n | pluralize }}</span>
+    <span class="badge badge-pill badge-danger {{ classes|default:'' }}">
+        {% include "bluetail/icons/prohibited.html" with classes="icon mr-1" %}
+        {% blocktrans count counter=n %}
+            {{ count }} error
+        {% plural %}
+            {{ count }} errors
+        {% endblocktrans %}
+    </span>
 {% endif %}

@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load flag_templatetags %}
 {% get_flags_for_bods_entity_or_person person tenderer.ocid as flags %}
 
@@ -19,7 +20,7 @@
     </h5>
     <ul class="list-group list-group-flush">
         <li class="list-group-item {% if flags.person_id_flags.error %}list-group-item-danger{% elif flags.person_id_flags.warning %}list-group-item-warning{% endif %}">
-            <small class="scorecard-key">Full name</small>
+            <small class="scorecard-key">{% trans 'Full name' %}</small>
             <span class="scorecard-value">{{ person.fullName }}</span>
             {% for flag in flags.person_id_flags.error %}
                 {% if flag %}
@@ -34,19 +35,19 @@
         </li>
       {% if person.statement_json.birthDate %}
         <li class="list-group-item">
-            <small class="scorecard-key">Date of birth</small>
+            <small class="scorecard-key">{% trans 'Date of birth' %}</small>
             <span class="scorecard-value">{{ person.statement_json.birthDate }}</span>
         </li>
       {% endif %}
       {% if person.statement_json.addresses %}
         <li class="list-group-item">
-            <small class="scorecard-key">Address</small>
+            <small class="scorecard-key">{% trans 'Address' %}</small>
             <span class="scorecard-value">{{ person.statement_json.addresses.0.address }}</span>
         </li>
       {% endif %}
       {% if person.statement_json.nationalities %}
         <li class="list-group-item">
-            <small class="scorecard-key">Nationality</small>
+            <small class="scorecard-key">{% trans 'Nationality' %}</small>
             <span class="scorecard-value">{{ person.statement_json.nationalities.0.name }}</span>
         </li>
       {% endif %}

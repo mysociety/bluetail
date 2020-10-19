@@ -1,3 +1,11 @@
+{% load i18n %}
 {% if n > 0 %}
-    <span class="badge badge-pill badge-warning {{ classes|default:'' }}">{% include "bluetail/icons/exclamation.html" with classes="icon mr-1" %} {{ n }} warning{{ n | pluralize }}</span>
+    <span class="badge badge-pill badge-warning {{ classes|default:'' }}">
+        {% include "bluetail/icons/exclamation.html" with classes="icon mr-1" %}
+        {% blocktrans count counter=n %}
+            {{ count}} warning
+        {% plural %}
+            {{ count }} warnings
+        {% endblocktrans %}
+    </span>
 {% endif %}

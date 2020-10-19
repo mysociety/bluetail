@@ -1,3 +1,4 @@
+{% load i18n %}
 <div class="application-summary">
     <a href="{% url 'ocds-tenderer' tenderer.ocid tenderer.party_id %}?{{ request.GET.urlencode }}">
         {{ name }}
