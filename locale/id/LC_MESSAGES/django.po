@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# stevenday <forestorama@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-16 14:40+0000\n"
+"PO-Revision-Date: 2020-10-16 14:42+0000\n"
+"Last-Translator: stevenday <forestorama@gmail.com>, 2020\n"
+"Language-Team: Indonesian (https://www.transifex.com/open-ownership/teams/114081/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: bluetail/templates/bluetail/ocds-tender-list.html:4
+#: bluetail/templates/bluetail/ocds-tender-list.html:11
+#: bluetail/templates/bluetail/ocds-tender-list.html:15
+#: bluetail/templates/bluetail/ocds-tender.html:10
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:16
+msgid "Tenders"
+msgstr "Tender"
+
+#: bluetail/templates/bluetail/ocds-tender-tenderer.html:10
+msgid "Tenders in progress"
+msgstr "Tender sedang berlangsung"
+
+#: bluetail/templates/bluetail/ocds-tender-tenderer.html:25
+#, python-format
+msgid "Tender application <code>%(party_id)s</code>"
+msgstr "Aplikasi tender <code>%(party_id)s</code>"
+
+#: bluetail/templates/bluetail/ocds-tender-tenderer.html:27
+msgid "Applicant"
+msgstr "Pemohon"
+
+#: bluetail/templates/bluetail/ocds-tender-tenderer.html:33
+msgid "Beneficial owners"
+msgstr "Pemilik yang menguntungkan"
+
+#: bluetail/templates/bluetail/ocds-tender-tenderer.html:42
+msgid "Parent companies"
+msgstr "Perusahaan induk"
+
+#: bluetail/templates/bluetail/ocds-tender.html:18
+msgid "Published by"
+msgstr "Diterbitkan oleh"
+
+#: bluetail/templates/bluetail/ocds-tender.html:20
+msgid "Published date"
+msgstr "Tanggal publikasi"
+
+#: bluetail/templates/bluetail/ocds-tender.html:22
+msgid "Closing date"
+msgstr "Tanggal Penutupan"
+
+#: bluetail/templates/bluetail/ocds-tender.html:24
+msgid "Contract start date"
+msgstr "Tanggal mulai kontrak"
+
+#: bluetail/templates/bluetail/ocds-tender.html:26
+msgid "Value of contract"
+msgstr "Nilai kontrak"
+
+#: bluetail/templates/bluetail/ocds-tender.html:30
+msgid "Tenders received"
+msgstr "Tender diterima"
+
+#: bluetail/templates/bluetail/partials/application-errors-badge.html:4
+#, python-format
+msgid ""
+"\n"
+"            %(count)s error\n"
+"        "
+msgid_plural ""
+"\n"
+"            %(count)s errors\n"
+"        "
+msgstr[0] ""
+
+#: bluetail/templates/bluetail/partials/application-warnings-badge.html:4
+#, python-format
+msgid ""
+"\n"
+"            %(count)s warning\n"
+"        "
+msgid_plural ""
+"\n"
+"            %(count)s warnings\n"
+"        "
+msgstr[0] ""
+
+#: bluetail/templates/bluetail/partials/bods-entity.html:22
+#: bluetail/templates/bluetail/partials/ocds-org.html:22
+msgid "Company name"
+msgstr "Nama Perusahaan"
+
+#: bluetail/templates/bluetail/partials/bods-entity.html:26
+#: bluetail/templates/bluetail/partials/ocds-org.html:26
+msgid "Company ID"
+msgstr "identitas perusahaan"
+
+#: bluetail/templates/bluetail/partials/bods-entity.html:46
+#: bluetail/templates/bluetail/partials/ocds-org.html:45
+msgid "Country of registration"
+msgstr "Negara tempat pendaftaran"
+
+#: bluetail/templates/bluetail/partials/bods-person.html:22
+msgid "Full name"
+msgstr "Nama lengkap"
+
+#: bluetail/templates/bluetail/partials/bods-person.html:37
+msgid "Date of birth"
+msgstr "Tanggal lahir"
+
+#: bluetail/templates/bluetail/partials/bods-person.html:43
+msgid "Address"
+msgstr "Alamat"
+
+#: bluetail/templates/bluetail/partials/bods-person.html:49
+msgid "Nationality"
+msgstr "Kebangsaan"
+
+#: bluetail/templates/bluetail/partials/ocds-card.html:17
+msgid "Tender Deadline:"
+msgstr "Batas Waktu Tender:"
+
+#: bluetail/templates/bluetail/partials/ocds-card.html:19
+#, python-format
+msgid ""
+"\n"
+"                %(count)s tender received\n"
+"            "
+msgid_plural ""
+"\n"
+"                %(count)s tenders received\n"
+"            "
+msgstr[0] ""
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:5
+msgid "Ministry of Efficiency"
+msgstr "Kementerian Efisiensi"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:19
+msgid "Filtered By Dataset"
+msgstr "Difilter Menurut Set Data"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:20
+msgid "All"
+msgstr "Semua"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:21
+msgid "Prototype"
+msgstr "Prototipe"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:22
+msgid "Contracts Finder unlinked"
+msgstr "Contracts Finder tidak ditautkan"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:23
+msgid "Contracts Finder with linked suppliers"
+msgstr "Contracts Finder dengan pemasok terkait"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:24
+msgid "Contracts Finder with beneficial owners"
+msgstr "Contracts Finder dengan pemilik manfaat"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:26
+msgid "Filtered By Flag"
+msgstr "Difilter Menurut Bendera"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:27
+msgid "Any Flag"
+msgstr "Bendera Apa Pun"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:28
+msgid "Beneficial Owner matches Cabinet Minister"
+msgstr "Beneficial Owner cocok dengan Menteri Kabinet"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:29
+msgid "Company linked to multiple applications to a tender"
+msgstr "Perusahaan terkait dengan beberapa aplikasi untuk sebuah tender"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:30
+msgid "Person linked to multiple applications to a tender"
+msgstr "Orang yang ditautkan ke beberapa aplikasi ke suatu tender"
+
+#: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:35
+msgid "Spending analysis"
+msgstr "Analisis pengeluaran"
