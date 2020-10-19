@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load flag_templatetags %}
 {% get_flags_for_ocds_party company as flags %}
 
@@ -19,11 +20,11 @@
     </h5>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">
-            <small class="scorecard-key">Company name</small>
+            <small class="scorecard-key">{% trans 'Company name' %}</small>
             <span class="scorecard-value">{{ company.party_name }}</span>
         </li>
         <li class="list-group-item {% if flags.company_id_flags.error %}list-group-item-danger{% elif flags.company_id_flags.warning %}list-group-item-warning{% endif %}">
-            <small class="scorecard-key">Company ID</small>
+            <small class="scorecard-key">{% trans 'Company ID' %}</small>
             {% if company.party_identifier_scheme %}
                 <span class="scorecard-value">
                     [{{ company.party_identifier_scheme }}]
@@ -42,7 +43,7 @@
             {% endfor %}
         </li>
         <li class="list-group-item {% if flags.jurisdiction_flags.error %}list-group-item-danger{% elif flags.jurisdiction_flags.warning %}list-group-item-warning{% endif %}">
-            <small class="scorecard-key">Country of registration</small>
+            <small class="scorecard-key">{% trans 'Country of registration' %}</small>
             <span class="scorecard-value">{{ company.party_countryname }}</span>
             {% for flag in flags.jurisdiction_flags.error %}
                 {% if flag %}
