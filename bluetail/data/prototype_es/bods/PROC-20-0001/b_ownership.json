@@ -5,11 +5,11 @@
     "isComponent": false,
     "statementDate": "2017-11-18",
     "entityType": "unknownEntity",
-    "name": "Frost Group Ltd.",
+    "name": "Grupo Ramirez S.A. de C.V.",
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "5740394756"
       }
     ],
@@ -17,18 +17,18 @@
       {
         "type": "registered",
         "address": "Aston House, Cornwall Avenue, London, N3 1LF",
-        "country": "GB",
+        "country": "MX",
         "postCode": "N3 1LF"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "MX"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   },
@@ -38,18 +38,18 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Dolor Sit Amet Ltd.",
+    "name": "Máxima Salud S.A. de C.V.",
     "addresses": [
       {
-        "country": "GB"
+        "country": "MX"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "MX"
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "3642541901"
       }
     ],
@@ -57,7 +57,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   },
@@ -87,7 +87,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   },
@@ -99,7 +99,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Alan Frost"
+        "fullName": "Jorge Fernández Mora"
       }
     ],
     "identifiers": [
@@ -112,7 +112,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   },
@@ -124,7 +124,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Andrea Barker"
+        "fullName": "Valentina García Flores"
       }
     ],
     "identifiers": [
@@ -137,7 +137,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   },
@@ -149,7 +149,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Mrs. Jayne Jones"
+        "fullName": "Camila Vargas Cruz"
       }
     ],
     "identifiers": [
@@ -162,7 +162,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   },
@@ -192,7 +192,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   },
@@ -222,7 +222,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   },
@@ -252,7 +252,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "Grupo Ramirez S.A. de C.V."
       }
     }
   }

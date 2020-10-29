@@ -5,11 +5,11 @@
     "isComponent": false,
     "statementDate": "2017-11-18",
     "entityType": "unknownEntity",
-    "name": "Synomus Technology Services Ltd.",
+    "name": "Soluciones y Servicios Médicos S.A. de C.V.",
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "1602647563"
       }
     ],
@@ -17,18 +17,18 @@
       {
         "type": "registered",
         "address": "Aston House, Cornwall Avenue, London, N3 1LF",
-        "country": "GB",
+        "country": "MX",
         "postCode": "N3 1LF"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "MX"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -38,18 +38,18 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Synomus International Ltd.",
+    "name": "Servicios Eficientes S.A. de C.V.",
     "addresses": [
       {
-        "country": "GB"
+        "country": "MX"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "MX"
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "6235874596"
       }
     ],
@@ -57,7 +57,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -78,7 +78,7 @@
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "6321254583"
       }
     ],
@@ -86,7 +86,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -116,7 +116,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -146,7 +146,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -158,7 +158,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Jasmine Wilkins"
+        "fullName": "María López Ramirez"
       }
     ],
     "identifiers": [
@@ -171,7 +171,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -183,7 +183,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Mr. Simon Clark"
+        "fullName": "Alejandro Pérez García"
       }
     ],
     "identifiers": [
@@ -196,7 +196,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -208,7 +208,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Mr. Joe Jones"
+        "fullName": "Jose Luis Calderón"
       }
     ],
     "identifiers": [
@@ -221,7 +221,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -251,7 +251,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -281,7 +281,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   },
@@ -311,7 +311,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Soluciones y Servicios Médicos S.A. de C.V."
       }
     }
   }

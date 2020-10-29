@@ -5,11 +5,11 @@
     "isComponent": false,
     "statementDate": "2017-11-18",
     "entityType": "unknownEntity",
-    "name": "Future Tech Horizons Ltd.",
+    "name": "Tecnologías del Futuro S.R.L de C.V.",
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "3264298751"
       }
     ],
@@ -17,18 +17,18 @@
       {
         "type": "registered",
         "address": "Aston House, Cornwall Avenue, London, N3 1LF",
-        "country": "GB",
+        "country": "MX",
         "postCode": "N3 1LF"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "MX"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -38,18 +38,18 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Bailey Robinson Ltd.",
+    "name": "Consultoría Médica y Servicios Públicos S.A. de C.V.",
     "addresses": [
       {
-        "country": "GB"
+        "country": "MX"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "MX"
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "6159248167"
       }
     ],
@@ -57,7 +57,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -78,7 +78,7 @@
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "1216485124578"
       }
     ],
@@ -86,7 +86,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -107,7 +107,7 @@
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "MX-LAC",
         "id": "6213874"
       }
     ],
@@ -115,7 +115,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -145,7 +145,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -175,7 +175,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -205,7 +205,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -217,7 +217,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Charlie Dean"
+        "fullName": "Fernando Parra Vera"
       }
     ],
     "identifiers": [
@@ -230,7 +230,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -242,7 +242,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Rebeccah Price-Ward"
+        "fullName": "Camila García Sánchez"
       }
     ],
     "identifiers": [
@@ -255,7 +255,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -267,7 +267,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Jemma Hunt"
+        "fullName": "Ximena Hernández Hernández"
       }
     ],
     "identifiers": [
@@ -280,7 +280,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -292,7 +292,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Holly Khan"
+        "fullName": "Elena Luna Molina"
       }
     ],
     "identifiers": [
@@ -305,7 +305,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -335,7 +335,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -365,7 +365,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -395,7 +395,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   },
@@ -425,7 +425,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Future Tech Horizons Ltd."
+        "name": "Tecnologías del Futuro S.R.L de C.V."
       }
     }
   }

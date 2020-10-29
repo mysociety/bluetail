@@ -4,7 +4,7 @@
     {
       "ocid": "ocds-123abc-PROC-20-0001",
       "id": "PROC-20-0001-02-tender",
-      "date": "2010-01-01T09:30:00Z",
+      "date": "2020-01-01T09:30:00Z",
       "language": "en",
       "tag": [
         "tender"
@@ -13,26 +13,26 @@
       "parties": [
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "MX-LAC",
             "id": "E12345678",
-            "legalName": "London Borough of Toupee"
+            "legalName": "Servicios de Salud Pública"
           },
-          "name": "London Borough of Toupee",
+          "name": "Servicios de Salud Pública",
           "roles": [
             "procuringEntity",
             "buyer"
           ],
-          "id": "GB-LAC-E12345678"
+          "id": "MX-LAC-E12345678"
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "MX-LAC",
             "id": "1602647563",
-            "legalName": "Synomus Technology Services Ltd."
+            "legalName": "Soluciones y Servicios Médicos S.A. de C.V."
           },
-          "name": "Synomus Technology Services Ltd.",
+          "name": "Soluciones y Servicios Médicos S.A. de C.V.",
           "address": {
-            "countryName": "United Kingdom"
+            "countryName": "México"
           },
           "contactPoint": {
             "name": "Procurement Team",
@@ -48,13 +48,13 @@
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "MX-LAC",
             "id": "5740394756",
-            "legalName": "Frost Group Ltd."
+            "legalName": "Grupo Ramirez S.A. de C.V."
           },
-          "name": "Frost Group Ltd.",
+          "name": "Grupo Ramirez S.A. de C.V.",
           "address": {
-            "countryName": "United Kingdom"
+            "countryName": "México"
           },
           "contactPoint": {
             "name": "Procurement Team",
@@ -70,13 +70,13 @@
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "MX-LAC",
             "id": "5315469852",
-            "legalName": "Mitchell Systems Ltd."
+            "legalName": "Nevis Consultores S.A. de C.V."
           },
-          "name": "Mitchell Systems Ltd.",
+          "name": "Nevis Consultores S.A. de C.V.",
           "address": {
-            "countryName": "United Kingdom"
+            "countryName": "México"
           },
           "contactPoint": {
             "name": "Procurement Team",
@@ -92,11 +92,11 @@
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "MX-LAC",
             "id": "5315469854",
-            "legalName": "Gough-Hunt Ltd."
+            "legalName": "Mexican Federal Suppliers Ltd."
           },
-          "name": "Gough-Hunt Ltd.",
+          "name": "Mexican Federal Suppliers Ltd.",
           "address": {
             "countryName": "Jersey"
           },
@@ -114,11 +114,11 @@
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "MX-LAC",
             "id": "3264298751",
-            "legalName": "Future Tech Horizons Ltd.\n"
+            "legalName": "Tecnologías del Futuro S.R.L de C.V.\n"
           },
-          "name": "Future Tech Horizons Ltd.\n",
+          "name": "Tecnologías del Futuro S.R.L de C.V.\n",
           "contactPoint": {
             "name": "Procurement Team",
             "email": "procurement-team@example.com",
@@ -133,17 +133,17 @@
         }
       ],
       "buyer": {
-        "id": "GB-LAC-E12345678",
-        "name": "London Borough of Toupee"
+        "id": "MX-LAC-E12345678",
+        "name": "Servicios de Salud Pública"
       },
       "tender": {
         "id": "PROC-20-0001",
-        "title": "Tachograph Forensic Services",
-        "description": "Tenders solicited for work to build new cycle lanes in the centre of town.",
+        "title": "Mantenimiento Preventivo Y Correctivo A Equipo Médico",
+        "description": "Licitación Pública Nacional Número: EA-606008245-N8-2020. Contratación del Servicio de “Mantenimiento Preventivo y Correctivo a Equipo Médico”",
         "status": "active",
         "value": {
-          "amount": 120000,
-          "currency": "GBP"
+          "amount": 12000000,
+          "currency": "MXN"
         },
         "procurementMethod": "open",
         "procurementMethodRationale": "An open competitive tender is required by EU Rules",
@@ -163,14 +163,14 @@
           "endDate": "2021-06-01T23:59:59Z"
         },
         "procuringEntity": {
-          "id": "GB-LAC-E12345678",
-          "name": "London Borough of Toupee"
+          "id": "MX-LAC-E12345678",
+          "name": "Servicios de Salud Pública"
         },
         "numberOfTenderers": 5,
         "tenderers": [
           {
             "id": "PROC-20-0001/a",
-            "name": "Synomus Technology Services Ltd."
+            "name": "Soluciones y Servicios Médicos S.A. de C.V."
           },
           {
             "id": "PROC-20-0001/b",
@@ -178,15 +178,15 @@
           },
           {
             "id": "PROC-20-0001/c",
-            "name": "Mitchell Systems Ltd."
+            "name": "Nevis Consultores S.A. de C.V."
           },
           {
             "id": "PROC-20-0001/d",
-            "name": "Gough-Hunt Ltd."
+            "name": "Mexican Federal Suppliers Ltd."
           },
           {
             "id": "PROC-20-0001/e",
-            "name": "Future Tech Horizons Ltd."
+            "name": "Tecnologías del Futuro S.R.L de C.V."
           }
         ],
         "documents": [
