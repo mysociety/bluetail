@@ -1,0 +1,6 @@
+flag_name,flag_type,flag_text,flag_field
+person_id_matches_cabinet_minister,warning,Name and ID match a currently serving cabinet minister.,person_id
+company_id_invalid,error,Invalid company ID,company_id
+company_in_blacklisted_jurisdiction,warning,Company registered in a blacklisted jurisdiction.,jurisdiction
+company_in_multiple_applications_to_tender,warning,This company appears in multiple applications to this tender.,company_id
+person_in_multiple_applications_to_tender,warning,This person has control over multiple applicants to this tender.,person_id
