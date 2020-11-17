@@ -5,7 +5,7 @@ from django.conf import settings
 
 from bluetail import models
 
-PROTOTYPE_DATA_PATH = os.path.join(settings.BLUETAIL_APP_DIR, "data", "prototype")
+PROTOTYPE_DATA_PATH = os.path.join(settings.BLUETAIL_APP_DIR, "data", "prototype", settings.LANGUAGE_CODE)
 
 
 def insert_flags():
