@@ -4,7 +4,7 @@
     {
       "ocid": "ocds-123abc-PROC-20-0001",
       "id": "PROC-20-0001-02-tender",
-      "date": "2010-01-01T09:30:00Z",
+      "date": "2020-01-01T09:30:00Z",
       "language": "en",
       "tag": [
         "tender"
@@ -13,26 +13,26 @@
       "parties": [
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "ID-LAC",
             "id": "E12345678",
-            "legalName": "London Borough of Toupee"
+            "legalName": "Kementerian Kebersihan"
           },
-          "name": "London Borough of Toupee",
+          "name": "Kementerian Kebersihan",
           "roles": [
             "procuringEntity",
             "buyer"
           ],
-          "id": "GB-LAC-E12345678"
+          "id": "ID-LAC-E12345678"
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "ID-LAC",
             "id": "1602647563",
-            "legalName": "Synomus Technology Services Ltd."
+            "legalName": "PT ABC, Tbk"
           },
-          "name": "Synomus Technology Services Ltd.",
+          "name": "PT ABC, Tbk",
           "address": {
-            "countryName": "United Kingdom"
+            "countryName": "Indonesia"
           },
           "contactPoint": {
             "name": "Procurement Team",
@@ -48,13 +48,13 @@
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "ID-LAC",
             "id": "5740394756",
-            "legalName": "Frost Group Ltd."
+            "legalName": "PT Maju Mundur, Tbk"
           },
-          "name": "Frost Group Ltd.",
+          "name": "PT Maju Mundur, Tbk",
           "address": {
-            "countryName": "United Kingdom"
+            "countryName": "Indonesia"
           },
           "contactPoint": {
             "name": "Procurement Team",
@@ -70,13 +70,13 @@
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "ID-LAC",
             "id": "5315469852",
-            "legalName": "Mitchell Systems Ltd."
+            "legalName": "CV Aman Sentosa"
           },
-          "name": "Mitchell Systems Ltd.",
+          "name": "CV Aman Sentosa",
           "address": {
-            "countryName": "United Kingdom"
+            "countryName": "Indonesia"
           },
           "contactPoint": {
             "name": "Procurement Team",
@@ -92,11 +92,11 @@
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "ID-LAC",
             "id": "5315469854",
-            "legalName": "Gough-Hunt Ltd."
+            "legalName": "CV Merah Putih"
           },
-          "name": "Gough-Hunt Ltd.",
+          "name": "CV Merah Putih",
           "address": {
             "countryName": "Jersey"
           },
@@ -114,11 +114,11 @@
         },
         {
           "identifier": {
-            "scheme": "GB-LAC",
+            "scheme": "ID-LAC",
             "id": "3264298751",
-            "legalName": "Future Tech Horizons Ltd.\n"
+            "legalName": "PT Sayang Ibu, Tbk\n"
           },
-          "name": "Future Tech Horizons Ltd.\n",
+          "name": "PT Sayang Ibu, Tbk\n",
           "contactPoint": {
             "name": "Procurement Team",
             "email": "procurement-team@example.com",
@@ -133,17 +133,17 @@
         }
       ],
       "buyer": {
-        "id": "GB-LAC-E12345678",
-        "name": "London Borough of Toupee"
+        "id": "ID-LAC-E12345678",
+        "name": "Kementerian Kebersihan"
       },
       "tender": {
         "id": "PROC-20-0001",
-        "title": "Tachograph Forensic Services",
-        "description": "Tenders solicited for work to build new cycle lanes in the centre of town.",
+        "title": "Jasa kebersihan rumah",
+        "description": "Tender untuk memberikan jasa kebersihan pada lingkungan rumah",
         "status": "active",
         "value": {
-          "amount": 120000,
-          "currency": "GBP"
+          "amount": 2200000000,
+          "currency": "IDR"
         },
         "procurementMethod": "open",
         "procurementMethodRationale": "An open competitive tender is required by EU Rules",
@@ -163,14 +163,14 @@
           "endDate": "2021-06-01T23:59:59Z"
         },
         "procuringEntity": {
-          "id": "GB-LAC-E12345678",
-          "name": "London Borough of Toupee"
+          "id": "ID-LAC-E12345678",
+          "name": "Kementerian Kebersihan"
         },
         "numberOfTenderers": 5,
         "tenderers": [
           {
             "id": "PROC-20-0001/a",
-            "name": "Synomus Technology Services Ltd."
+            "name": "PT ABC, Tbk"
           },
           {
             "id": "PROC-20-0001/b",
@@ -178,15 +178,15 @@
           },
           {
             "id": "PROC-20-0001/c",
-            "name": "Mitchell Systems Ltd."
+            "name": "CV Aman Sentosa"
           },
           {
             "id": "PROC-20-0001/d",
-            "name": "Gough-Hunt Ltd."
+            "name": "CV Merah Putih"
           },
           {
             "id": "PROC-20-0001/e",
-            "name": "Future Tech Horizons Ltd."
+            "name": "PT Sayang Ibu, Tbk"
           }
         ],
         "documents": [

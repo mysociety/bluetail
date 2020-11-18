@@ -5,11 +5,11 @@
     "isComponent": false,
     "statementDate": "2017-11-18",
     "entityType": "unknownEntity",
-    "name": "Mitchell Systems Ltd.",
+    "name": "CV Aman Sentosa",
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "5315469852"
       }
     ],
@@ -17,18 +17,18 @@
       {
         "type": "registered",
         "address": "Aston House, Cornwall Avenue, London, N3 1LF",
-        "country": "GB",
+        "country": "ID",
         "postCode": "N3 1LF"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "ID"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -38,18 +38,18 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "ABG Group Ltd.",
+    "name": "CV Sinar Terang",
     "addresses": [
       {
-        "country": "GB"
+        "country": "ID"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "ID"
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "6428974568"
       }
     ],
@@ -57,7 +57,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -67,7 +67,7 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Mitchell Wade LLC.",
+    "name": "PT Subur Makmur Tbk",
     "addresses": [
       {
         "country": "US"
@@ -78,7 +78,7 @@
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "6795843617"
       }
     ],
@@ -86,7 +86,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -96,18 +96,18 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Sunrise Taylor Hunt Ltd.",
+    "name": "PT Rindu Alam",
     "addresses": [
       {
-        "country": "GB"
+        "country": "ID"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "ID"
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "6948732519"
       }
     ],
@@ -115,7 +115,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -145,7 +145,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -175,7 +175,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -205,7 +205,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -217,7 +217,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Marilyn Smith"
+        "fullName": "Iqbaal Ramadhan"
       }
     ],
     "identifiers": [
@@ -230,7 +230,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -242,7 +242,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Dean Smith"
+        "fullName": "Sophia Latjuba"
       }
     ],
     "identifiers": [
@@ -255,7 +255,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -267,7 +267,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Rachael Andrews-Chapman"
+        "fullName": "Tasya Kamila"
       }
     ],
     "identifiers": [
@@ -280,7 +280,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -292,7 +292,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Antony Wade"
+        "fullName": "Ahmad Dhani"
       }
     ],
     "identifiers": [
@@ -305,7 +305,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -335,7 +335,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -365,7 +365,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -395,7 +395,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   },
@@ -425,7 +425,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Mitchell Systems Ltd."
+        "name": "CV Aman Sentosa"
       }
     }
   }

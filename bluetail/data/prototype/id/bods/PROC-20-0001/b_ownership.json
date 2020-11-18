@@ -5,11 +5,11 @@
     "isComponent": false,
     "statementDate": "2017-11-18",
     "entityType": "unknownEntity",
-    "name": "Frost Group Ltd.",
+    "name": "PT Maju Mundur, Tbk",
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "5740394756"
       }
     ],
@@ -17,18 +17,18 @@
       {
         "type": "registered",
         "address": "Aston House, Cornwall Avenue, London, N3 1LF",
-        "country": "GB",
+        "country": "ID",
         "postCode": "N3 1LF"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "ID"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   },
@@ -38,18 +38,18 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Dolor Sit Amet Ltd.",
+    "name": "PT Indah Sejahtera",
     "addresses": [
       {
-        "country": "GB"
+        "country": "ID"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "ID"
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "3642541901"
       }
     ],
@@ -57,7 +57,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   },
@@ -87,7 +87,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   },
@@ -99,7 +99,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Alan Frost"
+        "fullName": "Maudy Ayunda"
       }
     ],
     "identifiers": [
@@ -112,7 +112,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   },
@@ -124,7 +124,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Andrea Barker"
+        "fullName": "Rano Karno"
       }
     ],
     "identifiers": [
@@ -137,7 +137,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   },
@@ -149,7 +149,7 @@
     "statementDate": "2018-01-05",
     "names": [
       {
-        "fullName": "Mrs. Jayne Jones"
+        "fullName": "Tukul Arwana"
       }
     ],
     "identifiers": [
@@ -162,7 +162,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   },
@@ -192,7 +192,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   },
@@ -222,7 +222,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   },
@@ -252,7 +252,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Frost Group Ltd."
+        "name": "PT Maju Mundur, Tbk"
       }
     }
   }
