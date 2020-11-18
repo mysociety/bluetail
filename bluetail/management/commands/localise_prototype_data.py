@@ -24,7 +24,8 @@ class Command(BaseCommand):
 
         prototype_data_dir = os.path.join(
             DATA_DIR,
-            "prototype_{}".format(kwargs['language'][0])
+            "prototype",
+            kwargs['language'][0]
         )
         bods_dir = os.path.join(prototype_data_dir, "bods", "PROC-20-0001")
         flags_dir = os.path.join(prototype_data_dir, "flags")
