@@ -1,0 +1,432 @@
+[
+  {
+    "statementID": "1dc0e987-5c57-4a1c-b3ad-61353b66b1c9",
+    "statementType": "entityStatement",
+    "isComponent": false,
+    "statementDate": "2017-11-18",
+    "entityType": "unknownEntity",
+    "name": "Future Tech Horizons Ltd.",
+    "foundingDate": "2010-11-18",
+    "identifiers": [
+      {
+        "scheme": "GB-LAC",
+        "id": "3264298751"
+      }
+    ],
+    "addresses": [
+      {
+        "type": "registered",
+        "address": "Aston House, Cornwall Avenue, London, N3 1LF",
+        "country": "GB",
+        "postCode": "N3 1LF"
+      }
+    ],
+    "incorporatedInJurisdiction": {
+      "code": "GB"
+    },
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "26e786f0-54c5-497d-a52d-b83439ce4ebf",
+    "statementType": "entityStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "entityType": "arrangement",
+    "name": "Bailey Robinson Ltd.",
+    "addresses": [
+      {
+        "country": "GB"
+      }
+    ],
+    "incorporatedInJurisdiction": {
+      "code": "GB"
+    },
+    "identifiers": [
+      {
+        "scheme": "GB-LAC",
+        "id": "6159248167"
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "26e786f0-54c5-497d-a52d-b83439ce4bce",
+    "statementType": "entityStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "entityType": "arrangement",
+    "name": "Robinson Partners LLC.",
+    "addresses": [
+      {
+        "country": "US"
+      }
+    ],
+    "incorporatedInJurisdiction": {
+      "code": "US"
+    },
+    "identifiers": [
+      {
+        "scheme": "GB-LAC",
+        "id": "1216485124578"
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "26e786f0-54c5-497d-a52d-b83439df4abd",
+    "statementType": "entityStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "entityType": "arrangement",
+    "name": "PBG Group Ltd.",
+    "addresses": [
+      {
+        "country": "KY"
+      }
+    ],
+    "incorporatedInJurisdiction": {
+      "code": "KY"
+    },
+    "identifiers": [
+      {
+        "scheme": "GB-LAC",
+        "id": "6213874"
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "676ce2ec-e244-409e-85f9-9823e88d112",
+    "statementType": "ownershipOrControlStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "subject": {
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66b1c9"
+    },
+    "interestedParty": {
+      "describedByEntityStatement": "26e786f0-54c5-497d-a52d-b83439ce4ebf"
+    },
+    "interests": [
+      {
+        "type": "voting-rights",
+        "interestLevel": "direct",
+        "beneficialOwnershipOrControl": false,
+        "startDate": "2018-01-01",
+        "share": {
+          "exact": 50
+        }
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "676ce2ec-e244-409e-85f9-9823e89cc011",
+    "statementType": "ownershipOrControlStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "subject": {
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66b1c9"
+    },
+    "interestedParty": {
+      "describedByEntityStatement": "26e786f0-54c5-497d-a52d-b83439ce4bce"
+    },
+    "interests": [
+      {
+        "type": "voting-rights",
+        "interestLevel": "direct",
+        "beneficialOwnershipOrControl": false,
+        "startDate": "2018-01-01",
+        "share": {
+          "exact": 30
+        }
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "676ce2ec-e244-409e-85f9-9823e99bc002",
+    "statementType": "ownershipOrControlStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "subject": {
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66b1c9"
+    },
+    "interestedParty": {
+      "describedByEntityStatement": "26e786f0-54c5-497d-a52d-b83439df4abd"
+    },
+    "interests": [
+      {
+        "type": "voting-rights",
+        "interestLevel": "direct",
+        "beneficialOwnershipOrControl": false,
+        "startDate": "2018-01-01",
+        "share": {
+          "exact": 20
+        }
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "17bfeb0d-4a63-41d3-814d-b8a55d72a1h",
+    "statementType": "personStatement",
+    "isComponent": false,
+    "personType": "knownPerson",
+    "statementDate": "2018-01-05",
+    "names": [
+      {
+        "fullName": "Charlie Dean"
+      }
+    ],
+    "identifiers": [
+      {
+        "id": "RUNN65849294146541",
+        "schemeName": "National ID"
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "d1eb52de-ff02-4690-8359-f4bbg1d138b4",
+    "statementType": "personStatement",
+    "isComponent": false,
+    "personType": "knownPerson",
+    "statementDate": "2018-01-05",
+    "names": [
+      {
+        "fullName": "Rebeccah Price-Ward"
+      }
+    ],
+    "identifiers": [
+      {
+        "id": "BTZK96794302402721",
+        "schemeName": "National ID"
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "019a93f1-e470-42e9-957b-035l1461h2e4",
+    "statementType": "personStatement",
+    "isComponent": false,
+    "personType": "knownPerson",
+    "statementDate": "2018-01-05",
+    "names": [
+      {
+        "fullName": "Jemma Hunt"
+      }
+    ],
+    "identifiers": [
+      {
+        "id": "ODHL07546948060657",
+        "schemeName": "National ID"
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-19",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "019a93f1-e470-42e9-957b-0354182cd2e3",
+    "statementType": "personStatement",
+    "isComponent": false,
+    "personType": "knownPerson",
+    "statementDate": "2018-01-05",
+    "names": [
+      {
+        "fullName": "Holly Khan"
+      }
+    ],
+    "identifiers": [
+      {
+        "id": "LLBT75151447597460",
+        "schemeName": "National ID"
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-19",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "c222fe05-2bf3-4cc0-b126-f6682g9d7214",
+    "statementType": "ownershipOrControlStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "subject": {
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66b1c9"
+    },
+    "interestedParty": {
+      "describedByPersonStatement": "17bfeb0d-4a63-41d3-814d-b8a55d72a1h"
+    },
+    "interests": [
+      {
+        "type": "shareholding",
+        "interestLevel": "direct",
+        "beneficialOwnershipOrControl": true,
+        "startDate": "2018-01-01",
+        "share": {
+          "exact": 30
+        }
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "c222fe05-2bf3-4cc0-b126-f6ab139d7215",
+    "statementType": "ownershipOrControlStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "subject": {
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66b1c9"
+    },
+    "interestedParty": {
+      "describedByPersonStatement": "d1eb52de-ff02-4690-8359-f4bbg1d138b4"
+    },
+    "interests": [
+      {
+        "type": "shareholding",
+        "interestLevel": "direct",
+        "beneficialOwnershipOrControl": true,
+        "startDate": "2018-01-01",
+        "share": {
+          "exact": 40
+        }
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "c222fe05-2bf3-4cc0-b126-f942109d7211",
+    "statementType": "ownershipOrControlStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "subject": {
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66b1c9"
+    },
+    "interestedParty": {
+      "describedByPersonStatement": "019a93f1-e470-42e9-957b-035l1461h2e4"
+    },
+    "interests": [
+      {
+        "type": "shareholding",
+        "interestLevel": "direct",
+        "beneficialOwnershipOrControl": true,
+        "startDate": "2018-01-01",
+        "share": {
+          "exact": 15
+        }
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  },
+  {
+    "statementID": "c222fe05-2bf3-4cc0-b126-f654101c7216",
+    "statementType": "ownershipOrControlStatement",
+    "isComponent": false,
+    "statementDate": "2018-01-05",
+    "subject": {
+      "describedByEntityStatement": "1dc0e987-5c57-4a1c-b3ad-61353b66b1c9"
+    },
+    "interestedParty": {
+      "describedByPersonStatement": "019a93f1-e470-42e9-957b-0354182cd2e3"
+    },
+    "interests": [
+      {
+        "type": "shareholding",
+        "interestLevel": "direct",
+        "beneficialOwnershipOrControl": true,
+        "startDate": "2018-01-01",
+        "share": {
+          "exact": 15
+        }
+      }
+    ],
+    "publicationDetails": {
+      "publicationDate": "2018-11-18",
+      "bodsVersion": "0.2",
+      "publisher": {
+        "name": "Future Tech Horizons Ltd."
+      }
+    }
+  }
+]

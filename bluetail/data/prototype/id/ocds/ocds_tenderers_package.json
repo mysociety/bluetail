@@ -1,0 +1,215 @@
+{
+  "uri": "https://openopps.com/tenders/ocds-0c46vo-0001-da642c2f-f5f0-4fe2-827f-a0ed0ea2414d/?format=json",
+  "releases": [
+    {
+      "ocid": "ocds-123abc-PROC-20-0001",
+      "id": "PROC-20-0001-02-tender",
+      "date": "2010-01-01T09:30:00Z",
+      "language": "en",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "identifier": {
+            "scheme": "GB-LAC",
+            "id": "E12345678",
+            "legalName": "London Borough of Toupee"
+          },
+          "name": "London Borough of Toupee",
+          "roles": [
+            "procuringEntity",
+            "buyer"
+          ],
+          "id": "GB-LAC-E12345678"
+        },
+        {
+          "identifier": {
+            "scheme": "GB-LAC",
+            "id": "1602647563",
+            "legalName": "Synomus Technology Services Ltd."
+          },
+          "name": "Synomus Technology Services Ltd.",
+          "address": {
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/a"
+        },
+        {
+          "identifier": {
+            "scheme": "GB-LAC",
+            "id": "5740394756",
+            "legalName": "Frost Group Ltd."
+          },
+          "name": "Frost Group Ltd.",
+          "address": {
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/b"
+        },
+        {
+          "identifier": {
+            "scheme": "GB-LAC",
+            "id": "5315469852",
+            "legalName": "Mitchell Systems Ltd."
+          },
+          "name": "Mitchell Systems Ltd.",
+          "address": {
+            "countryName": "United Kingdom"
+          },
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/c"
+        },
+        {
+          "identifier": {
+            "scheme": "GB-LAC",
+            "id": "5315469854",
+            "legalName": "Gough-Hunt Ltd."
+          },
+          "name": "Gough-Hunt Ltd.",
+          "address": {
+            "countryName": "Jersey"
+          },
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/d"
+        },
+        {
+          "identifier": {
+            "scheme": "GB-LAC",
+            "id": "3264298751",
+            "legalName": "Future Tech Horizons Ltd.\n"
+          },
+          "name": "Future Tech Horizons Ltd.\n",
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/e"
+        }
+      ],
+      "buyer": {
+        "id": "GB-LAC-E12345678",
+        "name": "London Borough of Toupee"
+      },
+      "tender": {
+        "id": "PROC-20-0001",
+        "title": "Tachograph Forensic Services",
+        "description": "Tenders solicited for work to build new cycle lanes in the centre of town.",
+        "status": "active",
+        "value": {
+          "amount": 120000,
+          "currency": "GBP"
+        },
+        "procurementMethod": "open",
+        "procurementMethodRationale": "An open competitive tender is required by EU Rules",
+        "awardCriteria": "bestProposal",
+        "awardCriteriaDetails": "The best proposal, subject to value for money requirements, will be accepted.",
+        "submissionMethod": [
+          "electronicSubmission"
+        ],
+        "submissionMethodDetails": "Submit through the online portal at http://example.com/submissions/PROC-20-0001-01/",
+        "hasEnquiries": false,
+        "tenderPeriod": {
+          "startDate": "2020-03-01T09:00:00Z",
+          "endDate": "2020-04-01T18:00:00Z"
+        },
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2021-06-01T23:59:59Z"
+        },
+        "procuringEntity": {
+          "id": "GB-LAC-E12345678",
+          "name": "London Borough of Toupee"
+        },
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "PROC-20-0001/a",
+            "name": "Synomus Technology Services Ltd."
+          },
+          {
+            "id": "PROC-20-0001/b",
+            "name": "Frost Group Ltd"
+          },
+          {
+            "id": "PROC-20-0001/c",
+            "name": "Mitchell Systems Ltd."
+          },
+          {
+            "id": "PROC-20-0001/d",
+            "name": "Gough-Hunt Ltd."
+          },
+          {
+            "id": "PROC-20-0001/e",
+            "name": "Future Tech Horizons Ltd."
+          }
+        ],
+        "documents": [
+          {
+            "id": "0005",
+            "documentType": "notice",
+            "title": "Tender Notice",
+            "description": "Official tender notice.",
+            "url": "http://example.com/tender-notices/ocds-213czf-000-00001-01.html",
+            "datePublished": "2020-01-01T09:00:00Z",
+            "format": "text/html",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  ],
+  "version": "1.1",
+  "publisher": {
+    "uid": "https://beta.companieshouse.gov.uk/company/04962733",
+    "uri": "https://openopps.com",
+    "name": "Open Opps",
+    "scheme": "Companies House"
+  },
+  "publishedDate": "2020-01-01T01:31:12.131168+00:00"
+}
