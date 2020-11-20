@@ -8,6 +8,7 @@ cd `dirname $0`/..
 find . -name '*.pyc' -delete
 
 # Recreate database contents.
+DATABASE_URL=${DATABASE_URL:-"postgres://bluetail:bluetail@localhost:5432/bluetail"}
 psql -d $DATABASE_URL -c "DROP SCHEMA IF EXISTS public CASCADE"
 psql -d $DATABASE_URL -c "CREATE SCHEMA public"
 
