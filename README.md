@@ -70,7 +70,14 @@ You’ll need:
 
 As above, make sure you’ve cloned the repo.
 
-Open up a Postgres shell (eg: `psql`) and create a user and database matching the details in `conf/config.py`:
+The `SECRET_KEY` environment variable must be set locally before running the application.
+
+    SECRET_KEY="any-random-alphanumeric-string"
+
+Open up a Postgres shell (eg: `psql`) and create a user and database:
+
+> If you decide to use a different username and password here you must also set the `DATABASE_URL` environment variable to the relevant [Postgres connection URI](https://tableplus.com/blog/2018/08/connection-uri-syntax-in-postgresql.html) as demonstrated in the [Heroku deployment section](deployment-to-heroku) below
+
 
 ```
 CREATE USER bluetail SUPERUSER CREATEDB PASSWORD 'bluetail'
@@ -96,7 +103,6 @@ If you want to load example data, run:
 ```
 script/setup
 ```
-
 
 And run the development server:
 
