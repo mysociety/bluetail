@@ -41,7 +41,7 @@ class OCDSPackageData(pgviews.View):
             package.package_data ->> 'license' as license,
             package.package_data ->> 'version' as version,
             package.package_data ->> 'publishedDate' as publishedDate,
-            package.package_data ->> 'publicationPolicy' as publicationPolicy,            
+            package.package_data ->> 'publicationPolicy' as publicationPolicy,
             package.package_data -> 'packages' as packages,
             package.package_data -> 'publisher' as publisher,
             package.package_data -> 'publisher' ->> 'uid' as publisher_uid,
@@ -115,6 +115,8 @@ class OCDSTender(pgviews.View):
     release_date = models.DateTimeField()
     tender_startdate = models.DateTimeField()
     tender_enddate = models.DateTimeField()
+    contract_startdate = models.DateTimeField()
+    contract_enddate = models.DateTimeField()
     buyer = models.TextField()
     buyer_id = models.TextField()
 
@@ -133,6 +135,8 @@ class OCDSTender(pgviews.View):
             cast(NULLIF(ocds.release_json ->> 'date', '') AS TIMESTAMPTZ) AS release_date,
             cast(NULLIF(ocds.release_json -> 'tender' -> 'tenderPeriod' ->> 'startDate', '') AS TIMESTAMPTZ) AS tender_startdate,
             cast(NULLIF(ocds.release_json -> 'tender' -> 'tenderPeriod' ->> 'endDate', '') AS TIMESTAMPTZ) AS tender_enddate,
+            cast(NULLIF(ocds.release_json -> 'tender' -> 'contractPeriod' ->> 'startDate', '') AS TIMESTAMPTZ) AS contract_startdate,
+            cast(NULLIF(ocds.release_json -> 'tender' -> 'contractPeriod' ->> 'endDate', '') AS TIMESTAMPTZ) AS contract_enddate,
             ocds.release_json -> 'buyer' ->> 'name' AS buyer,
             ocds.release_json -> 'buyer' ->> 'id' AS buyer_id
         FROM bluetail_ocds_release_json_view ocds
