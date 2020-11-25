@@ -9,7 +9,7 @@ from bluetail.tests.fixtures import insert_flags, insert_flag_attachments
 
 logger = logging.getLogger('django')
 
-DATA_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data")
+DATA_DIR = os.path.join(settings.BLUETAIL_APP_DIR, "data", "prototype", settings.LANGUAGE_CODE)
 
 
 class Command(BaseCommand):
@@ -19,13 +19,13 @@ class Command(BaseCommand):
         upsert_helper = UpsertDataHelpers()
 
         # Insert PROTOTYPE OCDS JSON
-        example_ocds_path = os.path.join(DATA_DIR, "prototype", "ocds", "ocds_tenderers_package.json")
+        example_ocds_path = os.path.join(DATA_DIR, "ocds", "ocds_tenderers_package.json")
         logger.info("Insert prototype OCDS")
         upsert_helper.upsert_ocds_data(example_ocds_path)
 
         # Insert BODS JSON
         logger.info("Insert prototype BODS")
-        example_bods_path = os.path.join(DATA_DIR, "prototype", "bods", "PROC-20-0001")
+        example_bods_path = os.path.join(DATA_DIR, "bods", "PROC-20-0001")
         files = os.listdir(example_bods_path)
 
         for f in files:

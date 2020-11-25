@@ -1,0 +1,215 @@
+{
+  "uri": "https://openopps.com/tenders/ocds-0c46vo-0001-da642c2f-f5f0-4fe2-827f-a0ed0ea2414d/?format=json",
+  "releases": [
+    {
+      "ocid": "ocds-123abc-PROC-20-0001",
+      "id": "PROC-20-0001-02-tender",
+      "date": "2020-01-01T09:30:00Z",
+      "language": "en",
+      "tag": [
+        "tender"
+      ],
+      "initiationType": "tender",
+      "parties": [
+        {
+          "identifier": {
+            "scheme": "ID-LAC",
+            "id": "E12345678",
+            "legalName": "Kementerian Kebersihan"
+          },
+          "name": "Kementerian Kebersihan",
+          "roles": [
+            "procuringEntity",
+            "buyer"
+          ],
+          "id": "ID-LAC-E12345678"
+        },
+        {
+          "identifier": {
+            "scheme": "ID-LAC",
+            "id": "1602647563",
+            "legalName": "PT ABC, Tbk"
+          },
+          "name": "PT ABC, Tbk",
+          "address": {
+            "countryName": "Indonesia"
+          },
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/a"
+        },
+        {
+          "identifier": {
+            "scheme": "ID-LAC",
+            "id": "5740394756",
+            "legalName": "PT Maju Mundur, Tbk"
+          },
+          "name": "PT Maju Mundur, Tbk",
+          "address": {
+            "countryName": "Indonesia"
+          },
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/b"
+        },
+        {
+          "identifier": {
+            "scheme": "ID-LAC",
+            "id": "5315469852",
+            "legalName": "CV Aman Sentosa"
+          },
+          "name": "CV Aman Sentosa",
+          "address": {
+            "countryName": "Indonesia"
+          },
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/c"
+        },
+        {
+          "identifier": {
+            "scheme": "ID-LAC",
+            "id": "5315469854",
+            "legalName": "CV Merah Putih"
+          },
+          "name": "CV Merah Putih",
+          "address": {
+            "countryName": "Jersey"
+          },
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/d"
+        },
+        {
+          "identifier": {
+            "scheme": "ID-LAC",
+            "id": "3264298751",
+            "legalName": "PT Sayang Ibu, Tbk\n"
+          },
+          "name": "PT Sayang Ibu, Tbk\n",
+          "contactPoint": {
+            "name": "Procurement Team",
+            "email": "procurement-team@example.com",
+            "telephone": "01234 345 346",
+            "faxNumber": "01234 345 345",
+            "url": "http://example.com/contact/"
+          },
+          "roles": [
+            "tenderer"
+          ],
+          "id": "PROC-20-0001/e"
+        }
+      ],
+      "buyer": {
+        "id": "ID-LAC-E12345678",
+        "name": "Kementerian Kebersihan"
+      },
+      "tender": {
+        "id": "PROC-20-0001",
+        "title": "Jasa kebersihan rumah",
+        "description": "Tender untuk memberikan jasa kebersihan pada lingkungan rumah",
+        "status": "active",
+        "value": {
+          "amount": 2200000000,
+          "currency": "IDR"
+        },
+        "procurementMethod": "open",
+        "procurementMethodRationale": "An open competitive tender is required by EU Rules",
+        "awardCriteria": "bestProposal",
+        "awardCriteriaDetails": "The best proposal, subject to value for money requirements, will be accepted.",
+        "submissionMethod": [
+          "electronicSubmission"
+        ],
+        "submissionMethodDetails": "Submit through the online portal at http://example.com/submissions/PROC-20-0001-01/",
+        "hasEnquiries": false,
+        "tenderPeriod": {
+          "startDate": "2020-03-01T09:00:00Z",
+          "endDate": "2020-04-01T18:00:00Z"
+        },
+        "contractPeriod": {
+          "startDate": "2020-06-01T00:00:00Z",
+          "endDate": "2021-06-01T23:59:59Z"
+        },
+        "procuringEntity": {
+          "id": "ID-LAC-E12345678",
+          "name": "Kementerian Kebersihan"
+        },
+        "numberOfTenderers": 5,
+        "tenderers": [
+          {
+            "id": "PROC-20-0001/a",
+            "name": "PT ABC, Tbk"
+          },
+          {
+            "id": "PROC-20-0001/b",
+            "name": "Frost Group Ltd"
+          },
+          {
+            "id": "PROC-20-0001/c",
+            "name": "CV Aman Sentosa"
+          },
+          {
+            "id": "PROC-20-0001/d",
+            "name": "CV Merah Putih"
+          },
+          {
+            "id": "PROC-20-0001/e",
+            "name": "PT Sayang Ibu, Tbk"
+          }
+        ],
+        "documents": [
+          {
+            "id": "0005",
+            "documentType": "notice",
+            "title": "Tender Notice",
+            "description": "Official tender notice.",
+            "url": "http://example.com/tender-notices/ocds-213czf-000-00001-01.html",
+            "datePublished": "2020-01-01T09:00:00Z",
+            "format": "text/html",
+            "language": "en"
+          }
+        ]
+      }
+    }
+  ],
+  "version": "1.1",
+  "publisher": {
+    "uid": "https://beta.companieshouse.gov.uk/company/04962733",
+    "uri": "https://openopps.com",
+    "name": "Open Opps",
+    "scheme": "Companies House"
+  },
+  "publishedDate": "2020-01-01T01:31:12.131168+00:00"
+}
